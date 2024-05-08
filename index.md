@@ -1,5 +1,10 @@
 # BlazeSnow帮助网站
 
+## 前言
+
+- [BlazeSnow的GitHub主页](https://github.com/BlazeSnow)
+- [此开源网站的仓库地址](https://github.com/BlazeSnow/blazesnow.github.io)
+
 ## Windows系统修复
 
 1. 按下```Windows徽标```+```X```
