@@ -21,7 +21,7 @@
 ## Windows系统重新安装
 
 1. 跳转至Windows下载网站
-    - https://www.microsoft.com/zh-cn/software-download
+    - [前往www.microsoft.com](https://www.microsoft.com/zh-cn/software-download)
 2. 选择```创建Windows安装```
 3. 点击```立即下载```
 4. 打开下载的```MediaCreationTool.exe```
@@ -50,8 +50,8 @@
 ## 查看Windows系统蓝屏文件
 
 1. 安装WinDBG
-    - https://learn.microsoft.com/zh-CN/windows-hardware/drivers/debugger/
-    - https://apps.microsoft.com/detail/9pgjgd53tn86
+    - [前往learn.microsoft.com](https://learn.microsoft.com/zh-CN/windows-hardware/drivers/debugger/)
+    - [前往apps.microsoft.com](https://apps.microsoft.com/detail/9pgjgd53tn86)
 2. 打开目录```C:\Windows\Minidump```
 3. 找到蓝屏文件
 4. 复制到其他位置
@@ -89,6 +89,12 @@
 | 223.5.5.5 | 223.6.6.6 |   https://dns.alidns.com/dns-query   |   dns.alidns.com   |
 |  8.8.8.8  |  8.8.4.4  |     https://dns.google/dns-query     |     dns.google     |
 |  1.1.1.1  |  1.0.0.1  | https://cloudflare-dns.com/dns-query | cloudflare-dns.com |
+
+## Ubuntu server图形化
+
+1. ```sudo apt update```
+2. ```sudo apt upgrade```
+3. ```sudo apt install ubuntu-desktop```
 
 ## 原生安卓WiFi＆时间问题
 
