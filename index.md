@@ -2,8 +2,8 @@
 
 ## 前言
 
-- [BlazeSnow的GitHub主页](https://github.com/BlazeSnow)
-- [此开源网站的仓库地址](https://github.com/BlazeSnow/blazesnow.github.io)
+- BlazeSnow的GitHub主页 <https://github.com/BlazeSnow>
+- 此开源网站的仓库地址 <https://github.com/BlazeSnow/blazesnow.github.io>
 
 ## Windows系统修复
 
@@ -20,8 +20,7 @@
 
 ## Windows系统重新安装
 
-1. 跳转至Windows下载网站
-    - [前往www.microsoft.com](https://www.microsoft.com/zh-cn/software-download)
+1. 跳转至Windows下载网站 <https://www.microsoft.com/zh-cn/software-download>
 2. 选择```创建Windows安装```
 3. 点击```立即下载```
 4. 打开下载的```MediaCreationTool.exe```
@@ -50,8 +49,8 @@
 ## 查看Windows系统蓝屏文件
 
 1. 安装WinDBG
-    - [前往learn.microsoft.com](https://learn.microsoft.com/zh-CN/windows-hardware/drivers/debugger/)
-    - [前往apps.microsoft.com](https://apps.microsoft.com/detail/9pgjgd53tn86)
+    - 微软Learn <https://learn.microsoft.com/zh-CN/windows-hardware/drivers/debugger/>
+    - 微软商店 <https://apps.microsoft.com/detail/9pgjgd53tn86>
 2. 打开目录```C:\Windows\Minidump```
 3. 找到蓝屏文件
 4. 复制到其他位置
