@@ -38,7 +38,7 @@
 3. 回车
 4. 选中```清理系统文件```以清理更多文件
 
-## Windows启动项管理
+## Windows系统配置
 
 1. 按下```Windows徽标```+```R```
 2. 输入```msconfig```
@@ -57,6 +57,38 @@
 4. 复制到其他位置
 5. 打开蓝屏文件
 6. 输入命令```!analyze -v```
+
+## DNS加密
+
+### DOH方式
+
+> DNS over HTTPS (DoH)是一种协议，它将传统的DNS查询和响应封装
+> 在HTTPS协议中进行传输。这样做可以增强隐私保护，因为DNS查询内容会被加密，
+> 外界无法轻易窥探用户的浏览行为或操纵DNS数据。DoH通常使用443端口，
+> 与常规HTTPS流量混合，使得其难以被识别和过滤。
+
+1. 首选DNS：```223.5.5.5```
+2. 备用DNS：```223.6.6.6```
+3. DNS over HTTPS：```开（手动模板）```
+4. DNS over HTTPS模板：```https://dns.alidns.com/dns-query```
+
+### DOT方式
+
+> DNS over TLS (DoT) 同样是为了提高DNS查询的安全性，
+> 它通过TLS（Transport Layer Security）协议对DNS通信进行加密。
+> 与DoH不同的是，DoT保持了DNS协议的原貌，
+> 只是在其基础上添加了TLS层进行安全传输，通常使用853端口。
+
+1. 选择```私人DNS```
+2. 输入DOT地址：```dns.alidns.com```
+
+### DNS
+
+|   DNS1    |   DNS2    |                 DOH                  |        DOT         |
+|:---------:|:---------:|:------------------------------------:|:------------------:|
+| 223.5.5.5 | 223.6.6.6 |   https://dns.alidns.com/dns-query   |   dns.alidns.com   |
+|  8.8.8.8  |  8.8.4.4  |     https://dns.google/dns-query     |     dns.google     |
+|  1.1.1.1  |  1.0.0.1  | https://cloudflare-dns.com/dns-query | cloudflare-dns.com |
 
 ## 原生安卓WiFi＆时间问题
 
