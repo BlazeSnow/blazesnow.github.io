@@ -27,10 +27,10 @@
 
 ## 查看Windows系统蓝屏文件
 
-1. 打开目录```C:\Windows\Minidump```
-2. 找到蓝屏文件
-3. 复制到其他位置
-4. 安装```WinDBG```
+1. 安装[WinDBG](https://learn.microsoft.com/zh-CN/windows-hardware/drivers/debugger/)
+2. 打开目录```C:\Windows\Minidump```
+3. 找到蓝屏文件
+4. 复制到其他位置
 5. 打开蓝屏文件
 6. 输入命令```!analyze -v```
 
