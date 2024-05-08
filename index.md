@@ -1,6 +1,6 @@
 # BlazeSnow帮助网站
 
-## 系统修复
+## Windows系统修复
 
 1. 按下```Windows徽标```+```X```
 2. 点击弹出窗口中的```终端管理员```
@@ -13,7 +13,7 @@
     sfc /scannow
     ```
 
-## 系统重新安装
+## Windows系统重新安装
 
 1. 跳转至[Windows 11下载网站](https://www.microsoft.com/zh-cn/software-download/windows11)
 2. 选择```创建Windows 11安装```
@@ -24,3 +24,25 @@
 7. 找到```Windows.iso```文件并解压缩
 8. 打开```setup.exe```
 9. 根据提示继续
+
+## 原生安卓WiFi＆时间问题
+
+### WiFi感叹号
+
+```
+//删除旧的监测点
+adb shell settings delete global captive_portal_https_url
+adb shell settings delete global captive_portal_http_url
+//添加新的监测点（小米源
+adb shell settings put global captive_portal_https_url https://connect.rom.miui.com/generate\_204
+adb shell settings put global captive_portal_http_url http://connect.rom.miui.com/generate\_204
+```
+
+### 时间同步
+
+```
+//设置中国时区
+adb shell setprop persist.sys.timezone Asia/Shanghai
+//设置NTP服务器
+adb shell settings put global ntp_server ntp1.aliyun.com
+```
