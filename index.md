@@ -2,11 +2,13 @@
 
 ## 系统修复
 
-1. DISM修复
+1. 按下```Windows徽标```+```X```
+2. 点击弹出窗口中的```终端管理员```
+3. 使用**DISM**修复：
     ```
     DISM /Online /Cleanup-image /Restorehealth
     ```
-2. sfc修复
+4. 使用**sfc**修复：
     ```
     sfc /scannow
     ```
