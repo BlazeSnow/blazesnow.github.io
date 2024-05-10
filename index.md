@@ -59,6 +59,10 @@
 
 ## Windows清理软件卸载残留
 
+### 程序安装和卸载故障排除程序
+
+前往下载<https://support.microsoft.com/help/17588/fix-problems-that-block-programs-from-being-installed-or-removed>
+
 ### 残留文件（一般情况下）
 
 1. 若软件名为```abc```
