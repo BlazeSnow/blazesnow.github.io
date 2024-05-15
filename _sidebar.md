@@ -1,4 +1,4 @@
-- [首页](/docs/home.md)
+- [首页](/home.md)
 - [Windows相关](/docs/Windows相关.md)
 - [DNS加密](/docs/DNS加密.md)
 - [Ubuntu相关](/docs/Ubuntu相关.md)
