@@ -29,6 +29,7 @@
 4. 更改文件后缀名为```.mobileconfig```
 5. 在```Apple设备```中打开此文件
 6. 在```设置```中启用此描述文件
+
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
