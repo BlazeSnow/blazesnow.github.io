@@ -1,4 +1,3 @@
-- [Github版此网站](https://blazesnow.github.io)
-- [Cloudflare版此网站](https://blazesnow.pages.dev)
-- [前往我的Github主页](https://github.com/BlazeSnow)
-- [前往我的Github仓库](https://github.com/BlazeSnow/blazesnow.github.io)
+- 此网站
+    - [Github版](https://blazesnow.github.io)
+    - [Cloudflare版](https://blazesnow.pages.dev)
