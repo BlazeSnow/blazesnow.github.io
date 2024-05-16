@@ -1,3 +1,0 @@
-- 此网站
-    - [Github版](https://blazesnow.github.io)
-    - [Cloudflare版](https://blazesnow.pages.dev)
