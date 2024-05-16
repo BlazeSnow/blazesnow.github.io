@@ -7,7 +7,7 @@
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
     <meta content="Description" name="description">
     <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0" name="viewport">
-    <link href="vue.css" rel="stylesheet">
+    <link href="lib/dolphin.css" rel="stylesheet">
     <style>
         /* 增大引用段落字体大小 */
         p {
@@ -48,11 +48,21 @@
         logo: "/logo.png",//图标
         nameLink: "/",//标题跳转
         themeColor: "#0080FF",//主题色
-        autoHeader: true,//首先加载标题
+        search: {
+            autoHeader: true,//首先加载标题
+            paths: 'auto',
+            placeholder: '搜索',
+            noData: '找不到结果',
+            depth: 6,
+            maxAge: 86400000,//过期时间
+        },
     }
 </script>
 <!-- Docsify v4 -->
-<script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+<!--script src="//cdn.jsdelivr.net/npm/docsify@4"></script-->
+<script src="/lib/docsify.js"></script>
+<!-- 搜索框 -->
+<script src="/lib/search.js"></script>
 </body>
 
 </html>
