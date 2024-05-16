@@ -22,9 +22,7 @@
 
 ## 与Windows双系统的时间差8小时
 
-1. ```sudo apt install ntpdate```
-2. ```sudo ntpdate time.windows.com```
-3. ```sudo timedatectl set-local-rtc 1 --adjust-system-clock```
+1. ```sudo timedatectl set-local-rtc 1```
 
 ## Ubuntu server图形化
 
