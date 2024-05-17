@@ -22,16 +22,23 @@
         subMaxLevel: 3,//侧边栏最大级数
         loadNavbar: false,//不显示顶栏
         auto2top: true,//切换网页自动到顶部
-        homepage: "/home.md",//自定义主页
-        logo: "/logo.png",//图标
+        homepage: "doc/home.md",//自定义主页
+        logo: "img/logo.png",//图标
         nameLink: "/",//标题跳转
         themeColor: "#0080FF",//主题色
+        notFoundPage: "doc/404.md",
+        copyCode: {
+            buttonText: '复制到剪贴板',
+            errorText: '错误',
+            successText: '复制成功',
+        },
     }
 </script>
 <!-- Docsify v4 -->
 <!--script src="//cdn.jsdelivr.net/npm/docsify@4"></script-->
 <script src="lib/docsify.js"></script>
 <script src="lib/docsify-themeable.js"></script>
+<script src="lib/docsify-copy-code.js"></script>
 </body>
 
 </html>

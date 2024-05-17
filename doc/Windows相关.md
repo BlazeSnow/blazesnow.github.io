@@ -5,17 +5,17 @@
 1. 按下```Windows徽标```+```X```
 2. 点击弹出窗口中的```终端管理员```
 3. 使用**DISM**修复：
-   ```
+   ```shell
    DISM /Online /Cleanup-image /Restorehealth
    ```
 4. 使用**sfc**修复：
-   ```
+   ```shell
    sfc /scannow
    ```
 
 ## Windows系统重新安装
 
-1. 跳转至Windows下载网站 <https://www.microsoft.com/zh-cn/software-download>
+1. 跳转至Windows下载网站：<https://www.microsoft.com/zh-cn/software-download>
 2. 选择```创建Windows安装```
 3. 点击```立即下载```
 4. 打开下载的```MediaCreationTool.exe```
@@ -28,14 +28,20 @@
 ## Windows磁盘清理
 
 1. 按下```Windows徽标```+```R```
-2. 输入```cleanmgr```
+2. 输入
+    ```shell
+    cleanmgr
+    ```
 3. 回车
 4. 选中```清理系统文件```以清理更多文件
 
 ## Windows系统配置
 
 1. 按下```Windows徽标```+```R```
-2. 输入```msconfig```
+2. 输入
+    ```shell
+	msconfig
+	```
 3. 回车
 4. **警告**：
 	- 选择```诊断启动```会导致重新启动后无法解锁系统
@@ -49,7 +55,7 @@
 
 ### 清理残留文件（一般情况下）
 
-1. 若软件名为`abc`
+1. 若软件名为```abc```
 2. 删除```C:\Program Files\abc```
 3. 删除```C:\Program Files\Common Files\abc```
 4. 删除```C:\Program Files (x86)\abc```
@@ -85,4 +91,7 @@
 3. 找到蓝屏文件
 4. 复制到其他位置
 5. 打开蓝屏文件
-6. 输入命令```!analyze -v```
+6. 输入命令
+    ```
+    !analyze -v
+    ```
