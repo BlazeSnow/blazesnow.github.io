@@ -1,6 +1,6 @@
 # Ubuntu相关
 
-## apt命令
+## apt
 
 1. 更新列表：```sudo apt update```
 2. 安装更新：```sudo apt upgrade```
@@ -12,7 +12,7 @@
 8. 清理缓存：```sudo apt autoclean```
 9. 列出可升级的包：```apt list --upgradable```
 
-## dpkg命令
+## dpkg
 
 1. 在```安装包.deb```位置打开终端
 2. ```sudo dpkg -i 安装包.deb```
@@ -20,11 +20,11 @@
 4. 查看已经安装的包的信息：```sudo dpkg -s 包名```
 5. 卸载：```sudo dpkg -r 包名```
 
-## 与Windows双系统的时间差8小时
+## 双系统的时间差8小时
 
 1. ```sudo timedatectl set-local-rtc 1```
 
-## Ubuntu server图形化
+## Server安装桌面
 
 1. ```sudo apt update```
 2. ```sudo apt upgrade```
