@@ -4,10 +4,3 @@
     /*字体间距*/
     --base-line-height: 2;
 }
-
-/* Plugin: Copy Code
-============================================================================= */
-:root {
-    --copycode-background: #808080;
-    --copycode-color: #fff;
-}
