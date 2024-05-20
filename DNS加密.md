@@ -1,6 +1,6 @@
 # DNS加密
 
-## 适用于Windows设备：DOH方式
+## Windows设备：DOH
 
 > DNS over HTTPS(DoH)是一种协议，它将传统的DNS查询和响应封装在HTTPS协议中进行传输。
 > 这样做可以增强隐私保护，因为DNS查询内容会被加密，外界无法轻易窥探用户的浏览行为或操纵DNS数据。
@@ -11,7 +11,7 @@
 3. DNS over HTTPS：```开（手动模板）```
 4. DNS over HTTPS模板：```https://dns.alidns.com/dns-query```
 
-## 适用于Android设备：DOT方式
+## Android设备：DOT
 
 > DNS over TLS(DoT)同样是为了提高DNS查询的安全性，
 > 它通过TLS（Transport Layer Security）协议对DNS通信进行加密。
@@ -20,13 +20,13 @@
 1. 选择```私人DNS```
 2. 输入DOT地址：```dns.alidns.com```
 
-## 适用于Apple设备：DOT方式
+## Apple设备：DOT
 
 > ```alibaba-tls.mobileconfig```
 > 文件来源于：<https://github.com/paulmillr/encrypted-dns>
 
 1. 单击下载```alibaba-tls.mobileconfig```：
-    - <a href="alibaba-tls.mobileconfig" target="_blank">下载</a>
+	- <a href="alibaba-tls.mobileconfig" target="_blank">下载已签名的描述文件</a>
 2. 在```Apple设备```中打开此文件
 3. 在```设置```中启用此描述文件
 
