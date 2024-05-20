@@ -1,6 +1,6 @@
 # Windows相关
 
-## Windows系统修复
+## 系统修复
 
 1. 按下```Windows徽标```+```X```
 2. 点击弹出窗口中的```终端管理员```
@@ -13,7 +13,7 @@
    sfc /scannow
    ```
 
-## Windows系统重新安装
+## 系统重新安装
 
 1. 跳转至Windows下载网站：<https://www.microsoft.com/zh-cn/software-download>
 2. 选择```创建Windows安装```
@@ -25,7 +25,7 @@
 8. 打开```setup.exe```
 9. 根据提示继续
 
-## Windows磁盘清理
+## 磁盘清理
 
 1. 按下```Windows徽标```+```R```
 2. 输入
@@ -35,7 +35,7 @@
 3. 回车
 4. 选中```清理系统文件```以清理更多文件
 
-## Windows系统配置
+## 系统配置
 
 1. 按下```Windows徽标```+```R```
 2. 输入
@@ -47,7 +47,7 @@
 	- 选择```诊断启动```会导致重新启动后无法解锁系统
 	- 关闭```Microsoft相关启动项```会导致不可预知的问题
 
-## Windows清理软件卸载残留
+## 清理软件卸载残留
 
 ### 程序安装和卸载故障排除程序
 
@@ -71,7 +71,7 @@
 		- ```LocalLow\abc```
 		- ```Roaming\abc```
 
-### Windows清理残留注册表（一般情况下）
+### 清理残留注册表（一般情况下）
 
 1. 若软件名为```abc```
 2. 按下```Windows徽标```+```R```
@@ -82,7 +82,7 @@
 	- 对注册表的随意修改会导致不可预知的问题
 	- 请勿随意修改
 
-## 查看Windows系统蓝屏文件
+## 查看蓝屏文件
 
 1. 安装WinDBG
 	- 微软Learn：<https://learn.microsoft.com/zh-CN/windows-hardware/drivers/debugger>
