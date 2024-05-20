@@ -1,5 +1,9 @@
 # DNS加密
 
+> DNS是Domain Name System（域名系统）的缩写，它是互联网上一个至关重要的组件，
+> 负责将人类易于记忆和使用的域名（比如```www.example.com```）
+> 转换为计算机可以识别和连接的IP地址（如```192.0.2.1```）。这一过程称为域名解析。
+
 ## Windows设备：DOH
 
 > DNS over HTTPS(DoH)是一种协议，它将传统的DNS查询和响应封装在HTTPS协议中进行传输。
@@ -26,8 +30,8 @@
 > 文件来源于：<https://github.com/paulmillr/encrypted-dns>
 
 1. 单击下载```alibaba-tls.mobileconfig```：
-	- <a href="alibaba-tls.mobileconfig" target="_blank">下载已签名的描述文件</a>
-	- 或前往原仓库下载：<https://github.com/paulmillr/encrypted-dns/raw/master/signed/alibaba-tls.mobileconfig>
+    - <a href="alibaba-tls.mobileconfig" target="_blank">下载已签名的描述文件</a>
+    - 或前往原仓库下载：<https://github.com/paulmillr/encrypted-dns/raw/master/signed/alibaba-tls.mobileconfig>
 2. 在```Apple设备```中打开此文件
 3. 在```设置```中启用此描述文件
 
