@@ -34,16 +34,18 @@
         nameLink: "/",//标题跳转
         themeColor: "#0080FF",//主题色
         notFoundPage: "404.md",
-        copyCode: {
-            buttonText: '复制到剪贴板',
-            errorText: '错误',
-            successText: '复制成功',
-        },
         pagination: {
             previousText: '上一篇',
             nextText: '下一篇',
             crossChapter: true,
             crossChapterText: true,
+        },
+        scrollToTop: {
+            auto: true,
+            text: '🚀',
+            right: 15,
+            bottom: 15,
+            offset: 500
         },
     }
 </script>
@@ -52,6 +54,7 @@
 <script src="lib/docsify.js"></script>
 <script src="lib/docsify-themeable.js"></script>
 <script src="lib/docsify-pagination.js"></script>
+<script src="lib/docsify-scroll-to-top.min.js"></script>
 </body>
 
 </html>
