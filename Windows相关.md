@@ -4,18 +4,12 @@
 
 1. 按下```Windows徽标```+```X```
 2. 点击弹出窗口中的```终端管理员```
-3. 使用**DISM**修复：
-   ```shell
-   DISM /Online /Cleanup-image /Restorehealth
-   ```
-4. 使用**sfc**修复：
-   ```shell
-   sfc /scannow
-   ```
+3. 使用**DISM**修复：```DISM /Online /Cleanup-image /Restorehealth```
+4. 使用**sfc**修复：```sfc /scannow```
 
 ## 系统重新安装
 
-1. 跳转至Windows下载网站：<https://www.microsoft.com/zh-cn/software-download>
+1. 跳转至Windows下载网站：<https://www.microsoft.com/zh-cn/software-download/windows11>
 2. 选择```创建Windows安装```
 3. 点击```立即下载```
 4. 打开下载的```MediaCreationTool.exe```
@@ -25,23 +19,33 @@
 8. 打开```setup.exe```
 9. 根据提示继续
 
+## 安装C++运行库
+
+1. 打开：<https://learn.microsoft.com/zh-cn/cpp/windows/latest-supported-vc-redist>
+2. 根据文章指引下载版本
+    - ```最新的 Microsoft Visual C++ 可再发行程序包版本```
+    - ```Visual Studio 2013 (VC++ 12.0)```
+    - ```Visual Studio 2012 (VC++ 11.0) Update 4```
+    - ```Visual Studio 2010 (VC++ 10.0) SP1```
+    - ```Visual Studio 2008 (VC++ 9.0) SP1```
+    - ```Visual Studio 2005 (VC++ 8.0) SP1```
+3. ```x64系统```需安装```x86```和```x64```双版本
+
+## 安装.NET
+
+打开：<https://dotnet.microsoft.com/zh-cn/download/dotnet>
+
 ## 磁盘清理
 
 1. 按下```Windows徽标```+```R```
-2. 输入
-    ```shell
-    cleanmgr
-    ```
+2. 输入```cleanmgr```
 3. 回车
 4. 选中```清理系统文件```以清理更多文件
 
 ## 系统配置
 
 1. 按下```Windows徽标```+```R```
-2. 输入
-    ```shell
-	msconfig
-	```
+2. 输入```msconfig```
 3. 回车
 4. **警告**：
     - 选择```诊断启动```会导致重新启动后无法解锁系统
@@ -91,7 +95,4 @@
 3. 找到蓝屏文件
 4. 复制到其他位置
 5. 打开蓝屏文件
-6. 输入命令
-    ```
-    !analyze -v
-    ```
+6. 输入：```!analyze -v```
