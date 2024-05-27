@@ -1,0 +1,10 @@
+:root {
+    /*字体大小*/
+    --base-font-size: 18px;
+    /*字体间距*/
+    --base-line-height: 2;
+    /*主题色*/
+    --theme-color: #0080FF;
+    /*链接的颜色*/
+    --link-color: #1c6eda;
+}
