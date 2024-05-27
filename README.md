@@ -1,11 +1,33 @@
 # BlazeSnow帮助网站
 
-1. 使用左侧目录选择想看的内容
-2. 宽屏网页直接显示了目录
-3. 窄屏网页请单击左上角按钮
-4. 此网站有四个地址：
-    - ```com```域名：<https://www.blazesnow.com>
-    - ```org```域名：<https://www.blazesnow.org>
-    - ```GitHub Pages```：<https://blazesnow.github.io>
-    - ```Cloudflare Pages```：<https://blazesnow.pages.dev>
-5. 此开源网站的仓库地址：<https://github.com/BlazeSnow/blazesnow.github.io>
+## 前言
+
+1. 使用```左侧目录```选择想看的内容
+2. ```宽屏```网页直接显示了目录
+3. ```窄屏```网页请单击```左上角按钮```
+
+## 此网站相关网址
+
+<!-- tabs:start -->
+
+### **com域名**
+
+<https://www.blazesnow.com>
+
+### **org域名**
+
+<https://www.blazesnow.org>
+
+### **GitHub页面**
+
+<https://blazesnow.github.io>
+
+### **Cloudflare页面**
+
+<https://blazesnow.pages.dev>
+
+### **仓库地址**
+
+<https://github.com/BlazeSnow/blazesnow.github.io>
+
+<!-- tabs:end -->
