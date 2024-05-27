@@ -1,45 +1,39 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh">
 
 <head>
     <meta charset="UTF-8">
     <title>BlazeSnow帮助网站</title>
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
-    <meta content="Description" name="description">
+    <meta content="BlazeSnow帮助网站" name="description">
     <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0" name="viewport">
     <link href="lib/theme-simple.css" media="(prefers-color-scheme: light)" rel="stylesheet">
     <link href="lib/theme-simple-dark.css" media="(prefers-color-scheme: dark)" rel="stylesheet">
     <link href="logo/logo.ico" rel="shortcut icon">
-    <style>
-        :root {
-            /*字体大小*/
-            --base-font-size: 18px;
-            /*字体间距*/
-            --base-line-height: 2;
-        }
-    </style>
+    <link href="theme-custom.css" rel="stylesheet">
 </head>
 
 <body>
 <div id="app"></div>
 <script>
     window.$docsify = {
-        name: 'BlazeSnow帮助网站',
-        repo: 'https://github.com/BlazeSnow',
+        name: 'BlazeSnow帮助网站',//页面标题
+        repo: 'https://github.com/BlazeSnow',//右上角仓库地址
         loadSidebar: "sidebar.md",//显示侧边栏
         subMaxLevel: 2,//侧边栏最大级数
         auto2top: true,//切换网页自动到顶部
         homepage: "README.md",//自定义主页
         logo: "logo/logo.png",//图标
         nameLink: "/",//标题跳转
-        themeColor: "#0080FF",//主题色
-        notFoundPage: "404.md",
+        notFoundPage: "404.md",//找不到页面时404
+        //翻页插件
         pagination: {
             previousText: '上一篇',
             nextText: '下一篇',
             crossChapter: true,
             crossChapterText: true,
         },
+        //到顶按钮插件
         scrollToTop: {
             auto: true,
             text: '🚀',
@@ -47,6 +41,14 @@
             bottom: 15,
             offset: 500
         },
+        //tab横向显示标题
+        tabs: {
+            persist: true, // default
+            sync: true, // default
+            theme: 'classic', // default
+            tabComments: true, // default
+            tabHeadings: true // default
+        }
     }
 </script>
 <!-- Docsify v4 -->
@@ -55,6 +57,7 @@
 <script src="lib/docsify-themeable.js"></script>
 <script src="lib/docsify-pagination.js"></script>
 <script src="lib/docsify-scroll-to-top.min.js"></script>
+<script src="lib/docsify-tabs.js"></script>
 </body>
 
 </html>
