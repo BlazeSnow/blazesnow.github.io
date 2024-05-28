@@ -1,0 +1,11 @@
+# 系统重新安装
+
+1. 跳转至Windows下载网站：<https://www.microsoft.com/zh-cn/software-download/windows11>
+2. 选择```创建Windows安装```
+3. 点击```立即下载```
+4. 打开下载的```MediaCreationTool.exe```
+5. 选择```ISO文件```
+6. 选中保存位置并等待下载
+7. 找到```Windows.iso```文件并解压缩
+8. 打开```setup.exe```
+9. 根据提示继续
