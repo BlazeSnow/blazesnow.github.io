@@ -5,7 +5,7 @@
 - 提示：窄屏的目录在左上角
 
 [首页](/README.md)
-[Windows相关](Windows相关)
+[Windows相关](1)
 [DNS加密](DNS加密)
 [Nodejs相关](Nodejs相关)
 [Ubuntu相关](Ubuntu相关)
