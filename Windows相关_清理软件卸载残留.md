@@ -12,15 +12,15 @@
 4. 删除```C:\Program Files (x86)\abc```
 5. 删除```C:\Program Files (x86)\Common Files\abc```
 6. 删除```C:\ProgramData\abc```
-    - 按下```Windows徽标```+```R```
-    - 输入```%programdata%```
+	- 按下```Windows徽标```+```R```
+	- 输入```%programdata%```
 7. 删除```AppData```中的```abc```
-    - 按下```Windows徽标```+```R```
-    - 输入```%appdata%```
-    - 删除
-        - ```Local\abc```
-        - ```LocalLow\abc```
-        - ```Roaming\abc```
+	- 按下```Windows徽标```+```R```
+	- 输入```%appdata%```
+	- 删除
+		- ```Local\abc```
+		- ```LocalLow\abc```
+		- ```Roaming\abc```
 
 ## 清理残留注册表（一般情况下）
 
@@ -30,8 +30,8 @@
 4. 删除```HKEY_LOCAL_MACHINE\SOFTWARE\abc```
 5. 删除```HKEY_CURRENT_USER\SOFTWARE\abc```
 6. **警告**：
-    - 对注册表的随意修改会导致不可预知的问题
-    - 请勿随意修改
+	- 对注册表的随意修改会导致不可预知的问题
+	- 请勿随意修改
 
 ## 若软件仍存在于Windows设置的程序列表中
 
