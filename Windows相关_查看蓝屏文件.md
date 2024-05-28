@@ -1,8 +1,8 @@
 # 查看蓝屏文件
 
 1. 安装WinDBG
-    - 微软Learn：<https://learn.microsoft.com/zh-CN/windows-hardware/drivers/debugger>
-    - 微软商店：<https://apps.microsoft.com/detail/9pgjgd53tn86>
+	- 微软Learn：<https://learn.microsoft.com/zh-CN/windows-hardware/drivers/debugger>
+	- 微软商店：<https://apps.microsoft.com/detail/9pgjgd53tn86>
 2. 打开目录```C:\Windows\Minidump```
 3. 找到蓝屏文件
 4. 复制到其他位置
