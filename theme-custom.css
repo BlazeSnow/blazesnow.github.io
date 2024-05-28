@@ -8,3 +8,11 @@
     /*链接的颜色*/
     --link-color: #1c6eda;
 }
+
+code a pre {
+    width: 100%;
+    height: auto;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+}
