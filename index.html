@@ -21,8 +21,14 @@
         name: "BlazeSnow帮助网站",
         //右上角仓库地址
         repo: '',
+        //基础路径
+        basePath: '/',
+        //启用相对路径
+        relativePath: false,
         //显示顶栏
-        loadNavbar: true,
+        loadNavbar: false,
+        //在小页面上合并顶栏和侧边栏
+        mergeNavbar: false,
         //显示侧边栏
         loadSidebar: true,
         //侧边栏最大级数
@@ -36,11 +42,18 @@
         //标题跳转
         nameLink: '/',
         //找不到页面时404
-        notFoundPage: '404.md',
+        notFoundPage: true,
         //封面
         coverpage: true,
         //封面禁止向下进入首页
         onlyCover: true,
+        //docsify-themeable选项
+        themeable: {
+            //显示加载转圈
+            readyTransition: true,
+            //表格横向改纵向
+            responsiveTables: true,
+        },
         //翻页插件
         pagination: {
             previousText: '上一篇',
