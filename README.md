@@ -26,6 +26,10 @@
 
 <https://blazesnow.pages.dev>
 
+### **个人主页**
+
+<https://github.com/BlazeSnow>
+
 ### **仓库地址**
 
 <https://github.com/BlazeSnow/blazesnow.github.io>
