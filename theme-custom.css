@@ -15,7 +15,7 @@
 }
 
 /*单行代码块强制换行*/
-.markdown-section code:not([class*=lang-]):not([class*=language-]){
+.markdown-section code:not([class*=lang-]):not([class*=language-]) {
     word-wrap: break-word;
     word-break: break-all;
     white-space: normal;
