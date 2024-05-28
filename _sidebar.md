@@ -2,8 +2,8 @@
     - [BlazeSnow帮助网站](/)
     - [更新日志](/CHANGELOG)
 - Windows相关
-    - [系统修复](/Windows相关/Windows相关_系统修复.md)
-    - [系统重新安装](/Windows相关/Windows相关_系统重新安装.md)
+    - [系统修复](/Windows相关_系统修复.md)
+    - [系统重新安装](/Windows相关_系统重新安装.md)
     - [安装C++运行库](/Windows相关_安装C++运行库.md)
     - [安装.NET](/Windows相关_安装.NET.md)
     - [磁盘清理](/Windows相关_磁盘清理.md)
