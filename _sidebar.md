@@ -1,5 +1,7 @@
-- [BlazeSnow帮助网站](/)
-- [Windows相关](/Windows相关)
+- 网站相关
+    - [BlazeSnow帮助网站](/)
+    - [更新日志](/CHANGELOG)
+- Windows相关
     - [系统修复](/Windows相关_系统修复.md)
     - [系统重新安装](/Windows相关_系统重新安装.md)
     - [安装C++运行库](/Windows相关_安装C++运行库.md)
@@ -8,25 +10,24 @@
     - [系统配置](/Windows相关_系统配置.md)
     - [清理软件卸载残留](/Windows相关_清理软件卸载残留.md)
     - [查看蓝屏文件](/Windows相关_查看蓝屏文件.md)
-- [DNS加密](/NS加密)
+- DNS加密
     - [Windows设备：DOH](/DNS加密_Windows设备：DOH.md)
     - [Android设备：DOT](/DNS加密_Android设备：DOT.md)
     - [Apple设备：DOT](/DNS加密_Apple设备：DOT.md)
     - [DNS大全](/DNS加密_DNS大全.md)
-- [Nodejs相关](/Nodejs相关)
+- Nodejs相关
     - [安装Nodejs](/Nodejs相关_安装Nodejs.md)
     - [NCU](/Nodejs相关_NCU.md)
-- [Ubuntu相关](/Ubuntu相关)
+- Ubuntu相关
     - [安装Ubuntu](/Ubuntu相关_安装Ubuntu.md)
     - [apt](/Ubuntu相关_apt.md)
     - [dpkg](/Ubuntu相关_dpkg.md)
     - [双系统的时间差8小时](/Ubuntu相关_双系统的时间差8小时.md)
     - [Server安装桌面](/Ubuntu相关_Server安装桌面.md)
-- [原生安卓](/原生安卓)
+- 原生安卓
     - [WiFi感叹号](/原生安卓_WiFi感叹号.md)
     - [时间同步](/原生安卓_时间同步.md)
-- [更新日志](/CHANGELOG)
-- [此网站是如何建成的](/此网站是如何建成的)
+- 此网站是如何建成的
     1. [安装node.js](/此网站是如何建成的_安装node.js.md)
     2. [安装Docsify](/此网站是如何建成的_安装Docsify.md)
     3. [开始建网站](/此网站是如何建成的_开始建网站.md)
