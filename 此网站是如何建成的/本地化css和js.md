@@ -3,6 +3,7 @@
 ## 下载docsify包
 
 ### 从```jsdelivr cdn```下载
+
 1. 打开：<https://www.jsdelivr.com/package/npm/docsify>
 2. 单击下载按钮，下载整个仓库打包的```tgz```包
 
