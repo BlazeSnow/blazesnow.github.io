@@ -1,4 +1,4 @@
-![logo](../logo/logo.ico)
+![logo](../logo/logo.png)
 
 # **BlazeSnow帮助网站**
 
