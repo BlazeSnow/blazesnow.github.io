@@ -1,4 +1,4 @@
-## dpkg
+# dpkg
 
 1. 在```安装包.deb```位置打开终端
 2. ```sudo dpkg -i 安装包.deb```
