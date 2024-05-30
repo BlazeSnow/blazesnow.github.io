@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+import {defineConfig} from 'vitepress'
 
 export default defineConfig({
     lang: 'zh-CN',//网页语言
@@ -19,7 +19,7 @@ export default defineConfig({
             prev: '上一篇',
             next: '下一篇'
         },
-        logo: "/logo/logo.ico",
+        logo: "/logo/logo.svg",
         socialLinks: [
             {icon: 'github', link: 'https://github.com/blazesnow'},
         ],
