@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as n,a3 as r}from"./chunks/framework.D5qxx6u8.js";const x=JSON.parse('{"title":"DNS大全","description":"","frontmatter":{},"headers":[],"relativePath":"DNS加密/DNS大全.md","filePath":"DNS加密/DNS大全.md"}'),d={name:"DNS加密/DNS大全.md"},l=r("",2),a=[l];function s(c,o,i,g,h,y){return n(),e("div",null,a)}const p=t(d,[["render",s]]);export{x as __pageData,p as default};
