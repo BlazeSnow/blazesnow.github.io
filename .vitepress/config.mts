@@ -1,6 +1,6 @@
 import {defineConfig} from 'vitepress'
 
-export default defineConfig({
+export default {
     lang: 'zh-CN',//网页语言
     title: "BlazeSnow帮助网站",//网页标题
     description: "BlazeSnow帮助网站",//网页描述
@@ -19,7 +19,7 @@ export default defineConfig({
             prev: '上一篇',
             next: '下一篇'
         },
-        logo: "/logo/logo.svg",
+        logo: "/logo.svg",
         socialLinks: [
             {icon: 'github', link: 'https://github.com/blazesnow'},
         ],
@@ -101,4 +101,4 @@ export default defineConfig({
             },
         ],
     }
-})
+}
