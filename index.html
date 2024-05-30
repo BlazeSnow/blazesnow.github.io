@@ -34,6 +34,11 @@
             white-space: normal;
             overflow: auto;
         }
+
+        h1, h2, h3, h4, h5, h6 {
+            cursor: default; /* 改变鼠标指针形状，使其看起来不像链接 */
+            pointer-events: none; /* 禁用鼠标事件，如点击 */
+        }
     </style>
 </head>
 
@@ -50,15 +55,19 @@
         //启用相对路径
         relativePath: false,
         //显示顶栏
-        loadNavbar: false,
+        loadNavbar: '../_navbar.md',
         //在小页面上合并顶栏和侧边栏
-        mergeNavbar: false,
+        mergeNavbar: true,
         //显示侧边栏
         loadSidebar: '../_sidebar.md',
+        //隐藏侧边栏
+        hideSidebar: false,
         //侧边栏最大级数
-        subMaxLevel: 1,
+        subMaxLevel: 0,
+        //顶级目录默认展开
+        //sidebarDisplayLevel: 0,
         //切换网页自动到顶部
-        auto2top: false,
+        auto2top: true,
         //自定义主页
         homepage: '../README.md',
         //图标
@@ -77,13 +86,6 @@
             readyTransition: true,
             //表格横向改纵向
             responsiveTables: true,
-        },
-        //翻页插件
-        pagination: {
-            previousText: '上一篇',
-            nextText: '下一篇',
-            crossChapter: true,
-            crossChapterText: true,
         },
         //到顶按钮插件
         scrollToTop: {
@@ -107,7 +109,6 @@
 <!--script src="//cdn.jsdelivr.net/npm/docsify@4"></script-->
 <script src="lib/docsify.js"></script>
 <script src="lib/docsify-themeable.js"></script>
-<script src="lib/docsify-pagination.js"></script>
 <script src="lib/docsify-scroll-to-top.min.js"></script>
 <script src="lib/docsify-tabs.js"></script>
 </body>
