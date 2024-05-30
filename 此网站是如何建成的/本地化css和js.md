@@ -1,18 +1,18 @@
-# 本地化css和js
+## 本地化css和js
 
-## 下载docsify包
+### 下载docsify包
 
-### 从```jsdelivr cdn```下载
+#### 从```jsdelivr cdn```下载
 
 1. 打开：<https://www.jsdelivr.com/package/npm/docsify>
 2. 单击下载按钮，下载整个仓库打包的```tgz```包
 
-### 从我的GitHub仓库下载
+#### 从我的GitHub仓库下载
 
 1. 打开：<https://github.com/BlazeSnow/blazesnow.github.io/tree/main/lib>
 2. 下载```vue.css```、```docsify.js```和```docsify.min.js```
 
-## 本地化css
+### 本地化css
 
 1. 解压得到的```tgz```包
 2. 在```theme```文件夹中找到```vue.css```
@@ -21,7 +21,7 @@
 5. 找到```<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">```
 6. 修改为```<link rel="stylesheet" href="vue.css">```
 
-## 本地化js
+### 本地化js
 
 1. 解压得到的```tgz```包
 2. 在```lib```文件夹中找到```docsify.js```和```docsify.min.js```
