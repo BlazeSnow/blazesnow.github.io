@@ -1,9 +1,9 @@
-# 填充index
+## 填充index
 
 1. 用编辑器打开```index.html```
 2. 填入以下内容
 
-## 内容
+### 内容
 
 ```html
 <!DOCTYPE html>
@@ -30,7 +30,7 @@
 </html>
 ```
 
-## 内容介绍
+### 内容介绍
 
 1. ```<html lang="en">```：网站语言，建议改为中文```zh```
 2. ```<meta charset="UTF-8">```：采用UTF-8编码，不需要更改

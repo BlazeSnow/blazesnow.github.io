@@ -1,4 +1,4 @@
-# Apple设备：DOT
+## Apple设备：DOT
 
 > ```alibaba-tls.mobileconfig```
 > 文件来源于：<https://github.com/paulmillr/encrypted-dns>
