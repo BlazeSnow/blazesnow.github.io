@@ -1,8 +1,6 @@
-# BlazeSnow帮助网站
+# 开始
 
-## 目录 <!-- {docsify-ignore} -->
-
-<!-- tabs:start -->
+## 目录
 
 ### **宽屏设备**
 
@@ -10,13 +8,9 @@
 
 ### **窄屏设备**
 
-请单击```左上角按钮``` ```☰```以显示目录
+请单击```左上角按钮``` ```☰目录```以显示目录
 
-<!-- tabs:end -->
-
-## 此网站相关网址 <!-- {docsify-ignore} -->
-
-<!-- tabs:start -->
+## 此网站相关网址
 
 ### **com域名**
 
@@ -41,5 +35,3 @@
 ### **仓库地址**
 
 <https://github.com/BlazeSnow/blazesnow.github.io>
-
-<!-- tabs:end -->

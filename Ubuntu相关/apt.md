@@ -1,4 +1,4 @@
-## apt
+# apt
 
 1. 更新列表：```sudo apt update```
 2. 安装更新：```sudo apt upgrade```
