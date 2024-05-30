@@ -1,0 +1,1 @@
+import{_ as e,c as d,o,a3 as t}from"./chunks/framework.D5qxx6u8.js";const g=JSON.parse('{"title":"dpkg","description":"","frontmatter":{},"headers":[],"relativePath":"Ubuntu相关/dpkg.md","filePath":"Ubuntu相关/dpkg.md"}'),a={name:"Ubuntu相关/dpkg.md"},c=t("",2),i=[c];function s(_,l,r,n,p,k){return o(),d("div",null,i)}const h=e(a,[["render",s]]);export{g as __pageData,h as default};

@@ -1,0 +1,1 @@
+import{_ as e,c as o,o as a,a3 as c}from"./chunks/framework.D5qxx6u8.js";const p=JSON.parse('{"title":"NCU","description":"","frontmatter":{},"headers":[],"relativePath":"Nodejs相关/NCU.md","filePath":"Nodejs相关/NCU.md"}'),d={name:"Nodejs相关/NCU.md"},i=c("",7),l=[i];function t(n,r,s,h,_,u){return a(),o("div",null,l)}const N=e(d,[["render",t]]);export{p as __pageData,N as default};
