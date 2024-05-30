@@ -1,13 +1,15 @@
 import {defineConfig} from 'vitepress'
 
 export default {
+    base: '/',
     lang: 'zh-CN',//网页语言
     title: "BlazeSnow帮助网站",//网页标题
     description: "BlazeSnow帮助网站",//网页描述
-    head: [['link', {rel: 'icon', href: '/logo/logo.ico'}]],//网页logo
+    head: [['link', {rel: 'icon', href: '/logo.ico'}]],//网页logo
     metaChunk: true,//用JavaScript块加载界面，减少带宽
     appearance: true,//默认主题将由用户的首选配色方案决定
     themeConfig: {
+        logo: '/logo.png',
         aside: false,//将此值设置为left将在页面左侧渲染
         darkModeSwitchLabel: "切换深色或浅色模式",
         lightModeSwitchTitle: "切换至浅色模式",
@@ -19,7 +21,6 @@ export default {
             prev: '上一篇',
             next: '下一篇'
         },
-        logo: "/logo.svg",
         socialLinks: [
             {icon: 'github', link: 'https://github.com/blazesnow'},
         ],
