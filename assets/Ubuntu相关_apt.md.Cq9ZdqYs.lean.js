@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a,a3 as o}from"./chunks/framework.D5qxx6u8.js";const m=JSON.parse('{"title":"apt","description":"","frontmatter":{},"headers":[],"relativePath":"Ubuntu相关/apt.md","filePath":"Ubuntu相关/apt.md"}'),d={name:"Ubuntu相关/apt.md"},c=o("",2),l=[c];function i(s,p,r,_,n,u){return a(),t("div",null,l)}const f=e(d,[["render",i]]);export{m as __pageData,f as default};
