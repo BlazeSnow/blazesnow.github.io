@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a,a3 as o}from"./chunks/framework.D5qxx6u8.js";const f=JSON.parse('{"title":"时间同步","description":"","frontmatter":{},"headers":[],"relativePath":"原生安卓/时间同步.md","filePath":"原生安卓/时间同步.md"}'),s={name:"原生安卓/时间同步.md"},i=o("",2),_=[i];function c(l,r,d,n,p,h){return a(),t("div",null,_)}const u=e(s,[["render",c]]);export{f as __pageData,u as default};

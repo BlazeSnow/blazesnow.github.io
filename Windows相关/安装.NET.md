@@ -1,0 +1,3 @@
+# 安装.NET
+
+打开：<https://dotnet.microsoft.com/zh-cn/download/dotnet>
