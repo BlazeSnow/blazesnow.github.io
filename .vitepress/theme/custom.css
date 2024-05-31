@@ -1,0 +1,14 @@
+:root {
+    --vp-c-brand-1: #0080FF;
+    --vp-c-brand-2: #0080FF;
+    --vp-c-brand-3: #0080FF;
+    --vp-c-brand-soft: #0080FF;
+
+    --vp-home-hero-name-color: #0080FF;
+}
+
+html, body {
+    line-height: 1.6;
+    font-size: 20px;
+    -webkit-text-size-adjust: 100%;
+}
