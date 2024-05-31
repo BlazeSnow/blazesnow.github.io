@@ -1,1 +1,0 @@
-import{_ as a,c as e,o as t,a3 as o}from"./chunks/framework.D5qxx6u8.js";const u=JSON.parse('{"title":"DNS加密","description":"","frontmatter":{},"headers":[],"relativePath":"DNS加密/README.md","filePath":"DNS加密/README.md"}'),r={name:"DNS加密/README.md"},n=o("",9),d=[n];function i(s,l,h,c,D,p){return t(),e("div",null,d)}const S=a(r,[["render",i]]);export{u as __pageData,S as default};
