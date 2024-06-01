@@ -1,8 +1,8 @@
 import {defineConfigWithTheme} from 'vitepress'
-import type {ThemeConfig} from '.vitepress/theme/index.js'
+import {ThemeConfig} from '/.vitepress/theme/index.js'
 
 export default defineConfigWithTheme<ThemeConfig>({
-    lang: 'zh-CN',//网页语言
+    lang: 'zh',//网页语言
     title: 'BlazeSnow帮助网站',//网页标题
     description: 'BlazeSnow帮助网站',//网页描述
     head: [['link', {rel: 'icon', href: '/logo.ico'}]],//网页logo
@@ -23,7 +23,40 @@ export default defineConfigWithTheme<ThemeConfig>({
         },
         socialLinks: [{icon: 'github', link: 'https://github.com/blazesnow'},],
         search: {
-            provider: 'local'
+            provider: 'local', options: {
+                locales: {
+                    root: {
+                        placeholder: '搜索文档', translations: {
+                            button: {
+                                buttonText: '搜索文档', buttonAriaLabel: '搜索文档'
+                            }, modal: {
+                                searchBox: {
+                                    resetButtonTitle: '清除查询条件',
+                                    resetButtonAriaLabel: '清除查询条件',
+                                    cancelButtonText: '取消',
+                                    cancelButtonAriaLabel: '取消'
+                                }, startScreen: {
+                                    recentSearchesTitle: '搜索历史',
+                                    noRecentSearchesText: '没有搜索历史',
+                                    saveRecentSearchButtonTitle: '保存至搜索历史',
+                                    removeRecentSearchButtonTitle: '从搜索历史中移除',
+                                    favoriteSearchesTitle: '收藏',
+                                    removeFavoriteSearchButtonTitle: '从收藏中移除'
+                                }, errorScreen: {
+                                    titleText: '无法获取结果', helpText: '你可能需要检查你的网络连接'
+                                }, footer: {
+                                    selectText: '选择', navigateText: '切换', closeText: '关闭', searchByText: '搜索提供者'
+                                }, noResultsScreen: {
+                                    noResultsText: '无法找到相关结果',
+                                    suggestedQueryText: '你可以尝试查询',
+                                    reportMissingResultsText: '你认为该查询应该有结果？',
+                                    reportMissingResultsLinkText: '点击反馈'
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         },
         nav: [{text: '主页', link: '/'},],
         sidebar: [{text: '开始', link: '/README'}, {text: '更新日志', link: '/CHANGELOG'}, {
@@ -39,15 +72,19 @@ export default defineConfigWithTheme<ThemeConfig>({
         }, {
             text: 'DNS加密', collapsed: true, items: [{text: 'Windows设备：DOH', link: '/DNS加密/Windows设备：DOH'}, {
                 text: 'Android设备：DOT', link: '/DNS加密/Android设备：DOT'
-            }, {text: 'Apple设备：DOT', link: '/DNS加密/Apple设备：DOT'}, {text: 'DNS大全', link: '/DNS加密/DNS大全'},]
+            }, {text: 'Apple设备：DOT', link: '/DNS加密/Apple设备：DOT'}, {
+                text: 'DNS大全', link: '/DNS加密/DNS大全'
+            },]
         }, {
             text: 'Nodejs相关', collapsed: true, items: [{text: '安装Nodejs', link: '/Nodejs相关/安装Nodejs'}, {
+                text: '安装和卸载包', link: '/Nodejs相关/安装和卸载包'
+            }, {
                 text: 'NCU', link: '/Nodejs相关/NCU'
-            }, {text: '安装和卸载包', link: '/Nodejs相关/安装和卸载包'},]
+            },]
         }, {
-            text: 'Docsify建站教程',
-            collapsed: true,
-            items: [{text: '安装Nodejs', link: '/Docsify建站教程/安装Nodejs'}, {
+            text: 'Docsify建站教程', collapsed: true, items: [{text: '前言', link: '/Docsify建站教程/'}, {
+                text: '安装Nodejs', link: '/Docsify建站教程/安装Nodejs'
+            }, {
                 text: '安装Docsify', link: '/Docsify建站教程/安装Docsify'
             }, {text: '开始建网站', link: '/Docsify建站教程/开始建网站'}, {
                 text: '填充index', link: '/Docsify建站教程/填充index'
@@ -57,15 +94,13 @@ export default defineConfigWithTheme<ThemeConfig>({
                 text: '进阶操作', link: '/Docsify建站教程/进阶操作'
             },]
         }, {
-            text: 'vitepress建站教程',
+            text: 'VitePress建站教程',
             collapsed: true,
-            items: [{text: '安装环境', link: '/vitepress建站教程/安装环境'}, {
-                text: '新建文件',
-                link: '/vitepress建站教程/新建文件'
-            }, {text: '运行网站', link: '/vitepress建站教程/运行网站'}, {
-                text: '发布网站',
-                link: '/vitepress建站教程/发布网站'
-            }, {text: '进阶操作', link: '/vitepress建站教程/进阶操作'},]
+            items: [{text: '安装环境', link: '/VitePress建站教程/安装环境'}, {
+                text: '添加文件', link: '/VitePress建站教程/添加文件'
+            }, {text: '运行网站', link: '/VitePress建站教程/运行网站'}, {
+                text: '发布网站', link: '/VitePress建站教程/发布网站'
+            }, {text: '进阶操作', link: '/VitePress建站教程/进阶操作'},]
         }, {
             text: 'Ubuntu相关', collapsed: true, items: [{text: '安装Ubuntu', link: '/Ubuntu相关/安装Ubuntu'}, {
                 text: 'apt', link: '/Ubuntu相关/apt'
@@ -73,9 +108,9 @@ export default defineConfigWithTheme<ThemeConfig>({
                 text: '双系统的时间差8小时', link: '/Ubuntu相关/双系统的时间差8小时'
             }, {text: 'Server安装桌面', link: '/Ubuntu相关/Server安装桌面'},]
         }, {
-            text: '原生安卓',
-            collapsed: true,
-            items: [{text: 'WiFi感叹号', link: '/原生安卓/WiFi感叹号'}, {text: '时间同步', link: '/原生安卓/时间同步'},]
+            text: '原生安卓', collapsed: true, items: [{text: 'WiFi感叹号', link: '/原生安卓/WiFi感叹号'}, {
+                text: '时间同步', link: '/原生安卓/时间同步'
+            },]
         },],
     }
 })
