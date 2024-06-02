@@ -64,15 +64,19 @@ export default defineConfigWithTheme<ThemeConfig>({
                 text: '系统重新安装', link: '/Windows相关/系统重新安装'
             }, {text: '安装C++运行库', link: '/Windows相关/安装C++运行库'}, {
                 text: '安装.NET', link: '/Windows相关/安装.NET'
-            }, {text: '磁盘清理', link: '/Windows相关/磁盘清理'}, {
+            }, {text: '应用最新TLS', link: '/Windows相关/应用最新TLS'}, {
+                text: '磁盘清理', link: '/Windows相关/磁盘清理'
+            }, {
                 text: '系统配置', link: '/Windows相关/系统配置'
             }, {text: '清理软件卸载残留', link: '/Windows相关/清理软件卸载残留'}, {
                 text: '查看蓝屏文件', link: '/Windows相关/查看蓝屏文件'
             },]
         }, {
-            text: 'DNS加密', collapsed: true, items: [{text: 'Windows设备', link: '/DNS加密/Windows设备'}, {
-                text: 'Android设备', link: '/DNS加密/Android设备'
-            }, {text: 'Apple设备', link: '/DNS加密/Apple设备'}, {
+            text: 'DNS加密',
+            collapsed: true,
+            items: [{text: '前言', link: '/DNS加密/'}, {text: 'Windows设备：DOH', link: '/DNS加密/Windows设备：DOH'}, {
+                text: 'Android设备：DOT', link: '/DNS加密/Android设备：DOT'
+            }, {text: 'Apple设备：DOT', link: '/DNS加密/Apple设备：DOT'}, {
                 text: 'DNS大全', link: '/DNS加密/DNS大全'
             },]
         }, {
