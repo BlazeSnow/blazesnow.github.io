@@ -1,4 +1,4 @@
-# Windows设备：DOH
+# Windows设备
 
 1. 按下```Windows徽标```+```I```打开设置
 2. 选中```网络和Internet```
