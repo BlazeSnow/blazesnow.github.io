@@ -1,5 +1,11 @@
 # 安装C++运行库
 
+> Visual C++可再发行程序包安装Microsoft C和C++（MSVC）运行时库。
+> 许多使用Microsoft C和C++工具生成的应用程序都需要这些库。
+> 如果你的应用使用这些库，则必须在安装该应用之前在目标系统上安装Microsoft Visual C++可再发行程序包。
+> 可再发行程序包体系结构必须与应用的目标体系结构相匹配。
+> 可再发行程序包版本必须至少与用于生成应用的MSVC生成工具集一样新。
+
 1. 打开：<https://learn.microsoft.com/zh-cn/cpp/windows/latest-supported-vc-redist>
 2. 根据文章指引下载版本
 	- ```最新的 Microsoft Visual C++ 可再发行程序包版本```
