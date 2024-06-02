@@ -1,4 +1,4 @@
-# Apple设备
+# Apple设备：DOT
 
 > 加密方法来源于：<https://github.com/paulmillr/encrypted-dns>
 
