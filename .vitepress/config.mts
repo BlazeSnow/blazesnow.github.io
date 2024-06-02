@@ -70,9 +70,9 @@ export default defineConfigWithTheme<ThemeConfig>({
                 text: '查看蓝屏文件', link: '/Windows相关/查看蓝屏文件'
             },]
         }, {
-            text: 'DNS加密', collapsed: true, items: [{text: 'Windows设备：DOH', link: '/DNS加密/Windows设备：DOH'}, {
-                text: 'Android设备：DOT', link: '/DNS加密/Android设备：DOT'
-            }, {text: 'Apple设备：DOT', link: '/DNS加密/Apple设备：DOT'}, {
+            text: 'DNS加密', collapsed: true, items: [{text: 'Windows设备', link: '/DNS加密/Windows设备'}, {
+                text: 'Android设备', link: '/DNS加密/Android设备'
+            }, {text: 'Apple设备', link: '/DNS加密/Apple设备'}, {
                 text: 'DNS大全', link: '/DNS加密/DNS大全'
             },]
         }, {
