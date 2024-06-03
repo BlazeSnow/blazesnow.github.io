@@ -2,13 +2,17 @@ import {defineConfigWithTheme} from 'vitepress'
 import {ThemeConfig} from '/.vitepress/theme/index.js'
 
 export default defineConfigWithTheme<ThemeConfig>({
-    lang: 'zh',//网页语言
+    lang: 'zh-CN',//网页语言
     title: 'BlazeSnow帮助网站',//网页标题
     description: 'BlazeSnow帮助网站',//网页描述
     head: [['link', {rel: 'icon', href: '/logo.ico'}]],//网页logo
     metaChunk: true,//用JavaScript块加载界面，减少带宽
     appearance: true,//默认主题将由用户的首选配色方案决定
-    themeConfig: {
+    markdown: {
+        lineNumbers: true, container: {
+            tipLabel: '提示', warningLabel: '警告', dangerLabel: '危险', infoLabel: '信息', detailsLabel: '详细信息'
+        }
+    }, themeConfig: {
         logo: '/logo.ico',
         aside: false,//关闭小目录留空
         outline: false,//关闭小目录
@@ -59,8 +63,14 @@ export default defineConfigWithTheme<ThemeConfig>({
             }
         },
         nav: [{text: '主页', link: '/'},],
-        sidebar: [{text: '开始', link: '/README'}, {text: '更新日志', link: '/CHANGELOG'}, {
-            text: 'Windows相关', collapsed: true, items: [{text: '系统修复', link: '/Windows相关/系统修复'}, {
+        sidebar: [{
+            text: '网站相关',
+            collapsed: true,
+            items: [{text: '开始', link: '/README'}, {text: '更新日志', link: '/CHANGELOG'}]
+        }, {
+            text: 'Windows相关', collapsed: true, items: [{text: '更新Windows', link: '/Windows相关/更新Windows'}, {
+                text: '系统修复', link: '/Windows相关/系统修复'
+            }, {
                 text: '系统重新安装', link: '/Windows相关/系统重新安装'
             }, {text: '安装C++运行库', link: '/Windows相关/安装C++运行库'}, {
                 text: '安装.NET', link: '/Windows相关/安装.NET'
@@ -86,6 +96,16 @@ export default defineConfigWithTheme<ThemeConfig>({
                 text: 'NCU', link: '/Nodejs相关/NCU'
             },]
         }, {
+            text: 'Ubuntu相关', collapsed: true, items: [{text: '安装Ubuntu', link: '/Ubuntu相关/安装Ubuntu'}, {
+                text: 'apt', link: '/Ubuntu相关/apt'
+            }, {text: 'dpkg', link: '/Ubuntu相关/dpkg'}, {
+                text: '双系统的时间差8小时', link: '/Ubuntu相关/双系统的时间差8小时'
+            }, {text: 'Server安装桌面', link: '/Ubuntu相关/Server安装桌面'},]
+        }, {
+            text: '原生安卓', collapsed: true, items: [{text: 'WiFi感叹号', link: '/原生安卓/WiFi感叹号'}, {
+                text: '时间同步', link: '/原生安卓/时间同步'
+            },]
+        }, {
             text: 'Docsify建站教程', collapsed: true, items: [{text: '前言', link: '/Docsify建站教程/'}, {
                 text: '安装Nodejs', link: '/Docsify建站教程/安装Nodejs'
             }, {
@@ -105,16 +125,6 @@ export default defineConfigWithTheme<ThemeConfig>({
             }, {text: '运行网站', link: '/VitePress建站教程/运行网站'}, {
                 text: '发布网站', link: '/VitePress建站教程/发布网站'
             }, {text: '进阶操作', link: '/VitePress建站教程/进阶操作'},]
-        }, {
-            text: 'Ubuntu相关', collapsed: true, items: [{text: '安装Ubuntu', link: '/Ubuntu相关/安装Ubuntu'}, {
-                text: 'apt', link: '/Ubuntu相关/apt'
-            }, {text: 'dpkg', link: '/Ubuntu相关/dpkg'}, {
-                text: '双系统的时间差8小时', link: '/Ubuntu相关/双系统的时间差8小时'
-            }, {text: 'Server安装桌面', link: '/Ubuntu相关/Server安装桌面'},]
-        }, {
-            text: '原生安卓', collapsed: true, items: [{text: 'WiFi感叹号', link: '/原生安卓/WiFi感叹号'}, {
-                text: '时间同步', link: '/原生安卓/时间同步'
-            },]
         },],
     }
 })
