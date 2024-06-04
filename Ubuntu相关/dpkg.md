@@ -1,3 +1,7 @@
+---
+lastUpdated: '2024-6-2 19:42'
+---
+
 # dpkg
 
 > dpkg（Debian Package）是Debian及其衍生发行版（如Ubuntu）中一个基础而强大的命令行软件包管理工具。
