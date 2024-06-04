@@ -126,5 +126,13 @@ export default defineConfigWithTheme<ThemeConfig>({
                 text: '发布网站', link: '/VitePress建站教程/发布网站'
             }, {text: '进阶操作', link: '/VitePress建站教程/进阶操作'},]
         },],
+        lastUpdated: {
+            text: '上次更新于', formatOptions: {
+                dateStyle: 'medium', timeStyle: 'short'
+            }
+        },
+        footer: {
+            message: '此网站使用GNU General Public License v3.0', copyright: 'Copyright © 2024-present BlazeSnow'
+        }
     }
 })
