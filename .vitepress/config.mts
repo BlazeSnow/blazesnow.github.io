@@ -20,7 +20,7 @@ export default defineConfigWithTheme<ThemeConfig>({
     markdown: {
         //显示行号
         lineNumbers: true,
-        //插入块状内容
+        //块状提示
         container: {
             tipLabel: '提示',
             warningLabel: '警告',
@@ -147,6 +147,7 @@ export default defineConfigWithTheme<ThemeConfig>({
                     {text: '前言', link: '/DNS加密/'},
                     {text: 'Windows设备：DOH', link: '/DNS加密/Windows设备：DOH'},
                     {text: 'Android设备：DOT', link: '/DNS加密/Android设备：DOT'},
+                    {text: 'Apple设备：DOH', link: '/DNS加密/Apple设备：DOH'},
                     {text: 'Apple设备：DOT', link: '/DNS加密/Apple设备：DOT'},
                     {text: 'DNS大全', link: '/DNS加密/DNS大全'}
                 ]
@@ -208,9 +209,9 @@ export default defineConfigWithTheme<ThemeConfig>({
         ],
         //上次更新于
         lastUpdated: {
-            text: '上次更新于',
+            text: '上次更新时间',
             formatOptions: {
-                dateStyle: 'medium',
+                dateStyle: 'full',
                 timeStyle: 'short'
             }
         },
