@@ -1,3 +1,7 @@
+---
+lastUpdated: '2024-6-2 19:42'
+---
+
 # 安装C++运行库
 
 > Visual C++可再发行程序包安装Microsoft C和C++（MSVC）运行时库。

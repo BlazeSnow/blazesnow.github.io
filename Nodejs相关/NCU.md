@@ -1,3 +1,7 @@
+---
+lastUpdated: '2024-6-2 19:42'
+---
+
 # NCU
 
 > npm-check-updates（通常缩写为ncu）是一个非常实用的命令行工具，
