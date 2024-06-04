@@ -1,9 +1,16 @@
 {
+  "name": "blazesnow.github.io",
+  "version": "1.0.0",
+  "main": ".vitepress/config.js",
+  "type": "module",
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
   },
+  "author": "BlazeSnow",
+  "license": "LGPL-3.0-only",
+  "description": "BlazeSnow帮助网站",
   "devDependencies": {
     "vitepress": "^1.2.2"
   }
