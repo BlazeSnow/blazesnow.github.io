@@ -6,13 +6,22 @@
     --vp-home-hero-name-color: #0080FF;
 }
 
+/*大部分文字*/
 html, body {
     line-height: 1.6;
     font-size: 20px;
     -webkit-text-size-adjust: 100%;
 }
 
+/*> 说明文字*/
 .vp-doc blockquote > p {
+    line-height: 1.6;
+    font-size: 20px;
+    -webkit-text-size-adjust: 100%;
+}
+
+/*::: 块状文字 :::*/
+.vp-doc .custom-block p {
     line-height: 1.6;
     font-size: 20px;
     -webkit-text-size-adjust: 100%;
