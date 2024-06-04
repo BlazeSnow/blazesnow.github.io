@@ -1,3 +1,7 @@
+---
+lastUpdated: '2024-5-31 22:11'
+---
+
 # DNS大全
 
 |            |    DNS 1     |   DNS 2   |                 DOH                  |        DOT         |

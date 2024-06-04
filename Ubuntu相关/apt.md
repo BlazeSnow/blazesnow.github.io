@@ -1,3 +1,7 @@
+---
+lastUpdated: '2024-6-2 19:42'
+---
+
 # apt
 
 > APT（Advanced Packaging Tool），即高级包装工具，是Linux系统中广泛使用的一种包管理工具，

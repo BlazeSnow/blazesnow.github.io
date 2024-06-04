@@ -1,3 +1,7 @@
+---
+lastUpdated: '2024-6-2 19:42'
+---
+
 # 安装Nodejs
 
 > Node.js®是一个免费、开源、跨平台的JavaScript运行时环境，

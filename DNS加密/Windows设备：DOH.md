@@ -1,3 +1,7 @@
+---
+lastUpdated: '2024-6-2 19:42'
+---
+
 # Windows设备：DOH
 
 1. 按下```Windows徽标```+```I```打开设置

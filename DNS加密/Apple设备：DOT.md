@@ -1,3 +1,7 @@
+---
+lastUpdated: '2024-6-2 19:42'
+---
+
 # Apple设备：DOT
 
 > 加密方法来源于：<https://github.com/paulmillr/encrypted-dns>

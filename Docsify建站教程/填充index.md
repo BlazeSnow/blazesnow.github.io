@@ -1,3 +1,7 @@
+---
+lastUpdated: '2024-5-31 22:11'
+---
+
 # 填充index
 
 1. 用编辑器打开```index.html```
