@@ -11,7 +11,7 @@ export default defineConfigWithTheme<ThemeConfig>({
     //网页logo
     head: [['link', {rel: 'icon', href: '/logo.ico'}]],
     //用JavaScript块加载界面，减少带宽
-    metaChunk: true,
+    metaChunk: false,
     //默认主题将由用户的首选配色方案决定
     appearance: true,
     //markdown配置
