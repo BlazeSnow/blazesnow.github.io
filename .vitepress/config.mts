@@ -29,6 +29,10 @@ export default defineConfigWithTheme<ThemeConfig>({
             detailsLabel: '详细信息'
         }
     },
+    //生成sitemap
+    sitemap: {
+        hostname: 'https://blazesnow.com'
+    },
     //主题配置
     themeConfig: {
         //左上角logo
