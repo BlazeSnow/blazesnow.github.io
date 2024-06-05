@@ -1,5 +1,5 @@
 import { defineConfigWithTheme } from 'vitepress'
-import { ThemeConfig } from 'theme/index.ts'
+import { ThemeConfig } from './theme/index'
 
 export default defineConfigWithTheme<ThemeConfig>({
     //网页语言
@@ -8,8 +8,21 @@ export default defineConfigWithTheme<ThemeConfig>({
     title: 'BlazeSnow帮助网站',
     //网页描述
     description: 'BlazeSnow帮助网站',
-    //网页logo
-    head: [['link', { rel: 'icon', href: '/logo.ico' }]],
+    //头文件配置
+    head: [
+        //网页logo
+        ['link',
+            { rel: 'icon', href: '/logo.ico' }
+        ],
+        //百度站长工具com
+        ['meta',
+            { name: 'baidu-site-verification', content: 'codeva-uuJlu63fJy' }
+        ],
+        //百度站长工具org
+        ['meta',
+            { name: 'baidu-site-verification', content: 'codeva-oGkcOM24uG' }
+        ]
+    ],
     //用JavaScript块加载界面，减少带宽
     metaChunk: true,
     //MPA模式默认提供零JavaScript支持
