@@ -1,22 +1,15 @@
 ---
-lastUpdated: '2024-6-5 14:52'
+lastUpdated: '2024-6-5 15:14'
 ---
 
 # 无法更新Snap Store
 
-## 报错信息
+> 在Ubuntu Software应用内更新app时，
+> 无法更新Snap Store，
+> 显示Snap Store仍在运行中
 
-无法更新“Snap Store”:(null):
-
-cannot refresh "snap-store":
-
-snap "snap-store" has running apps(ubuntu-software),
-
-pids: ```<number>```
-
-## 解决方案
-
-1. 打开Ubuntu终端
-2. 输入```sudo kill <number>```
-3. 等待命令完成
-4. 输入```sudo snap refresh snap-store```
+1. 记住报错信息中最后的```pid```
+2. 打开Ubuntu终端
+3. 输入```sudo kill <pid>```
+4. 等待命令完成
+5. 输入```sudo snap refresh snap-store```
