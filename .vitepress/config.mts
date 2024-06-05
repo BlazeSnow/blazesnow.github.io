@@ -168,7 +168,7 @@ export default defineConfigWithTheme<ThemeConfig>({
                     { text: '安装Ubuntu', link: '/Ubuntu相关/安装Ubuntu' },
                     { text: 'apt', link: '/Ubuntu相关/apt' },
                     { text: 'dpkg', link: '/Ubuntu相关/dpkg' },
-                    { text: '无法更新snap store', link: '/Ubuntu相关/无法更新snap store' },
+                    { text: '无法更新SnapStore', link: '/Ubuntu相关/无法更新SnapStore' },
                     { text: '双系统的时间差8小时', link: '/Ubuntu相关/双系统的时间差8小时' },
                     { text: 'Server安装桌面', link: '/Ubuntu相关/Server安装桌面' }
                 ]
