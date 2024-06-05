@@ -2,7 +2,7 @@
 lastUpdated: '2024-6-5 14:52'
 ---
 
-# 无法更新snap store
+# 无法更新SnapStore
 
 ## 报错信息
 
