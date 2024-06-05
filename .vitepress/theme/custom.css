@@ -7,14 +7,15 @@
 }
 
 /*大部分文字*/
-html, body {
+html,
+body {
     line-height: 1.6;
     font-size: 20px;
     -webkit-text-size-adjust: 100%;
 }
 
 /*> 说明文字*/
-.vp-doc blockquote > p {
+.vp-doc blockquote>p {
     line-height: 1.6;
     font-size: 20px;
     -webkit-text-size-adjust: 100%;
