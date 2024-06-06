@@ -6,7 +6,7 @@
     --vp-home-hero-name-color: #0080FF;
 }
 
-/*大部分文字*/
+/* 大部分文字 */
 html,
 body {
     line-height: 1.6;
@@ -14,16 +14,53 @@ body {
     -webkit-text-size-adjust: 100%;
 }
 
-/*> 说明文字*/
+/* > 说明文字 */
 .vp-doc blockquote>p {
     line-height: 1.6;
     font-size: 20px;
     -webkit-text-size-adjust: 100%;
 }
 
-/*::: 块状文字 :::*/
+/* ::: 块状文字 ::: */
 .vp-doc .custom-block p {
     line-height: 1.6;
     font-size: 20px;
+    -webkit-text-size-adjust: 100%;
+}
+
+/* 侧边栏 */
+.VPSidebarItem.level-0 .text,
+.VPSidebarItem.level-1 .text,
+.VPSidebarItem.level-2 .text,
+.VPSidebarItem.level-3 .text,
+.VPSidebarItem.level-4 .text,
+.VPSidebarItem.level-5 .text {
+    font-size: 16px;
+}
+
+/* 导航栏 */
+div.content-body * {
+    font-size: 16px;
+}
+
+/* 导航栏展开 */
+div.menu div.items * {
+    font-size: 16px;
+}
+
+/* 最后更新于 */
+div.last-updated p.VPLastUpdated {
+    font-size: 18px;
+}
+
+/* 最后更新时间 */
+div.last-updated p.VPLastUpdated time {
+    font-size: 18px;
+}
+
+/* 最底下上一篇下一篇 */
+nav.prev-next div.pager * {
+    line-height: 1.6;
+    font-size: 16px;
     -webkit-text-size-adjust: 100%;
 }
