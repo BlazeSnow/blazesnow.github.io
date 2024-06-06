@@ -8,19 +8,9 @@
 
 /* 大部分文字 */
 html,
-body {
-    line-height: 1.6;
-    font-size: 20px;
-    -webkit-text-size-adjust: 100%;
-}
-
+body,
 /* > 说明文字 */
-.vp-doc blockquote>p {
-    line-height: 1.6;
-    font-size: 20px;
-    -webkit-text-size-adjust: 100%;
-}
-
+.vp-doc blockquote>p,
 /* ::: 块状文字 ::: */
 .vp-doc .custom-block p {
     line-height: 1.6;
@@ -35,24 +25,22 @@ body {
 .VPSidebarItem.level-3 .text,
 .VPSidebarItem.level-4 .text,
 .VPSidebarItem.level-5 .text {
+    line-height: 1.6;
     font-size: 16px;
+    -webkit-text-size-adjust: 100%;
 }
 
 /* 导航栏 */
-div.content-body * {
-    font-size: 16px;
-}
-
+div.content-body *,
 /* 导航栏展开 */
 div.menu div.items * {
+    line-height: 2.1;
     font-size: 16px;
+    -webkit-text-size-adjust: 100%;
 }
 
 /* 最后更新于 */
-div.last-updated p.VPLastUpdated {
-    font-size: 18px;
-}
-
+div.last-updated p.VPLastUpdated,
 /* 最后更新时间 */
 div.last-updated p.VPLastUpdated time {
     font-size: 18px;
