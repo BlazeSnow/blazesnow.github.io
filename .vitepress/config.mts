@@ -13,14 +13,6 @@ export default defineConfigWithTheme<ThemeConfig>({
         //网页logo
         ['link',
             { rel: 'icon', href: '/logo.ico' }
-        ],
-        //百度站长工具com
-        ['meta',
-            { name: 'baidu-site-verification', content: 'codeva-uuJlu63fJy' }
-        ],
-        //百度站长工具org
-        ['meta',
-            { name: 'baidu-site-verification', content: 'codeva-oGkcOM24uG' }
         ]
     ],
     //用JavaScript块加载界面，减少带宽
