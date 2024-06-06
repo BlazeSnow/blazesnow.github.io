@@ -12,7 +12,7 @@ hero:
       link: /README
     - theme: alt
       text: 更新日志
-      link: /CHANGELOG
+      link: /更新日志/
 
 features:
   - title: com域名
