@@ -21,7 +21,7 @@ const { Layout } = DefaultTheme
                         抱歉，没有找到您需要的页面
                     </blockquote>
                     <div class="action">
-                        <a class="link" href="/" aria-label="回到主页">
+                        <a class="VPButton medium brand" href="/" aria-label="回到主页">
                             回到主页
                         </a>
                     </div>
@@ -80,14 +80,19 @@ div.NotFound div.action {
     padding-top: 50px;
 }
 
-div.NotFound a.link {
+div.NotFound a.VPButton.medium.brand {
     display: inline-block;
-    border: 1px solid var(--vp-c-brand-1);
-    border-radius: 10px;
-    padding: 4px 20px;
-    font-size: 20px;
-    font-weight: 500;
-    color: var(--vp-c-brand-1);
-    transition: border-color 0.25s, color 0.25s;
+    border: 1px solid transparent;
+    text-align: center;
+    font-weight: 600;
+    white-space: nowrap;
+    transition: color .25s, border-color .25s, background-color .25s;
+    border-radius: 20px;
+    padding: 0 20px;
+    line-height: 38px;
+    font-size: 14px;
+    border-color: var(--vp-button-brand-border);
+    color: var(--vp-button-brand-text);
+    background-color: var(--vp-button-brand-bg);
 }
 </style>
