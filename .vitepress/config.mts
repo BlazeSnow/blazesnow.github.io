@@ -37,10 +37,12 @@ export default defineConfig({
     themeConfig: {
         //左上角logo
         logo: '/logo.ico',
-        //关闭右边的小目录留空
+        //右边的小目录
         aside: false,
-        //关闭右边的小目录
+        //右边的小目录认H几
         outline: false,
+        //关掉语言自动路径
+        i18nRouting: false,
         //切换深色或浅色模式提示
         darkModeSwitchLabel: '切换深色或浅色模式',
         //切换至浅色模式提示

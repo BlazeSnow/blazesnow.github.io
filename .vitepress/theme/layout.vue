@@ -95,4 +95,6 @@ div.NotFound a.VPButton.medium.brand {
     color: var(--vp-button-brand-text);
     background-color: var(--vp-button-brand-bg);
 }
+
+/* 上面都是404页面的样式 */
 </style>
