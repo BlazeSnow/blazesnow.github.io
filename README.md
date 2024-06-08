@@ -1,5 +1,7 @@
 ---
 lastUpdated: '2024-6-6 13:41'
+aside: false
+outline: false
 ---
 
 # 开始
