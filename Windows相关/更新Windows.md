@@ -1,5 +1,5 @@
 ---
-lastUpdated: '2024-6-3 16:28'
+lastUpdated: '2024-6-10 15:42'
 ---
 
 # 更新Windows
@@ -16,6 +16,4 @@ lastUpdated: '2024-6-3 16:28'
 
 ## 通过Windows Update
 
-1. 按下```Windows徽标```+```I```
-2. 选中侧边栏的```Windows更新```
-3. 点击```检查更新```
+单击此处打开：<ms-settings:windowsupdate>
