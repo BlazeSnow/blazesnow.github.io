@@ -170,6 +170,7 @@ export default defineConfig({
                         { text: '更新Windows', link: '/Windows相关/更新Windows' },
                         { text: '系统修复', link: '/Windows相关/系统修复' },
                         { text: '系统重新安装', link: '/Windows相关/系统重新安装' },
+                        { text: '更新驱动程序', link: '/Windows相关/更新驱动程序' },
                         { text: '安装C++运行库', link: '/Windows相关/安装C++运行库' },
                         { text: '安装.NET', link: '/Windows相关/安装.NET' },
                         { text: '显示后缀名和隐藏文件', link: '/Windows相关/显示后缀名和隐藏文件' },
