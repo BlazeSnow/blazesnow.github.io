@@ -180,7 +180,9 @@ export default defineConfig({
                         { text: '磁盘清理', link: '/Windows相关/磁盘清理' },
                         { text: '系统配置', link: '/Windows相关/系统配置' },
                         { text: '清理软件卸载残留', link: '/Windows相关/清理软件卸载残留' },
-                        { text: '查看蓝屏文件', link: '/Windows相关/查看蓝屏文件' }]
+                        { text: '查看蓝屏文件', link: '/Windows相关/查看蓝屏文件' },
+                        { text: '计算哈希值', link: '/Windows相关/计算哈希值' }
+                    ]
                 }
             ],
             '/DNS加密/': [
