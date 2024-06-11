@@ -26,8 +26,13 @@ lastUpdated: '2024-6-8 18:58'
 
 1. 按下```Windows徽标```+```X```
 2. 点击```终端管理员```
-3. 输入：```netsh dns add encryption server=223.5.5.5 dohtemplate=https://dns.alidns.com/dns-query autoupgrade=yes udpfallback=no```
-4. 输入：```netsh dns add encryption server=223.6.6.6 dohtemplate=https://dns.alidns.com/dns-query autoupgrade=yes udpfallback=no```
+3.
+
+输入：```netsh dns add encryption server=223.5.5.5 dohtemplate=https://dns.alidns.com/dns-query autoupgrade=yes udpfallback=no```
+
+4.
+
+输入：```netsh dns add encryption server=223.6.6.6 dohtemplate=https://dns.alidns.com/dns-query autoupgrade=yes udpfallback=no```
 
 ### 显示已有模板
 
