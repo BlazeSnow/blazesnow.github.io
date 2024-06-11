@@ -34,13 +34,6 @@ const {Layout} = DefaultTheme
 <style scoped>
 /* 404页面的页面格式 */
 
-#not-found div.VPContent {
-  flex-grow: 1;
-  flex-shrink: 0;
-  margin: var(--vp-layout-top-height, 0px) auto 0;
-  width: 100%;
-}
-
 div.NotFound {
   padding: 64px 24px 96px;
   text-align: center;
@@ -69,7 +62,7 @@ div.NotFound div.divider {
 
 div.NotFound blockquote.quote {
   margin: 0 auto;
-  max-width: auto;
+  max-width: fit-content;
   line-height: 1.6;
   font-size: 20px;
   font-weight: 500;
@@ -91,7 +84,6 @@ div.NotFound a.VPButton.medium.brand {
   padding: 0 20px;
   line-height: 38px;
   font-size: 14px;
-  border-color: var(--vp-button-brand-border);
   color: var(--vp-button-brand-text);
   background-color: var(--vp-button-brand-bg);
 }

@@ -39,10 +39,13 @@ export default defineConfig({
         logo: '/logo.ico',
         //右边的小目录
         aside: true,
-        //右边的小目录认H几
-        outline: [1, 4],
-        //右边的小目录的文字
-        outlineTitle: "此篇目录",
+        //右边的小目录
+        outline: {
+            //右边的小目录认H几
+            level: [1, 4],
+            //右边的小目录的文字
+            label: "此篇目录",
+        },
         //关掉语言自动路径
         i18nRouting: false,
         //切换深色或浅色模式提示
