@@ -9,9 +9,9 @@
 /* 大部分文字 */
 html,
 body,
-/* > 说明文字 */
-.vp-doc blockquote>p,
-/* ::: 块状文字 ::: */
+    /* > 说明文字 */
+.vp-doc blockquote > p,
+    /* ::: 块状文字 ::: */
 .vp-doc .custom-block p {
     line-height: 1.6;
     font-size: 20px;
@@ -32,7 +32,7 @@ body,
 
 /* 导航栏 */
 div.content-body *,
-/* 导航栏展开 */
+    /* 导航栏展开 */
 div.menu div.items * {
     line-height: 2.1;
     font-size: 16px;
@@ -41,7 +41,7 @@ div.menu div.items * {
 
 /* 最后更新于 */
 div.last-updated p.VPLastUpdated,
-/* 最后更新时间 */
+    /* 最后更新时间 */
 div.last-updated p.VPLastUpdated time {
     font-size: 18px;
 }
