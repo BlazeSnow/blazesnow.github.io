@@ -1,3 +1,5 @@
+// noinspection JSUnusedGlobalSymbols
+
 import {defineConfig} from 'vitepress'
 
 export default defineConfig({
