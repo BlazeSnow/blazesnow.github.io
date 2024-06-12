@@ -3,7 +3,8 @@
     --vp-c-brand-2: #0080FF;
     --vp-c-brand-3: #0080FF;
     --vp-c-brand-soft: #0080FF;
-    --vp-home-hero-name-color: #0080FF;
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: -webkit-linear-gradient(100deg, mediumpurple, #0080FF);
 }
 
 /* 大部分文字 */
