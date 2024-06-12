@@ -15,13 +15,25 @@ hero:
       link: /更新日志/
 
 features:
-  - title: com域名
+  - icon:
+      light: /com.png
+      dark: /com_dark.png
+    title: com域名
     details: https://www.blazesnow.com
-  - title: org域名
+  - icon:
+      light: /org.png
+      dark: /org_dark.png
+    title: org域名
     details: https://www.blazesnow.org
-  - title: GitHub页面
+  - icon:
+      light: /github.svg
+      dark: /github_dark.png
+    title: GitHub页面
     details: https://blazesnow.github.io
-  - title: Cloudflare页面
+  - icon:
+      light: /cloudflare.ico
+      dark: /cloudflare.ico
+    title: Cloudflare页面
     details: https://blazesnow.pages.dev
 
 ---
