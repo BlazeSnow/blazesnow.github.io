@@ -16,18 +16,18 @@ hero:
 
 features:
   - icon:
-      light: /com.png
-      dark: /com_dark.png
+      light: /com.svg
+      dark: /com_dark.svg
     title: com域名
     details: https://www.blazesnow.com
   - icon:
-      light: /org.png
-      dark: /org_dark.png
+      light: /org.svg
+      dark: /org_dark.svg
     title: org域名
     details: https://www.blazesnow.org
   - icon:
       light: /github.svg
-      dark: /github_dark.png
+      dark: /github_dark.svg
     title: GitHub页面
     details: https://blazesnow.github.io
   - icon:
