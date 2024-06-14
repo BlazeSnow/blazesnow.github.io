@@ -263,7 +263,7 @@ export default defineConfig({
         lastUpdated: {
             text: '上次更新时间',
             formatOptions: {
-                dateStyle: 'full',
+                dateStyle: 'medium',
                 timeStyle: 'short'
             }
         },
