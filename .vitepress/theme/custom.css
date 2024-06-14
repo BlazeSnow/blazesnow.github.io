@@ -26,37 +26,30 @@ body,
 .VPSidebarItem.level-3 .text,
 .VPSidebarItem.level-4 .text,
 .VPSidebarItem.level-5 .text {
-    /*line-height: 1.6;*/
     font-size: 16px;
-    /*-webkit-text-size-adjust: 100%;*/
 }
 
 /* 导航栏 */
 div.content-body *,
     /* 导航栏展开 */
 div.menu div.items * {
-    line-height: 2.1;
     font-size: 16px;
-    -webkit-text-size-adjust: 100%;
 }
 
 /* 最后更新于 */
 div.last-updated p.VPLastUpdated,
     /* 最后更新时间 */
 div.last-updated p.VPLastUpdated time {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /* 最底下上一篇下一篇 */
 nav.prev-next div.pager * {
     line-height: 1.6;
     font-size: 16px;
-    -webkit-text-size-adjust: 100%;
 }
 
 /* 右边的小目录 */
 ul.VPDocOutlineItem.root * {
-    line-height: 2.0;
     font-size: 16px;
-    -webkit-text-size-adjust: 100%;
 }
