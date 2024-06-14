@@ -181,6 +181,7 @@ export default defineConfig({
                         {text: '显示后缀名和隐藏文件', link: '/Windows相关/显示后缀名和隐藏文件'},
                         {text: '重启文件资源管理器', link: '/Windows相关/重启文件资源管理器'},
                         {text: '删除新建文件类型', link: '/Windows相关/删除新建文件类型'},
+                        {text: '修复桌面图标', link: '/Windows相关/修复桌面图标'},
                         {text: '应用最新TLS', link: '/Windows相关/应用最新TLS'},
                         {text: '磁盘清理', link: '/Windows相关/磁盘清理'},
                         {text: '系统配置', link: '/Windows相关/系统配置'},
