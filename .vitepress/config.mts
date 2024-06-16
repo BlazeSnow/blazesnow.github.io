@@ -196,6 +196,7 @@ export default defineConfig({
 					items: [
 						{text: '前言', link: '/DNS加密/'},
 						{text: 'Windows设备：DOH', link: '/DNS加密/Windows设备：DOH'},
+						{text: 'Windows设备：模板', link: '/DNS加密/Windows设备：模板'},
 						{text: 'Android设备：DOT', link: '/DNS加密/Android设备：DOT'},
 						{text: 'Apple设备：DOH', link: '/DNS加密/Apple设备：DOH'},
 						{text: 'DNS大全', link: '/DNS加密/DNS大全'}]
