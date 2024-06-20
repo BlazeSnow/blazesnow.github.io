@@ -209,8 +209,9 @@ export default defineConfig({
 					text: 'Nodejs相关',
 					items: [
 						{text: '安装Nodejs', link: '/Nodejs相关/安装Nodejs'},
-						{text: '安装和卸载包', link: '/Nodejs相关/安装和卸载包'},
-						{text: 'NCU', link: '/Nodejs相关/NCU'}]
+						{text: '管理npm包', link: '/Nodejs相关/管理npm包'},
+						{text: 'npm后缀', link: '/Nodejs相关/npm后缀'}
+					]
 				}
 			],
 			'/Ubuntu相关/': [
