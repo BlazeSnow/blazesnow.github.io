@@ -172,22 +172,46 @@ export default defineConfig({
 				{
 					text: 'Windows相关',
 					items: [
-						{text: '更新Windows', link: '/Windows相关/更新Windows'},
-						{text: '系统修复', link: '/Windows相关/系统修复'},
-						{text: '系统重新安装', link: '/Windows相关/系统重新安装'},
-						{text: '安装C++运行库', link: '/Windows相关/安装C++运行库'},
-						{text: '安装.NET', link: '/Windows相关/安装.NET'},
-						{text: '创建App的快捷方式', link: '/Windows相关/创建App的快捷方式'},
-						{text: '显示后缀名和隐藏文件', link: '/Windows相关/显示后缀名和隐藏文件'},
-						{text: '重启文件资源管理器', link: '/Windows相关/重启文件资源管理器'},
-						{text: '删除新建文件类型', link: '/Windows相关/删除新建文件类型'},
-						{text: '删除右键菜单项', link: '/Windows相关/删除右键菜单项'},
-						{text: '修复桌面图标', link: '/Windows相关/修复桌面图标'},
-						{text: '应用最新TLS', link: '/Windows相关/应用最新TLS'},
+						{
+							text: '系统',
+							collapsed: true,
+							items: [
+								{text: '更新Windows', link: '/Windows相关/更新Windows'},
+								{text: '系统修复', link: '/Windows相关/系统修复'},
+								{text: '系统重新安装', link: '/Windows相关/系统重新安装'},
+								{text: '查看蓝屏文件', link: '/Windows相关/查看蓝屏文件'},
+							]
+						},
+						{
+							text: '运行库',
+							collapsed: true,
+							items: [
+								{text: '安装C++运行库', link: '/Windows相关/安装C++运行库'},
+								{text: '安装.NET', link: '/Windows相关/安装.NET'},
+							]
+						},
+						{
+							text: '文件资源管理器',
+							collapsed: true,
+							items: [
+								{text: '显示后缀名和隐藏文件', link: '/Windows相关/显示后缀名和隐藏文件'},
+								{text: '创建App的快捷方式', link: '/Windows相关/创建App的快捷方式'},
+								{text: '重启文件资源管理器', link: '/Windows相关/重启文件资源管理器'},
+								{text: '删除新建文件类型', link: '/Windows相关/删除新建文件类型'},
+								{text: '删除右键菜单项', link: '/Windows相关/删除右键菜单项'},
+								{text: '修复桌面图标', link: '/Windows相关/修复桌面图标'},
+							]
+						},
+						{
+							text: '网络',
+							collapsed: true,
+							items: [
+								{text: '应用最新TLS', link: '/Windows相关/应用最新TLS'},
+							]
+						},
 						{text: '磁盘清理', link: '/Windows相关/磁盘清理'},
 						{text: '系统配置', link: '/Windows相关/系统配置'},
 						{text: '清理软件卸载残留', link: '/Windows相关/清理软件卸载残留'},
-						{text: '查看蓝屏文件', link: '/Windows相关/查看蓝屏文件'},
 						{text: '计算哈希值', link: '/Windows相关/计算哈希值'}
 					]
 				}
@@ -271,8 +295,8 @@ export default defineConfig({
 		},
 		//主页页脚
 		footer: {
-			message: '此网站使用GNU General Public License v3.0',
-			copyright: 'Copyright © 2024-present BlazeSnow'
+			message: '本网站按照GNU General Public License v3.0的条款发布',
+			copyright: 'Copyright © 2024 BlazeSnow. 保留所有权利'
 		}
 	}
 })
