@@ -11,7 +11,7 @@
 html,
 body,
     /* > 说明文字 */
-.vp-doc blockquote > p,
+.vp-doc blockquote p,
     /* ::: 块状文字 ::: */
 .vp-doc .custom-block p {
     line-height: 1.6;
@@ -20,12 +20,12 @@ body,
 }
 
 /* 侧边栏 */
-.VPSidebarItem.level-0 .text,
-.VPSidebarItem.level-1 .text,
-.VPSidebarItem.level-2 .text,
-.VPSidebarItem.level-3 .text,
-.VPSidebarItem.level-4 .text,
-.VPSidebarItem.level-5 .text {
+.VPSidebarItem.level-0 *,
+.VPSidebarItem.level-1 *,
+.VPSidebarItem.level-2 *,
+.VPSidebarItem.level-3 *,
+.VPSidebarItem.level-4 *,
+.VPSidebarItem.level-5 * {
     font-size: 16px;
 }
 
@@ -37,19 +37,17 @@ div.menu div.items * {
 }
 
 /* 最后更新于 */
-div.last-updated p.VPLastUpdated,
-    /* 最后更新时间 */
-div.last-updated p.VPLastUpdated time {
+.last-updated .VPLastUpdated {
     font-size: 16px;
 }
 
 /* 最底下上一篇下一篇 */
-nav.prev-next div.pager * {
+.prev-next .pager * {
     line-height: 1.6;
     font-size: 16px;
 }
 
 /* 右边的小目录 */
-ul.VPDocOutlineItem.root * {
+.VPDocOutlineItem.root * {
     font-size: 16px;
 }
