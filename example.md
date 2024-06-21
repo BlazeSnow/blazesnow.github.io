@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2024-6-21t18:00:00+8
+lastUpdated: 2024-6-21T18:00:00+8:00
 ---
 
 # example

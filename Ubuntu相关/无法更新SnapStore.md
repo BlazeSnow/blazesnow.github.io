@@ -1,5 +1,5 @@
 ---
-lastUpdated: '2024-6-5 15:14'
+lastUpdated: 2024-6-5T15:14:00+8:00
 ---
 
 # 无法更新Snap Store
