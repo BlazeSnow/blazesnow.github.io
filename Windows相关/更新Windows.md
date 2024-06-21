@@ -1,5 +1,5 @@
 ---
-lastUpdated: '2024-6-10 15:42'
+lastUpdated: 2024-6-10T15:42:00+8:00
 ---
 
 # 更新Windows

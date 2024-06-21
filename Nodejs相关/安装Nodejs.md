@@ -1,5 +1,5 @@
 ---
-lastUpdated: '2024-6-2 19:42'
+lastUpdated: 2024-6-2T19:42:00+8:00
 ---
 
 # 安装Nodejs
