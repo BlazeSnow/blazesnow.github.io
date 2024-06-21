@@ -1,5 +1,5 @@
 ---
-lastUpdated: '2024-6-21 18:00'
+lastUpdated: '2024-6-21 18:00:00'
 ---
 
 # example
