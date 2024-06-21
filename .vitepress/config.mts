@@ -155,6 +155,9 @@ export default defineConfig({
 			}
 		],
 		sidebar: {
+			'/': [
+				{text: 'example', link: '/example'}
+			],
 			'/更新日志/': [
 				{
 					text: '更新日志',
@@ -269,7 +272,7 @@ export default defineConfig({
 						{text: '进阶操作', link: '/Docsify建站教程/进阶操作'}]
 				}
 			],
-			'VitePress建站教程': [
+			'/VitePress建站教程/': [
 				{
 					text: 'VitePress建站教程',
 					items: [
@@ -277,7 +280,8 @@ export default defineConfig({
 						{text: '添加文件', link: '/VitePress建站教程/添加文件'},
 						{text: '运行网站', link: '/VitePress建站教程/运行网站'},
 						{text: '发布网站', link: '/VitePress建站教程/发布网站'},
-						{text: '进阶操作', link: '/VitePress建站教程/进阶操作'}]
+						{text: '进阶操作', link: '/VitePress建站教程/进阶操作'}
+					]
 				}
 			],
 		},

@@ -2,6 +2,7 @@
 lastUpdated: false
 aside: false
 outline: false
+sidebar: false
 ---
 
 # 开始
