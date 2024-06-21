@@ -300,7 +300,7 @@ export default defineConfig({
 				second: undefined,
 				timeZoneName: "longGeneric",
 				formatMatcher: "best fit",
-				hour12: true,
+				hour12: false,
 				timeZone: "Asia/Chongqing"
 			}
 		},
