@@ -31,10 +31,6 @@ export default defineConfig({
 			detailsLabel: '详细信息'
 		}
 	},
-	//生成sitemap
-	sitemap: {
-		hostname: 'https://blazesnow.com'
-	},
 	//主题配置
 	themeConfig: {
 		//左上角logo
@@ -289,8 +285,19 @@ export default defineConfig({
 		lastUpdated: {
 			text: '上次更新时间',
 			formatOptions: {
-				dateStyle: 'medium',
-				timeStyle: 'short'
+				localeMatcher: "best fit",
+				weekday: undefined,
+				era: undefined,
+				year: "numeric",
+				month: "long",
+				day: "numeric",
+				hour: "numeric",
+				minute: "numeric",
+				second: undefined,
+				timeZoneName: "longGeneric",
+				formatMatcher: "best fit",
+				hour12: true,
+				timeZone: "Asia/Chongqing"
 			}
 		},
 		//主页页脚
