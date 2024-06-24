@@ -4,7 +4,7 @@ import {defineConfig} from 'vitepress'
 
 export default defineConfig({
 	//网页语言
-	lang: 'zh-Hans',
+	lang: 'zh-CN',
 	//网页标题
 	title: 'BlazeSnow帮助网站',
 	//网页描述
@@ -63,13 +63,6 @@ export default defineConfig({
 			prev: '上一篇',
 			next: '下一篇'
 		},
-		//右上角GitHub图标
-		socialLinks: [
-			{
-				icon: 'github',
-				link: 'https://github.com/blazesnow'
-			},
-		],
 		//搜索内容显示本地化
 		search: {
 			//用自带的搜索功能
@@ -110,7 +103,7 @@ export default defineConfig({
 			},
 			{
 				text: 'Windows相关',
-				link: '/Windows相关/更新Windows',
+				link: '/Windows相关/',
 				activeMatch: '/Windows相关'
 			},
 			{
@@ -151,6 +144,10 @@ export default defineConfig({
 						link: '/更新日志/',
 						activeMatch: '/更新日志'
 					},
+					{
+						text: '我的GitHub主页',
+						link: 'https://github.com/BlazeSnow',
+					}
 				]
 			}
 		],
@@ -171,6 +168,7 @@ export default defineConfig({
 				{
 					text: 'Windows相关',
 					items: [
+						{text: '前言', link: '/Windows相关/'},
 						{
 							text: '系统',
 							collapsed: true,

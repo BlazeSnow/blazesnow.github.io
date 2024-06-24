@@ -1,5 +1,4 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
@@ -9,7 +8,7 @@ hero:
 features:
   - icon: 💻
     title: 宽屏设备
-    details: 使用上面的导航栏
+    details: 使用顶部导航栏
   - icon: 📱
     title: 窄屏设备
     details: 单击右上角按钮☰显示导航栏
