@@ -304,8 +304,8 @@ export default defineConfig({
 		},
 		//主页页脚
 		footer: {
-			message: '本网站按照GNU General Public License v3.0的条款发布。',
-			copyright: 'Copyright © 2024 BlazeSnow. 保留所有权利。'
+			message: '本网站以<a href="https://www.gnu.org/licenses/gpl-3.0.html">GNU General Public License v3.0</a>的条款发布。',
+			copyright: 'Copyright © 2024-present <a href="https://github.com/BlazeSnow">BlazeSnow</a>. 保留所有权利。'
 		}
 	}
 })
