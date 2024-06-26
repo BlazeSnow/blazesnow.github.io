@@ -143,7 +143,7 @@ export default defineConfig({
 					},
 					{
 						text: 'VitePress建站教程',
-						link: '/VitePress建站教程/安装环境',
+						link: '/VitePress建站教程/安装Nodejs',
 						activeMatch: '/VitePress建站教程'
 					},
 					{
@@ -274,9 +274,14 @@ export default defineConfig({
 				{
 					text: 'VitePress建站教程',
 					items: [
-						{text: '安装环境', link: '/VitePress建站教程/安装环境'},
-						{text: '添加文件', link: '/VitePress建站教程/添加文件'},
+						{text: '安装Nodejs', link: '/VitePress建站教程/安装Nodejs'},
+						{text: '安装git', link: '/VitePress建站教程/安装git'},
+						{text: '安装VitePress', link: '/VitePress建站教程/安装VitePress'},
+						{text: 'VitePress建站引导', link: '/VitePress建站教程/VitePress建站引导'},
 						{text: '运行网站', link: '/VitePress建站教程/运行网站'},
+						{text: '添加GitHub排除目录', link: '/VitePress建站教程/添加GitHub排除目录'},
+						{text: '添加GitHub部署文件', link: '/VitePress建站教程/添加GitHub部署文件'},
+						{text: '检查必须文件', link: '/VitePress建站教程/检查必须文件'},
 						{text: '发布网站', link: '/VitePress建站教程/发布网站'},
 						{text: '进阶操作', link: '/VitePress建站教程/进阶操作'}
 					]
