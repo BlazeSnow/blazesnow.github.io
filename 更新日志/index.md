@@ -4,6 +4,11 @@ lastUpdated: false
 
 # 更新日志
 
+- **2024年6月26日22点20分**
+	- 优化```VitePress```目录问题
+		- ```VitePress建站教程\检查必须文件```
+		- ```VitePress建站教程\添加GitHub排除目录```
+		- ```VitePress建站教程\添加GitHub部署文件```
 - **2024年6月26日21点54分**
 	- 优化页脚链接，现在默认打开新标签页
 	- 添加内容：```Nodejs相关\引入npm```

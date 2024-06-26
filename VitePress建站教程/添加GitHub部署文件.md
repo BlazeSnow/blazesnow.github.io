@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2024-6-26T21:07:00+8:00
+lastUpdated: 2024-6-26T22:18:00+8:00
 ---
 
 # 添加GitHub部署文件
@@ -9,7 +9,10 @@ lastUpdated: 2024-6-26T21:07:00+8:00
 3. 在```.github```文件夹内再新建文件夹```workflows```
 4. 在```workflows```中新建文件```deploy.yml```
 5. 输入下面的内容
-6. 检查```path: .vitepress/dist```是否指向```.vitepress```的正确位置，如：```doc/.vitepress/dist```
+
+::: info 检查目录
+检查```path: .vitepress/dist```是否指向```.vitepress```的正确位置，如：```doc/.vitepress/dist```
+:::
 
 ```yaml
 # 构建 VitePress 站点并将其部署到 GitHub Pages 的示例工作流程
