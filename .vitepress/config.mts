@@ -230,6 +230,7 @@ export default defineConfig({
 					text: 'Nodejs相关',
 					items: [
 						{text: '安装Nodejs', link: '/Nodejs相关/安装Nodejs'},
+						{text: '引入npm', link: '/Nodejs相关/引入npm'},
 						{text: '管理npm包', link: '/Nodejs相关/管理npm包'},
 						{text: 'npm后缀', link: '/Nodejs相关/npm后缀'}
 					]
@@ -308,8 +309,8 @@ export default defineConfig({
 		},
 		//主页页脚
 		footer: {
-			message: '本网站以<a href="https://www.gnu.org/licenses/gpl-3.0.html">GNU General Public License v3.0</a>的条款发布。',
-			copyright: 'Copyright © 2024-present <a href="https://github.com/BlazeSnow">BlazeSnow</a>. 保留所有权利。'
+			message: '本网站以<a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GNU General Public License v3.0</a>的条款发布。',
+			copyright: 'Copyright © 2024-present <a href="https://github.com/BlazeSnow" target="_blank">BlazeSnow</a>. 保留所有权利。'
 		}
 	}
 })
