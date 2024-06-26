@@ -1,5 +1,7 @@
 ---
 lastUpdated: false
+aside: false
+outline: false
 ---
 
 # GNU GENERAL PUBLIC LICENSE

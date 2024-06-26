@@ -8,7 +8,7 @@ lastUpdated: 2024-6-26T21:07:00+8:00
 2. 新建文件```.gitignore```
 3. 输入下面的内容
 
-```gitignore
+```text
 #VitePress的缓存目录
 .vitepress/cache/
 
