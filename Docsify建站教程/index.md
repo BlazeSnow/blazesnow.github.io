@@ -1,8 +1,11 @@
 ---
-lastUpdated: 2024-6-2T19:42:00+8:00
+lastUpdated: 2024-6-26T20:40:00+8:00
 ---
 
 # 前言
 
-由于本人从```Docsify建站```转向```VitePress建站```，
-```Docsify建站教程```已停止更新，请转向使用```VitePress建站教程```。
+::: danger 停止支持
+由于本人放弃使用```Docsify```，
+```Docsify建站教程```已停止更新，
+请使用```VitePress建站教程```。
+:::
