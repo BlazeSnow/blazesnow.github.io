@@ -1,10 +1,8 @@
 ---
-lastUpdated: 2024-6-1T22:28:00+8:00
+lastUpdated: 2024-6-26T21:07:00+8:00
 ---
 
-# 添加文件
-
-## 准备```deploy.yml```
+# 添加GitHub部署文件
 
 1. 回到文件夹根目录
 2. 新建文件夹```.github```
@@ -77,18 +75,3 @@ jobs: # 构建工作
         id: deployment
         uses: actions/deploy-pages@v4
 ```
-
-## 检查必须文件
-
-- ```.github/workflows/deploy.yml```
-- ```.vitepress/config.mts```
-- ```index.md```
-- 其他的自定义markdown文件
-- ```package.json```
-- ```package-lock.json```
-- ```.gitignore```
-	- 在```.gitignore```中添加：
-	- ```.vitepress/cache```
-	- ```.vitepress/dist```
-	- ```node_modules/```
-	- 如果有```.vscode```或```.idea```文件夹，也添加
