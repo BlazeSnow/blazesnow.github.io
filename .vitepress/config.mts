@@ -63,6 +63,13 @@ export default defineConfig({
 			prev: '上一篇',
 			next: '下一篇'
 		},
+		//右上角GitHub图标
+		socialLinks: [
+			{
+				icon: 'github',
+				link: 'https://github.com/blazesnow'
+			},
+		],
 		//搜索内容显示本地化
 		search: {
 			//用自带的搜索功能
@@ -143,18 +150,11 @@ export default defineConfig({
 						text: '更新日志',
 						link: '/更新日志/',
 						activeMatch: '/更新日志'
-					},
-					{
-						text: '我的GitHub主页',
-						link: 'https://github.com/BlazeSnow',
 					}
 				]
 			}
 		],
 		sidebar: {
-			'/': [
-				{text: 'example', link: '/example'}
-			],
 			'/更新日志/': [
 				{
 					text: '更新日志',
@@ -296,15 +296,14 @@ export default defineConfig({
 				hour: "numeric",
 				minute: "numeric",
 				second: undefined,
-				timeZoneName: "longGeneric",
+				timeZoneName: "long",
 				formatMatcher: "best fit",
-				hour12: false,
 				timeZone: "Asia/Chongqing"
 			}
 		},
 		//主页页脚
 		footer: {
-			message: '本网站以<a href="https://www.gnu.org/licenses/gpl-3.0.html">GNU General Public License v3.0</a>的条款发布。',
+			message: '本网站以<a href="/gpl-3.0">GNU General Public License v3.0</a>的条款发布。',
 			copyright: 'Copyright © 2024-present <a href="https://github.com/BlazeSnow">BlazeSnow</a>. 保留所有权利。'
 		}
 	}
