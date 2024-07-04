@@ -159,7 +159,8 @@ export default defineConfig({
 				{
 					text: '更新日志',
 					items: [
-						{text: '2024年6月', link: '/更新日志/'},
+						{text: '2024年7月', link: '/更新日志/'},
+						{text: '2024年6月', link: '/更新日志/2024年6月'},
 						{text: '2024年5月', link: '/更新日志/2024年5月'},
 					]
 				}
