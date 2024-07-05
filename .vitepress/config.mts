@@ -67,7 +67,15 @@ export default defineConfig({
 		socialLinks: [
 			{
 				icon: 'github',
-				link: 'https://github.com/blazesnow'
+				link: 'https://github.com/blazesnow',
+				ariaLabel: '前往我的GitHub主页'
+			},
+			{
+				icon: {
+					svg: '<img alt="爱发电" src="/afdian.svg"/>'
+				},
+				link: 'https://afdian.net/a/BlazeSnow',
+				ariaLabel: '前往我的爱发电主页'
 			},
 		],
 		//搜索内容显示本地化
