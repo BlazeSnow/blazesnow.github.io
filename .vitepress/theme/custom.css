@@ -13,9 +13,10 @@ body,
     /* > 说明文字 */
 .vp-doc blockquote p,
     /* ::: 块状文字 ::: */
-.vp-doc .custom-block p {
+.vp-doc .custom-block p,
+.vp-doc table * {
     line-height: 1.6;
-    font-size: 20px;
+    font-size: 18px;
     -webkit-text-size-adjust: 100%;
 }
 
