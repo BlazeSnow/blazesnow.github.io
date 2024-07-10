@@ -140,9 +140,14 @@ export default defineConfig({
 						activeMatch: '/VitePress建站教程'
 					},
 					{
+						text: '部署网站至服务器',
+						link: '/部署网站至服务器/',
+						activeMatch: '/部署网站至服务器'
+					},
+					{
 						text: '更新日志',
 						link: '/更新日志/',
-						activeMatch: '/CHANGELOG'
+						activeMatch: '/更新日志'
 					},
 					{
 						text: '我的GitHub',
@@ -285,6 +290,18 @@ export default defineConfig({
 						{text: '检查必须文件', link: '/VitePress建站教程/检查必须文件'},
 						{text: '发布网站', link: '/VitePress建站教程/发布网站'},
 						{text: '进阶操作', link: '/VitePress建站教程/进阶操作'}
+					]
+				}
+			],
+			'/部署网站至服务器/': [
+				{
+					text: '部署网站至服务器',
+					items: [
+						{text: '前言', link: '/部署网站至服务器/'},
+						{text: '安装环境', link: '/部署网站至服务器/安装环境'},
+						{text: '引入仓库', link: '/部署网站至服务器/引入仓库'},
+						{text: '配置nginx', link: '/部署网站至服务器/配置nginx'},
+						{text: '维护网站', link: '/部署网站至服务器/维护网站'},
 					]
 				}
 			],
