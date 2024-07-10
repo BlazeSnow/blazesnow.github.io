@@ -103,45 +103,45 @@ export default defineConfig({
 			},
 			{
 				text: 'Windows相关',
-				link: '/Windows/',
-				activeMatch: '/Windows'
+				link: '/Windows相关/',
+				activeMatch: '/Windows相关'
 			},
 			{
 				text: 'DNS加密',
-				link: '/DNSSEC/',
-				activeMatch: '/DNSSEC'
+				link: '/DNS加密/',
+				activeMatch: '/DNS加密'
 			},
 			{
 				text: 'Ubuntu相关',
-				link: '/Ubuntu/安装Ubuntu',
-				activeMatch: '/Ubuntu'
+				link: '/Ubuntu相关/安装Ubuntu',
+				activeMatch: '/Ubuntu相关'
 			},
 			{
 				text: '更多',
 				items: [
 					{
 						text: '原生安卓',
-						link: '/Android/WiFi感叹号',
-						activeMatch: '/Android'
+						link: '/原生安卓/WiFi感叹号',
+						activeMatch: '/原生安卓'
 					},
 					{
 						text: 'Nodejs相关',
-						link: '/Nodejs/安装Nodejs',
-						activeMatch: '/Nodejs'
+						link: '/Nodejs相关/安装Nodejs',
+						activeMatch: '/Nodejs相关'
 					},
 					{
 						text: 'Docsify建站教程',
-						link: '/Docsify/',
-						activeMatch: '/Docsify'
+						link: '/Docsify建站教程/',
+						activeMatch: '/Docsify建站教程'
 					},
 					{
 						text: 'VitePress建站教程',
-						link: '/VitePress/安装Nodejs',
-						activeMatch: '/VitePress'
+						link: '/VitePress建站教程/安装Nodejs',
+						activeMatch: '/VitePress建站教程'
 					},
 					{
 						text: '更新日志',
-						link: '/CHANGELOG/',
+						link: '/更新日志/',
 						activeMatch: '/CHANGELOG'
 					},
 					{
@@ -152,139 +152,139 @@ export default defineConfig({
 			}
 		],
 		sidebar: {
-			'/CHANGELOG/': [
+			'/更新日志/': [
 				{
 					text: '更新日志',
 					items: [
-						{text: '2024年7月', link: '/CHANGELOG/'},
-						{text: '2024年6月', link: '/CHANGELOG/2024年6月'},
-						{text: '2024年5月', link: '/CHANGELOG/2024年5月'},
+						{text: '2024年7月', link: '/更新日志/'},
+						{text: '2024年6月', link: '/更新日志/2024年6月'},
+						{text: '2024年5月', link: '/更新日志/2024年5月'},
 					]
 				}
 			],
-			'/Windows/': [
+			'/Windows相关/': [
 				{
 					text: 'Windows相关',
 					items: [
-						{text: '前言', link: '/Windows/'},
+						{text: '前言', link: '/Windows相关/'},
 						{
 							text: '系统',
 							collapsed: true,
 							items: [
-								{text: '更新Windows', link: '/Windows/更新Windows'},
-								{text: '系统修复', link: '/Windows/系统修复'},
-								{text: '系统重新安装', link: '/Windows/系统重新安装'},
-								{text: '查看蓝屏文件', link: '/Windows/查看蓝屏文件'},
+								{text: '更新Windows', link: '/Windows相关/更新Windows'},
+								{text: '系统修复', link: '/Windows相关/系统修复'},
+								{text: '系统重新安装', link: '/Windows相关/系统重新安装'},
+								{text: '查看蓝屏文件', link: '/Windows相关/查看蓝屏文件'},
 							]
 						},
 						{
 							text: '运行库',
 							collapsed: true,
 							items: [
-								{text: '安装C++运行库', link: '/Windows/安装C++运行库'},
-								{text: '安装.NET', link: '/Windows/安装.NET'},
+								{text: '安装C++运行库', link: '/Windows相关/安装C++运行库'},
+								{text: '安装.NET', link: '/Windows相关/安装.NET'},
 							]
 						},
 						{
 							text: '文件资源管理器',
 							collapsed: true,
 							items: [
-								{text: '显示后缀名和隐藏文件', link: '/Windows/显示后缀名和隐藏文件'},
-								{text: '创建App的快捷方式', link: '/Windows/创建App的快捷方式'},
-								{text: '重启文件资源管理器', link: '/Windows/重启文件资源管理器'},
-								{text: '删除新建文件类型', link: '/Windows/删除新建文件类型'},
-								{text: '删除右键菜单项', link: '/Windows/删除右键菜单项'},
-								{text: '修复桌面图标', link: '/Windows/修复桌面图标'},
+								{text: '显示后缀名和隐藏文件', link: '/Windows相关/显示后缀名和隐藏文件'},
+								{text: '创建App的快捷方式', link: '/Windows相关/创建App的快捷方式'},
+								{text: '重启文件资源管理器', link: '/Windows相关/重启文件资源管理器'},
+								{text: '删除新建文件类型', link: '/Windows相关/删除新建文件类型'},
+								{text: '删除右键菜单项', link: '/Windows相关/删除右键菜单项'},
+								{text: '修复桌面图标', link: '/Windows相关/修复桌面图标'},
 							]
 						},
 						{
 							text: '网络',
 							collapsed: true,
 							items: [
-								{text: '应用最新TLS', link: '/Windows/应用最新TLS'},
+								{text: '应用最新TLS', link: '/Windows相关/应用最新TLS'},
 							]
 						},
-						{text: '磁盘清理', link: '/Windows/磁盘清理'},
-						{text: '系统配置', link: '/Windows/系统配置'},
-						{text: '清理软件卸载残留', link: '/Windows/清理软件卸载残留'},
-						{text: '计算哈希值', link: '/Windows/计算哈希值'}
+						{text: '磁盘清理', link: '/Windows相关/磁盘清理'},
+						{text: '系统配置', link: '/Windows相关/系统配置'},
+						{text: '清理软件卸载残留', link: '/Windows相关/清理软件卸载残留'},
+						{text: '计算哈希值', link: '/Windows相关/计算哈希值'}
 					]
 				}
 			],
-			'/DNSSEC/': [
+			'/DNS加密/': [
 				{
 					text: 'DNS加密',
 					items: [
-						{text: '前言', link: '/DNSSEC/'},
-						{text: 'Windows设备：DOH', link: '/DNSSEC/Windows设备：DOH'},
-						{text: 'Windows设备：模板', link: '/DNSSEC/Windows设备：模板'},
-						{text: 'Android设备：DOT', link: '/DNSSEC/Android设备：DOT'},
-						{text: 'Apple设备：DOH', link: '/DNSSEC/Apple设备：DOH'},
-						{text: 'DNS大全', link: '/DNSSEC/DNS大全'}]
+						{text: '前言', link: '/DNS加密/'},
+						{text: 'Windows设备：DOH', link: '/DNS加密/Windows设备：DOH'},
+						{text: 'Windows设备：模板', link: '/DNS加密/Windows设备：模板'},
+						{text: 'Android设备：DOT', link: '/DNS加密/Android设备：DOT'},
+						{text: 'Apple设备：DOH', link: '/DNS加密/Apple设备：DOH'},
+						{text: 'DNS大全', link: '/DNS加密/DNS大全'}]
 				}
 			],
-			'/Nodejs/': [
+			'/Nodejs相关/': [
 				{
 					text: 'Nodejs相关',
 					items: [
-						{text: '安装Nodejs', link: '/Nodejs/安装Nodejs'},
-						{text: '引入npm', link: '/Nodejs/引入npm'},
-						{text: '管理npm包', link: '/Nodejs/管理npm包'},
-						{text: 'npm后缀', link: '/Nodejs/npm后缀'}
+						{text: '安装Nodejs', link: '/Nodejs相关/安装Nodejs'},
+						{text: '引入npm', link: '/Nodejs相关/引入npm'},
+						{text: '管理npm包', link: '/Nodejs相关/管理npm包'},
+						{text: 'npm后缀', link: '/Nodejs相关/npm后缀'}
 					]
 				}
 			],
-			'/Ubuntu/': [
+			'/Ubuntu相关/': [
 				{
 					text: 'Ubuntu相关',
 					items: [
-						{text: '安装Ubuntu', link: '/Ubuntu/安装Ubuntu'},
-						{text: '检查磁盘类型', link: '/Ubuntu/检查磁盘类型'},
-						{text: '安装分区推荐', link: '/Ubuntu/安装分区推荐'},
-						{text: 'apt', link: '/Ubuntu/apt'},
-						{text: 'dpkg', link: '/Ubuntu/dpkg'},
-						{text: '无法更新SnapStore', link: '/Ubuntu/无法更新SnapStore'},
-						{text: '双系统的时间差8小时', link: '/Ubuntu/双系统的时间差8小时'},
-						{text: 'Server安装桌面', link: '/Ubuntu/Server安装桌面'}]
+						{text: '安装Ubuntu', link: '/Ubuntu相关/安装Ubuntu'},
+						{text: '检查磁盘类型', link: '/Ubuntu相关/检查磁盘类型'},
+						{text: '安装分区推荐', link: '/Ubuntu相关/安装分区推荐'},
+						{text: 'apt', link: '/Ubuntu相关/apt'},
+						{text: 'dpkg', link: '/Ubuntu相关/dpkg'},
+						{text: '无法更新SnapStore', link: '/Ubuntu相关/无法更新SnapStore'},
+						{text: '双系统的时间差8小时', link: '/Ubuntu相关/双系统的时间差8小时'},
+						{text: 'Server安装桌面', link: '/Ubuntu相关/Server安装桌面'}]
 				}
 			],
-			'/Android/': [
+			'/原生安卓/': [
 				{
 					text: '原生安卓',
 					items: [
-						{text: 'WiFi感叹号', link: '/Android/WiFi感叹号'},
-						{text: '时间同步', link: '/Android/时间同步'}]
+						{text: 'WiFi感叹号', link: '/原生安卓/WiFi感叹号'},
+						{text: '时间同步', link: '/原生安卓/时间同步'}]
 				}
 			],
-			'/Docsify/': [
+			'/Docsify建站教程/': [
 				{
 					text: 'Docsify建站教程',
 					items: [
-						{text: '前言', link: '/Docsify/'},
-						{text: '安装Nodejs', link: '/Docsify/安装Nodejs'},
-						{text: '安装Docsify', link: '/Docsify/安装Docsify'},
-						{text: '开始建网站', link: '/Docsify/开始建网站'},
-						{text: '填充index', link: '/Docsify/填充index'},
-						{text: '本地化css和js', link: '/Docsify/本地化css和js'},
-						{text: '运行网站', link: '/Docsify/运行网站'},
-						{text: '发布网站', link: '/Docsify/发布网站'},
-						{text: '进阶操作', link: '/Docsify/进阶操作'}]
+						{text: '前言', link: '/Docsify建站教程/'},
+						{text: '安装Nodejs', link: '/Docsify建站教程/安装Nodejs'},
+						{text: '安装Docsify', link: '/Docsify建站教程/安装Docsify'},
+						{text: '开始建网站', link: '/Docsify建站教程/开始建网站'},
+						{text: '填充index', link: '/Docsify建站教程/填充index'},
+						{text: '本地化css和js', link: '/Docsify建站教程/本地化css和js'},
+						{text: '运行网站', link: '/Docsify建站教程/运行网站'},
+						{text: '发布网站', link: '/Docsify建站教程/发布网站'},
+						{text: '进阶操作', link: '/Docsify建站教程/进阶操作'}]
 				}
 			],
-			'/VitePress/': [
+			'/VitePress建站教程/': [
 				{
 					text: 'VitePress建站教程',
 					items: [
-						{text: '安装Nodejs', link: '/VitePress/安装Nodejs'},
-						{text: '安装git', link: '/VitePress/安装git'},
-						{text: '安装VitePress', link: '/VitePress/安装VitePress'},
-						{text: 'VitePress建站引导', link: '/VitePress/VitePress建站引导'},
-						{text: '运行网站', link: '/VitePress/运行网站'},
-						{text: '添加GitHub排除目录', link: '/VitePress/添加GitHub排除目录'},
-						{text: '添加GitHub部署文件', link: '/VitePress/添加GitHub部署文件'},
-						{text: '检查必须文件', link: '/VitePress/检查必须文件'},
-						{text: '发布网站', link: '/VitePress/发布网站'},
-						{text: '进阶操作', link: '/VitePress/进阶操作'}
+						{text: '安装Nodejs', link: '/VitePress建站教程/安装Nodejs'},
+						{text: '安装git', link: '/VitePress建站教程/安装git'},
+						{text: '安装VitePress', link: '/VitePress建站教程/安装VitePress'},
+						{text: 'VitePress建站引导', link: '/VitePress建站教程/VitePress建站引导'},
+						{text: '运行网站', link: '/VitePress建站教程/运行网站'},
+						{text: '添加GitHub排除目录', link: '/VitePress建站教程/添加GitHub排除目录'},
+						{text: '添加GitHub部署文件', link: '/VitePress建站教程/添加GitHub部署文件'},
+						{text: '检查必须文件', link: '/VitePress建站教程/检查必须文件'},
+						{text: '发布网站', link: '/VitePress建站教程/发布网站'},
+						{text: '进阶操作', link: '/VitePress建站教程/进阶操作'}
 					]
 				}
 			],
