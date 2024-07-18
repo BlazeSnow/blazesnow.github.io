@@ -4,6 +4,7 @@ layout: home
 hero:
   name: "BlazeSnow帮助网站"
   text: "专注于分享知识"
+  tagline:
 
 features:
   - icon: 💻
