@@ -18,6 +18,9 @@ export default defineConfig({
 	],
 	//用JavaScript块加载界面，减少带宽
 	metaChunk: true,
+	sitemap: {
+		hostname: 'https://blazesnow.com/'
+	},
 	//markdown配置
 	markdown: {
 		//显示行号
