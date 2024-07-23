@@ -235,7 +235,8 @@ export default defineConfig({
 						{text: '安装Nodejs', link: '/Nodejs相关/安装Nodejs'},
 						{text: '引入npm', link: '/Nodejs相关/引入npm'},
 						{text: '管理npm包', link: '/Nodejs相关/管理npm包'},
-						{text: 'npm后缀', link: '/Nodejs相关/npm后缀'}
+						{text: 'npm后缀', link: '/Nodejs相关/npm后缀'},
+						{text: 'npm换源', link: '/Nodejs相关/npm换源'},
 					]
 				}
 			],
