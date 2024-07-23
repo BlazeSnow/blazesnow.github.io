@@ -1,4 +1,4 @@
-// noinspection JSUnusedGlobalSymbols
+// noinspection JSUnusedGlobalSymbols,JSNonASCIINames
 
 import {defineConfig} from 'vitepress'
 
@@ -326,8 +326,8 @@ export default defineConfig({
 		},
 		//主页页脚
 		footer: {
-			message: '本网站以<a href="/gpl.html" target="_blank">GNU General Public License v3.0</a>的条款发布。',
-			copyright: 'Copyright © 2024-present <a href="https://github.com/BlazeSnow" target="_blank">BlazeSnow</a>. 保留所有权利。'
+			message: '本网站以<a href="/gpl.html" target="_blank">GPLv3</a>的条款发布。粤ICP备<a href="https://beian.miit.gov.cn/" target="_blank">2024284878</a>号。',
+			copyright: 'Copyright © 2024 <a href="https://github.com/BlazeSnow" target="_blank">BlazeSnow</a>. 保留所有权利。'
 		}
 	}
 })
