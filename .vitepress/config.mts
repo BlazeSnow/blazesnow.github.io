@@ -153,8 +153,8 @@ export default defineConfig({
 						activeMatch: '/更新日志'
 					},
 					{
-						text: '我的GitHub',
-						link: 'https://github.com/blazesnow'
+						text: '关于本站',
+						link: 'about'
 					}
 				]
 			}
