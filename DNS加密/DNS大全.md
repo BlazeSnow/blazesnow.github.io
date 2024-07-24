@@ -1,11 +1,14 @@
 ---
-lastUpdated: 2024-6-16T17:18:00+8:00
+lastUpdated: 2024-7-24T14:21:00+8:00
+aside: false
 ---
 
 # DNS大全
 
-|            |   DNS 1   |   DNS 2   |                  DOH                   |        DOT         |
-|:----------:|:---------:|:---------:|:--------------------------------------:|:------------------:|
-|  Alibaba   | 223.5.5.5 | 223.6.6.6 |   <https://dns.alidns.com/dns-query>   |   dns.alidns.com   |
-|   Google   |  8.8.8.8  |  8.8.4.4  |     <https://dns.google/dns-query>     |     dns.google     |
-| CloudFlare |  1.1.1.1  |  1.0.0.1  | <https://cloudflare-dns.com/dns-query> | cloudflare-dns.com |
+|                             |                                                   |
+|:---------------------------:|:-------------------------------------------------:|
+|          阿里云公共DNS           |             <https://www.alidns.com>              |
+|      DNSPod Public DNS      |    <https://www.dnspod.cn/products/publicdns>     |
+|        Google 公共 DNS        |  <https://developers.google.cn/speed/public-dns>  |
+| Cloudflare 1.1.1.1 resolver | <https://developers.cloudflare.com/1.1.1.1/setup> |
+|            Quad9            |              <https://www.quad9.net>              |
