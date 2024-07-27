@@ -330,7 +330,7 @@ export default defineConfig({
 		},
 		//主页页脚
 		footer: {
-			message: '本网站以<a href="/gpl.html" target="_blank">GNU General Public License v3.0</a>的条款发布。<br><a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2024284878号</a>。',
+			message: '本网站以<a href="/gpl-3.0.txt" target="_blank">GNU General Public License v3.0</a>的条款发布。<br><a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2024284878号</a>。',
 			copyright: 'Copyright © 2024 <a href="https://github.com/BlazeSnow" target="_blank">BlazeSnow</a>. 保留所有权利。'
 		}
 	}
