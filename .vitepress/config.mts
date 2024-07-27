@@ -146,7 +146,12 @@ export default defineConfig({
 						text: '部署网站至服务器',
 						link: '/部署网站至服务器/',
 						activeMatch: '/部署网站至服务器'
-					},
+					}
+				]
+			},
+			{
+				text: '关于',
+				items: [
 					{
 						text: '更新日志',
 						link: '/更新日志/',
