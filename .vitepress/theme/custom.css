@@ -10,9 +10,9 @@
 /* 大部分文字 */
 html,
 body,
-    /* > 说明文字 */
+/* > 说明文字 */
 .vp-doc blockquote p,
-    /* ::: 块状文字 ::: */
+/* ::: 块状文字 ::: */
 .vp-doc .custom-block p,
 .vp-doc table * {
     line-height: 1.6;
@@ -32,7 +32,7 @@ body,
 
 /* 导航栏 */
 div.content-body *,
-    /* 导航栏展开 */
+/* 导航栏展开 */
 div.menu div.items * {
     font-size: 16px;
 }
