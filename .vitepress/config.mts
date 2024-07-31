@@ -311,6 +311,7 @@ export default defineConfig({
 						{ text: '引入仓库', link: '/部署网站至服务器/引入仓库' },
 						{ text: '配置nginx', link: '/部署网站至服务器/配置nginx' },
 						{ text: '维护网站', link: '/部署网站至服务器/维护网站' },
+						{ text: 'ICP备案', link: '/部署网站至服务器/ICP备案' },
 					]
 				}
 			],
