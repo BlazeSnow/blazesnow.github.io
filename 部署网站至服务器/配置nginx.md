@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2024-7-27T14:19:00+8:00
+lastUpdated: 2024-7-31T14:43:00+8:00
 ---
 
 # 配置nginx
@@ -18,17 +18,33 @@ lastUpdated: 2024-7-27T14:19:00+8:00
 
 ```txt
 server {
-	listen 80;
-	listen [::]:80;
+    gzip on;
+    gzip_types text/plain text/css application/json application/javascript text/xml application/xml application/xml+rss text/javascript;
 
-	server_name <网页最终的链接地址1> <网页最终的链接地址2>;
+    listen 80;
+    server_name <网页最终的链接地址1> <网页最终的链接地址2>;
+    index index.html;
 
-	root /var/<此处替换为GitHub仓库名称>/.vitepress/dist;
-	index index.html;
+    location / {
+        # content location
+        root /var/<此处替换为GitHub仓库名称>/.vitepress/dist;
 
-	location / {
-		try_files $uri $uri/ =404;
-	}
+        # exact matches -> reverse clean urls -> folders -> not found
+        try_files $uri $uri.html $uri/ =404;
+
+        # non existent pages
+        error_page 404 /404.html;
+
+        # a folder without index.html raises 403 in this setup
+        error_page 403 /404.html;
+
+        # adjust caching headers
+        # files in the assets folder have hashes filenames
+        location ~* ^/assets/ {
+            expires 1y;
+            add_header Cache-Control "public, immutable";
+        }
+    }
 }
 ```
 
