@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2024-7-31T14:43:00+8:00
+lastUpdated: 2024-8-1T14:30:00+8:00
 ---
 
 # 配置nginx
@@ -10,13 +10,9 @@ lastUpdated: 2024-7-31T14:43:00+8:00
 
 ## 配置文件内容
 
-::: info 提示
-替换内容时删除尖括号！
-:::
+> 网页最终的链接地址即```服务器IP```，如果有域名指向服务器，则填写```域名```，多个链接地址之间以空格隔开，也可以直接填写```_```
 
-> 网页最终的链接地址即```服务器IP```，如果有域名指向服务器，则填写```域名```，多个链接地址之间以空格隔开
-
-```txt
+```nginx
 server {
     gzip on;
     gzip_types text/plain text/css application/json application/javascript text/xml application/xml application/xml+rss text/javascript;
@@ -27,7 +23,7 @@ server {
 
     location / {
         # content location
-        root /var/<此处替换为GitHub仓库名称>/.vitepress/dist;
+        root /var/<GitHub仓库名称>/.vitepress/dist;
 
         # exact matches -> reverse clean urls -> folders -> not found
         try_files $uri $uri.html $uri/ =404;
