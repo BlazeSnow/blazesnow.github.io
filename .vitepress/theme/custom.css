@@ -52,3 +52,19 @@ div.menu div.items * {
 .VPDocOutlineItem.root * {
     font-size: 16px;
 }
+
+/* 备案：总体信息 */
+.beian {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    font-size: 14px;
+}
+
+/* 备案：公安备案图标 */
+.beian img {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
