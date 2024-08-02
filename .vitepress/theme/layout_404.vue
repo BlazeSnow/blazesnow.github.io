@@ -32,6 +32,7 @@ const { Layout } = DefaultTheme
 </template>
 
 <style scoped>
+
 /* 404页面的页面格式 */
 
 div.NotFound {
