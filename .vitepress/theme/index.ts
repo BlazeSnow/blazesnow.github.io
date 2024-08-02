@@ -1,8 +1,8 @@
 import DefaultTheme from 'vitepress/theme'
 import './custom.css'
-import Layout from './Layout.vue'
+import layout_404 from './404.vue'
 
 export default {
 	extends: DefaultTheme,
-	Layout
+	Layout: layout_404
 }
