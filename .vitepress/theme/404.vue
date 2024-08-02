@@ -6,7 +6,6 @@ const { Layout } = DefaultTheme
 
 <template>
   <Layout>
-    <!-- 404页面 -->
     <template #not-found>
       <div id="VPContent" class="VPContent">
         <div class="NotFound">
@@ -32,9 +31,6 @@ const { Layout } = DefaultTheme
 </template>
 
 <style scoped>
-
-/* 404页面的页面格式 */
-
 div.NotFound {
   padding: 64px 24px 96px;
   text-align: center;
@@ -88,6 +84,4 @@ div.NotFound a.VPButton.medium.brand {
   color: var(--vp-button-brand-text);
   background-color: var(--vp-button-brand-bg);
 }
-
-/* 上面都是404页面的样式 */
 </style>
