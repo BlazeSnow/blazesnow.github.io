@@ -146,7 +146,12 @@ export default defineConfig({
 						text: '部署网站至服务器',
 						link: '/部署网站至服务器/',
 						activeMatch: '/部署网站至服务器'
-					}
+					},
+					{
+						text: 'Docker相关',
+						link: '/Docker相关/',
+						activeMatch: '/Docker相关'
+					},
 				]
 			},
 			{
@@ -319,6 +324,18 @@ export default defineConfig({
 					]
 				}
 			],
+			'/Docker相关/': [
+				{
+					text: 'Docker相关',
+					items: [
+						{ text: '前言', link: '/Docker相关/' },
+						{ text: '运行Docker', link: '/Docker相关/运行Docker' },
+						{ text: 'Docker换源', link: '/Docker相关/Docker换源' },
+						{ text: '管理镜像', link: '/Docker相关/管理镜像' },
+						{ text: '管理容器', link: '/Docker相关/管理容器' },
+					]
+				}
+			]
 		},
 		//上次更新于
 		lastUpdated: {
