@@ -39,12 +39,15 @@ div.menu div.items * {
 
 /* 最后更新于 */
 .last-updated .VPLastUpdated {
+    line-height: 1.6;
     font-size: 16px;
 }
 
 /* 编辑链接 */
 .edit-link .edit-link-button {
+    line-height: 1.6;
     font-size: 16px;
+    color: var(--vp-c-text-2);
 }
 
 /* 最底下上一篇下一篇 */
