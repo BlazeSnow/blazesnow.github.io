@@ -152,6 +152,11 @@ export default defineConfig({
 						link: '/Docker相关/',
 						activeMatch: '/Docker相关'
 					},
+					{
+						text: 'git相关',
+						link: '/git相关/',
+						activeMatch: '/git相关'
+					},
 				]
 			},
 			{
@@ -334,6 +339,14 @@ export default defineConfig({
 						{ text: 'Docker换源', link: '/Docker相关/Docker换源' },
 						{ text: '管理镜像', link: '/Docker相关/管理镜像' },
 						{ text: '管理容器', link: '/Docker相关/管理容器' },
+					]
+				}
+			],
+			'/git相关/': [
+				{
+					text: 'git相关',
+					items: [
+						{ text: '前言', link: '/git相关/' },
 					]
 				}
 			]
