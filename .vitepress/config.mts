@@ -368,7 +368,7 @@ export default defineConfig({
 				hour: "numeric",
 				minute: "numeric",
 				second: undefined,
-				timeZoneName: "long",
+				timeZoneName: "shortGeneric",
 				formatMatcher: "best fit",
 				timeZone: "Asia/Chongqing"
 			}
