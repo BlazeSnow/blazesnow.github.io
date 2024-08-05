@@ -349,6 +349,7 @@ export default defineConfig({
 						{ text: '前言', link: '/git相关/' },
 						{ text: '安装git', link: '/git相关/安装git' },
 						{ text: '处理仓库', link: '/git相关/处理仓库' },
+						{ text: '处理远程仓库', link: '/git相关/处理远程仓库' },
 					]
 				}
 			]
