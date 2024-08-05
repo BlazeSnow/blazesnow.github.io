@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2024-6-10T15:42:00+8:00
+lastUpdated: 2024-8-5T19:01:00+8:00
 ---
 
 # 更新Windows
@@ -12,7 +12,7 @@ lastUpdated: 2024-6-10T15:42:00+8:00
 
 ## 通过ISO文件
 
-见[系统重新安装](/Windows相关/系统重新安装.md)
+见<a href="/Windows相关/系统重新安装" target="_blank">系统重新安装</a>
 
 ## 通过Windows Update
 
