@@ -353,6 +353,14 @@ export default defineConfig({
 						{ text: '处理分支', link: '/git相关/处理分支' },
 					]
 				}
+			],
+			'/CMake相关/': [
+				{
+					text: 'CMake相关',
+					items: [
+						{ text: '前言', link: '/CMake相关/' },
+					]
+				}
 			]
 		},
 		//上次更新于
