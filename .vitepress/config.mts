@@ -157,6 +157,11 @@ export default defineConfig({
 						link: '/git相关/',
 						activeMatch: '/git相关'
 					},
+					{
+						text: 'CMake相关',
+						link: '/CMake相关/',
+						activeMatch: '/CMake相关'
+					},
 				]
 			},
 			{
