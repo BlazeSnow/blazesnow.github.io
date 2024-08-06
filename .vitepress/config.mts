@@ -364,6 +364,7 @@ export default defineConfig({
 					text: 'CMake相关',
 					items: [
 						{ text: '前言', link: '/CMake相关/' },
+						{ text: '安装环境', link: '/CMake相关/安装环境' },
 					]
 				}
 			]
