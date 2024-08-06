@@ -157,6 +157,11 @@ export default defineConfig({
 						link: '/git相关/',
 						activeMatch: '/git相关'
 					},
+					{
+						text: 'CMake相关',
+						link: '/CMake相关/',
+						activeMatch: '/CMake相关'
+					},
 				]
 			},
 			{
@@ -351,6 +356,17 @@ export default defineConfig({
 						{ text: '处理仓库', link: '/git相关/处理仓库' },
 						{ text: '处理远程仓库', link: '/git相关/处理远程仓库' },
 						{ text: '处理分支', link: '/git相关/处理分支' },
+					]
+				}
+			],
+			'/CMake相关/': [
+				{
+					text: 'CMake相关',
+					items: [
+						{ text: '前言', link: '/CMake相关/' },
+						{ text: '安装环境', link: '/CMake相关/安装环境' },
+						{ text: '安装编辑器', link: '/CMake相关/安装编辑器' },
+						{ text: '添加配置文件', link: '/CMake相关/添加配置文件' },
 					]
 				}
 			]
