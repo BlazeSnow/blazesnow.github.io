@@ -1,5 +1,3 @@
-// noinspection JSUnusedGlobalSymbols,JSNonASCIINames
-
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
@@ -107,17 +105,17 @@ export default defineConfig({
 			{
 				text: 'Windows相关',
 				link: '/Windows相关/',
-				activeMatch: '/Windows相关'
+				activeMatch: '/Windows相关/'
 			},
 			{
 				text: 'DNS加密',
 				link: '/DNS加密/',
-				activeMatch: '/DNS加密'
+				activeMatch: '/DNS加密/'
 			},
 			{
 				text: 'Ubuntu相关',
 				link: '/Ubuntu相关/安装Ubuntu',
-				activeMatch: '/Ubuntu相关'
+				activeMatch: '/Ubuntu相关/'
 			},
 			{
 				text: '更多',
@@ -125,42 +123,42 @@ export default defineConfig({
 					{
 						text: '原生安卓',
 						link: '/原生安卓/WiFi感叹号',
-						activeMatch: '/原生安卓'
+						activeMatch: '/原生安卓/'
 					},
 					{
 						text: 'Nodejs相关',
 						link: '/Nodejs相关/安装Nodejs',
-						activeMatch: '/Nodejs相关'
+						activeMatch: '/Nodejs相关/'
 					},
 					{
 						text: 'Docsify建站教程',
 						link: '/Docsify建站教程/',
-						activeMatch: '/Docsify建站教程'
+						activeMatch: '/Docsify建站教程/'
 					},
 					{
 						text: 'VitePress建站教程',
 						link: '/VitePress建站教程/安装Nodejs',
-						activeMatch: '/VitePress建站教程'
+						activeMatch: '/VitePress建站教程/'
 					},
 					{
 						text: '部署网站至服务器',
 						link: '/部署网站至服务器/',
-						activeMatch: '/部署网站至服务器'
+						activeMatch: '/部署网站至服务器/'
 					},
 					{
 						text: 'Docker相关',
 						link: '/Docker相关/',
-						activeMatch: '/Docker相关'
+						activeMatch: '/Docker相关/'
 					},
 					{
 						text: 'Git相关',
 						link: '/Git相关/',
-						activeMatch: '/Git相关'
+						activeMatch: '/Git相关/'
 					},
 					{
 						text: 'CMake相关',
 						link: '/CMake相关/',
-						activeMatch: '/CMake相关'
+						activeMatch: '/CMake相关/'
 					},
 				]
 			},
