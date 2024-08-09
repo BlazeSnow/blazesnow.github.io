@@ -97,6 +97,13 @@ export default defineConfig({
 				}
 			}
 		},
+		// notFound: {
+		// 	title: '页面未找到',
+		// 	quote: '抱歉，没有找到您需要的页面',
+		// 	linkLabel: '回到主页',
+		// 	linkText: '回到主页',
+		// 	code: '404',
+		// },
 		nav: [
 			{
 				text: '主页',
@@ -383,9 +390,11 @@ export default defineConfig({
 				hour: "numeric",
 				minute: "numeric",
 				second: undefined,
+				hour12: true,
 				timeZoneName: "long",
 				formatMatcher: "best fit",
-				timeZone: "Asia/Chongqing"
+				timeZone: "Asia/Chongqing",
+				forceLocale: true,
 			}
 		},
 		//主页页脚
