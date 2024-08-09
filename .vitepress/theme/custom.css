@@ -17,7 +17,6 @@ body,
 .vp-doc table * {
     line-height: 1.6;
     font-size: 18px;
-    -webkit-text-size-adjust: 100%;
 }
 
 /* 侧边栏 */
@@ -27,6 +26,7 @@ body,
 .VPSidebarItem.level-3 *,
 .VPSidebarItem.level-4 *,
 .VPSidebarItem.level-5 * {
+    line-height: 1.6;
     font-size: 16px;
 }
 
@@ -34,20 +34,8 @@ body,
 div.content-body *,
 /* 导航栏展开 */
 div.menu div.items * {
-    font-size: 16px;
-}
-
-/* 最后更新于 */
-.last-updated .VPLastUpdated {
     line-height: 1.6;
     font-size: 16px;
-}
-
-/* 编辑链接 */
-.edit-link .edit-link-button {
-    line-height: 1.6;
-    font-size: 16px;
-    color: var(--vp-c-text-2);
 }
 
 /* 最底下上一篇下一篇 */
@@ -58,5 +46,6 @@ div.menu div.items * {
 
 /* 右边的小目录 */
 .VPDocOutlineItem.root * {
+    line-height: 2.0;
     font-size: 16px;
 }
