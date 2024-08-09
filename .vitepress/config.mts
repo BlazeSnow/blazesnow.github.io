@@ -357,6 +357,7 @@ export default defineConfig({
 						{ text: '处理远程仓库', link: '/Git相关/处理远程仓库' },
 						{ text: '处理分支', link: '/Git相关/处理分支' },
 						{ text: 'SSH连接仓库', link: '/Git相关/SSH连接仓库' },
+						{ text: '区分大小写', link: '/Git相关/区分大小写' },
 					]
 				}
 			],
