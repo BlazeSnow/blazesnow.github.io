@@ -399,7 +399,7 @@ export default defineConfig({
 		},
 		editLink: {
 			pattern: 'https://github.com/blazesnow/blazesnow.github.io/tree/main/:path',
-			text: '前往GitHub查看此页内容'
+			text: '在GitHub上编辑此页面'
 		}
 	}
 })
