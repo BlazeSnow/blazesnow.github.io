@@ -153,9 +153,9 @@ export default defineConfig({
 						activeMatch: '/Docker相关'
 					},
 					{
-						text: 'git相关',
-						link: '/git相关/',
-						activeMatch: '/git相关'
+						text: 'Git相关',
+						link: '/Git相关/',
+						activeMatch: '/Git相关'
 					},
 					{
 						text: 'CMake相关',
@@ -347,15 +347,16 @@ export default defineConfig({
 					]
 				}
 			],
-			'/git相关/': [
+			'/Git相关/': [
 				{
-					text: 'git相关',
+					text: 'Git相关',
 					items: [
-						{ text: '前言', link: '/git相关/' },
-						{ text: '安装git', link: '/git相关/安装git' },
-						{ text: '处理仓库', link: '/git相关/处理仓库' },
-						{ text: '处理远程仓库', link: '/git相关/处理远程仓库' },
-						{ text: '处理分支', link: '/git相关/处理分支' },
+						{ text: '前言', link: '/Git相关/' },
+						{ text: '安装Git', link: '/Git相关/安装Git' },
+						{ text: '处理仓库', link: '/Git相关/处理仓库' },
+						{ text: '处理远程仓库', link: '/Git相关/处理远程仓库' },
+						{ text: '处理分支', link: '/Git相关/处理分支' },
+						{ text: 'SSH连接仓库', link: '/Git相关/SSH连接仓库' },
 					]
 				}
 			],

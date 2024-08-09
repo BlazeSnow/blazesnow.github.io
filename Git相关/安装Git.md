@@ -2,7 +2,7 @@
 lastUpdated: 2024-6-26T21:07:00+8:00
 ---
 
-# 安装git
+# 安装Git
 
 1. 打开网站：<https://git-scm.com/download/>
 2. 下载并安装
