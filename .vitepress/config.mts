@@ -115,22 +115,22 @@ export default defineConfig({
 					{
 						text: 'Windows相关',
 						link: '/Windows相关/',
-						activeMatch: '/Windows相关'
+						activeMatch: '/Windows相关/'
 					},
 					{
 						text: 'DNS加密',
 						link: '/DNS加密/',
-						activeMatch: '/DNS加密'
+						activeMatch: '/DNS加密/'
 					},
 					{
 						text: 'Ubuntu相关',
 						link: '/Ubuntu相关/安装Ubuntu',
-						activeMatch: '/Ubuntu相关'
+						activeMatch: '/Ubuntu相关/'
 					},
 					{
 						text: '原生安卓',
 						link: '/原生安卓/WiFi感叹号',
-						activeMatch: '/原生安卓'
+						activeMatch: '/原生安卓/'
 					},
 				]
 			},
@@ -185,11 +185,11 @@ export default defineConfig({
 					{
 						text: '更新日志',
 						link: '/更新日志/',
-						activeMatch: '/更新日志'
+						activeMatch: '/更新日志/'
 					},
 					{
 						text: '关于本站',
-						link: 'about'
+						link: '/about'
 					}
 				]
 			}
