@@ -110,47 +110,37 @@ export default defineConfig({
 				link: '/'
 			},
 			{
-				text: 'Windows相关',
-				link: '/Windows相关/',
-				activeMatch: '/Windows相关/'
-			},
-			{
-				text: 'DNS加密',
-				link: '/DNS加密/',
-				activeMatch: '/DNS加密/'
-			},
-			{
-				text: 'Ubuntu相关',
-				link: '/Ubuntu相关/安装Ubuntu',
-				activeMatch: '/Ubuntu相关/'
-			},
-			{
-				text: '更多',
+				text: '系统',
 				items: [
+					{
+						text: 'Windows相关',
+						link: '/Windows相关/',
+						activeMatch: '/Windows相关'
+					},
+					{
+						text: 'DNS加密',
+						link: '/DNS加密/',
+						activeMatch: '/DNS加密'
+					},
+					{
+						text: 'Ubuntu相关',
+						link: '/Ubuntu相关/安装Ubuntu',
+						activeMatch: '/Ubuntu相关'
+					},
 					{
 						text: '原生安卓',
 						link: '/原生安卓/WiFi感叹号',
-						activeMatch: '/原生安卓/'
+						activeMatch: '/原生安卓'
 					},
+				]
+			},
+			{
+				text: '开发者',
+				items: [
 					{
 						text: 'Nodejs相关',
 						link: '/Nodejs相关/安装Nodejs',
 						activeMatch: '/Nodejs相关/'
-					},
-					{
-						text: 'Docsify建站教程',
-						link: '/Docsify建站教程/',
-						activeMatch: '/Docsify建站教程/'
-					},
-					{
-						text: 'VitePress建站教程',
-						link: '/VitePress建站教程/安装Nodejs',
-						activeMatch: '/VitePress建站教程/'
-					},
-					{
-						text: '部署网站至服务器',
-						link: '/部署网站至服务器/',
-						activeMatch: '/部署网站至服务器/'
 					},
 					{
 						text: 'Docker相关',
@@ -166,6 +156,26 @@ export default defineConfig({
 						text: 'CMake相关',
 						link: '/CMake相关/',
 						activeMatch: '/CMake相关/'
+					},
+				]
+			},
+			{
+				text: '服务器',
+				items: [
+					{
+						text: 'Docsify建站教程',
+						link: '/Docsify建站教程/',
+						activeMatch: '/Docsify建站教程/'
+					},
+					{
+						text: 'VitePress建站教程',
+						link: '/VitePress建站教程/安装Nodejs',
+						activeMatch: '/VitePress建站教程/'
+					},
+					{
+						text: '部署网站至服务器',
+						link: '/部署网站至服务器/',
+						activeMatch: '/部署网站至服务器/'
 					},
 				]
 			},
