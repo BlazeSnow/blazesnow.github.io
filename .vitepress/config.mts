@@ -139,7 +139,7 @@ export default defineConfig({
 				items: [
 					{
 						text: 'Nodejs相关',
-						link: '/Nodejs相关/安装Nodejs',
+						link: '/Nodejs相关/',
 						activeMatch: '/Nodejs相关/'
 					},
 					{
@@ -271,6 +271,7 @@ export default defineConfig({
 				{
 					text: 'Nodejs相关',
 					items: [
+						{ text: '前言', link: '/Nodejs相关/' },
 						{ text: '安装Nodejs', link: '/Nodejs相关/安装Nodejs' },
 						{ text: '引入npm', link: '/Nodejs相关/引入npm' },
 						{ text: '管理npm包', link: '/Nodejs相关/管理npm包' },

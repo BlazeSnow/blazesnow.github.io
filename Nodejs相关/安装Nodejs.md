@@ -1,11 +1,8 @@
 ---
-lastUpdated: 2024-6-2T19:42:00+8:00
+lastUpdated: 2024-8-10T14:17:00+8:00
 ---
 
 # 安装Nodejs
-
-> Node.js®是一个免费、开源、跨平台的JavaScript运行时环境，
-> 允许开发人员创建服务器、web应用程序、命令行工具和脚本。
 
 1. 打开官网：<https://nodejs.org>
 2. 下载安装程序
