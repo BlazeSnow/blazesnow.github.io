@@ -177,6 +177,11 @@ export default defineConfig({
 						link: '/部署网站至服务器/',
 						activeMatch: '/部署网站至服务器/'
 					},
+					{
+						text: '搭建我的世界服务器',
+						link: '/搭建我的世界服务器/',
+						activeMatch: '/搭建我的世界服务器/'
+					},
 				]
 			},
 			{
@@ -411,6 +416,18 @@ export default defineConfig({
 						{ text: '安装环境', link: '/CMake相关/安装环境' },
 						{ text: '安装编辑器', link: '/CMake相关/安装编辑器' },
 						{ text: '添加配置文件', link: '/CMake相关/添加配置文件' },
+					]
+				}
+			],
+			'/搭建我的世界服务器/': [
+				{
+					text: '搭建我的世界服务器',
+					items: [
+						{ text: '前言', link: '/搭建我的世界服务器/' },
+						{ text: '安装环境', link: '/搭建我的世界服务器/安装环境' },
+						{ text: '引入文件', link: '/搭建我的世界服务器/引入文件' },
+						{ text: '开始运行', link: '/搭建我的世界服务器/开始运行' },
+						{ text: '维护服务器', link: '/搭建我的世界服务器/维护服务器' },
 					]
 				}
 			]
