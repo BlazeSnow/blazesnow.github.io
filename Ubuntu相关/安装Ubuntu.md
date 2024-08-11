@@ -4,9 +4,6 @@ lastUpdated: 2024-6-2T19:42:00+8:00
 
 # 安装Ubuntu
 
-> 快速、免费且充满新功能。最新版本的Ubuntu桌面版为开发人员、创作者、游戏玩家和系统管理员提供了新工具和增强功能。
-> 下载 Ubuntu桌面并替换您当前的操作系统或与之同时运行Ubuntu。
-
 1. 打开：<https://cn.ubuntu.com/download/desktop>
 2. 下载```.iso```镜像
 

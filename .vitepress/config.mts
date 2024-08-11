@@ -284,17 +284,43 @@ export default defineConfig({
 				{
 					text: 'Ubuntu相关',
 					items: [
-						{ text: '安装Ubuntu', link: '/Ubuntu相关/安装Ubuntu' },
-						{ text: '检查磁盘类型', link: '/Ubuntu相关/检查磁盘类型' },
-						{ text: '安装分区推荐', link: '/Ubuntu相关/安装分区推荐' },
-						{ text: 'apt', link: '/Ubuntu相关/apt' },
-						{ text: 'dpkg', link: '/Ubuntu相关/dpkg' },
+						{ text: 'Ubuntu相关', link: '/Ubuntu相关/' },
+						{
+							text: '系统',
+							collapsed: true,
+							items: [
+								{ text: '安装Ubuntu', link: '/Ubuntu相关/安装Ubuntu' },
+								{ text: '检查磁盘类型', link: '/Ubuntu相关/检查磁盘类型' },
+								{ text: '安装分区推荐', link: '/Ubuntu相关/安装分区推荐' },
+							]
+						},
+						{
+							text: '时间',
+							collapsed: true,
+							items: [
+								{ text: '同步系统时间', link: '/Ubuntu相关/同步系统时间' },
+								{ text: '双系统的时间差8小时', link: '/Ubuntu相关/双系统的时间差8小时' },
+							]
+						},
+						{
+							text: '文件处理',
+							collapsed: true,
+							items: [
+								{ text: '命令行处理文件', link: '/Ubuntu相关/命令行处理文件' },
+								{ text: '文件权限', link: '/Ubuntu相关/文件权限' },
+								{ text: '压缩文件', link: '/Ubuntu相关/压缩文件' },
+							]
+						},
+						{
+							text: '包管理',
+							collapsed: true,
+							items: [
+								{ text: 'apt', link: '/Ubuntu相关/apt' },
+								{ text: 'dpkg', link: '/Ubuntu相关/dpkg' },
+							]
+						},
 						{ text: '无法更新SnapStore', link: '/Ubuntu相关/无法更新SnapStore' },
-						{ text: '同步系统时间', link: '/Ubuntu相关/同步系统时间' },
-						{ text: '双系统的时间差8小时', link: '/Ubuntu相关/双系统的时间差8小时' },
 						{ text: 'Server安装桌面', link: '/Ubuntu相关/Server安装桌面' },
-						{ text: '命令行处理文件', link: '/Ubuntu相关/命令行处理文件' },
-						{ text: '文件权限', link: '/Ubuntu相关/文件权限' }
 					]
 				}
 			],
