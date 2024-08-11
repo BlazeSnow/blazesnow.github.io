@@ -124,7 +124,7 @@ export default defineConfig({
 					},
 					{
 						text: 'Ubuntu相关',
-						link: '/Ubuntu相关/安装Ubuntu',
+						link: '/Ubuntu相关/',
 						activeMatch: '/Ubuntu相关/'
 					},
 					{
@@ -284,7 +284,7 @@ export default defineConfig({
 				{
 					text: 'Ubuntu相关',
 					items: [
-						{ text: 'Ubuntu相关', link: '/Ubuntu相关/' },
+						{ text: '前言', link: '/Ubuntu相关/' },
 						{
 							text: '系统',
 							collapsed: true,
@@ -309,6 +309,7 @@ export default defineConfig({
 								{ text: '命令行处理文件', link: '/Ubuntu相关/命令行处理文件' },
 								{ text: '文件权限', link: '/Ubuntu相关/文件权限' },
 								{ text: '压缩文件', link: '/Ubuntu相关/压缩文件' },
+								{ text: '下载文件', link: '/Ubuntu相关/下载文件' },
 							]
 						},
 						{
