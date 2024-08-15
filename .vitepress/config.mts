@@ -12,7 +12,20 @@ export default defineConfig({
 		//网页logo
 		['link',
 			{ rel: 'icon', href: '/logo.ico' }
-		]
+		],
+		//谷歌分析
+		[
+			'script',
+			{ async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-LX7KWR6BSW' }
+		],
+		[
+			'script',
+			{},
+			`window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'G-LX7KWR6BSW');`
+		],
 	],
 	//用JavaScript块加载界面，减少带宽
 	metaChunk: true,
