@@ -12,12 +12,12 @@ export default defineConfig({
 		//网页logo
 		['link',
 			{ rel: 'icon', href: '/logo.ico' }
-		]
+		],
 	],
 	//用JavaScript块加载界面，减少带宽
 	metaChunk: true,
 	sitemap: {
-		hostname: 'https://blazesnow.com/'
+		hostname: 'https://www.blazesnow.com/'
 	},
 	//markdown配置
 	markdown: {
