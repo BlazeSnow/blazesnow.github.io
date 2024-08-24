@@ -1,4 +1,5 @@
 ---
+lastUpdated: false
 layout: home
 
 hero:
