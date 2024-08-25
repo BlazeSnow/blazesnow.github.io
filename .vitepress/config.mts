@@ -442,6 +442,11 @@ export default defineConfig({
 					items: [
 						{ text: '前言', link: '/部署Bitwarden密码服务/' },
 						{ text: '安装环境', link: '/部署Bitwarden密码服务/安装环境' },
+						{ text: '拉取镜像', link: '/部署Bitwarden密码服务/拉取镜像' },
+						{ text: 'SSL证书', link: '/部署Bitwarden密码服务/SSL证书' },
+						{ text: '配置文件', link: '/部署Bitwarden密码服务/配置文件' },
+						{ text: '开始运行', link: '/部署Bitwarden密码服务/开始运行' },
+						{ text: '维护服务', link: '/部署Bitwarden密码服务/维护服务' },
 					]
 				}
 			],
