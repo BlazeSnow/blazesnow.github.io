@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2024-8-25T16:13:00+8:00
-titleTemplate: ':title | 部署Bitwarden密码服务 | BlazeSnow帮助网站'
 ---
 
 # 前言
