@@ -1,6 +1,5 @@
 ---
 lastUpdated: false
-titleTemplate: 'BlazeSnow帮助网站'
 layout: home
 
 hero:
