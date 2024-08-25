@@ -182,6 +182,11 @@ export default defineConfig({
 						link: '/搭建我的世界服务器/',
 						activeMatch: '/搭建我的世界服务器/'
 					},
+					{
+						text: '部署Bitwarden密码服务',
+						link: '/部署Bitwarden密码服务/',
+						activeMatch: '/部署Bitwarden密码服务/'
+					},
 				]
 			},
 			{
@@ -430,7 +435,21 @@ export default defineConfig({
 						{ text: '维护服务器', link: '/搭建我的世界服务器/维护服务器' },
 					]
 				}
-			]
+			],
+			'/部署Bitwarden密码服务/': [
+				{
+					text: '部署Bitwarden密码服务',
+					items: [
+						{ text: '前言', link: '/部署Bitwarden密码服务/' },
+						{ text: '安装环境', link: '/部署Bitwarden密码服务/安装环境' },
+						{ text: '拉取镜像', link: '/部署Bitwarden密码服务/拉取镜像' },
+						{ text: 'SSL证书', link: '/部署Bitwarden密码服务/SSL证书' },
+						{ text: '配置文件', link: '/部署Bitwarden密码服务/配置文件' },
+						{ text: '开始运行', link: '/部署Bitwarden密码服务/开始运行' },
+						{ text: '维护服务', link: '/部署Bitwarden密码服务/维护服务' },
+					]
+				}
+			],
 		},
 		//上次更新于
 		lastUpdated: {

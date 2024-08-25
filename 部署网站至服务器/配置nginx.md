@@ -1,12 +1,13 @@
 ---
-lastUpdated: 2024-8-1T14:30:00+8:00
+lastUpdated: 2024-8-25T15:30:00+8:00
 ---
 
 # 配置nginx
 
 ## 配置文件地址
 
-```/etc/nginx/sites-available/default```
+- 文件目录：```/etc/nginx/sites-available```
+- 文件名：```default```
 
 ## 配置文件内容
 
