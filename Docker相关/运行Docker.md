@@ -1,13 +1,12 @@
 ---
-lastUpdated: 2024-8-4T12:52:00+8:00
+lastUpdated: 2024-8-26T10:00:00+8:00
 ---
 
 # 运行Docker
 
 ## 安装Docker
 
-- 较旧版本：```sudo apt install docker.io```
-- 推荐使用：```sudo apt install docker-ce```
+```sudo apt install docker.io```
 
 ## 启动Docker
 
