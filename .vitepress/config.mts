@@ -316,8 +316,10 @@ export default defineConfig({
 							text: '文件处理',
 							collapsed: true,
 							items: [
+								{ text: '命令行处理文件夹', link: '/Ubuntu相关/命令行处理文件夹' },
 								{ text: '命令行处理文件', link: '/Ubuntu相关/命令行处理文件' },
 								{ text: '文件权限', link: '/Ubuntu相关/文件权限' },
+								{ text: '修改文件所有者', link: '/Ubuntu相关/修改文件所有者' },
 								{ text: '压缩文件', link: '/Ubuntu相关/压缩文件' },
 								{ text: '下载文件', link: '/Ubuntu相关/下载文件' },
 							]
@@ -327,6 +329,7 @@ export default defineConfig({
 							collapsed: true,
 							items: [
 								{ text: 'apt', link: '/Ubuntu相关/apt' },
+								{ text: 'apt换源', link: '/Ubuntu相关/apt换源' },
 								{ text: 'dpkg', link: '/Ubuntu相关/dpkg' },
 							]
 						},
