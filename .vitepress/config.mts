@@ -209,7 +209,8 @@ export default defineConfig({
 				{
 					text: '更新日志',
 					items: [
-						{ text: '2024年8月', link: '/更新日志/' },
+						{ text: '2024年9月', link: '/更新日志/' },
+						{ text: '2024年8月', link: '/更新日志/2024年8月' },
 						{ text: '2024年7月', link: '/更新日志/2024年7月' },
 						{ text: '2024年6月', link: '/更新日志/2024年6月' },
 						{ text: '2024年5月', link: '/更新日志/2024年5月' },
@@ -400,7 +401,7 @@ export default defineConfig({
 						{ text: 'Docker换源', link: '/Docker相关/Docker换源' },
 						{ text: '管理镜像', link: '/Docker相关/管理镜像' },
 						{ text: '管理容器', link: '/Docker相关/管理容器' },
-						{ text: '自建Docker源', link: '/Docker相关/自建Docker源' },
+						{ text: '容器镜像服务', link: '/Docker相关/容器镜像服务' },
 					]
 				}
 			],
