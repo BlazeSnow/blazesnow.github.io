@@ -262,6 +262,7 @@ export default defineConfig({
 						{ text: '磁盘清理', link: '/Windows相关/磁盘清理' },
 						{ text: '系统配置', link: '/Windows相关/系统配置' },
 						{ text: '清理软件卸载残留', link: '/Windows相关/清理软件卸载残留' },
+						{ text: '设置环境变量', link: '/Windows相关/设置环境变量' },
 						{ text: '计算哈希值', link: '/Windows相关/计算哈希值' }
 					]
 				}
@@ -426,6 +427,7 @@ export default defineConfig({
 						{ text: '安装环境', link: '/CMake相关/安装环境' },
 						{ text: '安装编辑器', link: '/CMake相关/安装编辑器' },
 						{ text: '添加配置文件', link: '/CMake相关/添加配置文件' },
+						{ text: 'vcpkg添加库', link: '/CMake相关/vcpkg添加库' },
 					]
 				}
 			],
