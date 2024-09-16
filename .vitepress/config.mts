@@ -427,6 +427,7 @@ export default defineConfig({
 						{ text: '安装环境', link: '/CMake相关/安装环境' },
 						{ text: '安装编辑器', link: '/CMake相关/安装编辑器' },
 						{ text: '添加配置文件', link: '/CMake相关/添加配置文件' },
+						{ text: '安装vcpkg', link: '/CMake相关/安装vcpkg' },
 						{ text: 'vcpkg添加库', link: '/CMake相关/vcpkg添加库' },
 					]
 				}
