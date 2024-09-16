@@ -1,41 +1,38 @@
 ---
-lastUpdated: 2024-9-15T16:49:00+8:00
+lastUpdated: 2024-9-16T11:35:00+8:00
 ---
 
 # vcpkg添加库
 
-> 此篇以fmt_x64-windows库作为示例
-
-## 安装MSVC编译器
-
-1. 前往Visual Studio官网：<https://visualstudio.microsoft.com/zh-hans/downloads/>
-2. 下载Visual Studio Installer：```VisualStudioSetup.exe```
-3. 安装并打开Visual Studio Installer
-4. 选择```使用C++的桌面开发```负载并安装
-
-## 安装git
-
-前往```Git相关```：[点击此处跳转](/Git相关/安装Git)
-
-## 安装vcpkg
-
-1. 按下```Windows徽标```+```X```
-2. 选择```终端管理员```
-3. 前往放置vcpkg的文件夹内，建议放置于：```cd D:/```
-4. 下载vcpkg：```git clone https://github.com/microsoft/vcpkg.git```
-5. 打开vcpkg根目录：```cd vcpkg```
-6. 运行安装脚本：```./bootstrap-vcpkg.bat```
-7. 设置系统环境变量```D:/vcpkg```，参见```Windows相关```：[点击此处跳转](/Windows相关/设置环境变量)
+> 此篇以```fmt```库作为示例：<https://github.com/fmtlib/fmt>
 
 ## 安装库
 
 1. 按下```Windows徽标```+```X```
 2. 选择```终端管理员```
-3. 安装fmt_x64-windows：```vcpkg install fmt:x64-windows```
+3. 安装fmt：```vcpkg install fmt```
 
-## 修改项目的```CMakeLists.txt```
+## 修改VSCode配置
 
-```cmake{5,11,14,17,20}
+### 引入vcpkg目录
+
+1. 在项目根目录新建文件夹```.vscode```
+2. 新建文件```settings.json```
+3. 加入以下内容：
+
+#### ```settings.json```
+
+```json
+{
+    "cmake.configureArgs": [
+        "-DCMAKE_TOOLCHAIN_FILE=D:/vcpkg/scripts/buildsystems/vcpkg.cmake"
+    ]
+}
+```
+
+### 修改项目的```CMakeLists.txt```
+
+```cmake{11,17}
 # 设置CMake的最低版本要求
 cmake_minimum_required(VERSION 3.29)
 
@@ -44,9 +41,6 @@ project(项目名称)
 
 # 设置C++标准
 set(CMAKE_CXX_STANDARD 23)
-
-# 设置fmt的位置
-set(fmt_DIR "D:/vcpkg/packages/fmt_x64-windows/share/fmt")
 
 # 查找fmt库
 find_package(fmt CONFIG REQUIRED)
@@ -58,7 +52,7 @@ add_executable(项目名称 main.cpp)
 target_link_libraries(test PRIVATE fmt::fmt)
 ```
 
-## 修改项目的编译器
+### 修改编译器为MSVC
 
 1. 在VSCode的左侧边栏中找到CMake
 2. ```配置```->```切换工具包```
