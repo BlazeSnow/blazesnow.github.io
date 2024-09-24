@@ -187,6 +187,11 @@ export default defineConfig({
 						link: '/部署Bitwarden密码服务/',
 						activeMatch: '/部署Bitwarden密码服务/'
 					},
+					{
+						text: '搭建TeamSpeak服务器',
+						link: '/搭建TeamSpeak服务器/',
+						activeMatch: '/搭建TeamSpeak服务器/'
+					},
 				]
 			},
 			{
@@ -454,6 +459,19 @@ export default defineConfig({
 						{ text: '配置文件', link: '/部署Bitwarden密码服务/配置文件' },
 						{ text: '开始运行', link: '/部署Bitwarden密码服务/开始运行' },
 						{ text: '维护服务', link: '/部署Bitwarden密码服务/维护服务' },
+					]
+				}
+			],
+			'/搭建TeamSpeak服务器/': [
+				{
+					text: '搭建TeamSpeak服务器',
+					items: [
+						{ text: '前言', link: '/搭建TeamSpeak服务器/' },
+						{ text: '安装工具', link: '/搭建TeamSpeak服务器/安装工具' },
+						{ text: '获取文件', link: '/搭建TeamSpeak服务器/获取文件' },
+						{ text: '开放端口', link: '/搭建TeamSpeak服务器/开放端口' },
+						{ text: '开始运行', link: '/搭建TeamSpeak服务器/开始运行' },
+						{ text: '维护服务', link: '/搭建TeamSpeak服务器/维护服务' },
 					]
 				}
 			],
