@@ -192,6 +192,11 @@ export default defineConfig({
 						link: '/搭建TeamSpeak服务器/',
 						activeMatch: '/搭建TeamSpeak服务器/'
 					},
+					{
+						text: '搭建DNS服务器',
+						link: '/搭建DNS服务器/',
+						activeMatch: '/搭建DNS服务器/'
+					},
 				]
 			},
 			{
@@ -472,6 +477,21 @@ export default defineConfig({
 						{ text: '开放端口', link: '/搭建TeamSpeak服务器/开放端口' },
 						{ text: '开始运行', link: '/搭建TeamSpeak服务器/开始运行' },
 						{ text: '维护服务', link: '/搭建TeamSpeak服务器/维护服务' },
+					]
+				}
+			],
+			'/搭建DNS服务器/': [
+				{
+					text: '搭建DNS服务器',
+					items: [
+						{ text: '前言', link: '/搭建DNS服务器/' },
+						{ text: '安装环境', link: '/搭建DNS服务器/安装环境' },
+						{ text: '拉取镜像', link: '/搭建DNS服务器/拉取镜像' },
+						{ text: '开放端口', link: '/搭建DNS服务器/开放端口' },
+						{ text: '配置文件', link: '/搭建DNS服务器/配置文件' },
+						{ text: '配置系统', link: '/搭建DNS服务器/配置系统' },
+						{ text: '开始运行', link: '/搭建DNS服务器/开始运行' },
+						{ text: '维护服务', link: '/搭建DNS服务器/维护服务' },
 					]
 				}
 			],
