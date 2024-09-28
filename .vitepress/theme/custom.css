@@ -19,6 +19,13 @@ body,
     font-size: 18px;
 }
 
+/* ::: 展开式注释的标题 ::: */
+.custom-block.details summary {
+    font-weight: 500;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
 /* 侧边栏 */
 .VPSidebarItem.level-0 *,
 .VPSidebarItem.level-1 *,
