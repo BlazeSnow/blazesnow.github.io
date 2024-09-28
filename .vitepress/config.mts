@@ -110,6 +110,10 @@ export default defineConfig({
 				link: '/'
 			},
 			{
+				text: '快速开始',
+				link: '/quickstart'
+			},
+			{
 				text: '系统',
 				items: [
 					{
