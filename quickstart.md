@@ -49,8 +49,8 @@ CMake是构建C++代码的事实上的标准，每月有超过200万的下载量
 由于本人放弃使用Docsify， Docsify建站教程已停止更新， 请使用VitePress建站教程。
 :::
 
-::: details VitePress建站教程：[前往](/VitePress建站教程/安装Nodejs)
-VitePress——由Vite和Vue驱动的静态站点生成器
+::: details VitePress建站教程：[前往](/VitePress建站教程/)
+本章介绍使用Vitepress和GitHub Pages建立一个网站
 :::
 
 ::: details 部署网站至服务器：[前往](/部署网站至服务器/)
