@@ -173,7 +173,7 @@ export default defineConfig({
 					},
 					{
 						text: 'VitePress建站教程',
-						link: '/VitePress建站教程/安装Nodejs',
+						link: '/VitePress建站教程/',
 						activeMatch: '/VitePress建站教程/'
 					},
 					{
@@ -381,6 +381,7 @@ export default defineConfig({
 				{
 					text: 'VitePress建站教程',
 					items: [
+						{ text: '前言', link: '/VitePress建站教程/' },
 						{ text: '安装Nodejs', link: '/VitePress建站教程/安装Nodejs' },
 						{ text: '安装git', link: '/VitePress建站教程/安装git' },
 						{ text: '安装VitePress', link: '/VitePress建站教程/安装VitePress' },
