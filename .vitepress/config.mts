@@ -13,6 +13,11 @@ export default defineConfig({
 		['link',
 			{ rel: 'icon', href: '/logo.ico' }
 		],
+		//谷歌字体
+		[
+			'link',
+			{ rel: 'stylesheet', href: 'https://fonts.font.im/css?family=Noto+Sans' }
+		],
 	],
 	//用JavaScript块加载界面，减少带宽
 	metaChunk: true,
