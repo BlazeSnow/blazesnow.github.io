@@ -1,4 +1,5 @@
-import DefaultTheme from 'vitepress/theme'
+import DefaultTheme from 'vitepress/theme-without-fonts'
+import './fonts.css'
 import './custom.css'
 import layout_404 from './404.vue'
 
