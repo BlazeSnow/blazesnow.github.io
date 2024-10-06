@@ -16,7 +16,18 @@ export default defineConfig({
 		//谷歌字体
 		[
 			'link',
-			{ rel: 'stylesheet', href: 'https://fonts.font.im/css?family=Noto+Sans' }
+			{
+				rel: 'stylesheet',
+				href: 'https://fonts.font.im/css?family=Noto+Sans|Open+Sans|Source+Sans+Pro'
+			}
+		],
+		//谷歌字体
+		[
+			'link',
+			{
+				rel: 'stylesheet',
+				href: './theme/MonaspaceNeon-Regular.otf'
+			}
 		],
 	],
 	//用JavaScript块加载界面，减少带宽
