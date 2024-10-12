@@ -21,7 +21,6 @@ body,
 
 /* ::: 展开式注释的标题 ::: */
 .custom-block.details summary {
-    font-weight: 500;
     line-height: 1.6;
     font-size: 18px;
 }
