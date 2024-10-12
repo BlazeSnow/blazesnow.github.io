@@ -97,13 +97,13 @@ export default defineConfig({
 				}
 			}
 		},
-		// notFound: {
-		// 	title: '页面未找到',
-		// 	quote: '抱歉，没有找到您需要的页面',
-		// 	linkLabel: '回到主页',
-		// 	linkText: '回到主页',
-		// 	code: '404',
-		// },
+		notFound: {
+			title: '页面未找到',
+			quote: '抱歉，没有找到您需要的页面',
+			linkLabel: '回到主页',
+			linkText: '回到主页',
+			code: '404',
+		},
 		nav: [
 			{
 				text: '主页',
