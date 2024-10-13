@@ -396,16 +396,16 @@ export default defineConfig({
 					]
 				}
 			],
-			'/部署网站至服务器/': [
+			'/WebsiteToServer/': [
 				{
 					text: '部署网站至服务器',
 					items: [
-						{ text: '前言', link: '/部署网站至服务器/' },
-						{ text: '安装环境', link: '/部署网站至服务器/安装环境' },
-						{ text: '引入仓库', link: '/部署网站至服务器/引入仓库' },
-						{ text: '配置nginx', link: '/部署网站至服务器/配置nginx' },
-						{ text: '维护网站', link: '/部署网站至服务器/维护网站' },
-						{ text: 'ICP备案', link: '/部署网站至服务器/ICP备案' },
+						{ text: '前言', link: '/WebsiteToServer/' },
+						{ text: '安装环境', link: '/WebsiteToServer/安装环境' },
+						{ text: '引入仓库', link: '/WebsiteToServer/引入仓库' },
+						{ text: '配置nginx', link: '/WebsiteToServer/配置nginx' },
+						{ text: '维护网站', link: '/WebsiteToServer/维护网站' },
+						{ text: 'ICP备案', link: '/WebsiteToServer/ICP备案' },
 					]
 				}
 			],
