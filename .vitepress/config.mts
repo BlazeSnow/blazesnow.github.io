@@ -118,23 +118,23 @@ export default defineConfig({
 				items: [
 					{
 						text: 'Windows相关',
-						link: '/Windows相关/',
-						activeMatch: '/Windows相关/'
+						link: '/Windows/',
+						activeMatch: '/Windows/'
 					},
 					{
 						text: 'DNS加密',
-						link: '/DNS加密/',
-						activeMatch: '/DNS加密/'
+						link: '/DNSSEC/',
+						activeMatch: '/DNSSEC/'
 					},
 					{
 						text: 'Ubuntu相关',
-						link: '/Ubuntu相关/',
-						activeMatch: '/Ubuntu相关/'
+						link: '/Ubuntu/',
+						activeMatch: '/Ubuntu/'
 					},
 					{
 						text: '原生安卓',
-						link: '/原生安卓/WiFi感叹号',
-						activeMatch: '/原生安卓/'
+						link: '/Android/WiFi感叹号',
+						activeMatch: '/Android/'
 					},
 				]
 			},
@@ -143,23 +143,23 @@ export default defineConfig({
 				items: [
 					{
 						text: 'Nodejs相关',
-						link: '/Nodejs相关/',
-						activeMatch: '/Nodejs相关/'
+						link: '/Nodejs/',
+						activeMatch: '/Nodejs/'
 					},
 					{
 						text: 'Docker相关',
-						link: '/Docker相关/',
-						activeMatch: '/Docker相关/'
+						link: '/Docker/',
+						activeMatch: '/Docker/'
 					},
 					{
 						text: 'Git相关',
-						link: '/Git相关/',
-						activeMatch: '/Git相关/'
+						link: '/git/',
+						activeMatch: '/git/'
 					},
 					{
 						text: 'CMake相关',
-						link: '/CMake相关/',
-						activeMatch: '/CMake相关/'
+						link: '/CMake/',
+						activeMatch: '/CMake/'
 					},
 				]
 			},
@@ -168,38 +168,38 @@ export default defineConfig({
 				items: [
 					{
 						text: 'Docsify建站教程',
-						link: '/Docsify建站教程/',
-						activeMatch: '/Docsify建站教程/'
+						link: '/Docsify/',
+						activeMatch: '/Docsify/'
 					},
 					{
 						text: 'VitePress建站教程',
-						link: '/VitePress建站教程/',
-						activeMatch: '/VitePress建站教程/'
+						link: '/VitePress/',
+						activeMatch: '/VitePress/'
 					},
 					{
 						text: '部署网站至服务器',
-						link: '/部署网站至服务器/',
-						activeMatch: '/部署网站至服务器/'
+						link: '/WebsiteToServer/',
+						activeMatch: '/WebsiteToServer/'
 					},
 					{
 						text: '搭建我的世界服务器',
-						link: '/搭建我的世界服务器/',
-						activeMatch: '/搭建我的世界服务器/'
+						link: '/MinecraftServer/',
+						activeMatch: '/MinecraftServer/'
 					},
 					{
 						text: '部署Bitwarden密码服务',
-						link: '/部署Bitwarden密码服务/',
-						activeMatch: '/部署Bitwarden密码服务/'
+						link: '/BitwardenServer/',
+						activeMatch: '/BitwardenServer/'
 					},
 					{
 						text: '搭建TeamSpeak服务器',
-						link: '/搭建TeamSpeak服务器/',
-						activeMatch: '/搭建TeamSpeak服务器/'
+						link: '/TeamSpeakServer/',
+						activeMatch: '/TeamSpeakServer/'
 					},
 					{
 						text: '搭建DNS服务器',
-						link: '/搭建DNS服务器/',
-						activeMatch: '/搭建DNS服务器/'
+						link: '/AdGuardHomeServer/',
+						activeMatch: '/AdGuardHomeServer/'
 					},
 				]
 			},
@@ -208,8 +208,8 @@ export default defineConfig({
 				items: [
 					{
 						text: '更新日志',
-						link: '/更新日志/',
-						activeMatch: '/更新日志/'
+						link: '/CHANGELOG/',
+						activeMatch: '/CHANGELOG/'
 					},
 					{
 						text: '关于本站',
@@ -219,16 +219,16 @@ export default defineConfig({
 			}
 		],
 		sidebar: {
-			'/更新日志/': [
+			'/CHANGELOG/': [
 				{
 					text: '更新日志',
 					items: [
-						{ text: '2024年10月', link: '/更新日志/' },
-						{ text: '2024年9月', link: '/更新日志/2024年9月' },
-						{ text: '2024年8月', link: '/更新日志/2024年8月' },
-						{ text: '2024年7月', link: '/更新日志/2024年7月' },
-						{ text: '2024年6月', link: '/更新日志/2024年6月' },
-						{ text: '2024年5月', link: '/更新日志/2024年5月' },
+						{ text: '2024年10月', link: '/CHANGELOG/' },
+						{ text: '2024年9月', link: '/CHANGELOG/2024年9月' },
+						{ text: '2024年8月', link: '/CHANGELOG/2024年8月' },
+						{ text: '2024年7月', link: '/CHANGELOG/2024年7月' },
+						{ text: '2024年6月', link: '/CHANGELOG/2024年6月' },
+						{ text: '2024年5月', link: '/CHANGELOG/2024年5月' },
 					]
 				}
 			],
