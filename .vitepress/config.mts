@@ -118,23 +118,23 @@ export default defineConfig({
 				items: [
 					{
 						text: 'Windows相关',
-						link: '/Windows相关/',
-						activeMatch: '/Windows相关/'
+						link: '/Windows/',
+						activeMatch: '/Windows/'
 					},
 					{
 						text: 'DNS加密',
-						link: '/DNS加密/',
-						activeMatch: '/DNS加密/'
+						link: '/DNSEncryption/',
+						activeMatch: '/DNSEncryption/'
 					},
 					{
 						text: 'Ubuntu相关',
-						link: '/Ubuntu相关/',
-						activeMatch: '/Ubuntu相关/'
+						link: '/Ubuntu/',
+						activeMatch: '/Ubuntu/'
 					},
 					{
 						text: '原生安卓',
-						link: '/原生安卓/WiFi感叹号',
-						activeMatch: '/原生安卓/'
+						link: '/Android/WiFi感叹号',
+						activeMatch: '/Android/'
 					},
 				]
 			},
@@ -143,23 +143,23 @@ export default defineConfig({
 				items: [
 					{
 						text: 'Nodejs相关',
-						link: '/Nodejs相关/',
-						activeMatch: '/Nodejs相关/'
+						link: '/Nodejs/',
+						activeMatch: '/Nodejs/'
 					},
 					{
 						text: 'Docker相关',
-						link: '/Docker相关/',
-						activeMatch: '/Docker相关/'
+						link: '/Docker/',
+						activeMatch: '/Docker/'
 					},
 					{
 						text: 'Git相关',
-						link: '/Git相关/',
-						activeMatch: '/Git相关/'
+						link: '/git/',
+						activeMatch: '/git/'
 					},
 					{
 						text: 'CMake相关',
-						link: '/CMake相关/',
-						activeMatch: '/CMake相关/'
+						link: '/CMake/',
+						activeMatch: '/CMake/'
 					},
 				]
 			},
@@ -168,38 +168,38 @@ export default defineConfig({
 				items: [
 					{
 						text: 'Docsify建站教程',
-						link: '/Docsify建站教程/',
-						activeMatch: '/Docsify建站教程/'
+						link: '/Docsify/',
+						activeMatch: '/Docsify/'
 					},
 					{
 						text: 'VitePress建站教程',
-						link: '/VitePress建站教程/',
-						activeMatch: '/VitePress建站教程/'
+						link: '/VitePress/',
+						activeMatch: '/VitePress/'
 					},
 					{
 						text: '部署网站至服务器',
-						link: '/部署网站至服务器/',
-						activeMatch: '/部署网站至服务器/'
+						link: '/WebsiteToServer/',
+						activeMatch: '/WebsiteToServer/'
 					},
 					{
 						text: '搭建我的世界服务器',
-						link: '/搭建我的世界服务器/',
-						activeMatch: '/搭建我的世界服务器/'
+						link: '/MinecraftServer/',
+						activeMatch: '/MinecraftServer/'
 					},
 					{
 						text: '部署Bitwarden密码服务',
-						link: '/部署Bitwarden密码服务/',
-						activeMatch: '/部署Bitwarden密码服务/'
+						link: '/BitwardenServer/',
+						activeMatch: '/BitwardenServer/'
 					},
 					{
 						text: '搭建TeamSpeak服务器',
-						link: '/搭建TeamSpeak服务器/',
-						activeMatch: '/搭建TeamSpeak服务器/'
+						link: '/TeamSpeakServer/',
+						activeMatch: '/TeamSpeakServer/'
 					},
 					{
 						text: '搭建DNS服务器',
-						link: '/搭建DNS服务器/',
-						activeMatch: '/搭建DNS服务器/'
+						link: '/AdGuardHomeServer/',
+						activeMatch: '/AdGuardHomeServer/'
 					},
 				]
 			},
@@ -208,8 +208,8 @@ export default defineConfig({
 				items: [
 					{
 						text: '更新日志',
-						link: '/更新日志/',
-						activeMatch: '/更新日志/'
+						link: '/CHANGELOG/',
+						activeMatch: '/CHANGELOG/'
 					},
 					{
 						text: '关于本站',
@@ -219,285 +219,285 @@ export default defineConfig({
 			}
 		],
 		sidebar: {
-			'/更新日志/': [
+			'/CHANGELOG/': [
 				{
 					text: '更新日志',
 					items: [
-						{ text: '2024年10月', link: '/更新日志/' },
-						{ text: '2024年9月', link: '/更新日志/2024年9月' },
-						{ text: '2024年8月', link: '/更新日志/2024年8月' },
-						{ text: '2024年7月', link: '/更新日志/2024年7月' },
-						{ text: '2024年6月', link: '/更新日志/2024年6月' },
-						{ text: '2024年5月', link: '/更新日志/2024年5月' },
+						{ text: '2024年10月', link: '/CHANGELOG/' },
+						{ text: '2024年9月', link: '/CHANGELOG/2024年9月' },
+						{ text: '2024年8月', link: '/CHANGELOG/2024年8月' },
+						{ text: '2024年7月', link: '/CHANGELOG/2024年7月' },
+						{ text: '2024年6月', link: '/CHANGELOG/2024年6月' },
+						{ text: '2024年5月', link: '/CHANGELOG/2024年5月' },
 					]
 				}
 			],
-			'/Windows相关/': [
+			'/Windows/': [
 				{
 					text: 'Windows相关',
 					items: [
-						{ text: '前言', link: '/Windows相关/' },
+						{ text: '前言', link: '/Windows/' },
 						{
 							text: '系统',
 							collapsed: true,
 							items: [
-								{ text: '更新Windows', link: '/Windows相关/更新Windows' },
-								{ text: '系统修复', link: '/Windows相关/系统修复' },
-								{ text: '系统重新安装', link: '/Windows相关/系统重新安装' },
-								{ text: '查看蓝屏文件', link: '/Windows相关/查看蓝屏文件' },
+								{ text: '更新Windows', link: '/Windows/更新Windows' },
+								{ text: '系统修复', link: '/Windows/系统修复' },
+								{ text: '系统重新安装', link: '/Windows/系统重新安装' },
+								{ text: '查看蓝屏文件', link: '/Windows/查看蓝屏文件' },
 							]
 						},
 						{
 							text: '运行库',
 							collapsed: true,
 							items: [
-								{ text: '安装C++运行库', link: '/Windows相关/安装C++运行库' },
-								{ text: '安装.NET', link: '/Windows相关/安装.NET' },
+								{ text: '安装C++运行库', link: '/Windows/安装C++运行库' },
+								{ text: '安装.NET', link: '/Windows/安装.NET' },
 							]
 						},
 						{
 							text: '文件资源管理器',
 							collapsed: true,
 							items: [
-								{ text: '显示后缀名和隐藏文件', link: '/Windows相关/显示后缀名和隐藏文件' },
-								{ text: '创建App的快捷方式', link: '/Windows相关/创建App的快捷方式' },
-								{ text: '重启文件资源管理器', link: '/Windows相关/重启文件资源管理器' },
-								{ text: '删除新建文件类型', link: '/Windows相关/删除新建文件类型' },
-								{ text: '删除右键菜单项', link: '/Windows相关/删除右键菜单项' },
-								{ text: '修复桌面图标', link: '/Windows相关/修复桌面图标' },
+								{ text: '显示后缀名和隐藏文件', link: '/Windows/显示后缀名和隐藏文件' },
+								{ text: '创建App的快捷方式', link: '/Windows/创建App的快捷方式' },
+								{ text: '重启文件资源管理器', link: '/Windows/重启文件资源管理器' },
+								{ text: '删除新建文件类型', link: '/Windows/删除新建文件类型' },
+								{ text: '删除右键菜单项', link: '/Windows/删除右键菜单项' },
+								{ text: '修复桌面图标', link: '/Windows/修复桌面图标' },
 							]
 						},
 						{
 							text: '网络',
 							collapsed: true,
 							items: [
-								{ text: '应用最新TLS', link: '/Windows相关/应用最新TLS' },
+								{ text: '应用最新TLS', link: '/Windows/应用最新TLS' },
 							]
 						},
-						{ text: '磁盘清理', link: '/Windows相关/磁盘清理' },
-						{ text: '系统配置', link: '/Windows相关/系统配置' },
-						{ text: '清理软件卸载残留', link: '/Windows相关/清理软件卸载残留' },
-						{ text: '设置环境变量', link: '/Windows相关/设置环境变量' },
-						{ text: '计算哈希值', link: '/Windows相关/计算哈希值' }
+						{ text: '磁盘清理', link: '/Windows/磁盘清理' },
+						{ text: '系统配置', link: '/Windows/系统配置' },
+						{ text: '清理软件卸载残留', link: '/Windows/清理软件卸载残留' },
+						{ text: '设置环境变量', link: '/Windows/设置环境变量' },
+						{ text: '计算哈希值', link: '/Windows/计算哈希值' }
 					]
 				}
 			],
-			'/DNS加密/': [
+			'/DNSEncryption/': [
 				{
 					text: 'DNS加密',
 					items: [
-						{ text: '前言', link: '/DNS加密/' },
-						{ text: 'Windows设备：DOH', link: '/DNS加密/Windows设备：DOH' },
-						{ text: 'Windows设备：模板', link: '/DNS加密/Windows设备：模板' },
-						{ text: 'Android设备：DOT', link: '/DNS加密/Android设备：DOT' },
-						{ text: 'Apple设备：DOH', link: '/DNS加密/Apple设备：DOH' },
-						{ text: 'DNS大全', link: '/DNS加密/DNS大全' }]
+						{ text: '前言', link: '/DNSEncryption/' },
+						{ text: 'Windows设备：DOH', link: '/DNSEncryption/Windows设备：DOH' },
+						{ text: 'Windows设备：模板', link: '/DNSEncryption/Windows设备：模板' },
+						{ text: 'Android设备：DOT', link: '/DNSEncryption/Android设备：DOT' },
+						{ text: 'Apple设备：DOH', link: '/DNSEncryption/Apple设备：DOH' },
+						{ text: 'DNS大全', link: '/DNSEncryption/DNS大全' }]
 				}
 			],
-			'/Nodejs相关/': [
+			'/Nodejs/': [
 				{
 					text: 'Nodejs相关',
 					items: [
-						{ text: '前言', link: '/Nodejs相关/' },
-						{ text: '安装Nodejs', link: '/Nodejs相关/安装Nodejs' },
-						{ text: '引入npm', link: '/Nodejs相关/引入npm' },
-						{ text: '管理npm包', link: '/Nodejs相关/管理npm包' },
-						{ text: 'npm后缀', link: '/Nodejs相关/npm后缀' },
-						{ text: 'npm换源', link: '/Nodejs相关/npm换源' },
+						{ text: '前言', link: '/Nodejs/' },
+						{ text: '安装Nodejs', link: '/Nodejs/安装Nodejs' },
+						{ text: '引入npm', link: '/Nodejs/引入npm' },
+						{ text: '管理npm包', link: '/Nodejs/管理npm包' },
+						{ text: 'npm后缀', link: '/Nodejs/npm后缀' },
+						{ text: 'npm换源', link: '/Nodejs/npm换源' },
 					]
 				}
 			],
-			'/Ubuntu相关/': [
+			'/Ubuntu/': [
 				{
 					text: 'Ubuntu相关',
 					items: [
-						{ text: '前言', link: '/Ubuntu相关/' },
+						{ text: '前言', link: '/Ubuntu/' },
 						{
 							text: '系统',
 							collapsed: true,
 							items: [
-								{ text: '安装Ubuntu', link: '/Ubuntu相关/安装Ubuntu' },
-								{ text: '检查磁盘类型', link: '/Ubuntu相关/检查磁盘类型' },
-								{ text: '安装分区推荐', link: '/Ubuntu相关/安装分区推荐' },
+								{ text: '安装Ubuntu', link: '/Ubuntu/安装Ubuntu' },
+								{ text: '检查磁盘类型', link: '/Ubuntu/检查磁盘类型' },
+								{ text: '安装分区推荐', link: '/Ubuntu/安装分区推荐' },
 							]
 						},
 						{
 							text: '时间',
 							collapsed: true,
 							items: [
-								{ text: '同步系统时间', link: '/Ubuntu相关/同步系统时间' },
-								{ text: '双系统的时间差8小时', link: '/Ubuntu相关/双系统的时间差8小时' },
+								{ text: '同步系统时间', link: '/Ubuntu/同步系统时间' },
+								{ text: '双系统的时间差8小时', link: '/Ubuntu/双系统的时间差8小时' },
 							]
 						},
 						{
 							text: '文件处理',
 							collapsed: true,
 							items: [
-								{ text: '命令行处理文件夹', link: '/Ubuntu相关/命令行处理文件夹' },
-								{ text: '命令行处理文件', link: '/Ubuntu相关/命令行处理文件' },
-								{ text: '文件权限', link: '/Ubuntu相关/文件权限' },
-								{ text: '修改文件所有者', link: '/Ubuntu相关/修改文件所有者' },
-								{ text: '压缩文件', link: '/Ubuntu相关/压缩文件' },
-								{ text: '下载文件', link: '/Ubuntu相关/下载文件' },
+								{ text: '命令行处理文件夹', link: '/Ubuntu/命令行处理文件夹' },
+								{ text: '命令行处理文件', link: '/Ubuntu/命令行处理文件' },
+								{ text: '文件权限', link: '/Ubuntu/文件权限' },
+								{ text: '修改文件所有者', link: '/Ubuntu/修改文件所有者' },
+								{ text: '压缩文件', link: '/Ubuntu/压缩文件' },
+								{ text: '下载文件', link: '/Ubuntu/下载文件' },
 							]
 						},
 						{
 							text: '包管理',
 							collapsed: true,
 							items: [
-								{ text: 'apt', link: '/Ubuntu相关/apt' },
-								{ text: 'apt换源', link: '/Ubuntu相关/apt换源' },
-								{ text: 'dpkg', link: '/Ubuntu相关/dpkg' },
+								{ text: 'apt', link: '/Ubuntu/apt' },
+								{ text: 'apt换源', link: '/Ubuntu/apt换源' },
+								{ text: 'dpkg', link: '/Ubuntu/dpkg' },
 							]
 						},
-						{ text: '无法更新SnapStore', link: '/Ubuntu相关/无法更新SnapStore' },
-						{ text: 'Server安装桌面', link: '/Ubuntu相关/Server安装桌面' },
+						{ text: '无法更新SnapStore', link: '/Ubuntu/无法更新SnapStore' },
+						{ text: 'Server安装桌面', link: '/Ubuntu/Server安装桌面' },
 					]
 				}
 			],
-			'/原生安卓/': [
+			'/Android/': [
 				{
 					text: '原生安卓',
 					items: [
-						{ text: 'WiFi感叹号', link: '/原生安卓/WiFi感叹号' },
-						{ text: '时间同步', link: '/原生安卓/时间同步' }]
+						{ text: 'WiFi感叹号', link: '/Android/WiFi感叹号' },
+						{ text: '时间同步', link: '/Android/时间同步' }]
 				}
 			],
-			'/Docsify建站教程/': [
+			'/Docsify/': [
 				{
 					text: 'Docsify建站教程',
 					items: [
-						{ text: '前言', link: '/Docsify建站教程/' },
-						{ text: '安装Nodejs', link: '/Docsify建站教程/安装Nodejs' },
-						{ text: '安装Docsify', link: '/Docsify建站教程/安装Docsify' },
-						{ text: '开始建网站', link: '/Docsify建站教程/开始建网站' },
-						{ text: '填充index', link: '/Docsify建站教程/填充index' },
-						{ text: '本地化css和js', link: '/Docsify建站教程/本地化css和js' },
-						{ text: '运行网站', link: '/Docsify建站教程/运行网站' },
-						{ text: '发布网站', link: '/Docsify建站教程/发布网站' },
-						{ text: '进阶操作', link: '/Docsify建站教程/进阶操作' }]
+						{ text: '前言', link: '/Docsify/' },
+						{ text: '安装Nodejs', link: '/Docsify/安装Nodejs' },
+						{ text: '安装Docsify', link: '/Docsify/安装Docsify' },
+						{ text: '开始建网站', link: '/Docsify/开始建网站' },
+						{ text: '填充index', link: '/Docsify/填充index' },
+						{ text: '本地化css和js', link: '/Docsify/本地化css和js' },
+						{ text: '运行网站', link: '/Docsify/运行网站' },
+						{ text: '发布网站', link: '/Docsify/发布网站' },
+						{ text: '进阶操作', link: '/Docsify/进阶操作' }]
 				}
 			],
-			'/VitePress建站教程/': [
+			'/VitePress/': [
 				{
 					text: 'VitePress建站教程',
 					items: [
-						{ text: '前言', link: '/VitePress建站教程/' },
-						{ text: '安装Nodejs', link: '/VitePress建站教程/安装Nodejs' },
-						{ text: '安装git', link: '/VitePress建站教程/安装git' },
-						{ text: '安装VitePress', link: '/VitePress建站教程/安装VitePress' },
-						{ text: 'VitePress建站引导', link: '/VitePress建站教程/VitePress建站引导' },
-						{ text: '运行网站', link: '/VitePress建站教程/运行网站' },
-						{ text: '添加GitHub排除目录', link: '/VitePress建站教程/添加GitHub排除目录' },
-						{ text: '添加GitHub部署文件', link: '/VitePress建站教程/添加GitHub部署文件' },
-						{ text: '检查必须文件', link: '/VitePress建站教程/检查必须文件' },
-						{ text: '发布网站', link: '/VitePress建站教程/发布网站' },
-						{ text: '进阶操作', link: '/VitePress建站教程/进阶操作' }
+						{ text: '前言', link: '/VitePress/' },
+						{ text: '安装Nodejs', link: '/VitePress/安装Nodejs' },
+						{ text: '安装git', link: '/VitePress/安装git' },
+						{ text: '安装VitePress', link: '/VitePress/安装VitePress' },
+						{ text: 'VitePress建站引导', link: '/VitePress/VitePress建站引导' },
+						{ text: '运行网站', link: '/VitePress/运行网站' },
+						{ text: '添加GitHub排除目录', link: '/VitePress/添加GitHub排除目录' },
+						{ text: '添加GitHub部署文件', link: '/VitePress/添加GitHub部署文件' },
+						{ text: '检查必须文件', link: '/VitePress/检查必须文件' },
+						{ text: '发布网站', link: '/VitePress/发布网站' },
+						{ text: '进阶操作', link: '/VitePress/进阶操作' }
 					]
 				}
 			],
-			'/部署网站至服务器/': [
+			'/WebsiteToServer/': [
 				{
 					text: '部署网站至服务器',
 					items: [
-						{ text: '前言', link: '/部署网站至服务器/' },
-						{ text: '安装环境', link: '/部署网站至服务器/安装环境' },
-						{ text: '引入仓库', link: '/部署网站至服务器/引入仓库' },
-						{ text: '配置nginx', link: '/部署网站至服务器/配置nginx' },
-						{ text: '维护网站', link: '/部署网站至服务器/维护网站' },
-						{ text: 'ICP备案', link: '/部署网站至服务器/ICP备案' },
+						{ text: '前言', link: '/WebsiteToServer/' },
+						{ text: '安装环境', link: '/WebsiteToServer/安装环境' },
+						{ text: '引入仓库', link: '/WebsiteToServer/引入仓库' },
+						{ text: '配置nginx', link: '/WebsiteToServer/配置nginx' },
+						{ text: '维护网站', link: '/WebsiteToServer/维护网站' },
+						{ text: 'ICP备案', link: '/WebsiteToServer/ICP备案' },
 					]
 				}
 			],
-			'/Docker相关/': [
+			'/Docker/': [
 				{
 					text: 'Docker相关',
 					items: [
-						{ text: '前言', link: '/Docker相关/' },
-						{ text: '运行Docker', link: '/Docker相关/运行Docker' },
-						{ text: 'Docker换源', link: '/Docker相关/Docker换源' },
-						{ text: '管理镜像', link: '/Docker相关/管理镜像' },
-						{ text: '管理容器', link: '/Docker相关/管理容器' },
-						{ text: '容器镜像服务', link: '/Docker相关/容器镜像服务' },
+						{ text: '前言', link: '/Docker/' },
+						{ text: '运行Docker', link: '/Docker/运行Docker' },
+						{ text: 'Docker换源', link: '/Docker/Docker换源' },
+						{ text: '管理镜像', link: '/Docker/管理镜像' },
+						{ text: '管理容器', link: '/Docker/管理容器' },
+						{ text: '容器镜像服务', link: '/Docker/容器镜像服务' },
 					]
 				}
 			],
-			'/Git相关/': [
+			'/git/': [
 				{
 					text: 'Git相关',
 					items: [
-						{ text: '前言', link: '/Git相关/' },
-						{ text: '安装Git', link: '/Git相关/安装Git' },
-						{ text: '处理仓库', link: '/Git相关/处理仓库' },
-						{ text: '处理远程仓库', link: '/Git相关/处理远程仓库' },
-						{ text: '处理分支', link: '/Git相关/处理分支' },
-						{ text: 'SSH连接仓库', link: '/Git相关/SSH连接仓库' },
+						{ text: '前言', link: '/git/' },
+						{ text: '安装Git', link: '/git/安装Git' },
+						{ text: '处理仓库', link: '/git/处理仓库' },
+						{ text: '处理远程仓库', link: '/git/处理远程仓库' },
+						{ text: '处理分支', link: '/git/处理分支' },
+						{ text: 'SSH连接仓库', link: '/git/SSH连接仓库' },
 					]
 				}
 			],
-			'/CMake相关/': [
+			'/CMake/': [
 				{
 					text: 'CMake相关',
 					items: [
-						{ text: '前言', link: '/CMake相关/' },
-						{ text: '安装环境', link: '/CMake相关/安装环境' },
-						{ text: '安装编辑器', link: '/CMake相关/安装编辑器' },
-						{ text: '添加配置文件', link: '/CMake相关/添加配置文件' },
-						{ text: '安装vcpkg', link: '/CMake相关/安装vcpkg' },
-						{ text: 'vcpkg添加库', link: '/CMake相关/vcpkg添加库' },
+						{ text: '前言', link: '/CMake/' },
+						{ text: '安装环境', link: '/CMake/安装环境' },
+						{ text: '安装编辑器', link: '/CMake/安装编辑器' },
+						{ text: '添加配置文件', link: '/CMake/添加配置文件' },
+						{ text: '安装vcpkg', link: '/CMake/安装vcpkg' },
+						{ text: 'vcpkg添加库', link: '/CMake/vcpkg添加库' },
 					]
 				}
 			],
-			'/搭建我的世界服务器/': [
+			'/MinecraftServer/': [
 				{
 					text: '搭建我的世界服务器',
 					items: [
-						{ text: '前言', link: '/搭建我的世界服务器/' },
-						{ text: '安装环境', link: '/搭建我的世界服务器/安装环境' },
-						{ text: '引入文件', link: '/搭建我的世界服务器/引入文件' },
-						{ text: '开始运行', link: '/搭建我的世界服务器/开始运行' },
-						{ text: '维护服务器', link: '/搭建我的世界服务器/维护服务器' },
+						{ text: '前言', link: '/MinecraftServer/' },
+						{ text: '安装环境', link: '/MinecraftServer/安装环境' },
+						{ text: '引入文件', link: '/MinecraftServer/引入文件' },
+						{ text: '开始运行', link: '/MinecraftServer/开始运行' },
+						{ text: '维护服务器', link: '/MinecraftServer/维护服务器' },
 					]
 				}
 			],
-			'/部署Bitwarden密码服务/': [
+			'/BitwardenServer/': [
 				{
 					text: '部署Bitwarden密码服务',
 					items: [
-						{ text: '前言', link: '/部署Bitwarden密码服务/' },
-						{ text: '安装环境', link: '/部署Bitwarden密码服务/安装环境' },
-						{ text: '拉取镜像', link: '/部署Bitwarden密码服务/拉取镜像' },
-						{ text: '配置文件', link: '/部署Bitwarden密码服务/配置文件' },
-						{ text: '开始运行', link: '/部署Bitwarden密码服务/开始运行' },
-						{ text: '维护服务', link: '/部署Bitwarden密码服务/维护服务' },
+						{ text: '前言', link: '/BitwardenServer/' },
+						{ text: '安装环境', link: '/BitwardenServer/安装环境' },
+						{ text: '拉取镜像', link: '/BitwardenServer/拉取镜像' },
+						{ text: '配置文件', link: '/BitwardenServer/配置文件' },
+						{ text: '开始运行', link: '/BitwardenServer/开始运行' },
+						{ text: '维护服务', link: '/BitwardenServer/维护服务' },
 					]
 				}
 			],
-			'/搭建TeamSpeak服务器/': [
+			'/TeamSpeakServer/': [
 				{
 					text: '搭建TeamSpeak服务器',
 					items: [
-						{ text: '前言', link: '/搭建TeamSpeak服务器/' },
-						{ text: '安装工具', link: '/搭建TeamSpeak服务器/安装工具' },
-						{ text: '获取文件', link: '/搭建TeamSpeak服务器/获取文件' },
-						{ text: '开放端口', link: '/搭建TeamSpeak服务器/开放端口' },
-						{ text: '开始运行', link: '/搭建TeamSpeak服务器/开始运行' },
-						{ text: '维护服务', link: '/搭建TeamSpeak服务器/维护服务' },
+						{ text: '前言', link: '/TeamSpeakServer/' },
+						{ text: '安装工具', link: '/TeamSpeakServer/安装工具' },
+						{ text: '获取文件', link: '/TeamSpeakServer/获取文件' },
+						{ text: '开放端口', link: '/TeamSpeakServer/开放端口' },
+						{ text: '开始运行', link: '/TeamSpeakServer/开始运行' },
+						{ text: '维护服务', link: '/TeamSpeakServer/维护服务' },
 					]
 				}
 			],
-			'/搭建DNS服务器/': [
+			'/AdGuardHomeServer/': [
 				{
 					text: '搭建DNS服务器',
 					items: [
-						{ text: '前言', link: '/搭建DNS服务器/' },
-						{ text: '安装环境', link: '/搭建DNS服务器/安装环境' },
-						{ text: '拉取镜像', link: '/搭建DNS服务器/拉取镜像' },
-						{ text: '开放端口', link: '/搭建DNS服务器/开放端口' },
-						{ text: '配置文件', link: '/搭建DNS服务器/配置文件' },
-						{ text: '配置系统', link: '/搭建DNS服务器/配置系统' },
-						{ text: '开始运行', link: '/搭建DNS服务器/开始运行' },
-						{ text: '维护服务', link: '/搭建DNS服务器/维护服务' },
+						{ text: '前言', link: '/AdGuardHomeServer/' },
+						{ text: '安装环境', link: '/AdGuardHomeServer/安装环境' },
+						{ text: '拉取镜像', link: '/AdGuardHomeServer/拉取镜像' },
+						{ text: '开放端口', link: '/AdGuardHomeServer/开放端口' },
+						{ text: '配置文件', link: '/AdGuardHomeServer/配置文件' },
+						{ text: '配置系统', link: '/AdGuardHomeServer/配置系统' },
+						{ text: '开始运行', link: '/AdGuardHomeServer/开始运行' },
+						{ text: '维护服务', link: '/AdGuardHomeServer/维护服务' },
 					]
 				}
 			],
