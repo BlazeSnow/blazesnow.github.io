@@ -57,11 +57,11 @@ CMake是构建C++代码的事实上的标准，每月有超过200万的下载量
 将VitePress建成的网站通过GitHub部署到Ubuntu服务器上
 :::
 
-::: details 搭建我的世界服务器：[前往](/搭建我的世界服务器/)
+::: details 搭建我的世界服务器：[前往](/MinecraftServer/)
 本章主要介绍利用Ubuntu服务器搭建Minecraft我的世界Java版服务器
 :::
 
-::: details 部署Bitwarden密码服务：[前往](/部署Bitwarden密码服务/)
+::: details 部署Bitwarden密码服务：[前往](/BitwardenServer/)
 本章介绍使用Ubuntu服务器、域名、Nginx、Docker和Vaultwarden部署Bitwarden的密码服务器
 :::
 

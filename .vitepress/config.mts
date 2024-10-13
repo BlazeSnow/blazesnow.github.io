@@ -448,28 +448,28 @@ export default defineConfig({
 					]
 				}
 			],
-			'/搭建我的世界服务器/': [
+			'/MinecraftServer/': [
 				{
 					text: '搭建我的世界服务器',
 					items: [
-						{ text: '前言', link: '/搭建我的世界服务器/' },
-						{ text: '安装环境', link: '/搭建我的世界服务器/安装环境' },
-						{ text: '引入文件', link: '/搭建我的世界服务器/引入文件' },
-						{ text: '开始运行', link: '/搭建我的世界服务器/开始运行' },
-						{ text: '维护服务器', link: '/搭建我的世界服务器/维护服务器' },
+						{ text: '前言', link: '/MinecraftServer/' },
+						{ text: '安装环境', link: '/MinecraftServer/安装环境' },
+						{ text: '引入文件', link: '/MinecraftServer/引入文件' },
+						{ text: '开始运行', link: '/MinecraftServer/开始运行' },
+						{ text: '维护服务器', link: '/MinecraftServer/维护服务器' },
 					]
 				}
 			],
-			'/部署Bitwarden密码服务/': [
+			'/BitwardenServer/': [
 				{
 					text: '部署Bitwarden密码服务',
 					items: [
-						{ text: '前言', link: '/部署Bitwarden密码服务/' },
-						{ text: '安装环境', link: '/部署Bitwarden密码服务/安装环境' },
-						{ text: '拉取镜像', link: '/部署Bitwarden密码服务/拉取镜像' },
-						{ text: '配置文件', link: '/部署Bitwarden密码服务/配置文件' },
-						{ text: '开始运行', link: '/部署Bitwarden密码服务/开始运行' },
-						{ text: '维护服务', link: '/部署Bitwarden密码服务/维护服务' },
+						{ text: '前言', link: '/BitwardenServer/' },
+						{ text: '安装环境', link: '/BitwardenServer/安装环境' },
+						{ text: '拉取镜像', link: '/BitwardenServer/拉取镜像' },
+						{ text: '配置文件', link: '/BitwardenServer/配置文件' },
+						{ text: '开始运行', link: '/BitwardenServer/开始运行' },
+						{ text: '维护服务', link: '/BitwardenServer/维护服务' },
 					]
 				}
 			],
