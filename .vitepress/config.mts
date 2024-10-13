@@ -473,31 +473,31 @@ export default defineConfig({
 					]
 				}
 			],
-			'/搭建TeamSpeak服务器/': [
+			'/TeamSpeakServer/': [
 				{
 					text: '搭建TeamSpeak服务器',
 					items: [
-						{ text: '前言', link: '/搭建TeamSpeak服务器/' },
-						{ text: '安装工具', link: '/搭建TeamSpeak服务器/安装工具' },
-						{ text: '获取文件', link: '/搭建TeamSpeak服务器/获取文件' },
-						{ text: '开放端口', link: '/搭建TeamSpeak服务器/开放端口' },
-						{ text: '开始运行', link: '/搭建TeamSpeak服务器/开始运行' },
-						{ text: '维护服务', link: '/搭建TeamSpeak服务器/维护服务' },
+						{ text: '前言', link: '/TeamSpeakServer/' },
+						{ text: '安装工具', link: '/TeamSpeakServer/安装工具' },
+						{ text: '获取文件', link: '/TeamSpeakServer/获取文件' },
+						{ text: '开放端口', link: '/TeamSpeakServer/开放端口' },
+						{ text: '开始运行', link: '/TeamSpeakServer/开始运行' },
+						{ text: '维护服务', link: '/TeamSpeakServer/维护服务' },
 					]
 				}
 			],
-			'/搭建DNS服务器/': [
+			'/AdGuardHomeServer/': [
 				{
 					text: '搭建DNS服务器',
 					items: [
-						{ text: '前言', link: '/搭建DNS服务器/' },
-						{ text: '安装环境', link: '/搭建DNS服务器/安装环境' },
-						{ text: '拉取镜像', link: '/搭建DNS服务器/拉取镜像' },
-						{ text: '开放端口', link: '/搭建DNS服务器/开放端口' },
-						{ text: '配置文件', link: '/搭建DNS服务器/配置文件' },
-						{ text: '配置系统', link: '/搭建DNS服务器/配置系统' },
-						{ text: '开始运行', link: '/搭建DNS服务器/开始运行' },
-						{ text: '维护服务', link: '/搭建DNS服务器/维护服务' },
+						{ text: '前言', link: '/AdGuardHomeServer/' },
+						{ text: '安装环境', link: '/AdGuardHomeServer/安装环境' },
+						{ text: '拉取镜像', link: '/AdGuardHomeServer/拉取镜像' },
+						{ text: '开放端口', link: '/AdGuardHomeServer/开放端口' },
+						{ text: '配置文件', link: '/AdGuardHomeServer/配置文件' },
+						{ text: '配置系统', link: '/AdGuardHomeServer/配置系统' },
+						{ text: '开始运行', link: '/AdGuardHomeServer/开始运行' },
+						{ text: '维护服务', link: '/AdGuardHomeServer/维护服务' },
 					]
 				}
 			],
