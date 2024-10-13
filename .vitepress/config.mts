@@ -307,92 +307,92 @@ export default defineConfig({
 					]
 				}
 			],
-			'/Ubuntu相关/': [
+			'/Ubuntu/': [
 				{
 					text: 'Ubuntu相关',
 					items: [
-						{ text: '前言', link: '/Ubuntu相关/' },
+						{ text: '前言', link: '/Ubuntu/' },
 						{
 							text: '系统',
 							collapsed: true,
 							items: [
-								{ text: '安装Ubuntu', link: '/Ubuntu相关/安装Ubuntu' },
-								{ text: '检查磁盘类型', link: '/Ubuntu相关/检查磁盘类型' },
-								{ text: '安装分区推荐', link: '/Ubuntu相关/安装分区推荐' },
+								{ text: '安装Ubuntu', link: '/Ubuntu/安装Ubuntu' },
+								{ text: '检查磁盘类型', link: '/Ubuntu/检查磁盘类型' },
+								{ text: '安装分区推荐', link: '/Ubuntu/安装分区推荐' },
 							]
 						},
 						{
 							text: '时间',
 							collapsed: true,
 							items: [
-								{ text: '同步系统时间', link: '/Ubuntu相关/同步系统时间' },
-								{ text: '双系统的时间差8小时', link: '/Ubuntu相关/双系统的时间差8小时' },
+								{ text: '同步系统时间', link: '/Ubuntu/同步系统时间' },
+								{ text: '双系统的时间差8小时', link: '/Ubuntu/双系统的时间差8小时' },
 							]
 						},
 						{
 							text: '文件处理',
 							collapsed: true,
 							items: [
-								{ text: '命令行处理文件夹', link: '/Ubuntu相关/命令行处理文件夹' },
-								{ text: '命令行处理文件', link: '/Ubuntu相关/命令行处理文件' },
-								{ text: '文件权限', link: '/Ubuntu相关/文件权限' },
-								{ text: '修改文件所有者', link: '/Ubuntu相关/修改文件所有者' },
-								{ text: '压缩文件', link: '/Ubuntu相关/压缩文件' },
-								{ text: '下载文件', link: '/Ubuntu相关/下载文件' },
+								{ text: '命令行处理文件夹', link: '/Ubuntu/命令行处理文件夹' },
+								{ text: '命令行处理文件', link: '/Ubuntu/命令行处理文件' },
+								{ text: '文件权限', link: '/Ubuntu/文件权限' },
+								{ text: '修改文件所有者', link: '/Ubuntu/修改文件所有者' },
+								{ text: '压缩文件', link: '/Ubuntu/压缩文件' },
+								{ text: '下载文件', link: '/Ubuntu/下载文件' },
 							]
 						},
 						{
 							text: '包管理',
 							collapsed: true,
 							items: [
-								{ text: 'apt', link: '/Ubuntu相关/apt' },
-								{ text: 'apt换源', link: '/Ubuntu相关/apt换源' },
-								{ text: 'dpkg', link: '/Ubuntu相关/dpkg' },
+								{ text: 'apt', link: '/Ubuntu/apt' },
+								{ text: 'apt换源', link: '/Ubuntu/apt换源' },
+								{ text: 'dpkg', link: '/Ubuntu/dpkg' },
 							]
 						},
-						{ text: '无法更新SnapStore', link: '/Ubuntu相关/无法更新SnapStore' },
-						{ text: 'Server安装桌面', link: '/Ubuntu相关/Server安装桌面' },
+						{ text: '无法更新SnapStore', link: '/Ubuntu/无法更新SnapStore' },
+						{ text: 'Server安装桌面', link: '/Ubuntu/Server安装桌面' },
 					]
 				}
 			],
-			'/原生安卓/': [
+			'/Android/': [
 				{
 					text: '原生安卓',
 					items: [
-						{ text: 'WiFi感叹号', link: '/原生安卓/WiFi感叹号' },
-						{ text: '时间同步', link: '/原生安卓/时间同步' }]
+						{ text: 'WiFi感叹号', link: '/Android/WiFi感叹号' },
+						{ text: '时间同步', link: '/Android/时间同步' }]
 				}
 			],
-			'/Docsify建站教程/': [
+			'/Docsify/': [
 				{
 					text: 'Docsify建站教程',
 					items: [
-						{ text: '前言', link: '/Docsify建站教程/' },
-						{ text: '安装Nodejs', link: '/Docsify建站教程/安装Nodejs' },
-						{ text: '安装Docsify', link: '/Docsify建站教程/安装Docsify' },
-						{ text: '开始建网站', link: '/Docsify建站教程/开始建网站' },
-						{ text: '填充index', link: '/Docsify建站教程/填充index' },
-						{ text: '本地化css和js', link: '/Docsify建站教程/本地化css和js' },
-						{ text: '运行网站', link: '/Docsify建站教程/运行网站' },
-						{ text: '发布网站', link: '/Docsify建站教程/发布网站' },
-						{ text: '进阶操作', link: '/Docsify建站教程/进阶操作' }]
+						{ text: '前言', link: '/Docsify/' },
+						{ text: '安装Nodejs', link: '/Docsify/安装Nodejs' },
+						{ text: '安装Docsify', link: '/Docsify/安装Docsify' },
+						{ text: '开始建网站', link: '/Docsify/开始建网站' },
+						{ text: '填充index', link: '/Docsify/填充index' },
+						{ text: '本地化css和js', link: '/Docsify/本地化css和js' },
+						{ text: '运行网站', link: '/Docsify/运行网站' },
+						{ text: '发布网站', link: '/Docsify/发布网站' },
+						{ text: '进阶操作', link: '/Docsify/进阶操作' }]
 				}
 			],
-			'/VitePress建站教程/': [
+			'/VitePress/': [
 				{
 					text: 'VitePress建站教程',
 					items: [
-						{ text: '前言', link: '/VitePress建站教程/' },
-						{ text: '安装Nodejs', link: '/VitePress建站教程/安装Nodejs' },
-						{ text: '安装git', link: '/VitePress建站教程/安装git' },
-						{ text: '安装VitePress', link: '/VitePress建站教程/安装VitePress' },
-						{ text: 'VitePress建站引导', link: '/VitePress建站教程/VitePress建站引导' },
-						{ text: '运行网站', link: '/VitePress建站教程/运行网站' },
-						{ text: '添加GitHub排除目录', link: '/VitePress建站教程/添加GitHub排除目录' },
-						{ text: '添加GitHub部署文件', link: '/VitePress建站教程/添加GitHub部署文件' },
-						{ text: '检查必须文件', link: '/VitePress建站教程/检查必须文件' },
-						{ text: '发布网站', link: '/VitePress建站教程/发布网站' },
-						{ text: '进阶操作', link: '/VitePress建站教程/进阶操作' }
+						{ text: '前言', link: '/VitePress/' },
+						{ text: '安装Nodejs', link: '/VitePress/安装Nodejs' },
+						{ text: '安装git', link: '/VitePress/安装git' },
+						{ text: '安装VitePress', link: '/VitePress/安装VitePress' },
+						{ text: 'VitePress建站引导', link: '/VitePress/VitePress建站引导' },
+						{ text: '运行网站', link: '/VitePress/运行网站' },
+						{ text: '添加GitHub排除目录', link: '/VitePress/添加GitHub排除目录' },
+						{ text: '添加GitHub部署文件', link: '/VitePress/添加GitHub部署文件' },
+						{ text: '检查必须文件', link: '/VitePress/检查必须文件' },
+						{ text: '发布网站', link: '/VitePress/发布网站' },
+						{ text: '进阶操作', link: '/VitePress/进阶操作' }
 					]
 				}
 			],
