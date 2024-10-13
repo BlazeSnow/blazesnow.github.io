@@ -13,7 +13,7 @@ editLink: false
 实用的Windows相关知识
 :::
 
-::: details DNS加密：[前往](/DNSSEC/)
+::: details DNS加密：[前往](/DNSEncryption/)
 传统的DNS查询和响应以明文形式在网络中传输，这使得黑客和恶意第三方可以轻易地拦截和篡改这些信息， 实施DNS劫持，将用户重定向到假冒网站或植入恶意软件。 加密DNS（如DNS over HTTPS, DoH，和DNS over TLS, DoT）通过对查询和响应进行加密， 确保数据在传输过程中不被窃听或篡改，有效抵御此类攻击。
 :::
 

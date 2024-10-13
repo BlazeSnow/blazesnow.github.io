@@ -123,8 +123,8 @@ export default defineConfig({
 					},
 					{
 						text: 'DNS加密',
-						link: '/DNSSEC/',
-						activeMatch: '/DNSSEC/'
+						link: '/DNSEncryption/',
+						activeMatch: '/DNSEncryption/'
 					},
 					{
 						text: 'Ubuntu相关',
@@ -282,16 +282,16 @@ export default defineConfig({
 					]
 				}
 			],
-			'/DNSSEC/': [
+			'/DNSEncryption/': [
 				{
 					text: 'DNS加密',
 					items: [
-						{ text: '前言', link: '/DNSSEC/' },
-						{ text: 'Windows设备：DOH', link: '/DNSSEC/Windows设备：DOH' },
-						{ text: 'Windows设备：模板', link: '/DNSSEC/Windows设备：模板' },
-						{ text: 'Android设备：DOT', link: '/DNSSEC/Android设备：DOT' },
-						{ text: 'Apple设备：DOH', link: '/DNSSEC/Apple设备：DOH' },
-						{ text: 'DNS大全', link: '/DNSSEC/DNS大全' }]
+						{ text: '前言', link: '/DNSEncryption/' },
+						{ text: 'Windows设备：DOH', link: '/DNSEncryption/Windows设备：DOH' },
+						{ text: 'Windows设备：模板', link: '/DNSEncryption/Windows设备：模板' },
+						{ text: 'Android设备：DOT', link: '/DNSEncryption/Android设备：DOT' },
+						{ text: 'Apple设备：DOH', link: '/DNSEncryption/Apple设备：DOH' },
+						{ text: 'DNS大全', link: '/DNSEncryption/DNS大全' }]
 				}
 			],
 			'/Nodejs/': [
