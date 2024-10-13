@@ -65,10 +65,10 @@ CMake是构建C++代码的事实上的标准，每月有超过200万的下载量
 本章介绍使用Ubuntu服务器、域名、Nginx、Docker和Vaultwarden部署Bitwarden的密码服务器
 :::
 
-::: details 搭建TeamSpeak服务器：[前往](/搭建TeamSpeak服务器/)
+::: details 搭建TeamSpeak服务器：[前往](/TeamSpeakServer/)
 本章介绍使用Ubuntu服务器部署TeamSpeak的服务器
 :::
 
-::: details 搭建DNS服务器：[前往](/搭建DNS服务器/)
+::: details 搭建DNS服务器：[前往](/AdGuardHomeServer/)
 本章介绍使用AdGuard Home在Ubuntu系统上搭建DNS服务器
 :::
