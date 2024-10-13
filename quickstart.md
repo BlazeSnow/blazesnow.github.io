@@ -31,15 +31,15 @@ editLink: false
 Node.js®是一个免费、开源、跨平台的JavaScript运行时环境，允许开发人员创建服务器、web应用程序、命令行工具和脚本。
 :::
 
-::: details Docker相关：[前往](/Docker相关/)
+::: details Docker相关：[前往](/Docker/)
 Docker帮助开发人员在任何地方构建、共享、运行和验证应用程序——而无需繁琐的环境配置或管理。
 :::
 
-::: details Git相关：[前往](/Git相关/)
+::: details Git相关：[前往](/git/)
 Git是一个免费的开源分布式版本控制系统，旨在快速高效地处理从小到大的所有项目。Git易于学习，占用空间小，性能快如闪电。它比配置管理工具(如Subversion、CVS、Perforce和ClearCase)有更多的特性，如廉价的本地分支、方便的过渡区域和多个工作流。
 :::
 
-::: details CMake相关：[前往](/CMake相关/)
+::: details CMake相关：[前往](/CMake/)
 CMake是构建C++代码的事实上的标准，每月有超过200万的下载量。它是管理软件构建过程的强大、全面的解决方案。
 :::
 

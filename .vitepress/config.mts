@@ -409,42 +409,42 @@ export default defineConfig({
 					]
 				}
 			],
-			'/Docker相关/': [
+			'/Docker/': [
 				{
 					text: 'Docker相关',
 					items: [
-						{ text: '前言', link: '/Docker相关/' },
-						{ text: '运行Docker', link: '/Docker相关/运行Docker' },
-						{ text: 'Docker换源', link: '/Docker相关/Docker换源' },
-						{ text: '管理镜像', link: '/Docker相关/管理镜像' },
-						{ text: '管理容器', link: '/Docker相关/管理容器' },
-						{ text: '容器镜像服务', link: '/Docker相关/容器镜像服务' },
+						{ text: '前言', link: '/Docker/' },
+						{ text: '运行Docker', link: '/Docker/运行Docker' },
+						{ text: 'Docker换源', link: '/Docker/Docker换源' },
+						{ text: '管理镜像', link: '/Docker/管理镜像' },
+						{ text: '管理容器', link: '/Docker/管理容器' },
+						{ text: '容器镜像服务', link: '/Docker/容器镜像服务' },
 					]
 				}
 			],
-			'/Git相关/': [
+			'/git/': [
 				{
 					text: 'Git相关',
 					items: [
-						{ text: '前言', link: '/Git相关/' },
-						{ text: '安装Git', link: '/Git相关/安装Git' },
-						{ text: '处理仓库', link: '/Git相关/处理仓库' },
-						{ text: '处理远程仓库', link: '/Git相关/处理远程仓库' },
-						{ text: '处理分支', link: '/Git相关/处理分支' },
-						{ text: 'SSH连接仓库', link: '/Git相关/SSH连接仓库' },
+						{ text: '前言', link: '/git/' },
+						{ text: '安装Git', link: '/git/安装Git' },
+						{ text: '处理仓库', link: '/git/处理仓库' },
+						{ text: '处理远程仓库', link: '/git/处理远程仓库' },
+						{ text: '处理分支', link: '/git/处理分支' },
+						{ text: 'SSH连接仓库', link: '/git/SSH连接仓库' },
 					]
 				}
 			],
-			'/CMake相关/': [
+			'/CMake/': [
 				{
 					text: 'CMake相关',
 					items: [
-						{ text: '前言', link: '/CMake相关/' },
-						{ text: '安装环境', link: '/CMake相关/安装环境' },
-						{ text: '安装编辑器', link: '/CMake相关/安装编辑器' },
-						{ text: '添加配置文件', link: '/CMake相关/添加配置文件' },
-						{ text: '安装vcpkg', link: '/CMake相关/安装vcpkg' },
-						{ text: 'vcpkg添加库', link: '/CMake相关/vcpkg添加库' },
+						{ text: '前言', link: '/CMake/' },
+						{ text: '安装环境', link: '/CMake/安装环境' },
+						{ text: '安装编辑器', link: '/CMake/安装编辑器' },
+						{ text: '添加配置文件', link: '/CMake/添加配置文件' },
+						{ text: '安装vcpkg', link: '/CMake/安装vcpkg' },
+						{ text: 'vcpkg添加库', link: '/CMake/vcpkg添加库' },
 					]
 				}
 			],
