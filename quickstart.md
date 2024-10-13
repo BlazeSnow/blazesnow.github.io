@@ -9,11 +9,11 @@ editLink: false
 
 ## 系统：操作系统的相关知识
 
-::: details Windows相关：[前往](/Windows相关/)
+::: details Windows相关：[前往](/Windows/)
 实用的Windows相关知识
 :::
 
-::: details DNS加密：[前往](/DNS加密/)
+::: details DNS加密：[前往](/DNSSEC/)
 传统的DNS查询和响应以明文形式在网络中传输，这使得黑客和恶意第三方可以轻易地拦截和篡改这些信息， 实施DNS劫持，将用户重定向到假冒网站或植入恶意软件。 加密DNS（如DNS over HTTPS, DoH，和DNS over TLS, DoT）通过对查询和响应进行加密， 确保数据在传输过程中不被窃听或篡改，有效抵御此类攻击。
 :::
 
@@ -27,7 +27,7 @@ editLink: false
 
 ## 开发者：开发者工具的相关知识
 
-::: details Nodejs相关：[前往](/Nodejs相关/)
+::: details Nodejs相关：[前往](/Nodejs/)
 Node.js®是一个免费、开源、跨平台的JavaScript运行时环境，允许开发人员创建服务器、web应用程序、命令行工具和脚本。
 :::
 
