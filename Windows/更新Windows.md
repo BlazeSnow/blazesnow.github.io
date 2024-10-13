@@ -12,7 +12,7 @@ lastUpdated: 2024-8-6T15:15:00+8:00
 
 ## 通过ISO文件
 
-见[系统重新安装](/Windows相关/系统重新安装)
+见[系统重新安装](/Windows/系统重新安装)
 
 ## 通过Windows Update
 

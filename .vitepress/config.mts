@@ -232,53 +232,53 @@ export default defineConfig({
 					]
 				}
 			],
-			'/Windows相关/': [
+			'/Windows/': [
 				{
 					text: 'Windows相关',
 					items: [
-						{ text: '前言', link: '/Windows相关/' },
+						{ text: '前言', link: '/Windows/' },
 						{
 							text: '系统',
 							collapsed: true,
 							items: [
-								{ text: '更新Windows', link: '/Windows相关/更新Windows' },
-								{ text: '系统修复', link: '/Windows相关/系统修复' },
-								{ text: '系统重新安装', link: '/Windows相关/系统重新安装' },
-								{ text: '查看蓝屏文件', link: '/Windows相关/查看蓝屏文件' },
+								{ text: '更新Windows', link: '/Windows/更新Windows' },
+								{ text: '系统修复', link: '/Windows/系统修复' },
+								{ text: '系统重新安装', link: '/Windows/系统重新安装' },
+								{ text: '查看蓝屏文件', link: '/Windows/查看蓝屏文件' },
 							]
 						},
 						{
 							text: '运行库',
 							collapsed: true,
 							items: [
-								{ text: '安装C++运行库', link: '/Windows相关/安装C++运行库' },
-								{ text: '安装.NET', link: '/Windows相关/安装.NET' },
+								{ text: '安装C++运行库', link: '/Windows/安装C++运行库' },
+								{ text: '安装.NET', link: '/Windows/安装.NET' },
 							]
 						},
 						{
 							text: '文件资源管理器',
 							collapsed: true,
 							items: [
-								{ text: '显示后缀名和隐藏文件', link: '/Windows相关/显示后缀名和隐藏文件' },
-								{ text: '创建App的快捷方式', link: '/Windows相关/创建App的快捷方式' },
-								{ text: '重启文件资源管理器', link: '/Windows相关/重启文件资源管理器' },
-								{ text: '删除新建文件类型', link: '/Windows相关/删除新建文件类型' },
-								{ text: '删除右键菜单项', link: '/Windows相关/删除右键菜单项' },
-								{ text: '修复桌面图标', link: '/Windows相关/修复桌面图标' },
+								{ text: '显示后缀名和隐藏文件', link: '/Windows/显示后缀名和隐藏文件' },
+								{ text: '创建App的快捷方式', link: '/Windows/创建App的快捷方式' },
+								{ text: '重启文件资源管理器', link: '/Windows/重启文件资源管理器' },
+								{ text: '删除新建文件类型', link: '/Windows/删除新建文件类型' },
+								{ text: '删除右键菜单项', link: '/Windows/删除右键菜单项' },
+								{ text: '修复桌面图标', link: '/Windows/修复桌面图标' },
 							]
 						},
 						{
 							text: '网络',
 							collapsed: true,
 							items: [
-								{ text: '应用最新TLS', link: '/Windows相关/应用最新TLS' },
+								{ text: '应用最新TLS', link: '/Windows/应用最新TLS' },
 							]
 						},
-						{ text: '磁盘清理', link: '/Windows相关/磁盘清理' },
-						{ text: '系统配置', link: '/Windows相关/系统配置' },
-						{ text: '清理软件卸载残留', link: '/Windows相关/清理软件卸载残留' },
-						{ text: '设置环境变量', link: '/Windows相关/设置环境变量' },
-						{ text: '计算哈希值', link: '/Windows相关/计算哈希值' }
+						{ text: '磁盘清理', link: '/Windows/磁盘清理' },
+						{ text: '系统配置', link: '/Windows/系统配置' },
+						{ text: '清理软件卸载残留', link: '/Windows/清理软件卸载残留' },
+						{ text: '设置环境变量', link: '/Windows/设置环境变量' },
+						{ text: '计算哈希值', link: '/Windows/计算哈希值' }
 					]
 				}
 			],
