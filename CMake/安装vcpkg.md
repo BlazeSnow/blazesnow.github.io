@@ -17,7 +17,7 @@ lastUpdated: 2024-9-16T11:35:00+8:00
 
 ## 安装git
 
-前往```Git相关```：[点击此处跳转](/Git相关/安装Git)
+前往```Git相关```：[点击此处跳转](/git/安装Git)
 
 ## 安装vcpkg
 
@@ -27,4 +27,4 @@ lastUpdated: 2024-9-16T11:35:00+8:00
 4. 下载vcpkg：```git clone https://github.com/microsoft/vcpkg.git```
 5. 打开vcpkg根目录：```cd vcpkg```
 6. 运行安装脚本：```./bootstrap-vcpkg.bat```
-7. 设置系统环境变量```D:/vcpkg```，参见```Windows相关```：[点击此处跳转](/Windows相关/设置环境变量)
+7. 设置系统环境变量```D:/vcpkg```，参见```Windows相关```：[点击此处跳转](/Windows/设置环境变量)
