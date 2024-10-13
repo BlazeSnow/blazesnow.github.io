@@ -282,28 +282,28 @@ export default defineConfig({
 					]
 				}
 			],
-			'/DNS加密/': [
+			'/DNSSEC/': [
 				{
 					text: 'DNS加密',
 					items: [
-						{ text: '前言', link: '/DNS加密/' },
-						{ text: 'Windows设备：DOH', link: '/DNS加密/Windows设备：DOH' },
-						{ text: 'Windows设备：模板', link: '/DNS加密/Windows设备：模板' },
-						{ text: 'Android设备：DOT', link: '/DNS加密/Android设备：DOT' },
-						{ text: 'Apple设备：DOH', link: '/DNS加密/Apple设备：DOH' },
-						{ text: 'DNS大全', link: '/DNS加密/DNS大全' }]
+						{ text: '前言', link: '/DNSSEC/' },
+						{ text: 'Windows设备：DOH', link: '/DNSSEC/Windows设备：DOH' },
+						{ text: 'Windows设备：模板', link: '/DNSSEC/Windows设备：模板' },
+						{ text: 'Android设备：DOT', link: '/DNSSEC/Android设备：DOT' },
+						{ text: 'Apple设备：DOH', link: '/DNSSEC/Apple设备：DOH' },
+						{ text: 'DNS大全', link: '/DNSSEC/DNS大全' }]
 				}
 			],
-			'/Nodejs相关/': [
+			'/Nodejs/': [
 				{
 					text: 'Nodejs相关',
 					items: [
-						{ text: '前言', link: '/Nodejs相关/' },
-						{ text: '安装Nodejs', link: '/Nodejs相关/安装Nodejs' },
-						{ text: '引入npm', link: '/Nodejs相关/引入npm' },
-						{ text: '管理npm包', link: '/Nodejs相关/管理npm包' },
-						{ text: 'npm后缀', link: '/Nodejs相关/npm后缀' },
-						{ text: 'npm换源', link: '/Nodejs相关/npm换源' },
+						{ text: '前言', link: '/Nodejs/' },
+						{ text: '安装Nodejs', link: '/Nodejs/安装Nodejs' },
+						{ text: '引入npm', link: '/Nodejs/引入npm' },
+						{ text: '管理npm包', link: '/Nodejs/管理npm包' },
+						{ text: 'npm后缀', link: '/Nodejs/npm后缀' },
+						{ text: 'npm换源', link: '/Nodejs/npm换源' },
 					]
 				}
 			],
