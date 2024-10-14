@@ -11,6 +11,6 @@
   "description": "BlazeSnow帮助网站",
   "devDependencies": {
     "@fontsource/monaspace-neon": "^5.1.0",
-    "vitepress": "^1.4.0"
+    "vitepress": "^1.4.1"
   }
 }
