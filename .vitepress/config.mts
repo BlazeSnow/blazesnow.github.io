@@ -201,6 +201,11 @@ export default defineConfig({
 						link: '/AdGuardHomeServer/',
 						activeMatch: '/AdGuardHomeServer/'
 					},
+					{
+						text: '搭建内网穿透服务',
+						link: '/FrpClientAndServer/',
+						activeMatch: '/FrpClientAndServer/'
+					},
 				]
 			},
 			{
@@ -498,6 +503,15 @@ export default defineConfig({
 						{ text: '配置系统', link: '/AdGuardHomeServer/配置系统' },
 						{ text: '开始运行', link: '/AdGuardHomeServer/开始运行' },
 						{ text: '维护服务', link: '/AdGuardHomeServer/维护服务' },
+					]
+				}
+			],
+			'/FrpClientAndServer/': [
+				{
+					text: '搭建内网穿透服务',
+					items: [
+						{ text: '前言', link: '/FrpClientAndServer/' },
+						{ text: '安装环境', link: '/FrpClientAndServer/安装环境' },
 					]
 				}
 			],
