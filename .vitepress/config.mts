@@ -513,6 +513,8 @@ export default defineConfig({
 						{ text: '前言', link: '/FrpClientAndServer/' },
 						{ text: '安装环境', link: '/FrpClientAndServer/安装环境' },
 						{ text: '获取文件', link: '/FrpClientAndServer/获取文件' },
+						{ text: '开放端口', link: '/FrpClientAndServer/开放端口' },
+						{ text: '配置文件', link: '/FrpClientAndServer/配置文件' },
 					]
 				}
 			],
