@@ -72,3 +72,7 @@ CMake是构建C++代码的事实上的标准，每月有超过200万的下载量
 ::: details 搭建DNS服务器：[前往](/AdGuardHomeServer/)
 本章介绍使用AdGuard Home在Ubuntu系统上搭建DNS服务器
 :::
+
+::: details 搭建内网穿透服务：[前往](/FrpClientAndServer/)
+本章介绍使用```fatedier/frp```在```Windows客户端```和```Ubuntu服务端```上搭建FRP内网穿透服务
+:::
