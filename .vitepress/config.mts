@@ -515,6 +515,8 @@ export default defineConfig({
 						{ text: '获取文件', link: '/FrpClientAndServer/获取文件' },
 						{ text: '开放端口', link: '/FrpClientAndServer/开放端口' },
 						{ text: '配置文件', link: '/FrpClientAndServer/配置文件' },
+						{ text: '开始运行', link: '/FrpClientAndServer/开始运行' },
+						{ text: '维护服务', link: '/FrpClientAndServer/维护服务' },
 					]
 				}
 			],
