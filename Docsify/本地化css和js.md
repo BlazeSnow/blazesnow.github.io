@@ -2,7 +2,7 @@
 lastUpdated: 2024-5-31T22:11:00+8:00
 ---
 
-# 本地化css和js
+# 本地化css和js | Docsify建站教程
 
 ## 从```jsdelivr cdn```下载docsify包
 
