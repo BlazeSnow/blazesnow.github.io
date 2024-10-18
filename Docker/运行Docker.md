@@ -1,12 +1,8 @@
 ---
-lastUpdated: 2024-8-26T10:00:00+8:00
+lastUpdated: 2024-10-18T18:50:00+8:00
 ---
 
 # 运行Docker
-
-## 安装Docker
-
-```sudo apt install docker.io```
 
 ## 启动Docker
 

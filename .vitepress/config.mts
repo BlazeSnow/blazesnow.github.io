@@ -419,6 +419,7 @@ export default defineConfig({
 					text: 'Docker相关',
 					items: [
 						{ text: '前言', link: '/Docker/' },
+						{ text: '安装Docker', link: '/Docker/安装Docker' },
 						{ text: '运行Docker', link: '/Docker/运行Docker' },
 						{ text: 'Docker换源', link: '/Docker/Docker换源' },
 						{ text: '管理镜像', link: '/Docker/管理镜像' },
