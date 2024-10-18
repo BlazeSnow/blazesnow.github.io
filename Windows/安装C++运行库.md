@@ -2,7 +2,7 @@
 lastUpdated: 2024-6-2T19:42:00+8:00
 ---
 
-# 安装C++运行库
+# 安装C++运行库 | Windows相关
 
 > Visual C++可再发行程序包安装Microsoft C和C++（MSVC）运行时库。
 > 许多使用Microsoft C和C++工具生成的应用程序都需要这些库。
