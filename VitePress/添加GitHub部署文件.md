@@ -2,7 +2,7 @@
 lastUpdated: 2024-6-26T22:18:00+8:00
 ---
 
-# 添加GitHub部署文件
+# 添加GitHub部署文件 | VitePress建站教程
 
 1. 回到文件夹根目录
 2. 新建文件夹```.github```
