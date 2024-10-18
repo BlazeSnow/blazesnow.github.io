@@ -2,7 +2,7 @@
 lastUpdated: 2024-5-31T22:11:00+8:00
 ---
 
-# 安装Docsify
+# 安装Docsify | Docsify建站教程
 
 1. 按下```Windows徽标```+```X```
 2. 点击弹出窗口中的```终端管理员```
