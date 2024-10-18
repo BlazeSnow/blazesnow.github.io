@@ -1,16 +1,21 @@
 ---
-lastUpdated: 2024-7-27T13:51:00+8:00
+lastUpdated: 2024-10-18T22:54:00+8:00
 ---
 
 # 关于本站
 
 ## 本站域名
 
-- <https://blazesnow.com>
-- <https://blazesnow.org>
-- <https://blazesnow.cn>（粤ICP备2024284878号）
+- <https://www.blazesnow.com>
+- <https://www.blazesnow.org>
+- <https://www.blazesnow.cn>（粤ICP备2024284878号）
 - <https://blazesnow.pages.dev>
 - <https://blazesnow.github.io>
+- <https://blazesnow.vercel.app>
+
+## 更新日志
+
+本站更新日志：[点击此处跳转](/CHANGELOG/)
 
 ## 网站创立时间
 
