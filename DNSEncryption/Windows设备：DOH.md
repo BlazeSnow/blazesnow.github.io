@@ -2,7 +2,7 @@
 lastUpdated: 2024-6-16T17:23:00+8:00
 ---
 
-# Windows设备：DOH
+# Windows设备：DOH | DNS加密
 
 1. 按下```Windows徽标```+```I```打开设置
 2. 选中```网络和Internet```
