@@ -2,7 +2,7 @@
 lastUpdated: 2024-6-2T19:42:00+8:00
 ---
 
-# 安装Ubuntu
+# 安装Ubuntu | Ubuntu相关
 
 1. 打开：<https://cn.ubuntu.com/download/desktop>
 2. 下载```.iso```镜像

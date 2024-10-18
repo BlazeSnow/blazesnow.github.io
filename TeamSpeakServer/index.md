@@ -2,7 +2,7 @@
 lastUpdated: 2024-9-24T15:04:00+8:00
 ---
 
-# 前言
+# 前言 | 搭建TeamSpeak服务器
 
 本章介绍使用```Ubuntu```服务器部署```TeamSpeak```的服务器
 
