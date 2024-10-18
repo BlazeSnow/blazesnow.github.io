@@ -2,7 +2,7 @@
 lastUpdated: 2024-9-16T11:35:00+8:00
 ---
 
-# 安装vcpkg
+# 安装vcpkg | CMake相关
 
 > 对于Windows用户，Visual Studio的MSVC（Microsoft Visual C++ 编译器）是C++开发所需的编译器。
 

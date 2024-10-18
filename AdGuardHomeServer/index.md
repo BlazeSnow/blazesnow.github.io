@@ -2,7 +2,7 @@
 lastUpdated: 2024-9-27T17:38:00+8:00
 ---
 
-# 前言
+# 前言 | 搭建DNS服务器
 
 本章介绍使用```AdGuard Home```在```Ubuntu```系统上搭建DNS服务器
 

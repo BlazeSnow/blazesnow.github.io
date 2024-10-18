@@ -2,7 +2,7 @@
 lastUpdated: 2024-8-28T15:22:00+8:00
 ---
 
-# 安装Nodejs
+# 安装Nodejs | Nodejs相关
 
 1. 打开官网：<https://nodejs.org>
 2. 下载安装程序

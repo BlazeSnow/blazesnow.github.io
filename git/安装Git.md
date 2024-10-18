@@ -1,10 +1,10 @@
 ---
-lastUpdated: 2024-6-26T21:07:00+8:00
+lastUpdated: 2024-10-18T19:18:00+8:00
 ---
 
-# 安装Git
+# 安装Git | Git相关
 
-1. 打开网站：<https://git-scm.com/download/>
+1. 打开网站：<https://git-scm.com/downloads/>
 2. 下载并安装
 
 ## 检查安装是否成功
