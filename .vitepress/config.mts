@@ -7,6 +7,7 @@ export default defineConfig({
 	title: 'BlazeSnow帮助网站',
 	//网页描述
 	description: 'BlazeSnow帮助网站',
+	//网页标题
 	titleTemplate: ':title | BlazeSnow帮助网站',
 	//头文件配置
 	head: [
