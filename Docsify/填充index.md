@@ -2,7 +2,7 @@
 lastUpdated: 2024-5-31T22:11:00+8:00
 ---
 
-# 填充index
+# 填充index | Docsify建站教程
 
 1. 用编辑器打开```index.html```
 2. 填入以下内容
