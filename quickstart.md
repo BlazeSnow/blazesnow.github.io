@@ -61,8 +61,8 @@ CMake是构建C++代码的事实上的标准，每月有超过200万的下载量
 本章主要介绍利用Ubuntu服务器搭建Minecraft我的世界Java版服务器
 :::
 
-::: details 部署Bitwarden密码服务：[前往](/BitwardenServer/)
-本章介绍使用```Ubuntu```服务器和```Docker```部署```Bitwarden```的密码服务器
+::: details 部署Bitwarden密码服务：[前往](/VaultwardenServer/)
+本章介绍使用```Ubuntu```服务器、域名、```Nginx```、```Docker```和```Vaultwarden```部署```Bitwarden```的密码服务器
 :::
 
 ::: details 搭建TeamSpeak服务器：[前往](/TeamSpeakServer/)
