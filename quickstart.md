@@ -62,7 +62,7 @@ CMake是构建C++代码的事实上的标准，每月有超过200万的下载量
 :::
 
 ::: details 部署Bitwarden密码服务：[前往](/VaultwardenServer/)
-本章介绍使用```Ubuntu```服务器、```Nginx```、```Docker```和```Vaultwarden```部署```Bitwarden```的密码服务器
+本章介绍使用```Ubuntu```服务器、域名、```Nginx```、```Docker```和```Vaultwarden```部署```Bitwarden```的密码服务器
 :::
 
 ::: details 搭建TeamSpeak服务器：[前往](/TeamSpeakServer/)
