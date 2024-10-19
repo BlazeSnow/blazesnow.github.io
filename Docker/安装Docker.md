@@ -10,7 +10,7 @@ lastUpdated: 2024-10-19T18:45:00+8:00
 
 ```for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done```
 
-## 获取脚本
+## 安装Docker
 
 1. 前往var目录：```cd /var```
 2. 下载Docker安装脚本：```curl -fsSL https://get.docker.com -o get-docker.sh```
