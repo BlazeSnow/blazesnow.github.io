@@ -208,6 +208,11 @@ export default defineConfig({
 						link: '/FrpClientAndServer/',
 						activeMatch: '/FrpClientAndServer/'
 					},
+					{
+						text: '搭建FTP文件服务器',
+						link: '/FTPServer/',
+						activeMatch: '/FTPServer/'
+					},
 				]
 			},
 			{
@@ -428,6 +433,7 @@ export default defineConfig({
 						{ text: '管理镜像', link: '/Docker/管理镜像' },
 						{ text: '管理容器', link: '/Docker/管理容器' },
 						{ text: '容器镜像服务', link: '/Docker/容器镜像服务' },
+						{ text: 'Compose文件', link: '/Docker/Compose文件' },
 					]
 				}
 			],
@@ -521,6 +527,20 @@ export default defineConfig({
 						{ text: '配置文件', link: '/FrpClientAndServer/配置文件' },
 						{ text: '开始运行', link: '/FrpClientAndServer/开始运行' },
 						{ text: '维护服务', link: '/FrpClientAndServer/维护服务' },
+					]
+				}
+			],
+			'/FTPServer/': [
+				{
+					text: '搭建FTP文件服务器',
+					items: [
+						{ text: '前言', link: '/FTPServer/' },
+						{ text: '安装环境', link: '/FTPServer/安装环境' },
+						{ text: '拉取镜像', link: '/FTPServer/拉取镜像' },
+						{ text: '开放端口', link: '/FTPServer/开放端口' },
+						{ text: '配置文件', link: '/FTPServer/配置文件' },
+						{ text: '开始运行', link: '/FTPServer/开始运行' },
+						{ text: '维护服务', link: '/FTPServer/维护服务' },
 					]
 				}
 			],
