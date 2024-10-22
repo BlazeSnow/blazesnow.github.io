@@ -76,3 +76,7 @@ CMake是构建C++代码的事实上的标准，每月有超过200万的下载量
 ::: details 搭建内网穿透服务：[前往](/FrpClientAndServer/)
 本章介绍使用```fatedier/frp```在```Windows客户端```和```Ubuntu服务端```上搭建FRP内网穿透服务
 :::
+
+::: details 搭建FTP文件服务器：[前往](/FTPServer/)
+本章介绍使用```fauria/vsftpd```在Ubuntu服务器上搭建FTP文件服务器
+:::
