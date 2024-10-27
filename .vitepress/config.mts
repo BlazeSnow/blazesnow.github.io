@@ -213,6 +213,11 @@ export default defineConfig({
 						link: '/FTPServer/',
 						activeMatch: '/FTPServer/'
 					},
+					{
+						text: '搭建SFTP文件服务器',
+						link: '/SFTPServer/',
+						activeMatch: '/SFTPServer/'
+					},
 				]
 			},
 			{
@@ -541,6 +546,20 @@ export default defineConfig({
 						{ text: '配置文件', link: '/FTPServer/配置文件' },
 						{ text: '开始运行', link: '/FTPServer/开始运行' },
 						{ text: '维护服务', link: '/FTPServer/维护服务' },
+					]
+				}
+			],
+			'/SFTPServer/': [
+				{
+					text: '搭建FTP文件服务器',
+					items: [
+						{ text: '前言', link: '/SFTPServer/' },
+						{ text: '安装环境', link: '/SFTPServer/安装环境' },
+						{ text: '拉取镜像', link: '/SFTPServer/拉取镜像' },
+						{ text: '开放端口', link: '/SFTPServer/开放端口' },
+						{ text: '配置文件', link: '/SFTPServer/配置文件' },
+						{ text: '开始运行', link: '/SFTPServer/开始运行' },
+						{ text: '维护服务', link: '/SFTPServer/维护服务' },
 					]
 				}
 			],
