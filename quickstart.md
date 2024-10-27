@@ -80,3 +80,7 @@ CMake是构建C++代码的事实上的标准，每月有超过200万的下载量
 ::: details 搭建FTP文件服务器：[前往](/FTPServer/)
 本章介绍使用```fauria/vsftpd```在Ubuntu服务器上搭建FTP文件服务器
 :::
+
+::: details 搭建SFTP文件服务器：[前往](/SFTPServer/)
+本章介绍使用```atmoz/sftp```在Ubuntu服务器上搭建SFTP文件服务器
+:::
