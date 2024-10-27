@@ -551,7 +551,7 @@ export default defineConfig({
 			],
 			'/SFTPServer/': [
 				{
-					text: '搭建FTP文件服务器',
+					text: '搭建SFTP文件服务器',
 					items: [
 						{ text: '前言', link: '/SFTPServer/' },
 						{ text: '安装环境', link: '/SFTPServer/安装环境' },
