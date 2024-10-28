@@ -1,17 +1,19 @@
 ---
-lastUpdated: 2024-10-18T22:54:00+8:00
+lastUpdated: 2024-10-28T14:05:00+8:00
 ---
 
 # 关于本站
 
 ## 本站域名
 
-- <https://www.blazesnow.com>
-- <https://www.blazesnow.org>
-- <https://www.blazesnow.cn>（粤ICP备2024284878号）
-- <https://blazesnow.pages.dev>
-- <https://blazesnow.github.io>
-- <https://blazesnow.vercel.app>
+| 域名                           | 备注                |
+| :----------------------------- | :------------------ |
+| <https://www.blazesnow.com>    | 主域名（优先使用）  |
+| <https://www.blazesnow.org>    | 副域名              |
+| <https://www.blazesnow.cn>     | 粤ICP备2024284878号 |
+| <https://blazesnow.github.io>  | GitHub Pages        |
+| <https://blazesnow.pages.dev>  | Cloudflare Pages    |
+| <https://blazesnow.vercel.app> | Vercel              |
 
 ## 更新日志
 
