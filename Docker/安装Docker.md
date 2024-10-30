@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2024-10-30T19:09:00+8:00
+lastUpdated: 2024-10-30T19:16:00+8:00
 ---
 
 # 安装Docker | Docker相关
@@ -11,5 +11,5 @@ lastUpdated: 2024-10-30T19:09:00+8:00
 :::
 
 ::: info docker-ce
-Docker官方推荐版本，但是需要连接```get.docker.com```和```download.docker.com```，前往安装教程：[点击此处跳转](/Docker/安装CE发行版)
+Docker官方推荐版本，但是需要连接```get.docker.com```，前往安装教程：[点击此处跳转](/Docker/安装CE发行版)
 :::
