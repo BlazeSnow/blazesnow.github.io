@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2024-10-22T13:10:00+8:00
+lastUpdated: 2024-10-30T19:16:00+8:00
 ---
 
 # 安装CE发行版 | Docker相关
@@ -14,7 +14,7 @@ lastUpdated: 2024-10-22T13:10:00+8:00
 
 1. 前往var目录：```cd /var```
 2. 下载Docker安装脚本：```curl -fsSL https://get.docker.com -o get-docker.sh```
-3. 安装Docker：```sudo sh get-docker.sh```
+3. 使用安装脚本安装Docker：```sudo sh install-docker.sh --mirror Aliyun```或```sudo sh install-docker.sh --mirror AzureChinaCloud```
 
 ## 验证安装
 
