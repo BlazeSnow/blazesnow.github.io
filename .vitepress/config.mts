@@ -431,6 +431,7 @@ export default defineConfig({
 					text: 'Docker相关',
 					items: [
 						{ text: '前言', link: '/Docker/' },
+						{ text: '安装Docker', link: '/Docker/安装Docker' },
 						{ text: '安装IO发行版', link: '/Docker/安装IO发行版' },
 						{ text: '安装CE发行版', link: '/Docker/安装CE发行版' },
 						{ text: '运行Docker', link: '/Docker/运行Docker' },
