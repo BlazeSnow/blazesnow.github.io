@@ -244,7 +244,8 @@ export default defineConfig({
 				{
 					text: '更新日志',
 					items: [
-						{ text: '2024年10月', link: '/CHANGELOG/' },
+						{ text: '2024年11月', link: '/CHANGELOG/' },
+						{ text: '2024年10月', link: '/CHANGELOG/2024年10月' },
 						{ text: '2024年9月', link: '/CHANGELOG/2024年9月' },
 						{ text: '2024年8月', link: '/CHANGELOG/2024年8月' },
 						{ text: '2024年7月', link: '/CHANGELOG/2024年7月' },
