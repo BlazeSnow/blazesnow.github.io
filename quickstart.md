@@ -14,7 +14,7 @@ editLink: false
 :::
 
 ::: details DNS加密：[前往](/DNSEncryption/)
-传统的DNS查询和响应以明文形式在网络中传输，这使得黑客和恶意第三方可以轻易地拦截和篡改这些信息， 实施DNS劫持，将用户重定向到假冒网站或植入恶意软件。 加密DNS（如DNS over HTTPS, DoH，和DNS over TLS, DoT）通过对查询和响应进行加密， 确保数据在传输过程中不被窃听或篡改，有效抵御此类攻击。
+传统的DNS查询和响应以明文形式在网络中传输，这使得黑客和恶意第三方可以轻易地拦截和篡改这些信息，实施DNS劫持，将用户重定向到假冒网站或植入恶意软件。加密DNS通过对查询和响应进行加密，确保数据在传输过程中不被窃听或篡改，有效抵御此类攻击。
 :::
 
 ::: details Ubuntu相关：[前往](/Ubuntu/)
@@ -46,41 +46,41 @@ CMake是构建C++代码的事实上的标准，每月有超过200万的下载量
 ## 服务器：利用服务器完成操作
 
 ::: details Docsify建站教程：[前往](/Docsify/)
-本章介绍使用```Docsify```和```GitHub Pages```建立一个网站
+本章介绍使用Docsify和GitHub Pages建立一个网站
 :::
 
 ::: details VitePress建站教程：[前往](/VitePress/)
-本章介绍使用```Vitepress```和```GitHub Pages```建立一个网站
+本章介绍使用Vitepress和GitHub Pages建立一个网站
 :::
 
 ::: details 部署网站至服务器：[前往](/WebsiteToServer/)
-此教程内容为：将```VitePress```建成的网站通过```GitHub```部署到```Ubuntu服务器```上
+此教程内容为：将VitePress建成的网站通过GitHub部署到Ubuntu服务器上
 :::
 
 ::: details 搭建我的世界服务器：[前往](/MinecraftServer/)
-本章主要介绍利用```Ubuntu```服务器搭建```Minecraft```我的世界```Java```版服务器
+本章主要介绍利用Ubuntu服务器搭建Minecraft我的世界Java版服务器
 :::
 
 ::: details 部署Bitwarden密码服务：[前往](/VaultwardenServer/)
-本章介绍使用```Ubuntu```服务器、域名、```Nginx```、```Docker```和```Vaultwarden```部署```Bitwarden```的密码服务器
+本章介绍使用Ubuntu服务器、域名、Nginx、Docker和Vaultwarden部署Bitwarden的密码服务器
 :::
 
 ::: details 搭建TeamSpeak服务器：[前往](/TeamSpeakServer/)
-本章介绍使用```Ubuntu```服务器部署```TeamSpeak```的服务器
+本章介绍使用Ubuntu服务器部署TeamSpeak的服务器
 :::
 
 ::: details 搭建DNS服务器：[前往](/AdGuardHomeServer/)
-本章介绍使用```AdGuard Home```在```Ubuntu```系统上搭建DNS服务器
+本章介绍使用AdGuard Home在Ubuntu系统上搭建DNS服务器
 :::
 
 ::: details 搭建内网穿透服务：[前往](/FrpClientAndServer/)
-本章介绍使用```fatedier/frp```在```Windows客户端```和```Ubuntu服务端```上搭建FRP内网穿透服务
+本章介绍使用fatedier/frp在Windows客户端和Ubuntu服务端上搭建FRP内网穿透服务
 :::
 
 ::: details 搭建FTP文件服务器：[前往](/FTPServer/)
-本章介绍使用```fauria/vsftpd```在Ubuntu服务器上搭建FTP文件服务器
+本章介绍使用fauria/vsftpd在Ubuntu服务器上搭建FTP文件服务器
 :::
 
 ::: details 搭建SFTP文件服务器：[前往](/SFTPServer/)
-本章介绍使用```atmoz/sftp```在Ubuntu服务器上搭建SFTP文件服务器
+本章介绍使用atmoz/sftp在Ubuntu服务器上搭建SFTP文件服务器
 :::
