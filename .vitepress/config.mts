@@ -15,15 +15,6 @@ export default defineConfig({
 		['link',
 			{ rel: 'icon', href: '/logo.ico' }
 		],
-		//Google AdSense
-		[
-			"script",
-			{
-				async: '',
-				"custom-element": "amp-ad",
-				src: "https://cdn.ampproject.org/v0/amp-ad-0.1.js",
-			},
-		],
 		//Google Analytics
 		[
 			'script',
@@ -36,6 +27,15 @@ export default defineConfig({
 			function gtag(){dataLayer.push(arguments);}
 			gtag('js', new Date());
 			gtag('config', 'AW-16752995804');`
+		],
+		//Google AdSense
+		[
+			"script",
+			{
+				async: '',
+				"custom-element": "amp-ad",
+				src: "https://cdn.ampproject.org/v0/amp-ad-0.1.js",
+			},
 		],
 	],
 	//用JavaScript块加载界面，减少带宽
