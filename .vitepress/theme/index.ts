@@ -2,9 +2,9 @@ import DefaultTheme from 'vitepress/theme'
 import "@fontsource/monaspace-neon";
 import './fonts.css'
 import './custom.css'
-import layout from './layout.vue';
+import template from './template.vue';
 
 export default {
 	extends: DefaultTheme,
-	Layout: layout,
+	Layout: template,
 }
