@@ -7,5 +7,5 @@ import layout_404 from './404.vue'
 
 export default {
 	extends: DefaultTheme,
-	layout: layout_ads
+	Layout: layout_ads,
 }
