@@ -30,18 +30,18 @@ export default defineConfig({
 		],
 		//Google AdSense
 		[
-			'script', {
-				async: 'async',
+			'script',
+			{
+				async: '',
 				src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8010307323433130',
 				crossorigin: 'anonymous',
 			}
 		],
-		['script', {},
-			`
-            window['addAds'] = function(){
-                (adsbygoogle = window.adsbygoogle || []).push({});
-            }
-        `],
+		[
+			'script',
+			{},
+			'(adsbygoogle = window.adsbygoogle || []).push({});',
+		],
 	],
 	//用JavaScript块加载界面，减少带宽
 	metaChunk: true,
