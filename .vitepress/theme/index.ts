@@ -9,7 +9,9 @@ export default {
 	extends: DefaultTheme,
 	enhanceApp({ app }) {
 		const hostname = window.location.hostname;
-		if (hostname === 'example.org' || hostname === 'www.example.org') {
+		if (hostname === 'blazesnow.org'
+			|| hostname === 'www.blazesnow.org'
+			|| hostname === 'test.blazesnow.org') {
 			app.component('Layout', layoutwithads);
 		} else {
 			app.component('Layout', layout);
