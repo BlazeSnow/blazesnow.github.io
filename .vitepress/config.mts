@@ -29,25 +29,16 @@ export default defineConfig({
 			gtag('config', 'AW-16752995804');`
 		],
 		//Google AdSense
-		[
-			"script",
-			{
-				async: '',
-				"custom-element": "amp-ad",
-				src: "https://cdn.ampproject.org/v0/amp-ad-0.1.js",
-			},
-		],
 		['script', {
 			async: 'async',
 			src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8010307323433130',
 			crossorigin: 'anonymous',
 		}],
 		['script', {},
-			`
-            window['addAds'] = function(){
+			`window['addAds'] = function(){
                 (adsbygoogle = window.adsbygoogle || []).push({});
-            }
-        `],
+            }`
+		],
 	],
 	//用JavaScript块加载界面，减少带宽
 	metaChunk: true,
