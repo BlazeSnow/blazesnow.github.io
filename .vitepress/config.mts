@@ -35,10 +35,11 @@ export default defineConfig({
 			crossorigin: 'anonymous',
 		}],
 		['script', {},
-			`window['addAds'] = function(){
+			`
+            window['addAds'] = function(){
                 (adsbygoogle = window.adsbygoogle || []).push({});
-            }`
-		],
+            }
+        `],
 	],
 	//用JavaScript块加载界面，减少带宽
 	metaChunk: true,
