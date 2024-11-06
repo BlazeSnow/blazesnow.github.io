@@ -8,7 +8,7 @@ const { Layout } = DefaultTheme
 <template>
     <Layout>
         <!-- aside-ads -->
-        <template #aside-ads-after>
+        <template #aside-outline-after>
             <asideAd />
         </template>
         <!-- not-found -->
