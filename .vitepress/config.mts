@@ -15,19 +15,6 @@ export default defineConfig({
 		['link',
 			{ rel: 'icon', href: '/logo.ico' }
 		],
-		//Google Analytics
-		[
-			'script',
-			{ async: '', src: 'https://www.googletagmanager.com/gtag/js?id=AW-16752995804' }
-		],
-		[
-			'script',
-			{},
-			`window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-			gtag('config', 'AW-16752995804');`
-		],
 		//Google AdSense
 		[
 			'script', {
