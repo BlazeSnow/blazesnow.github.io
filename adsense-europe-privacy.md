@@ -5,7 +5,7 @@ aside: false
 editLink: false
 ---
 
-::: info Language
+::: info 注意：语言差异：Language difference
 本隐私权政策内容以中文版本为准，英文版本为机器翻译仅供参考。
 
 The content of this Privacy policy is subject to the Chinese version and the English version is machine translated for reference only.
