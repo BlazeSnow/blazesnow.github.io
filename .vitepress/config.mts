@@ -120,10 +120,6 @@ export default defineConfig({
 				link: '/'
 			},
 			{
-				text: '快速开始',
-				link: '/quickstart'
-			},
-			{
 				text: '系统',
 				activeMatch: '/Windows/',
 				items: [
@@ -245,7 +241,7 @@ export default defineConfig({
 						link: '/about'
 					}
 				]
-			}
+			},
 		],
 		sidebar: {
 			'/CHANGELOG/': [

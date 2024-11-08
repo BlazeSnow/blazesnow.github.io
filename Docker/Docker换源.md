@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2024-10-18T18:41:00+8:00
+lastUpdated: 2024-11-8T21:59:00+8:00
 ---
 
 # Docker换源 | Docker相关
@@ -8,7 +8,7 @@ lastUpdated: 2024-10-18T18:41:00+8:00
 
 ```docker info```
 
-## 换源
+## Docker换源
 
 1. 转到```/etc/docker```目录：```cd /etc/docker```
 2. 新建配置文件：```touch daemon.json```
@@ -23,3 +23,8 @@ lastUpdated: 2024-10-18T18:41:00+8:00
     "registry-mirrors": ["镜像源地址"]
 }
 ```
+
+## 镜像源获取地址推荐
+
+- 阿里云镜像加速器：<https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors>
+- 华为云镜像加速器：<https://console.huaweicloud.com/swr/#/swr/dashboard>
