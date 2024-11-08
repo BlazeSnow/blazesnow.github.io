@@ -225,6 +225,11 @@ export default defineConfig({
 						link: '/SFTPServer/',
 						activeMatch: '/SFTPServer/'
 					},
+					{
+						text: '搭建Webdav文件服务器',
+						link: '/WebdavServer/',
+						activeMatch: '/WebdavServer/'
+					},
 				]
 			},
 			{
@@ -576,6 +581,21 @@ export default defineConfig({
 						{ text: '配置文件', link: '/SFTPServer/配置文件' },
 						{ text: '开始运行', link: '/SFTPServer/开始运行' },
 						{ text: '维护服务', link: '/SFTPServer/维护服务' },
+					]
+				}
+			],
+			'/WebdavServer/': [
+				{
+					text: '搭建Webdav文件服务器',
+					items: [
+						{ text: '前言', link: '/WebdavServer/' },
+						{ text: '安装环境', link: '/WebdavServer/安装环境' },
+						{ text: '拉取镜像', link: '/WebdavServer/拉取镜像' },
+						{ text: '开放端口', link: '/WebdavServer/开放端口' },
+						{ text: '配置文件', link: '/WebdavServer/配置文件' },
+						{ text: '开始运行', link: '/WebdavServer/开始运行' },
+						{ text: '维护服务', link: '/WebdavServer/维护服务' },
+						{ text: '挂载到Windows', link: '/WebdavServer/挂载到Windows' },
 					]
 				}
 			],

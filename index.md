@@ -85,3 +85,7 @@ CMake是构建C++代码的事实上的标准，每月有超过200万的下载量
 ::: details 搭建SFTP文件服务器：[前往](/SFTPServer/)
 本章介绍使用atmoz/sftp在Ubuntu服务器上搭建SFTP文件服务器
 :::
+
+::: details 搭建Webdav文件服务器：[前往](/WebdavServer/)
+本章介绍使用bytemark/webdav在Ubuntu服务器上搭建Webdav文件服务器
+:::
