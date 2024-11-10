@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+	// 高亮标题跳转
 	vite: {
 		ssr: {
 			noExternal: [
@@ -21,6 +22,19 @@ export default defineConfig({
 		//网页logo
 		['link',
 			{ rel: 'icon', href: '/logo.ico' }
+		],
+		//谷歌分析
+		[
+			'script',
+			{ async: '', src: 'https://www.googletagmanager.com/gtag/js?id=AW-16752995804' }
+		],
+		[
+			'script',
+			{},
+			`window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'AW-16752995804');`
 		],
 		//Google AdSense
 		[
