@@ -4,6 +4,8 @@ lastUpdated: false
 
 # 2024年11月 | 更新日志
 
+- **2024年11月10日10点37分**
+    - 添加插件：```@nolebase/vitepress-plugin-highlight-targeted-heading```
 - **2024年11月8日23点02分**
     - 添加内容：
         - ```前言 | 搭建Webdav文件服务器```
