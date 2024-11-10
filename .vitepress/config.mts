@@ -1,14 +1,6 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-	// 高亮标题跳转
-	vite: {
-		ssr: {
-			noExternal: [
-				'@nolebase/vitepress-plugin-highlight-targeted-heading',
-			],
-		},
-	},
 	//网页语言
 	lang: 'zh-CN',
 	//网页标题
