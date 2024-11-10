@@ -4,6 +4,9 @@ lastUpdated: false
 
 # 2024年11月 | 更新日志
 
+- **2024年11月10日15点43分**
+    - 撤销操作：
+        - 添加插件：```@nolebase/vitepress-plugin-highlight-targeted-heading```
 - **2024年11月10日11点10分**
     - 撤销操作：
         - 添加插件：```vitepress-plugin-google-analytics```
