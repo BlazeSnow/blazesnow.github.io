@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2024-11-14T10:08:00+8:00
+lastUpdated: 2024-11-14T12:27:00+8:00
 ---
 
 # 关于本站
@@ -14,10 +14,6 @@ lastUpdated: 2024-11-14T10:08:00+8:00
 | [blazesnow.github.io](https://blazesnow.github.io)   | GitHub Pages        |
 | [blazesnow.pages.dev](https://blazesnow.pages.dev)   | Cloudflare Pages    |
 | [blazesnow.vercel.app](https://blazesnow.vercel.app) | Vercel              |
-
-## 针对 Google AdSense 欧洲法规消息的隐私权政策
-
-[点击此处跳转](/adsense-europe-privacy)
 
 ## 网站创立时间
 
