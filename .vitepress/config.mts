@@ -15,32 +15,11 @@ export default defineConfig({
 		['link',
 			{ rel: 'icon', href: '/logo.ico' }
 		],
-		//谷歌分析
-		[
-			'script',
-			{ async: '', src: 'https://www.googletagmanager.com/gtag/js?id=AW-16752995804' }
-		],
-		[
-			'script',
-			{},
-			`window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-			gtag('config', 'AW-16752995804');`
-		],
-		//Google AdSense
-		[
-			'script', {
-				async: 'async',
-				src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8010307323433130',
-				crossorigin: 'anonymous',
-			}
-		],
 	],
 	//用JavaScript块加载界面，减少带宽
 	metaChunk: true,
 	sitemap: {
-		hostname: 'https://www.blazesnow.com/'
+		hostname: 'https://blazesnow.com/'
 	},
 	//markdown配置
 	markdown: {
