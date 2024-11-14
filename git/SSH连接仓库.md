@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2024-8-9T14:25:00+8:00
+lastUpdated: 2024-11-14T14:28:00+8:00
 ---
 
 # SSH连接仓库 | Git相关
@@ -25,6 +25,5 @@ lastUpdated: 2024-8-9T14:25:00+8:00
 
 ## 切换本地仓库为SSH连接
 
-1. 获取仓库SSH链接，如：```git@github.com:用户名/example.git```
-2. 前往本地仓库
-3. 输入：```git remote set-url origin git@github.com:用户名/example.git```
+1. 前往本地仓库
+2. 输入：```git remote set-url origin git@github.com:example/example```
