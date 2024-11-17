@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2024-10-22T13:12:00+8:00
+lastUpdated: 2024-11-17T13:36:00+8:00
 ---
 
 # 安装IO发行版 | Docker相关
@@ -8,10 +8,16 @@ lastUpdated: 2024-10-22T13:12:00+8:00
 
 ```sudo apt install docker.io```
 
+```sudo apt install docker-compose```
+
 ## 验证安装
 
 ```docker version```
 
+```docker-compose version```
+
 ## 卸载IO发行版
 
 ```sudo apt purge docker.io```
+
+```sudo apt purge docker-compose```
