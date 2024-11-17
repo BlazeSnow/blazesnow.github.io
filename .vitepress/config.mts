@@ -121,11 +121,6 @@ export default defineConfig({
 						activeMatch: '/Windows/'
 					},
 					{
-						text: 'DNS加密',
-						link: '/DNSEncryption/',
-						activeMatch: '/DNSEncryption/'
-					},
-					{
 						text: 'Ubuntu相关',
 						link: '/Ubuntu/',
 						activeMatch: '/Ubuntu/'
@@ -164,7 +159,23 @@ export default defineConfig({
 				]
 			},
 			{
-				text: '服务器',
+				text: '域名系统',
+				activeMatch: '/DNSEncryption/',
+				items: [
+					{
+						text: 'DNS加密',
+						link: '/DNSEncryption/',
+						activeMatch: '/DNSEncryption/'
+					},
+					{
+						text: '搭建DNS服务器',
+						link: '/AdGuardHomeServer/',
+						activeMatch: '/AdGuardHomeServer/'
+					},
+				]
+			},
+			{
+				text: '建站教程',
 				activeMatch: '/Docsify/',
 				items: [
 					{
@@ -182,31 +193,12 @@ export default defineConfig({
 						link: '/WebsiteToServer/',
 						activeMatch: '/WebsiteToServer/'
 					},
-					{
-						text: '搭建我的世界服务器',
-						link: '/MinecraftServer/',
-						activeMatch: '/MinecraftServer/'
-					},
-					{
-						text: '部署Bitwarden密码服务',
-						link: '/VaultwardenServer/',
-						activeMatch: '/VaultwardenServer/'
-					},
-					{
-						text: '搭建TeamSpeak服务器',
-						link: '/TeamSpeakServer/',
-						activeMatch: '/TeamSpeakServer/'
-					},
-					{
-						text: '搭建DNS服务器',
-						link: '/AdGuardHomeServer/',
-						activeMatch: '/AdGuardHomeServer/'
-					},
-					{
-						text: '搭建内网穿透服务',
-						link: '/FrpClientAndServer/',
-						activeMatch: '/FrpClientAndServer/'
-					},
+				]
+			},
+			{
+				text: '文件服务器',
+				activeMatch: '/FTPServer/',
+				items: [
 					{
 						text: '搭建FTP文件服务器',
 						link: '/FTPServer/',
@@ -226,6 +218,32 @@ export default defineConfig({
 						text: '搭建SMB文件服务器',
 						link: '/SMBServer/',
 						activeMatch: '/SMBServer/'
+					},
+				]
+			},
+			{
+				text: '服务器',
+				activeMatch: '/Docsify/',
+				items: [
+					{
+						text: '搭建我的世界服务器',
+						link: '/MinecraftServer/',
+						activeMatch: '/MinecraftServer/'
+					},
+					{
+						text: '部署Bitwarden密码服务',
+						link: '/VaultwardenServer/',
+						activeMatch: '/VaultwardenServer/'
+					},
+					{
+						text: '搭建TeamSpeak服务器',
+						link: '/TeamSpeakServer/',
+						activeMatch: '/TeamSpeakServer/'
+					},
+					{
+						text: '搭建内网穿透服务',
+						link: '/FrpClientAndServer/',
+						activeMatch: '/FrpClientAndServer/'
 					},
 				]
 			},
