@@ -222,6 +222,11 @@ export default defineConfig({
 						link: '/WebdavServer/',
 						activeMatch: '/WebdavServer/'
 					},
+					{
+						text: '搭建SMB文件服务器',
+						link: '/SMBServer/',
+						activeMatch: '/SMBServer/'
+					},
 				]
 			},
 			{
@@ -584,6 +589,20 @@ export default defineConfig({
 						{ text: '开始运行', link: '/WebdavServer/开始运行' },
 						{ text: '维护服务', link: '/WebdavServer/维护服务' },
 						{ text: '挂载到Windows', link: '/WebdavServer/挂载到Windows' },
+					]
+				}
+			],
+			'/SMBServer/': [
+				{
+					text: '搭建SMB文件服务器',
+					items: [
+						{ text: '前言', link: '/SMBServer/' },
+						{ text: '安装环境', link: '/SMBServer/安装环境' },
+						{ text: '拉取镜像', link: '/SMBServer/拉取镜像' },
+						{ text: '开放端口', link: '/SMBServer/开放端口' },
+						{ text: '配置文件', link: '/SMBServer/配置文件' },
+						{ text: '开始运行', link: '/SMBServer/开始运行' },
+						{ text: '维护服务', link: '/SMBServer/维护服务' },
 					]
 				}
 			],
