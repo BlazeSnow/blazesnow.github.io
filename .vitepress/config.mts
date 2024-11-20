@@ -378,6 +378,8 @@ export default defineConfig({
 								{ text: '安装Ubuntu', link: '/Ubuntu/安装Ubuntu' },
 								{ text: '检查磁盘类型', link: '/Ubuntu/检查磁盘类型' },
 								{ text: '安装分区推荐', link: '/Ubuntu/安装分区推荐' },
+								{ text: '安装SSH', link: '/Ubuntu/安装SSH' },
+								{ text: '管理防火墙', link: '/Ubuntu/管理防火墙' },
 							]
 						},
 						{
@@ -410,7 +412,6 @@ export default defineConfig({
 							]
 						},
 						{ text: '无法更新SnapStore', link: '/Ubuntu/无法更新SnapStore' },
-						{ text: 'Server安装桌面', link: '/Ubuntu/Server安装桌面' },
 					]
 				}
 			],
