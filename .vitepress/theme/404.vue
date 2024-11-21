@@ -1,6 +1,6 @@
 <script setup>
 import DefaultTheme from 'vitepress/theme'
-import backtohomebutton from './backtohomebutton.vue'
+import custombutton from './custombutton.vue'
 const { Layout } = DefaultTheme
 </script>
 
@@ -26,7 +26,7 @@ const { Layout } = DefaultTheme
 
                     <br>
 
-                    <backtohomebutton />
+                    <custombutton label="返回主页" />
                 </div>
             </div>
         </template>
