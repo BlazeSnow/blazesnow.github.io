@@ -14,10 +14,9 @@ export default {
 </template>
 
 <style>
-/* From Uiverse.io by cssbuttons-io */
 a.custombutton {
     appearance: button;
-    background-color: #1899D6;
+    background-color: blue;
     border: solid transparent;
     border-radius: 16px;
     border-width: 0 0 4px;
@@ -46,7 +45,7 @@ a.custombutton {
 
 a.custombutton:after {
     background-clip: padding-box;
-    background-color: #1CB0F6;
+    background-color: #0080FF;
     border: solid transparent;
     border-radius: 16px;
     border-width: 0 0 4px;
