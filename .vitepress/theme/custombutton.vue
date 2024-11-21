@@ -15,67 +15,60 @@ export default {
 
 <style>
 a.custombutton {
-    appearance: button;
-    background-color: blue;
-    border: solid transparent;
-    border-radius: 16px;
-    border-width: 0 0 4px;
+    appearance: none;
+    background-color: #fafbfc;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    box-shadow:
+        rgba(27, 31, 35, 0.04) 0 1px 0,
+        rgba(255, 255, 255, 0.25) 0 1px 0 inset;
     box-sizing: border-box;
-    color: #FFFFFF;
+    color: #24292e;
     cursor: pointer;
     display: inline-block;
-    font-size: 15px;
-    font-weight: 700;
-    letter-spacing: .8px;
+    font-size: 14px;
+    font-weight: 500;
     line-height: 20px;
-    margin: 0;
-    outline: none;
-    overflow: visible;
-    padding: 13px 19px;
-    text-align: center;
-    text-transform: uppercase;
-    touch-action: manipulation;
-    transform: translateZ(0);
-    transition: filter .2s;
+    list-style: none;
+    padding: 6px 16px;
+    position: relative;
+    transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
     user-select: none;
     -webkit-user-select: none;
+    touch-action: manipulation;
     vertical-align: middle;
     white-space: nowrap;
+    word-wrap: break-word;
 }
 
-a.custombutton:after {
-    background-clip: padding-box;
-    background-color: #0080FF;
-    border: solid transparent;
-    border-radius: 16px;
-    border-width: 0 0 4px;
-    bottom: -4px;
-    content: "";
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: -1;
-}
-
-a.custombutton:main,
-button:focus {
-    user-select: auto;
-}
-
-a.custombutton:hover:not(:disabled) {
-    filter: brightness(1.1);
+a.custombutton:hover {
+    background-color: #f3f4f6;
+    text-decoration: none;
+    transition-duration: 0.1s;
 }
 
 a.custombutton:disabled {
-    cursor: auto;
-}
-
-a.custombutton:active:after {
-    border-width: 0 0 0px;
+    background-color: #fafbfc;
+    border-color: rgba(27, 31, 35, 0.15);
+    color: #959da5;
+    cursor: default;
 }
 
 a.custombutton:active {
-    padding-bottom: 10px;
+    background-color: #edeff2;
+    box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+    transition: none 0s;
+}
+
+a.custombutton:focus {
+    outline: 1px transparent;
+}
+
+a.custombutton:before {
+    display: none;
+}
+
+a.custombutton:-webkit-details-marker {
+    display: none;
 }
 </style>
