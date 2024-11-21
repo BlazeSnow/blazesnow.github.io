@@ -1,8 +1,16 @@
-<script setup>
+<script>
+export default {
+    props: {
+        label: {
+            type: String,
+            required: true, // 必须传入按钮文字
+        },
+    },
+};
 </script>
 
 <template>
-    <a href='/' class='custombutton'>Github Button!</a>
+    <a href='/' class='custombutton'>{{ label }}</a>
 </template>
 
 <style>
