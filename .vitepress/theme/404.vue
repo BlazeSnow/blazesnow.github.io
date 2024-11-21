@@ -13,18 +13,17 @@ const { Layout } = DefaultTheme
                     <p class="code">
                         404
                     </p>
+
                     <h1 class="title">
                         页面未找到
                     </h1>
+
                     <div class="divider"></div>
+
                     <blockquote class="quote">
                         抱歉，没有找到您需要的页面
                     </blockquote>
-                    <div class="action">
-                        <a aria-label="回到主页" class="VPButton medium brand" href="/">
-                            回到主页
-                        </a>
-                    </div>
+
                     <backtohomebutton />
                 </div>
             </div>
