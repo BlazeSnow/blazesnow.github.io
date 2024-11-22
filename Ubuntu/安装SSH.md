@@ -1,17 +1,21 @@
 ---
-lastUpdated: 2024-11-20T17:39:00+8:00
+lastUpdated: 2024-11-22T18:12:00+8:00
 ---
 
 # 安装SSH | Ubuntu相关
 
 ## 安装
 
-```apt install openssh-server```
+```sudo apt install openssh-server```
+
+## 开启SSH服务自启动
+
+```sudo systemctl enable ssh```
 
 ## 开启SSH服务
 
-```systemctl start ssh```
+```sudo systemctl start ssh```
 
 ## 查看SSH服务状态
 
-```systemctl status ssh```
+```sudo systemctl status ssh```

@@ -40,7 +40,7 @@ Git是一个免费的开源分布式版本控制系统，旨在快速高效地�
 CMake是构建C++代码的事实上的标准，每月有超过200万的下载量。它是管理软件构建过程的强大、全面的解决方案。
 :::
 
-## 域名系统：DNS相关内容
+### 域名系统：DNS相关内容
 
 ::: details DNS加密：[前往](/DNSEncryption/)
 传统的DNS查询和响应以明文形式在网络中传输，这使得黑客和恶意第三方可以轻易地拦截和篡改这些信息，实施DNS劫持，将用户重定向到假冒网站或植入恶意软件。加密DNS通过对查询和响应进行加密，确保数据在传输过程中不被窃听或篡改，有效抵御此类攻击。
@@ -48,38 +48,6 @@ CMake是构建C++代码的事实上的标准，每月有超过200万的下载量
 
 ::: details 搭建DNS服务器：[前往](/AdGuardHomeServer/)
 本章介绍使用AdGuard Home在Ubuntu系统上搭建DNS服务器
-:::
-
-## 建站教程：如何建成一个网站
-
-::: details Docsify建站教程：[前往](/Docsify/)
-本章介绍使用Docsify和GitHub Pages建立一个网站
-:::
-
-::: details VitePress建站教程：[前往](/VitePress/)
-本章介绍使用Vitepress和GitHub Pages建立一个网站
-:::
-
-::: details 部署网站至服务器：[前往](/WebsiteToServer/)
-此教程内容为：将VitePress建成的网站通过GitHub部署到Ubuntu服务器上
-:::
-
-## 文件服务器：搭建一个共享文件服务器
-
-::: details 搭建FTP文件服务器：[前往](/FTPServer/)
-本章介绍使用fauria/vsftpd在Ubuntu服务器上搭建FTP文件服务器
-:::
-
-::: details 搭建SFTP文件服务器：[前往](/SFTPServer/)
-本章介绍使用atmoz/sftp在Ubuntu服务器上搭建SFTP文件服务器
-:::
-
-::: details 搭建Webdav文件服务器：[前往](/WebdavServer/)
-本章介绍使用bytemark/webdav在Ubuntu服务器上搭建Webdav文件服务器
-:::
-
-::: details 搭建SMB文件服务器：[前往](/SMBServer/)
-本章介绍使用dockurr/samba在Ubuntu服务器上搭建SMB文件服务器
 :::
 
 ## 服务器：利用服务器完成操作
@@ -98,4 +66,36 @@ CMake是构建C++代码的事实上的标准，每月有超过200万的下载量
 
 ::: details 搭建内网穿透服务：[前往](/FrpClientAndServer/)
 本章介绍使用fatedier/frp在Windows客户端和Ubuntu服务端上搭建FRP内网穿透服务
+:::
+
+### 文件服务器：搭建一个共享文件服务器
+
+::: details 搭建FTP文件服务器：[前往](/FTPServer/)
+本章介绍使用fauria/vsftpd在Ubuntu服务器上搭建FTP文件服务器
+:::
+
+::: details 搭建SFTP文件服务器：[前往](/SFTPServer/)
+本章介绍使用atmoz/sftp在Ubuntu服务器上搭建SFTP文件服务器
+:::
+
+::: details 搭建Webdav文件服务器：[前往](/WebdavServer/)
+本章介绍使用bytemark/webdav在Ubuntu服务器上搭建Webdav文件服务器
+:::
+
+::: details 搭建SMB文件服务器：[前往](/SMBServer/)
+本章介绍使用dockurr/samba在Ubuntu服务器上搭建SMB文件服务器
+:::
+
+## 建站教程：如何建成一个网站
+
+::: details Docsify建站教程：[前往](/Docsify/)
+本章介绍使用Docsify和GitHub Pages建立一个网站
+:::
+
+::: details VitePress建站教程：[前往](/VitePress/)
+本章介绍使用Vitepress和GitHub Pages建立一个网站
+:::
+
+::: details 部署网站至服务器：[前往](/WebsiteToServer/)
+此教程内容为：将VitePress建成的网站通过GitHub部署到Ubuntu服务器上
 :::

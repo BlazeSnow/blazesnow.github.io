@@ -5,12 +5,16 @@ export default {
             type: String,
             required: true, // 必须传入按钮文字
         },
+        link: {
+            type: String,
+            required: true, // 必须传入按钮链接
+        },
     },
 };
 </script>
 
 <template>
-    <a href='/' class='custombutton'>{{ label }}</a>
+    <a :href='link' class='custombutton'>{{ label }}</a>
 </template>
 
 <style>
