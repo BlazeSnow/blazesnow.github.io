@@ -379,6 +379,7 @@ export default defineConfig({
 								{ text: '检查磁盘类型', link: '/Ubuntu/检查磁盘类型' },
 								{ text: '安装分区推荐', link: '/Ubuntu/安装分区推荐' },
 								{ text: '安装SSH', link: '/Ubuntu/安装SSH' },
+								{ text: 'SSH超级用户权限', link: '/Ubuntu/SSH超级用户权限' },
 								{ text: '管理防火墙', link: '/Ubuntu/管理防火墙' },
 							]
 						},
