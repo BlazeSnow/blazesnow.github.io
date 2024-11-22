@@ -8,13 +8,9 @@ hero:
   text: "专注于分享知识"
 ---
 
-<script setup>
-import custombutton from './.vitepress/theme/custombutton.vue'
-</script>
-
 ## 系统：操作系统的相关知识
 
-::: details Windows相关：<custombutton label="前往" link='/Windows/' />
+::: details Windows相关：[前往](/Windows/)
 实用的Windows相关知识
 :::
 
