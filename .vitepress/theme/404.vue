@@ -26,7 +26,7 @@ const { Layout } = DefaultTheme
 
                     <br>
 
-                    <custombutton label="返回主页" />
+                    <custombutton label="返回主页" link="/" />
                 </div>
             </div>
         </template>
