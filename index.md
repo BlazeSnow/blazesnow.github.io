@@ -99,3 +99,13 @@ CMake是构建C++代码的事实上的标准，每月有超过200万的下载量
 ::: details 部署网站至服务器：[前往](/WebsiteToServer/)
 此教程内容为：将VitePress建成的网站通过GitHub部署到Ubuntu服务器上
 :::
+
+## 关于：有关本站的内容
+
+::: details 更新日志：[前往](/CHANGELOG/)
+本站的所有更新日志
+:::
+
+::: details 关于本站：[前往](/about)
+关于本站的更多信息
+:::
