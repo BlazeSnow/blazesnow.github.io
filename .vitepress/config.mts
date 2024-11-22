@@ -380,6 +380,7 @@ export default defineConfig({
 								{ text: '安装分区推荐', link: '/Ubuntu/安装分区推荐' },
 								{ text: '安装SSH', link: '/Ubuntu/安装SSH' },
 								{ text: 'SSH超级用户权限', link: '/Ubuntu/SSH超级用户权限' },
+								{ text: '查看硬件配置', link: '/Ubuntu/查看硬件配置' },
 								{ text: '管理防火墙', link: '/Ubuntu/管理防火墙' },
 							]
 						},
