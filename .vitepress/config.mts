@@ -486,6 +486,7 @@ export default defineConfig({
 						{ text: '管理镜像', link: '/Docker/管理镜像' },
 						{ text: '管理容器', link: '/Docker/管理容器' },
 						{ text: '容器镜像服务', link: '/Docker/容器镜像服务' },
+						{ text: '传递镜像', link: '/Docker/传递镜像' },
 						{ text: 'Compose文件', link: '/Docker/Compose文件' },
 					]
 				}
