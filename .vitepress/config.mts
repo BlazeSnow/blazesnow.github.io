@@ -169,21 +169,71 @@ export default defineConfig({
 						link: '/CMake/',
 						activeMatch: '/CMake/'
 					},
+					{
+						text: '域名系统',
+						items: [
+							{
+								text: 'DNS加密',
+								link: '/DNSEncryption/',
+								activeMatch: '/DNSEncryption/'
+							},
+							{
+								text: '搭建DNS服务器',
+								link: '/AdGuardHomeServer/',
+								activeMatch: '/AdGuardHomeServer/'
+							},
+						]
+					},
 				]
 			},
 			{
-				text: '域名系统',
-				activeMatch: '/DNSEncryption/',
+				text: '服务器',
+				activeMatch: '/MinecraftServer/',
 				items: [
 					{
-						text: 'DNS加密',
-						link: '/DNSEncryption/',
-						activeMatch: '/DNSEncryption/'
+						text: '搭建我的世界服务器',
+						link: '/MinecraftServer/',
+						activeMatch: '/MinecraftServer/'
 					},
 					{
-						text: '搭建DNS服务器',
-						link: '/AdGuardHomeServer/',
-						activeMatch: '/AdGuardHomeServer/'
+						text: '部署Bitwarden密码服务',
+						link: '/VaultwardenServer/',
+						activeMatch: '/VaultwardenServer/'
+					},
+					{
+						text: '搭建TeamSpeak服务器',
+						link: '/TeamSpeakServer/',
+						activeMatch: '/TeamSpeakServer/'
+					},
+					{
+						text: '搭建内网穿透服务',
+						link: '/FrpClientAndServer/',
+						activeMatch: '/FrpClientAndServer/'
+					},
+					{
+						text: '文件服务器',
+						items: [
+							{
+								text: '搭建FTP文件服务器',
+								link: '/FTPServer/',
+								activeMatch: '/FTPServer/'
+							},
+							{
+								text: '搭建SFTP文件服务器',
+								link: '/SFTPServer/',
+								activeMatch: '/SFTPServer/'
+							},
+							{
+								text: '搭建Webdav文件服务器',
+								link: '/WebdavServer/',
+								activeMatch: '/WebdavServer/'
+							},
+							{
+								text: '搭建SMB文件服务器',
+								link: '/SMBServer/',
+								activeMatch: '/SMBServer/'
+							},
+						]
 					},
 				]
 			},
@@ -205,58 +255,6 @@ export default defineConfig({
 						text: '部署网站至服务器',
 						link: '/WebsiteToServer/',
 						activeMatch: '/WebsiteToServer/'
-					},
-				]
-			},
-			{
-				text: '文件服务器',
-				activeMatch: '/FTPServer/',
-				items: [
-					{
-						text: '搭建FTP文件服务器',
-						link: '/FTPServer/',
-						activeMatch: '/FTPServer/'
-					},
-					{
-						text: '搭建SFTP文件服务器',
-						link: '/SFTPServer/',
-						activeMatch: '/SFTPServer/'
-					},
-					{
-						text: '搭建Webdav文件服务器',
-						link: '/WebdavServer/',
-						activeMatch: '/WebdavServer/'
-					},
-					{
-						text: '搭建SMB文件服务器',
-						link: '/SMBServer/',
-						activeMatch: '/SMBServer/'
-					},
-				]
-			},
-			{
-				text: '服务器',
-				activeMatch: '/Docsify/',
-				items: [
-					{
-						text: '搭建我的世界服务器',
-						link: '/MinecraftServer/',
-						activeMatch: '/MinecraftServer/'
-					},
-					{
-						text: '部署Bitwarden密码服务',
-						link: '/VaultwardenServer/',
-						activeMatch: '/VaultwardenServer/'
-					},
-					{
-						text: '搭建TeamSpeak服务器',
-						link: '/TeamSpeakServer/',
-						activeMatch: '/TeamSpeakServer/'
-					},
-					{
-						text: '搭建内网穿透服务',
-						link: '/FrpClientAndServer/',
-						activeMatch: '/FrpClientAndServer/'
 					},
 				]
 			},
