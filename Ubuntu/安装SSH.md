@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2024-11-22T17:52:00+8:00
+lastUpdated: 2024-11-22T18:12:00+8:00
 ---
 
 # 安装SSH | Ubuntu相关
@@ -7,6 +7,10 @@ lastUpdated: 2024-11-22T17:52:00+8:00
 ## 安装
 
 ```sudo apt install openssh-server```
+
+## 开启SSH服务自启动
+
+```sudo systemctl enable ssh```
 
 ## 开启SSH服务
 
