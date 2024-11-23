@@ -86,6 +86,10 @@ CMake是构建C++代码的事实上的标准，每月有超过200万的下载量
 本章介绍使用dockurr/samba在Ubuntu服务器上搭建SMB文件服务器
 :::
 
+::: details 搭建Alist文件服务器：[前往](/AlistServer/)
+本章介绍使用xhofe/alist在Ubuntu服务器上搭建Alist文件服务器
+:::
+
 ## 建站教程：如何建成一个网站
 
 ::: details Docsify建站教程：[前往](/Docsify/)

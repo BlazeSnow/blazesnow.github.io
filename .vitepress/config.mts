@@ -233,6 +233,11 @@ export default defineConfig({
 								link: '/SMBServer/',
 								activeMatch: '/SMBServer/'
 							},
+							{
+								text: '搭建Alist文件服务器',
+								link: '/AlistServer/',
+								activeMatch: '/AlistServer/'
+							},
 						]
 					},
 				]
@@ -637,6 +642,20 @@ export default defineConfig({
 						{ text: '配置文件', link: '/SMBServer/配置文件' },
 						{ text: '开始运行', link: '/SMBServer/开始运行' },
 						{ text: '维护服务', link: '/SMBServer/维护服务' },
+					]
+				}
+			],
+			'/AlistServer/': [
+				{
+					text: '搭建Alist文件服务器',
+					items: [
+						{ text: '前言', link: '/AlistServer/' },
+						{ text: '安装环境', link: '/AlistServer/安装环境' },
+						{ text: '拉取镜像', link: '/AlistServer/拉取镜像' },
+						{ text: '开放端口', link: '/AlistServer/开放端口' },
+						{ text: '配置文件', link: '/AlistServer/配置文件' },
+						{ text: '开始运行', link: '/AlistServer/开始运行' },
+						{ text: '维护服务', link: '/AlistServer/维护服务' },
 					]
 				}
 			],
