@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2024-11-24T21:45:00+8:00
+lastUpdated: 2024-11-24T22:11:00+8:00
 ---
 
 # 前言 | Docker系列
@@ -17,6 +17,24 @@ lastUpdated: 2024-11-24T21:45:00+8:00
 3. 下载Docker安装脚本：```curl -fsSL https://get.docker.com -o install-docker.sh```
 4. 使用安装脚本安装Docker：```sudo sh install-docker.sh --mirror Aliyun```或```sudo sh install-docker.sh --mirror AzureChinaCloud```
 5. 验证安装：```docker version```
+
+## Docker换源
+
+> Docker默认源在国内使用有局限，换源至国内镜像源可大幅提速，减少下载耗时，使容器创建部署更高效，优化流程。
+
+1. 转到```/etc/docker```目录：```cd /etc/docker```
+2. 新建配置文件：```touch daemon.json```
+3. 编辑配置文件：```nano daemon.json```
+4. 检验配置文件：```sudo systemctl daemon-reload```
+5. 重启docker：```sudo systemctl restart docker```
+
+### ```daemon.json```
+
+```json
+{
+    "registry-mirrors": ["镜像源地址"]
+}
+```
 
 ## 创建工作目录
 
