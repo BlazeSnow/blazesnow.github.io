@@ -589,49 +589,6 @@ export default defineConfig({
 					]
 				}
 			],
-			'/FTPServer/': [
-				{
-					text: '搭建FTP文件服务器',
-					items: [
-						{ text: '前言', link: '/FTPServer/' },
-						{ text: '安装环境', link: '/FTPServer/安装环境' },
-						{ text: '拉取镜像', link: '/FTPServer/拉取镜像' },
-						{ text: '开放端口', link: '/FTPServer/开放端口' },
-						{ text: '配置文件', link: '/FTPServer/配置文件' },
-						{ text: '开始运行', link: '/FTPServer/开始运行' },
-						{ text: '维护服务', link: '/FTPServer/维护服务' },
-					]
-				}
-			],
-			'/SFTPServer/': [
-				{
-					text: '搭建SFTP文件服务器',
-					items: [
-						{ text: '前言', link: '/SFTPServer/' },
-						{ text: '安装环境', link: '/SFTPServer/安装环境' },
-						{ text: '拉取镜像', link: '/SFTPServer/拉取镜像' },
-						{ text: '开放端口', link: '/SFTPServer/开放端口' },
-						{ text: '配置文件', link: '/SFTPServer/配置文件' },
-						{ text: '开始运行', link: '/SFTPServer/开始运行' },
-						{ text: '维护服务', link: '/SFTPServer/维护服务' },
-					]
-				}
-			],
-			'/WebdavServer/': [
-				{
-					text: '搭建Webdav文件服务器',
-					items: [
-						{ text: '前言', link: '/WebdavServer/' },
-						{ text: '安装环境', link: '/WebdavServer/安装环境' },
-						{ text: '拉取镜像', link: '/WebdavServer/拉取镜像' },
-						{ text: '开放端口', link: '/WebdavServer/开放端口' },
-						{ text: '配置文件', link: '/WebdavServer/配置文件' },
-						{ text: '开始运行', link: '/WebdavServer/开始运行' },
-						{ text: '维护服务', link: '/WebdavServer/维护服务' },
-						{ text: '挂载到Windows', link: '/WebdavServer/挂载到Windows' },
-					]
-				}
-			],
 			'/SMBServer/': [
 				{
 					text: '搭建SMB文件服务器',
