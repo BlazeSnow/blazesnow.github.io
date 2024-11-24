@@ -416,6 +416,7 @@ export default defineConfig({
 								{ text: 'dpkg', link: '/Ubuntu/dpkg' },
 							]
 						},
+						{ text: '自动化脚本', link: '/Ubuntu/自动化脚本' },
 						{ text: '激活UbuntuPro', link: '/Ubuntu/激活UbuntuPro' },
 						{ text: '无法更新SnapStore', link: '/Ubuntu/无法更新SnapStore' },
 					]
