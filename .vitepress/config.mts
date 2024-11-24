@@ -569,6 +569,7 @@ export default defineConfig({
 								{ text: 'Alist', link: '/DockerSeries/Alist' },
 							]
 						},
+						{ text: '我的世界服务器', link: '/DockerSeries/MinecraftServer' },
 					]
 				}
 			],
