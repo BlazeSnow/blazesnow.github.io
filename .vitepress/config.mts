@@ -139,14 +139,50 @@ export default defineConfig({
 						activeMatch: '/Ubuntu/'
 					},
 					{
-						text: '原生安卓',
-						link: '/Android/WiFi感叹号',
-						activeMatch: '/Android/'
+						text: 'DNS加密',
+						link: '/DNSEncryption/',
+						activeMatch: '/DNSEncryption/'
 					},
 				]
 			},
 			{
-				text: '开发者',
+				text: '服务器',
+				activeMatch: '/DockerSeries/',
+				items: [
+					{
+						text: 'Docker系列',
+						link: '/DockerSeries/',
+						activeMatch: '/DockerSeries/'
+					},
+					{
+						text: '搭建我的世界服务器',
+						link: '/MinecraftServer/',
+						activeMatch: '/MinecraftServer/'
+					},
+					{
+						text: '部署Bitwarden密码服务',
+						link: '/VaultwardenServer/',
+						activeMatch: '/VaultwardenServer/'
+					},
+					{
+						text: '搭建TeamSpeak服务器',
+						link: '/TeamSpeakServer/',
+						activeMatch: '/TeamSpeakServer/'
+					},
+					{
+						text: '搭建DNS服务器',
+						link: '/AdGuardHomeServer/',
+						activeMatch: '/AdGuardHomeServer/'
+					},
+					{
+						text: '搭建内网穿透服务',
+						link: '/FrpClientAndServer/',
+						activeMatch: '/FrpClientAndServer/'
+					},
+				]
+			},
+			{
+				text: '更多',
 				activeMatch: '/Nodejs/',
 				items: [
 					{
@@ -170,82 +206,10 @@ export default defineConfig({
 						activeMatch: '/CMake/'
 					},
 					{
-						text: '域名系统',
-						items: [
-							{
-								text: 'DNS加密',
-								link: '/DNSEncryption/',
-								activeMatch: '/DNSEncryption/'
-							},
-							{
-								text: '搭建DNS服务器',
-								link: '/AdGuardHomeServer/',
-								activeMatch: '/AdGuardHomeServer/'
-							},
-						]
+						text: '原生安卓',
+						link: '/Android/WiFi感叹号',
+						activeMatch: '/Android/'
 					},
-				]
-			},
-			{
-				text: '服务器',
-				activeMatch: '/MinecraftServer/',
-				items: [
-					{
-						text: '搭建我的世界服务器',
-						link: '/MinecraftServer/',
-						activeMatch: '/MinecraftServer/'
-					},
-					{
-						text: '部署Bitwarden密码服务',
-						link: '/VaultwardenServer/',
-						activeMatch: '/VaultwardenServer/'
-					},
-					{
-						text: '搭建TeamSpeak服务器',
-						link: '/TeamSpeakServer/',
-						activeMatch: '/TeamSpeakServer/'
-					},
-					{
-						text: '搭建内网穿透服务',
-						link: '/FrpClientAndServer/',
-						activeMatch: '/FrpClientAndServer/'
-					},
-					{
-						text: '文件服务器',
-						items: [
-							{
-								text: '搭建FTP文件服务器',
-								link: '/FTPServer/',
-								activeMatch: '/FTPServer/'
-							},
-							{
-								text: '搭建SFTP文件服务器',
-								link: '/SFTPServer/',
-								activeMatch: '/SFTPServer/'
-							},
-							{
-								text: '搭建Webdav文件服务器',
-								link: '/WebdavServer/',
-								activeMatch: '/WebdavServer/'
-							},
-							{
-								text: '搭建SMB文件服务器',
-								link: '/SMBServer/',
-								activeMatch: '/SMBServer/'
-							},
-							{
-								text: '搭建Alist文件服务器',
-								link: '/AlistServer/',
-								activeMatch: '/AlistServer/'
-							},
-						]
-					},
-				]
-			},
-			{
-				text: '建站教程',
-				activeMatch: '/Docsify/',
-				items: [
 					{
 						text: 'Docsify建站教程',
 						link: '/Docsify/',
