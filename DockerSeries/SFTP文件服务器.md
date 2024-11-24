@@ -1,12 +1,12 @@
 ---
-lastUpdated: 2024-11-24T21:58:00+8:00
+lastUpdated: 2024-11-24T21:59:00+8:00
 ---
 
 # SFTP文件服务器 | Docker系列
 
 ## 前言
 
-本章介绍使用```atmoz/sftp```在Ubuntu服务器上搭建SFTP文件服务器，请先根据本章前言完成环境的搭建。
+本文介绍使用```atmoz/sftp```在Ubuntu服务器上搭建SFTP文件服务器，请先根据本章前言完成环境的搭建。
 
 ```atmoz/sftp```地址：<https://hub.docker.com/r/atmoz/sftp>
 
