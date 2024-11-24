@@ -625,6 +625,7 @@ export default defineConfig({
 						{ text: 'FTP文件服务器', link: '/DockerSeries/FTP文件服务器' },
 						{ text: 'SFTP文件服务器', link: '/DockerSeries/SFTP文件服务器' },
 						{ text: 'Webdav文件服务器', link: '/DockerSeries/Webdav文件服务器' },
+						{ text: 'SMB文件服务器', link: '/DockerSeries/SMB文件服务器' },
 					]
 				}
 			],
