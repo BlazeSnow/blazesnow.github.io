@@ -181,6 +181,11 @@ export default defineConfig({
 				activeMatch: '/Nodejs/',
 				items: [
 					{
+						text: '原生安卓',
+						link: '/Android/WiFi感叹号',
+						activeMatch: '/Android/'
+					},
+					{
 						text: 'Nodejs相关',
 						link: '/Nodejs/',
 						activeMatch: '/Nodejs/'
@@ -201,9 +206,9 @@ export default defineConfig({
 						activeMatch: '/CMake/'
 					},
 					{
-						text: '原生安卓',
-						link: '/Android/WiFi感叹号',
-						activeMatch: '/Android/'
+						text: '搭建我的世界服务器',
+						link: '/MinecraftServer/',
+						activeMatch: '/MinecraftServer/'
 					},
 					{
 						text: 'Docsify建站教程',
@@ -478,6 +483,18 @@ export default defineConfig({
 						{ text: '添加配置文件', link: '/CMake/添加配置文件' },
 						{ text: '安装vcpkg', link: '/CMake/安装vcpkg' },
 						{ text: 'vcpkg添加库', link: '/CMake/vcpkg添加库' },
+					]
+				}
+			],
+			'/MinecraftServer/': [
+				{
+					text: '搭建我的世界服务器',
+					items: [
+						{ text: '前言', link: '/MinecraftServer/' },
+						{ text: '安装环境', link: '/MinecraftServer/安装环境' },
+						{ text: '引入文件', link: '/MinecraftServer/引入文件' },
+						{ text: '开始运行', link: '/MinecraftServer/开始运行' },
+						{ text: '维护服务器', link: '/MinecraftServer/维护服务器' },
 					]
 				}
 			],
