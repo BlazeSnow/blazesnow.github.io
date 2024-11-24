@@ -2,11 +2,9 @@
 lastUpdated: 2024-11-24T21:54:00+8:00
 ---
 
-# FTP文件服务器 | Docker系列
+# FTP | Docker系列
 
 ## 前言
-
-> FTP通常不提供加密传输，数据以明文形式在网络中传输，容易被窃听和篡改。建议使用教程：[搭建SFTP文件服务器](//DockerSeries/SFTP文件服务器/)
 
 本文介绍使用```fauria/vsftpd```在Ubuntu服务器上搭建FTP文件服务器，请先根据本章前言完成环境的搭建。
 

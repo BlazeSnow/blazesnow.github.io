@@ -2,7 +2,7 @@
 lastUpdated: 2024-11-24T22:08:00+8:00
 ---
 
-# Alist文件服务器 | Docker系列
+# Alist | Docker系列
 
 ## 前言
 

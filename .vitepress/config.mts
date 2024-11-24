@@ -558,11 +558,17 @@ export default defineConfig({
 					text: 'Docker系列',
 					items: [
 						{ text: '前言', link: '/DockerSeries/' },
-						{ text: 'FTP文件服务器', link: '/DockerSeries/FTP文件服务器' },
-						{ text: 'SFTP文件服务器', link: '/DockerSeries/SFTP文件服务器' },
-						{ text: 'Webdav文件服务器', link: '/DockerSeries/Webdav文件服务器' },
-						{ text: 'SMB文件服务器', link: '/DockerSeries/SMB文件服务器' },
-						{ text: 'Alist文件服务器', link: '/DockerSeries/Alist文件服务器' },
+						{
+							text: '文件共享服务器',
+							collapsed: false,
+							items: [
+								{ text: 'FTP', link: '/DockerSeries/FTP' },
+								{ text: 'SFTP', link: '/DockerSeries/SFTP' },
+								{ text: 'Webdav', link: '/DockerSeries/Webdav' },
+								{ text: 'SMB', link: '/DockerSeries/SMB' },
+								{ text: 'Alist', link: '/DockerSeries/Alist' },
+							]
+						},
 					]
 				}
 			],
