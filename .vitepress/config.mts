@@ -660,6 +660,15 @@ export default defineConfig({
 					]
 				}
 			],
+			'/DockerSeries/': [
+				{
+					text: 'Docker系列',
+					items: [
+						{ text: '前言', link: '/DockerSeries/' },
+						{ text: 'FTP文件服务器', link: '/DockerSeries/FTP文件服务器' },
+					]
+				}
+			],
 		},
 		//上次更新于
 		lastUpdated: {
