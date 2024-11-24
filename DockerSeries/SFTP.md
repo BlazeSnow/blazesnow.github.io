@@ -2,7 +2,7 @@
 lastUpdated: 2024-11-24T21:59:00+8:00
 ---
 
-# SFTP文件服务器 | Docker系列
+# SFTP | Docker系列
 
 ## 前言
 
