@@ -155,11 +155,6 @@ export default defineConfig({
 						activeMatch: '/DockerSeries/'
 					},
 					{
-						text: '搭建我的世界服务器',
-						link: '/MinecraftServer/',
-						activeMatch: '/MinecraftServer/'
-					},
-					{
 						text: '部署Bitwarden密码服务',
 						link: '/VaultwardenServer/',
 						activeMatch: '/VaultwardenServer/'
@@ -186,6 +181,11 @@ export default defineConfig({
 				activeMatch: '/Nodejs/',
 				items: [
 					{
+						text: '原生安卓',
+						link: '/Android/WiFi感叹号',
+						activeMatch: '/Android/'
+					},
+					{
 						text: 'Nodejs相关',
 						link: '/Nodejs/',
 						activeMatch: '/Nodejs/'
@@ -206,9 +206,9 @@ export default defineConfig({
 						activeMatch: '/CMake/'
 					},
 					{
-						text: '原生安卓',
-						link: '/Android/WiFi感叹号',
-						activeMatch: '/Android/'
+						text: '搭建我的世界服务器',
+						link: '/MinecraftServer/',
+						activeMatch: '/MinecraftServer/'
 					},
 					{
 						text: 'Docsify建站教程',
@@ -569,6 +569,7 @@ export default defineConfig({
 								{ text: 'Alist', link: '/DockerSeries/Alist' },
 							]
 						},
+						{ text: '我的世界服务器', link: '/DockerSeries/MinecraftServer' },
 					]
 				}
 			],

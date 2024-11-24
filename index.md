@@ -28,10 +28,6 @@ hero:
 在云原生时代，Docker Compose是容器编排的得力助手。它用简洁YAML文件管理多容器应用，涵盖启动、网络、资源等设置。本教程专为初涉容器化或有经验者打造，以清晰步骤与实例，助你掌握其精髓，高效编排应用。
 :::
 
-::: details 搭建我的世界服务器：[前往](/MinecraftServer/)
-本章主要介绍利用Ubuntu服务器搭建Minecraft我的世界Java版服务器
-:::
-
 ::: details 部署Bitwarden密码服务：[前往](/VaultwardenServer/)
 本章介绍使用Ubuntu服务器、域名、Nginx、Docker和Vaultwarden部署Bitwarden的密码服务器
 :::
