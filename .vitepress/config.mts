@@ -139,14 +139,50 @@ export default defineConfig({
 						activeMatch: '/Ubuntu/'
 					},
 					{
-						text: '原生安卓',
-						link: '/Android/WiFi感叹号',
-						activeMatch: '/Android/'
+						text: 'DNS加密',
+						link: '/DNSEncryption/',
+						activeMatch: '/DNSEncryption/'
 					},
 				]
 			},
 			{
-				text: '开发者',
+				text: '服务器',
+				activeMatch: '/DockerSeries/',
+				items: [
+					{
+						text: 'Docker系列',
+						link: '/DockerSeries/',
+						activeMatch: '/DockerSeries/'
+					},
+					{
+						text: '搭建我的世界服务器',
+						link: '/MinecraftServer/',
+						activeMatch: '/MinecraftServer/'
+					},
+					{
+						text: '部署Bitwarden密码服务',
+						link: '/VaultwardenServer/',
+						activeMatch: '/VaultwardenServer/'
+					},
+					{
+						text: '搭建TeamSpeak服务器',
+						link: '/TeamSpeakServer/',
+						activeMatch: '/TeamSpeakServer/'
+					},
+					{
+						text: '搭建DNS服务器',
+						link: '/AdGuardHomeServer/',
+						activeMatch: '/AdGuardHomeServer/'
+					},
+					{
+						text: '搭建内网穿透服务',
+						link: '/FrpClientAndServer/',
+						activeMatch: '/FrpClientAndServer/'
+					},
+				]
+			},
+			{
+				text: '更多',
 				activeMatch: '/Nodejs/',
 				items: [
 					{
@@ -170,82 +206,10 @@ export default defineConfig({
 						activeMatch: '/CMake/'
 					},
 					{
-						text: '域名系统',
-						items: [
-							{
-								text: 'DNS加密',
-								link: '/DNSEncryption/',
-								activeMatch: '/DNSEncryption/'
-							},
-							{
-								text: '搭建DNS服务器',
-								link: '/AdGuardHomeServer/',
-								activeMatch: '/AdGuardHomeServer/'
-							},
-						]
+						text: '原生安卓',
+						link: '/Android/WiFi感叹号',
+						activeMatch: '/Android/'
 					},
-				]
-			},
-			{
-				text: '服务器',
-				activeMatch: '/MinecraftServer/',
-				items: [
-					{
-						text: '搭建我的世界服务器',
-						link: '/MinecraftServer/',
-						activeMatch: '/MinecraftServer/'
-					},
-					{
-						text: '部署Bitwarden密码服务',
-						link: '/VaultwardenServer/',
-						activeMatch: '/VaultwardenServer/'
-					},
-					{
-						text: '搭建TeamSpeak服务器',
-						link: '/TeamSpeakServer/',
-						activeMatch: '/TeamSpeakServer/'
-					},
-					{
-						text: '搭建内网穿透服务',
-						link: '/FrpClientAndServer/',
-						activeMatch: '/FrpClientAndServer/'
-					},
-					{
-						text: '文件服务器',
-						items: [
-							{
-								text: '搭建FTP文件服务器',
-								link: '/FTPServer/',
-								activeMatch: '/FTPServer/'
-							},
-							{
-								text: '搭建SFTP文件服务器',
-								link: '/SFTPServer/',
-								activeMatch: '/SFTPServer/'
-							},
-							{
-								text: '搭建Webdav文件服务器',
-								link: '/WebdavServer/',
-								activeMatch: '/WebdavServer/'
-							},
-							{
-								text: '搭建SMB文件服务器',
-								link: '/SMBServer/',
-								activeMatch: '/SMBServer/'
-							},
-							{
-								text: '搭建Alist文件服务器',
-								link: '/AlistServer/',
-								activeMatch: '/AlistServer/'
-							},
-						]
-					},
-				]
-			},
-			{
-				text: '建站教程',
-				activeMatch: '/Docsify/',
-				items: [
 					{
 						text: 'Docsify建站教程',
 						link: '/Docsify/',
@@ -589,74 +553,22 @@ export default defineConfig({
 					]
 				}
 			],
-			'/FTPServer/': [
+			'/DockerSeries/': [
 				{
-					text: '搭建FTP文件服务器',
+					text: 'Docker系列',
 					items: [
-						{ text: '前言', link: '/FTPServer/' },
-						{ text: '安装环境', link: '/FTPServer/安装环境' },
-						{ text: '拉取镜像', link: '/FTPServer/拉取镜像' },
-						{ text: '开放端口', link: '/FTPServer/开放端口' },
-						{ text: '配置文件', link: '/FTPServer/配置文件' },
-						{ text: '开始运行', link: '/FTPServer/开始运行' },
-						{ text: '维护服务', link: '/FTPServer/维护服务' },
-					]
-				}
-			],
-			'/SFTPServer/': [
-				{
-					text: '搭建SFTP文件服务器',
-					items: [
-						{ text: '前言', link: '/SFTPServer/' },
-						{ text: '安装环境', link: '/SFTPServer/安装环境' },
-						{ text: '拉取镜像', link: '/SFTPServer/拉取镜像' },
-						{ text: '开放端口', link: '/SFTPServer/开放端口' },
-						{ text: '配置文件', link: '/SFTPServer/配置文件' },
-						{ text: '开始运行', link: '/SFTPServer/开始运行' },
-						{ text: '维护服务', link: '/SFTPServer/维护服务' },
-					]
-				}
-			],
-			'/WebdavServer/': [
-				{
-					text: '搭建Webdav文件服务器',
-					items: [
-						{ text: '前言', link: '/WebdavServer/' },
-						{ text: '安装环境', link: '/WebdavServer/安装环境' },
-						{ text: '拉取镜像', link: '/WebdavServer/拉取镜像' },
-						{ text: '开放端口', link: '/WebdavServer/开放端口' },
-						{ text: '配置文件', link: '/WebdavServer/配置文件' },
-						{ text: '开始运行', link: '/WebdavServer/开始运行' },
-						{ text: '维护服务', link: '/WebdavServer/维护服务' },
-						{ text: '挂载到Windows', link: '/WebdavServer/挂载到Windows' },
-					]
-				}
-			],
-			'/SMBServer/': [
-				{
-					text: '搭建SMB文件服务器',
-					items: [
-						{ text: '前言', link: '/SMBServer/' },
-						{ text: '安装环境', link: '/SMBServer/安装环境' },
-						{ text: '拉取镜像', link: '/SMBServer/拉取镜像' },
-						{ text: '开放端口', link: '/SMBServer/开放端口' },
-						{ text: '配置文件', link: '/SMBServer/配置文件' },
-						{ text: '开始运行', link: '/SMBServer/开始运行' },
-						{ text: '维护服务', link: '/SMBServer/维护服务' },
-					]
-				}
-			],
-			'/AlistServer/': [
-				{
-					text: '搭建Alist文件服务器',
-					items: [
-						{ text: '前言', link: '/AlistServer/' },
-						{ text: '安装环境', link: '/AlistServer/安装环境' },
-						{ text: '拉取镜像', link: '/AlistServer/拉取镜像' },
-						{ text: '开放端口', link: '/AlistServer/开放端口' },
-						{ text: '配置文件', link: '/AlistServer/配置文件' },
-						{ text: '开始运行', link: '/AlistServer/开始运行' },
-						{ text: '维护服务', link: '/AlistServer/维护服务' },
+						{ text: '前言', link: '/DockerSeries/' },
+						{
+							text: '文件共享服务器',
+							collapsed: false,
+							items: [
+								{ text: 'FTP', link: '/DockerSeries/FTP' },
+								{ text: 'SFTP', link: '/DockerSeries/SFTP' },
+								{ text: 'Webdav', link: '/DockerSeries/Webdav' },
+								{ text: 'SMB', link: '/DockerSeries/SMB' },
+								{ text: 'Alist', link: '/DockerSeries/Alist' },
+							]
+						},
 					]
 				}
 			],
