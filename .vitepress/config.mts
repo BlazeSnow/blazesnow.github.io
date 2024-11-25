@@ -155,11 +155,6 @@ export default defineConfig({
 						activeMatch: '/DockerSeries/'
 					},
 					{
-						text: '部署Bitwarden密码服务',
-						link: '/VaultwardenServer/',
-						activeMatch: '/VaultwardenServer/'
-					},
-					{
 						text: '搭建TeamSpeak服务器',
 						link: '/TeamSpeakServer/',
 						activeMatch: '/TeamSpeakServer/'
@@ -204,6 +199,11 @@ export default defineConfig({
 						text: '搭建我的世界服务器',
 						link: '/MinecraftServer/',
 						activeMatch: '/MinecraftServer/'
+					},
+					{
+						text: '部署Bitwarden密码服务',
+						link: '/VaultwardenServer/',
+						activeMatch: '/VaultwardenServer/'
 					},
 					{
 						text: 'Docsify建站教程',
@@ -552,6 +552,7 @@ export default defineConfig({
 						},
 						{ text: '我的世界服务器', link: '/DockerSeries/MinecraftServer' },
 						{ text: '家庭域名服务器', link: '/DockerSeries/AdGuardHome' },
+						{ text: '密码服务器', link: '/DockerSeries/Vaultwarden' },
 					]
 				}
 			],
