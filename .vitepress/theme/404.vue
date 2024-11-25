@@ -13,20 +13,18 @@ const { Layout } = DefaultTheme
                     <p class="code">
                         404
                     </p>
-
                     <h1 class="title">
                         页面未找到
                     </h1>
-
                     <div class="divider"></div>
-
                     <blockquote class="quote">
                         抱歉，没有找到您需要的页面
                     </blockquote>
-
+                    <blockquote class="quote">
+                        点击下方按钮，查找变更的页面
+                    </blockquote>
                     <br>
-
-                    <custombutton label="返回主页" link="/" />
+                    <custombutton label="前往查找页面" link="/find" />
                 </div>
             </div>
         </template>
