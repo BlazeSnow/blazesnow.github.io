@@ -21,12 +21,12 @@ const { Layout } = DefaultTheme
                     <div class="divider"></div>
 
                     <blockquote class="quote">
-                        抱歉，没有找到您需要的页面
+                        抱歉，没有找到您需要的页面，点击下方按钮前往查找页面，查找变更的网页。
                     </blockquote>
 
                     <br>
 
-                    <custombutton label="返回主页" link="/" />
+                    <custombutton label="前往查找页面" link="/find" />
                 </div>
             </div>
         </template>
