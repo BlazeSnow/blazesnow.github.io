@@ -20,11 +20,8 @@ const { Layout } = DefaultTheme
                     <blockquote class="quote">
                         抱歉，没有找到您需要的页面
                     </blockquote>
-                    <blockquote class="quote">
-                        点击下方按钮，查找变更的页面
-                    </blockquote>
                     <br>
-                    <custombutton label="前往查找页面" link="/find" />
+                    <custombutton label="回到首页" link="/" />
                 </div>
             </div>
         </template>
