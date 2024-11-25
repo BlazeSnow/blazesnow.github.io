@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2024-11-25T16:47:00+8:00
+lastUpdated: 2024-11-25T16:53:00+8:00
 ---
 
 # 密码服务器 | Docker系列
@@ -108,11 +108,23 @@ server {
 }
 ```
 
+### 文件树
+
+```sh
+│  compose.yml
+│  default
+│  vaultwarden.conf
+│
+└─ ssl
+    ├─  cert.pem
+    └─  privkey.pem
+```
+
 ## 开始运行
 
 1. 前往工作目录：```cd /var/vaultwarden```
 2. 开始运行：```docker compose up -d```或```docker-compose up -d```
-3. 在浏览器访问：```https://服务器ip地址```，进入页面。因为证书与私钥为自签名，在浏览器中选择信任该网页，然后即可正常访问。
+3. 在浏览器访问：```https://服务器ip地址```，进入页面。因为证书与私钥为自签名，浏览器会警告网页不安全，在浏览器中选择信任该网页，然后即可正常访问。
 
 ## 维护服务
 
