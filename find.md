@@ -16,6 +16,10 @@ lastUpdated: false
 - ```搭建SMB文件服务器```->[```SMB | Docker系列```](/DockerSeries/SMB)
 - ```搭建Alist文件服务器```->[```Alist | Docker系列```](/DockerSeries/Alist)
 - ```搭建DNS服务器```->[```家庭域名服务器 | Docker系列```](/DockerSeries/AdGuardHome)
+- ```Windows设备：DOH | DNS加密```->[```Windows设备-DOH | DNS加密```](/DNSEncryption/Windows设备-DOH)
+- ```Windows设备：模板 | DNS加密```->[```Windows设备-模板 | DNS加密```](/DNSEncryption/Windows设备-模板)
+- ```Android设备：DOT | DNS加密```->[```Android设备-DOT | DNS加密```](/DNSEncryption/Android设备-DOT)
+- ```Apple设备：DOH | DNS加密```->[```Apple设备-DOH | DNS加密```](/DNSEncryption/Apple设备-DOH)
 
 ## 删除
 
