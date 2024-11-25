@@ -15,6 +15,7 @@ lastUpdated: false
 - ```搭建Webdav文件服务器```->[```Webdav | Docker系列```](/DockerSeries/Webdav)
 - ```搭建SMB文件服务器```->[```SMB | Docker系列```](/DockerSeries/SMB)
 - ```搭建Alist文件服务器```->[```Alist | Docker系列```](/DockerSeries/Alist)
+- ```搭建DNS服务器```->[```家庭域名服务器 | Docker系列```](/DockerSeries/AdGuardHome)
 
 ## 删除
 
