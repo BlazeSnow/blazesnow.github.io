@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2024-11-24T22:53:00+8:00
+lastUpdated: 2024-11-25T13:26:00+8:00
 ---
 
 # 我的世界服务器 | Docker系列
@@ -33,7 +33,7 @@ lastUpdated: 2024-11-24T22:53:00+8:00
 
 ### ```compose.yml```
 
-```yml{16,17}
+```yml
 version: '3'
 services:
   minecraft:
@@ -49,11 +49,11 @@ services:
     environment:
       EULA: "TRUE"
       EXEC_DIRECTLY: "true"
-      # 更多的环境变量见：
+      # 保持以上的环境变量不变，
+      # 以下的更多的环境变量见：
       # https://docker-minecraft-server.readthedocs.io/en/latest/variables/
-      TYPE: "FORGE"
-      VERSION: "1.20.1"
-      FORGE_VERSION: "47.3.0"
+      TYPE: "VANILLA"
+      VERSION: "1.21.3"
       MEMORY: "2G"
       MAX_PLAYERS: "5"
       PVP: "false"
@@ -65,8 +65,12 @@ services:
 ## 开始运行
 
 1. 前往工作目录：```cd /var/mc```
-2. 运行：```docker compose up -d```或```docker-compose up -d```
-3. 运行成功后，即可使用```服务器ip地址:25565```连接服务器
+2. 首次运行：```docker compose up```或```docker-compose up```
+3. 等待游戏加载完成，出现```Done! For help, type "help"```
+4. 输入```stop```结束服务器
+5. 结束Docker服务：```docker compose down```或```docker-compose down```
+6. 再次运行：```docker compose up -d```或```docker-compose up -d```
+7. 运行成功后，即可使用```服务器ip地址:25565```连接服务器
 
 ## 维护服务
 
