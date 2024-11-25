@@ -36,10 +36,6 @@ hero:
 本章介绍使用Ubuntu服务器部署TeamSpeak的服务器
 :::
 
-::: details 搭建DNS服务器：[前往](/AdGuardHomeServer/)
-本章介绍使用AdGuard Home在Ubuntu系统上搭建DNS服务器
-:::
-
 ::: details 搭建内网穿透服务：[前往](/FrpClientAndServer/)
 本章介绍使用fatedier/frp在Windows客户端和Ubuntu服务端上搭建FRP内网穿透服务
 :::
