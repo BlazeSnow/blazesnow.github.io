@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2024-11-25T13:52:00+8:00
+lastUpdated: 2024-11-25T13:55:00+8:00
 ---
 
 # 家庭域名服务器 | Docker系列
@@ -56,6 +56,34 @@ services:
       - "443:443/tcp"
       - "3000:3000/tcp"
 ```
+
+## 配置系统
+
+> Ubuntu系统的DNSStubListener占用53端口，导致Adguard Home无法启动，需要关闭DNSStubListener
+
+### 查看53端口占用情况
+
+```sudo lsof -i :53```
+
+### 编辑系统配置文件
+
+1. 进入配置文件目录：```cd /etc/systemd```
+2. 编辑配置文件：```nano resolved.conf```
+
+#### ```resolved.conf```
+
+```txt
+#这里改为no，并删去井号
+DNSStubListener=no
+```
+
+### 重启systemd-resolved
+
+```sudo systemctl restart systemd-resolved```
+
+### 验证53端口占用情况
+
+```sudo lsof -i :53```
 
 ## 开始运行
 
