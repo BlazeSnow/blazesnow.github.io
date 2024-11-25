@@ -165,11 +165,6 @@ export default defineConfig({
 						activeMatch: '/TeamSpeakServer/'
 					},
 					{
-						text: '搭建DNS服务器',
-						link: '/AdGuardHomeServer/',
-						activeMatch: '/AdGuardHomeServer/'
-					},
-					{
 						text: '搭建内网穿透服务',
 						link: '/FrpClientAndServer/',
 						activeMatch: '/FrpClientAndServer/'
@@ -521,21 +516,6 @@ export default defineConfig({
 						{ text: '开放端口', link: '/TeamSpeakServer/开放端口' },
 						{ text: '开始运行', link: '/TeamSpeakServer/开始运行' },
 						{ text: '维护服务', link: '/TeamSpeakServer/维护服务' },
-					]
-				}
-			],
-			'/AdGuardHomeServer/': [
-				{
-					text: '搭建DNS服务器',
-					items: [
-						{ text: '前言', link: '/AdGuardHomeServer/' },
-						{ text: '安装环境', link: '/AdGuardHomeServer/安装环境' },
-						{ text: '拉取镜像', link: '/AdGuardHomeServer/拉取镜像' },
-						{ text: '开放端口', link: '/AdGuardHomeServer/开放端口' },
-						{ text: '配置文件', link: '/AdGuardHomeServer/配置文件' },
-						{ text: '配置系统', link: '/AdGuardHomeServer/配置系统' },
-						{ text: '开始运行', link: '/AdGuardHomeServer/开始运行' },
-						{ text: '维护服务', link: '/AdGuardHomeServer/维护服务' },
 					]
 				}
 			],
