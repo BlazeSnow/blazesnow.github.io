@@ -308,10 +308,10 @@ export default defineConfig({
 					text: 'DNS加密',
 					items: [
 						{ text: '前言', link: '/DNSEncryption/' },
-						{ text: 'Windows设备-DOH', link: '/DNSEncryption/Windows设备-DOH' },
-						{ text: 'Windows设备-模板', link: '/DNSEncryption/Windows设备-模板' },
-						{ text: 'Android设备-DOT', link: '/DNSEncryption/Android设备-DOT' },
-						{ text: 'Apple设备-DOH', link: '/DNSEncryption/Apple设备-DOH' },
+						{ text: 'Windows设备', link: '/DNSEncryption/Windows设备-DOH' },
+						{ text: 'Windows模板', link: '/DNSEncryption/Windows设备-模板' },
+						{ text: 'Android设备', link: '/DNSEncryption/Android设备-DOT' },
+						{ text: 'Apple设备', link: '/DNSEncryption/Apple设备-DOH' },
 						{ text: 'DNS大全', link: '/DNSEncryption/DNS大全' }]
 				}
 			],
