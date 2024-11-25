@@ -2,7 +2,7 @@
 lastUpdated: 2024-6-4T18:52:00+8:00
 ---
 
-# Apple设备：DOH | DNS加密
+# Apple设备 | DNS加密
 
 > 加密方法来源于：<https://github.com/paulmillr/encrypted-dns>
 
