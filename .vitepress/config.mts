@@ -570,6 +570,7 @@ export default defineConfig({
 							]
 						},
 						{ text: '我的世界服务器', link: '/DockerSeries/MinecraftServer' },
+						{ text: '家庭域名服务器', link: '/DockerSeries/AdGuardHome' },
 					]
 				}
 			],
