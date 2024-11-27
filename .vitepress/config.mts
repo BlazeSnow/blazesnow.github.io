@@ -234,7 +234,13 @@ export default defineConfig({
 					{
 						text: '关于本站',
 						link: '/about'
-					}
+					},
+					{
+						text: '网站状态',
+						link: 'https://status.blazesnow.com/',
+						target: '_blank',
+						rel: 'dns-prefetch',
+					},
 				]
 			},
 		],
