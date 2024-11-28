@@ -155,6 +155,11 @@ export default defineConfig({
 						activeMatch: '/DockerSeries/'
 					},
 					{
+						text: 'Nginx相关',
+						link: '/Nginx/',
+						activeMatch: '/Nginx/'
+					},
+					{
 						text: '搭建TeamSpeak服务器',
 						link: '/TeamSpeakServer/',
 						activeMatch: '/TeamSpeakServer/'
@@ -559,6 +564,16 @@ export default defineConfig({
 						{ text: '我的世界服务器', link: '/DockerSeries/MinecraftServer' },
 						{ text: '家庭域名服务器', link: '/DockerSeries/AdGuardHome' },
 						{ text: '密码服务器', link: '/DockerSeries/Vaultwarden' },
+					]
+				}
+			],
+			'/Nginx/': [
+				{
+					text: 'Nginx相关',
+					items: [
+						{ text: '前言', link: '/Nginx/' },
+						{ text: '自签名SSL', link: '/Nginx/自签名SSL' },
+						{ text: '反向代理', link: '/Nginx/反向代理' },
 					]
 				}
 			],
