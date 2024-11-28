@@ -1,7 +1,7 @@
 {
   "name": "blazesnow.github.io",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": ".vitepress/config.mts",
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
