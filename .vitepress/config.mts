@@ -74,6 +74,20 @@ export default defineConfig({
 		returnToTopLabel: '回到顶部',
 		//是否在markdown中的外部链接旁显示外部链接图标
 		externalLinkIcon: true,
+		//右上角图标
+		socialLinks: [
+			{
+				icon: {
+					svg: '<img alt="BlazeSnowStatus" src="status.svg" height="24px" width="24px">'
+				},
+				ariaLabel: 'BlazeSnowStatus',
+				link: 'https://status.blazesnow.com/'
+			},
+			{
+				icon: 'github',
+				link: 'https://github.com/BlazeSnow'
+			}
+		],
 		//上一篇下一篇
 		docFooter: {
 			prev: '上一篇',
