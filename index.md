@@ -36,6 +36,10 @@ hero:
 本章介绍使用fatedier/frp在Windows客户端和Ubuntu服务端上搭建FRP内网穿透服务
 :::
 
+::: details Nginx相关：[前往](/Nginx/)
+Nginx（"engine x"）是一款HTTP Web服务器、反向代理、内容缓存、负载均衡器、TCP/UDP代理服务器和邮件代理服务器。最初由Igor Sysoev编写，并根据2条款BSD许可进行分发。F5, Inc.提供企业发行版、商业支持和培训。
+:::
+
 ## 更多内容
 
 ::: details 更多内容见网站导航栏
