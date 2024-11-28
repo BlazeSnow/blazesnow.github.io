@@ -4,6 +4,8 @@ lastUpdated: false
 
 # 2024年11月 | 更新日志
 
+- **2024年11月28日19点00分**
+    - 修复了```BlazeSnowStatus```图标不可用的问题
 - **2024年11月28日15点25分**
     - 添加```BlazeSnowStatus```图标
     - 添加```GitHub```图标
