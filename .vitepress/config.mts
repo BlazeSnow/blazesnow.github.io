@@ -78,7 +78,7 @@ export default defineConfig({
 		socialLinks: [
 			{
 				icon: {
-					svg: '<img alt="BlazeSnowStatus" src="status.svg" height="24px" width="24px">'
+					svg: '<img alt="BlazeSnowStatus" src="/status.svg" height="24px" width="24px">'
 				},
 				ariaLabel: 'BlazeSnowStatus',
 				link: 'https://status.blazesnow.com/'
