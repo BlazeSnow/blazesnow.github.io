@@ -83,7 +83,10 @@ export default defineConfig({
 				ariaLabel: 'BlazeSnowStatus',
 				link: 'https://status.blazesnow.com/'
 			},
-			{ icon: 'github', link: 'https://github.com/BlazeSnow/blazesnow.github.io' }
+			{
+				icon: 'github',
+				link: 'https://github.com/BlazeSnow'
+			}
 		],
 		//上一篇下一篇
 		docFooter: {
