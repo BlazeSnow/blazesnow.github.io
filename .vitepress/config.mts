@@ -155,11 +155,6 @@ export default defineConfig({
 						activeMatch: '/DockerSeries/'
 					},
 					{
-						text: 'Nginx相关',
-						link: '/Nginx/',
-						activeMatch: '/Nginx/'
-					},
-					{
 						text: '搭建TeamSpeak服务器',
 						link: '/TeamSpeakServer/',
 						activeMatch: '/TeamSpeakServer/'
@@ -168,6 +163,11 @@ export default defineConfig({
 						text: '搭建内网穿透服务',
 						link: '/FrpClientAndServer/',
 						activeMatch: '/FrpClientAndServer/'
+					},
+					{
+						text: 'Nginx相关',
+						link: '/Nginx/',
+						activeMatch: '/Nginx/'
 					},
 				]
 			},
