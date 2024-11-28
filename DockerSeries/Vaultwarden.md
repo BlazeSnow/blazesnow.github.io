@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2024-11-25T16:53:00+8:00
+lastUpdated: 2024-11-28T12:35:00+8:00
 ---
 
 # 密码服务器 | Docker系列
@@ -52,7 +52,6 @@ services:
     image: vaultwarden/server
     container_name: vaultwarden
     environment:
-      - WEBSOCKET_ENABLED=true
       - SIGNUPS_ALLOWED=true
     volumes:
       - ./data:/data
@@ -88,22 +87,18 @@ server {
     ssl_certificate /etc/nginx/ssl/cert.pem;
     ssl_certificate_key /etc/nginx/ssl/privkey.pem;
 
+    ssl_session_cache shared:SSL:1m;
+    ssl_session_timeout 5m;
+    ssl_ciphers ECDHE-RSA-AES128-GCM-SHA256:ECDHE:ECDH:AES:HIGH:!NULL:!aNULL:!MD5:!ADH:!RC4;
+    ssl_protocols TLSv1.1 TLSv1.2 TLSv1.3;
+    ssl_prefer_server_ciphers on;
+
     location / {
         proxy_pass http://vaultwarden:80;
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_set_header X-Forwarded-Proto $scheme;
-    }
-
-    location /notifications/hub {
-        proxy_pass http://vaultwarden:3012;
-        proxy_set_header Upgrade $http_upgrade;
-        proxy_set_header Connection "upgrade";
-    }
-
-    location /notifications/hub/negotiate {
-        proxy_pass http://vaultwarden:80;
     }
 }
 ```
