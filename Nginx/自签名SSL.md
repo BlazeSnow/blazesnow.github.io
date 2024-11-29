@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2024-11-28T12:43:00+8:00
+lastUpdated: 2024-11-29T16:22:00+8:00
 ---
 
 # 自签名SSL | Nginx相关
@@ -7,8 +7,25 @@ lastUpdated: 2024-11-28T12:43:00+8:00
 1. 前往var目录：```cd /var```
 2. 创建工作目录：```mkdir ssl```
 3. 进入工作目录：```cd ssl```
-4. 自签名SSL证书```cert.pem```和```privkey.pem```：
+4. 自签名SSL证书```cert.crt```和```privkey.key```：
 
-```bash
-openssl req -x509 -newkey rsa:4096 -sha256 -nodes -keyout privkey.pem -out cert.pem -days 3650
-```
+## 快速生成
+
+```openssl req -x509 -newkey rsa:4096 -sha256 -nodes -keyout privkey.key -out cert.crt -days 3650```
+
+## 带CSR生成
+
+1. 生成私钥：```openssl genrsa -out privkey.key 4096```
+2. 生成证书请求：```openssl req -new -key privkey.key -out request.csr```
+3. 生成证书：```openssl x509 -req -days 3650 -in request.csr -signkey privkey.key -out cert.crt```
+
+## 常用后缀名
+
+|  后缀名   |                 备注                 |
+| :-------: | :----------------------------------: |
+| ```crt``` |                 证书                 |
+| ```cer``` |                 证书                 |
+| ```key``` |                 私钥                 |
+| ```pub``` |                 公钥                 |
+| ```csr``` |             证书签名请求             |
+| ```pem``` | 通用格式，可以存储证书、公钥或证书链 |
