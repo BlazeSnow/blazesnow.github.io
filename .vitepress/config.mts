@@ -660,6 +660,7 @@ export default defineConfig({
 								{ text: 'Webdav', link: '/DockerSeries/Webdav' },
 								{ text: 'SMB', link: '/DockerSeries/SMB' },
 								{ text: 'Alist', link: '/DockerSeries/Alist' },
+								{ text: 'NFS', link: '/DockerSeries/NFS' },
 							]
 						},
 						{ text: '我的世界服务器', link: '/DockerSeries/MinecraftServer' },
