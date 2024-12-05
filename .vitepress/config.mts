@@ -73,7 +73,7 @@ export default defineConfig({
 		//回到顶部文字
 		returnToTopLabel: '回到顶部',
 		//是否在markdown中的外部链接旁显示外部链接图标
-		externalLinkIcon: true,
+		externalLinkIcon: false,
 		//右上角图标
 		socialLinks: [
 			{
