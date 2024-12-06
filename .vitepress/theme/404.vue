@@ -1,27 +1,25 @@
 <script setup>
 import DefaultTheme from 'vitepress/theme'
-import custombutton from './custombutton.vue'
 const { Layout } = DefaultTheme
 </script>
 
 <template>
     <Layout>
-        <!-- not-found -->
         <template #not-found>
-            <div id="VPContent" class="VPContent">
-                <div class="NotFound">
-                    <p class="code">
-                        404
-                    </p>
-                    <h1 class="title">
-                        页面未找到
-                    </h1>
-                    <div class="divider"></div>
-                    <blockquote class="quote">
-                        抱歉，没有找到您需要的页面
-                    </blockquote>
-                    <br>
-                    <custombutton label="回到首页" link="/" />
+            <div class="NotFound">
+                <p class="code">
+                    404
+                </p>
+                <h1 class="title">
+                    页面未找到
+                </h1>
+                <div class="divider"></div>
+                <blockquote class="quote">
+                    抱歉，没有找到您需要的页面
+                </blockquote>
+                <div class="action">
+                    <a class="link" href="/" aria-label="回到主页">回到主页
+                    </a>
                 </div>
             </div>
         </template>
@@ -68,7 +66,7 @@ div.NotFound div.action {
     padding-top: 50px;
 }
 
-div.NotFound a.VPButton.medium.brand {
+div.NotFound div.action a.link {
     display: inline-block;
     border: 1px solid transparent;
     text-align: center;
