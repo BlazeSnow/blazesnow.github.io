@@ -663,6 +663,7 @@ export default defineConfig({
 								{ text: 'NFS', link: '/DockerSeries/NFS' },
 							]
 						},
+						{ text: '文件快递柜', link: '/DockerSeries/FileCodeBox' },
 						{ text: '我的世界服务器', link: '/DockerSeries/MinecraftServer' },
 						{ text: '家庭域名服务器', link: '/DockerSeries/AdGuardHome' },
 						{ text: '密码服务器', link: '/DockerSeries/Vaultwarden' },
