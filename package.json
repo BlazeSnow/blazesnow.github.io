@@ -1,15 +1,10 @@
 {
   "name": "blazesnow.github.io",
-  "version": "1.0.0",
-  "main": ".vitepress/config.mts",
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
   },
-  "author": "BlazeSnow",
-  "license": "SEE LICENSE IN LICENSE",
-  "description": "",
   "devDependencies": {
     "@fontsource/monaspace-neon": "^5.1.0",
     "vitepress": "^1.5.0"
