@@ -668,6 +668,7 @@ export default defineConfig({
 						{ text: '家庭域名服务器', link: '/DockerSeries/AdGuardHome' },
 						{ text: '密码服务器', link: '/DockerSeries/Vaultwarden' },
 						{ text: '文件快递柜', link: '/DockerSeries/FileCodeBox' },
+						{ text: '消息推送器', link: '/DockerSeries/Ntfy' },
 					]
 				}
 			],

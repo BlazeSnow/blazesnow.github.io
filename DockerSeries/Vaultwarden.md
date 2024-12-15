@@ -1,12 +1,12 @@
 ---
-lastUpdated: 2024-11-28T12:35:00+8:00
+lastUpdated: 2024-12-15T22:13:00+8:00
 ---
 
 # 密码服务器 | Docker系列
 
 ## 前言
 
-本文介绍使用```Vaultwarden```和```Nginx```在```Ubuntu```系统上搭建密码服务器，请先根据本章前言完成环境的搭建。
+本文介绍使用```Vaultwarden```和```Nginx```在Ubuntu系统上搭建密码服务器，请先根据本章前言完成环境的搭建。
 
 ```Vaultwarden```网站：
 - <https://github.com/dani-garcia/vaultwarden>
@@ -42,7 +42,7 @@ lastUpdated: 2024-11-28T12:35:00+8:00
 8. 创建顶替nginx配置文件：```touch default```
 9. 创建ssl目录：```mkdir ssl```
 10. 进入ssl目录：```cd ssl```
-11. 自签名openssl证书和私钥：```openssl req -x509 -newkey rsa:4096 -sha256 -nodes -keyout privkey.pem -out cert.pem -days 3650```
+11. 自签名openssl证书和私钥：```openssl req -x509 -newkey rsa:4096 -sha256 -nodes -keyout privkey.key -out cert.crt -days 3650```
 
 ### ```compose.yml```
 
@@ -84,8 +84,8 @@ server {
     listen 443 ssl;
     server_name _;
 
-    ssl_certificate /etc/nginx/ssl/cert.pem;
-    ssl_certificate_key /etc/nginx/ssl/privkey.pem;
+    ssl_certificate /etc/nginx/ssl/cert.crt;
+    ssl_certificate_key /etc/nginx/ssl/privkey.key;
 
     ssl_session_cache shared:SSL:1m;
     ssl_session_timeout 5m;
@@ -111,8 +111,8 @@ server {
 │  vaultwarden.conf
 │
 └─ ssl
-    ├─  cert.pem
-    └─  privkey.pem
+    ├─  cert.crt
+    └─  privkey.key
 ```
 
 ## 开始运行
