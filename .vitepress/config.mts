@@ -651,6 +651,7 @@ export default defineConfig({
 					text: 'Docker系列',
 					items: [
 						{ text: '前言', link: '/DockerSeries/' },
+						{ text: '非官方镜像', link: '/DockerSeries/UnofficialMirror' },
 						{
 							text: '文件共享服务器',
 							collapsed: false,
