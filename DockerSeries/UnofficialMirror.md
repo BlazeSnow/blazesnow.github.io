@@ -12,10 +12,6 @@ lastUpdated: 2024-12-15T22:48:00+8:00
 使用本项目，风险由用户自行承担。本项目不确保无瑕疵且适用于特定用途，用户对数据安全、合规性等全权负责。镜像仅依其现有状况提供，不附带任何明示或暗示的担保。在使用过程中，因镜像产生的一切后果，均与提供者无关。
 :::
 
-## 镜像地址
-
-私人的命名空间：```registry.cn-hangzhou.aliyuncs.com/blazesnow/```
-
 ## 检测连通性
 
 ```docker run --rm registry.cn-hangzhou.aliyuncs.com/blazesnow/hello-world```
@@ -69,4 +65,4 @@ services:
 - registry.cn-hangzhou.aliyuncs.com/blazesnow/vaultwarden_server
 - registry.cn-hangzhou.aliyuncs.com/blazesnow/nginx
 - registry.cn-hangzhou.aliyuncs.com/blazesnow/filecodebox
-- registry.cn-hangzhou.aliyuncs.com/blazesnow/Ntfy
+- registry.cn-hangzhou.aliyuncs.com/blazesnow/ntfy
