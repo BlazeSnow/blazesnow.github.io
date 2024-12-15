@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2024-12-15T18:20:00+8:00
+lastUpdated: 2024-12-15T22:48:00+8:00
 ---
 
 # 非官方镜像 | Docker系列
@@ -69,3 +69,4 @@ services:
 - registry.cn-hangzhou.aliyuncs.com/blazesnow/vaultwarden_server
 - registry.cn-hangzhou.aliyuncs.com/blazesnow/nginx
 - registry.cn-hangzhou.aliyuncs.com/blazesnow/filecodebox
+- registry.cn-hangzhou.aliyuncs.com/blazesnow/Ntfy
