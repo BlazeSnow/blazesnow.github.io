@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2024-12-15T22:48:00+8:00
+lastUpdated: 2024-12-17T16:29:00+8:00
 ---
 
 # 非官方镜像 | Docker系列
@@ -38,7 +38,7 @@ To generate this message, Docker took the following steps:
 
 ### 拉取镜像
 
-```docker pull registry.cn-guangzhou.aliyuncs.com/blazesnow/nginx```
+```docker pull registry.cn-hangzhou.aliyuncs.com/blazesnow/nginx```
 
 ### ```compose.yml```
 
@@ -48,7 +48,7 @@ services:
     # 修改前
     image: nginx
     # 修改后
-    image: registry.cn-guangzhou.aliyuncs.com/blazesnow/nginx
+    image: registry.cn-hangzhou.aliyuncs.com/blazesnow/nginx
 ```
 
 ## 目前可用的镜像
@@ -66,3 +66,4 @@ services:
 - registry.cn-hangzhou.aliyuncs.com/blazesnow/nginx
 - registry.cn-hangzhou.aliyuncs.com/blazesnow/filecodebox
 - registry.cn-hangzhou.aliyuncs.com/blazesnow/ntfy
+- registry.cn-hangzhou.aliyuncs.com/blazesnow/home-assistant
