@@ -654,7 +654,7 @@ export default defineConfig({
 						{ text: '非官方镜像', link: '/DockerSeries/UnofficialMirror' },
 						{
 							text: '文件共享服务器',
-							collapsed: false,
+							collapsed: true,
 							items: [
 								{ text: 'FTP', link: '/DockerSeries/FTP' },
 								{ text: 'SFTP', link: '/DockerSeries/SFTP' },
@@ -669,6 +669,7 @@ export default defineConfig({
 						{ text: '密码服务器', link: '/DockerSeries/Vaultwarden' },
 						{ text: '文件快递柜', link: '/DockerSeries/FileCodeBox' },
 						{ text: '消息推送器', link: '/DockerSeries/Ntfy' },
+						{ text: '智能家居中枢', link: '/DockerSeries/HomeAssistant' },
 					]
 				}
 			],
