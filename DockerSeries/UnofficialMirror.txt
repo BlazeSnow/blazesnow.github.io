@@ -1,0 +1,14 @@
+registry.cn-hangzhou.aliyuncs.com/blazesnow/hello-world
+registry.cn-hangzhou.aliyuncs.com/blazesnow/vsftpd
+registry.cn-hangzhou.aliyuncs.com/blazesnow/sftp
+registry.cn-hangzhou.aliyuncs.com/blazesnow/webdav
+registry.cn-hangzhou.aliyuncs.com/blazesnow/samba
+registry.cn-hangzhou.aliyuncs.com/blazesnow/alist
+registry.cn-hangzhou.aliyuncs.com/blazesnow/nfs-server-alpine
+registry.cn-hangzhou.aliyuncs.com/blazesnow/minecraft-server
+registry.cn-hangzhou.aliyuncs.com/blazesnow/adguardhome
+registry.cn-hangzhou.aliyuncs.com/blazesnow/vaultwarden_server
+registry.cn-hangzhou.aliyuncs.com/blazesnow/nginx
+registry.cn-hangzhou.aliyuncs.com/blazesnow/filecodebox
+registry.cn-hangzhou.aliyuncs.com/blazesnow/ntfy
+registry.cn-hangzhou.aliyuncs.com/blazesnow/home-assistant
