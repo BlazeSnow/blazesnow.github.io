@@ -1,29 +1,23 @@
 <script setup>
-import DefaultTheme from 'vitepress/theme'
-const { Layout } = DefaultTheme
 </script>
 
 <template>
-    <Layout>
-        <template #not-found>
-            <div class="NotFound">
-                <p class="code">
-                    404
-                </p>
-                <h1 class="title">
-                    页面未找到
-                </h1>
-                <div class="divider"></div>
-                <blockquote class="quote">
-                    抱歉，没有找到您需要的页面
-                </blockquote>
-                <div class="action">
-                    <a class="link" href="/" aria-label="回到主页">回到主页
-                    </a>
-                </div>
-            </div>
-        </template>
-    </Layout>
+    <div class="NotFound">
+        <p class="code">
+            404
+        </p>
+        <h1 class="title">
+            页面未找到
+        </h1>
+        <div class="divider"></div>
+        <blockquote class="quote">
+            抱歉，没有找到您需要的页面
+        </blockquote>
+        <div class="action">
+            <a class="link" href="/" aria-label="回到主页">回到主页
+            </a>
+        </div>
+    </div>
 </template>
 
 <style scoped>
