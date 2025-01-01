@@ -268,14 +268,27 @@ export default defineConfig({
 				{
 					text: '更新日志',
 					items: [
-						{ text: '2024年12月', link: '/CHANGELOG/' },
-						{ text: '2024年11月', link: '/CHANGELOG/2024年11月' },
-						{ text: '2024年10月', link: '/CHANGELOG/2024年10月' },
-						{ text: '2024年9月', link: '/CHANGELOG/2024年9月' },
-						{ text: '2024年8月', link: '/CHANGELOG/2024年8月' },
-						{ text: '2024年7月', link: '/CHANGELOG/2024年7月' },
-						{ text: '2024年6月', link: '/CHANGELOG/2024年6月' },
-						{ text: '2024年5月', link: '/CHANGELOG/2024年5月' },
+						{
+							text: '2025年',
+							collapsed: false,
+							items: [
+								{ text: '2025年1月', link: '/CHANGELOG/' },
+							]
+						},
+						{
+							text: '2024年',
+							collapsed: false,
+							items: [
+								{ text: '2024年12月', link: '/CHANGELOG/2024年12月' },
+								{ text: '2024年11月', link: '/CHANGELOG/2024年11月' },
+								{ text: '2024年10月', link: '/CHANGELOG/2024年10月' },
+								{ text: '2024年9月', link: '/CHANGELOG/2024年9月' },
+								{ text: '2024年8月', link: '/CHANGELOG/2024年8月' },
+								{ text: '2024年7月', link: '/CHANGELOG/2024年7月' },
+								{ text: '2024年6月', link: '/CHANGELOG/2024年6月' },
+								{ text: '2024年5月', link: '/CHANGELOG/2024年5月' },
+							]
+						},
 					]
 				}
 			],
@@ -566,12 +579,27 @@ export default defineConfig({
 					text: '搭建内网穿透服务',
 					items: [
 						{ text: '前言', link: '/FrpClientAndServer/' },
-						{ text: '安装环境', link: '/FrpClientAndServer/安装环境' },
-						{ text: '获取文件', link: '/FrpClientAndServer/获取文件' },
 						{ text: '开放端口', link: '/FrpClientAndServer/开放端口' },
-						{ text: '配置文件', link: '/FrpClientAndServer/配置文件' },
-						{ text: '开始运行', link: '/FrpClientAndServer/开始运行' },
-						{ text: '维护服务', link: '/FrpClientAndServer/维护服务' },
+						{
+							text: '服务端',
+							collapsed: false,
+							items: [
+								{ text: '安装环境', link: '/FrpClientAndServer/服务端安装环境' },
+								{ text: '获取文件', link: '/FrpClientAndServer/服务端获取文件' },
+								{ text: '配置文件', link: '/FrpClientAndServer/服务端配置文件' },
+								{ text: '开始运行', link: '/FrpClientAndServer/服务端开始运行' },
+							]
+						},
+						{
+							text: '客户端',
+							collapsed: false,
+							items: [
+								{ text: '获取文件', link: '/FrpClientAndServer/客户端获取文件' },
+								{ text: '配置文件', link: '/FrpClientAndServer/客户端配置文件' },
+								{ text: '开始运行', link: '/FrpClientAndServer/客户端开始运行' },
+							]
+						},
+						{ text: '进阶操作', link: '/FrpClientAndServer/进阶操作' },
 					]
 				}
 			],
