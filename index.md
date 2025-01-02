@@ -1,5 +1,5 @@
 ---
-lastUpdated: false
+lastUpdated: 2025-01-02T15:27:00+8:00
 titleTemplate: 'BlazeSnow帮助网站'
 layout: home
 
@@ -26,10 +26,6 @@ hero:
 
 ::: details Docker系列：[前往](/DockerSeries/)
 在云原生时代，Docker Compose是容器编排的得力助手。它用简洁YAML文件管理多容器应用，涵盖启动、网络、资源等设置。本教程专为初涉容器化或有经验者打造，以清晰步骤与实例，助你掌握其精髓，高效编排应用。
-:::
-
-::: details 搭建TeamSpeak服务器：[前往](/TeamSpeakServer/)
-本章介绍使用Ubuntu服务器部署TeamSpeak的服务器
 :::
 
 ::: details 搭建内网穿透服务：[前往](/FrpClientAndServer/)
