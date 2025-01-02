@@ -169,11 +169,6 @@ export default defineConfig({
 						activeMatch: '/DockerSeries/'
 					},
 					{
-						text: '搭建TeamSpeak服务器',
-						link: '/TeamSpeakServer/',
-						activeMatch: '/TeamSpeakServer/'
-					},
-					{
 						text: '搭建内网穿透服务',
 						link: '/FrpClientAndServer/',
 						activeMatch: '/FrpClientAndServer/'
@@ -223,6 +218,11 @@ export default defineConfig({
 						text: '部署Bitwarden密码服务',
 						link: '/VaultwardenServer/',
 						activeMatch: '/VaultwardenServer/'
+					},
+					{
+						text: '搭建TeamSpeak服务器',
+						link: '/TeamSpeakServer/',
+						activeMatch: '/TeamSpeakServer/'
 					},
 					{
 						text: 'Docsify建站教程',
@@ -698,6 +698,7 @@ export default defineConfig({
 						{ text: '文件快递柜', link: '/DockerSeries/FileCodeBox' },
 						{ text: '消息推送器', link: '/DockerSeries/Ntfy' },
 						{ text: '智能家居中枢', link: '/DockerSeries/HomeAssistant' },
+						{ text: '语音服务器', link: '/DockerSeries/TeamSpeak' },
 					]
 				}
 			],
@@ -739,7 +740,7 @@ export default defineConfig({
 				+ '<img src="/beian.png" alt="公安备案图标" style="display:inline-block; vertical-align:middle; width:18px; height:18px; margin-right:5px;">'
 				+ '<a href="https://beian.mps.gov.cn/#/query/webSearch?code=44195202000104" rel="noreferrer" target="_blank">粤公网安备44195202000104号</a>。'
 				+ '<a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2024284878号</a>。',
-			copyright: 'Copyright © 2024 <a href="https://github.com/BlazeSnow" target="_blank">BlazeSnow</a>. 保留所有权利。'
+			copyright: 'Copyright © 2024-2025 <a href="https://github.com/BlazeSnow" target="_blank">BlazeSnow</a>. 保留所有权利。'
 		},
 		editLink: {
 			pattern: 'https://github.com/blazesnow/blazesnow.github.io/tree/main/:path',

@@ -12,3 +12,4 @@ registry.cn-hangzhou.aliyuncs.com/blazesnow/nginx
 registry.cn-hangzhou.aliyuncs.com/blazesnow/filecodebox
 registry.cn-hangzhou.aliyuncs.com/blazesnow/ntfy
 registry.cn-hangzhou.aliyuncs.com/blazesnow/home-assistant
+registry.cn-hangzhou.aliyuncs.com/blazesnow/teamspeak
