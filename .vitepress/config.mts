@@ -169,11 +169,6 @@ export default defineConfig({
 						activeMatch: '/DockerSeries/'
 					},
 					{
-						text: '搭建TeamSpeak服务器',
-						link: '/TeamSpeakServer/',
-						activeMatch: '/TeamSpeakServer/'
-					},
-					{
 						text: '搭建内网穿透服务',
 						link: '/FrpClientAndServer/',
 						activeMatch: '/FrpClientAndServer/'
@@ -223,6 +218,11 @@ export default defineConfig({
 						text: '部署Bitwarden密码服务',
 						link: '/VaultwardenServer/',
 						activeMatch: '/VaultwardenServer/'
+					},
+					{
+						text: '搭建TeamSpeak服务器',
+						link: '/TeamSpeakServer/',
+						activeMatch: '/TeamSpeakServer/'
 					},
 					{
 						text: 'Docsify建站教程',
