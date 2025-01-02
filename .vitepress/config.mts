@@ -698,6 +698,7 @@ export default defineConfig({
 						{ text: '文件快递柜', link: '/DockerSeries/FileCodeBox' },
 						{ text: '消息推送器', link: '/DockerSeries/Ntfy' },
 						{ text: '智能家居中枢', link: '/DockerSeries/HomeAssistant' },
+						{ text: '语音服务器', link: '/DockerSeries/TeamSpeak' },
 					]
 				}
 			],
