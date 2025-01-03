@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2024-6-2T19:42:00+8:00
+lastUpdated: 2025-01-03T17:24:00+8:00
 ---
 
 # 安装C++运行库 | Windows相关
@@ -10,12 +10,33 @@ lastUpdated: 2024-6-2T19:42:00+8:00
 > 可再发行程序包体系结构必须与应用的目标体系结构相匹配。
 > 可再发行程序包版本必须至少与用于生成应用的MSVC生成工具集一样新。
 
-1. 打开：<https://learn.microsoft.com/zh-cn/cpp/windows/latest-supported-vc-redist>
-2. 根据文章指引下载版本
-	- ```最新的 Microsoft Visual C++ 可再发行程序包版本```
-	- ```Visual Studio 2013 (VC++ 12.0)```
-	- ```Visual Studio 2012 (VC++ 11.0) Update 4```
-	- ```Visual Studio 2010 (VC++ 10.0) SP1```
-	- ```Visual Studio 2008 (VC++ 9.0) SP1```
-	- ```Visual Studio 2005 (VC++ 8.0) SP1```
-3. ```x64系统```需安装```x86```和```x64```双版本
+官方网站：<https://learn.microsoft.com/zh-cn/cpp/windows/latest-supported-vc-redist>
+
+## 64位
+
+```bash
+winget install Microsoft.VCRedist.2015+.x64
+winget install Microsoft.VCRedist.2013.x64
+winget install Microsoft.VCRedist.2012.x64
+winget install Microsoft.VCRedist.2010.x64
+winget install Microsoft.VCRedist.2008.x64
+winget install Microsoft.VCRedist.2005.x64
+```
+
+## 32位
+
+```bash
+winget install Microsoft.VCRedist.2015+.x86
+winget install Microsoft.VCRedist.2013.x86
+winget install Microsoft.VCRedist.2012.x86
+winget install Microsoft.VCRedist.2010.x86
+winget install Microsoft.VCRedist.2008.x86
+winget install Microsoft.VCRedist.2005.x86
+```
+
+## ARM
+
+```bash
+winget install Microsoft.VCRedist.2022.arm64
+winget install Microsoft.VCRedist.2015+.arm64
+```
