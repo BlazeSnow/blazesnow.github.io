@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-01-03T17:23:00+8:00
+lastUpdated: 2025-01-03T17:33:00+8:00
 ---
 
 # 安装Python | Windows相关
@@ -7,10 +7,6 @@ lastUpdated: 2025-01-03T17:23:00+8:00
 > Python 是一种编程语言，可让您快速工作并更有效地集成系统。
 
 官方网站：<https://www.python.org/>
-
-1. 按下```Windows徽标```+```X```
-2. 选中```终端管理员```
-3. 输入并回车：
 
 ```bash
 winget install Python.Python.3.13
