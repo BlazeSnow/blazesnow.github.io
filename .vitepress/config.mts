@@ -291,8 +291,11 @@ export default defineConfig({
 							text: '运行库',
 							collapsed: true,
 							items: [
+								{ text: '安装WinGet', link: '/Windows/安装WinGet' },
 								{ text: '安装C++运行库', link: '/Windows/安装C++运行库' },
 								{ text: '安装.NET', link: '/Windows/安装.NET' },
+								{ text: '安装Java', link: '/Windows/安装Java' },
+								{ text: '安装Python', link: '/Windows/安装Python' },
 							]
 						},
 						{
