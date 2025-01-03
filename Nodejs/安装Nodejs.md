@@ -1,8 +1,16 @@
 ---
-lastUpdated: 2024-10-29T13:10:00+8:00
+lastUpdated: 2025-01-03T19:56:00+8:00
 ---
 
 # 安装Nodejs | Nodejs相关
+
+## 使用安装包安装
+
+1. 打开官方网站：<https://nodejs.org/zh-cn>
+2. 单击```下载 Node.js (LTS)```
+3. 运行安装文件
+
+## 使用WinGet安装
 
 1. 按下```Windows徽标```+```X```
 2. 选择```终端管理员```
