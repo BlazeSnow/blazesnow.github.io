@@ -317,9 +317,16 @@ export default defineConfig({
 								{ text: '应用最新TLS', link: '/Windows/应用最新TLS' },
 							]
 						},
-						{ text: '磁盘清理', link: '/Windows/磁盘清理' },
+						{
+							text: '清理',
+							collapsed: true,
+							items: [
+								{ text: '磁盘清理', link: '/Windows/磁盘清理' },
+								{ text: '清理软件卸载残留', link: '/Windows/清理软件卸载残留' },
+								{ text: '清理微软商店残留', link: '/Windows/清理微软商店残留' },
+							]
+						},
 						{ text: '系统配置', link: '/Windows/系统配置' },
-						{ text: '清理软件卸载残留', link: '/Windows/清理软件卸载残留' },
 						{ text: '设置环境变量', link: '/Windows/设置环境变量' },
 						{ text: '计算哈希值', link: '/Windows/计算哈希值' }
 					]
