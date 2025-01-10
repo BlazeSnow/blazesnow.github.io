@@ -1,11 +1,11 @@
 ---
-lastUpdated: 2025-01-10T14:20:00+8:00
+lastUpdated: 2025-01-10T16:00:00+8:00
 titleTemplate: 'BlazeSnow帮助网站'
 layout: home
 
 hero:
-  name: "BlazeSnow帮助网站"
-  tagline: "专注于分享知识"
+    name: "BlazeSnow帮助网站"
+    text: "专注于分享知识"
 ---
 
 ## 系统：操作系统相关
