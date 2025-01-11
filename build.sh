@@ -1,4 +1,4 @@
-sudo npm update -g
-sudo npm install
-sudo npm run docs:build
-sudo systemctl restart nginx
+npm update -g
+npm install
+npm run docs:build
+systemctl restart nginx
