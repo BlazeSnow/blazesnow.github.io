@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2024-11-22T17:44:00+8:00
+lastUpdated: 2025-01-12T17:17:00+8:00
 ---
 
 # SSH超级用户权限 | Ubuntu相关
@@ -21,9 +21,17 @@ lastUpdated: 2024-11-22T17:44:00+8:00
 PermitRootLogin yes
 ```
 
-## 设置密码
+## 重新启动SSH
 
-为root用户设置密码：```sudo passwd root```
+```bash
+sudo systemctl restart ssh
+```
+
+## 设置root用户密码
+
+```bash
+sudo passwd root
+```
 
 ## SSH连接
 
