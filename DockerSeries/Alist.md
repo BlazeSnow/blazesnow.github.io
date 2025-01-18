@@ -34,11 +34,11 @@ lastUpdated: 2024-11-24T22:08:00+8:00
 ### ```compose.yml```
 
 ```yml
-version: '3.3'
 services:
   alist:
     image: xhofe/alist
     container_name: alist
+    restart: always
     volumes:
       - ./data:/opt/alist/data
     ports:
@@ -48,7 +48,6 @@ services:
       - PGID=0
       - UMASK=022
       - TZ=Asia/Shanghai
-    restart: always
 ```
 
 ## 开始运行
