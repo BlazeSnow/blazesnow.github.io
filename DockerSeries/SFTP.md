@@ -30,8 +30,7 @@ lastUpdated: 2024-11-24T21:59:00+8:00
 
 ### ```compose.yml```
 
-```yml{11}
-version: '3'
+```yml{10}
 services:
   sftp:
     image: atmoz/sftp

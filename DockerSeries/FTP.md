@@ -32,8 +32,7 @@ lastUpdated: 2024-11-24T21:54:00+8:00
 
 ### ```compose.yml```
 
-```yml{14,15,16}
-version: '3'
+```yml{13,14,15}
 services:
   vsftpd:
     image: fauria/vsftpd
