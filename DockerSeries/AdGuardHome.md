@@ -40,7 +40,6 @@ lastUpdated: 2024-11-25T13:55:00+8:00
 ### ```compose.yml```
 
 ```yml
-version: '3'
 services:
   adguardhome:
     image: adguard/adguardhome

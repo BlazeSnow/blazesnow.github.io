@@ -30,8 +30,7 @@ lastUpdated: 2024-12-02T21:40:00+8:00
 
 ### ```compose.yml```
 
-```yml{11,12}
-version: '3'
+```yml{10,11}
 services:
   webdav:
     image: bytemark/webdav

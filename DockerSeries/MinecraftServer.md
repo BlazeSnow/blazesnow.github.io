@@ -34,7 +34,6 @@ lastUpdated: 2024-11-25T13:26:00+8:00
 ### ```compose.yml```
 
 ```yml
-version: '3'
 services:
   minecraft:
     image: itzg/minecraft-server
