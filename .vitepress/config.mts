@@ -679,8 +679,8 @@ export default defineConfig({
           text: 'Nginx相关',
           items: [
             { text: '前言', link: '/Nginx/' },
-            { text: '自签名SSL', link: '/Nginx/自签名SSL' },
-            { text: '反向代理', link: '/Nginx/反向代理' },
+            { text: '自签名SSL', link: '/Nginx/SelfSignedSSL' },
+            { text: '反向代理', link: '/Nginx/ReverseProxy' },
           ]
         }
       ],
