@@ -338,7 +338,6 @@ export default defineConfig({
           items: [
             { text: '前言', link: '/DNSEncryption/' },
             { text: 'Windows设备', link: '/DNSEncryption/Windows' },
-            { text: 'Windows模板', link: '/DNSEncryption/WindowsTemplate' },
             { text: 'Android设备', link: '/DNSEncryption/Android' },
             { text: 'Apple设备', link: '/DNSEncryption/Apple' },
             { text: 'DNS大全', link: '/DNSEncryption/Collection' }
