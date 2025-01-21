@@ -337,11 +337,11 @@ export default defineConfig({
           text: 'DNS加密',
           items: [
             { text: '前言', link: '/DNSEncryption/' },
-            { text: 'Windows设备', link: '/DNSEncryption/Windows设备' },
-            { text: 'Windows模板', link: '/DNSEncryption/Windows模板' },
-            { text: 'Android设备', link: '/DNSEncryption/Android设备' },
-            { text: 'Apple设备', link: '/DNSEncryption/Apple设备' },
-            { text: 'DNS大全', link: '/DNSEncryption/DNS大全' }
+            { text: 'Windows设备', link: '/DNSEncryption/Windows' },
+            { text: 'Windows模板', link: '/DNSEncryption/WindowsTemplate' },
+            { text: 'Android设备', link: '/DNSEncryption/Android' },
+            { text: 'Apple设备', link: '/DNSEncryption/Apple' },
+            { text: 'DNS大全', link: '/DNSEncryption/Collection' }
           ]
         }
       ],
