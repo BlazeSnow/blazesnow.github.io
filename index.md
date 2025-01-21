@@ -38,7 +38,7 @@ Nginx（"engine x"）是一款HTTP Web服务器、反向代理、内容缓存、
 
 ## 更多内容
 
-::: details 原生安卓：[前往](/Android/WiFi感叹号)
+::: details 原生安卓：[前往](/Android/)
 原生安卓（Android）是指由谷歌（Google）公司开发的、未经过手机制造商或移动运营商深度定制的安卓操作系统版本。
 :::
 

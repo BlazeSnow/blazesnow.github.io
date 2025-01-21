@@ -186,7 +186,7 @@ export default defineConfig({
         items: [
           {
             text: '原生安卓',
-            link: '/Android/WiFi感叹号',
+            link: '/Android/',
             activeMatch: '/Android/'
           },
           {
@@ -337,11 +337,10 @@ export default defineConfig({
           text: 'DNS加密',
           items: [
             { text: '前言', link: '/DNSEncryption/' },
-            { text: 'Windows设备', link: '/DNSEncryption/Windows设备' },
-            { text: 'Windows模板', link: '/DNSEncryption/Windows模板' },
-            { text: 'Android设备', link: '/DNSEncryption/Android设备' },
-            { text: 'Apple设备', link: '/DNSEncryption/Apple设备' },
-            { text: 'DNS大全', link: '/DNSEncryption/DNS大全' }
+            { text: 'Windows设备', link: '/DNSEncryption/Windows' },
+            { text: 'Android设备', link: '/DNSEncryption/Android' },
+            { text: 'Apple设备', link: '/DNSEncryption/Apple' },
+            { text: 'DNS大全', link: '/DNSEncryption/Collection' }
           ]
         }
       ],
@@ -415,6 +414,7 @@ export default defineConfig({
         {
           text: '原生安卓',
           items: [
+            { text: '前言', link: '/Android/' },
             { text: 'WiFi感叹号', link: '/Android/WiFi感叹号' },
             { text: '时间同步', link: '/Android/时间同步' }]
         }
@@ -678,8 +678,8 @@ export default defineConfig({
           text: 'Nginx相关',
           items: [
             { text: '前言', link: '/Nginx/' },
-            { text: '自签名SSL', link: '/Nginx/自签名SSL' },
-            { text: '反向代理', link: '/Nginx/反向代理' },
+            { text: '自签名SSL', link: '/Nginx/SelfSignedSSL' },
+            { text: '反向代理', link: '/Nginx/ReverseProxy' },
           ]
         }
       ],
