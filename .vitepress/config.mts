@@ -569,8 +569,8 @@ export default defineConfig({
           text: '搭建内网穿透服务',
           items: [
             { text: '前言', link: '/FrpClientAndServer/' },
-            { text: '服务端', link: '/FrpClientAndServer/服务端' },
-            { text: '客户端', link: '/FrpClientAndServer/客户端' },
+            { text: '服务端', link: '/FrpClientAndServer/Server' },
+            { text: '客户端', link: '/FrpClientAndServer/Client' },
           ]
         }
       ],
