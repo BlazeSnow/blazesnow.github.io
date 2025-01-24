@@ -38,7 +38,7 @@ export default {
     height: auto;
     background: var(--vp-custom-block-info-bg);
     border: 1px solid lightgrey;
-    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 12px 15px rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(6px);
     border-radius: 17px;
     text-align: center;
@@ -67,7 +67,7 @@ export default {
 .card-header {
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: 25px;
+    margin-left: 20px;
     margin-right: auto;
     font-size: 1.1rem;
     font-weight: bold;
@@ -78,10 +78,11 @@ export default {
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: auto;
-    margin-right: 25px;
+    margin-right: 20px;
     font-size: 0.9rem;
     font-weight: normal;
     line-height: 1.5;
     text-align: right;
+    word-break: break-word;
 }
 </style>
