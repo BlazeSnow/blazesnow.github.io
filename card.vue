@@ -37,7 +37,7 @@ export default {
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
-    max-width: 300px;
+    /* 保持原始宽度 */
     height: auto;
     padding: 20px;
     margin: 16px;
@@ -45,7 +45,6 @@ export default {
     background: rgba(255, 255, 255, 0.15);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(10px);
-    color: #ffffff;
     text-align: left;
     overflow: hidden;
 }
@@ -54,6 +53,8 @@ export default {
     margin: 0;
     font-size: 1.25rem;
     font-weight: bold;
+    color: #656565;
+    /* 标题字体颜色 */
 }
 
 .card-body {
@@ -61,7 +62,8 @@ export default {
     margin: 16px 0;
     font-size: 0.95rem;
     line-height: 1.5;
-    color: #e0e0e0;
+    color: #656565;
+    /* 详细信息字体颜色 */
     word-wrap: break-word;
 }
 
@@ -76,19 +78,22 @@ export default {
     font-weight: bold;
     color: #ffffff;
     text-decoration: none;
-    background-color: #007bff;
+    background-color: #0080FF;
+    /* 按钮颜色 */
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 123, 255, 0.5);
+    box-shadow: 0 2px 4px rgba(0, 128, 255, 0.5);
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .card-button:hover {
-    background-color: #0056b3;
+    background-color: #0066cc;
+    /* 按钮悬停颜色 */
     transform: scale(1.05);
 }
 
 .card-button:active {
-    background-color: #004085;
+    background-color: #0052a3;
+    /* 按钮点击颜色 */
     transform: scale(0.95);
 }
 </style>
