@@ -44,16 +44,15 @@ export default {
     border-radius: 17px;
     text-align: center;
     cursor: pointer;
-    transition: all 0.5s;
+    transition: all 0.4s;
     display: flex;
     align-items: center;
     justify-content: center;
     user-select: none;
-    font-weight: bolder;
     color: var(--vp-custom-block-info-text);
     text-decoration-line: none;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .card:hover {
@@ -66,9 +65,9 @@ export default {
 }
 
 .card-header {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    margin-left: 1.25rem;
     margin-right: auto;
     font-size: 1.1rem;
     font-weight: 600;
@@ -76,18 +75,18 @@ export default {
 }
 
 .card-divider {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
 }
 
 .card-body {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
     margin-left: auto;
-    margin-right: 20px;
+    margin-right: 1.25rem;
     font-size: 0.9rem;
     font-weight: normal;
-    line-height: 1.5;
+    line-height: 1.6;
     text-align: right;
     word-break: break-word;
 }
