@@ -1,15 +1,15 @@
 <template>
-    <div class="card">
-        <div class="card-header">
-            <h3>{{ title }}</h3>
-        </div>
-        <div class="card-body">
-            <p>{{ description }}</p>
-        </div>
-        <div class="card-footer">
-            <a :href="link" class="card-button">前往</a>
-        </div>
+    <div style="padding-top: 12px;">
+        <a :href="link" class="card">
+            <p class="card-header">
+                {{ title }}
+            </p>
+            <p class="card-body">
+                {{ description }}
+            </p>
+        </a>
     </div>
+
 </template>
 
 <script>
@@ -33,62 +33,54 @@ export default {
 
 <style scoped>
 .card {
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+    background: rgba(217, 217, 217, 0.58);
+    border: 1px solid white;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    backdrop-filter: blur(6px);
+    border-radius: 17px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    /* width: 100%; */
-    /* 保持原始宽度 */
-    /* height: auto; */
-    padding: 20px;
-    margin: 16px;
-    border-radius: 12px;
-    background: rgba(255, 255, 255, 0.15);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px);
-    text-align: left;
-    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-weight: bolder;
+    color: black;
+    text-decoration-line: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.card-header h3 {
-    margin: 0;
-    font-size: 1.25rem;
-    font-weight: bold;
-}
-
-.card-body {
-    flex: 1;
-    margin: 16px 0;
-    font-size: 0.95rem;
-    line-height: 1.5;
-    word-wrap: break-word;
-}
-
-.card-footer {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.card-button {
-    padding: 8px 16px;
-    /* font-size: 0.95rem; */
-    font-weight: bold;
-    color: #ffffff;
-    text-decoration: none;
-    background-color: #0080FF;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 128, 255, 0.5);
-    transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-.card-button:hover {
-    color: #ffffff;
-    background-color: #0066cc;
+.card:hover {
+    border: 1px solid #0080FF;
     transform: scale(1.05);
 }
 
-.card-button:active {
-    color: #ffffff;
-    background-color: #0052a3;
+.card:active {
     transform: scale(0.95);
+}
+
+.card-header {
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.card-body {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: 25px;
+    font-size: 0.90rem;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: right;
 }
 </style>
