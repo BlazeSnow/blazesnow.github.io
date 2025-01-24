@@ -70,7 +70,7 @@ export default {
 
 .card-button {
     padding: 8px 16px;
-    font-size: 0.95rem;
+    /* font-size: 0.95rem; */
     font-weight: bold;
     color: #ffffff;
     text-decoration: none;
