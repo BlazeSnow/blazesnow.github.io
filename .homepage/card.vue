@@ -10,7 +10,6 @@
             </p>
         </a>
     </div>
-
 </template>
 
 <script>
