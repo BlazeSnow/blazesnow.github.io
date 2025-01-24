@@ -50,7 +50,6 @@ export default {
     user-select: none;
     font-weight: bolder;
     color: var(--vp-custom-block-info-text);
-
     text-decoration-line: none;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -70,7 +69,7 @@ export default {
     margin-bottom: auto;
     margin-left: 25px;
     margin-right: auto;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     font-weight: bold;
     text-align: left;
 }
@@ -80,7 +79,7 @@ export default {
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: 25px;
-    font-size: 0.90rem;
+    font-size: 0.9rem;
     font-weight: normal;
     line-height: 1.5;
     text-align: right;
