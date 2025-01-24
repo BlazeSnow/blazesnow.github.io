@@ -71,7 +71,7 @@ export default {
     margin-left: 20px;
     margin-right: auto;
     font-size: 1.1rem;
-    font-weight: bold;
+    font-weight: 600;
     text-align: left;
 }
 
