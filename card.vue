@@ -36,9 +36,9 @@ export default {
     box-sizing: border-box;
     width: auto;
     height: auto;
-    background: rgba(217, 217, 217, 0.58);
-    border: 1px solid white;
-    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    background: var(--vp-custom-block-info-bg);
+    border: 1px solid lightgrey;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(6px);
     border-radius: 17px;
     text-align: center;
@@ -49,7 +49,8 @@ export default {
     justify-content: center;
     user-select: none;
     font-weight: bolder;
-    color: black;
+    color: var(--vp-custom-block-info-text);
+
     text-decoration-line: none;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -65,17 +66,18 @@ export default {
 }
 
 .card-header {
+    margin-top: auto;
+    margin-bottom: auto;
     margin-left: 25px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-right: auto;
     font-size: 1.25rem;
     font-weight: bold;
     text-align: left;
 }
 
 .card-body {
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: auto;
     margin-right: 25px;
     font-size: 0.90rem;
