@@ -4,6 +4,7 @@
             <p class="card-header">
                 {{ title }}
             </p>
+            <p class="card-divider"></p>
             <p class="card-body">
                 {{ description }}
             </p>
@@ -65,13 +66,18 @@ export default {
 }
 
 .card-header {
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: 20px;
     margin-right: auto;
     font-size: 1.1rem;
     font-weight: bold;
     text-align: left;
+}
+
+.card-divider {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .card-body {
