@@ -43,7 +43,7 @@ export default {
     border-radius: 17px;
     text-align: center;
     cursor: pointer;
-    transition: all 0.4s;
+    transition: all 0.5s;
     display: flex;
     align-items: center;
     justify-content: center;
