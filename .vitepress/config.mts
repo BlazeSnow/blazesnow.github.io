@@ -524,47 +524,6 @@ export default defineConfig({
           ]
         }
       ],
-      '/VaultwardenServer/': [
-        {
-          text: '部署Bitwarden密码服务',
-          items: [
-            { text: '前言', link: '/VaultwardenServer/' },
-            { text: '安装环境', link: '/VaultwardenServer/Install' },
-            { text: '拉取镜像', link: '/VaultwardenServer/Pull' },
-            { text: '配置文件', link: '/VaultwardenServer/Configuration' },
-            { text: '开始运行', link: '/VaultwardenServer/Run' },
-            { text: '维护服务', link: '/VaultwardenServer/Maintain' },
-          ]
-        }
-      ],
-      '/TeamSpeakServer/': [
-        {
-          text: '搭建TeamSpeak服务器',
-          items: [
-            { text: '前言', link: '/TeamSpeakServer/' },
-            { text: '安装工具', link: '/TeamSpeakServer/Install' },
-            { text: '获取文件', link: '/TeamSpeakServer/Init' },
-            { text: '开放端口', link: '/TeamSpeakServer/Ports' },
-            { text: '开始运行', link: '/TeamSpeakServer/Run' },
-            { text: '维护服务', link: '/TeamSpeakServer/Maintain' },
-          ]
-        }
-      ],
-      '/AdGuardHomeServer/': [
-        {
-          text: '搭建DNS服务器',
-          items: [
-            { text: '前言', link: '/AdGuardHomeServer/' },
-            { text: '安装环境', link: '/AdGuardHomeServer/Install' },
-            { text: '拉取镜像', link: '/AdGuardHomeServer/Pull' },
-            { text: '开放端口', link: '/AdGuardHomeServer/Ports' },
-            { text: '配置文件', link: '/AdGuardHomeServer/Configuration' },
-            { text: '配置系统', link: '/AdGuardHomeServer/DNSStubListener' },
-            { text: '开始运行', link: '/AdGuardHomeServer/Run' },
-            { text: '维护服务', link: '/AdGuardHomeServer/Maintain' },
-          ]
-        }
-      ],
       '/FrpClientAndServer/': [
         {
           text: '搭建内网穿透服务',
@@ -572,77 +531,6 @@ export default defineConfig({
             { text: '前言', link: '/FrpClientAndServer/' },
             { text: '服务端', link: '/FrpClientAndServer/Server' },
             { text: '客户端', link: '/FrpClientAndServer/Client' },
-          ]
-        }
-      ],
-      '/FTPServer/': [
-        {
-          text: '搭建FTP文件服务器',
-          items: [
-            { text: '前言', link: '/FTPServer/' },
-            { text: '安装环境', link: '/FTPServer/安装环境' },
-            { text: '拉取镜像', link: '/FTPServer/拉取镜像' },
-            { text: '开放端口', link: '/FTPServer/开放端口' },
-            { text: '配置文件', link: '/FTPServer/配置文件' },
-            { text: '开始运行', link: '/FTPServer/开始运行' },
-            { text: '维护服务', link: '/FTPServer/维护服务' },
-          ]
-        }
-      ],
-      '/SFTPServer/': [
-        {
-          text: '搭建SFTP文件服务器',
-          items: [
-            { text: '前言', link: '/SFTPServer/' },
-            { text: '安装环境', link: '/SFTPServer/安装环境' },
-            { text: '拉取镜像', link: '/SFTPServer/拉取镜像' },
-            { text: '开放端口', link: '/SFTPServer/开放端口' },
-            { text: '配置文件', link: '/SFTPServer/配置文件' },
-            { text: '开始运行', link: '/SFTPServer/开始运行' },
-            { text: '维护服务', link: '/SFTPServer/维护服务' },
-          ]
-        }
-      ],
-      '/WebdavServer/': [
-        {
-          text: '搭建Webdav文件服务器',
-          items: [
-            { text: '前言', link: '/WebdavServer/' },
-            { text: '安装环境', link: '/WebdavServer/安装环境' },
-            { text: '拉取镜像', link: '/WebdavServer/拉取镜像' },
-            { text: '开放端口', link: '/WebdavServer/开放端口' },
-            { text: '配置文件', link: '/WebdavServer/配置文件' },
-            { text: '开始运行', link: '/WebdavServer/开始运行' },
-            { text: '维护服务', link: '/WebdavServer/维护服务' },
-            { text: '挂载到Windows', link: '/WebdavServer/挂载到Windows' },
-          ]
-        }
-      ],
-      '/SMBServer/': [
-        {
-          text: '搭建SMB文件服务器',
-          items: [
-            { text: '前言', link: '/SMBServer/' },
-            { text: '安装环境', link: '/SMBServer/安装环境' },
-            { text: '拉取镜像', link: '/SMBServer/拉取镜像' },
-            { text: '开放端口', link: '/SMBServer/开放端口' },
-            { text: '配置文件', link: '/SMBServer/配置文件' },
-            { text: '开始运行', link: '/SMBServer/开始运行' },
-            { text: '维护服务', link: '/SMBServer/维护服务' },
-          ]
-        }
-      ],
-      '/AlistServer/': [
-        {
-          text: '搭建Alist文件服务器',
-          items: [
-            { text: '前言', link: '/AlistServer/' },
-            { text: '安装环境', link: '/AlistServer/安装环境' },
-            { text: '拉取镜像', link: '/AlistServer/拉取镜像' },
-            { text: '开放端口', link: '/AlistServer/开放端口' },
-            { text: '配置文件', link: '/AlistServer/配置文件' },
-            { text: '开始运行', link: '/AlistServer/开始运行' },
-            { text: '维护服务', link: '/AlistServer/维护服务' },
           ]
         }
       ],
