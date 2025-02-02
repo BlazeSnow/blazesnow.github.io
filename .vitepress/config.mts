@@ -425,14 +425,14 @@ export default defineConfig({
           text: 'Docsify建站教程',
           items: [
             { text: '前言', link: '/Docsify/' },
-            { text: '安装Nodejs', link: '/Docsify/安装Nodejs' },
-            { text: '安装Docsify', link: '/Docsify/安装Docsify' },
-            { text: '开始建网站', link: '/Docsify/开始建网站' },
-            { text: '填充index', link: '/Docsify/填充index' },
-            { text: '本地化css和js', link: '/Docsify/本地化css和js' },
-            { text: '运行网站', link: '/Docsify/运行网站' },
-            { text: '发布网站', link: '/Docsify/发布网站' },
-            { text: '进阶操作', link: '/Docsify/进阶操作' }]
+            { text: '安装Nodejs', link: '/Docsify/InstallNodejs' },
+            { text: '安装Docsify', link: '/Docsify/Install' },
+            { text: '开始建网站', link: '/Docsify/Init' },
+            { text: '填充index', link: '/Docsify/FillIndex' },
+            { text: '本地化css和js', link: '/Docsify/ScriptSrc' },
+            { text: '运行网站', link: '/Docsify/Serve' },
+            { text: '发布网站', link: '/Docsify/Publish' },
+            { text: '进阶操作', link: '/Docsify/Advanced' }]
         }
       ],
       '/VitePress/': [
