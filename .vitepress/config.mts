@@ -529,11 +529,11 @@ export default defineConfig({
           text: '部署Bitwarden密码服务',
           items: [
             { text: '前言', link: '/VaultwardenServer/' },
-            { text: '安装环境', link: '/VaultwardenServer/安装环境' },
-            { text: '拉取镜像', link: '/VaultwardenServer/拉取镜像' },
-            { text: '配置文件', link: '/VaultwardenServer/配置文件' },
-            { text: '开始运行', link: '/VaultwardenServer/开始运行' },
-            { text: '维护服务', link: '/VaultwardenServer/维护服务' },
+            { text: '安装环境', link: '/VaultwardenServer/Install' },
+            { text: '拉取镜像', link: '/VaultwardenServer/Pull' },
+            { text: '配置文件', link: '/VaultwardenServer/Configuration' },
+            { text: '开始运行', link: '/VaultwardenServer/Run' },
+            { text: '维护服务', link: '/VaultwardenServer/Maintain' },
           ]
         }
       ],
