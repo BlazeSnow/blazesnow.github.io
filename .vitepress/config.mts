@@ -253,21 +253,21 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: '2025年2月', link: '/CHANGELOG/' },
-                { text: '2025年1月', link: '/CHANGELOG/2025年1月' },
+                { text: '2025年1月', link: '/CHANGELOG/2025January' },
               ]
             },
             {
               text: '2024年',
               collapsed: true,
               items: [
-                { text: '2024年12月', link: '/CHANGELOG/2024年12月' },
-                { text: '2024年11月', link: '/CHANGELOG/2024年11月' },
-                { text: '2024年10月', link: '/CHANGELOG/2024年10月' },
-                { text: '2024年9月', link: '/CHANGELOG/2024年9月' },
-                { text: '2024年8月', link: '/CHANGELOG/2024年8月' },
-                { text: '2024年7月', link: '/CHANGELOG/2024年7月' },
-                { text: '2024年6月', link: '/CHANGELOG/2024年6月' },
-                { text: '2024年5月', link: '/CHANGELOG/2024年5月' },
+                { text: '2024年12月', link: '/CHANGELOG/2024December' },
+                { text: '2024年11月', link: '/CHANGELOG/2024November' },
+                { text: '2024年10月', link: '/CHANGELOG/2024October' },
+                { text: '2024年9月', link: '/CHANGELOG/2024September' },
+                { text: '2024年8月', link: '/CHANGELOG/2024August' },
+                { text: '2024年7月', link: '/CHANGELOG/2024July' },
+                { text: '2024年6月', link: '/CHANGELOG/2024June' },
+                { text: '2024年5月', link: '/CHANGELOG/2024May' },
               ]
             },
           ]
