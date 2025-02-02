@@ -1,17 +1,3 @@
-<template>
-    <div style="padding-top: 12px;">
-        <a :href="link" class="card">
-            <p class="card-header">
-                {{ title }}
-            </p>
-            <p class="card-divider"></p>
-            <p class="card-body">
-                {{ description }}
-            </p>
-        </a>
-    </div>
-</template>
-
 <script>
 export default {
     props: {
@@ -30,6 +16,20 @@ export default {
     }
 };
 </script>
+
+<template>
+    <div style="padding-top: 12px;">
+        <a :href="link" class="card">
+            <p class="card-header">
+                {{ title }}
+            </p>
+            <p class="card-divider"></p>
+            <p class="card-body">
+                {{ description }}
+            </p>
+        </a>
+    </div>
+</template>
 
 <style scoped>
 .card {
