@@ -542,11 +542,11 @@ export default defineConfig({
           text: '搭建TeamSpeak服务器',
           items: [
             { text: '前言', link: '/TeamSpeakServer/' },
-            { text: '安装工具', link: '/TeamSpeakServer/安装工具' },
-            { text: '获取文件', link: '/TeamSpeakServer/获取文件' },
-            { text: '开放端口', link: '/TeamSpeakServer/开放端口' },
-            { text: '开始运行', link: '/TeamSpeakServer/开始运行' },
-            { text: '维护服务', link: '/TeamSpeakServer/维护服务' },
+            { text: '安装工具', link: '/TeamSpeakServer/Install' },
+            { text: '获取文件', link: '/TeamSpeakServer/Init' },
+            { text: '开放端口', link: '/TeamSpeakServer/Ports' },
+            { text: '开始运行', link: '/TeamSpeakServer/Run' },
+            { text: '维护服务', link: '/TeamSpeakServer/Maintain' },
           ]
         }
       ],
