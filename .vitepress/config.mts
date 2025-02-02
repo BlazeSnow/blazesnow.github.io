@@ -367,47 +367,47 @@ export default defineConfig({
               text: '系统',
               collapsed: true,
               items: [
-                { text: '安装Ubuntu', link: '/Ubuntu/安装Ubuntu' },
-                { text: '检查磁盘类型', link: '/Ubuntu/检查磁盘类型' },
-                { text: '安装分区推荐', link: '/Ubuntu/安装分区推荐' },
-                { text: '安装SSH', link: '/Ubuntu/安装SSH' },
-                { text: 'SSH超级用户权限', link: '/Ubuntu/SSH超级用户权限' },
-                { text: '查看硬件配置', link: '/Ubuntu/查看硬件配置' },
-                { text: '管理防火墙', link: '/Ubuntu/管理防火墙' },
+                { text: '安装Ubuntu', link: '/Ubuntu/Install' },
+                { text: '检查磁盘类型', link: '/Ubuntu/Parted' },
+                { text: '安装分区推荐', link: '/Ubuntu/Partition' },
+                { text: '安装SSH', link: '/Ubuntu/SSH' },
+                { text: 'SSH超级用户权限', link: '/Ubuntu/SSHSuperUser' },
+                { text: '查看硬件配置', link: '/Ubuntu/Hardware' },
+                { text: '管理防火墙', link: '/Ubuntu/Firewall' },
               ]
             },
             {
               text: '时间',
               collapsed: true,
               items: [
-                { text: '同步系统时间', link: '/Ubuntu/同步系统时间' },
-                { text: '双系统的时间差8小时', link: '/Ubuntu/双系统的时间差8小时' },
+                { text: '同步系统时间', link: '/Ubuntu/SyncTime' },
+                { text: '双系统的时间差8小时', link: '/Ubuntu/SystemTimeDifference' },
               ]
             },
             {
               text: '文件处理',
               collapsed: true,
               items: [
-                { text: '命令行处理文件夹', link: '/Ubuntu/命令行处理文件夹' },
-                { text: '命令行处理文件', link: '/Ubuntu/命令行处理文件' },
-                { text: '文件权限', link: '/Ubuntu/文件权限' },
-                { text: '修改文件所有者', link: '/Ubuntu/修改文件所有者' },
-                { text: '压缩文件', link: '/Ubuntu/压缩文件' },
-                { text: '下载文件', link: '/Ubuntu/下载文件' },
+                { text: '命令行处理文件夹', link: '/Ubuntu/TerminalFolders' },
+                { text: '命令行处理文件', link: '/Ubuntu/TerminalFile' },
+                { text: '文件权限', link: '/Ubuntu/Chmod' },
+                { text: '修改文件所有者', link: '/Ubuntu/Chown' },
+                { text: '压缩文件', link: '/Ubuntu/Tar' },
+                { text: '下载文件', link: '/Ubuntu/Curl' },
               ]
             },
             {
               text: '包管理',
               collapsed: true,
               items: [
-                { text: 'apt', link: '/Ubuntu/apt' },
-                { text: 'apt换源', link: '/Ubuntu/apt换源' },
-                { text: 'dpkg', link: '/Ubuntu/dpkg' },
+                { text: 'apt', link: '/Ubuntu/Apt' },
+                { text: 'apt换源', link: '/Ubuntu/AptMirror' },
+                { text: 'dpkg', link: '/Ubuntu/Dpkg' },
               ]
             },
-            { text: '自动化脚本', link: '/Ubuntu/自动化脚本' },
-            { text: '激活UbuntuPro', link: '/Ubuntu/激活UbuntuPro' },
-            { text: '无法更新SnapStore', link: '/Ubuntu/无法更新SnapStore' },
+            { text: '自动化脚本', link: '/Ubuntu/Crontab' },
+            { text: '激活UbuntuPro', link: '/Ubuntu/UbuntuPro' },
+            { text: '无法更新SnapStore', link: '/Ubuntu/UpdateSnapStore' },
           ]
         }
       ],
