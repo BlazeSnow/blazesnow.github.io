@@ -416,8 +416,8 @@ export default defineConfig({
           text: '原生安卓',
           items: [
             { text: '前言', link: '/Android/' },
-            { text: 'WiFi感叹号', link: '/Android/WiFi感叹号' },
-            { text: '时间同步', link: '/Android/时间同步' }]
+            { text: 'WiFi感叹号', link: '/Android/WiFi' },
+            { text: '时间同步', link: '/Android/SyncTime' }]
         }
       ],
       '/Docsify/': [
