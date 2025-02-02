@@ -1,0 +1,43 @@
+---
+lastUpdated: 2024-9-15T17:00:00+8:00
+---
+
+# 安装环境 | CMake相关
+
+## 安装MinGW-w64
+
+> 软件官网：<https://www.mingw-w64.org>
+
+1. 打开GitHub链接：<https://github.com/niXman/mingw-builds-binaries/releases>
+2. 选择适合的版本，建议选择```x86_64-版本号-release-posix-seh-ucrt```
+3. 下载并解压缩到```C:\```
+4. 路径应为```C:\mingw64```
+5. 设置系统环境变量```C:\mingw64\bin```，参见[设置环境变量](/Windows/EnvironmentVariables)
+6. 按下```Windows徽标```+```X```
+7. 点击```终端```
+8. 输入```gcc -v```
+9. 若显示版本号则安装成功
+
+### 选择MinGW-w64版本
+
+- 先选系统：
+  - ```x86_64```：64位系统
+  - ```i686```：32位系统
+- 再选配置选项：
+  - ```mcf```：特定编译器或编译环境的一种自定义配置选项
+  - ```posix```：可移植性和跨平台兼容性
+  - ```win32```：针对Windows操作系统进行了优化和定制
+- 最后选C运行时库：
+  - ```msvcrt```：较旧的Microsoft Visual C++运行时库
+  - ```ucrt```：较新的Windows通用C运行时库
+
+## 安装CMake
+
+1. 打开软件官网：<https://cmake.org>
+2. 下载：```Windows x64 Installer```
+3. 安装```msi```安装包
+4. 按下```Windows徽标```+```X```
+5. 点击```终端```
+6. 输入```cmake --version```
+7. 若显示版本号则安装成功
+8. 若未显示版本号，则需添加```CMake```的```bin```目录到系统```path```环境变量

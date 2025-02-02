@@ -201,8 +201,8 @@ export default defineConfig({
           },
           {
             text: 'Git相关',
-            link: '/git/',
-            activeMatch: '/git/'
+            link: '/Git/',
+            activeMatch: '/Git/'
           },
           {
             text: 'CMake相关',
@@ -250,24 +250,24 @@ export default defineConfig({
           items: [
             {
               text: '2025年',
-              collapsed: true,
+              collapsed: false,
               items: [
                 { text: '2025年2月', link: '/CHANGELOG/' },
-                { text: '2025年1月', link: '/CHANGELOG/2025年1月' },
+                { text: '2025年1月', link: '/CHANGELOG/2025January' },
               ]
             },
             {
               text: '2024年',
               collapsed: true,
               items: [
-                { text: '2024年12月', link: '/CHANGELOG/2024年12月' },
-                { text: '2024年11月', link: '/CHANGELOG/2024年11月' },
-                { text: '2024年10月', link: '/CHANGELOG/2024年10月' },
-                { text: '2024年9月', link: '/CHANGELOG/2024年9月' },
-                { text: '2024年8月', link: '/CHANGELOG/2024年8月' },
-                { text: '2024年7月', link: '/CHANGELOG/2024年7月' },
-                { text: '2024年6月', link: '/CHANGELOG/2024年6月' },
-                { text: '2024年5月', link: '/CHANGELOG/2024年5月' },
+                { text: '2024年12月', link: '/CHANGELOG/2024December' },
+                { text: '2024年11月', link: '/CHANGELOG/2024November' },
+                { text: '2024年10月', link: '/CHANGELOG/2024October' },
+                { text: '2024年9月', link: '/CHANGELOG/2024September' },
+                { text: '2024年8月', link: '/CHANGELOG/2024August' },
+                { text: '2024年7月', link: '/CHANGELOG/2024July' },
+                { text: '2024年6月', link: '/CHANGELOG/2024June' },
+                { text: '2024年5月', link: '/CHANGELOG/2024May' },
               ]
             },
           ]
@@ -282,54 +282,54 @@ export default defineConfig({
               text: '系统',
               collapsed: true,
               items: [
-                { text: '更新Windows', link: '/Windows/更新Windows' },
-                { text: '系统修复', link: '/Windows/系统修复' },
-                { text: '系统重新安装', link: '/Windows/系统重新安装' },
-                { text: '查看蓝屏文件', link: '/Windows/查看蓝屏文件' },
+                { text: '更新Windows', link: '/Windows/Update' },
+                { text: '修复Windows', link: '/Windows/Repair' },
+                { text: '重新安装Windows', link: '/Windows/Reinstall' },
+                { text: '查看蓝屏文件', link: '/Windows/BlueScreen' },
               ]
             },
             {
               text: '运行库',
               collapsed: true,
               items: [
-                { text: '安装WinGet', link: '/Windows/安装WinGet' },
-                { text: '安装C++运行库', link: '/Windows/安装C++运行库' },
-                { text: '安装.NET', link: '/Windows/安装.NET' },
-                { text: '安装Java', link: '/Windows/安装Java' },
-                { text: '安装Python', link: '/Windows/安装Python' },
+                { text: '安装WinGet', link: '/Windows/WinGet' },
+                { text: '安装C++运行库', link: '/Windows/VCRedist' },
+                { text: '安装.NET', link: '/Windows/DotNet' },
+                { text: '安装Java', link: '/Windows/Java' },
+                { text: '安装Python', link: '/Windows/Python' },
               ]
             },
             {
               text: '文件资源管理器',
               collapsed: true,
               items: [
-                { text: '显示后缀名和隐藏文件', link: '/Windows/显示后缀名和隐藏文件' },
-                { text: '创建App的快捷方式', link: '/Windows/创建App的快捷方式' },
-                { text: '重启文件资源管理器', link: '/Windows/重启文件资源管理器' },
-                { text: '删除新建文件类型', link: '/Windows/删除新建文件类型' },
-                { text: '删除右键菜单项', link: '/Windows/删除右键菜单项' },
-                { text: '修复桌面图标', link: '/Windows/修复桌面图标' },
+                { text: '显示后缀名和隐藏文件', link: '/Windows/Extension' },
+                { text: '创建快捷方式', link: '/Windows/Shortcuts' },
+                { text: '重启文件资源管理器', link: '/Windows/RestartFileExplorer' },
+                { text: '删除新建文件类型', link: '/Windows/RemoveFileType' },
+                { text: '删除右键菜单项', link: '/Windows/RemoveRightClickItem' },
+                { text: '修复桌面图标', link: '/Windows/ClearIconCache' },
               ]
             },
             {
               text: '网络',
               collapsed: true,
               items: [
-                { text: '应用最新TLS', link: '/Windows/应用最新TLS' },
+                { text: '应用最新TLS', link: '/Windows/TLS' },
               ]
             },
             {
               text: '清理',
               collapsed: true,
               items: [
-                { text: '磁盘清理', link: '/Windows/磁盘清理' },
-                { text: '清理软件卸载残留', link: '/Windows/清理软件卸载残留' },
-                { text: '清理微软商店残留', link: '/Windows/清理微软商店残留' },
+                { text: '磁盘清理', link: '/Windows/Cleanmgr' },
+                { text: '清理软件卸载残留', link: '/Windows/RemoveUninstallRemnants' },
+                { text: '清理微软商店残留', link: '/Windows/RemoveMicrosoftStoreRemnants' },
               ]
             },
-            { text: '系统配置', link: '/Windows/系统配置' },
-            { text: '设置环境变量', link: '/Windows/设置环境变量' },
-            { text: '计算哈希值', link: '/Windows/计算哈希值' }
+            { text: '系统配置', link: '/Windows/Msconfig' },
+            { text: '设置环境变量', link: '/Windows/EnvironmentVariables' },
+            { text: '计算哈希值', link: '/Windows/Hash' }
           ]
         }
       ],
@@ -350,11 +350,11 @@ export default defineConfig({
           text: 'Nodejs相关',
           items: [
             { text: '前言', link: '/Nodejs/' },
-            { text: '安装Nodejs', link: '/Nodejs/安装Nodejs' },
-            { text: '引入npm', link: '/Nodejs/引入npm' },
-            { text: '管理npm包', link: '/Nodejs/管理npm包' },
-            { text: 'npm后缀', link: '/Nodejs/npm后缀' },
-            { text: 'npm换源', link: '/Nodejs/npm换源' },
+            { text: '安装Nodejs', link: '/Nodejs/Install' },
+            { text: '引入npm', link: '/Nodejs/Init' },
+            { text: '管理npm包', link: '/Nodejs/Manage' },
+            { text: 'npm后缀', link: '/Nodejs/Parameter' },
+            { text: 'npm换源', link: '/Nodejs/Mirror' },
           ]
         }
       ],
@@ -367,47 +367,47 @@ export default defineConfig({
               text: '系统',
               collapsed: true,
               items: [
-                { text: '安装Ubuntu', link: '/Ubuntu/安装Ubuntu' },
-                { text: '检查磁盘类型', link: '/Ubuntu/检查磁盘类型' },
-                { text: '安装分区推荐', link: '/Ubuntu/安装分区推荐' },
-                { text: '安装SSH', link: '/Ubuntu/安装SSH' },
-                { text: 'SSH超级用户权限', link: '/Ubuntu/SSH超级用户权限' },
-                { text: '查看硬件配置', link: '/Ubuntu/查看硬件配置' },
-                { text: '管理防火墙', link: '/Ubuntu/管理防火墙' },
+                { text: '安装Ubuntu', link: '/Ubuntu/Install' },
+                { text: '检查磁盘类型', link: '/Ubuntu/Parted' },
+                { text: '安装分区推荐', link: '/Ubuntu/Partition' },
+                { text: '安装SSH', link: '/Ubuntu/SSH' },
+                { text: 'SSH超级用户权限', link: '/Ubuntu/SSHSuperUser' },
+                { text: '查看硬件配置', link: '/Ubuntu/Hardware' },
+                { text: '管理防火墙', link: '/Ubuntu/Firewall' },
               ]
             },
             {
               text: '时间',
               collapsed: true,
               items: [
-                { text: '同步系统时间', link: '/Ubuntu/同步系统时间' },
-                { text: '双系统的时间差8小时', link: '/Ubuntu/双系统的时间差8小时' },
+                { text: '同步系统时间', link: '/Ubuntu/SyncTime' },
+                { text: '双系统的时间差8小时', link: '/Ubuntu/SystemTimeDifference' },
               ]
             },
             {
               text: '文件处理',
               collapsed: true,
               items: [
-                { text: '命令行处理文件夹', link: '/Ubuntu/命令行处理文件夹' },
-                { text: '命令行处理文件', link: '/Ubuntu/命令行处理文件' },
-                { text: '文件权限', link: '/Ubuntu/文件权限' },
-                { text: '修改文件所有者', link: '/Ubuntu/修改文件所有者' },
-                { text: '压缩文件', link: '/Ubuntu/压缩文件' },
-                { text: '下载文件', link: '/Ubuntu/下载文件' },
+                { text: '命令行处理文件夹', link: '/Ubuntu/TerminalFolders' },
+                { text: '命令行处理文件', link: '/Ubuntu/TerminalFile' },
+                { text: '文件权限', link: '/Ubuntu/Chmod' },
+                { text: '修改文件所有者', link: '/Ubuntu/Chown' },
+                { text: '压缩文件', link: '/Ubuntu/Tar' },
+                { text: '下载文件', link: '/Ubuntu/Curl' },
               ]
             },
             {
               text: '包管理',
               collapsed: true,
               items: [
-                { text: 'apt', link: '/Ubuntu/apt' },
-                { text: 'apt换源', link: '/Ubuntu/apt换源' },
-                { text: 'dpkg', link: '/Ubuntu/dpkg' },
+                { text: 'apt', link: '/Ubuntu/Apt' },
+                { text: 'apt换源', link: '/Ubuntu/AptMirror' },
+                { text: 'dpkg', link: '/Ubuntu/Dpkg' },
               ]
             },
-            { text: '自动化脚本', link: '/Ubuntu/自动化脚本' },
-            { text: '激活UbuntuPro', link: '/Ubuntu/激活UbuntuPro' },
-            { text: '无法更新SnapStore', link: '/Ubuntu/无法更新SnapStore' },
+            { text: '自动化脚本', link: '/Ubuntu/Crontab' },
+            { text: '激活UbuntuPro', link: '/Ubuntu/UbuntuPro' },
+            { text: '无法更新SnapStore', link: '/Ubuntu/UpdateSnapStore' },
           ]
         }
       ],
@@ -416,8 +416,8 @@ export default defineConfig({
           text: '原生安卓',
           items: [
             { text: '前言', link: '/Android/' },
-            { text: 'WiFi感叹号', link: '/Android/WiFi感叹号' },
-            { text: '时间同步', link: '/Android/时间同步' }]
+            { text: 'WiFi感叹号', link: '/Android/WiFi' },
+            { text: '时间同步', link: '/Android/SyncTime' }]
         }
       ],
       '/Docsify/': [
@@ -425,14 +425,14 @@ export default defineConfig({
           text: 'Docsify建站教程',
           items: [
             { text: '前言', link: '/Docsify/' },
-            { text: '安装Nodejs', link: '/Docsify/安装Nodejs' },
-            { text: '安装Docsify', link: '/Docsify/安装Docsify' },
-            { text: '开始建网站', link: '/Docsify/开始建网站' },
-            { text: '填充index', link: '/Docsify/填充index' },
-            { text: '本地化css和js', link: '/Docsify/本地化css和js' },
-            { text: '运行网站', link: '/Docsify/运行网站' },
-            { text: '发布网站', link: '/Docsify/发布网站' },
-            { text: '进阶操作', link: '/Docsify/进阶操作' }]
+            { text: '安装Nodejs', link: '/Docsify/InstallNodejs' },
+            { text: '安装Docsify', link: '/Docsify/Install' },
+            { text: '开始建网站', link: '/Docsify/Init' },
+            { text: '填充index', link: '/Docsify/FillIndex' },
+            { text: '本地化css和js', link: '/Docsify/ScriptSrc' },
+            { text: '运行网站', link: '/Docsify/Serve' },
+            { text: '发布网站', link: '/Docsify/Publish' },
+            { text: '进阶操作', link: '/Docsify/Advanced' }]
         }
       ],
       '/VitePress/': [
@@ -440,12 +440,12 @@ export default defineConfig({
           text: 'VitePress建站教程',
           items: [
             { text: '前言', link: '/VitePress/' },
-            { text: '安装环境', link: '/VitePress/安装环境' },
-            { text: '安装向导', link: '/VitePress/安装向导' },
-            { text: '配置文件', link: '/VitePress/配置文件' },
-            { text: '检查文件', link: '/VitePress/检查文件' },
-            { text: '发布网站', link: '/VitePress/发布网站' },
-            { text: '进阶操作', link: '/VitePress/进阶操作' }
+            { text: '安装环境', link: '/VitePress/Install' },
+            { text: '安装向导', link: '/VitePress/Init' },
+            { text: '配置文件', link: '/VitePress/Configuration' },
+            { text: '检查文件', link: '/VitePress/Check' },
+            { text: '发布网站', link: '/VitePress/Publish' },
+            { text: '进阶操作', link: '/VitePress/Advanced' }
           ]
         }
       ],
@@ -454,11 +454,11 @@ export default defineConfig({
           text: '部署网站至服务器',
           items: [
             { text: '前言', link: '/WebsiteToServer/' },
-            { text: '安装环境', link: '/WebsiteToServer/安装环境' },
-            { text: '引入仓库', link: '/WebsiteToServer/引入仓库' },
-            { text: '配置nginx', link: '/WebsiteToServer/配置nginx' },
-            { text: '维护网站', link: '/WebsiteToServer/维护网站' },
-            { text: '进阶操作', link: '/WebsiteToServer/进阶操作' },
+            { text: '安装环境', link: '/WebsiteToServer/Install' },
+            { text: '引入仓库', link: '/WebsiteToServer/Init' },
+            { text: '配置nginx', link: '/WebsiteToServer/Configuration' },
+            { text: '维护网站', link: '/WebsiteToServer/Maintain' },
+            { text: '进阶操作', link: '/WebsiteToServer/Advanced' },
           ]
         }
       ],
@@ -471,31 +471,31 @@ export default defineConfig({
               text: '安装Docker',
               collapsed: true,
               items: [
-                { text: '安装Docker', link: '/Docker/安装Docker' },
-                { text: '安装IO发行版', link: '/Docker/安装IO发行版' },
-                { text: '安装CE发行版', link: '/Docker/安装CE发行版' },
+                { text: '安装Docker', link: '/Docker/Install' },
+                { text: '安装IO发行版', link: '/Docker/InstallIO' },
+                { text: '安装CE发行版', link: '/Docker/InstallCE' },
               ]
             },
-            { text: '运行Docker', link: '/Docker/运行Docker' },
-            { text: 'Docker换源', link: '/Docker/Docker换源' },
-            { text: '管理镜像', link: '/Docker/管理镜像' },
-            { text: '管理容器', link: '/Docker/管理容器' },
-            { text: '容器镜像服务', link: '/Docker/容器镜像服务' },
-            { text: '传递镜像', link: '/Docker/传递镜像' },
-            { text: 'Compose文件', link: '/Docker/Compose文件' },
+            { text: '运行Docker', link: '/Docker/Systemctl' },
+            { text: 'Docker换源', link: '/Docker/Mirror' },
+            { text: '管理镜像', link: '/Docker/Image' },
+            { text: '管理容器', link: '/Docker/Container' },
+            { text: '容器镜像服务', link: '/Docker/MirrorService' },
+            { text: '传递镜像', link: '/Docker/Transfer' },
+            { text: 'Compose文件', link: '/Docker/Compose' },
           ]
         }
       ],
-      '/git/': [
+      '/Git/': [
         {
           text: 'Git相关',
           items: [
-            { text: '前言', link: '/git/' },
-            { text: '安装Git', link: '/git/安装Git' },
-            { text: '处理仓库', link: '/git/处理仓库' },
-            { text: '处理远程仓库', link: '/git/处理远程仓库' },
-            { text: '处理分支', link: '/git/处理分支' },
-            { text: 'SSH连接仓库', link: '/git/SSH连接仓库' },
+            { text: '前言', link: '/Git/' },
+            { text: '安装Git', link: '/Git/Install' },
+            { text: '处理仓库', link: '/Git/Repository' },
+            { text: '处理远程仓库', link: '/Git/RemoteRepository' },
+            { text: '处理分支', link: '/Git/Branches' },
+            { text: 'SSH连接仓库', link: '/Git/SSH' },
           ]
         }
       ],
@@ -504,11 +504,11 @@ export default defineConfig({
           text: 'CMake相关',
           items: [
             { text: '前言', link: '/CMake/' },
-            { text: '安装环境', link: '/CMake/安装环境' },
-            { text: '安装编辑器', link: '/CMake/安装编辑器' },
-            { text: '添加配置文件', link: '/CMake/添加配置文件' },
-            { text: '安装vcpkg', link: '/CMake/安装vcpkg' },
-            { text: 'vcpkg添加库', link: '/CMake/vcpkg添加库' },
+            { text: '安装环境', link: '/CMake/Install' },
+            { text: '安装编辑器', link: '/CMake/Editor' },
+            { text: '添加配置文件', link: '/CMake/Init' },
+            { text: '安装vcpkg', link: '/CMake/Vcpkg' },
+            { text: 'vcpkg添加库', link: '/CMake/VcpkgInstall' },
           ]
         }
       ],
@@ -517,51 +517,10 @@ export default defineConfig({
           text: '搭建我的世界服务器',
           items: [
             { text: '前言', link: '/MinecraftServer/' },
-            { text: '安装环境', link: '/MinecraftServer/安装环境' },
-            { text: '引入文件', link: '/MinecraftServer/引入文件' },
-            { text: '开始运行', link: '/MinecraftServer/开始运行' },
-            { text: '维护服务器', link: '/MinecraftServer/维护服务器' },
-          ]
-        }
-      ],
-      '/VaultwardenServer/': [
-        {
-          text: '部署Bitwarden密码服务',
-          items: [
-            { text: '前言', link: '/VaultwardenServer/' },
-            { text: '安装环境', link: '/VaultwardenServer/安装环境' },
-            { text: '拉取镜像', link: '/VaultwardenServer/拉取镜像' },
-            { text: '配置文件', link: '/VaultwardenServer/配置文件' },
-            { text: '开始运行', link: '/VaultwardenServer/开始运行' },
-            { text: '维护服务', link: '/VaultwardenServer/维护服务' },
-          ]
-        }
-      ],
-      '/TeamSpeakServer/': [
-        {
-          text: '搭建TeamSpeak服务器',
-          items: [
-            { text: '前言', link: '/TeamSpeakServer/' },
-            { text: '安装工具', link: '/TeamSpeakServer/安装工具' },
-            { text: '获取文件', link: '/TeamSpeakServer/获取文件' },
-            { text: '开放端口', link: '/TeamSpeakServer/开放端口' },
-            { text: '开始运行', link: '/TeamSpeakServer/开始运行' },
-            { text: '维护服务', link: '/TeamSpeakServer/维护服务' },
-          ]
-        }
-      ],
-      '/AdGuardHomeServer/': [
-        {
-          text: '搭建DNS服务器',
-          items: [
-            { text: '前言', link: '/AdGuardHomeServer/' },
-            { text: '安装环境', link: '/AdGuardHomeServer/安装环境' },
-            { text: '拉取镜像', link: '/AdGuardHomeServer/拉取镜像' },
-            { text: '开放端口', link: '/AdGuardHomeServer/开放端口' },
-            { text: '配置文件', link: '/AdGuardHomeServer/配置文件' },
-            { text: '配置系统', link: '/AdGuardHomeServer/配置系统' },
-            { text: '开始运行', link: '/AdGuardHomeServer/开始运行' },
-            { text: '维护服务', link: '/AdGuardHomeServer/维护服务' },
+            { text: '安装环境', link: '/MinecraftServer/Install' },
+            { text: '引入文件', link: '/MinecraftServer/Init' },
+            { text: '开始运行', link: '/MinecraftServer/Run' },
+            { text: '维护服务器', link: '/MinecraftServer/Maintain' },
           ]
         }
       ],
@@ -572,77 +531,6 @@ export default defineConfig({
             { text: '前言', link: '/FrpClientAndServer/' },
             { text: '服务端', link: '/FrpClientAndServer/Server' },
             { text: '客户端', link: '/FrpClientAndServer/Client' },
-          ]
-        }
-      ],
-      '/FTPServer/': [
-        {
-          text: '搭建FTP文件服务器',
-          items: [
-            { text: '前言', link: '/FTPServer/' },
-            { text: '安装环境', link: '/FTPServer/安装环境' },
-            { text: '拉取镜像', link: '/FTPServer/拉取镜像' },
-            { text: '开放端口', link: '/FTPServer/开放端口' },
-            { text: '配置文件', link: '/FTPServer/配置文件' },
-            { text: '开始运行', link: '/FTPServer/开始运行' },
-            { text: '维护服务', link: '/FTPServer/维护服务' },
-          ]
-        }
-      ],
-      '/SFTPServer/': [
-        {
-          text: '搭建SFTP文件服务器',
-          items: [
-            { text: '前言', link: '/SFTPServer/' },
-            { text: '安装环境', link: '/SFTPServer/安装环境' },
-            { text: '拉取镜像', link: '/SFTPServer/拉取镜像' },
-            { text: '开放端口', link: '/SFTPServer/开放端口' },
-            { text: '配置文件', link: '/SFTPServer/配置文件' },
-            { text: '开始运行', link: '/SFTPServer/开始运行' },
-            { text: '维护服务', link: '/SFTPServer/维护服务' },
-          ]
-        }
-      ],
-      '/WebdavServer/': [
-        {
-          text: '搭建Webdav文件服务器',
-          items: [
-            { text: '前言', link: '/WebdavServer/' },
-            { text: '安装环境', link: '/WebdavServer/安装环境' },
-            { text: '拉取镜像', link: '/WebdavServer/拉取镜像' },
-            { text: '开放端口', link: '/WebdavServer/开放端口' },
-            { text: '配置文件', link: '/WebdavServer/配置文件' },
-            { text: '开始运行', link: '/WebdavServer/开始运行' },
-            { text: '维护服务', link: '/WebdavServer/维护服务' },
-            { text: '挂载到Windows', link: '/WebdavServer/挂载到Windows' },
-          ]
-        }
-      ],
-      '/SMBServer/': [
-        {
-          text: '搭建SMB文件服务器',
-          items: [
-            { text: '前言', link: '/SMBServer/' },
-            { text: '安装环境', link: '/SMBServer/安装环境' },
-            { text: '拉取镜像', link: '/SMBServer/拉取镜像' },
-            { text: '开放端口', link: '/SMBServer/开放端口' },
-            { text: '配置文件', link: '/SMBServer/配置文件' },
-            { text: '开始运行', link: '/SMBServer/开始运行' },
-            { text: '维护服务', link: '/SMBServer/维护服务' },
-          ]
-        }
-      ],
-      '/AlistServer/': [
-        {
-          text: '搭建Alist文件服务器',
-          items: [
-            { text: '前言', link: '/AlistServer/' },
-            { text: '安装环境', link: '/AlistServer/安装环境' },
-            { text: '拉取镜像', link: '/AlistServer/拉取镜像' },
-            { text: '开放端口', link: '/AlistServer/开放端口' },
-            { text: '配置文件', link: '/AlistServer/配置文件' },
-            { text: '开始运行', link: '/AlistServer/开始运行' },
-            { text: '维护服务', link: '/AlistServer/维护服务' },
           ]
         }
       ],
