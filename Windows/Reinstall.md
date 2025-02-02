@@ -2,7 +2,7 @@
 lastUpdated: 2025-01-03T16:38:00+8:00
 ---
 
-# 系统重新安装 | Windows相关
+# 重新安装Windows | Windows相关
 
 ## 在本机安装
 

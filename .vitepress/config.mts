@@ -282,54 +282,54 @@ export default defineConfig({
               text: '系统',
               collapsed: true,
               items: [
-                { text: '更新Windows', link: '/Windows/更新Windows' },
-                { text: '系统修复', link: '/Windows/系统修复' },
-                { text: '系统重新安装', link: '/Windows/系统重新安装' },
-                { text: '查看蓝屏文件', link: '/Windows/查看蓝屏文件' },
+                { text: '更新Windows', link: '/Windows/Update' },
+                { text: '修复Windows', link: '/Windows/Repair' },
+                { text: '重新安装Windows', link: '/Windows/Reinstall' },
+                { text: '查看蓝屏文件', link: '/Windows/BlueScreen' },
               ]
             },
             {
               text: '运行库',
               collapsed: true,
               items: [
-                { text: '安装WinGet', link: '/Windows/安装WinGet' },
-                { text: '安装C++运行库', link: '/Windows/安装C++运行库' },
-                { text: '安装.NET', link: '/Windows/安装.NET' },
-                { text: '安装Java', link: '/Windows/安装Java' },
-                { text: '安装Python', link: '/Windows/安装Python' },
+                { text: '安装WinGet', link: '/Windows/WinGet' },
+                { text: '安装C++运行库', link: '/Windows/VCRedist' },
+                { text: '安装.NET', link: '/Windows/DotNet' },
+                { text: '安装Java', link: '/Windows/Java' },
+                { text: '安装Python', link: '/Windows/Python' },
               ]
             },
             {
               text: '文件资源管理器',
               collapsed: true,
               items: [
-                { text: '显示后缀名和隐藏文件', link: '/Windows/显示后缀名和隐藏文件' },
-                { text: '创建App的快捷方式', link: '/Windows/创建App的快捷方式' },
-                { text: '重启文件资源管理器', link: '/Windows/重启文件资源管理器' },
-                { text: '删除新建文件类型', link: '/Windows/删除新建文件类型' },
-                { text: '删除右键菜单项', link: '/Windows/删除右键菜单项' },
-                { text: '修复桌面图标', link: '/Windows/修复桌面图标' },
+                { text: '显示后缀名和隐藏文件', link: '/Windows/Extension' },
+                { text: '创建快捷方式', link: '/Windows/Shortcuts' },
+                { text: '重启文件资源管理器', link: '/Windows/RestartFileExplorer' },
+                { text: '删除新建文件类型', link: '/Windows/RemoveFileType' },
+                { text: '删除右键菜单项', link: '/Windows/RemoveRightClickItem' },
+                { text: '修复桌面图标', link: '/Windows/ClearIconCache' },
               ]
             },
             {
               text: '网络',
               collapsed: true,
               items: [
-                { text: '应用最新TLS', link: '/Windows/应用最新TLS' },
+                { text: '应用最新TLS', link: '/Windows/TLS' },
               ]
             },
             {
               text: '清理',
               collapsed: true,
               items: [
-                { text: '磁盘清理', link: '/Windows/磁盘清理' },
-                { text: '清理软件卸载残留', link: '/Windows/清理软件卸载残留' },
-                { text: '清理微软商店残留', link: '/Windows/清理微软商店残留' },
+                { text: '磁盘清理', link: '/Windows/Cleanmgr' },
+                { text: '清理软件卸载残留', link: '/Windows/RemoveUninstallRemnants' },
+                { text: '清理微软商店残留', link: '/Windows/RemoveMicrosoftStoreRemnants' },
               ]
             },
-            { text: '系统配置', link: '/Windows/系统配置' },
-            { text: '设置环境变量', link: '/Windows/设置环境变量' },
-            { text: '计算哈希值', link: '/Windows/计算哈希值' }
+            { text: '系统配置', link: '/Windows/Msconfig' },
+            { text: '设置环境变量', link: '/Windows/EnvironmentVariables' },
+            { text: '计算哈希值', link: '/Windows/Hash' }
           ]
         }
       ],

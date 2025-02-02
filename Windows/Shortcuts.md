@@ -2,7 +2,7 @@
 lastUpdated: 2024-6-17T10:08:00+8:00
 ---
 
-# 创建App的快捷方式 | Windows相关
+# 创建快捷方式 | Windows相关
 
 ## 安装在Program Files的App
 
