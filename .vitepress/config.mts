@@ -454,11 +454,11 @@ export default defineConfig({
           text: '部署网站至服务器',
           items: [
             { text: '前言', link: '/WebsiteToServer/' },
-            { text: '安装环境', link: '/WebsiteToServer/安装环境' },
-            { text: '引入仓库', link: '/WebsiteToServer/引入仓库' },
-            { text: '配置nginx', link: '/WebsiteToServer/配置nginx' },
-            { text: '维护网站', link: '/WebsiteToServer/维护网站' },
-            { text: '进阶操作', link: '/WebsiteToServer/进阶操作' },
+            { text: '安装环境', link: '/WebsiteToServer/Install' },
+            { text: '引入仓库', link: '/WebsiteToServer/Init' },
+            { text: '配置nginx', link: '/WebsiteToServer/Configuration' },
+            { text: '维护网站', link: '/WebsiteToServer/Maintain' },
+            { text: '进阶操作', link: '/WebsiteToServer/Advanced' },
           ]
         }
       ],
