@@ -486,16 +486,16 @@ export default defineConfig({
           ]
         }
       ],
-      '/git/': [
+      '/Git/': [
         {
           text: 'Git相关',
           items: [
-            { text: '前言', link: '/git/' },
-            { text: '安装Git', link: '/git/安装Git' },
-            { text: '处理仓库', link: '/git/处理仓库' },
-            { text: '处理远程仓库', link: '/git/处理远程仓库' },
-            { text: '处理分支', link: '/git/处理分支' },
-            { text: 'SSH连接仓库', link: '/git/SSH连接仓库' },
+            { text: '前言', link: '/Git/' },
+            { text: '安装Git', link: '/Git/Install' },
+            { text: '处理仓库', link: '/Git/Repository' },
+            { text: '处理远程仓库', link: '/Git/RemoteRepository' },
+            { text: '处理分支', link: '/Git/Branches' },
+            { text: 'SSH连接仓库', link: '/Git/SSH' },
           ]
         }
       ],

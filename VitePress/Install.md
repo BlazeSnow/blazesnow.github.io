@@ -6,7 +6,7 @@ lastUpdated: 2024-11-14T14:43:00+8:00
 
 ## 安装git
 
-前往Git相关：[点击此处](/git/安装Git)
+前往Git相关：[点击此处](/Git/Install)
 
 ## 安装Nodejs
 

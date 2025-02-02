@@ -10,7 +10,7 @@ lastUpdated: 2024-11-14T14:08:00+8:00
 
 ## git
 
-前往Git相关：[点击此处](/git/)
+前往Git相关：[点击此处](/Git/)
 
 ## Vitepress
 
