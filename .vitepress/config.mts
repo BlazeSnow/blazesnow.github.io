@@ -471,18 +471,18 @@ export default defineConfig({
               text: '安装Docker',
               collapsed: true,
               items: [
-                { text: '安装Docker', link: '/Docker/安装Docker' },
-                { text: '安装IO发行版', link: '/Docker/安装IO发行版' },
-                { text: '安装CE发行版', link: '/Docker/安装CE发行版' },
+                { text: '安装Docker', link: '/Docker/Install' },
+                { text: '安装IO发行版', link: '/Docker/InstallIO' },
+                { text: '安装CE发行版', link: '/Docker/InstallCE' },
               ]
             },
-            { text: '运行Docker', link: '/Docker/运行Docker' },
-            { text: 'Docker换源', link: '/Docker/Docker换源' },
-            { text: '管理镜像', link: '/Docker/管理镜像' },
-            { text: '管理容器', link: '/Docker/管理容器' },
-            { text: '容器镜像服务', link: '/Docker/容器镜像服务' },
-            { text: '传递镜像', link: '/Docker/传递镜像' },
-            { text: 'Compose文件', link: '/Docker/Compose文件' },
+            { text: '运行Docker', link: '/Docker/Systemctl' },
+            { text: 'Docker换源', link: '/Docker/Mirror' },
+            { text: '管理镜像', link: '/Docker/Image' },
+            { text: '管理容器', link: '/Docker/Container' },
+            { text: '容器镜像服务', link: '/Docker/MirrorService' },
+            { text: '传递镜像', link: '/Docker/Transfer' },
+            { text: 'Compose文件', link: '/Docker/Compose' },
           ]
         }
       ],
