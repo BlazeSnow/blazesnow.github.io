@@ -350,11 +350,11 @@ export default defineConfig({
           text: 'Nodejs相关',
           items: [
             { text: '前言', link: '/Nodejs/' },
-            { text: '安装Nodejs', link: '/Nodejs/安装Nodejs' },
-            { text: '引入npm', link: '/Nodejs/引入npm' },
-            { text: '管理npm包', link: '/Nodejs/管理npm包' },
-            { text: 'npm后缀', link: '/Nodejs/npm后缀' },
-            { text: 'npm换源', link: '/Nodejs/npm换源' },
+            { text: '安装Nodejs', link: '/Nodejs/Install' },
+            { text: '引入npm', link: '/Nodejs/Init' },
+            { text: '管理npm包', link: '/Nodejs/Manage' },
+            { text: 'npm后缀', link: '/Nodejs/Parameter' },
+            { text: 'npm换源', link: '/Nodejs/Mirror' },
           ]
         }
       ],
