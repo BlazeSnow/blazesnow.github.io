@@ -250,7 +250,7 @@ export default defineConfig({
           items: [
             {
               text: '2025年',
-              collapsed: true,
+              collapsed: false,
               items: [
                 { text: '2025年2月', link: '/CHANGELOG/' },
                 { text: '2025年1月', link: '/CHANGELOG/2025January' },
