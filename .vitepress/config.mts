@@ -201,8 +201,8 @@ export default defineConfig({
           },
           {
             text: 'Git相关',
-            link: '/git/',
-            activeMatch: '/git/'
+            link: '/Git/',
+            activeMatch: '/Git/'
           },
           {
             text: 'CMake相关',
