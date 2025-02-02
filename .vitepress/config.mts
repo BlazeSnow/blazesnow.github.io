@@ -440,12 +440,12 @@ export default defineConfig({
           text: 'VitePress建站教程',
           items: [
             { text: '前言', link: '/VitePress/' },
-            { text: '安装环境', link: '/VitePress/安装环境' },
-            { text: '安装向导', link: '/VitePress/安装向导' },
-            { text: '配置文件', link: '/VitePress/配置文件' },
-            { text: '检查文件', link: '/VitePress/检查文件' },
-            { text: '发布网站', link: '/VitePress/发布网站' },
-            { text: '进阶操作', link: '/VitePress/进阶操作' }
+            { text: '安装环境', link: '/VitePress/Install' },
+            { text: '安装向导', link: '/VitePress/Init' },
+            { text: '配置文件', link: '/VitePress/Configuration' },
+            { text: '检查文件', link: '/VitePress/Check' },
+            { text: '发布网站', link: '/VitePress/Publish' },
+            { text: '进阶操作', link: '/VitePress/Advanced' }
           ]
         }
       ],
