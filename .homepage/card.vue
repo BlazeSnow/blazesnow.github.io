@@ -8,25 +8,21 @@ export default {
         link: {
             type: String,
             required: true
-        },
-        description: {
-            type: String,
-            required: true
         }
     }
 };
 </script>
 
 <template>
-    <div style="padding-top: 12px;">
+    <div style="padding-top: 0.5rem;">
         <a :href="link" class="card">
-            <p class="card-header">
+            <p class="title">
                 {{ title }}
             </p>
-            <p class="card-divider"></p>
-            <p class="card-body">
-                {{ description }}
-            </p>
+            <p class="divider"></p>
+            <div class="description">
+                <slot name="description"></slot>
+            </div>
         </a>
     </div>
 </template>
@@ -38,7 +34,6 @@ export default {
     height: auto;
     background: var(--vp-custom-block-info-bg);
     border: 1px solid lightgrey;
-    box-shadow: 10px 12px 15px rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(6px);
     border-radius: 17px;
     text-align: center;
@@ -56,37 +51,31 @@ export default {
 
 .card:hover {
     border: 1px solid #0080FF;
-    transform: scale(1.05);
 }
 
-.card:active {
-    transform: scale(0.95);
-}
-
-.card-header {
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
-    margin-left: 1.25rem;
+.title {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
     margin-right: auto;
     font-size: 1.1rem;
     font-weight: 600;
-    text-align: left;
+    text-align: start;
 }
 
-.card-divider {
-    margin-left: 1.25rem;
-    margin-right: 1.25rem;
+.divider {
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
-.card-body {
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
+.description {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     margin-left: auto;
-    margin-right: 1.25rem;
+    margin-right: 1rem;
     font-size: 0.9rem;
     font-weight: normal;
     line-height: 1.6;
-    text-align: right;
-    word-break: break-word;
+    text-align: end;
 }
 </style>
