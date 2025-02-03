@@ -8,10 +8,6 @@ export default {
         link: {
             type: String,
             required: true
-        },
-        description: {
-            type: String,
-            required: true
         }
     }
 };
@@ -20,13 +16,13 @@ export default {
 <template>
     <div style="padding-top: 12px;">
         <a :href="link" class="card">
-            <p class="card-header">
+            <p class="title">
                 {{ title }}
             </p>
-            <p class="card-divider"></p>
-            <p class="card-body">
-                {{ description }}
-            </p>
+            <p class="divider"></p>
+            <div class="description">
+                <slot name="description"></slot>
+            </div>
         </a>
     </div>
 </template>
@@ -63,7 +59,7 @@ export default {
     transform: scale(0.95);
 }
 
-.card-header {
+.title {
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
     margin-left: 1.25rem;
@@ -73,12 +69,12 @@ export default {
     text-align: left;
 }
 
-.card-divider {
+.divider {
     margin-left: 1.25rem;
     margin-right: 1.25rem;
 }
 
-.card-body {
+.description {
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
     margin-left: auto;
