@@ -34,7 +34,6 @@ export default {
     height: auto;
     background: var(--vp-custom-block-info-bg);
     border: 1px solid lightgrey;
-    box-shadow: 10px 12px 15px rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(6px);
     border-radius: 17px;
     text-align: center;
@@ -52,11 +51,6 @@ export default {
 
 .card:hover {
     border: 1px solid #0080FF;
-    transform: scale(1.05);
-}
-
-.card:active {
-    transform: scale(0.95);
 }
 
 .title {
