@@ -27,11 +27,6 @@ export default defineConfig({
 			function gtag(){dataLayer.push(arguments);}
 			gtag('js', new Date());
 			gtag('config', 'AW-16752995804');`
-    ],
-    //Statuspage
-    [
-      'script',
-      { src: 'https://blazesnow.statuspage.io/embed/script.js' }
     ]
   ],
   //用JavaScript块加载界面，减少带宽
