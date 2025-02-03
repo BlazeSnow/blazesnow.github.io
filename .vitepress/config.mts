@@ -27,6 +27,11 @@ export default defineConfig({
 			function gtag(){dataLayer.push(arguments);}
 			gtag('js', new Date());
 			gtag('config', 'AW-16752995804');`
+    ],
+    //Statuspage
+    [
+      'script',
+      { src: 'https://blazesnow.statuspage.io/embed/script.js' }
     ]
   ],
   //用JavaScript块加载界面，减少带宽
@@ -77,11 +82,8 @@ export default defineConfig({
     //右上角图标
     socialLinks: [
       {
-        icon: {
-          svg: '<img alt="BlazeSnowStatus" src="/status.svg" height="24px" width="24px">'
-        },
-        ariaLabel: 'BlazeSnowStatus',
-        link: 'https://status.blazesnow.com/'
+        icon: 'statuspage',
+        link: 'https://blazesnow.statuspage.io'
       },
       {
         icon: 'github',
