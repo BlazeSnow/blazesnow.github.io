@@ -14,7 +14,7 @@ export default {
 </script>
 
 <template>
-    <div style="padding-top: 12px;">
+    <div style="padding-top: 0.5rem;">
         <a :href="link" class="card">
             <p class="title">
                 {{ title }}
