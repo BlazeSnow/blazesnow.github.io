@@ -54,29 +54,28 @@ export default {
 }
 
 .title {
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
-    margin-left: 1.25rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
     margin-right: auto;
     font-size: 1.1rem;
     font-weight: 600;
-    text-align: left;
+    text-align: start;
 }
 
 .divider {
-    margin-left: 1.25rem;
-    margin-right: 1.25rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .description {
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     margin-left: auto;
-    margin-right: 1.25rem;
+    margin-right: 1rem;
     font-size: 0.9rem;
     font-weight: normal;
     line-height: 1.6;
-    text-align: right;
-    word-break: break-word;
+    text-align: end;
 }
 </style>
