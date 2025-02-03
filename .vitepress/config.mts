@@ -77,11 +77,8 @@ export default defineConfig({
     //右上角图标
     socialLinks: [
       {
-        icon: {
-          svg: '<img alt="BlazeSnowStatus" src="/status.svg" height="24px" width="24px">'
-        },
-        ariaLabel: 'BlazeSnowStatus',
-        link: 'https://status.blazesnow.com/'
+        icon: 'statuspage',
+        link: 'https://blazesnow.statuspage.io'
       },
       {
         icon: 'github',
