@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-01-24T12:45:00+8:00
+lastUpdated: 2025-02-03T17:10:00+8:00
 titleTemplate: 'BlazeSnow帮助网站'
 layout: home
 
@@ -9,24 +9,7 @@ hero:
 ---
 
 <script setup>
-import system from '.homepage/system.vue'
-import server from '.homepage/server.vue'
-import more from '.homepage/more.vue'
-import about from '.homepage/about.vue'
+import index from './index.vue'
 </script>
 
-## 系统：操作系统相关
-
-<system />
-
-## 服务器：使用服务器完成操作
-
-<server />
-
-## 更多内容
-
-<more />
-
-## 关于
-
-<about />
+<index />

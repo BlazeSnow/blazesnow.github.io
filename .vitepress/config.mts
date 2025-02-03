@@ -233,7 +233,7 @@ export default defineConfig({
           },
           {
             text: '网站状态',
-            link: 'https://status.blazesnow.com/',
+            link: 'https://blazesnow.statuspage.io/',
             target: '_blank',
             rel: 'dns-prefetch',
           },
