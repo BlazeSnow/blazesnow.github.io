@@ -8,6 +8,10 @@ export default {
         link: {
             type: String,
             required: true
+        },
+        target: {
+            type: String,
+            required: false
         }
     }
 };
@@ -15,7 +19,7 @@ export default {
 
 <template>
     <div style="padding-top: 0.5rem;">
-        <a :href="link" class="card">
+        <a :href="link" :target="target" class="card">
             <p class="title">
                 {{ title }}
             </p>
