@@ -26,5 +26,5 @@ COPY nginx.conf /etc/nginx/conf.d/default.conf
 # 暴露 HTTP 端口
 EXPOSE 80
 
-# 启动容器时生成自签名证书并启动 Nginx
+# 启动 Nginx
 CMD ["nginx", "-g", "daemon off;"]
