@@ -62,7 +62,7 @@ import card from "./card.vue"
 			运行和验证应用程序
 		</template>
 	</card>
-	<card title="Git相关" link="/git/">
+	<card title="Git相关" link="/Git/">
 		<template #description>
 			Git是一个免费的开源分布式版本控制系统，
 			旨在快速高效地处理从小到大的所有项目
