@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-01-03T17:24:00+8:00
+lastUpdated: 2025-02-05T17:05:00+8:00
 ---
 
 # 安装.NET | Windows相关
@@ -8,7 +8,9 @@ lastUpdated: 2025-01-03T17:24:00+8:00
 
 官方网站：<https://dotnet.microsoft.com/zh-cn/download/dotnet>
 
-## 对于用户
+## .NET桌面运行时
+
+> .NET桌面运行时（```DesktopRuntime```）使用户能够运行现有Windows桌面应用程序（包括```Runtime```）
 
 ```bash
 winget install Microsoft.DotNet.DesktopRuntime.9
@@ -19,7 +21,35 @@ winget install Microsoft.DotNet.DesktopRuntime.5
 winget install Microsoft.DotNet.DesktopRuntime.3_1
 ```
 
-## 对于开发者
+## ASP.NET核心运行时
+
+> ASP.NET核心运行时（```AspNetCore```）使你能够运行现有的Web/服务器应用程序（不包括```Runtime```）
+
+```bash
+winget install Microsoft.DotNet.AspNetCore.9
+winget install Microsoft.DotNet.AspNetCore.8
+winget install Microsoft.DotNet.AspNetCore.7
+winget install Microsoft.DotNet.AspNetCore.6
+winget install Microsoft.DotNet.AspNetCore.5
+winget install Microsoft.DotNet.AspNetCore.3_1
+```
+
+## .NET运行时
+
+> .NET运行时（```Runtime```）仅包含运行控制台应用所需的组件
+
+```bash
+winget install Microsoft.DotNet.Runtime.9
+winget install Microsoft.DotNet.Runtime.8
+winget install Microsoft.DotNet.Runtime.7
+winget install Microsoft.DotNet.Runtime.6
+winget install Microsoft.DotNet.Runtime.5
+winget install Microsoft.DotNet.Runtime.3_1
+```
+
+## 软件开发工具包
+
+> 软件开发工具包（```SDK```）包括使用命令行工具和任何编辑器生成和运行.NET应用程序所需的一切内容（包括```DesktopRuntime```、```AspNetCore```和```Runtime```）
 
 ```bash
 winget install Microsoft.DotNet.SDK.9
