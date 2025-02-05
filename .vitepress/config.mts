@@ -404,21 +404,6 @@ export default defineConfig({
             { text: '时间同步', link: '/Android/SyncTime' }]
         }
       ],
-      '/Docsify/': [
-        {
-          text: 'Docsify建站教程',
-          items: [
-            { text: '前言', link: '/Docsify/' },
-            { text: '安装Nodejs', link: '/Docsify/InstallNodejs' },
-            { text: '安装Docsify', link: '/Docsify/Install' },
-            { text: '开始建网站', link: '/Docsify/Init' },
-            { text: '填充index', link: '/Docsify/FillIndex' },
-            { text: '本地化css和js', link: '/Docsify/ScriptSrc' },
-            { text: '运行网站', link: '/Docsify/Serve' },
-            { text: '发布网站', link: '/Docsify/Publish' },
-            { text: '进阶操作', link: '/Docsify/Advanced' }]
-        }
-      ],
       '/VitePress/': [
         {
           text: 'VitePress建站教程',
@@ -493,18 +478,6 @@ export default defineConfig({
             { text: '添加配置文件', link: '/CMake/Init' },
             { text: '安装vcpkg', link: '/CMake/Vcpkg' },
             { text: 'vcpkg添加库', link: '/CMake/VcpkgInstall' },
-          ]
-        }
-      ],
-      '/MinecraftServer/': [
-        {
-          text: '搭建我的世界服务器',
-          items: [
-            { text: '前言', link: '/MinecraftServer/' },
-            { text: '安装环境', link: '/MinecraftServer/Install' },
-            { text: '引入文件', link: '/MinecraftServer/Init' },
-            { text: '开始运行', link: '/MinecraftServer/Run' },
-            { text: '维护服务器', link: '/MinecraftServer/Maintain' },
           ]
         }
       ],
