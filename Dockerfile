@@ -1,5 +1,5 @@
 # 构建环境
-FROM node:current-slim AS build
+FROM node:lts-jod AS build
 
 # 设置工作目录
 WORKDIR /app
@@ -12,7 +12,7 @@ RUN npm install
 RUN npm run docs:build
 
 # 生产环境
-FROM nginx:stable-alpine-perl
+FROM nginx:stable-alpine
 
 # 设置工作目录
 WORKDIR /app
