@@ -1,6 +1,7 @@
 name: 发布至阿里云Docker镜像服务
 
 on:
+  workflow_dispatch:
   push:
     branches: [ main ]
 
