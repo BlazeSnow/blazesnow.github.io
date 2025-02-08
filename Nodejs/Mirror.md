@@ -1,17 +1,21 @@
 ---
-lastUpdated: 2024-7-23T14:35:00+8:00
+lastUpdated: 2025-02-08T09:11:00+8:00
 ---
 
 # npm换源 | Nodejs相关
+
+在[npm配置文件](/Nodejs/Npmrc)内添加以下内容：
+
+```txt
+registry=https://registry.npmmirror.com
+```
 
 ## npm官方源
 
 ```https://registry.npmjs.org/```
 
-## 查询npm现源
+## cnpm源
 
-```npm config get registry```
+> cnpm是淘宝团队开发的一个针对中国用户的npm镜像源
 
-## 更换npm源
-
-```npm config set registry https://registry.npmmirror.com```
+```https://registry.npmmirror.com```

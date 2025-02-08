@@ -1,25 +1,19 @@
 ---
-lastUpdated: 2024-6-20T11:48:00+8:00
+lastUpdated: 2025-02-08T08:37:00+8:00
 ---
 
-# 管理npm包 | Nodejs相关
+# npm管理包 | Nodejs相关
 
-::: info ```<name>```
-```<name>```在本篇指的是包的名称
-:::
+> ```<name>```在本篇指包的名称
 
 ## 安装包
 
-```npm install``` ```<name>```
+```npm install <name>```
 
 ## 卸载包
 
-```npm uninstall``` ```<name>```
+```npm uninstall <name>```
 
-## 更新包
+## 更新所有包
 
-```npm update``` ```<name>```
-
-::: info 不带```<name>```
-如果不带```<name>```，则更新```package.json```中所有包
-:::
+```npm update```

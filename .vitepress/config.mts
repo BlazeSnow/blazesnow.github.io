@@ -43,7 +43,7 @@ export default defineConfig({
     //右边的小目录
     outline: {
       //右边的小目录认H几
-      level: [1, 4],
+      level: [2, 4],
       //右边的小目录的文字
       label: "此篇目录",
     },
@@ -336,9 +336,11 @@ export default defineConfig({
             { text: '前言', link: '/Nodejs/' },
             { text: '安装Nodejs', link: '/Nodejs/Install' },
             { text: '引入npm', link: '/Nodejs/Init' },
-            { text: '管理npm包', link: '/Nodejs/Manage' },
+            { text: 'npm管理包', link: '/Nodejs/Manage' },
             { text: 'npm后缀', link: '/Nodejs/Parameter' },
+            { text: 'npm配置文件', link: '/Nodejs/Npmrc' },
             { text: 'npm换源', link: '/Nodejs/Mirror' },
+            { text: 'npm代理', link: '/Nodejs/Proxy' },
           ]
         }
       ],

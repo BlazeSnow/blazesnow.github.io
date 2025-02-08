@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2024-6-20T11:48:00+8:00
+lastUpdated: 2025-02-08T08:38:00+8:00
 ---
 
 # npm后缀 | Nodejs相关
@@ -21,5 +21,5 @@ lastUpdated: 2024-6-20T11:48:00+8:00
 ```-S```或```--save```代表包是项目运行时所必需的
 
 ::: info ```npm add```
-```npm add``` ```<name>```相当于执行```npm install -S``` ```<name>```
+```npm add <name>```相当于执行```npm install -S <name>```
 :::
