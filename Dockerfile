@@ -1,5 +1,5 @@
 # 构建环境
-FROM node:lts-jod AS build
+FROM node:22-alpine AS build
 
 # 设置工作目录
 WORKDIR /app
