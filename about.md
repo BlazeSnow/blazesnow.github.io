@@ -1,12 +1,12 @@
 ---
-lastUpdated: 2024-11-27T13:28:00+8:00
+lastUpdated: 2025-02-10T12:16:00+8:00
 ---
 
 # 关于本站
 
 ## 本站域名及运行状态
 
-<https://status.blazesnow.com>
+<https://blazesnow.statuspage.io/>
 
 ## 网站创立时间
 
