@@ -1,5 +1,5 @@
 # 构建环境
-FROM node:22-alpine AS build
+FROM node:23-alpine AS build
 
 # 设置工作目录
 WORKDIR /app
