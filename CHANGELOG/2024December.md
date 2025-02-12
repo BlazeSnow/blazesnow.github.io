@@ -1,5 +1,5 @@
 ---
-lastUpdated: false
+lastUpdated: 2024-12-31T22:17:00+8:00
 ---
 
 # 2024年12月 | 更新日志

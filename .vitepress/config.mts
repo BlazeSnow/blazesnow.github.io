@@ -6,7 +6,7 @@ export default defineConfig({
   //网页标题
   title: 'BlazeSnow帮助网站',
   //网页描述
-  description: 'BlazeSnow帮助网站',
+  description: 'BlazeSnow帮助网站，专注于分享知识。',
   //网页标题
   titleTemplate: ':title | BlazeSnow帮助网站',
   //头文件配置
@@ -16,8 +16,7 @@ export default defineConfig({
       { rel: 'icon', href: '/logo.ico' }
     ],
   ],
-  //用JavaScript块加载界面，减少带宽
-  metaChunk: true,
+  //网页地图
   sitemap: {
     hostname: 'https://blazesnow.com/'
   },
