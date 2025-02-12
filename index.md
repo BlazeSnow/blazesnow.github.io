@@ -9,7 +9,7 @@ hero:
 ---
 
 <script setup>
-import index from './index.vue'
+import index from './.homepage/index.vue'
 </script>
 
 <index />
