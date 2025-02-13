@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-02-08T08:38:00+8:00
+lastUpdated: 2025-02-13T09:42:00+8:00
 ---
 
 # npm后缀 | Nodejs相关
@@ -8,9 +8,8 @@ lastUpdated: 2025-02-08T08:38:00+8:00
 
 ```-g```或```--global```代表全局，此时npm会对全局包进行管理
 
-::: info 全局包位置
-```%AppData%\Roaming\npm\node_modules```
-:::
+> [!NOTE]
+> 全局包的安装位置：```%AppData%\Roaming\npm\node_modules```
 
 ## -D
 
@@ -20,6 +19,5 @@ lastUpdated: 2025-02-08T08:38:00+8:00
 
 ```-S```或```--save```代表包是项目运行时所必需的
 
-::: info ```npm add```
-```npm add <name>```相当于执行```npm install -S <name>```
-:::
+> [!NOTE]
+> ```npm add <name>```相当于执行```npm install -S <name>```
