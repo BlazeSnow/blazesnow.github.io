@@ -241,7 +241,7 @@ export default defineConfig({
             },
             {
               text: '2024年',
-              collapsed: true,
+              collapsed: false,
               items: [
                 { text: '2024年12月', link: '/CHANGELOG/2024December' },
                 { text: '2024年11月', link: '/CHANGELOG/2024November' },
@@ -262,13 +262,12 @@ export default defineConfig({
           items: [
             { text: '前言', link: '/Windows/' },
             {
-              text: '系统',
+              text: '安装',
               collapsed: true,
               items: [
                 { text: '更新Windows', link: '/Windows/Update' },
                 { text: '修复Windows', link: '/Windows/Repair' },
                 { text: '重新安装Windows', link: '/Windows/Reinstall' },
-                { text: '查看蓝屏文件', link: '/Windows/BlueScreen' },
               ]
             },
             {
@@ -283,7 +282,7 @@ export default defineConfig({
               ]
             },
             {
-              text: '文件资源管理器',
+              text: '文件',
               collapsed: true,
               items: [
                 { text: '显示后缀名和隐藏文件', link: '/Windows/Extension' },
@@ -292,13 +291,7 @@ export default defineConfig({
                 { text: '删除新建文件类型', link: '/Windows/RemoveFileType' },
                 { text: '删除右键菜单项', link: '/Windows/RemoveRightClickItem' },
                 { text: '修复桌面图标', link: '/Windows/ClearIconCache' },
-              ]
-            },
-            {
-              text: '网络',
-              collapsed: true,
-              items: [
-                { text: '应用最新TLS', link: '/Windows/TLS' },
+                { text: '计算哈希值', link: '/Windows/Hash' },
               ]
             },
             {
@@ -310,9 +303,10 @@ export default defineConfig({
                 { text: '清理微软商店残留', link: '/Windows/RemoveMicrosoftStoreRemnants' },
               ]
             },
+            { text: '应用最新TLS', link: '/Windows/TLS' },
+            { text: '查看蓝屏文件', link: '/Windows/BlueScreen' },
             { text: '系统配置', link: '/Windows/Msconfig' },
             { text: '设置环境变量', link: '/Windows/EnvironmentVariables' },
-            { text: '计算哈希值', link: '/Windows/Hash' }
           ]
         }
       ],
