@@ -24,7 +24,7 @@ COPY --from=build /app/.vitepress/dist /app/
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 # 暴露 HTTP 端口
-EXPOSE 80 443
+EXPOSE 80
 
 # 启动 Nginx
 CMD ["nginx", "-g", "daemon off;"]
