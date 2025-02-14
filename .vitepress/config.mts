@@ -409,7 +409,6 @@ export default defineConfig({
             { text: '配置文件', link: '/VitePress/Configuration' },
             { text: '检查文件', link: '/VitePress/Check' },
             { text: '发布网站', link: '/VitePress/Publish' },
-            { text: '进阶操作', link: '/VitePress/Advanced' }
           ]
         }
       ],

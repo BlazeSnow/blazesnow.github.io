@@ -59,7 +59,7 @@ import card from "./card.vue"
   </card>
   <card title="Git相关" link="/Git/">
     <template #description>
-      git是一个分布式版本控制软件
+      Git是一个分布式版本控制软件
     </template>
   </card>
   <card title="CMake相关" link="/CMake/">
