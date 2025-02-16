@@ -399,19 +399,6 @@ export default defineConfig({
             { text: '时间同步', link: '/Android/SyncTime' }]
         }
       ],
-      '/VitePress/': [
-        {
-          text: 'VitePress建站教程',
-          items: [
-            { text: '前言', link: '/VitePress/' },
-            { text: '安装环境', link: '/VitePress/Install' },
-            { text: '安装向导', link: '/VitePress/Init' },
-            { text: '配置文件', link: '/VitePress/Configuration' },
-            { text: '检查文件', link: '/VitePress/Check' },
-            { text: '发布网站', link: '/VitePress/Publish' },
-          ]
-        }
-      ],
       '/WebsiteToServer/': [
         {
           text: '部署网站至服务器',
