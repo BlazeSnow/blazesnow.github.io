@@ -399,19 +399,6 @@ export default defineConfig({
             { text: '时间同步', link: '/Android/SyncTime' }]
         }
       ],
-      '/WebsiteToServer/': [
-        {
-          text: '部署网站至服务器',
-          items: [
-            { text: '前言', link: '/WebsiteToServer/' },
-            { text: '安装环境', link: '/WebsiteToServer/Install' },
-            { text: '引入仓库', link: '/WebsiteToServer/Init' },
-            { text: '配置nginx', link: '/WebsiteToServer/Configuration' },
-            { text: '维护网站', link: '/WebsiteToServer/Maintain' },
-            { text: '进阶操作', link: '/WebsiteToServer/Advanced' },
-          ]
-        }
-      ],
       '/Docker/': [
         {
           text: 'Docker相关',
