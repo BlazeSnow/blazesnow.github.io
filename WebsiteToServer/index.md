@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-02-16T09:56:00+8:00
+lastUpdated: 2025-02-16T10:01:00+8:00
 ---
 
 # 部署网站至服务器
@@ -57,7 +57,7 @@ n latest
 4. 检查配置文件的语法是否正确：```nginx -t```
 5. 重启Nginx让配置生效：```nginx -s reload```
 
-## ```nginx.conf```
+### ```nginx.conf```
 
 ```nginx{15,16,25}
 server {
