@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-02-16T09:27:00+8:00
+lastUpdated: 2025-02-16T12:58:00+8:00
 ---
 
 # VitePress建站教程
@@ -209,4 +209,5 @@ jobs:
 
 ## 进阶操作
 
-前往官方网站：<https://vitepress.dev/zh/>
+- 编辑更多的网站信息，前往官方网站：<https://vitepress.dev/zh/>
+- 将网站部署至服务器：[部署网站至服务器](/WebsiteToServer/)
