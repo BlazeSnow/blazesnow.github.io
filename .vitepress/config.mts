@@ -442,7 +442,6 @@ export default defineConfig({
           items: [
             { text: '前言', link: '/CMake/' },
             { text: '安装环境', link: '/CMake/Install' },
-            { text: '安装编辑器', link: '/CMake/Editor' },
             { text: '添加配置文件', link: '/CMake/Init' },
             { text: '安装vcpkg', link: '/CMake/Vcpkg' },
             { text: 'vcpkg添加库', link: '/CMake/VcpkgInstall' },
