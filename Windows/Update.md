@@ -2,7 +2,7 @@
 lastUpdated: 2024-8-6T15:15:00+8:00
 ---
 
-# 更新Windows | Windows相关
+# 更新Windows | Windows
 
 ## 通过Windows安装助手
 

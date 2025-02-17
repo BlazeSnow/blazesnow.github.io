@@ -2,7 +2,7 @@
 lastUpdated: 2025-02-13T09:42:00+8:00
 ---
 
-# npm后缀 | Nodejs相关
+# npm后缀 | Nodejs
 
 ## -g
 

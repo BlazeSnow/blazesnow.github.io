@@ -2,7 +2,7 @@
 lastUpdated: 2025-02-14T17:43:00+8:00
 ---
 
-# 前言 | Git相关
+# 前言 | Git
 
 > Git（/ɡɪt/）是一个分布式版本控制软件，最初由林纳斯·托瓦兹创作，于2005年以GPL许可协议发布。最初目的是为了更好地管理Linux内核开发而设计。应注意的是，这与GNU Interactive Tools（一个类似Norton Commander界面的文件管理器）不同。
 >

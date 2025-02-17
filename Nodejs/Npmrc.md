@@ -2,7 +2,7 @@
 lastUpdated: 2025-02-08T08:53:00+8:00
 ---
 
-# npm配置文件 | Nodejs相关
+# npm配置文件 | Nodejs
 
 > npm配置文件即```.npmrc```，用于配置npm的行为
 

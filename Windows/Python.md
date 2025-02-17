@@ -2,7 +2,7 @@
 lastUpdated: 2025-01-03T19:43:00+8:00
 ---
 
-# 安装Python | Windows相关
+# 安装Python | Windows
 
 > Python 是一种编程语言，可让您快速工作并更有效地集成系统。
 

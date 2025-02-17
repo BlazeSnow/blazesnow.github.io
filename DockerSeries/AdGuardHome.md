@@ -9,6 +9,7 @@ lastUpdated: 2024-11-25T13:55:00+8:00
 本文介绍使用```AdGuard Home```在```Ubuntu```系统上搭建DNS服务器，请先根据本章前言完成环境的搭建。
 
 相关网站：
+
 - <https://adguard.com/zh_cn/adguard-home/overview.html>
 - <https://hub.docker.com/r/adguard/adguardhome>
 - <https://github.com/AdguardTeam/AdguardHome>

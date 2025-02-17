@@ -2,7 +2,7 @@
 lastUpdated: 2025-01-12T17:17:00+8:00
 ---
 
-# SSH超级用户权限 | Ubuntu相关
+# SSH超级用户权限 | Ubuntu
 
 > 本篇内容讲解为Ubuntu的SSH连接启用root用户
 

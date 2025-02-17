@@ -2,7 +2,7 @@
 lastUpdated: 2024-6-2T19:42:00+8:00
 ---
 
-# dpkg | Ubuntu相关
+# dpkg | Ubuntu
 
 > dpkg（Debian Package）是Debian及其衍生发行版（如Ubuntu）中一个基础而强大的命令行软件包管理工具。
 > 它是专为Debian设计的，用于低级别的软件包管理任务，直接处理.deb格式的软件包。
