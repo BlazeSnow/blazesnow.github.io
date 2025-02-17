@@ -2,7 +2,7 @@
 lastUpdated: 2024-11-29T16:22:00+8:00
 ---
 
-# 自签名SSL | Nginx相关
+# 自签名SSL | Nginx
 
 1. 前往var目录：```cd /var```
 2. 创建工作目录：```mkdir ssl```

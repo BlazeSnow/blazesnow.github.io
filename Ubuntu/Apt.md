@@ -2,7 +2,7 @@
 lastUpdated: 2024-11-20T17:37:00+8:00
 ---
 
-# apt | Ubuntu相关
+# apt | Ubuntu
 
 > APT（Advanced Packaging Tool），即高级包装工具，是Linux系统中广泛使用的一种包管理工具，尤其在基于Debian的发行版中如Ubuntu、Debian及其衍生版本中非常常见。它是管理软件包（主要为.deb格式）的一个强大命令行界面，旨在简化软件的安装、更新、卸载以及依赖关系处理过程。
 

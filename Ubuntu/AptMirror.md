@@ -2,7 +2,7 @@
 lastUpdated: 2024-8-27T10:40:00+8:00
 ---
 
-# apt换源 | Ubuntu相关
+# apt换源 | Ubuntu
 
 ## 修改配置文件
 

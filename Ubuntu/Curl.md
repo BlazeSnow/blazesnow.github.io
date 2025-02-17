@@ -2,7 +2,7 @@
 lastUpdated: 2024-8-11T13:14:00+8:00
 ---
 
-# 下载文件 | Ubuntu相关
+# 下载文件 | Ubuntu
 
 ## wget
 

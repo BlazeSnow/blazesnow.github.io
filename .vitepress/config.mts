@@ -126,12 +126,12 @@ export default defineConfig({
         activeMatch: '/Windows/',
         items: [
           {
-            text: 'Windows相关',
+            text: 'Windows',
             link: '/Windows/',
             activeMatch: '/Windows/'
           },
           {
-            text: 'Ubuntu相关',
+            text: 'Ubuntu',
             link: '/Ubuntu/',
             activeMatch: '/Ubuntu/'
           },
@@ -157,7 +157,7 @@ export default defineConfig({
             activeMatch: '/FrpClientAndServer/'
           },
           {
-            text: 'Nginx相关',
+            text: 'Nginx',
             link: '/Nginx/',
             activeMatch: '/Nginx/'
           },
@@ -173,24 +173,24 @@ export default defineConfig({
             activeMatch: '/Android/'
           },
           {
-            text: 'Nodejs相关',
+            text: 'Nodejs',
             link: '/Nodejs/',
             activeMatch: '/Nodejs/'
           },
           {
-            text: 'Docker相关',
+            text: 'Docker',
             link: '/Docker/',
             activeMatch: '/Docker/'
           },
           {
-            text: 'Git相关',
+            text: 'Git',
             link: '/Git/',
             activeMatch: '/Git/'
           },
           {
-            text: 'CMake相关',
-            link: '/CMake/',
-            activeMatch: '/CMake/'
+            text: 'Clang',
+            link: '/Clang/',
+            activeMatch: '/Clang/'
           },
           {
             text: 'VitePress建站教程',
@@ -258,7 +258,7 @@ export default defineConfig({
       ],
       '/Windows/': [
         {
-          text: 'Windows相关',
+          text: 'Windows',
           items: [
             { text: '前言', link: '/Windows/' },
             {
@@ -324,7 +324,7 @@ export default defineConfig({
       ],
       '/Nodejs/': [
         {
-          text: 'Nodejs相关',
+          text: 'Nodejs',
           items: [
             { text: '前言', link: '/Nodejs/' },
             { text: '安装Nodejs', link: '/Nodejs/Install' },
@@ -339,7 +339,7 @@ export default defineConfig({
       ],
       '/Ubuntu/': [
         {
-          text: 'Ubuntu相关',
+          text: 'Ubuntu',
           items: [
             { text: '前言', link: '/Ubuntu/' },
             {
@@ -401,7 +401,7 @@ export default defineConfig({
       ],
       '/Docker/': [
         {
-          text: 'Docker相关',
+          text: 'Docker',
           items: [
             { text: '前言', link: '/Docker/' },
             {
@@ -425,7 +425,7 @@ export default defineConfig({
       ],
       '/Git/': [
         {
-          text: 'Git相关',
+          text: 'Git',
           items: [
             { text: '前言', link: '/Git/' },
             { text: '安装Git', link: '/Git/Install' },
@@ -438,7 +438,7 @@ export default defineConfig({
       ],
       '/CMake/': [
         {
-          text: 'CMake相关',
+          text: 'CMake',
           items: [
             { text: '前言', link: '/CMake/' },
             { text: '安装环境', link: '/CMake/Install' },
@@ -488,7 +488,7 @@ export default defineConfig({
       ],
       '/Nginx/': [
         {
-          text: 'Nginx相关',
+          text: 'Nginx',
           items: [
             { text: '前言', link: '/Nginx/' },
             { text: '自签名SSL', link: '/Nginx/SelfSignedSSL' },

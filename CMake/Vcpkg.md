@@ -2,7 +2,7 @@
 lastUpdated: 2024-9-16T11:35:00+8:00
 ---
 
-# 安装vcpkg | CMake相关
+# 安装vcpkg | CMake
 
 > 对于Windows用户，Visual Studio的MSVC（Microsoft Visual C++ 编译器）是C++开发所需的编译器。
 
@@ -17,7 +17,7 @@ lastUpdated: 2024-9-16T11:35:00+8:00
 
 ## 安装git
 
-前往```Git相关```：[点击此处跳转](/Git/Install)
+前往```Git```：[点击此处跳转](/Git/Install)
 
 ## 安装vcpkg
 
@@ -27,4 +27,4 @@ lastUpdated: 2024-9-16T11:35:00+8:00
 4. 下载vcpkg：```git clone https://github.com/microsoft/vcpkg.git```
 5. 打开vcpkg根目录：```cd vcpkg```
 6. 运行安装脚本：```./bootstrap-vcpkg.bat```
-7. 设置系统环境变量```D:/vcpkg```，参见```Windows相关```：[点击此处跳转](/Windows/EnvironmentVariables)
+7. 设置系统环境变量```D:/vcpkg```，参见```Windows```：[点击此处跳转](/Windows/EnvironmentVariables)

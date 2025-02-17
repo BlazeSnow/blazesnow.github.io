@@ -2,7 +2,7 @@
 lastUpdated: 2024-9-16T11:35:00+8:00
 ---
 
-# vcpkg添加库 | CMake相关
+# vcpkg添加库 | CMake
 
 > 此篇以```fmt```库作为示例：<https://github.com/fmtlib/fmt>
 

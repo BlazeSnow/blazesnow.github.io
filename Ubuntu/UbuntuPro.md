@@ -2,7 +2,7 @@
 lastUpdated: 2024-11-22T21:26:00+8:00
 ---
 
-# 激活UbuntuPro | Ubuntu相关
+# 激活UbuntuPro | Ubuntu
 
 ## 查看UbuntuPro状态
 

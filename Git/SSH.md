@@ -2,7 +2,7 @@
 lastUpdated: 2024-11-14T14:28:00+8:00
 ---
 
-# SSH连接仓库 | Git相关
+# SSH连接仓库 | Git
 
 ## 获取SSH公钥
 

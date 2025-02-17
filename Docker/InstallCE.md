@@ -2,7 +2,7 @@
 lastUpdated: 2024-10-30T19:20:00+8:00
 ---
 
-# 安装CE发行版 | Docker相关
+# 安装CE发行版 | Docker
 
 ## 卸载其他版本Docker
 

@@ -2,7 +2,7 @@
 lastUpdated: 2024-10-22T17:23:00+8:00
 ---
 
-# Compose文件 | Docker相关
+# Compose文件 | Docker
 
 > compose.yml用于配置Docker容器，本文以vsftpd为例。官方文档：<https://docs.docker.com/compose/>
 
