@@ -2,7 +2,7 @@
 lastUpdated: 2025-02-08T08:29:00+8:00
 ---
 
-# 安装Nodejs | Nodejs相关
+# 安装Nodejs | Nodejs
 
 1. 打开官方网站：<https://nodejs.org/zh-cn>
 2. 单击```下载 Node.js (LTS)```

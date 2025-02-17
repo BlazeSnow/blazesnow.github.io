@@ -2,7 +2,7 @@
 lastUpdated: 2024-6-5T15:14:00+8:00
 ---
 
-# 无法更新Snap Store | Ubuntu相关
+# 无法更新Snap Store | Ubuntu
 
 > 在Ubuntu Software应用内更新app时，
 > 无法更新Snap Store，

@@ -2,7 +2,7 @@
 lastUpdated: 2025-02-16T12:55:00+8:00
 ---
 
-# 安装环境 | CMake相关
+# 安装环境 | CMake
 
 ## 安装MinGW-w64
 

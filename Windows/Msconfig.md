@@ -2,7 +2,7 @@
 lastUpdated: 2025-02-13T09:59:00+8:00
 ---
 
-# 系统配置 | Windows相关
+# 系统配置 | Windows
 
 msconfig即系统配置实用程序，是Microsoft System Configuration的缩写。是在开始菜单里运行中输入然后确认就可以找到程序开启或者禁用，可以帮助电脑禁止不需要运行的程序，这样可以加快你的电脑运行。
 

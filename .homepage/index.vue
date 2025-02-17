@@ -6,12 +6,12 @@ import card from "./card.vue"
   <h2>
     系统：操作系统相关
   </h2>
-  <card title="Windows相关" link="/Windows/">
+  <card title="Windows" link="/Windows/">
     <template #description>
       Windows操作系统是微软以图形用户界面为主推出的一系列专有商业软件操作系统
     </template>
   </card>
-  <card title="Ubuntu相关" link="/Ubuntu/">
+  <card title="Ubuntu" link="/Ubuntu/">
     <template #description>
       Ubuntu是基于Debian，以桌面应用为主的Linux发行版
     </template>
@@ -34,7 +34,7 @@ import card from "./card.vue"
       使用fatedier/frp在Windows客户端和Ubuntu服务端上搭建frp内网穿透服务
     </template>
   </card>
-  <card title="Nginx相关" link="/Nginx/">
+  <card title="Nginx" link="/Nginx/">
     <template #description>
       Nginx是一款HTTP Web服务器
     </template>
@@ -47,24 +47,24 @@ import card from "./card.vue"
       Android是一个基于Linux核心与其他开源软件的开放源代码的移动操作系统
     </template>
   </card>
-  <card title="Nodejs相关" link="/Nodejs/">
+  <card title="Nodejs" link="/Nodejs/">
     <template #description>
       Node.js是跨平台、开源的JavaScript运行环境
     </template>
   </card>
-  <card title="Docker相关" link="/Docker/">
+  <card title="Docker" link="/Docker/">
     <template #description>
       Docker是一个开放源代码的开放平台软件，用于开发、交付和运行应用
     </template>
   </card>
-  <card title="Git相关" link="/Git/">
+  <card title="Git" link="/Git/">
     <template #description>
       Git是一个分布式版本控制软件
     </template>
   </card>
-  <card title="CMake相关" link="/CMake/">
+  <card title="Clang" link="/Clang/">
     <template #description>
-      CMake是一个开源的跨平台自动化建构系统
+      Clang是一个C、C++、Objective-C和Objective-C++编程语言的编译器前端
     </template>
   </card>
   <card title="VitePress建站教程" link="/VitePress/">

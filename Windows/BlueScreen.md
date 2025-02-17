@@ -1,15 +1,12 @@
 ---
-lastUpdated: 2024-6-2T19:42:00+8:00
+lastUpdated: 2025-02-17T10:31:00+8:00
 ---
 
-# 查看蓝屏文件 | Windows相关
+# 查看蓝屏文件 | Windows
 
-> WinDbg是一个调试器，可用于分析故障转储、调试实时用户模式和内核模式代码，
-> 以及检查CPU寄存器和内存。
+> WinDbg是一个调试器，可用于分析故障转储、调试实时用户模式和内核模式代码，以及检查CPU寄存器和内存。
 
-1. 安装WinDBG
-	- 微软Learn：<https://learn.microsoft.com/zh-CN/windows-hardware/drivers/debugger>
-	- 微软商店：<https://apps.microsoft.com/detail/9pgjgd53tn86>
+1. 安装WinDBG：<https://learn.microsoft.com/zh-CN/windows-hardware/drivers/debugger>
 2. 打开目录```C:\Windows\Minidump```
 3. 找到蓝屏文件
 4. 复制到其他位置

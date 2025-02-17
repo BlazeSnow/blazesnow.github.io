@@ -2,7 +2,7 @@
 lastUpdated: 2024-10-14T22:52:00+8:00
 ---
 
-# 压缩文件 | Ubuntu相关
+# 压缩文件 | Ubuntu
 
 ## tar
 
