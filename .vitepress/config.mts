@@ -183,14 +183,14 @@ export default defineConfig({
             activeMatch: '/Docker/'
           },
           {
-            text: 'Git相关',
+            text: 'Git',
             link: '/Git/',
             activeMatch: '/Git/'
           },
           {
-            text: 'CMake相关',
-            link: '/CMake/',
-            activeMatch: '/CMake/'
+            text: 'Clang',
+            link: '/Clang/',
+            activeMatch: '/Clang/'
           },
           {
             text: 'VitePress建站教程',
@@ -425,7 +425,7 @@ export default defineConfig({
       ],
       '/Git/': [
         {
-          text: 'Git相关',
+          text: 'Git',
           items: [
             { text: '前言', link: '/Git/' },
             { text: '安装Git', link: '/Git/Install' },

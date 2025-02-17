@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-02-16T12:47:00+8:00
+lastUpdated: 2025-02-17T10:28:00+8:00
 ---
 
 # 前言 | CMake相关
@@ -9,3 +9,6 @@ lastUpdated: 2025-02-16T12:47:00+8:00
 官方网站：<https://cmake.org/>
 
 本章主要介绍```Windows```系统的```CMake```，C编译器采用```MinGW-w64```，代码编辑器采用```VScode```
+
+> [!CAUTION]
+> 停止支持：```CMake相关```已停止支持，请访问```Clang```获取更多信息：[点击此处跳转](/Clang/)
