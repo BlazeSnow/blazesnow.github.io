@@ -21,7 +21,7 @@ WORKDIR /app
 COPY --from=build /app/.vitepress/dist /app/
 
 # 自定义 Nginx 配置文件
-COPY nginx.conf /etc/nginx/conf.d/blazesnow.conf
+COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 # 暴露 HTTP 端口
 EXPOSE 80
