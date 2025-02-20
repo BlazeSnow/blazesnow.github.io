@@ -42,7 +42,7 @@ import card from "./card.vue"
   <h2>
     更多内容
   </h2>
-  <card title="原生安卓" link="/Android/">
+  <card title="Android" link="/Android/">
     <template #description>
       Android是一个基于Linux核心与其他开源软件的开放源代码的移动操作系统
     </template>
