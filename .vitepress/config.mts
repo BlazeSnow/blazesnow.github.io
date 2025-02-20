@@ -168,7 +168,7 @@ export default defineConfig({
         activeMatch: '/Nodejs/',
         items: [
           {
-            text: '原生安卓',
+            text: 'Android',
             link: '/Android/',
             activeMatch: '/Android/'
           },
@@ -392,7 +392,7 @@ export default defineConfig({
       ],
       '/Android/': [
         {
-          text: '原生安卓',
+          text: 'Android',
           items: [
             { text: '前言', link: '/Android/' },
             { text: 'WiFi感叹号', link: '/Android/WiFi' },
