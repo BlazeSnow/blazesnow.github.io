@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-02-20T10:35:00+8:00
+lastUpdated: 2025-02-20T10:44:00+8:00
 ---
 
 # WiFi感叹号 | Android
@@ -12,7 +12,7 @@ lastUpdated: 2025-02-20T10:35:00+8:00
 4. 点击```终端```
 5. 输入以下内容后重启手机：
 
-```powershell
+```bash
 # 删除旧的监测点
 adb shell settings delete global captive_portal_https_url
 adb shell settings delete global captive_portal_http_url
@@ -24,7 +24,7 @@ adb shell settings put global captive_portal_http_url http://developers.google.c
 
 ## 已知的监测点
 
-```powershell
+```bash
 # captive_portal_https_url
 https://developers.google.cn/generate_204
 https://connectivitycheck.gstatic.com/generate_204
@@ -40,13 +40,13 @@ http://connect.rom.miui.com/generate_204
 
 ## 检测监测点可用性
 
-```powershell
+```bash
 curl https://developers.google.cn/generate_204
 curl http://developers.google.cn/generate_204
 ```
 
 显示以下内容时，表示监测点可用：
 
-```ansi
+```bash
 StatusCode: 204
 ```
