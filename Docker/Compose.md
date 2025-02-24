@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-02-24T18:43:00+8:00
+lastUpdated: 2025-02-24T18:53:00+8:00
 ---
 
 # Compose文件 | Docker
@@ -9,7 +9,6 @@ lastUpdated: 2025-02-24T18:43:00+8:00
 ## 编写compose.yml
 
 ```yml
-version: '3'
 services:
   vsftpd:
     # image：镜像名称:版本
