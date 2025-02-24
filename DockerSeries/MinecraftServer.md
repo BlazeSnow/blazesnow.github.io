@@ -36,7 +36,7 @@ lastUpdated: 2024-11-25T13:26:00+8:00
 ```yml
 services:
   minecraft:
-    image: itzg/minecraft-server
+    image: itzg/minecraft-server:latest
     container_name: mc
     tty: true
     stdin_open: true

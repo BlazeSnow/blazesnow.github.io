@@ -41,7 +41,7 @@ lastUpdated: 2024-12-15T22:29:00+8:00
 ```yml
 services:
   ntfy:
-    image: binwiederhier/ntfy
+    image: binwiederhier/ntfy:latest
     container_name: ntfy
     restart: always
     volumes:

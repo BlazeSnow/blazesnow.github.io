@@ -49,7 +49,7 @@ lastUpdated: 2024-12-15T22:13:00+8:00
 ```yml
 services:
   vaultwarden:
-    image: vaultwarden/server
+    image: vaultwarden/server:latest
     container_name: vaultwarden
     environment:
       - SIGNUPS_ALLOWED=true
@@ -57,7 +57,7 @@ services:
       - ./data:/data
     restart: always
   nginx:
-    image: nginx
+    image: nginx:latest
     container_name: nginx-vaultwarden
     volumes:
       - ./vaultwarden.conf:/etc/nginx/conf.d/vaultwarden.conf:ro

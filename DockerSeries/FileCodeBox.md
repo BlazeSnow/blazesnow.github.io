@@ -36,7 +36,7 @@ lastUpdated: 2024-12-15T16:36:00+8:00
 ```yml
 services:
   filecodebox:
-    image: lanol/filecodebox
+    image: lanol/filecodebox:latest
     container_name: filecodebox
     restart: always
     ports:

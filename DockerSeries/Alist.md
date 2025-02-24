@@ -36,7 +36,7 @@ lastUpdated: 2024-11-24T22:08:00+8:00
 ```yml
 services:
   alist:
-    image: xhofe/alist
+    image: xhofe/alist:latest
     container_name: alist
     restart: always
     volumes:
