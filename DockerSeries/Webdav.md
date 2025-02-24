@@ -33,7 +33,7 @@ lastUpdated: 2025-02-13T09:39:00+8:00
 ```yml{10,11}
 services:
   webdav:
-    image: bytemark/webdav
+    image: bytemark/webdav:latest
     container_name: webdav
     restart: always
     ports:

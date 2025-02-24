@@ -35,7 +35,7 @@ lastUpdated: 2024-11-24T21:54:00+8:00
 ```yml{13,14,15}
 services:
   vsftpd:
-    image: fauria/vsftpd
+    image: fauria/vsftpd:latest
     container_name: vsftpd
     restart: always
     volumes:
