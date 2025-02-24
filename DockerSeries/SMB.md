@@ -33,7 +33,7 @@ lastUpdated: 2024-11-24T22:06:00+8:00
 ```yml{8,9}
 services:
   samba:
-    image: dockurr/samba
+    image: dockurr/samba:latest
     container_name: samba
     restart: always
     environment:

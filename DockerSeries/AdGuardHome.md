@@ -43,7 +43,7 @@ lastUpdated: 2024-11-25T13:55:00+8:00
 ```yml
 services:
   adguardhome:
-    image: adguard/adguardhome
+    image: adguard/adguardhome:latest
     container_name: adguardhome
     restart: always
     volumes:

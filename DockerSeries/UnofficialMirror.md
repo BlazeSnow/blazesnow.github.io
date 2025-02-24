@@ -12,7 +12,7 @@ lastUpdated: 2025-02-13T09:36:00+8:00
 在终端中运行以下命令：
 
 ```bash
-docker run --rm registry.cn-hangzhou.aliyuncs.com/blazesnow/hello-world
+docker run --rm registry.cn-hangzhou.aliyuncs.com/blazesnow/hello-world:latest
 ```
 
 输出以下内容时，连通性正常：
@@ -37,7 +37,7 @@ To generate this message, Docker took the following steps:
 
 ### 拉取镜像
 
-```docker pull registry.cn-hangzhou.aliyuncs.com/blazesnow/nginx```
+```docker pull registry.cn-hangzhou.aliyuncs.com/blazesnow/nginx:latest```
 
 ### ```compose.yml```
 
@@ -45,9 +45,9 @@ To generate this message, Docker took the following steps:
 services:
   nginx:
     # 修改前
-    image: nginx
+    image: nginx:latest
     # 修改后
-    image: registry.cn-hangzhou.aliyuncs.com/blazesnow/nginx
+    image: registry.cn-hangzhou.aliyuncs.com/blazesnow/nginx:latest
 ```
 
 ## 目前可用的镜像

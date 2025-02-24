@@ -9,6 +9,7 @@ lastUpdated: 2024-11-24T22:08:00+8:00
 本文介绍使用```xhofe/alist```在Ubuntu服务器上搭建Alist文件服务器，请先根据本章前言完成环境的搭建。
 
 ```xhofe/alist```地址：
+
 - <https://hub.docker.com/r/xhofe/alist>
 - <https://github.com/AlistGo/alist>
 - <https://alistgo.com/zh/>
@@ -36,7 +37,7 @@ lastUpdated: 2024-11-24T22:08:00+8:00
 ```yml
 services:
   alist:
-    image: xhofe/alist
+    image: xhofe/alist:latest
     container_name: alist
     restart: always
     volumes:

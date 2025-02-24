@@ -9,6 +9,7 @@ lastUpdated: 2024-12-15T16:36:00+8:00
 本文介绍使用```FileCodeBox```在Ubuntu系统上搭建文件快递柜，请先根据本章前言完成环境的搭建。
 
 ```FileCodeBox```网站：
+
 - <https://github.com/vastsa/FileCodeBox>
 - <https://hub.docker.com/r/lanol/filecodebox>
 - <https://share.lanol.cn>
@@ -36,7 +37,7 @@ lastUpdated: 2024-12-15T16:36:00+8:00
 ```yml
 services:
   filecodebox:
-    image: lanol/filecodebox
+    image: lanol/filecodebox:latest
     container_name: filecodebox
     restart: always
     ports:

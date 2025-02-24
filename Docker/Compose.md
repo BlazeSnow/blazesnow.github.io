@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2024-10-22T17:23:00+8:00
+lastUpdated: 2025-02-24T18:53:00+8:00
 ---
 
 # Compose文件 | Docker
@@ -9,11 +9,10 @@ lastUpdated: 2024-10-22T17:23:00+8:00
 ## 编写compose.yml
 
 ```yml
-version: '3'
 services:
   vsftpd:
-    # image：镜像名称
-    image: fauria/vsftpd
+    # image：镜像名称:版本
+    image: fauria/vsftpd:latest
 
     # container_name：容器名称
     container_name: vsftpd
@@ -43,11 +42,13 @@ services:
 ## 快速运行Docker
 
 在compose.yml的目录中运行：
+
 - ```docker compose up -d```
 - 或```docker-compose up -d```
 
 ## 快速关闭Docker
 
 在compose.yml的目录中运行：
+
 - ```docker compose down```
 - 或```docker-compose down```
