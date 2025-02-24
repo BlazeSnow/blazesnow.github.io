@@ -9,6 +9,7 @@ lastUpdated: 2024-12-03T22:02:00+8:00
 本文介绍使用```itsthenetwork/nfs-server-alpine```在Ubuntu服务器上搭建NFS文件服务器，请先根据本章前言完成环境的搭建。
 
 ```itsthenetwork/nfs-server-alpine```地址：
+
 - <https://hub.docker.com/r/itsthenetwork/nfs-server-alpine>
 - <https://github.com/sjiveson/nfs-server-alpine>
 

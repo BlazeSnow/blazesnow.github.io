@@ -9,6 +9,7 @@ lastUpdated: 2024-11-25T13:26:00+8:00
 本文介绍使用```itzg/minecraft-server```在Ubuntu服务器上搭建我的世界服务器，请先根据本章前言完成环境的搭建。
 
 ```itzg/minecraft-server```地址：
+
 - <https://hub.docker.com/r/itzg/minecraft-server/>
 - <https://github.com/itzg/docker-minecraft-server>
 - <https://docker-minecraft-server.readthedocs.io/en/latest/>

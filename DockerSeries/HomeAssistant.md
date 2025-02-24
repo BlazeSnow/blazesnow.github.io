@@ -9,6 +9,7 @@ lastUpdated: 2024-12-17T16:19:00+8:00
 本文介绍使用```HomeAssistant```在Ubuntu系统上搭建智能家居中枢，请先根据本章前言完成环境的搭建。
 
 ```HomeAssistant```网站：
+
 - <https://github.com/home-assistant>
 - <https://hub.docker.com/r/homeassistant/home-assistant>
 - <https://www.home-assistant.io/>

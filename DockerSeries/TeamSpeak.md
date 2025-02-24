@@ -9,6 +9,7 @@ lastUpdated: 2025-01-02T15:13:00+8:00
 本文介绍使用```TeamSpeak```在Ubuntu系统上搭建语音服务器，请先根据本章前言完成环境的搭建。
 
 ```TeamSpeak```网站：
+
 - <https://teamspeak.com/zh-CN/>
 - <https://hub.docker.com/_/teamspeak>
 - <https://github.com/TeamSpeak-Systems/teamspeak-linux-docker-images>

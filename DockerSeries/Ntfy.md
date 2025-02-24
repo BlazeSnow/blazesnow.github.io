@@ -9,6 +9,7 @@ lastUpdated: 2024-12-15T22:29:00+8:00
 本文介绍使用```ntfy```在Ubuntu系统上搭建消息推送器，请先根据本章前言完成环境的搭建。
 
 ```ntfy```网站：
+
 - <https://github.com/binwiederhier/ntfy>
 - <https://hub.docker.com/r/binwiederhier/ntfy>
 - <https://ntfy.sh/>

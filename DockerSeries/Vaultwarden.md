@@ -9,10 +9,12 @@ lastUpdated: 2024-12-15T22:13:00+8:00
 本文介绍使用```Vaultwarden```和```Nginx```在Ubuntu系统上搭建密码服务器，请先根据本章前言完成环境的搭建。
 
 ```Vaultwarden```网站：
+
 - <https://github.com/dani-garcia/vaultwarden>
 - <https://hub.docker.com/r/vaultwarden/server>
 
 ```Nginx```网站：
+
 - <https://nginx.org/en/>
 - <https://hub.docker.com/_/nginx>
 - <https://github.com/nginx/nginx>
