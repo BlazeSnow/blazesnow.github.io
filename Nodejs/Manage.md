@@ -1,19 +1,31 @@
 ---
-lastUpdated: 2025-02-08T08:37:00+8:00
+lastUpdated: 2025-02-27T09:22:00+8:00
 ---
 
 # npm管理包 | Nodejs
 
-> ```<name>```在本篇指包的名称
+> 本篇对包的安装卸载过程以```typescript```为例
 
 ## 安装包
 
-```npm install <name>```
+```bash
+npm install typescript
+```
+
+## 列出包
+
+```bash
+npm ls --depth=0
+```
 
 ## 卸载包
 
-```npm uninstall <name>```
+```bash
+npm uninstall typescript
+```
 
 ## 更新所有包
 
-```npm update```
+```bash
+npm update
+```

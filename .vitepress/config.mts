@@ -334,6 +334,7 @@ export default defineConfig({
             { text: 'npm配置文件', link: '/Nodejs/Npmrc' },
             { text: 'npm换源', link: '/Nodejs/Mirror' },
             { text: 'npm代理', link: '/Nodejs/Proxy' },
+            { text: 'npm缓存', link: '/Nodejs/Cache' },
           ]
         }
       ],
