@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-02-16T12:58:00+8:00
+lastUpdated: 2025-03-01T11:00:00+8:00
 ---
 
 # VitePress建站教程
@@ -93,82 +93,20 @@ lastUpdated: 2025-02-16T12:58:00+8:00
 2. 新建以下文件或文件夹：
 
 ```ansi
-│ .gitignore           # GitHub忽略文件
+│ .gitignore               # GitHub忽略文件
 │
 └─.github
    └─workflows
-      └─deploy.yml     # GitHub Actions文件
+      └─GitHubPages.yaml   # GitHub Actions文件
 ```
 
-### ```.gitignore```
+::: code-group
 
-```txt
-# VitePress的dev文件夹
-.vitepress/cache/
+<<< @/.gitignore{txt}
 
-# VitePress的build文件夹
-.vitepress/dist/
+<<< @/.github/workflows/GitHubPages.yaml
 
-# npm文件夹
-node_modules/
-```
-
-### ```deploy.yml```
-
-```yml
-name: Deploy VitePress site to Pages
-
-on:
-  push:
-    branches: [ main ]
-  workflow_dispatch:
-
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: false
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v4
-      with:
-        fetch-depth: 0
-    - name: Setup Node
-      uses: actions/setup-node@v4
-      with:
-        node-version: latest
-        cache: npm
-    - name: Setup Pages
-      uses: actions/configure-pages@v4
-    - name: Install dependencies
-      run: npm install
-    - name: Build with VitePress
-      run: npm run docs:build
-    - name: Upload artifact
-      uses: actions/upload-pages-artifact@v3
-      with:
-        path: .vitepress/dist
-
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    needs: build
-    runs-on: ubuntu-latest
-    name: Deploy
-    steps:
-    - name: Deploy to GitHub Pages
-      id: deployment
-      uses: actions/deploy-pages@v4
-```
+:::
 
 ## 检查文件
 
