@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-03-01T10:56:00+8:00
+lastUpdated: 2025-03-01T11:00:00+8:00
 ---
 
 # VitePress建站教程
@@ -93,20 +93,20 @@ lastUpdated: 2025-03-01T10:56:00+8:00
 2. 新建以下文件或文件夹：
 
 ```ansi
-│ .gitignore           # GitHub忽略文件
+│ .gitignore               # GitHub忽略文件
 │
 └─.github
    └─workflows
-      └─deploy.yml     # GitHub Actions文件
+      └─GitHubPages.yaml   # GitHub Actions文件
 ```
 
-### ```.gitignore```
+::: code-group
 
 <<< @/.gitignore{txt}
 
-### ```GitHubPages.yaml```
-
 <<< @/.github/workflows/GitHubPages.yaml
+
+:::
 
 ## 检查文件
 
