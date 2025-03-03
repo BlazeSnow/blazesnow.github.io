@@ -7,7 +7,6 @@
     "docs:preview": "vitepress preview"
   },
   "devDependencies": {
-    "@fontsource/monaspace-neon": "^5.2.5",
     "vitepress": "^1.6.3"
   }
 }

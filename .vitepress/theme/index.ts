@@ -1,5 +1,4 @@
 import DefaultTheme from 'vitepress/theme'
-import '@fontsource/monaspace-neon'
 import './fonts.css'
 import './color.css'
 import { h } from 'vue'
