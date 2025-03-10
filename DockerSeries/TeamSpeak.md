@@ -39,7 +39,7 @@ lastUpdated: 2025-01-02T15:13:00+8:00
 ```yml
 services:
   teamspeak:
-    image: teamspeak:latest
+    image: teamspeak
     container_name: teamspeak
     restart: always
     ports:
