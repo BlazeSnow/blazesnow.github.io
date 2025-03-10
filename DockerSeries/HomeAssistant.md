@@ -37,7 +37,7 @@ lastUpdated: 2024-12-17T16:19:00+8:00
 ```yml
 services:
   homeassistant:
-    image: homeassistant/home-assistant:latest
+    image: homeassistant/home-assistant
     container_name: homeassistant
     privileged: true
     restart: always

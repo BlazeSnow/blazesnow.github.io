@@ -33,7 +33,7 @@ lastUpdated: 2024-11-24T21:59:00+8:00
 ```yml{10}
 services:
   sftp:
-    image: atmoz/sftp:latest
+    image: atmoz/sftp
     container_name: sftp
     restart: always
     volumes:

@@ -36,7 +36,7 @@ lastUpdated: 2024-12-03T22:02:00+8:00
 ```yml
 services:
   nfs-server:
-    image: itsthenetwork/nfs-server-alpine:latest
+    image: itsthenetwork/nfs-server-alpine
     container_name: nfs-server
     privileged: true
     restart: always
