@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-02-17T10:23:00+8:00
+lastUpdated: 2025-03-14T16:12:00+8:00
 ---
 
 # Clang
@@ -17,25 +17,18 @@ lastUpdated: 2025-02-17T10:23:00+8:00
 ### 安装Clang
 
 1. 打开Clang的GitHub下载界面：<https://github.com/llvm/llvm-project/releases>
-2. 下载```clang+llvm-版本号-x86_64-pc-windows-msvc.tar.xz```
-3. 解压缩至```C:\```目录下，最终路径如：```C:\clang+llvm-版本号-x86_64-pc-windows-msvc```
-4. 按下```Windows徽标```+```R```
-5. 输入并回车：```SystemPropertiesAdvanced```
-6. 点击```环境变量```
-7. 在下方的```系统变量```中双击```Path```
-8. 点击```新建```
-9. 输入```C:\clang+llvm-版本号-x86_64-pc-windows-msvc\bin```
-10. 保存并关闭
-11. 按下```Windows徽标```+```X```
-12. 选择```终端```
-13. 输入并回车：```clang++.exe --version```
-14. 若显示以下内容则安装成功
+2. 下载```LLVM-版本号-win64.exe```
+3. 运行并安装，选择```Add LLVM to the system PATH for all users```
+4. 按下```Windows徽标```+```X```
+5. 选择```终端```
+6. 输入并回车：```clang++.exe --version```
+7. 若显示以下内容则安装成功
 
 ```ansi
 clang version 版本号
 Target: x86_64-pc-windows-msvc
 Thread model: posix
-InstalledDir: C:\clang+llvm-版本号-x86_64-pc-windows-msvc\bin
+InstalledDir: C:\Program Files\LLVM\bin
 ```
 
 ### 安装MSVC
