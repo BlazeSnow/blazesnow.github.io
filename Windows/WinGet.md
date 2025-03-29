@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-01-03T17:07:00+8:00
+lastUpdated: 2025-03-29T11:32:00+8:00
 ---
 
 # 安装WinGet | Windows
@@ -10,12 +10,16 @@ lastUpdated: 2025-01-03T17:07:00+8:00
 
 ## 说明
 
-> 本网站的Windows版块使用WinGet安装内容，需要准备WinGet以继续教程，WinGet通常会由Windows系统自动安装。
+本网站的Windows版块使用WinGet安装内容，需要准备WinGet以继续教程，WinGet通常会由Windows系统自动安装。
 
 ## 确认安装
 
 1. 按下```Windows徽标```+```X```
 2. 选中```终端管理员```
 3. 输入并回车：```winget --version```
-4. 若返回版本号，则已安装
-5. 若发生错误，则输入：```Add-AppxPackage -RegisterByFamilyName -MainPackage Microsoft.DesktopAppInstaller_8wekyb3d8bbwe```
+
+## 手动安装
+
+```powershell
+Add-AppxPackage -RegisterByFamilyName -MainPackage Microsoft.DesktopAppInstaller_8wekyb3d8bbwe
+```
