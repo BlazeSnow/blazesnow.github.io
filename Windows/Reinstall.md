@@ -14,7 +14,6 @@ lastUpdated: 2025-01-03T16:38:00+8:00
 6. 对下载的```Win11_版本号_语言_x64.iso```，解压缩到空闲位置
 7. 运行其中的```setup.exe```
 
-
 ## 使用U盘安装
 
 1. 跳转至Windows网站：<https://www.microsoft.com/zh-cn/software-download/windows11>
