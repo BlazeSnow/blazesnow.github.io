@@ -1,10 +1,17 @@
-blazesnow.cn, www.blazesnow.cn {
+:80 {
 	root * /app
-	try_files {path} {path}.html {path}/
-	file_server
 
 	@assets path /assets/*
-	header @assets Cache-Control "public, immutable, max-age=31536000"
+
+	route @assets {
+		header Cache-Control "public, immutable, max-age=31536000"
+		file_server
+	}
+
+	route {
+		try_files {path} {path}.html
+		file_server
+	}
 
 	handle_errors {
 		rewrite * /404.html
