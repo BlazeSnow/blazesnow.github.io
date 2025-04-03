@@ -17,7 +17,7 @@ FROM caddy:alpine
 # 设置工作目录
 WORKDIR /app
 
-# 复制构建的静态文件到 Nginx 的服务目录
+# 复制构建的静态文件
 COPY --from=build /app/.vitepress/dist /app/
 
 # 自定义 Caddy 配置文件
