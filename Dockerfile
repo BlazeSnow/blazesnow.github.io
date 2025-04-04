@@ -8,7 +8,8 @@ WORKDIR /app
 COPY . /app/
 
 # 安装依赖并构建静态文件
-RUN npm ci
+RUN npm install npm -g
+RUN npm ci --registry https://registry.npmjs.org/
 RUN npm run docs:build
 
 # 生产环境
