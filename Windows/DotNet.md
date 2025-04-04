@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-02-05T17:05:00+8:00
+lastUpdated: 2025-04-04T23:03:00+8:00
 ---
 
 # 安装.NET | Windows
@@ -32,6 +32,10 @@ winget install Microsoft.DotNet.AspNetCore.7
 winget install Microsoft.DotNet.AspNetCore.6
 winget install Microsoft.DotNet.AspNetCore.5
 winget install Microsoft.DotNet.AspNetCore.3_1
+winget install Microsoft.DotNet.AspNetCore.3_0
+winget install Microsoft.DotNet.AspNetCore.2_2_402
+winget install Microsoft.DotNet.AspNetCore.2_2
+winget install Microsoft.DotNet.AspNetCore.2_1
 ```
 
 ## .NET运行时
