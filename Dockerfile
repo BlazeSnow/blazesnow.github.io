@@ -13,7 +13,7 @@ RUN npm ci --registry https://registry.npmjs.org/
 RUN npm run docs:build
 
 # 生产环境
-FROM nginx:stable-alpine
+FROM nginx:mainline-alpine
 
 # 设置工作目录
 WORKDIR /app
@@ -26,7 +26,6 @@ COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 # 暴露 HTTP 端口
 EXPOSE 80
-EXPOSE 443
 
 # 启动 Nginx
 CMD ["nginx", "-g", "daemon off;"]
