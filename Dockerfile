@@ -13,7 +13,7 @@ RUN npm ci --registry https://registry.npmjs.org/
 RUN npm run docs:build
 
 # 生产环境
-FROM nginx:stable-alpine
+FROM nginx:mainline-alpine
 
 # 设置工作目录
 WORKDIR /app
