@@ -90,9 +90,4 @@ import card from "./card.vue"
       本网站的更多信息
     </template>
   </card>
-  <card title="网站状态" link="https://blazesnow.statuspage.io/" target="_blank">
-    <template #description>
-      查看本网站的运行状态及可用域名
-    </template>
-  </card>
 </template>

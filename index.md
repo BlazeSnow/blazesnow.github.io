@@ -10,6 +10,9 @@ hero:
 
 <script setup>
 import index from './.homepage/index.vue'
+import status from './.homepage/status.vue'
 </script>
 
 <index />
+
+<status />
