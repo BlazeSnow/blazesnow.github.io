@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-02-03T17:10:00+8:00
+lastUpdated: 2025-04-23T23:02:00+8:00
 titleTemplate: 'BlazeSnow帮助网站'
 layout: home
 
