@@ -6,7 +6,7 @@ export default defineConfig({
   //网页标题
   title: 'BlazeSnow帮助网站',
   //网页描述
-  description: 'BlazeSnow帮助网站，专注于分享知识。',
+  description: 'BlazeSnow帮助网站,专注于分享知识.',
   //网页标题
   titleTemplate: ':title | BlazeSnow帮助网站',
   //头文件配置
@@ -68,7 +68,7 @@ export default defineConfig({
       },
       {
         icon: 'github',
-        link: 'https://github.com/BlazeSnow'
+        link: 'https://github.com/BlazeSnow/blazesnow.github.io'
       }
     ],
     //上一篇下一篇
@@ -233,7 +233,7 @@ export default defineConfig({
           items: [
             {
               text: '2025年',
-              collapsed: false,
+              collapsed: true,
               items: [
                 { text: '2025年4月', link: '/CHANGELOG/' },
                 { text: '2025年3月', link: '/CHANGELOG/2025March' },
@@ -243,7 +243,7 @@ export default defineConfig({
             },
             {
               text: '2024年',
-              collapsed: false,
+              collapsed: true,
               items: [
                 { text: '2024年12月', link: '/CHANGELOG/2024December' },
                 { text: '2024年11月', link: '/CHANGELOG/2024November' },
