@@ -229,83 +229,74 @@ export default defineConfig({
     sidebar: {
       '/CHANGELOG/': [
         {
-          text: '更新日志',
+          text: '2025年',
+          collapsed: true,
           items: [
-            {
-              text: '2025年',
-              collapsed: true,
-              items: [
-                { text: '2025年5月', link: '/CHANGELOG/' },
-                { text: '2025年4月', link: '/CHANGELOG/2025April' },
-                { text: '2025年3月', link: '/CHANGELOG/2025March' },
-                { text: '2025年2月', link: '/CHANGELOG/2025February' },
-                { text: '2025年1月', link: '/CHANGELOG/2025January' },
-              ]
-            },
-            {
-              text: '2024年',
-              collapsed: true,
-              items: [
-                { text: '2024年12月', link: '/CHANGELOG/2024December' },
-                { text: '2024年11月', link: '/CHANGELOG/2024November' },
-                { text: '2024年10月', link: '/CHANGELOG/2024October' },
-                { text: '2024年9月', link: '/CHANGELOG/2024September' },
-                { text: '2024年8月', link: '/CHANGELOG/2024August' },
-                { text: '2024年7月', link: '/CHANGELOG/2024July' },
-                { text: '2024年6月', link: '/CHANGELOG/2024June' },
-                { text: '2024年5月', link: '/CHANGELOG/2024May' },
-              ]
-            },
+            { text: '2025年5月', link: '/CHANGELOG/' },
+            { text: '2025年4月', link: '/CHANGELOG/2025April' },
+            { text: '2025年3月', link: '/CHANGELOG/2025March' },
+            { text: '2025年2月', link: '/CHANGELOG/2025February' },
+            { text: '2025年1月', link: '/CHANGELOG/2025January' },
+          ],
+        },
+        {
+          text: '2024年',
+          collapsed: true,
+          items: [
+            { text: '2024年12月', link: '/CHANGELOG/2024December' },
+            { text: '2024年11月', link: '/CHANGELOG/2024November' },
+            { text: '2024年10月', link: '/CHANGELOG/2024October' },
+            { text: '2024年9月', link: '/CHANGELOG/2024September' },
+            { text: '2024年8月', link: '/CHANGELOG/2024August' },
+            { text: '2024年7月', link: '/CHANGELOG/2024July' },
+            { text: '2024年6月', link: '/CHANGELOG/2024June' },
+            { text: '2024年5月', link: '/CHANGELOG/2024May' },
           ]
-        }
+        },
       ],
       '/Windows/': [
         {
-          text: 'Windows',
+          text: '系统',
           items: [
             { text: '前言', link: '/Windows/' },
-            {
-              text: '安装',
-              collapsed: true,
-              items: [
-                { text: '更新Windows', link: '/Windows/Update' },
-                { text: '修复Windows', link: '/Windows/Repair' },
-                { text: '重新安装Windows', link: '/Windows/Reinstall' },
-              ]
-            },
-            {
-              text: '运行库',
-              collapsed: true,
-              items: [
-                { text: '安装WinGet', link: '/Windows/WinGet' },
-                { text: '安装C++运行库', link: '/Windows/VCRedist' },
-                { text: '安装.NET', link: '/Windows/DotNet' },
-                { text: '安装Java', link: '/Windows/Java' },
-                { text: '安装Python', link: '/Windows/Python' },
-              ]
-            },
-            {
-              text: '文件',
-              collapsed: true,
-              items: [
-                { text: '显示后缀名和隐藏文件', link: '/Windows/Extension' },
-                { text: '创建快捷方式', link: '/Windows/Shortcuts' },
-                { text: '重启文件资源管理器', link: '/Windows/RestartFileExplorer' },
-                { text: '删除新建文件类型', link: '/Windows/RemoveFileType' },
-                { text: '删除右键菜单项', link: '/Windows/RemoveRightClickItem' },
-                { text: '修复桌面图标', link: '/Windows/ClearIconCache' },
-                { text: '计算哈希值', link: '/Windows/Hash' },
-              ]
-            },
-            {
-              text: '清理',
-              collapsed: true,
-              items: [
-                { text: '磁盘清理', link: '/Windows/Cleanmgr' },
-                { text: '清理软件卸载残留', link: '/Windows/RemoveUninstallRemnants' },
-                { text: '清理微软商店残留', link: '/Windows/RemoveMicrosoftStoreRemnants' },
-              ]
-            },
+            { text: '更新', link: '/Windows/Update' },
+            { text: '修复', link: '/Windows/Repair' },
+            { text: '重新安装', link: '/Windows/Reinstall' },
+          ]
+        },
+        {
+          text: '运行库',
+          items: [
+            { text: '安装WinGet', link: '/Windows/WinGet' },
+            { text: '安装C++运行库', link: '/Windows/VCRedist' },
+            { text: '安装.NET', link: '/Windows/DotNet' },
+            { text: '安装Java', link: '/Windows/Java' },
+            { text: '安装Python', link: '/Windows/Python' },
+          ]
+        },
+        {
+          text: '文件',
+          items: [
+            { text: '显示后缀名和隐藏文件', link: '/Windows/Extension' },
+            { text: '创建快捷方式', link: '/Windows/Shortcuts' },
+            { text: '重启文件资源管理器', link: '/Windows/RestartFileExplorer' },
+            { text: '删除新建文件类型', link: '/Windows/RemoveFileType' },
+            { text: '删除右键菜单项', link: '/Windows/RemoveRightClickItem' },
+            { text: '修复桌面图标', link: '/Windows/ClearIconCache' },
+            { text: '计算哈希值', link: '/Windows/Hash' },
+          ]
+        },
+        {
+          text: '清理',
+          items: [
+            { text: '磁盘清理', link: '/Windows/Cleanmgr' },
+            { text: '清理软件卸载残留', link: '/Windows/RemoveUninstallRemnants' },
+            { text: '清理微软商店残留', link: '/Windows/RemoveMicrosoftStoreRemnants' },
+          ]
+        },
+        {
+          text: '其他',
+          items: [
             { text: '应用最新TLS', link: '/Windows/TLS' },
             { text: '查看蓝屏文件', link: '/Windows/BlueScreen' },
             { text: '系统配置', link: '/Windows/Msconfig' },
