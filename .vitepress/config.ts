@@ -230,7 +230,6 @@ export default defineConfig({
       '/CHANGELOG/': [
         {
           text: '2025年',
-          collapsed: true,
           items: [
             { text: '2025年5月', link: '/CHANGELOG/' },
             { text: '2025年4月', link: '/CHANGELOG/2025April' },
@@ -241,7 +240,6 @@ export default defineConfig({
         },
         {
           text: '2024年',
-          collapsed: true,
           items: [
             { text: '2024年12月', link: '/CHANGELOG/2024December' },
             { text: '2024年11月', link: '/CHANGELOG/2024November' },
@@ -294,202 +292,132 @@ export default defineConfig({
             { text: '清理微软商店残留', link: '/Windows/RemoveMicrosoftStoreRemnants' },
           ]
         },
-        {
-          text: '其他',
-          items: [
-            { text: '应用最新TLS', link: '/Windows/TLS' },
-            { text: '查看蓝屏文件', link: '/Windows/BlueScreen' },
-            { text: '系统配置', link: '/Windows/Msconfig' },
-            { text: '设置环境变量', link: '/Windows/EnvironmentVariables' },
-          ]
-        }
+        { text: '应用最新TLS', link: '/Windows/TLS' },
+        { text: '查看蓝屏文件', link: '/Windows/BlueScreen' },
+        { text: '系统配置', link: '/Windows/Msconfig' },
+        { text: '设置环境变量', link: '/Windows/EnvironmentVariables' },
       ],
       '/DNSEncryption/': [
-        {
-          text: 'DNS加密',
-          items: [
-            { text: '前言', link: '/DNSEncryption/' },
-            { text: 'Windows设备', link: '/DNSEncryption/Windows' },
-            { text: 'Android设备', link: '/DNSEncryption/Android' },
-            { text: 'Apple设备', link: '/DNSEncryption/Apple' },
-            { text: 'DNS大全', link: '/DNSEncryption/Collection' }
-          ]
-        }
+        { text: '前言', link: '/DNSEncryption/' },
+        { text: 'Windows设备', link: '/DNSEncryption/Windows' },
+        { text: 'Android设备', link: '/DNSEncryption/Android' },
+        { text: 'Apple设备', link: '/DNSEncryption/Apple' },
+        { text: 'DNS大全', link: '/DNSEncryption/Collection' }
       ],
       '/Nodejs/': [
-        {
-          text: 'Nodejs',
-          items: [
-            { text: '前言', link: '/Nodejs/' },
-            { text: '安装Nodejs', link: '/Nodejs/Install' },
-            { text: '引入npm', link: '/Nodejs/Init' },
-            { text: 'npm管理包', link: '/Nodejs/Manage' },
-            { text: 'npm后缀', link: '/Nodejs/Parameter' },
-            { text: 'npm配置文件', link: '/Nodejs/Npmrc' },
-            { text: 'npm换源', link: '/Nodejs/Mirror' },
-            { text: 'npm代理', link: '/Nodejs/Proxy' },
-            { text: 'npm缓存', link: '/Nodejs/Cache' },
-          ]
-        }
+        { text: '前言', link: '/Nodejs/' },
+        { text: '安装Nodejs', link: '/Nodejs/Install' },
+        { text: '引入npm', link: '/Nodejs/Init' },
+        { text: 'npm管理包', link: '/Nodejs/Manage' },
+        { text: 'npm后缀', link: '/Nodejs/Parameter' },
+        { text: 'npm配置文件', link: '/Nodejs/Npmrc' },
+        { text: 'npm换源', link: '/Nodejs/Mirror' },
+        { text: 'npm代理', link: '/Nodejs/Proxy' },
+        { text: 'npm缓存', link: '/Nodejs/Cache' },
       ],
       '/Ubuntu/': [
         {
-          text: 'Ubuntu',
+          text: '系统',
           items: [
             { text: '前言', link: '/Ubuntu/' },
-            {
-              text: '系统',
-              collapsed: true,
-              items: [
-                { text: '安装Ubuntu', link: '/Ubuntu/Install' },
-                { text: '检查磁盘类型', link: '/Ubuntu/Parted' },
-                { text: '安装分区推荐', link: '/Ubuntu/Partition' },
-                { text: '安装SSH', link: '/Ubuntu/SSH' },
-                { text: 'SSH超级用户权限', link: '/Ubuntu/SSHSuperUser' },
-                { text: '查看硬件配置', link: '/Ubuntu/Hardware' },
-                { text: '管理防火墙', link: '/Ubuntu/Firewall' },
-              ]
-            },
-            {
-              text: '时间',
-              collapsed: true,
-              items: [
-                { text: '同步系统时间', link: '/Ubuntu/SyncTime' },
-                { text: '双系统的时间差8小时', link: '/Ubuntu/SystemTimeDifference' },
-              ]
-            },
-            {
-              text: '文件处理',
-              collapsed: true,
-              items: [
-                { text: '命令行处理文件夹', link: '/Ubuntu/TerminalFolders' },
-                { text: '命令行处理文件', link: '/Ubuntu/TerminalFile' },
-                { text: '文件权限', link: '/Ubuntu/Chmod' },
-                { text: '修改文件所有者', link: '/Ubuntu/Chown' },
-                { text: '压缩文件', link: '/Ubuntu/Tar' },
-                { text: '下载文件', link: '/Ubuntu/Curl' },
-              ]
-            },
-            {
-              text: '包管理',
-              collapsed: true,
-              items: [
-                { text: 'apt', link: '/Ubuntu/Apt' },
-                { text: 'apt换源', link: '/Ubuntu/AptMirror' },
-                { text: 'dpkg', link: '/Ubuntu/Dpkg' },
-              ]
-            },
-            { text: '自动化脚本', link: '/Ubuntu/Crontab' },
-            { text: '激活UbuntuPro', link: '/Ubuntu/UbuntuPro' },
-            { text: '无法更新SnapStore', link: '/Ubuntu/UpdateSnapStore' },
+            { text: '安装Ubuntu', link: '/Ubuntu/Install' },
+            { text: '检查磁盘类型', link: '/Ubuntu/Parted' },
+            { text: '安装分区推荐', link: '/Ubuntu/Partition' },
+            { text: '安装SSH', link: '/Ubuntu/SSH' },
+            { text: 'SSH超级用户权限', link: '/Ubuntu/SSHSuperUser' },
+            { text: '查看硬件配置', link: '/Ubuntu/Hardware' },
+            { text: '管理防火墙', link: '/Ubuntu/Firewall' },
           ]
-        }
+        },
+        {
+          text: '时间',
+          items: [
+            { text: '同步系统时间', link: '/Ubuntu/SyncTime' },
+            { text: '双系统的时间差8小时', link: '/Ubuntu/SystemTimeDifference' },
+          ]
+        },
+        {
+          text: '文件处理',
+          items: [
+            { text: '命令行处理文件夹', link: '/Ubuntu/TerminalFolders' },
+            { text: '命令行处理文件', link: '/Ubuntu/TerminalFile' },
+            { text: '文件权限', link: '/Ubuntu/Chmod' },
+            { text: '修改文件所有者', link: '/Ubuntu/Chown' },
+            { text: '压缩文件', link: '/Ubuntu/Tar' },
+            { text: '下载文件', link: '/Ubuntu/Curl' },
+          ]
+        },
+        {
+          text: '包管理',
+          items: [
+            { text: 'apt', link: '/Ubuntu/Apt' },
+            { text: 'apt换源', link: '/Ubuntu/AptMirror' },
+            { text: 'dpkg', link: '/Ubuntu/Dpkg' },
+          ]
+        },
+        { text: '自动化脚本', link: '/Ubuntu/Crontab' },
+        { text: '激活UbuntuPro', link: '/Ubuntu/UbuntuPro' },
+        { text: '无法更新SnapStore', link: '/Ubuntu/UpdateSnapStore' },
       ],
       '/Android/': [
-        {
-          text: 'Android',
-          items: [
-            { text: '前言', link: '/Android/' },
-            { text: 'WiFi感叹号', link: '/Android/WiFi' },
-            { text: '时间同步', link: '/Android/SyncTime' }]
-        }
+        { text: '前言', link: '/Android/' },
+        { text: 'WiFi感叹号', link: '/Android/WiFi' },
+        { text: '时间同步', link: '/Android/SyncTime' }
       ],
       '/Docker/': [
-        {
-          text: 'Docker',
-          items: [
-            { text: '前言', link: '/Docker/' },
-            {
-              text: '安装Docker',
-              collapsed: true,
-              items: [
-                { text: '安装Docker', link: '/Docker/Install' },
-                { text: '安装IO发行版', link: '/Docker/InstallIO' },
-                { text: '安装CE发行版', link: '/Docker/InstallCE' },
-              ]
-            },
-            { text: '运行Docker', link: '/Docker/Systemctl' },
-            { text: 'Docker换源', link: '/Docker/Mirror' },
-            { text: '管理镜像', link: '/Docker/Image' },
-            { text: '管理容器', link: '/Docker/Container' },
-            { text: '容器镜像服务', link: '/Docker/MirrorService' },
-            { text: '传递镜像', link: '/Docker/Transfer' },
-            { text: 'Compose文件', link: '/Docker/Compose' },
-          ]
-        }
+        { text: '前言', link: '/Docker/' },
+        { text: '安装Docker', link: '/Docker/Install' },
+        { text: '安装IO发行版', link: '/Docker/InstallIO' },
+        { text: '安装CE发行版', link: '/Docker/InstallCE' },
+        { text: '运行Docker', link: '/Docker/Systemctl' },
+        { text: 'Docker换源', link: '/Docker/Mirror' },
+        { text: '管理镜像', link: '/Docker/Image' },
+        { text: '管理容器', link: '/Docker/Container' },
+        { text: '容器镜像服务', link: '/Docker/MirrorService' },
+        { text: '传递镜像', link: '/Docker/Transfer' },
+        { text: 'Compose文件', link: '/Docker/Compose' },
       ],
       '/Git/': [
-        {
-          text: 'Git',
-          items: [
-            { text: '前言', link: '/Git/' },
-            { text: '安装Git', link: '/Git/Install' },
-            { text: '处理仓库', link: '/Git/Repository' },
-            { text: '处理远程仓库', link: '/Git/RemoteRepository' },
-            { text: '处理分支', link: '/Git/Branches' },
-            { text: 'SSH连接仓库', link: '/Git/SSH' },
-          ]
-        }
+        { text: '前言', link: '/Git/' },
+        { text: '安装Git', link: '/Git/Install' },
+        { text: '处理仓库', link: '/Git/Repository' },
+        { text: '处理远程仓库', link: '/Git/RemoteRepository' },
+        { text: '处理分支', link: '/Git/Branches' },
+        { text: 'SSH连接仓库', link: '/Git/SSH' },
       ],
       '/CMake/': [
-        {
-          text: 'CMake',
-          items: [
-            { text: '前言', link: '/CMake/' },
-            { text: '安装环境', link: '/CMake/Install' },
-            { text: '添加配置文件', link: '/CMake/Init' },
-            { text: '安装vcpkg', link: '/CMake/Vcpkg' },
-            { text: 'vcpkg添加库', link: '/CMake/VcpkgInstall' },
-          ]
-        }
+        { text: '前言', link: '/CMake/' },
+        { text: '安装环境', link: '/CMake/Install' },
+        { text: '添加配置文件', link: '/CMake/Init' },
+        { text: '安装vcpkg', link: '/CMake/Vcpkg' },
+        { text: 'vcpkg添加库', link: '/CMake/VcpkgInstall' },
       ],
       '/FrpClientAndServer/': [
-        {
-          text: '搭建内网穿透服务',
-          items: [
-            { text: '前言', link: '/FrpClientAndServer/' },
-            { text: '服务端', link: '/FrpClientAndServer/Server' },
-            { text: '客户端', link: '/FrpClientAndServer/Client' },
-          ]
-        }
+        { text: '前言', link: '/FrpClientAndServer/' },
+        { text: '服务端', link: '/FrpClientAndServer/Server' },
+        { text: '客户端', link: '/FrpClientAndServer/Client' },
       ],
       '/DockerSeries/': [
-        {
-          text: 'Docker系列',
-          items: [
-            { text: '前言', link: '/DockerSeries/' },
-            { text: '非官方镜像', link: '/DockerSeries/UnofficialMirror' },
-            {
-              text: '文件共享服务器',
-              collapsed: true,
-              items: [
-                { text: 'FTP', link: '/DockerSeries/FTP' },
-                { text: 'SFTP', link: '/DockerSeries/SFTP' },
-                { text: 'Webdav', link: '/DockerSeries/Webdav' },
-                { text: 'SMB', link: '/DockerSeries/SMB' },
-                { text: 'Alist', link: '/DockerSeries/Alist' },
-                { text: 'NFS', link: '/DockerSeries/NFS' },
-              ]
-            },
-            { text: '我的世界服务器', link: '/DockerSeries/MinecraftServer' },
-            { text: '家庭域名服务器', link: '/DockerSeries/AdGuardHome' },
-            { text: '密码服务器', link: '/DockerSeries/Vaultwarden' },
-            { text: '文件快递柜', link: '/DockerSeries/FileCodeBox' },
-            { text: '消息推送器', link: '/DockerSeries/Ntfy' },
-            { text: '智能家居中枢', link: '/DockerSeries/HomeAssistant' },
-            { text: '语音服务器', link: '/DockerSeries/TeamSpeak' },
-          ]
-        }
+        { text: '前言', link: '/DockerSeries/' },
+        { text: '非官方镜像', link: '/DockerSeries/UnofficialMirror' },
+        { text: 'FTP', link: '/DockerSeries/FTP' },
+        { text: 'SFTP', link: '/DockerSeries/SFTP' },
+        { text: 'Webdav', link: '/DockerSeries/Webdav' },
+        { text: 'SMB', link: '/DockerSeries/SMB' },
+        { text: 'Alist', link: '/DockerSeries/Alist' },
+        { text: 'NFS', link: '/DockerSeries/NFS' },
+        { text: '我的世界服务器', link: '/DockerSeries/MinecraftServer' },
+        { text: '家庭域名服务器', link: '/DockerSeries/AdGuardHome' },
+        { text: '密码服务器', link: '/DockerSeries/Vaultwarden' },
+        { text: '文件快递柜', link: '/DockerSeries/FileCodeBox' },
+        { text: '消息推送器', link: '/DockerSeries/Ntfy' },
+        { text: '智能家居中枢', link: '/DockerSeries/HomeAssistant' },
+        { text: '语音服务器', link: '/DockerSeries/TeamSpeak' },
       ],
       '/Nginx/': [
-        {
-          text: 'Nginx',
-          items: [
-            { text: '前言', link: '/Nginx/' },
-            { text: '自签名SSL', link: '/Nginx/SelfSignedSSL' },
-            { text: '反向代理', link: '/Nginx/ReverseProxy' },
-          ]
-        }
+        { text: '前言', link: '/Nginx/' },
+        { text: '自签名SSL', link: '/Nginx/SelfSignedSSL' },
+        { text: '反向代理', link: '/Nginx/ReverseProxy' },
       ],
     },
     //上次更新于

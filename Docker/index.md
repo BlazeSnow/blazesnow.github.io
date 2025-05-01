@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-02-14T17:43:00+8:00
+lastUpdated: 2025-05-01T14:55:00+8:00
 ---
 
 # 前言 | Docker
@@ -10,4 +10,4 @@ lastUpdated: 2025-02-14T17:43:00+8:00
 
 官方网站：<https://www.docker.com/>
 
-本章主要介绍```Ubuntu```系统的```Docker```知识
+本章主要介绍```Ubuntu```系统的```Docker```知识，对于```Windows```系统，直接安装```Docker Desktop```后，使用命令行操作即可。
