@@ -188,11 +188,6 @@ export default defineConfig({
             activeMatch: '/Git/'
           },
           {
-            text: 'Clang',
-            link: '/Clang/',
-            activeMatch: '/Clang/'
-          },
-          {
             text: 'VitePress建站教程',
             link: '/VitePress/',
             activeMatch: '/VitePress/'
