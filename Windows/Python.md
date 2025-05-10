@@ -10,7 +10,7 @@ lastUpdated: 2025-01-03T19:43:00+8:00
 
 ## Python
 
-```bash
+```powershell
 winget install Python.Python.3.13
 winget install Python.Python.3.12
 winget install Python.Python.3.11
@@ -30,7 +30,7 @@ winget install Python.Python.2
 
 ## Conda
 
-```bash
+```powershell
 winget install Anaconda.Miniconda3
 winget install Anaconda.Anaconda3
 ```
