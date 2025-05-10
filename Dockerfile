@@ -1,5 +1,5 @@
 # 构建环境
-FROM node:23-alpine AS build
+FROM node:current-alpine AS build
 
 # 设置工作目录
 WORKDIR /app
@@ -9,7 +9,7 @@ COPY . /app/
 
 # 安装依赖并构建静态文件
 RUN npm install npm -g
-RUN npm ci --registry https://registry.npmjs.org/
+RUN npm ci
 RUN npm run docs:build
 
 # 生产环境

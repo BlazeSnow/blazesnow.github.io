@@ -14,7 +14,7 @@ lastUpdated: 2025-01-03T17:24:00+8:00
 
 ## 64位
 
-```bash
+```powershell
 winget install Microsoft.VCRedist.2015+.x64
 winget install Microsoft.VCRedist.2013.x64
 winget install Microsoft.VCRedist.2012.x64
@@ -25,7 +25,7 @@ winget install Microsoft.VCRedist.2005.x64
 
 ## 32位
 
-```bash
+```powershell
 winget install Microsoft.VCRedist.2015+.x86
 winget install Microsoft.VCRedist.2013.x86
 winget install Microsoft.VCRedist.2012.x86
@@ -36,7 +36,7 @@ winget install Microsoft.VCRedist.2005.x86
 
 ## ARM
 
-```bash
+```powershell
 winget install Microsoft.VCRedist.2022.arm64
 winget install Microsoft.VCRedist.2015+.arm64
 ```

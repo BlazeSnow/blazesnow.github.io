@@ -371,6 +371,7 @@ export default defineConfig({
         { text: '容器镜像服务', link: '/Docker/MirrorService' },
         { text: '传递镜像', link: '/Docker/Transfer' },
         { text: 'Compose文件', link: '/Docker/Compose' },
+        { text: '清理缓存', link: '/Docker/Prune' },
       ],
       '/Git/': [
         { text: '前言', link: '/Git/' },

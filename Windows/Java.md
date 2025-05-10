@@ -13,13 +13,13 @@ lastUpdated: 2025-03-29T11:19:00+8:00
 
 ## Java
 
-```bash
+```powershell
 winget install Oracle.JavaRuntimeEnvironment
 ```
 
 ## JDK Development Kit
 
-```bash
+```powershell
 winget install Oracle.JDK.24
 winget install Oracle.JDK.23
 winget install Oracle.JDK.22
