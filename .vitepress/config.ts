@@ -135,11 +135,6 @@ export default defineConfig({
             link: '/Ubuntu/',
             activeMatch: '/Ubuntu/'
           },
-          {
-            text: 'DNS加密',
-            link: '/DNSEncryption/',
-            activeMatch: '/DNSEncryption/'
-          },
         ]
       },
       {
@@ -167,6 +162,11 @@ export default defineConfig({
         text: '更多',
         activeMatch: '/Nodejs/',
         items: [
+          {
+            text: 'DNS加密',
+            link: '/DNSEncryption/',
+            activeMatch: '/DNSEncryption/'
+          },
           {
             text: 'Android',
             link: '/Android/',
