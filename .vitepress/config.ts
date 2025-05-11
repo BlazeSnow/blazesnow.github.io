@@ -395,7 +395,6 @@ export default defineConfig({
       ],
       '/DockerSeries/': [
         { text: '前言', link: '/DockerSeries/' },
-        { text: '非官方镜像', link: '/DockerSeries/UnofficialMirror' },
         { text: 'FTP', link: '/DockerSeries/FTP' },
         { text: 'SFTP', link: '/DockerSeries/SFTP' },
         { text: 'Webdav', link: '/DockerSeries/Webdav' },

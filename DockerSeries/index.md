@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-05-11T15:01:00+8:00
+lastUpdated: 2025-05-11T15:09:00+8:00
 ---
 
 # 前言 | Docker系列
@@ -74,7 +74,7 @@ services:
 
 ## 简单的控制命令
 
-以下是`docker compose`的一些简单控制命令：
+以下是`Docker`的一些简单控制命令：
 
 ```shell
 # 拉取镜像
@@ -87,6 +87,16 @@ docker compose up -d
 docker compose down
 # 重新启动容器
 docker compose restart
+# 查看容器状态
+docker ps -a
+# 拉取镜像
+docker pull 镜像名称
+# 查看镜像状态
+docker images
+# 删除镜像
+docker rmi 镜像id
+# 清理缓存
+docker system prune -f
 ```
 
 > [!TIP]
