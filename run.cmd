@@ -1,1 +1,1 @@
-npm run docs:dev
+npx vitepress dev --host
