@@ -135,11 +135,6 @@ export default defineConfig({
             link: '/Ubuntu/',
             activeMatch: '/Ubuntu/'
           },
-          {
-            text: 'DNS加密',
-            link: '/DNSEncryption/',
-            activeMatch: '/DNSEncryption/'
-          },
         ]
       },
       {
@@ -168,6 +163,11 @@ export default defineConfig({
         activeMatch: '/Nodejs/',
         items: [
           {
+            text: 'DNS加密',
+            link: '/DNSEncryption/',
+            activeMatch: '/DNSEncryption/'
+          },
+          {
             text: 'Android',
             link: '/Android/',
             activeMatch: '/Android/'
@@ -183,9 +183,9 @@ export default defineConfig({
             activeMatch: '/Docker/'
           },
           {
-            text: 'Git',
-            link: '/Git/',
-            activeMatch: '/Git/'
+            text: 'Clang',
+            link: '/Clang/',
+            activeMatch: '/Clang/'
           },
           {
             text: 'VitePress建站教程',
@@ -216,7 +216,6 @@ export default defineConfig({
             text: '网站状态',
             link: 'https://blazesnow.statuspage.io/',
             target: '_blank',
-            rel: 'dns-prefetch',
           },
         ]
       },
@@ -379,14 +378,6 @@ export default defineConfig({
         { text: '处理仓库', link: '/Git/Repository' },
         { text: '处理远程仓库', link: '/Git/RemoteRepository' },
         { text: '处理分支', link: '/Git/Branches' },
-        { text: 'SSH连接仓库', link: '/Git/SSH' },
-      ],
-      '/CMake/': [
-        { text: '前言', link: '/CMake/' },
-        { text: '安装环境', link: '/CMake/Install' },
-        { text: '添加配置文件', link: '/CMake/Init' },
-        { text: '安装vcpkg', link: '/CMake/Vcpkg' },
-        { text: 'vcpkg添加库', link: '/CMake/VcpkgInstall' },
       ],
       '/FrpClientAndServer/': [
         { text: '前言', link: '/FrpClientAndServer/' },
@@ -395,7 +386,6 @@ export default defineConfig({
       ],
       '/DockerSeries/': [
         { text: '前言', link: '/DockerSeries/' },
-        { text: '非官方镜像', link: '/DockerSeries/UnofficialMirror' },
         { text: 'FTP', link: '/DockerSeries/FTP' },
         { text: 'SFTP', link: '/DockerSeries/SFTP' },
         { text: 'Webdav', link: '/DockerSeries/Webdav' },
