@@ -381,13 +381,6 @@ export default defineConfig({
         { text: '处理分支', link: '/Git/Branches' },
         { text: 'SSH连接仓库', link: '/Git/SSH' },
       ],
-      '/CMake/': [
-        { text: '前言', link: '/CMake/' },
-        { text: '安装环境', link: '/CMake/Install' },
-        { text: '添加配置文件', link: '/CMake/Init' },
-        { text: '安装vcpkg', link: '/CMake/Vcpkg' },
-        { text: 'vcpkg添加库', link: '/CMake/VcpkgInstall' },
-      ],
       '/FrpClientAndServer/': [
         { text: '前言', link: '/FrpClientAndServer/' },
         { text: '服务端', link: '/FrpClientAndServer/Server' },
