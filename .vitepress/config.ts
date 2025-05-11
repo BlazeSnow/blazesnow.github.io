@@ -183,11 +183,6 @@ export default defineConfig({
             activeMatch: '/Docker/'
           },
           {
-            text: 'Git',
-            link: '/Git/',
-            activeMatch: '/Git/'
-          },
-          {
             text: 'Clang',
             link: '/Clang/',
             activeMatch: '/Clang/'
@@ -383,7 +378,6 @@ export default defineConfig({
         { text: '处理仓库', link: '/Git/Repository' },
         { text: '处理远程仓库', link: '/Git/RemoteRepository' },
         { text: '处理分支', link: '/Git/Branches' },
-        { text: 'SSH连接仓库', link: '/Git/SSH' },
       ],
       '/FrpClientAndServer/': [
         { text: '前言', link: '/FrpClientAndServer/' },

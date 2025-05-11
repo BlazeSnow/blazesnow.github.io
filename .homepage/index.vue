@@ -57,11 +57,6 @@ import card from "./card.vue"
       Docker是一个开放源代码的开放平台软件，用于开发、交付和运行应用
     </template>
   </card>
-  <card title="Git" link="/Git/">
-    <template #description>
-      Git是一个分布式版本控制软件
-    </template>
-  </card>
   <card title="Clang" link="/Clang/">
     <template #description>
       Clang是一个C、C++、Objective-C和Objective-C++编程语言的编译器前端
