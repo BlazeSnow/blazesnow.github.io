@@ -188,6 +188,11 @@ export default defineConfig({
             activeMatch: '/Git/'
           },
           {
+            text: 'Clang',
+            link: '/Clang/',
+            activeMatch: '/Clang/'
+          },
+          {
             text: 'VitePress建站教程',
             link: '/VitePress/',
             activeMatch: '/VitePress/'
@@ -216,7 +221,6 @@ export default defineConfig({
             text: '网站状态',
             link: 'https://blazesnow.statuspage.io/',
             target: '_blank',
-            rel: 'dns-prefetch',
           },
         ]
       },
