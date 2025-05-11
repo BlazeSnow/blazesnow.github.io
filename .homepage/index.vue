@@ -16,11 +16,6 @@ import card from "./card.vue"
       Ubuntu是基于Debian，以桌面应用为主的Linux发行版
     </template>
   </card>
-  <card title="DNS加密" link="/DNSEncryption/">
-    <template #description>
-      加密DNS通过对查询和响应进行加密，确保数据在传输过程中不被窃听或篡改
-    </template>
-  </card>
   <h2>
     服务器：使用服务器完成操作
   </h2>
@@ -42,6 +37,11 @@ import card from "./card.vue"
   <h2>
     更多内容
   </h2>
+  <card title="DNS加密" link="/DNSEncryption/">
+    <template #description>
+      加密DNS通过对查询和响应进行加密，确保数据在传输过程中不被窃听或篡改
+    </template>
+  </card>
   <card title="Android" link="/Android/">
     <template #description>
       Android是一个基于Linux核心与其他开源软件的开放源代码的移动操作系统
@@ -55,11 +55,6 @@ import card from "./card.vue"
   <card title="Docker" link="/Docker/">
     <template #description>
       Docker是一个开放源代码的开放平台软件，用于开发、交付和运行应用
-    </template>
-  </card>
-  <card title="Git" link="/Git/">
-    <template #description>
-      Git是一个分布式版本控制软件
     </template>
   </card>
   <card title="Clang" link="/Clang/">
