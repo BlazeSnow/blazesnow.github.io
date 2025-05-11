@@ -41,7 +41,7 @@ sudo apt update && sudo apt upgrade -y
 
 以下是一个示例`compose.yml`文件及其解释：
 
-```yaml
+```yml
 services:
   vsftpd:
     # image：镜像名称:版本
@@ -59,9 +59,9 @@ services:
     
     # ports：宿主机端口:容器端口
     ports:
-      - "20:20"
-      - "21:21"
-      - "21100-21110:21100-21110"
+      - 20:20
+      - 21:21
+      - 21100-21110:21100-21110
     
     # environment：环境变量
     environment:
