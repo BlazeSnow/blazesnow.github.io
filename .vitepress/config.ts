@@ -431,7 +431,7 @@ export default defineConfig({
       message: '本网站以<a href="/gpl-3.0.txt" target="_blank">GNU General Public License v3.0</a>的条款发布。'
         + '<br>'
         + '<img src="/beian.png" alt="公安备案图标" style="display:inline-block; vertical-align:middle; width:18px; height:18px; margin-right:5px;" > '
-        + '<a href="https://beian.mps.gov.cn/" rel="noreferrer" target="_blank" > 正在进行公安备案…… </a>。'
+        + '<a href="https://beian.mps.gov.cn/" rel="noreferrer" target="_blank" >正在进行公安备案……</a>。'
         + '<a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2025413405号</a>。',
       copyright: 'Copyright © 2024-2025 <a href="https://github.com/BlazeSnow" target="_blank">BlazeSnow</a>. 保留所有权利。'
     }
