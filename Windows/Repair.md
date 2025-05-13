@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-05-10T15:41:00+8:00
+lastUpdated: 2025-05-13T08:15:00+8:00
 ---
 
 # 修复 | Windows
@@ -7,7 +7,7 @@ lastUpdated: 2025-05-10T15:41:00+8:00
 1. 按下```Windows徽标```+```X```
 2. 点击弹出窗口中的```终端管理员```
 
-## 3. 使用DISM
+## 使用DISM
 
 依次运行以下指令：
 
@@ -20,7 +20,7 @@ DISM.exe /Online /Cleanup-Image /ScanHealth
 DISM.exe /Online /Cleanup-image /Restorehealth
 ```
 
-## 4. 使用System File Checker
+## 使用SFC
 
 ```powershell
 # 扫描所有保护的系统文件的完整性，并尽可能修复有问题的文件。
