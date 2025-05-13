@@ -1,11 +1,13 @@
 ---
-lastUpdated: 2025-02-02T09:18:00+8:00
+lastUpdated: 2025-05-13T08:24:00+8:00
 ---
 
 # 重启文件资源管理器 | Windows
 
-1. 按下```Ctrl```+```Alt```+```Delete```
-2. 选择```任务管理器```
-3. 找到```Windows资源管理器```
-4. 右键```Windows资源管理器```
-5. 单击```重新启动(R)```
+1. 按下`Windows徽标`+`X`
+2. 选择`终端管理员`
+3. 输入以下命令并回车：
+
+```powershell
+tskill explorer; explorer
+```

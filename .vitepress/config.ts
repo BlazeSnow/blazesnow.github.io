@@ -272,6 +272,7 @@ export default defineConfig({
             { text: '显示后缀名和隐藏文件', link: '/Windows/Extension' },
             { text: '创建快捷方式', link: '/Windows/Shortcuts' },
             { text: '重启文件资源管理器', link: '/Windows/RestartFileExplorer' },
+            { text: '旧版右键菜单', link: '/Windows/OldRightClick' },
             { text: '删除新建文件类型', link: '/Windows/RemoveFileType' },
             { text: '删除右键菜单项', link: '/Windows/RemoveRightClickItem' },
             { text: '修复桌面图标', link: '/Windows/ClearIconCache' },
