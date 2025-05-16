@@ -152,9 +152,14 @@ export default defineConfig({
             activeMatch: '/FrpClientAndServer/'
           },
           {
-            text: 'Nginx',
-            link: '/Nginx/',
-            activeMatch: '/Nginx/'
+            text: 'VitePress建站教程',
+            link: '/VitePress/',
+            activeMatch: '/VitePress/'
+          },
+          {
+            text: '部署网站至服务器',
+            link: '/WebsiteToServer/',
+            activeMatch: '/WebsiteToServer/'
           },
         ]
       },
@@ -188,14 +193,9 @@ export default defineConfig({
             activeMatch: '/Clang/'
           },
           {
-            text: 'VitePress建站教程',
-            link: '/VitePress/',
-            activeMatch: '/VitePress/'
-          },
-          {
-            text: '部署网站至服务器',
-            link: '/WebsiteToServer/',
-            activeMatch: '/WebsiteToServer/'
+            text: 'Nginx',
+            link: '/Nginx/',
+            activeMatch: '/Nginx/'
           },
         ]
       },
