@@ -1,1 +1,1 @@
-npx vitepress dev --host
+npx vitepress dev
