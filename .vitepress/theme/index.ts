@@ -14,7 +14,7 @@ export default {
 	},
 	enhanceApp: (ctx) => {
 		googleAnalytics({
-			id: 'G-N6Q98Q8D1N',
+			id: 'GT-KVFR6NJP',
 		})
 	},
 }
