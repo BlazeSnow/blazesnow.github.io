@@ -9,30 +9,30 @@ lastUpdated: 2025-02-13T10:02:00+8:00
 
 ## 桌面空白位置右键菜单项
 
-1. 若需要删除的项目属于应用程序```abc```
-2. 按下```Windows徽标```+```R```
-3. 输入```regedit```并回车
-4. 找到```HKEY_CLASSES_ROOT\Directory\Background\shell```
-5. 在此文件夹内找到```abc```
-6. 删除```abc```文件夹
+1. 若需要删除的项目属于应用程序`abc`
+2. 按下`Windows徽标`+`R`
+3. 输入`regedit`并回车
+4. 找到`HKEY_CLASSES_ROOT\Directory\Background\shell`
+5. 在此文件夹内找到`abc`
+6. 删除`abc`文件夹
 
 ## 文件夹右键菜单项
 
-1. 若需要删除的项目属于应用程序```abc```
-2. 按下```Windows徽标```+```R```
-3. 输入```regedit```并回车
-4. 找到```HKEY_CLASSES_ROOT\Directory\shell```
-5. 在此文件夹内找到```abc```
-6. 删除```abc```文件夹
+1. 若需要删除的项目属于应用程序`abc`
+2. 按下`Windows徽标`+`R`
+3. 输入`regedit`并回车
+4. 找到`HKEY_CLASSES_ROOT\Directory\shell`
+5. 在此文件夹内找到`abc`
+6. 删除`abc`文件夹
 
 ## 文件右键菜单项
 
-1. 若需要删除的项目属于应用程序```abc```
-2. 按下```Windows徽标```+```R```
-3. 输入```regedit```并回车
-4. 找到```HKEY_CLASSES_ROOT\*\shell```
-5. 在此文件夹内找到```abc```
-6. 删除```abc```文件夹
-7. 找到```HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers```
-8. 在此文件夹内找到```abc```
-9. 删除```abc```文件夹
+1. 若需要删除的项目属于应用程序`abc`
+2. 按下`Windows徽标`+`R`
+3. 输入`regedit`并回车
+4. 找到`HKEY_CLASSES_ROOT\*\shell`
+5. 在此文件夹内找到`abc`
+6. 删除`abc`文件夹
+7. 找到`HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers`
+8. 在此文件夹内找到`abc`
+9. 删除`abc`文件夹

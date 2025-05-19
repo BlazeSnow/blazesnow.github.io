@@ -8,4 +8,4 @@ lastUpdated: 2025-02-14T17:42:00+8:00
 
 官方网站：<https://nodejs.org/>
 
-本章主要介绍```Windows```系统的```Nodejs```知识
+本章主要介绍`Windows`系统的`Nodejs`知识

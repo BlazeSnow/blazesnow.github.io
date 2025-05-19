@@ -8,10 +8,10 @@ lastUpdated: 2025-01-12T17:17:00+8:00
 
 ## 修改配置文件
 
-1. 进入ssh配置文件目录：```cd /etc/ssh```
-2. 修改配置文件：```sudo nano sshd_config```
+1. 进入ssh配置文件目录：`cd /etc/ssh`
+2. 修改配置文件：`sudo nano sshd_config`
 
-### ```sshd_config```
+### `sshd_config`
 
 ```txt
 # 找到此行内容，修改前：

@@ -6,7 +6,9 @@ lastUpdated: 2024-11-22T21:26:00+8:00
 
 ## 查看UbuntuPro状态
 
-```sudo pro status```
+```bash
+sudo pro status
+```
 
 ## 获取token
 
@@ -15,8 +17,12 @@ lastUpdated: 2024-11-22T21:26:00+8:00
 
 ## 激活UbuntuPro
 
-```sudo pro attach 此处替换为token```
+```bash
+sudo pro attach 此处替换为token
+```
 
 ## 取消激活UbuntuPro
 
-```sudo pro detach```
+```bash
+sudo pro detach
+```
