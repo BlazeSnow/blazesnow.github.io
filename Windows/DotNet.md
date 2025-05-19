@@ -10,7 +10,7 @@ lastUpdated: 2025-04-04T23:03:00+8:00
 
 ## .NET桌面运行时
 
-> .NET桌面运行时（```DesktopRuntime```）使用户能够运行现有Windows桌面应用程序（包括```Runtime```）
+> .NET桌面运行时（`DesktopRuntime`）使用户能够运行现有Windows桌面应用程序（包括`Runtime`）
 
 ```powershell
 winget install Microsoft.DotNet.DesktopRuntime.9
@@ -23,7 +23,7 @@ winget install Microsoft.DotNet.DesktopRuntime.3_1
 
 ## ASP.NET核心运行时
 
-> ASP.NET核心运行时（```AspNetCore```）使你能够运行现有的Web/服务器应用程序（不包括```Runtime```）
+> ASP.NET核心运行时（`AspNetCore`）使你能够运行现有的Web/服务器应用程序（不包括`Runtime`）
 
 ```powershell
 winget install Microsoft.DotNet.AspNetCore.9
@@ -40,7 +40,7 @@ winget install Microsoft.DotNet.AspNetCore.2_1
 
 ## .NET运行时
 
-> .NET运行时（```Runtime```）仅包含运行控制台应用所需的组件
+> .NET运行时（`Runtime`）仅包含运行控制台应用所需的组件
 
 ```powershell
 winget install Microsoft.DotNet.Runtime.9
@@ -53,7 +53,7 @@ winget install Microsoft.DotNet.Runtime.3_1
 
 ## 软件开发工具包
 
-> 软件开发工具包（```SDK```）包括使用命令行工具和任何编辑器生成和运行.NET应用程序所需的一切内容（包括```DesktopRuntime```、```AspNetCore```和```Runtime```）
+> 软件开发工具包（`SDK`）包括使用命令行工具和任何编辑器生成和运行.NET应用程序所需的一切内容（包括`DesktopRuntime`、`AspNetCore`和`Runtime`）
 
 ```powershell
 winget install Microsoft.DotNet.SDK.9

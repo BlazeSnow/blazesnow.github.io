@@ -10,9 +10,9 @@ lastUpdated: 2025-03-01T11:00:00+8:00
 >
 > GitHub Pages是GitHub提供的一个网页寄存服务，于2008年推出。可以用于存放静态网页，包括博客、项目文档甚至整本书。一般GitHub Pages的网站使用github.io的子域名，但是用户也可以使用第三方域名。
 
-本章介绍使用```VitePress```和```GitHub Pages```建立一个网站
+本章介绍使用`VitePress`和`GitHub Pages`建立一个网站
 
-```VitePress```官方网站：<https://vitepress.dev/zh/>
+`VitePress`官方网站：<https://vitepress.dev/zh/>
 
 > [!TIP]
 > 本章需要准备一个GitHub账户：<https://github.com/signup>
@@ -23,37 +23,37 @@ lastUpdated: 2025-03-01T11:00:00+8:00
 
 1. 打开网站：<https://git-scm.com/downloads/>
 2. 下载并安装
-3. 按下```Windows徽标```+```X```
-4. 选择```终端```
-5. 输入```git -v```
+3. 按下`Windows徽标`+`X`
+4. 选择`终端`
+5. 输入`git -v`
 6. 若正常显示版本号则安装成功
 
 ### 安装Nodejs
 
 1. 打开官方网站：<https://nodejs.org/zh-cn>
 2. 下载并安装
-3. 按下```Windows徽标```+```I```
-4. 搜索：```Powershel```
-5. 打开：```允许本地PowerShell脚本在不签名的情况下运行```
-6. 开启开关：```更改执行策略，以允许本地PowerShell脚本在未签名的情况下运行。远程脚本需要签名。```
-7. 按下```Windows徽标```+```X```
-8. 点击弹出窗口中的```终端```
-9. 输入：```node -v```
+3. 按下`Windows徽标`+`I`
+4. 搜索：`Powershel`
+5. 打开：`允许本地PowerShell脚本在不签名的情况下运行`
+6. 开启开关：`更改执行策略，以允许本地PowerShell脚本在未签名的情况下运行。远程脚本需要签名。`
+7. 按下`Windows徽标`+`X`
+8. 点击弹出窗口中的`终端`
+9. 输入：`node -v`
 10. 如果正常显示版本号则成功，如果不正常就重新安装
-11. 输入：```npm -v```
+11. 输入：`npm -v`
 12. 如果正常显示版本号则成功，如果不正常就重新安装
 
 ### 安装VitePress
 
-1. 创建并进入工作目录，如```C:\用户名.github.io```
-2. 右键空白位置，选择```在终端中打开```
-3. 建立Git仓库：```git init```
-4. npm换源：```npm config set registry https://registry.npmmirror.com```
-5. 安装VitePress：```npm add -D vitepress```
+1. 创建并进入工作目录，如`C:\用户名.github.io`
+2. 右键空白位置，选择`在终端中打开`
+3. 建立Git仓库：`git init`
+4. npm换源：`npm config set registry https://registry.npmmirror.com`
+5. 安装VitePress：`npm add -D vitepress`
 
 ## 运行向导
 
-1. 输入```npx vitepress init```
+1. 输入`npx vitepress init`
 2. 大致流程如下：
 
 ```ansi{7,10}
@@ -82,10 +82,10 @@ lastUpdated: 2025-03-01T11:00:00+8:00
 
 ## 运行网站
 
-1. 输入```npm run docs:dev```
-2. 随后点击输出内容的```http://localhost:5173```访问网站
-3. 访问结束后，回到```终端```
-4. 按下```Ctrl```+```C```结束网站
+1. 输入`npm run docs:dev`
+2. 随后点击输出内容的`http://localhost:5173`访问网站
+3. 访问结束后，回到`终端`
+4. 按下`Ctrl`+`C`结束网站
 
 ## 配置文件
 
@@ -132,18 +132,18 @@ lastUpdated: 2025-03-01T11:00:00+8:00
 ## 发布网站
 
 1. 新建GitHub仓库：<https://github.com/new>
-2. 仓库名称为：```用户名.github.io```
+2. 仓库名称为：`用户名.github.io`
 3. 进入仓库设置
-4. 侧边栏选择```Pages```
-5. 找到```Build and deployment```的```Source```
-6. 从```Deploy from a branch```修改为```GitHub Actions```
+4. 侧边栏选择`Pages`
+5. 找到`Build and deployment`的`Source`
+6. 从`Deploy from a branch`修改为`GitHub Actions`
 7. 前往工作目录并打开终端命令行
-8. 添加远程仓库：```git remote add origin https://github.com/用户名/用户名.github.io```
-9. 检测本地的远程仓库配置：```git remote -v```
+8. 添加远程仓库：`git remote add origin https://github.com/用户名/用户名.github.io`
+9. 检测本地的远程仓库配置：`git remote -v`
 10. 推送代码，建议使用图形化软件GitHub Desktop：<https://github.com/apps/desktop>
-11. 将工作目录```C:\用户名.github.io```使用```add existing repository```添加到```GitHub Desktop```中
+11. 将工作目录`C:\用户名.github.io`使用`add existing repository`添加到`GitHub Desktop`中
 12. 推送仓库，并等待GitHub Actions运行完毕
-13. 访问```https://用户名.github.io```即可
+13. 访问`https://用户名.github.io`即可
 
 ## 进阶操作
 

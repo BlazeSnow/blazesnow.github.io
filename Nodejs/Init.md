@@ -12,6 +12,6 @@ npm init
 
 ## 必要文件
 
-- ```node_modules/```目录
-- ```package.json```
-- ```package-lock.json```
+- `node_modules/`目录
+- `package.json`
+- `package-lock.json`

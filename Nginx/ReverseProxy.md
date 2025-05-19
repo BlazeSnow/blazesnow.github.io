@@ -6,18 +6,18 @@ lastUpdated: 2024-11-29T16:22:00+8:00
 
 > 反向代理8080端口到https
 
-1. 前往nginx配置目录：```cd /etc/nginx```
-2. 进入默认配置目录：```cd sites-available```
-3. 删除默认配置文件：```rm default```
-4. 新建顶替配置文件：```touch default```
-5. 返回上级目录：```cd ..```
-6. 进入配置文件目录：```cd conf.d```
-7. 创建配置文件：```touch custom.conf```
-8. 编辑配置文件：```nano custom.conf```
-9. 检查配置文件：```nginx -t```
-10. 重新启动nginx：```systemctl restart nginx```
+1. 前往nginx配置目录：`cd /etc/nginx`
+2. 进入默认配置目录：`cd sites-available`
+3. 删除默认配置文件：`rm default`
+4. 新建顶替配置文件：`touch default`
+5. 返回上级目录：`cd ..`
+6. 进入配置文件目录：`cd conf.d`
+7. 创建配置文件：`touch custom.conf`
+8. 编辑配置文件：`nano custom.conf`
+9. 检查配置文件：`nginx -t`
+10. 重新启动nginx：`systemctl restart nginx`
 
-## ```custom.conf```
+## `custom.conf`
 
 ```nginx
 server {

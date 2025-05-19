@@ -12,10 +12,10 @@ registry=https://registry.npmmirror.com
 
 ## npm官方源
 
-```https://registry.npmjs.org/```
+`https://registry.npmjs.org/`
 
 ## cnpm源
 
 > cnpm是淘宝团队开发的一个针对中国用户的npm镜像源
 
-```https://registry.npmmirror.com```
+`https://registry.npmmirror.com`
