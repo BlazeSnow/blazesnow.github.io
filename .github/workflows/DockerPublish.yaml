@@ -16,9 +16,10 @@ jobs:
     - name: Log in
       uses: docker/login-action@v3
       with:
-        registry: ${{ vars.REGISTRY }}
-        username: ${{ vars.USERNAME }}
+        registry: registry.cn-hangzhou.aliyuncs.com
+        username: BlazeSnow23
         password: ${{ secrets.TOKEN }}
+        logout: true
 
     - name: Build
       run: docker build -t registry.cn-hangzhou.aliyuncs.com/blazesnow/blazesnowcom:latest .
