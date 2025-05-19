@@ -12,4 +12,4 @@ lastUpdated: 2024-6-2T19:42:00+8:00
 > Linux默认将硬件时间当作UTC时间，并根据系统设置的时区自动转换为本地时间显示。
 
 1. 打开Ubuntu的终端
-2. 输入：```sudo timedatectl set-local-rtc 1```
+2. 输入：`sudo timedatectl set-local-rtc 1`

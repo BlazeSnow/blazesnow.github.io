@@ -32,32 +32,32 @@ n latest
 
 ## 引入仓库
 
-1. 前往var文件夹：```cd /var```
-2. 新建工作目录：```mkdir 用户名.github.io```
-3. 进入工作目录：```cd 用户名.github.io```
-4. 建立git仓库：```git init```
-5. 连接远程仓库：```git remote add origin https://github.com/用户名/用户名.github.io```
-6. 拉取代码：```git pull origin main```
-7. 安装npm组件：```npm install```
-8. 构建网站：```npm run docs:build```
+1. 前往var文件夹：`cd /var`
+2. 新建工作目录：`mkdir 用户名.github.io`
+3. 进入工作目录：`cd 用户名.github.io`
+4. 建立git仓库：`git init`
+5. 连接远程仓库：`git remote add origin https://github.com/用户名/用户名.github.io`
+6. 拉取代码：`git pull origin main`
+7. 安装npm组件：`npm install`
+8. 构建网站：`npm run docs:build`
 
 ## 准备SSL
 
-1. 申请SSL证书以及私钥，通常为：```证书.crt```、```私钥.key```或```证书.pem```、```私钥.pem```
-2. 前往var文件夹：```cd /var```
-3. 创建SSL存放目录：```mkdir ssl```
-4. 进入SSL存放目录：```cd ssl```
+1. 申请SSL证书以及私钥，通常为：`证书.crt`、`私钥.key`或`证书.pem`、`私钥.pem`
+2. 前往var文件夹：`cd /var`
+3. 创建SSL存放目录：`mkdir ssl`
+4. 进入SSL存放目录：`cd ssl`
 5. 上传证书及私钥
 
 ## 配置Nginx
 
-1. 前往Nginx目录：```cd /etc/nginx/conf.d```
-2. 新建正式的配置文件：```touch nginx.conf```
-3. 编辑正式的配置文件：```nano nginx.conf```
-4. 检查配置文件的语法是否正确：```nginx -t```
-5. 重启Nginx让配置生效：```nginx -s reload```
+1. 前往Nginx目录：`cd /etc/nginx/conf.d`
+2. 新建正式的配置文件：`touch nginx.conf`
+3. 编辑正式的配置文件：`nano nginx.conf`
+4. 检查配置文件的语法是否正确：`nginx -t`
+5. 重启Nginx让配置生效：`nginx -s reload`
 
-### ```nginx.conf```
+### `nginx.conf`
 
 ```nginx{15,16,25}
 server {
@@ -109,11 +109,11 @@ server {
 
 ## 维护网站
 
-1. 前往服务器的网站目录：```cd /var/用户名.github.io```
-2. 拉取代码：```git pull origin main```
-3. 用N更新npm：```n latest```
-4. 更新npm内容：```npm install```
-5. 构建网站：```npm run docs:build```
+1. 前往服务器的网站目录：`cd /var/用户名.github.io`
+2. 拉取代码：`git pull origin main`
+3. 用N更新npm：`n latest`
+4. 更新npm内容：`npm install`
+5. 构建网站：`npm run docs:build`
 
 ## 广告
 

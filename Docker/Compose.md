@@ -43,12 +43,12 @@ services:
 
 在compose.yml的目录中运行：
 
-- ```docker compose up -d```
-- 或```docker-compose up -d```
+- `docker compose up -d`
+- 或`docker-compose up -d`
 
 ## 快速关闭Docker
 
 在compose.yml的目录中运行：
 
-- ```docker compose down```
-- 或```docker-compose down```
+- `docker compose down`
+- 或`docker-compose down`
