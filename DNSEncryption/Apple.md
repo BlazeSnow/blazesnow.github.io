@@ -1,5 +1,6 @@
 ---
 lastUpdated: 2025-05-30T08:34:00+8:00
+description: Apple设备的DNS加密教程
 ---
 
 # Apple设备 | DNS加密
