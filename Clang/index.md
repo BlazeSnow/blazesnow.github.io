@@ -4,6 +4,9 @@ lastUpdated: 2025-05-11T15:16:00+8:00
 
 # Clang
 
+> [!CAUTION]
+> 停止支持：本章节的内容已停止支持
+
 ## 前言
 
 > Clang是一个开源的编译器前端工具，主要用于C、C++、Objective-C和Objective-C++等编程语言的编译。
