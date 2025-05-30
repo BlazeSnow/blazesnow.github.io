@@ -1,5 +1,6 @@
 ---
 lastUpdated: 2025-02-27T09:22:00+8:00
+description: npm包的安装和卸载命令
 ---
 
 # npm管理包 | Nodejs

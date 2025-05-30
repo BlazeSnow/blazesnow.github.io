@@ -1,5 +1,6 @@
 ---
 lastUpdated: 2025-05-10T15:27:00+8:00
+description: 清理docker的缓存
 ---
 
 # 清理缓存

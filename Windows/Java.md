@@ -1,5 +1,6 @@
 ---
 lastUpdated: 2025-03-29T11:19:00+8:00
+description: 在Windows系统中安装Java
 ---
 
 # 安装Java | Windows

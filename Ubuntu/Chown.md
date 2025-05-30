@@ -1,5 +1,6 @@
 ---
 lastUpdated: 2024-8-27T11:01:00+8:00
+description: Ubuntu修改文件或目录所有者的教程
 ---
 
 # 修改文件所有者 | Ubuntu

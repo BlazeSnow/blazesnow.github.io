@@ -1,5 +1,6 @@
 ---
 lastUpdated: 2025-02-13T09:44:00+8:00
+description: Ubuntu的安装过程中的分区推荐
 ---
 
 # 安装分区推荐 | Ubuntu

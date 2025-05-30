@@ -1,5 +1,6 @@
 ---
 lastUpdated: 2025-05-19T12:02:00+8:00
+description: 在Windows系统中禁用快速启动
 ---
 
 # 禁用快速启动 | Windows

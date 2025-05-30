@@ -1,5 +1,6 @@
 ---
 lastUpdated: 2024-8-5T13:50:00+8:00
+description: Ubuntu如何同步系统时间
 ---
 
 # 同步系统时间 | Ubuntu

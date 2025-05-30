@@ -1,5 +1,6 @@
 ---
 lastUpdated: 2024-12-17T16:19:00+8:00
+description: 搭建智能家居中枢的教程
 ---
 
 # 智能家居中枢 | Docker系列

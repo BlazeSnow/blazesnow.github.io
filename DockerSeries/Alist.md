@@ -1,5 +1,6 @@
 ---
 lastUpdated: 2024-11-24T22:08:00+8:00
+description: 搭建Alist文件服务器的教程
 ---
 
 # Alist | Docker系列

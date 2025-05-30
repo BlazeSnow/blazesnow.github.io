@@ -1,5 +1,6 @@
 ---
 lastUpdated: 2024-8-6T15:16:00+8:00
+description: 清理Windows桌面图标缓存，修复桌面图标问题
 ---
 
 # 修复桌面图标 | Windows

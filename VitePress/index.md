@@ -1,5 +1,6 @@
 ---
 lastUpdated: 2025-03-01T11:00:00+8:00
+description: 如何使用VitePress搭建一个静态网站
 ---
 
 # VitePress建站教程

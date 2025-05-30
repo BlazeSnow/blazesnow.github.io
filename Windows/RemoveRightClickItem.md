@@ -1,5 +1,6 @@
 ---
 lastUpdated: 2025-02-13T10:02:00+8:00
+description: 清除Windows系统中多余的右键菜单项
 ---
 
 # 删除右键菜单项 | Windows

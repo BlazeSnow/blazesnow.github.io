@@ -1,5 +1,6 @@
 ---
 lastUpdated: 2025-05-13T08:15:00+8:00
+description: 对Windows系统进行修复
 ---
 
 # 修复 | Windows

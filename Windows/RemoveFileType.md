@@ -1,5 +1,6 @@
 ---
 lastUpdated: 2025-02-13T10:00:00+8:00
+description: 在Windows系统中删除新建文件中不需要的文件类型
 ---
 
 # 删除新建文件类型 | Windows

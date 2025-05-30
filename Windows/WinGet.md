@@ -1,5 +1,6 @@
 ---
 lastUpdated: 2025-03-29T11:32:00+8:00
+description: 在Windows系统中安装WinGet
 ---
 
 # 安装WinGet | Windows

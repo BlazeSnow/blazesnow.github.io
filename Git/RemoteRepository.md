@@ -1,5 +1,6 @@
 ---
 lastUpdated: 2025-05-11T15:33:00+8:00
+description: Git处理远程仓库的相关命令
 ---
 
 # 处理远程仓库 | Git

@@ -1,5 +1,6 @@
 ---
 lastUpdated: 2024-11-24T21:54:00+8:00
+description: 搭建FTP文件服务器的教程
 ---
 
 # FTP | Docker系列

@@ -1,5 +1,6 @@
 ---
 lastUpdated: 2025-02-20T10:27:00+8:00
+description: Android系统解决时间同步问题
 ---
 
 # 时间同步 | Android
