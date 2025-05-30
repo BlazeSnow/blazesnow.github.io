@@ -1,5 +1,6 @@
 ---
 lastUpdated: 2024-11-29T16:22:00+8:00
+description: Nginx配置自签名SSL证书和私钥的教程
 ---
 
 # 自签名SSL | Nginx

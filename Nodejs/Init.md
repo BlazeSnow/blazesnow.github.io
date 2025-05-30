@@ -1,5 +1,6 @@
 ---
 lastUpdated: 2025-02-08T08:35:00+8:00
+description: Nodejs引入npm的教程
 ---
 
 # 引入npm | Nodejs
