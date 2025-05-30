@@ -1,5 +1,6 @@
 ---
 lastUpdated: 2024-11-22T18:06:00+8:00
+description: docker的镜像传递方法
 ---
 
 # 传递镜像 | Docker

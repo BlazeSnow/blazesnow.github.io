@@ -1,5 +1,6 @@
 ---
 lastUpdated: 2025-05-19T12:57:00+8:00
+description: Docker社区版本的安装教程
 ---
 
 # 安装CE发行版 | Docker
