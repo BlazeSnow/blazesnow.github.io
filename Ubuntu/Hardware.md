@@ -1,5 +1,6 @@
 ---
 lastUpdated: 2024-11-22T17:59:00+8:00
+description: Ubuntu查看硬件配置
 ---
 
 # 查看硬件配置 | Ubuntu

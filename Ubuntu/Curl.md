@@ -1,5 +1,6 @@
 ---
 lastUpdated: 2024-8-11T13:14:00+8:00
+description: Ubuntu下载文件教程
 ---
 
 # 下载文件 | Ubuntu

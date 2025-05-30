@@ -1,17 +1,25 @@
 ---
-lastUpdated: 2025-05-19T12:57:00+8:00
+lastUpdated: 2025-05-30T12:59:00+8:00
+description: Ubuntu的包管理工具apt的换源教程
 ---
 
 # apt换源 | Ubuntu
 
-## 修改配置文件
+## 新版方案
 
-1. 打开配置文件位置：`cd /etc/apt`
+1. 打开配置文件位置：`cd /etc/apt/sources.list.d/`
+2. 编辑配置文件：`nano ubuntu.sources`
+3. 前往文末网站获取配置文件内容
+
+## 旧版方案
+
+1. 打开配置文件位置：`cd /etc/apt/`
 2. 编辑配置文件：`nano sources.list`
+3. 前往文末网站获取配置文件内容
 
-### `sources.list`
+## 配置文件内容
 
-前往以下网站获取`sources.list`内容：
+前往以下网站获取内容：
 
 - 清华大学开源软件镜像站：<https://mirrors.tuna.tsinghua.edu.cn/help/ubuntu/>
 - 阿里云开源镜像站：<https://developer.aliyun.com/mirror/ubuntu>

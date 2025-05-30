@@ -1,5 +1,6 @@
 ---
 lastUpdated: 2024-11-24T12:51:00+8:00
+description: Ubuntu的定时任务教程
 ---
 
 # 自动化脚本 | Ubuntu

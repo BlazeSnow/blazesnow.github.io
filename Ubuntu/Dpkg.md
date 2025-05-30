@@ -1,5 +1,6 @@
 ---
 lastUpdated: 2024-6-2T19:42:00+8:00
+description: Ubuntu的dpkg命令
 ---
 
 # dpkg | Ubuntu
