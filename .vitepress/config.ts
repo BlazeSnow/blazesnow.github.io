@@ -60,17 +60,6 @@ export default defineConfig({
     returnToTopLabel: '回到顶部',
     //是否在markdown中的外部链接旁显示外部链接图标
     externalLinkIcon: false,
-    //右上角图标
-    socialLinks: [
-      {
-        icon: 'statuspage',
-        link: 'https://blazesnow.statuspage.io'
-      },
-      {
-        icon: 'github',
-        link: 'https://github.com/BlazeSnow/blazesnow.github.io'
-      }
-    ],
     //上一篇下一篇
     docFooter: {
       prev: '上一篇',
@@ -173,11 +162,6 @@ export default defineConfig({
             activeMatch: '/DNSEncryption/'
           },
           {
-            text: 'Android',
-            link: '/Android/',
-            activeMatch: '/Android/'
-          },
-          {
             text: 'Nodejs',
             link: '/Nodejs/',
             activeMatch: '/Nodejs/'
@@ -186,11 +170,6 @@ export default defineConfig({
             text: 'Docker',
             link: '/Docker/',
             activeMatch: '/Docker/'
-          },
-          {
-            text: 'Clang',
-            link: '/Clang/',
-            activeMatch: '/Clang/'
           },
           {
             text: 'Nginx',
