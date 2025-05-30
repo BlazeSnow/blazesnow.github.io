@@ -1,5 +1,6 @@
 ---
 lastUpdated: 2025-05-11T15:30:00+8:00
+description: Git的安装教程
 ---
 
 # 安装Git | Git
