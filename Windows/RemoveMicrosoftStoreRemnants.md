@@ -1,5 +1,6 @@
 ---
 lastUpdated: 2025-05-19T13:14:00+8:00
+description: 清理Windows系统中微软商店的磁盘残留
 ---
 
 # 清理微软商店残留 | Windows

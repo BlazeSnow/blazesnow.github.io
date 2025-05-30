@@ -2,6 +2,7 @@
 lastUpdated: false
 titleTemplate: 'BlazeSnow帮助网站'
 layout: home
+description: BlazeSnow帮助网站的首页
 
 hero:
     name: "BlazeSnow帮助网站"

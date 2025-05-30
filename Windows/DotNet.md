@@ -1,5 +1,6 @@
 ---
 lastUpdated: 2025-04-04T23:03:00+8:00
+description: Windows系统中安装.NET
 ---
 
 # 安装.NET | Windows
