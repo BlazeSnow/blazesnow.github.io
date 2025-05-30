@@ -1,5 +1,6 @@
 ---
 lastUpdated: 2025-01-03T19:43:00+8:00
+description: 在Windows系统中安装Python
 ---
 
 # 安装Python | Windows

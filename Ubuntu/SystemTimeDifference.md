@@ -1,5 +1,6 @@
 ---
 lastUpdated: 2024-6-2T19:42:00+8:00
+description: Windows与Ubuntu双系统时间差8小时问题的解决方案
 ---
 
 # 双系统的时间差8小时 | Ubuntu

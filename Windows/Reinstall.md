@@ -1,5 +1,6 @@
 ---
 lastUpdated: 2025-01-03T16:38:00+8:00
+description: 重新安装Windows系统的教程
 ---
 
 # 重新安装 | Windows

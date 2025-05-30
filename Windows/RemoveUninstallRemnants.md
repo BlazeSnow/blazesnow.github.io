@@ -1,5 +1,6 @@
 ---
 lastUpdated: 2025-02-13T10:09:00+8:00
+description: 清理Windows系统的软件卸载残留
 ---
 
 # 清理软件卸载残留 | Windows

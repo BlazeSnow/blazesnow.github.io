@@ -1,5 +1,6 @@
 ---
 lastUpdated: 2025-02-14T17:41:00+8:00
+description: Nginx相关内容的前言
 ---
 
 # 前言 | Nginx

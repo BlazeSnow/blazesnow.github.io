@@ -1,5 +1,6 @@
 ---
 lastUpdated: 2025-05-11T15:27:00+8:00
+description: Git相关内容的前言
 ---
 
 # 前言 | Git

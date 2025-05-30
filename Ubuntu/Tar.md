@@ -1,5 +1,6 @@
 ---
 lastUpdated: 2024-10-14T22:52:00+8:00
+description: Ubuntu压缩文件教程
 ---
 
 # 压缩文件 | Ubuntu

@@ -1,12 +1,11 @@
 ---
 lastUpdated: 2024-6-5T15:14:00+8:00
+description: Ubuntu无法更新Snap Store的解决方案
 ---
 
 # 无法更新Snap Store | Ubuntu
 
-> 在Ubuntu Software应用内更新app时，
-> 无法更新Snap Store，
-> 显示Snap Store仍在运行中
+> 在Ubuntu Software应用内更新app时，无法更新Snap Store，显示Snap Store仍在运行中。
 
 1. 记住报错信息中最后的`pid`
 2. 打开Ubuntu终端

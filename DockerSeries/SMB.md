@@ -1,5 +1,6 @@
 ---
 lastUpdated: 2024-11-24T22:06:00+8:00
+description: 搭建SMB服务器的教程
 ---
 
 # SMB | Docker系列

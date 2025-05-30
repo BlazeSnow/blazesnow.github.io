@@ -1,5 +1,6 @@
 ---
 lastUpdated: 2025-02-08T08:29:00+8:00
+description: Windows安装Nodejs的教程
 ---
 
 # 安装Nodejs | Nodejs

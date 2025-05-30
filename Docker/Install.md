@@ -1,5 +1,6 @@
 ---
 lastUpdated: 2025-02-13T09:32:00+8:00
+description: Docker的安装方法
 ---
 
 # 安装Docker | Docker

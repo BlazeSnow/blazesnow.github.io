@@ -1,5 +1,6 @@
 ---
 lastUpdated: 2025-05-11T15:16:00+8:00
+description: 本章介绍了一个Clang、C++项目的搭建过程
 ---
 
 # Clang

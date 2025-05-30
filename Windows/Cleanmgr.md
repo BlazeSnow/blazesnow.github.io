@@ -1,5 +1,6 @@
 ---
 lastUpdated: 2025-02-13T09:52:00+8:00
+description: 运用Windows的磁盘清理工具清理磁盘
 ---
 
 # 磁盘清理 | Windows
