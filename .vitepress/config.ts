@@ -24,14 +24,6 @@ export default defineConfig({
   markdown: {
     //显示行号
     lineNumbers: true,
-    //块状提示
-    container: {
-      tipLabel: '提示',
-      warningLabel: '警告',
-      dangerLabel: '危险',
-      infoLabel: '信息',
-      detailsLabel: '详细信息'
-    }
   },
   //主题配置
   themeConfig: {
@@ -41,13 +33,9 @@ export default defineConfig({
     aside: true,
     //右边的小目录
     outline: {
-      //右边的小目录认H几
-      level: [2, 4],
       //右边的小目录的文字
       label: "此篇目录",
     },
-    //关掉语言自动路径
-    i18nRouting: false,
     //切换深色或浅色模式提示
     darkModeSwitchLabel: '切换深色或浅色模式',
     //切换至浅色模式提示
