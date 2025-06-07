@@ -1,14 +1,3 @@
-@font-face {
-    font-family: 'Monaspace Neon';
-    src: url('./fonts/MonaspaceNeon-Regular.woff2') format('woff2'),
-        url('./fonts/MonaspaceNeon-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
 :root {
-    --vp-font-family-mono:
-        'Monaspace Neon', ui-monospace, 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono',
-        'Courier New', monospace;
+    --vp-font-family-mono: 'Monaspace Neon';
 }
