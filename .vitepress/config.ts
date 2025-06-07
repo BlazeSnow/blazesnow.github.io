@@ -192,7 +192,8 @@ export default defineConfig({
         {
           text: '2025年',
           items: [
-            { text: '2025年5月', link: '/CHANGELOG/' },
+            { text: '2025年6月', link: '/CHANGELOG/' },
+            { text: '2025年5月', link: '/CHANGELOG/2025May' },
             { text: '2025年4月', link: '/CHANGELOG/2025April' },
             { text: '2025年3月', link: '/CHANGELOG/2025March' },
             { text: '2025年2月', link: '/CHANGELOG/2025February' },
@@ -250,7 +251,7 @@ export default defineConfig({
           text: '清理',
           items: [
             { text: '磁盘清理', link: '/Windows/Cleanmgr' },
-            { text: '清理软件卸载残留', link: '/Windows/RemoveUninstallRemnants' },
+            { text: '清除程序的卸载残留', link: '/Windows/RemoveUninstallRemnants' },
             { text: '清理微软商店残留', link: '/Windows/RemoveMicrosoftStoreRemnants' },
           ]
         },
