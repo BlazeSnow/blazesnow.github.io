@@ -1,10 +1,9 @@
 @font-face {
     font-family: 'Monaspace Neon';
-    src: url('./fonts/MonaspaceNeon-Regular.woff2') format('woff2'),
-        url('./fonts/MonaspaceNeon-Regular.woff') format('woff');
-    font-weight: normal;
     font-style: normal;
-    font-display: swap;
+    font-display: auto;
+    font-weight: 400;
+    src: url(https://cdn.jsdelivr.net/fontsource/fonts/monaspace-neon@latest/latin-400-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/monaspace-neon@latest/latin-400-normal.woff) format('woff'), url(https://cdn.jsdelivr.net/fontsource/fonts/monaspace-neon@latest/latin-400-normal.ttf) format('truetype');
 }
 
 :root {
