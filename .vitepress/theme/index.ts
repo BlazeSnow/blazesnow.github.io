@@ -4,6 +4,7 @@ import './color.css'
 import { h } from 'vue'
 import layout_404 from './404.vue'
 import googleAnalytics from 'vitepress-plugin-google-analytics'
+import '@fontsource/monaspace-neon/400.css';
 
 export default {
 	extends: DefaultTheme,
