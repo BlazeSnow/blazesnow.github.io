@@ -1,20 +1,24 @@
 ---
-lastUpdated: 2024-8-6T15:15:00+8:00
+lastUpdated: 2025-06-07T15:46:00+8:00
 description: 更新Windows系统的教程
 ---
 
 # 更新 | Windows
 
-## 通过Windows安装助手
+可通过多种方式更新Windows系统，请在以下方法中选择一种进行更新。
 
-1. 打开：<https://www.microsoft.com/zh-cn/software-download/windows11>
-2. 点击`Windows 11安装助手`下方的`立即下载`
-3. 运行下载的程序
+## Windows Update
 
-## 通过ISO文件
+打开链接以使用Windows设置并更新：<ms-settings:windowsupdate>
 
-见[重新安装Windows](/Windows/Reinstall)
+## Windows 11 安装助手
 
-## 通过Windows Update
+1. 打开链接：<https://www.microsoft.com/zh-cn/software-download/windows11>
+2. 下载`Windows 11 安装助手`并运行
 
-单击此处打开：<ms-settings:windowsupdate>
+## Windows 11 安装媒体
+
+1. 提前准备空U盘，将U盘插入电脑
+2. 打开链接：<https://www.microsoft.com/zh-cn/software-download/windows11>
+3. 下载`Windows 11 媒体创建工具`并运行
+4. 创建好安装媒体后，打开U盘中的`setup.exe`以开始安装
