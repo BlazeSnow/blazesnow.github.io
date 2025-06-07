@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Monaspace Neon';
     font-style: normal;
-    font-display: auto;
+    font-display: swap;
     font-weight: 400;
     src: url(https://cdn.jsdelivr.net/fontsource/fonts/monaspace-neon@latest/latin-400-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/monaspace-neon@latest/latin-400-normal.woff) format('woff'), url(https://cdn.jsdelivr.net/fontsource/fonts/monaspace-neon@latest/latin-400-normal.ttf) format('truetype');
 }
