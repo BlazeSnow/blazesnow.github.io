@@ -30,7 +30,7 @@ export default defineConfig({
     //左上角logo
     logo: '/logo.ico',
     //右边的小目录
-    aside: true,
+    aside: false,
     //右边的小目录
     outline: {
       //右边的小目录的文字

@@ -1,5 +1,6 @@
 <script setup>
 import card from "./card.vue"
+import status from "./status.vue"
 </script>
 
 <template>
@@ -42,7 +43,8 @@ import card from "./card.vue"
   <h2>
     更多内容
   </h2>
-  <h4>
+  <p>
     更多内容详见网页顶栏
-  </h4>
+  </p>
+  <status></status>
 </template>
