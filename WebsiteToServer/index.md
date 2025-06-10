@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-02-16T10:01:00+8:00
+lastUpdated: 2025-06-10T22:38:00+8:00
 description: 使用nginx部署静态网站至Ubuntu服务器
 ---
 
@@ -13,6 +13,8 @@ description: 使用nginx部署静态网站至Ubuntu服务器
 本章将把[VitePress建站教程](/VitePress/)建成的网站通过GitHub仓库部署到Ubuntu服务器上
 
 ## 安装环境
+
+> 如静态页面非vitepress版，请安装Nginx后跳过后续步骤
 
 ```bash
 # 更新apt包
@@ -33,30 +35,66 @@ n latest
 
 ## 引入仓库
 
-1. 前往var文件夹：`cd /var`
-2. 新建工作目录：`mkdir 用户名.github.io`
-3. 进入工作目录：`cd 用户名.github.io`
-4. 建立git仓库：`git init`
-5. 连接远程仓库：`git remote add origin https://github.com/用户名/用户名.github.io`
-6. 拉取代码：`git pull origin main`
-7. 安装npm组件：`npm install`
-8. 构建网站：`npm run docs:build`
+> 如静态页面非vitepress版，请跳过此步，并自行上传文件
+
+```bash
+# 前往var文件夹
+cd /var
+
+# 拉取代码
+git clone https://github.com/用户名/用户名.github.io
+
+# 安装npm组件
+npm ci
+
+# 构建网站
+npm run docs:build
+```
 
 ## 准备SSL
 
-1. 申请SSL证书以及私钥，通常为：`证书.crt`、`私钥.key`或`证书.pem`、`私钥.pem`
-2. 前往var文件夹：`cd /var`
-3. 创建SSL存放目录：`mkdir ssl`
-4. 进入SSL存放目录：`cd ssl`
-5. 上传证书及私钥
+申请SSL证书以及私钥：
+
+- <https://yundun.console.aliyun.com/?p=cas_buy&certOrderType=free>
+- <https://console.cloud.tencent.com/ssl>
+
+证书及私钥通常为：
+
+- `证书.crt`及`私钥.key`
+- `证书.pem`及`私钥.pem`
+
+```bash
+# 前往var文件夹
+cd /var
+
+# 创建SSL存放目录
+mkdir ssl
+
+# 进入SSL存放目录
+cd ssl
+
+# 上传证书及私钥
+# 自行上传
+```
 
 ## 配置Nginx
 
-1. 前往Nginx目录：`cd /etc/nginx/conf.d`
-2. 新建正式的配置文件：`touch nginx.conf`
-3. 编辑正式的配置文件：`nano nginx.conf`
-4. 检查配置文件的语法是否正确：`nginx -t`
-5. 重启Nginx让配置生效：`nginx -s reload`
+```bash
+# 前往Nginx目录
+cd /etc/nginx/conf.d
+
+# 新建正式的配置文件
+touch nginx.conf
+
+# 编辑正式的配置文件
+nano nginx.conf
+
+# 检查配置文件的语法是否正确
+nginx -t
+
+# 重启Nginx让配置生效
+nginx -s reload
+```
 
 ### `nginx.conf`
 
@@ -110,11 +148,25 @@ server {
 
 ## 维护网站
 
-1. 前往服务器的网站目录：`cd /var/用户名.github.io`
-2. 拉取代码：`git pull origin main`
-3. 用N更新npm：`n latest`
-4. 更新npm内容：`npm install`
-5. 构建网站：`npm run docs:build`
+```bash
+# 前往服务器的网站目录
+cd /var/用户名.github.io
+
+# 拉取代码
+git pull origin main
+
+# 用N更新npm
+n latest
+
+# 更新npm
+npm install npm -g
+
+# 更新npm内容
+npm ci
+
+# 构建网站
+npm run docs:build
+```
 
 ## 广告
 
