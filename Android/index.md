@@ -9,5 +9,5 @@ description: Android系统相关文章的前言
 
 官方网站：<https://www.android.com/>
 
-> [!TIP]
-> 使用左边的侧边栏定位内容
+> [!CAUTION]
+> 停止支持：本章节的内容已停止支持

@@ -1,14 +1,11 @@
 ---
-lastUpdated: 2025-06-10T22:38:00+8:00
+lastUpdated: 2025-06-11T08:32:00+8:00
 description: 使用nginx部署静态网站至Ubuntu服务器
 ---
 
 # 部署网站至服务器
 
 ## 前言
-
-> [!TIP]
-> 服务器防火墙需打开80和443端口
 
 本章将把[VitePress建站教程](/VitePress/)建成的网站通过GitHub仓库部署到Ubuntu服务器上
 
@@ -43,6 +40,9 @@ cd /var
 
 # 拉取代码
 git clone https://github.com/用户名/用户名.github.io
+
+# 进入目录
+cd 用户名.github.io
 
 # 安装npm组件
 npm ci
@@ -143,8 +143,9 @@ server {
 
 1. 前往域名的DNS提供商处
 2. 添加A或AAAA记录，即服务器的ip地址
-3. 如服务器的位置在中国境内，请完成非经营性ICP备案
-4. 访问域名即可访问网页
+3. 打开服务商的防火墙设置，放行80和443端口
+4. 如服务器的位置在中国境内，请完成非经营性ICP备案
+5. 访问域名即可访问网页
 
 ## 维护网站
 
