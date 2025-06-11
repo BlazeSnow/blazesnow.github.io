@@ -32,10 +32,7 @@ export default defineConfig({
     //右边的小目录
     aside: false,
     //右边的小目录
-    outline: {
-      //右边的小目录的文字
-      label: "此篇目录",
-    },
+    outline: false,
     //切换深色或浅色模式提示
     darkModeSwitchLabel: '切换深色或浅色模式',
     //切换至浅色模式提示
