@@ -44,6 +44,9 @@ cd /var
 # 拉取代码
 git clone https://github.com/用户名/用户名.github.io
 
+# 进入目录
+cd 用户名.github.io
+
 # 安装npm组件
 npm ci
 
