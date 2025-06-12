@@ -1,4 +1,4 @@
-name: 发布至阿里云Docker镜像服务
+name: Docker Build
 
 on:
   workflow_dispatch:
