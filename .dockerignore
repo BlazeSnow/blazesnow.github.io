@@ -1,6 +1,4 @@
 .git/
-.github/
-.gitignore
 .vitepress/cache/
 .vitepress/dist/
 node_modules/
