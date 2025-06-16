@@ -22,7 +22,7 @@ jobs:
         logout: true
 
     - name: Build
-      run: docker build -t registry.cn-hangzhou.aliyuncs.com/blazesnow/blazesnowcom:latest .
+      run: docker compose build
 
     - name: Push
       run: docker push registry.cn-hangzhou.aliyuncs.com/blazesnow/blazesnowcom:latest
