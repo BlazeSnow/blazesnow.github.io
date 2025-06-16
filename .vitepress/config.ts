@@ -357,7 +357,6 @@ export default defineConfig({
         { text: 'SFTP', link: '/DockerSeries/SFTP' },
         { text: 'Webdav', link: '/DockerSeries/Webdav' },
         { text: 'SMB', link: '/DockerSeries/SMB' },
-        { text: 'Alist', link: '/DockerSeries/Alist' },
         { text: 'NFS', link: '/DockerSeries/NFS' },
         { text: '我的世界服务器', link: '/DockerSeries/MinecraftServer' },
         { text: '家庭域名服务器', link: '/DockerSeries/AdGuardHome' },
