@@ -394,7 +394,7 @@ export default defineConfig({
     },
     //主页页脚
     footer: {
-      message: '本网站以<a href="/gpl-3.0.txt" target="_blank">GNU General Public License v3.0</a>的条款发布。'
+      message: '本网站以<a href="https://www.gnu.org/licenses/agpl-3.0.html" target="_blank">GNU AFFERO GENERAL PUBLIC LICENSE</a>的条款发布。'
         + '<br>'
         + '<img src="/beian.png" alt="公安备案图标" style="display:inline-block; vertical-align:middle; width:18px; height:18px; margin-right:5px;" >'
         + '<a href="https://beian.mps.gov.cn/#/query/webSearch?code=44195202000168" rel="noreferrer" target="_blank" >粤公网安备44195202000168号</a>。'
