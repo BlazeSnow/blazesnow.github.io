@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-03-01T11:00:00+8:00
+lastUpdated: 2025-07-03T12:38:00+8:00
 description: 如何使用VitePress搭建一个静态网站
 ---
 
@@ -101,33 +101,42 @@ description: 如何使用VitePress搭建一个静态网站
       └─GitHubPages.yaml   # GitHub Actions文件
 ```
 
-::: code-group
+### `.gitignore`
 
-<<< @/.gitignore{txt}
+```txt
+# VitePress的dev文件夹
+.vitepress/cache/
+
+# VitePress的build文件夹
+.vitepress/dist/
+
+# npm文件夹
+node_modules/
+```
+
+### `GitHubPages.yaml`
 
 <<< @/.github/workflows/GitHubPages.yaml
-
-:::
 
 ## 检查文件
 
 ```ansi
-│  .gitignore              # GitHub忽略文件
-│  api-examples.md         # markdown文件->api-examples.html
-│  index.md                # markdown文件->首页
-│  markdown-examples.md    # markdown文件->markdown-examples.html
-│  package-lock.json       # npm配置文件
-│  package.json            # npm配置文件
+│  .gitignore                 # GitHub忽略文件
+│  api-examples.md            # markdown文件->api-examples.html
+│  index.md                   # markdown文件->首页
+│  markdown-examples.md       # markdown文件->markdown-examples.html
+│  package-lock.json          # npm配置文件
+│  package.json               # npm配置文件
 │
 ├─.github
 │  └─workflows
-│          deploy.yml      # GitHub Actions文件
+│     └─GitHubPages.yaml      # GitHub Actions文件
 │
-├─.vitepress               # Vitepress配置文件夹
-│  │  config.mts           # Vitepress配置文件
+├─.vitepress                  # Vitepress配置文件夹
+│  │  config.mts              # Vitepress配置文件
 │  │
-│  └─cache                 # Vitepress的dev文件夹
-└─node_modules             # npm文件夹
+│  └─cache                    # Vitepress的dev文件夹
+└─node_modules                # npm文件夹
 ```
 
 ## 发布网站
