@@ -202,7 +202,8 @@ export default defineConfig({
         {
           text: '2025年',
           items: [
-            { text: '2025年6月', link: '/CHANGELOG/' },
+            { text: '2025年7月', link: '/CHANGELOG/' },
+            { text: '2025年6月', link: '/CHANGELOG/2025June' },
             { text: '2025年5月', link: '/CHANGELOG/2025May' },
             { text: '2025年4月', link: '/CHANGELOG/2025April' },
             { text: '2025年3月', link: '/CHANGELOG/2025March' },
