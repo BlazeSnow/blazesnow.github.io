@@ -31,7 +31,7 @@ export default defineConfig({
   ],
   //网页地图
   sitemap: {
-    hostname: 'https://blazesnow.com/'
+    hostname: 'https://www.blazesnow.com/'
   },
   //markdown配置
   markdown: {
