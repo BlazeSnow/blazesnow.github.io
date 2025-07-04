@@ -334,11 +334,6 @@ export default defineConfig({
         { text: '激活UbuntuPro', link: '/Ubuntu/UbuntuPro' },
         { text: '无法更新SnapStore', link: '/Ubuntu/UpdateSnapStore' },
       ],
-      '/Android/': [
-        { text: '前言', link: '/Android/' },
-        { text: 'WiFi感叹号', link: '/Android/WiFi' },
-        { text: '时间同步', link: '/Android/SyncTime' }
-      ],
       '/Docker/': [
         { text: '前言', link: '/Docker/' },
         { text: '安装Docker', link: '/Docker/Install' },
