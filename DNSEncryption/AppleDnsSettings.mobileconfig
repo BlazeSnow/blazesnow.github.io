@@ -152,7 +152,7 @@
                 <key>PayloadType</key>
                 <string>com.apple.dnsSettings.managed</string>
                 <key>PayloadOrganization</key>
-                <string>adguard-dns.io</string>
+                <string>quad9.net</string>
                 <key>PayloadIdentifier</key>
                 <string>com.blazesnow.dnsSettings.quad9dns</string>
             </dict>
