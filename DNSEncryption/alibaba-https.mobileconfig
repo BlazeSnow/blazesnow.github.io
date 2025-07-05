@@ -13,7 +13,7 @@
         <key>PayloadType</key>
         <string>Configuration</string>
         <key>PayloadIdentifier</key>
-        <string>com.blazesnow.dnsSettings</string>
+        <string>com.blazesnow.setting</string>
         <key>PayloadContent</key>
         <array>
             <dict>
@@ -48,7 +48,7 @@
                 <key>PayloadOrganization</key>
                 <string>alidns.com</string>
                 <key>PayloadIdentifier</key>
-                <string>com.blazesnow.dnsSettings.managed</string>
+                <string>com.blazesnow.setting.alidns</string>
             </dict>
         </array>
     </dict>
