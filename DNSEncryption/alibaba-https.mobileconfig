@@ -43,6 +43,8 @@
         <string>基于 HTTPS 加密的 AliDNS</string>
         <key>PayloadIdentifier</key>
         <string>com.paulmillr.apple-dns</string>
+        <key>PayloadOrganization</key>
+        <string>https://github.com/paulmillr/encrypted-dns</string>
         <key>PayloadRemovalDisallowed</key>
         <false />
         <key>PayloadType</key>
