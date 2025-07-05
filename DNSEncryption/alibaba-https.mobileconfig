@@ -46,7 +46,7 @@
                 <key>PayloadType</key>
                 <string>com.apple.dnsSettings.managed</string>
                 <key>PayloadOrganization</key>
-                <string>Ignored</string>
+                <string>alidns.com</string>
                 <key>PayloadIdentifier</key>
                 <string>com.blazesnow.dnsSettings.managed</string>
             </dict>
