@@ -26,4 +26,4 @@ description: Apple设备的DNS加密教程
 
 ### `alibaba-https.txt`
 
-<<< @/DNSEncryption/alibaba-https.xml
+<<< @/DNSEncryption/alibaba-https.mobileconfig{xml}
