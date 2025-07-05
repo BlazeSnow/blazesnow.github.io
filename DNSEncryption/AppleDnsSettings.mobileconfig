@@ -86,6 +86,41 @@
                 <key>PayloadIdentifier</key>
                 <string>com.blazesnow.dnsSettings.360dns</string>
             </dict>
+            <!-- AdGuardDNS -->
+            <dict>
+                <key>DNSSettings</key>
+                <dict>
+                    <key>AllowFailover</key>
+                    <false />
+                    <key>DNSProtocol</key>
+                    <string>HTTPS</string>
+                    <key>ServerAddresses</key>
+                    <array>
+                        <string>2a10:50c0::ad1:ff</string>
+                        <string>2a10:50c0::ad2:ff</string>
+                        <string>94.140.14.14</string>
+                        <string>94.140.15.15</string>
+                    </array>
+                    <key>ServerName</key>
+                    <string>AdGuardDNS</string>
+                    <key>ServerURL</key>
+                    <string>https://dns.adguard-dns.com/dns-query</string>
+                </dict>
+                <key>PayloadDisplayName</key>
+                <string>AdGuardDNS</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+                <key>PayloadDescription</key>
+                <string>AdGuardDNS</string>
+                <key>PayloadUUID</key>
+                <string>459f6566-7f72-4f67-9ce6-180b3575f627</string>
+                <key>PayloadType</key>
+                <string>com.apple.dnsSettings.managed</string>
+                <key>PayloadOrganization</key>
+                <string>adguard-dns.io</string>
+                <key>PayloadIdentifier</key>
+                <string>com.blazesnow.dnsSettings.adguarddns</string>
+            </dict>
         </array>
     </dict>
 </plist>
