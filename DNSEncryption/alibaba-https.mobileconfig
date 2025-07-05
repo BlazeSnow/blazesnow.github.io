@@ -2,14 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple Inc//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
     <dict>
+        <key>PayloadDisplayName</key>
+        <string>基于 HTTPS 加密的 AliDNS</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
+        <key>PayloadDescription</key>
+        <string>配置设备使用基于 HTTPS 加密的 AliDNS</string>
         <key>PayloadUUID</key>
-        <string>Ignored</string>
+        <string>dc4d9c27-e5ba-4451-b158-5de81da47864</string>
         <key>PayloadType</key>
         <string>Configuration</string>
         <key>PayloadIdentifier</key>
-        <string>Ignored</string>
+        <string>com.blazesnow</string>
         <key>PayloadContent</key>
         <array>
             <dict>
@@ -31,16 +35,16 @@
                 </dict>
                 <key>PayloadScope</key>
                 <string>System</string>
+                <key>PayloadDisplayName</key>
+                <string>基于 HTTPS 加密的 AliDNS</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
                 <key>PayloadDescription</key>
                 <string>配置设备使用基于 HTTPS 加密的 AliDNS</string>
                 <key>PayloadUUID</key>
                 <string>dcbca434-1e7e-4eba-8367-7af1e12109ff</string>
                 <key>PayloadType</key>
                 <string>com.apple.dnsSettings.managed</string>
-                <key>PayloadDisplayName</key>
-                <string>基于 HTTPS 加密的 AliDNS</string>
-                <key>PayloadVersion</key>
-                <integer>1</integer>
                 <key>PayloadOrganization</key>
                 <string>Ignored</string>
                 <key>PayloadIdentifier</key>
