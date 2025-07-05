@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-07-05T13:39:00+8:00
+lastUpdated: 2025-07-05T14:41:00+8:00
 description: Apple设备的DNS加密教程
 ---
 
