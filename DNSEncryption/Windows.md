@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-01-21T13:25:00+8:00
+lastUpdated: 2025-07-05T14:52:00+8:00
 description: Windows设备的DNS加密教程
 ---
 
@@ -29,9 +29,17 @@ description: Windows设备的DNS加密教程
 2. 点击`终端管理员`
 3. 输入以下内容并回车：
 
-```powershell
+```shell
 netsh dns add encryption server=223.5.5.5 dohtemplate=https://dns.alidns.com/dns-query autoupgrade=yes udpfallback=no
 netsh dns add encryption server=223.6.6.6 dohtemplate=https://dns.alidns.com/dns-query autoupgrade=yes udpfallback=no
+netsh dns add encryption server=2400:3200::1 dohtemplate=https://dns.alidns.com/dns-query autoupgrade=yes udpfallback=no
+netsh dns add encryption server=2400:3200:baba::1 dohtemplate=https://dns.alidns.com/dns-query autoupgrade=yes udpfallback=no
+netsh dns add encryption server=119.29.29.29 dohtemplate=https://doh.pub/dns-query autoupgrade=yes udpfallback=no
+netsh dns add encryption server=2402:4e00:: dohtemplate=https://doh.pub/dns-query autoupgrade=yes udpfallback=no
+netsh dns add encryption server=101.226.4.6 dohtemplate=https://doh.360.cn/dns-query autoupgrade=yes udpfallback=no
+netsh dns add encryption server=218.30.118.6 dohtemplate=https://doh.360.cn/dns-query autoupgrade=yes udpfallback=no
+netsh dns add encryption server=123.125.81.6 dohtemplate=https://doh.360.cn/dns-query autoupgrade=yes udpfallback=no
+netsh dns add encryption server=140.207.198.6 dohtemplate=https://doh.360.cn/dns-query autoupgrade=yes udpfallback=no
 ```
 
 ### 显示已有模板
@@ -40,7 +48,7 @@ netsh dns add encryption server=223.6.6.6 dohtemplate=https://dns.alidns.com/dns
 2. 点击`终端管理员`
 3. 输入以下内容并回车：
 
-```powershell
+```shell
 netsh dns show encryption
 ```
 
@@ -50,7 +58,15 @@ netsh dns show encryption
 2. 点击`终端管理员`
 3. 输入以下内容并回车：
 
-```powershell
+```shell
 netsh dns delete encryption server=223.5.5.5
 netsh dns delete encryption server=223.6.6.6
+netsh dns delete encryption server=2400:3200::1
+netsh dns delete encryption server=2400:3200:baba::1
+netsh dns delete encryption server=119.29.29.29
+netsh dns delete encryption server=2402:4e00::
+netsh dns delete encryption server=101.226.4.6
+netsh dns delete encryption server=218.30.118.6
+netsh dns delete encryption server=123.125.81.6
+netsh dns delete encryption server=140.207.198.6
 ```
