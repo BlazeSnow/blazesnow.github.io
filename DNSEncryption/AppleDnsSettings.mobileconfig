@@ -51,7 +51,7 @@
                 <key>PayloadIdentifier</key>
                 <string>com.blazesnow.dnsSettings.alidns</string>
             </dict>
-            <!-- DNSPod Public DNS -->
+            <!-- 360安全DNS -->
             <dict>
                 <key>DNSSettings</key>
                 <dict>
@@ -61,30 +61,30 @@
                     <string>HTTPS</string>
                     <key>ServerAddresses</key>
                     <array>
-                        <string>2402:4e00::</string>
-                        <string></string>
-                        <string>119.29.29.29</string>
-                        <string></string>
+                        <string>101.226.4.6</string>
+                        <string>218.30.118.6</string>
+                        <string>123.125.81.6</string>
+                        <string>140.207.198.6</string>
                     </array>
                     <key>ServerName</key>
-                    <string>DNSPod Public DNS</string>
+                    <string>360安全DNS</string>
                     <key>ServerURL</key>
-                    <string>https://doh.pub/dns-query</string>
+                    <string>https://doh.360.cn/dns-query</string>
                 </dict>
                 <key>PayloadDisplayName</key>
-                <string>DNSPod Public DNS</string>
+                <string>360安全DNS</string>
                 <key>PayloadVersion</key>
                 <integer>1</integer>
                 <key>PayloadDescription</key>
-                <string>DNSPod Public DNS</string>
+                <string>360安全DNS</string>
                 <key>PayloadUUID</key>
-                <string>67789bfc-7b99-44c8-9add-74f8cd34efaa</string>
+                <string>11580305-f5f0-4b9b-9e0c-a97303102597</string>
                 <key>PayloadType</key>
                 <string>com.apple.dnsSettings.managed</string>
                 <key>PayloadOrganization</key>
-                <string>dnspod.cn</string>
+                <string>sdns.360.net</string>
                 <key>PayloadIdentifier</key>
-                <string>com.blazesnow.dnsSettings.dnspod</string>
+                <string>com.blazesnow.dnsSettings.360dns</string>
             </dict>
         </array>
     </dict>
