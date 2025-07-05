@@ -1,11 +1,11 @@
 ---
-lastUpdated: 2025-05-30T08:34:00+8:00
+lastUpdated: 2025-07-05T13:39:00+8:00
 description: Apple设备的DNS加密教程
 ---
 
 # Apple设备 | DNS加密
 
-> 加密方法来源于：<https://github.com/paulmillr/encrypted-dns>
+> 加密方法参考：<https://github.com/paulmillr/encrypted-dns>
 
 1. 创建文件`alibaba-https.txt`
 2. 填充内容
