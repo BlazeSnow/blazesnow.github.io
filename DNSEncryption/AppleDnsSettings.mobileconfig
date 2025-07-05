@@ -3,11 +3,11 @@
 <plist version="1.0">
     <dict>
         <key>PayloadDisplayName</key>
-        <string>基于 HTTPS 加密的 AliDNS</string>
+        <string>基于HTTPS加密的DNS</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
         <key>PayloadDescription</key>
-        <string>配置设备使用基于 HTTPS 加密的 AliDNS</string>
+        <string>配置设备使用基于HTTPS加密的DNS</string>
         <key>PayloadUUID</key>
         <string>dc4d9c27-e5ba-4451-b158-5de81da47864</string>
         <key>PayloadType</key>
@@ -16,6 +16,7 @@
         <string>com.blazesnow.dnsSettings</string>
         <key>PayloadContent</key>
         <array>
+            <!-- 阿里云公共DNS -->
             <dict>
                 <key>DNSSettings</key>
                 <dict>
@@ -31,16 +32,16 @@
                         <string>223.6.6.6</string>
                     </array>
                     <key>ServerName</key>
-                    <string>AliDNS</string>
+                    <string>阿里云公共DNS</string>
                     <key>ServerURL</key>
                     <string>https://dns.alidns.com/dns-query</string>
                 </dict>
                 <key>PayloadDisplayName</key>
-                <string>基于 HTTPS 加密的 AliDNS</string>
+                <string>阿里云公共DNS</string>
                 <key>PayloadVersion</key>
                 <integer>1</integer>
                 <key>PayloadDescription</key>
-                <string>配置设备使用基于 HTTPS 加密的 AliDNS</string>
+                <string>阿里云公共DNS</string>
                 <key>PayloadUUID</key>
                 <string>dcbca434-1e7e-4eba-8367-7af1e12109ff</string>
                 <key>PayloadType</key>
@@ -49,6 +50,39 @@
                 <string>alidns.com</string>
                 <key>PayloadIdentifier</key>
                 <string>com.blazesnow.dnsSettings.alidns</string>
+            </dict>
+            <!-- DNSPod Public DNS -->
+            <dict>
+                <key>DNSSettings</key>
+                <dict>
+                    <key>AllowFailover</key>
+                    <true />
+                    <key>DNSProtocol</key>
+                    <string>HTTPS</string>
+                    <key>ServerAddresses</key>
+                    <array>
+                        <string>2402:4e00::</string>
+                        <string>119.29.29.29</string>
+                    </array>
+                    <key>ServerName</key>
+                    <string>DNSPod Public DNS</string>
+                    <key>ServerURL</key>
+                    <string>https://doh.pub/dns-query</string>
+                </dict>
+                <key>PayloadDisplayName</key>
+                <string>DNSPod Public DNS</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+                <key>PayloadDescription</key>
+                <string>DNSPod Public DNS</string>
+                <key>PayloadUUID</key>
+                <string>67789bfc-7b99-44c8-9add-74f8cd34efaa</string>
+                <key>PayloadType</key>
+                <string>com.apple.dnsSettings.managed</string>
+                <key>PayloadOrganization</key>
+                <string>dnspod.cn</string>
+                <key>PayloadIdentifier</key>
+                <string>com.blazesnow.dnsSettings.dnspod</string>
             </dict>
         </array>
     </dict>
