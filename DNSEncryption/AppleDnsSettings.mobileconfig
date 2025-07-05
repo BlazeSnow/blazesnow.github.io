@@ -21,7 +21,7 @@
                 <key>DNSSettings</key>
                 <dict>
                     <key>AllowFailover</key>
-                    <true />
+                    <false />
                     <key>DNSProtocol</key>
                     <string>HTTPS</string>
                     <key>ServerAddresses</key>
@@ -56,13 +56,15 @@
                 <key>DNSSettings</key>
                 <dict>
                     <key>AllowFailover</key>
-                    <true />
+                    <false />
                     <key>DNSProtocol</key>
                     <string>HTTPS</string>
                     <key>ServerAddresses</key>
                     <array>
                         <string>2402:4e00::</string>
+                        <string></string>
                         <string>119.29.29.29</string>
+                        <string></string>
                     </array>
                     <key>ServerName</key>
                     <string>DNSPod Public DNS</string>
