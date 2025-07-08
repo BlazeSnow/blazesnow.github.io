@@ -244,6 +244,7 @@ export default defineConfig({
             { text: '安装.NET', link: '/Windows/DotNet' },
             { text: '安装Java', link: '/Windows/Java' },
             { text: '安装Python', link: '/Windows/Python' },
+            { text: '安装Nodejs', link: '/Windows/Nodejs' },
           ]
         },
         {
