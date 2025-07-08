@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-07-08T19:47:00+8:00
+lastUpdated: 2025-07-08T19:50:00+8:00
 description: 在Windows系统中安装Nodejs
 ---
 
@@ -9,7 +9,7 @@ description: 在Windows系统中安装Nodejs
 
 官方网站：<https://nodejs.org/zh-cn>
 
-## 最新版本
+## Current
 
 1. 按下`Windows徽标`+`X`
 2. 选中`终端管理员`
@@ -19,7 +19,7 @@ description: 在Windows系统中安装Nodejs
 winget install OpenJS.NodeJS
 ```
 
-## LTS版本
+## LTS
 
 1. 按下`Windows徽标`+`X`
 2. 选中`终端管理员`
