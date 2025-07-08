@@ -43,9 +43,10 @@ export default defineConfig({
     //左上角logo
     logo: '/logo.ico',
     //右边的小目录
-    aside: false,
+    aside: true,
     //右边的小目录
-    outline: false,
+    outline: 2,
+    outlineTitle: '本篇目录',
     //切换深色或浅色模式提示
     darkModeSwitchLabel: '切换深色或浅色模式',
     //切换至浅色模式提示
@@ -243,6 +244,7 @@ export default defineConfig({
             { text: '安装.NET', link: '/Windows/DotNet' },
             { text: '安装Java', link: '/Windows/Java' },
             { text: '安装Python', link: '/Windows/Python' },
+            { text: '安装Nodejs', link: '/Windows/Nodejs' },
           ]
         },
         {

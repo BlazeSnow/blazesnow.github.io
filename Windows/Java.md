@@ -1,11 +1,11 @@
 ---
-lastUpdated: 2025-03-29T11:19:00+8:00
+lastUpdated: 2025-07-08T19:42:00+8:00
 description: 在Windows系统中安装Java
 ---
 
 # 安装Java | Windows
 
-> Java是一种编程语言和计算平台，由Sun Microsystems于1995年首次发布。它从不起眼的起点发展成为当今数字世界的一大支柱，为许多服务和应用程序提供了可靠的平台。面向未来的创新产品和数字服务也继续依赖Java。
+> Oracle Java 是第一大编程语言和开发平台。它有助于企业降低成本、缩短开发周期、推动创新以及改善应用程序服务。Java 现在仍是企业和开发人员的首选开发平台。
 
 官方网站：
 
@@ -14,13 +14,21 @@ description: 在Windows系统中安装Java
 
 ## Java
 
-```powershell
+1. 按下`Windows徽标`+`X`
+2. 选中`终端管理员`
+3. 输入并回车：
+
+```shell
 winget install Oracle.JavaRuntimeEnvironment
 ```
 
 ## JDK Development Kit
 
-```powershell
+1. 按下`Windows徽标`+`X`
+2. 选中`终端管理员`
+3. 输入并回车：
+
+```shell
 winget install Oracle.JDK.24
 winget install Oracle.JDK.23
 winget install Oracle.JDK.22
