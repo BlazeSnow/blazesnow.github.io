@@ -43,9 +43,10 @@ export default defineConfig({
     //左上角logo
     logo: '/logo.ico',
     //右边的小目录
-    aside: false,
+    aside: true,
     //右边的小目录
-    outline: false,
+    outline: 2,
+    outlineTitle: '本篇目录',
     //切换深色或浅色模式提示
     darkModeSwitchLabel: '切换深色或浅色模式',
     //切换至浅色模式提示
