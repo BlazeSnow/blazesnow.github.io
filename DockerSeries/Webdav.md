@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-02-13T09:39:00+8:00
+lastUpdated: 2025-07-09T22:34:00+8:00
 description: 搭建Webdav服务器的教程
 ---
 
@@ -25,52 +25,60 @@ docker pull bytemark/webdav
 
 ## 配置文件
 
-1. 前往var目录：`cd /var`
-2. 创建工作目录：`mkdir webdav`
-3. 进入工作目录：`cd webdav`
-4. 创建compose文件：`touch compose.yml`
-5. 编辑compose文件：`nano compose.yml`
+```shell
+# 前往var目录
+cd /var
+
+# 创建工作目录
+mkdir webdav
+
+# 进入工作目录
+cd webdav
+
+# 创建docker配置文件
+touch compose.yml
+
+# 编辑docker配置文件
+nano compose.yml
+```
 
 ### `compose.yml`
 
-```yml{10,11}
-services:
-  webdav:
-    image: bytemark/webdav
-    container_name: webdav
-    restart: always
-    ports:
-      - "80:80"
-    environment:
-      AUTH_TYPE: Digest
-      USERNAME: 此处填写用户名
-      PASSWORD: 此处填写密码
-    volumes:
-      - ./dav:/var/lib/dav
-```
+<<< @/DockerSeries/Webdav.yml
 
 ## 开始运行
 
-1. 前往工作目录：`cd /var/webdav`
-2. 运行：`docker compose up -d`或`docker-compose up -d`
-3. 运行成功后，即可使用`http://服务器ip地址`连接服务器
+```shell
+# 前往工作目录
+cd /var/teamspeak
+
+# 开始运行
+docker compose up -d
+```
+
+运行成功后，即可使用`http://服务器ip地址`连接服务器
 
 ## 维护服务
 
-### 停止服务
+```shell
+# 停止服务
+cd /var/webdav
+docker compose down
 
-1. 前往工作文件夹：`cd /var/webdav`
-2. 中止Docker容器：`docker compose down`或`docker-compose down`
+# 更新服务
+cd /var/webdav
+docker compose down
+docker compose pull
+docker compose up -d
 
-### 压缩数据文件夹
+# 压缩数据文件夹
+cd /var/webdav
+tar -czf dav.tar.gz dav/
 
-1. 前往工作目录：`cd /var/webdav`
-2. 打包数据文件夹：`tar -czf dav.tar.gz dav/`
-
-### 解压缩数据文件夹
-
-1. 前往工作目录：`cd /var/webdav`
-2. 解压数据文件压缩包：`tar -xzf dav.tar.gz dav/`
+# 解压缩数据文件夹
+cd /var/webdav
+tar -xzf dav.tar.gz dav/
+```
 
 ## 挂载到Windows
 
