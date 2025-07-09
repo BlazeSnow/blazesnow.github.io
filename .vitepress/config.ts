@@ -376,6 +376,7 @@ export default defineConfig({
         { text: '消息推送器', link: '/DockerSeries/Ntfy' },
         { text: '智能家居中枢', link: '/DockerSeries/HomeAssistant' },
         { text: '语音服务器', link: '/DockerSeries/TeamSpeak' },
+        { text: '音乐服务器', link: '/DockerSeries/Navidrome' },
       ],
       '/Nginx/': [
         { text: '前言', link: '/Nginx/' },
