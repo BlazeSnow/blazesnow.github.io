@@ -10,6 +10,8 @@ description: 2025年7月的更新日志
     - `家庭域名服务器 | Docker系列`
     - `文件快递柜 | Docker系列`
     - `FTP | Docker系列`
+    - `智能家居中枢 | Docker系列`
+    - `我的世界服务器 | Docker系列`
 - **2025年7月8日19点51分**
   - 优化文章：
     - `安装WinGet | Windows`
