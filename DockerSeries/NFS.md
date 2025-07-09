@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2024-12-03T22:02:00+8:00
+lastUpdated: 2025-07-09T22:05:00+8:00
 description: 搭建NFS服务器的教程
 ---
 
@@ -28,55 +28,65 @@ docker pull itsthenetwork/nfs-server-alpine
 
 ## 配置文件
 
-1. 前往var目录：`cd /var`
-2. 创建工作目录：`mkdir nfs`
-3. 进入工作目录：`cd nfs`
-4. 创建compose文件：`touch compose.yml`
-5. 编辑compose文件：`nano compose.yml`
+```shell
+# 前往var目录
+cd /var
+
+# 创建工作目录
+mkdir nfs
+
+# 进入工作目录
+cd nfs
+
+# 创建docker配置文件
+touch compose.yml
+
+# 编辑docker配置文件
+nano compose.yml
+```
 
 ### `compose.yml`
 
-```yml
-services:
-  nfs-server:
-    image: itsthenetwork/nfs-server-alpine
-    container_name: nfs-server
-    privileged: true
-    restart: always
-    volumes:
-      - ./data:/nfsshare
-    environment:
-      - SHARED_DIRECTORY=/nfsshare
-      - SYNC=true # sync模式 or async模式
-      # - READ_ONLY=true # 只读访问去除注释
-      - PERMITTED="192.168.*.*" # 此处填写允许访问的ip
-    ports:
-      - "2049:2049"
-```
+<<< @/DockerSeries/NFS.yml
 
 ## 开始运行
 
-1. 前往工作目录：`cd /var/nfs`
-2. 运行：`docker compose up`或`docker-compose up`
-3. 运行成功后，即可在客户端：
-    - 安装nfs客户端：`sudo apt install nfs-common`
-    - 创建客户端目录：`mkdir -p /var/nfs`
-    - 连接服务器：`mount 服务器ip地址:/ /var/nfs`
-    - 断开连接服务器：`umount -l /var/nfs`
+```shell
+# 前往工作目录
+cd /var/nfs
+
+# 开始运行
+docker compose up -d
+
+# 客户端操作
+# 安装nfs客户端
+sudo apt install nfs-common
+# 创建目录
+mkdir -p /var/nfs
+# 连接服务器
+mount 服务器ip地址:/ /var/nfs
+# 断开连接服务器
+umount -l /var/nfs
+```
 
 ## 维护服务
 
-### 停止服务
+```shell
+# 停止服务
+cd /var/nfs
+docker compose down
 
-1. 前往工作文件夹：`cd /var/nfs`
-2. 中止Docker容器：`docker compose down`或`docker-compose down`
+# 更新服务
+cd /var/nfs
+docker compose down
+docker compose pull
+docker compose up -d
 
-### 压缩数据文件夹
+# 压缩数据文件夹
+cd /var/nfs
+tar -czf data.tar.gz data/
 
-1. 前往工作目录：`cd /var/nfs`
-2. 打包数据文件夹：`tar -czf data.tar.gz data/`
-
-### 解压缩数据文件夹
-
-1. 前往工作目录：`cd /var/nfs`
-2. 解压数据文件压缩包：`tar -xzf data.tar.gz data/`
+# 解压缩数据文件夹
+cd /var/nfs
+tar -xzf data.tar.gz data/
+```
