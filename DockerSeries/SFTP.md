@@ -14,7 +14,7 @@ description: 搭建SFTP服务器的教程
 ## 拉取镜像
 
 ```shell
-docker pull atmoz/sftp
+docker pull atmoz/sftp:latest
 ```
 
 ## 开放端口

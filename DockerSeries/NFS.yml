@@ -1,6 +1,6 @@
 services:
   nfs:
-    image: itsthenetwork/nfs-server-alpine
+    image: itsthenetwork/nfs-server-alpine:latest
     container_name: nfs
     privileged: true
     restart: always

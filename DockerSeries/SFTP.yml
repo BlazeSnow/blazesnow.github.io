@@ -1,6 +1,6 @@
 services:
   sftp:
-    image: atmoz/sftp
+    image: atmoz/sftp:latest
     container_name: sftp
     restart: always
     volumes:

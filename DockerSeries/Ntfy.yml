@@ -1,6 +1,6 @@
 services:
   ntfy:
-    image: binwiederhier/ntfy
+    image: binwiederhier/ntfy:latest
     container_name: ntfy
     restart: always
     volumes:

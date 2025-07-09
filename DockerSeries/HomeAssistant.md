@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-07-09T21:53:00+8:00
+lastUpdated: 2025-07-09T22:57:00+8:00
 description: 使用HomeAssistant搭建智能家居中枢
 ---
 
@@ -18,7 +18,7 @@ description: 使用HomeAssistant搭建智能家居中枢
 ## 拉取镜像
 
 ```shell
-docker pull homeassistant/home-assistant
+docker pull ghcr.io/home-assistant/home-assistant:stable
 ```
 
 ## 开放端口

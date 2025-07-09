@@ -14,7 +14,7 @@ description: 搭建SMB服务器的教程
 ## 拉取镜像
 
 ```shell
-docker pull dockurr/samba
+docker pull dockurr/samba:latest
 ```
 
 ## 开放端口

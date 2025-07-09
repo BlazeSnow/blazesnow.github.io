@@ -1,6 +1,6 @@
 services:
   teamspeak:
-    image: teamspeak
+    image: teamspeak:latest
     container_name: teamspeak
     restart: always
     ports:

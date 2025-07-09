@@ -18,7 +18,7 @@ description: 搭建我的世界服务器的教程
 ## 拉取镜像
 
 ```shell
-docker pull itzg/minecraft-server
+docker pull itzg/minecraft-server:latest
 ```
 
 ## 开放端口

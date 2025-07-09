@@ -1,6 +1,6 @@
 services:
   webdav:
-    image: bytemark/webdav
+    image: bytemark/webdav:latest
     container_name: webdav
     restart: always
     ports:

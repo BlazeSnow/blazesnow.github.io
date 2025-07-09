@@ -1,6 +1,6 @@
 services:
   vsftpd:
-    image: fauria/vsftpd
+    image: fauria/vsftpd:latest
     container_name: vsftpd
     restart: always
     volumes:

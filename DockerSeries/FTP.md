@@ -14,7 +14,7 @@ description: 使用vsftpd搭建FTP文件服务器
 ## 拉取镜像
 
 ```shell
-docker pull fauria/vsftpd
+docker pull fauria/vsftpd:latest
 ```
 
 ## 开放端口

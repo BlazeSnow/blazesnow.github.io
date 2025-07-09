@@ -18,7 +18,7 @@ description: 搭建语音服务器的教程
 ## 拉取镜像
 
 ```shell
-docker pull teamspeak
+docker pull teamspeak:latest
 ```
 
 ## 开放端口

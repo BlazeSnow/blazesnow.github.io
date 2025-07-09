@@ -17,7 +17,7 @@ description: 搭建NFS服务器的教程
 ## 拉取镜像
 
 ```shell
-docker pull itsthenetwork/nfs-server-alpine
+docker pull itsthenetwork/nfs-server-alpine:latest
 ```
 
 ## 开放端口

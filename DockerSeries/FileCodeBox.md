@@ -18,7 +18,7 @@ description: 使用FileCodeBox搭建文件快递柜
 ## 拉取镜像
 
 ```shell
-docker pull lanol/filecodebox
+docker pull lanol/filecodebox:latest
 ```
 
 ## 开放端口

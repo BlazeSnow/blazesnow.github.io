@@ -14,7 +14,7 @@ description: 搭建Webdav服务器的教程
 ## 拉取镜像
 
 ```bash
-docker pull bytemark/webdav
+docker pull bytemark/webdav:latest
 ```
 
 ## 开放端口

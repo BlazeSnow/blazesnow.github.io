@@ -23,7 +23,7 @@ description: 搭建密码服务器的教程
 ## 拉取镜像
 
 ```shell
-docker pull vaultwarden/server
+docker pull vaultwarden/server:latest
 docker pull nginx:current-alpine
 ```
 

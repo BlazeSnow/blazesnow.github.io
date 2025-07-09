@@ -18,7 +18,7 @@ description: 使用AdGuard Home搭建家庭域名服务器
 ## 拉取镜像
 
 ```shell
-docker pull adguard/adguardhome
+docker pull adguard/adguardhome:latest
 ```
 
 ## 开放端口
