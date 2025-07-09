@@ -1,0 +1,22 @@
+services:
+  vaultwarden:
+    image: vaultwarden/server
+    container_name: vaultwarden
+    environment:
+    - SIGNUPS_ALLOWED=true
+    volumes:
+    - ./data:/data
+    restart: always
+
+  nginx:
+    image: nginx:current-alpine
+    container_name: nginx-vaultwarden
+    volumes:
+    - ./vaultwarden.conf:/etc/nginx/conf.d/vaultwarden.conf:ro
+    - ./ssl:/etc/nginx/ssl:ro
+    ports:
+    - 80:80
+    - 443:443
+    depends_on:
+    - vaultwarden
+    restart: always

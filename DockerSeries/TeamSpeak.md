@@ -56,7 +56,7 @@ nano compose.yml
 
 ```shell
 # 前往工作目录
-cd /var/samba
+cd /var/teamspeak
 
 # 开始运行
 docker compose up

@@ -50,7 +50,7 @@ nano compose.yml
 
 ```shell
 # 前往工作目录
-cd /var/nfs
+cd /var/sftp
 
 # 开始运行
 docker compose up -d

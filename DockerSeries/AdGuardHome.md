@@ -38,10 +38,10 @@ docker pull adguard/adguardhome
 cd /var
 
 # 创建工作目录
-mkdir adguard
+mkdir adguardhome
 
 # 进入工作目录
-cd adguard
+cd adguardhome
 
 # 创建数据文件夹
 mkdir work
@@ -92,7 +92,7 @@ DNSStubListener=no
 
 ```shell
 # 前往工作目录
-cd /var/adguard
+cd /var/adguardhome
 
 # 开始运行
 docker compose up -d
@@ -109,22 +109,22 @@ Creating adguardhome ... done
 
 ```shell
 # 停止服务
-cd /var/adguard
+cd /var/adguardhome
 docker compose down
 
 # 更新服务
-cd /var/adguard
+cd /var/adguardhome
 docker compose down
 docker compose pull
 docker compose up -d
 
 # 压缩数据文件夹
-cd /var/adguard
+cd /var/adguardhome
 tar -czf work.tar.gz work/
 tar -czf conf.tar.gz conf/
 
 # 解压缩数据文件夹
-cd /var/adguard
+cd /var/adguardhome
 tar -xzf work.tar.gz work/
 tar -xzf conf.tar.gz conf/
 ```
