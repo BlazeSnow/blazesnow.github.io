@@ -1,6 +1,6 @@
 ---
-lastUpdated: 2024-12-15T16:36:00+8:00
-description: 搭建文件快递柜的教程
+lastUpdated: 2025-07-09T21:43:00+8:00
+description: 使用FileCodeBox搭建文件快递柜
 ---
 
 # 文件快递柜 | Docker系列
