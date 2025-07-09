@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-07-09T22:41:00+8:00
+lastUpdated: 2025-07-09T22:43:00+8:00
 description: 使用Navidrome搭建音乐服务器
 ---
 
@@ -60,7 +60,8 @@ cd /var/navidrome
 docker compose up -d
 ```
 
-运行成功后，即可使用`服务器ip地址:4533`连接服务器
+1. 运行成功后，即可使用`服务器ip地址:4533`连接服务器
+2. 音乐文件放置至：`/var/navidrome/music`
 
 ## 维护服务
 
@@ -78,8 +79,10 @@ docker compose up -d
 # 压缩数据文件夹
 cd /var/navidrome
 tar -czf data.tar.gz data/
+tar -czf music.tar.gz music/
 
 # 解压缩数据文件夹
 cd /var/navidrome
 tar -xzf data.tar.gz data/
+tar -xzf music.tar.gz music/
 ```
