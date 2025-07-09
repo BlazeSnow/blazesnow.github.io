@@ -17,6 +17,7 @@ description: 2025年7月的更新日志
     - `SFTP | Docker系列`
     - `SMB | Docker系列`
     - `语音服务器 | Docker系列`
+    - `密码服务器 | Docker系列`
 - **2025年7月8日19点51分**
   - 优化文章：
     - `安装WinGet | Windows`
