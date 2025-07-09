@@ -112,9 +112,11 @@ Creating adguardhome ... done
 cd /var/adguard
 docker compose down
 
-# 拉取镜像
+# 更新服务
 cd /var/adguard
+docker compose down
 docker compose pull
+docker compose up -d
 
 # 压缩数据文件夹
 cd /var/adguard
