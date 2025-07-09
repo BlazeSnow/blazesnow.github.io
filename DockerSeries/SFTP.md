@@ -13,7 +13,7 @@ description: 搭建SFTP服务器的教程
 
 ## 拉取镜像
 
-```bash
+```shell
 docker pull atmoz/sftp
 ```
 

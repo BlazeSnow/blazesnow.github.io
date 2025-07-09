@@ -17,7 +17,7 @@ description: 搭建消息推送器的教程
 
 ## 拉取镜像
 
-```bash
+```shell
 docker pull binwiederhier/ntfy
 ```
 

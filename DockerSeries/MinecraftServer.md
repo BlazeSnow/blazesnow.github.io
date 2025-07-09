@@ -17,7 +17,7 @@ description: 搭建我的世界服务器的教程
 
 ## 拉取镜像
 
-```bash
+```shell
 docker pull itzg/minecraft-server
 ```
 
