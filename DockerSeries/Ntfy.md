@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2024-12-15T22:29:00+8:00
+lastUpdated: 2025-07-09T22:11:00+8:00
 description: 搭建消息推送器的教程
 ---
 
@@ -29,36 +29,41 @@ docker pull binwiederhier/ntfy
 
 ## 配置文件
 
-1. 前往var目录：`cd /var`
-2. 创建工作目录：`mkdir ntfy`
-3. 进入工作目录：`cd ntfy`
-4. 创建docker配置文件：`touch compose.yml`
-5. 编辑docker配置文件：`nano compose.yml`
-6. 创建ntfy配置文件：`touch server.yml`
-7. 编辑ntfy配置文件：`nano server.yml`
-8. 创建ssl目录：`mkdir ssl`
-9. 进入ssl目录：`cd ssl`
-10. 自签名openssl证书和私钥：`openssl req -x509 -newkey rsa:4096 -sha256 -nodes -keyout privkey.key -out cert.crt -days 3650`
+```shell
+# 前往var目录
+cd /var
+
+# 创建工作目录
+mkdir ntfy
+
+# 进入工作目录
+cd ntfy
+
+# 创建docker配置文件
+touch compose.yml
+
+# 编辑docker配置文件
+nano compose.yml
+
+# 创建ntfy配置文件
+touch server.yml
+
+# 编辑ntfy配置文件
+nano server.yml
+
+# 创建ssl目录
+mkdir ssl
+
+# 进入ssl目录
+cd ssl
+
+# 自签名openssl证书和私钥
+openssl req -x509 -newkey rsa:4096 -sha256 -nodes -keyout privkey.key -out cert.crt -days 3650
+```
 
 ### `compose.yml`
 
-```yml
-services:
-  ntfy:
-    image: binwiederhier/ntfy
-    container_name: ntfy
-    restart: always
-    volumes:
-      - ./cache:/var/cache/ntfy
-      - ./ssl:/var/ssl:ro
-      - ./server.yml:/etc/ntfy/server.yml:ro
-    ports:
-      - 2586:2586
-    environment:
-      - TZ=CST
-    command:
-      - serve
-```
+<<< @/DockerSeries/Ntfy.yml
 
 ### `server.yml`
 
@@ -73,23 +78,34 @@ attachment-cache-dir: "/var/cache/ntfy/attachments"
 
 ## 开始运行
 
-1. 前往工作目录：`cd /var/ntfy`
-2. 开始运行：`docker compose up -d`或`docker-compose up -d`
-3. 在浏览器访问：`https://服务器ip地址:2586`，进入页面。因为证书与私钥为自签名，浏览器会警告网页不安全，在浏览器中选择信任该网页，然后即可正常访问。
+```shell
+# 前往工作目录
+cd /var/ntfy
+
+# 开始运行
+docker compose up -d
+```
+
+在浏览器访问：`https://服务器ip地址:2586`，进入页面。因为证书与私钥为自签名，浏览器会警告网页不安全，在浏览器中选择信任该网页，然后即可正常访问。
 
 ## 维护服务
 
-### 停止服务
+```shell
+# 停止服务
+cd /var/ntfy
+docker compose down
 
-1. 前往工作文件夹：`cd /var/ntfy`
-2. 中止Docker容器：`docker compose down`或`docker-compose down`
+# 更新服务
+cd /var/ntfy
+docker compose down
+docker compose pull
+docker compose up -d
 
-### 压缩数据文件夹
+# 压缩数据文件夹
+cd /var/ntfy
+tar -czf cache.tar.gz cache/
 
-1. 前往工作目录：`cd /var/ntfy`
-2. 压缩数据文件夹：`tar -czf cache.tar.gz cache/`
-
-### 解压缩数据文件夹
-
-1. 前往工作目录：`cd /var/ntfy`
-2. 解压缩数据文件夹：`tar -xzf cache.tar.gz cache/`
+# 解压缩数据文件夹
+cd /var/ntfy
+tar -xzf cache.tar.gz cache/
+```

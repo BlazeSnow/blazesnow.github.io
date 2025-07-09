@@ -72,7 +72,7 @@ docker compose down
 docker compose up -d
 ```
 
-1. 运行成功后，即可使用`服务器ip地址:25565`连接服务器
+运行成功后，即可使用`服务器ip地址:25565`连接服务器
 
 ## 维护服务
 

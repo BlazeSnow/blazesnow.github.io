@@ -58,7 +58,7 @@ cd /var/vsftpd
 docker compose up -d
 ```
 
-1. 运行成功后，即可使用`ftp://服务器ip地址`连接服务器
+运行成功后，即可使用`ftp://服务器ip地址`连接服务器
 
 ## 维护服务
 

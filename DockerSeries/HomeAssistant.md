@@ -60,7 +60,7 @@ cd /var/homeassistant
 docker compose up -d
 ```
 
-1. 在浏览器访问：`http://服务器ip地址:8123`，进入页面。
+在浏览器访问：`http://服务器ip地址:8123`，进入页面。
 
 ## 维护服务
 
