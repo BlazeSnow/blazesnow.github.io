@@ -1,0 +1,13 @@
+services:
+  samba:
+    image: dockurr/samba
+    container_name: samba
+    restart: always
+    environment:
+      NAME: "Data"
+      USER: "此处填写用户名"
+      PASS: "此处填写密码"
+    ports:
+    - 445:445
+    volumes:
+    - ./storage:/storage
