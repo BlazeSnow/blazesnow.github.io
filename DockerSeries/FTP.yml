@@ -1,0 +1,17 @@
+services:
+  vsftpd:
+    image: fauria/vsftpd
+    container_name: vsftpd
+    restart: always
+    volumes:
+    - ./data:/home/vsftpd
+    ports:
+    - "20:20"
+    - "21:21"
+    - "21100-21110:21100-21110"
+    environment:
+      FTP_USER: 此处设置用户名
+      FTP_PASS: 此处设置密码
+      PASV_ADDRESS: 此处设置服务器ip地址
+      PASV_MIN_PORT: 21100
+      PASV_MAX_PORT: 21110
