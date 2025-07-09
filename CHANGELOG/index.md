@@ -14,6 +14,7 @@ description: 2025年7月的更新日志
     - `我的世界服务器 | Docker系列`
     - `NFS | Docker系列`
     - `消息推送器 | Docker系列`
+    - `SFTP | Docker系列`
 - **2025年7月8日19点51分**
   - 优化文章：
     - `安装WinGet | Windows`

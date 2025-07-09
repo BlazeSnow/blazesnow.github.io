@@ -1,0 +1,12 @@
+services:
+  sftp:
+    image: atmoz/sftp
+    container_name: sftp
+    restart: always
+    volumes:
+    - ./home:/home
+    ports:
+    - 2222:22
+    command: foo:123:1001:100:/abc
+    # 用户名:密码:用户ID:组ID:用户文件夹名
+    # 用户文件夹：./home/foo/abc
