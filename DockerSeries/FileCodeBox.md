@@ -1,6 +1,6 @@
 ---
-lastUpdated: 2024-12-15T16:36:00+8:00
-description: 搭建文件快递柜的教程
+lastUpdated: 2025-07-09T21:43:00+8:00
+description: 使用FileCodeBox搭建文件快递柜
 ---
 
 # 文件快递柜 | Docker系列
@@ -17,8 +17,8 @@ description: 搭建文件快递柜的教程
 
 ## 拉取镜像
 
-```bash
-docker pull lanol/filecodebox
+```shell
+docker pull lanol/filecodebox:latest
 ```
 
 ## 开放端口
@@ -29,47 +29,58 @@ docker pull lanol/filecodebox
 
 ## 配置文件
 
-1. 前往var目录：`cd /var`
-2. 创建工作目录：`mkdir filecodebox`
-3. 进入工作目录：`cd filecodebox`
-4. 创建docker配置文件：`touch compose.yml`
-5. 编辑docker配置文件：`nano compose.yml`
+```shell
+# 前往var目录
+cd /var
+
+# 创建工作目录
+mkdir filecodebox
+
+# 进入工作目录
+cd filecodebox
+
+# 创建docker配置文件
+touch compose.yml
+
+# 编辑docker配置文件
+nano compose.yml
+```
 
 ### `compose.yml`
 
-```yml
-services:
-  filecodebox:
-    image: lanol/filecodebox
-    container_name: filecodebox
-    restart: always
-    ports:
-      - "12345:12345"
-    volumes:
-      - ./data:/app/data
-```
+<<< @/DockerSeries/FileCodeBox.yml
 
 ## 开始运行
 
-1. 前往工作目录：`cd /var/filecodebox`
-2. 开始运行：`docker compose up -d`或`docker-compose up -d`
-3. 在浏览器访问：`http://服务器ip地址:12345`，进入页面。
-4. 进入页面后，链接应该为`http://服务器ip地址:12345/#/`，此时在后面加上`admin`，进入`http://服务器ip地址:12345/#/admin`
-5. 输入默认密码`FileCodeBox2023`，进入管理后台并修改密码
+```shell
+# 前往工作目录
+cd /var/filecodebox
+
+# 开始运行
+docker compose up -d
+```
+
+1. 在浏览器访问：`http://服务器ip地址:12345/#/admin`
+2. 输入默认密码`FileCodeBox2023`，进入管理后台并修改密码
 
 ## 维护服务
 
-### 停止服务
+```shell
+# 停止服务
+cd /var/filecodebox
+docker compose down
 
-1. 前往工作文件夹：`cd /var/filecodebox`
-2. 中止Docker容器：`docker compose down`或`docker-compose down`
+# 更新服务
+cd /var/filecodebox
+docker compose down
+docker compose pull
+docker compose up -d
 
-### 压缩数据文件夹
+# 压缩数据文件夹
+cd /var/filecodebox
+tar -czf data.tar.gz data/
 
-1. 前往工作目录：`cd /var/filecodebox`
-2. 压缩数据文件夹：`tar -czf data.tar.gz data/`
-
-### 解压缩数据文件夹
-
-1. 前往工作目录：`cd /var/filecodebox`
-2. 解压缩数据文件夹：`tar -xzf data.tar.gz data/`
+# 解压缩数据文件夹
+cd /var/filecodebox
+tar -xzf data.tar.gz data/
+```
