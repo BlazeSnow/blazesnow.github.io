@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2024-11-25T13:26:00+8:00
+lastUpdated: 2025-07-09T21:59:00+8:00
 description: 搭建我的世界服务器的教程
 ---
 
@@ -17,8 +17,8 @@ description: 搭建我的世界服务器的教程
 
 ## 拉取镜像
 
-```bash
-docker pull itzg/minecraft-server
+```shell
+docker pull itzg/minecraft-server:latest
 ```
 
 ## 开放端口
@@ -29,75 +29,75 @@ docker pull itzg/minecraft-server
 
 ## 配置文件
 
-1. 前往var目录：`cd /var`
-2. 创建工作目录：`mkdir mc`
-3. 进入工作目录：`cd mc`
-4. 创建compose文件：`touch compose.yml`
-5. 编辑compose文件：`nano compose.yml`
+```shell
+# 前往var目录
+cd /var
+
+# 创建工作目录
+mkdir minecraft
+
+# 进入工作目录
+cd minecraft
+
+# 创建docker配置文件
+touch compose.yml
+
+# 编辑docker配置文件
+nano compose.yml
+```
 
 ### `compose.yml`
 
-```yml
-services:
-  minecraft:
-    image: itzg/minecraft-server
-    container_name: mc
-    tty: true
-    stdin_open: true
-    restart: always
-    ports:
-      - "25565:25565"
-    volumes:
-      - ./data:/data
-    environment:
-      EULA: "TRUE"
-      EXEC_DIRECTLY: "true"
-      # 保持以上的环境变量不变，
-      # 以下的更多的环境变量见：
-      # https://docker-minecraft-server.readthedocs.io/en/latest/variables/
-      TYPE: "VANILLA"
-      VERSION: "1.21.3"
-      MEMORY: "2G"
-      MAX_PLAYERS: "5"
-      PVP: "false"
-      ONLINE_MODE: "true"
-      ALLOW_FLIGHT: "true"
-      ENABLE_WHITELIST: "true"
-```
+<<< @/DockerSeries/MinecraftServer.yml
 
 ## 开始运行
 
-1. 前往工作目录：`cd /var/mc`
-2. 首次运行：`docker compose up`或`docker-compose up`
-3. 等待游戏加载完成，出现`Done! For help, type "help"`
-4. 输入`stop`结束服务器
-5. 结束Docker服务：`docker compose down`或`docker-compose down`
-6. 再次运行：`docker compose up -d`或`docker-compose up -d`
-7. 运行成功后，即可使用`服务器ip地址:25565`连接服务器
+```shell
+# 前往工作目录
+cd /var/minecraft
+
+# 开始运行
+docker compose up
+
+# 若显示以下内容，则运行成功
+# Done! For help, type "help"
+
+# 停止服务器
+stop
+
+# 结束Docker服务
+docker compose down
+
+# 再次运行
+docker compose up -d
+```
+
+运行成功后，即可使用`服务器ip地址:25565`连接服务器
 
 ## 维护服务
 
-### 输入游戏命令
-
-```sh
+```shell
 # 保存世界数据
-docker exec mc rcon-cli save-all
+docker exec minecraft rcon-cli save-all
 
 # 停止服务器，注意：停止服务器后仍需停止Docker服务
-docker exec mc rcon-cli stop
+docker exec minecraft rcon-cli stop
+
+# 停止Docker服务
+cd /var/minecraft
+docker compose down
+
+# 更新服务
+cd /var/minecraft
+docker compose down
+docker compose pull
+docker compose up -d
+
+# 压缩数据文件夹
+cd /var/minecraft
+tar -czf data.tar.gz data/
+
+# 解压缩数据文件夹
+cd /var/minecraft
+tar -xzf data.tar.gz data/
 ```
-
-### 停止服务
-
-1. 前往工作文件夹：`cd /var/mc`
-2. 中止Docker容器：`docker compose down`或`docker-compose down`
-
-### 压缩数据文件夹
-
-1. 前往工作目录：`cd /var/mc`
-2. 打包数据文件夹：`tar -czf data.tar.gz data/`
-
-### 解压缩数据文件夹
-
-1. 前往工作目录：`cd /var/mc`
-2. 解压数据文件压缩包：`tar -xzf data.tar.gz data/`
