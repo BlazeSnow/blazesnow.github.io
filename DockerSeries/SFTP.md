@@ -44,7 +44,7 @@ nano compose.yml
 
 ### `compose.yml`
 
-<<< @/DockerSeries/SFTP.yml{10}
+<<< @/DockerSeries/SFTP.yml
 
 ## 开始运行
 

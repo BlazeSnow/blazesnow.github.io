@@ -1,6 +1,6 @@
 services:
   homeassistant:
-    image: ghcr.io/home-assistant/home-assistant:stable
+    image: homeassistant/home-assistant:stable
     container_name: homeassistant
     privileged: true
     restart: unless-stopped

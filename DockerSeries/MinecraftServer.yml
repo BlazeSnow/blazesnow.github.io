@@ -1,7 +1,7 @@
 services:
   minecraft:
     image: itzg/minecraft-server:latest
-    container_name: mc
+    container_name: minecraft
     tty: true
     stdin_open: true
     restart: always

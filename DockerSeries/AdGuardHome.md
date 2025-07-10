@@ -68,7 +68,7 @@ nano compose.yml
 # 查看53端口占用情况
 sudo lsof -i :53
 
-#  进入配置文件目录
+# 进入配置文件目录
 cd /etc/systemd
 
 # 编辑配置文件
@@ -98,7 +98,7 @@ cd /var/adguardhome
 docker compose up -d
 
 # 若显示以下内容，则运行成功
-Creating adguardhome ... done
+# Creating adguardhome ... done
 ```
 
 1. 在浏览器访问：<http://服务器ip地址:3000>，进入初始化服务器页面

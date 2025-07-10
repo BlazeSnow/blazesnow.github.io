@@ -83,7 +83,7 @@ openssl req -x509 -newkey rsa:4096 -sha256 -nodes -keyout privkey.key -out cert.
 cd /var/vaultwarden
 
 # 开始运行
-docker compose up
+docker compose up -d
 ```
 
 在浏览器访问：`https://服务器ip地址`，进入页面。因为证书与私钥为自签名，浏览器会警告网页不安全，在浏览器中选择信任该网页，然后即可正常访问。

@@ -60,7 +60,7 @@ cd /var/minecraft
 docker compose up
 
 # 若显示以下内容，则运行成功
-Done! For help, type "help"
+# Done! For help, type "help"
 
 # 停止服务器
 stop
@@ -78,10 +78,10 @@ docker compose up -d
 
 ```shell
 # 保存世界数据
-docker exec mc rcon-cli save-all
+docker exec minecraft rcon-cli save-all
 
 # 停止服务器，注意：停止服务器后仍需停止Docker服务
-docker exec mc rcon-cli stop
+docker exec minecraft rcon-cli stop
 
 # 停止Docker服务
 cd /var/minecraft

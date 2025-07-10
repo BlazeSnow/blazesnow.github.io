@@ -58,9 +58,6 @@ cd /var/filecodebox
 
 # 开始运行
 docker compose up -d
-
-# 若显示以下内容，则运行成功
-Creating adguardhome ... done
 ```
 
 1. 在浏览器访问：`http://服务器ip地址:12345/#/admin`

@@ -46,7 +46,7 @@ nano compose.yml
 
 ### `compose.yml`
 
-<<< @/DockerSeries/FTP.yml{13,14,15}
+<<< @/DockerSeries/FTP.yml
 
 ## 开始运行
 

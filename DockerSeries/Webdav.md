@@ -50,7 +50,7 @@ nano compose.yml
 
 ```shell
 # 前往工作目录
-cd /var/teamspeak
+cd /var/webdav
 
 # 开始运行
 docker compose up -d

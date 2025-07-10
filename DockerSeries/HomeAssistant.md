@@ -18,7 +18,7 @@ description: 使用HomeAssistant搭建智能家居中枢
 ## 拉取镜像
 
 ```shell
-docker pull ghcr.io/home-assistant/home-assistant:stable
+docker pull homeassistant/home-assistant:stable
 ```
 
 ## 开放端口
