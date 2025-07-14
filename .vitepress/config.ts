@@ -390,6 +390,7 @@ export default defineConfig({
         { text: '智能家居中枢', link: '/DockerSeries/HomeAssistant' },
         { text: '语音服务器', link: '/DockerSeries/TeamSpeak' },
         { text: '音乐服务器', link: '/DockerSeries/Navidrome' },
+        { text: '可视化管理', link: '/DockerSeries/Portainer' },
       ],
       '/Nginx/': [
         { text: '前言', link: '/Nginx/' },
