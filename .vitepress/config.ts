@@ -363,12 +363,25 @@ export default defineConfig({
         { text: '客户端', link: '/FrpClientAndServer/Client' },
       ],
       '/DockerSeries/': [
-        { text: '前言', link: '/DockerSeries/' },
-        { text: 'FTP', link: '/DockerSeries/FTP' },
-        { text: 'SFTP', link: '/DockerSeries/SFTP' },
-        { text: 'Webdav', link: '/DockerSeries/Webdav' },
-        { text: 'SMB', link: '/DockerSeries/SMB' },
-        { text: 'NFS', link: '/DockerSeries/NFS' },
+        {
+          text: '前言',
+          collapsed: false,
+          items: [
+            { text: '前言', link: '/DockerSeries/' },
+            { text: '命名卷', link: '/DockerSeries/Volumes' },
+          ]
+        },
+        {
+          text: '文件服务器',
+          collapsed: true,
+          items: [
+            { text: 'FTP', link: '/DockerSeries/FTP' },
+            { text: 'SFTP', link: '/DockerSeries/SFTP' },
+            { text: 'Webdav', link: '/DockerSeries/Webdav' },
+            { text: 'SMB', link: '/DockerSeries/SMB' },
+            { text: 'NFS', link: '/DockerSeries/NFS' },
+          ]
+        },
         { text: '我的世界服务器', link: '/DockerSeries/MinecraftServer' },
         { text: '家庭域名服务器', link: '/DockerSeries/AdGuardHome' },
         { text: '密码服务器', link: '/DockerSeries/Vaultwarden' },
@@ -377,6 +390,7 @@ export default defineConfig({
         { text: '智能家居中枢', link: '/DockerSeries/HomeAssistant' },
         { text: '语音服务器', link: '/DockerSeries/TeamSpeak' },
         { text: '音乐服务器', link: '/DockerSeries/Navidrome' },
+        { text: '可视化管理', link: '/DockerSeries/Portainer' },
       ],
       '/Nginx/': [
         { text: '前言', link: '/Nginx/' },
