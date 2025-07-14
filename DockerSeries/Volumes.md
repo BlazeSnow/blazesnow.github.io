@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-07-14T22:20:00+8:00
+lastUpdated: 2025-07-14T22:47:00+8:00
 description: Docker系列教程的有关Volumes的前言
 ---
 
@@ -81,11 +81,7 @@ nano compose.yml
 cd /var/transfervolumes
 
 # 转出命名卷
-docker compose up output
-
-# 等待导出完毕，按下CTRL+C终止容器
-# 结束容器
-docker compose down
+docker compose run --rm output
 
 # 切换计算机
 # 将data.tar.gz拷贝至需要转入命名卷的计算机的工作目录
@@ -97,9 +93,5 @@ cd /var/transfervolumes
 docker volume create example_data
 
 # 转出命名卷
-docker compose up input
-
-# 等待导入完毕，按下CTRL+C终止容器
-# 结束容器
-docker compose down
+docker compose run --rm input
 ```
