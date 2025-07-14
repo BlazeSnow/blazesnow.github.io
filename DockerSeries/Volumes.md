@@ -52,10 +52,10 @@ services:
 cd /var
 
 # 创建工作目录
-mkdir movevolumes
+mkdir transfervolumes
 
 # 进入工作目录
-cd movevolumes
+cd transfervolumes
 
 # 创建docker配置文件
 touch compose.yml
@@ -78,7 +78,7 @@ nano compose.yml
 
 ```shell
 # 前往需要转出命名卷的计算机的工作目录
-cd /var/movevolumes
+cd /var/transfervolumes
 
 # 转出命名卷
 docker compose up output
@@ -91,7 +91,7 @@ docker compose down
 # 将data.tar.gz拷贝至需要转入命名卷的计算机的工作目录
 
 # 前往需要转入命名卷的计算机的工作目录
-cd /var/movevolumes
+cd /var/transfervolumes
 
 # 创建命名卷
 docker volume create example_data
