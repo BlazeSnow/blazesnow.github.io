@@ -363,7 +363,13 @@ export default defineConfig({
         { text: '客户端', link: '/FrpClientAndServer/Client' },
       ],
       '/DockerSeries/': [
-        { text: '前言', link: '/DockerSeries/' },
+        {
+          text: '前言',
+          items: [
+            { text: '前言', link: '/DockerSeries/' },
+            { text: '命名卷', link: '/DockerSeries/Volumes' },
+          ]
+        },
         { text: 'FTP', link: '/DockerSeries/FTP' },
         { text: 'SFTP', link: '/DockerSeries/SFTP' },
         { text: 'Webdav', link: '/DockerSeries/Webdav' },
