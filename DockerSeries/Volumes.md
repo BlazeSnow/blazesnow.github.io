@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-07-14T22:11:00+8:00
+lastUpdated: 2025-07-14T22:20:00+8:00
 description: Docker系列教程的有关Volumes的前言
 ---
 
@@ -72,6 +72,9 @@ nano compose.yml
 <<< @/DockerSeries/Volumes.yml{3}
 
 ## 转移命名卷
+
+> [!TIP]
+> 转移命名卷前，请确保没有容器正在使用该命名卷
 
 ```shell
 # 前往需要转出命名卷的计算机的工作目录
