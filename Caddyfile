@@ -1,0 +1,4 @@
+localhost {
+	root * /app
+	file_server
+}
