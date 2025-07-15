@@ -2,6 +2,11 @@ name: Docker Build
 
 on:
   workflow_dispatch:
+    inputs:
+      tag:
+        description: 'The tag to deploy'
+        required: true
+        default: 'latest'
   push:
     branches: [ main ]
 
@@ -25,4 +30,4 @@ jobs:
       run: docker compose build
 
     - name: Push
-      run: docker push registry.cn-hangzhou.aliyuncs.com/blazesnow/blazesnowcom:latest
+      run: docker push registry.cn-hangzhou.aliyuncs.com/blazesnow/blazesnowcom:${{ github.event.inputs.tag }}

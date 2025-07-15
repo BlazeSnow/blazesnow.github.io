@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-07-14T22:47:00+8:00
+lastUpdated: 2025-07-15T21:21:00+8:00
 description: Docker系列教程的有关Volumes的前言
 ---
 
@@ -25,21 +25,17 @@ docker volume rm example_data
 
 ## 引用命名卷
 
-```yml{2-4,12}
+```yml{2-4,10}
 volumes:
   data:                 # 命名卷内部名称：data
     name: example_data  # 命名卷外部名称：example_data
     external: true      # 不关联命名卷
 
 services:
-  output:
+  example:
     image: busybox:latest
-    container_name: outputdata
-    restart: no
     volumes:
-      - data:/data:ro   # 引用命名卷，使用内部名称data
-      - ./:/app
-    command: tar -czf /app/data.tar.gz -C / data
+      - data:/data      # 引用命名卷，使用内部名称data
 ```
 
 ## 转移命名卷的准备工作
