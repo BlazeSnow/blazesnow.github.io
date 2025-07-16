@@ -23,8 +23,8 @@ COPY --from=build /app/.vitepress/dist /app/
 # 自定义 Nginx 配置
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
-# 暴露 HTTP 和 HTTPS 端口
-EXPOSE 80 443
+# 暴露端口
+EXPOSE 80
 
 # 启动 Web 服务器
 CMD ["nginx", "-g", "daemon off;"]
