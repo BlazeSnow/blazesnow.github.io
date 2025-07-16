@@ -191,6 +191,10 @@ export default defineConfig({
             link: '/about'
           },
           {
+            text: '停止支持及弃用',
+            link: '/Deprecated'
+          },
+          {
             text: '网站状态',
             link: 'https://blazesnow.statuspage.io/',
             target: '_blank',

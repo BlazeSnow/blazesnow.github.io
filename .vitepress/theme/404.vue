@@ -12,10 +12,11 @@
         <div class="divider"></div>
         <blockquote class="quote">
             抱歉，没有找到您需要的页面
+            <br>
+            您可以查看停止支持及弃用的页面，了解哪些页面已被废弃
         </blockquote>
         <div class="action">
-            <a class="link" href="/" aria-label="回到主页">回到主页
-            </a>
+            <a class="link" href="/Deprecated">查看停止支持及弃用的页面</a>
         </div>
     </div>
 </template>
