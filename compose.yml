@@ -1,7 +1,11 @@
 services:
   blazesnowcom:
+    build: .
     image: registry.cn-hangzhou.aliyuncs.com/blazesnow/blazesnowcom:latest
     container_name: blazesnowcom
     restart: always
     ports:
       - 80:80
+      - 443:443
+    volumes:
+      - ./ssl:/ssl:ro
