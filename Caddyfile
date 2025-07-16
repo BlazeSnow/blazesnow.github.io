@@ -1,0 +1,16 @@
+:80 {
+	root * /app
+
+	file {path} {path}/index.html {path}/ = 404
+	file_server
+
+	handler_errors 404 {
+		rewrite * /404.html
+		file_server
+	}
+
+	handler_errors 403 {
+		rewrite * /404.html
+		file_server
+	}
+}
