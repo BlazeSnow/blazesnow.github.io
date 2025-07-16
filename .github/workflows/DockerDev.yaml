@@ -1,9 +1,8 @@
-name: Docker Build latest
+name: Docker Build dev
 
 on:
   workflow_dispatch:
-  push:
-    branches: [ main ]
+
 
 jobs:
   build:
@@ -22,7 +21,7 @@ jobs:
         logout: true
 
     - name: Build
-      run: docker build -t registry.cn-hangzhou.aliyuncs.com/blazesnow/blazesnowcom:latest .
+      run: docker build -t registry.cn-hangzhou.aliyuncs.com/blazesnow/blazesnowcom:dev .
 
     - name: Push
-      run: docker push registry.cn-hangzhou.aliyuncs.com/blazesnow/blazesnowcom:latest
+      run: docker push registry.cn-hangzhou.aliyuncs.com/blazesnow/blazesnowcom:dev
