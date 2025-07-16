@@ -12,7 +12,7 @@ RUN npm ci
 RUN npm run docs:build
 
 # 生产环境
-FROM caddy:alpine
+FROM nginx:current-alpine
 
 # 设置工作目录
 WORKDIR /app
@@ -20,11 +20,11 @@ WORKDIR /app
 # 复制构建的静态文件
 COPY --from=build /app/.vitepress/dist /app/
 
-# 自定义 Caddyfile
-COPY Caddyfile /etc/caddy/Caddyfile
+# 自定义 Nginx 配置
+COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 # 暴露 HTTP 和 HTTPS 端口
 EXPOSE 80 443
 
 # 启动 Web 服务器
-CMD ["caddy", "run", "--config", "/etc/caddy/Caddyfile"]
+CMD ["nginx", "-g", "daemon off;"]
