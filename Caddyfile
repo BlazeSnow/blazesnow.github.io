@@ -11,4 +11,9 @@
 			file_server
 		}
 	}
+
+	@assets {
+		header Cache-Control "public, immutable"
+		header Expires "1y"
+	}
 }
