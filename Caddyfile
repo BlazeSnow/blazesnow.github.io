@@ -1,8 +1,4 @@
-blazesnow.com {
-	redir https://www.blazesnow.com{uri} permanent
-}
-
-www.blazesnow.com {
+:80 {
 	root * /app
 	file_server
 
