@@ -17,4 +17,26 @@
 		header Expires "1y"
 		file_server
 	}
+
+	redir /MinecraftServer /DockerSeries/MinecraftServer 302
+	redir /VaultwardenServer /DockerSeries/Vaultwarden 302
+	redir /TeamSpeakServer /DockerSeries/TeamSpeak 302
+	redir /AdGuardHomeServer /DockerSeries/AdGuardHome 302
+	redir /AlistServer /DockerSeries/Alist 302
+	redir /SMBServer /DockerSeries/SMB 302
+	redir /WebdavServer /DockerSeries/Webdav 302
+	redir /SFTPServer /DockerSeries/SFTP 302
+	redir /FTPServer /DockerSeries/FTP 302
+	redir /更新日志 /CHANGELOG 302
+	redir /部署网站至服务器 /WebsiteToServer 302
+	redir /VitePress建站教程 /VitePress 302
+	redir /Docsify建站教程 /Docsify 302
+	redir /CMake相关 /CMake 302
+	redir /Git相关 /Git 302
+	redir /Docker相关 /Docker 302
+	redir /Nodejs相关 /Nodejs 302
+	redir /原生安卓 /Android 302
+	redir /Ubuntu相关 /Ubuntu 302
+	redir /DNS加密 /DNSEncryption 302
+	redir /Windows相关 /Windows 302
 }
