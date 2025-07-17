@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-07-15T21:21:00+8:00
+lastUpdated: 2025-07-17T17:22:00+8:00
 description: Docker系列教程的有关Volumes的前言
 ---
 
@@ -88,6 +88,6 @@ cd /var/transfervolumes
 # 创建命名卷
 docker volume create example_data
 
-# 转出命名卷
+# 转入命名卷
 docker compose run --rm input
 ```
