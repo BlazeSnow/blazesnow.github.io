@@ -21,8 +21,14 @@ jobs:
         password: ${{ secrets.TOKEN }}
         logout: true
 
-    - name: Build
+    - name: Build latest
       run: docker build -t registry.cn-hangzhou.aliyuncs.com/blazesnow/blazesnowcom:latest .
 
-    - name: Push
+    - name: Push latest
       run: docker push registry.cn-hangzhou.aliyuncs.com/blazesnow/blazesnowcom:latest
+
+    - name: Tag dev
+      run: docker tag registry.cn-hangzhou.aliyuncs.com/blazesnow/blazesnowcom:latest registry.cn-hangzhou.aliyuncs.com/blazesnow/blazesnowcom:dev
+
+    - name: Push dev
+      run: docker push registry.cn-hangzhou.aliyuncs.com/blazesnow/blazesnowcom:dev
