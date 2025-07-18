@@ -1,4 +1,5 @@
-name: Docker Build latest
+name: Docker Publish
+description: Publish Docker image to Alibaba Cloud Container Registry
 
 on:
   workflow_dispatch:
@@ -6,7 +7,7 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
+  publish:
     runs-on: ubuntu-latest
 
     steps:
@@ -21,14 +22,8 @@ jobs:
         password: ${{ secrets.TOKEN }}
         logout: true
 
-    - name: Build latest
+    - name: Build
       run: docker build -t registry.cn-hangzhou.aliyuncs.com/blazesnow/blazesnowcom:latest .
 
-    - name: Push latest
+    - name: Push
       run: docker push registry.cn-hangzhou.aliyuncs.com/blazesnow/blazesnowcom:latest
-
-    - name: Tag dev
-      run: docker tag registry.cn-hangzhou.aliyuncs.com/blazesnow/blazesnowcom:latest registry.cn-hangzhou.aliyuncs.com/blazesnow/blazesnowcom:dev
-
-    - name: Push dev
-      run: docker push registry.cn-hangzhou.aliyuncs.com/blazesnow/blazesnowcom:dev
