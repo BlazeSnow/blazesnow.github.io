@@ -1,4 +1,6 @@
 name: Github Pages
+description: Deploys the VitePress documentation to GitHub Pages
+icon: book
 
 on:
   workflow_dispatch:
