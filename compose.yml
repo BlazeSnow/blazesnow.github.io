@@ -10,6 +10,6 @@ services:
       - 80:80
       - 443:443
     volumes:
-      - ./caddy_data:/root/.local/
+      - ./caddy_data:/root
     environment:
       - CF_API_TOKEN=${CF_API_TOKEN}
