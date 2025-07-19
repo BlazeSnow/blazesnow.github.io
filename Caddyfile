@@ -1,7 +1,19 @@
-:80 {
+blazesnow.com {
+	tls {
+		dns cloudflare {env.CF_API_TOKEN}
+	}
+
+	redir https://www.blazesnow.com{uri}
+}
+
+www.blazesnow.com {
+	tls {
+		dns cloudflare {env.CF_API_TOKEN}
+	}
+
 	root * /app
 
-	try_files {path} {path}.html {path}/ = 404
+	try_files {path} {path}.html {path}/ =404
 	file_server
 
 	handle_errors {

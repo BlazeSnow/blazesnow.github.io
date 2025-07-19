@@ -1,8 +1,15 @@
 services:
   blazesnowcom:
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile
     image: registry.cn-hangzhou.aliyuncs.com/blazesnow/blazesnowcom:latest
     container_name: blazesnowcom
     restart: always
     ports:
       - 80:80
+      - 443:443
+    volumes:
+      - ./caddy_data:/root
+    environment:
+      - CF_API_TOKEN=${CF_API_TOKEN}
