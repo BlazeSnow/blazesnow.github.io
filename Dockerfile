@@ -12,7 +12,7 @@ RUN npm ci
 RUN npm run docs:build
 
 # 生产环境
-FROM caddy:alpine
+FROM registry.cn-hangzhou.aliyuncs.com/blazesnow/caddy:cloudflare
 
 # 设置工作目录
 WORKDIR /app
@@ -24,7 +24,7 @@ COPY --from=build /app/.vitepress/dist /app/
 COPY Caddyfile /etc/caddy/Caddyfile
 
 # 暴露端口
-EXPOSE 80
+EXPOSE 80 443
 
 # 启动 Web 服务器
 CMD ["caddy", "run", "--config", "/etc/caddy/Caddyfile"]
