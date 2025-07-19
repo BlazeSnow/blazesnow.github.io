@@ -2,4 +2,5 @@
 .vitepress/dist/
 node_modules/
 ssl/
+caddy_data/
 .env

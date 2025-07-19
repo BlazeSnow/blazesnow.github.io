@@ -1,8 +1,3 @@
-volumes:
-  data:
-    name: blazesnowcom_data
-    external: true
-
 services:
   blazesnowcom:
     build:
@@ -15,6 +10,6 @@ services:
       - 80:80
       - 443:443
     volumes:
-      - data:/root/.local/share/
+      - ./caddy_data:/root/.local/
     environment:
       - CF_API_TOKEN=${CF_API_TOKEN}
