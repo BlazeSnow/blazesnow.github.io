@@ -1,7 +1,8 @@
 blazesnow.com {
 	tls {
 		dns cloudflare {env.CF_API_TOKEN}
-		resolvers 1.1.1.1
+		# resolvers 1.1.1.1
+		email blazesnow@blazesnow.com
 	}
 
 	redir https://www.blazesnow.com{uri}
@@ -10,7 +11,8 @@ blazesnow.com {
 www.blazesnow.com {
 	tls {
 		dns cloudflare {env.CF_API_TOKEN}
-		resolvers 1.1.1.1
+		# resolvers 1.1.1.1
+		email blazesnow@blazesnow.com
 	}
 
 	root * /app
