@@ -1,16 +1,12 @@
-blazesnow.com {
-	tls {
-		dns cloudflare {env.CF_API_TOKEN}
-	}
+{
+	acme_dns cloudflare {env.CF_API_TOKEN}
+}
 
+blazesnow.com {
 	redir https://www.blazesnow.com{uri}
 }
 
-www.blazesnow.com {
-	tls {
-		dns cloudflare {env.CF_API_TOKEN}
-	}
-
+www.blazesnow.com localhost {
 	root * /app
 
 	try_files {path} {path}.html {path}/ =404
