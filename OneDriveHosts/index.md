@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-07-26T18:23:00+8:00
+lastUpdated: 2025-07-26T18:30:00+8:00
 description: 通过指定OneDrive的网站的hosts，实现在封锁OneDrive的ip地址的区域使用OneDrive
 ---
 
