@@ -17,10 +17,10 @@ description: 通过指定OneDrive的网站的hosts，实现在封锁OneDrive的i
 
 测试网址：<https://www.itdog.cn/ping/>
 
-## 程序成果
-
-![effect](image/effect.png)
-
 ## 程序原理
 
 ![method](image/method.png)
+
+## 程序成果
+
+![effect](image/effect.png)
