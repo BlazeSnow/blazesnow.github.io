@@ -33,18 +33,18 @@ SwitchHosts 是一个管理、切换多个 hosts 方案的工具。它是一个�
 
 ### Cloudflare
 
-```txt
+```ansi
 https://onedrivehosts.blazesnow.com/
 ```
 
 ### GitHub
 
-```txt
+```ansi
 https://raw.githubusercontent.com/BlazeSnow/OneDriveHosts/main/hosts
 ```
 
 ### Gitee
 
-```txt
+```ansi
 https://gitee.com/blazesnow/OneDriveHosts/raw/main/hosts
 ```
