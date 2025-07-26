@@ -123,6 +123,11 @@ export default defineConfig({
             link: '/Ubuntu/',
             activeMatch: '/Ubuntu/'
           },
+          {
+            text: 'OneDriveHosts',
+            link: '/OneDriveHosts/',
+            activeMatch: '/OneDriveHosts/'
+          },
         ]
       },
       {
