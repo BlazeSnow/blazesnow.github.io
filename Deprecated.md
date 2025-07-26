@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-07-16T22:47:00+8:00
+lastUpdated: 2025-07-26T21:58:00+8:00
 description: BlazeSnow帮助网站的弃用网页的信息
 ---
 
@@ -41,26 +41,28 @@ description: BlazeSnow帮助网站的弃用网页的信息
 
 ## 重定向
 
-| 旧路径             | 新路径                        | 处理时间       |
-| ------------------ | ----------------------------- | -------------- |
-| /MinecraftServer   | /DockerSeries/MinecraftServer | 2025年2月5日   |
-| /VaultwardenServer | /DockerSeries/Vaultwarden     | 2025年2月2日   |
-| /TeamSpeakServer   | /DockerSeries/TeamSpeak       | 2025年2月2日   |
-| /AdGuardHomeServer | /DockerSeries/AdGuardHome     | 2024年11月25日 |
-| /AlistServer       | /DockerSeries/Alist           | 2024年11月24日 |
-| /SMBServer         | /DockerSeries/SMB             | 2024年11月24日 |
-| /WebdavServer      | /DockerSeries/Webdav          | 2024年11月24日 |
-| /SFTPServer        | /DockerSeries/SFTP            | 2024年11月24日 |
-| /FTPServer         | /DockerSeries/FTP             | 2024年11月24日 |
-| /更新日志          | /CHANGELOG                    | 2024年10月13日 |
-| /部署网站至服务器  | /WebsiteToServer              | 2024年10月13日 |
-| /VitePress建站教程 | /VitePress                    | 2024年10月13日 |
-| /Docsify建站教程   | /Docsify                      | 2024年10月13日 |
-| /CMake相关         | /CMake                        | 2024年10月13日 |
-| /Git相关           | /Git                          | 2024年10月13日 |
-| /Docker相关        | /Docker                       | 2024年10月13日 |
-| /Nodejs相关        | /Nodejs                       | 2024年10月13日 |
-| /原生安卓          | /Android                      | 2024年10月13日 |
-| /Ubuntu相关        | /Ubuntu                       | 2024年10月13日 |
-| /DNS加密           | /DNSEncryption                | 2024年10月13日 |
-| /Windows相关       | /Windows                      | 2024年10月13日 |
+| 旧路径                     | 新路径                        | 处理时间       |
+| -------------------------- | ----------------------------- | -------------- |
+| /OneDriveHosts/Manual      | /OneDriveHosts/               | 2025年7月26日  |
+| /OneDriveHosts/SwitchHosts | /OneDriveHosts/               | 2025年7月26日  |
+| /MinecraftServer           | /DockerSeries/MinecraftServer | 2025年2月5日   |
+| /VaultwardenServer         | /DockerSeries/Vaultwarden     | 2025年2月2日   |
+| /TeamSpeakServer           | /DockerSeries/TeamSpeak       | 2025年2月2日   |
+| /AdGuardHomeServer         | /DockerSeries/AdGuardHome     | 2024年11月25日 |
+| /AlistServer               | /DockerSeries/Alist           | 2024年11月24日 |
+| /SMBServer                 | /DockerSeries/SMB             | 2024年11月24日 |
+| /WebdavServer              | /DockerSeries/Webdav          | 2024年11月24日 |
+| /SFTPServer                | /DockerSeries/SFTP            | 2024年11月24日 |
+| /FTPServer                 | /DockerSeries/FTP             | 2024年11月24日 |
+| /更新日志                  | /CHANGELOG                    | 2024年10月13日 |
+| /部署网站至服务器          | /WebsiteToServer              | 2024年10月13日 |
+| /VitePress建站教程         | /VitePress                    | 2024年10月13日 |
+| /Docsify建站教程           | /Docsify                      | 2024年10月13日 |
+| /CMake相关                 | /CMake                        | 2024年10月13日 |
+| /Git相关                   | /Git                          | 2024年10月13日 |
+| /Docker相关                | /Docker                       | 2024年10月13日 |
+| /Nodejs相关                | /Nodejs                       | 2024年10月13日 |
+| /原生安卓                  | /Android                      | 2024年10月13日 |
+| /Ubuntu相关                | /Ubuntu                       | 2024年10月13日 |
+| /DNS加密                   | /DNSEncryption                | 2024年10月13日 |
+| /Windows相关               | /Windows                      | 2024年10月13日 |
