@@ -401,6 +401,11 @@ export default defineConfig({
         { text: '自签名SSL', link: '/Nginx/SelfSignedSSL' },
         { text: '反向代理', link: '/Nginx/ReverseProxy' },
       ],
+      '/OneDriveHosts/': [
+        { text: '前言', link: '/OneDriveHosts/' },
+        { text: '手动修改', link: '/OneDriveHosts/Manual' },
+        { text: 'SwitchHosts', link: '/OneDriveHosts/SwitchHosts' },
+      ],
     },
     //上次更新于
     lastUpdated: {
