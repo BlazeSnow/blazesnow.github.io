@@ -1,9 +1,15 @@
 ---
-lastUpdated: 2025-07-26T17:06:00+8:00
+lastUpdated: 2025-07-26T17:23:00+8:00
 description: OneDriveHosts的更新日志
 ---
 
 # 更新日志 | OneDriveHosts
+
+## v1.1.6
+
+2025年7月26日17点23分
+
+- 优化OneDriveHosts说明文档，并迁移文档
 
 ## v1.1.5
 
