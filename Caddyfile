@@ -30,8 +30,8 @@ www.blazesnow.com {
 		file_server
 	}
 
-	redir /OneDriveHosts/SwitchHosts /OneDriveHosts/ 301
-	redir /OneDriveHosts/Manual /OneDriveHosts/ 301
+	redir /OneDriveHosts/SwitchHosts* /OneDriveHosts/ 301
+	redir /OneDriveHosts/Manual* /OneDriveHosts/ 301
 	redir /MinecraftServer* /DockerSeries/MinecraftServer 301
 	redir /VaultwardenServer* /DockerSeries/Vaultwarden 301
 	redir /TeamSpeakServer* /DockerSeries/TeamSpeak 301
