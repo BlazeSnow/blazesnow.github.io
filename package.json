@@ -7,8 +7,9 @@
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
   },
-  "devDependencies": {
+  "dependencies": {
     "@fontsource/monaspace-neon": "^5.2.5",
-    "vitepress": "^1.6.3"
+    "vitepress": "^1.6.3",
+    "wrangler": "^4.26.0"
   }
 }
