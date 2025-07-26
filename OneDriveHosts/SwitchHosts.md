@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-07-26T17:04:00+8:00
+lastUpdated: 2025-07-26T17:45:00+8:00
 description: 通过使用SwitchHosts工具的形式，指定OneDrive的网站的hosts，实现在封锁OneDrive的ip地址的区域使用OneDrive
 ---
 
@@ -30,12 +30,6 @@ SwitchHosts 是一个管理、切换多个 hosts 方案的工具。它是一个�
 4. 打开配置的开关并观察hosts文件是否被添加内容
 
 ## 远程hosts文件URL
-
-### 本站
-
-```txt
-https://www.blazesnow.com/OneDriveHosts/hosts.txt
-```
 
 ### Cloudflare
 
