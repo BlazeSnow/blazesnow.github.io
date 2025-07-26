@@ -410,7 +410,6 @@ export default defineConfig({
         { text: '前言', link: '/OneDriveHosts/' },
         { text: '手动修改', link: '/OneDriveHosts/Manual' },
         { text: 'SwitchHosts', link: '/OneDriveHosts/SwitchHosts' },
-        { text: '更新日志', link: '/OneDriveHosts/CHANGELOG' },
       ],
     },
     //上次更新于
