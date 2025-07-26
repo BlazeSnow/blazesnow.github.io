@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-07-26T16:43:00+8:00
+lastUpdated: 2025-07-26T18:33:00+8:00
 description: 通过直接修改hosts文件的形式，指定OneDrive的网站的hosts，实现在封锁OneDrive的ip地址的区域使用OneDrive
 ---
 
@@ -37,6 +37,6 @@ C:\WINDOWS\system32\drivers\etc\
 notepad C:\Windows\System32\drivers\etc\hosts
 ```
 
-在hosts文件中添加以下内容：
+## 使用OneDriveHosts
 
-<<< @/OneDriveHosts/hosts.txt
+在hosts文件中添加网页中的文本：<https://onedrivehosts.blazesnow.com/>
