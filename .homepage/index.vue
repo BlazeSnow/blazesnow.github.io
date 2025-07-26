@@ -17,6 +17,11 @@ import status from "./status.vue"
       Ubuntu是基于Debian，以桌面应用为主的Linux发行版
     </template>
   </card>
+  <card title="OneDriveHosts" link="/OneDriveHosts/">
+    <template #description>
+      通过指定OneDrive的网站的hosts，实现在封锁OneDrive的ip地址的区域使用OneDrive
+    </template>
+  </card>
   <h2>
     服务器：使用服务器完成操作
   </h2>
