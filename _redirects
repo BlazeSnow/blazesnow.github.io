@@ -1,5 +1,5 @@
-/OneDriveHosts/SwitchHosts /OneDriveHosts/ 301
-/OneDriveHosts/Manual /OneDriveHosts/ 301
+/OneDriveHosts/SwitchHosts* /OneDriveHosts/ 301
+/OneDriveHosts/Manual* /OneDriveHosts/ 301
 /MinecraftServer* /DockerSeries/MinecraftServer 301
 /VaultwardenServer* /DockerSeries/Vaultwarden 301
 /TeamSpeakServer* /DockerSeries/TeamSpeak 301
