@@ -1,10 +1,14 @@
 ---
-lastUpdated: 2025-07-26T17:46:00+8:00
+lastUpdated: 2025-07-26T18:33:00+8:00
 description: 2025年7月的更新日志
 ---
 
 # 2025年7月 | 更新日志
 
+- **2025年7月26日18点33分**
+  - 优化文章：
+    - `前言 | OneDriveHosts`
+    - `手动修改 | OneDriveHosts`
 - **2025年7月26日17点46分**
   - 优化文章：`SwitchHosts | OneDriveHosts`
 - **2025年7月26日17点28分**
