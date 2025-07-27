@@ -110,14 +110,19 @@ export default defineConfig({
         link: '/'
       },
       {
-        text: '系统',
-        activeMatch: '/Windows/',
+        text: 'Windows',
+        link: '/Windows/',
+        activeMatch: '/Windows/'
+      },
+      {
+        text: 'Docker系列',
+        link: '/DockerSeries/',
+        activeMatch: '/DockerSeries/'
+      },
+      {
+        text: '更多',
+        activeMatch: '/Ubuntu/',
         items: [
-          {
-            text: 'Windows',
-            link: '/Windows/',
-            activeMatch: '/Windows/'
-          },
           {
             text: 'Ubuntu',
             link: '/Ubuntu/',
@@ -127,17 +132,6 @@ export default defineConfig({
             text: 'OneDriveHosts',
             link: '/OneDriveHosts/',
             activeMatch: '/OneDriveHosts/'
-          },
-        ]
-      },
-      {
-        text: '服务器',
-        activeMatch: '/DockerSeries/',
-        items: [
-          {
-            text: 'Docker系列',
-            link: '/DockerSeries/',
-            activeMatch: '/DockerSeries/'
           },
           {
             text: '搭建内网穿透服务',
@@ -154,12 +148,6 @@ export default defineConfig({
             link: '/WebsiteToServer/',
             activeMatch: '/WebsiteToServer/'
           },
-        ]
-      },
-      {
-        text: '更多',
-        activeMatch: '/Nodejs/',
-        items: [
           {
             text: 'DNS加密',
             link: '/DNSEncryption/',
@@ -179,6 +167,11 @@ export default defineConfig({
             text: 'Nginx',
             link: '/Nginx/',
             activeMatch: '/Nginx/'
+          },
+          {
+            text: 'Git',
+            link: '/Git/',
+            activeMatch: '/Git/'
           },
         ]
       },
