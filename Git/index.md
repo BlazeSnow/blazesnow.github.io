@@ -13,3 +13,5 @@ description: Git相关内容的前言
 
 > [!CAUTION]
 > 停止支持：本章节的内容已停止支持
+>
+> 参见停止支持及弃用的页面：[点击此处跳转](/Deprecated)

@@ -5,13 +5,21 @@ import status from "./status.vue"
 
 <template>
   <h2>
-    系统：解决操作系统问题
+    特色章节
   </h2>
+  <card title="Docker系列" link="/DockerSeries/">
+    <template #description>
+      Docker Compose是容器编排的得力助手，用简洁YAML文件管理多容器应用
+    </template>
+  </card>
   <card title="Windows" link="/Windows/">
     <template #description>
       Windows操作系统是微软以图形用户界面为主推出的一系列专有商业软件操作系统
     </template>
   </card>
+  <h2>
+    更多
+  </h2>
   <card title="Ubuntu" link="/Ubuntu/">
     <template #description>
       Ubuntu是基于Debian，以桌面应用为主的Linux发行版
@@ -20,14 +28,6 @@ import status from "./status.vue"
   <card title="OneDriveHosts" link="/OneDriveHosts/">
     <template #description>
       通过指定OneDrive的网站的hosts，实现在封锁OneDrive的ip地址的区域使用OneDrive
-    </template>
-  </card>
-  <h2>
-    服务器：使用服务器完成操作
-  </h2>
-  <card title="Docker系列" link="/DockerSeries/">
-    <template #description>
-      Docker Compose是容器编排的得力助手，用简洁YAML文件管理多容器应用
     </template>
   </card>
   <card title="搭建内网穿透服务" link="/FrpClientAndServer/">
@@ -46,10 +46,7 @@ import status from "./status.vue"
     </template>
   </card>
   <h2>
-    更多内容
-  </h2>
-  <p>
     更多内容详见网页顶栏
-  </p>
+  </h2>
   <status></status>
 </template>

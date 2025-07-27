@@ -114,9 +114,9 @@ description: 如何使用VitePress搭建一个静态网站
 node_modules/
 ```
 
-### `GitHubPages.yaml`
+### `GitHubPages.yml`
 
-<<< @/.github/workflows/GitHubPages.yaml
+<<< @/.github/workflows/GitHubPages.yml
 
 ## 检查文件
 
@@ -130,7 +130,7 @@ node_modules/
 │
 ├─.github
 │  └─workflows
-│     └─GitHubPages.yaml      # GitHub Actions文件
+│     └─GitHubPages.yml       # GitHub Actions文件
 │
 ├─.vitepress                  # Vitepress配置文件夹
 │  │  config.mts              # Vitepress配置文件
