@@ -100,24 +100,29 @@ export default defineConfig({
     notFound: {
       title: '页面未找到',
       quote: '抱歉，没有找到您需要的页面',
-      linkLabel: '回到主页',
-      linkText: '回到主页',
+      linkLabel: '回到首页',
+      linkText: '回到首页',
       code: '404',
     },
     nav: [
       {
-        text: '主页',
+        text: '首页',
         link: '/'
       },
       {
-        text: '系统',
-        activeMatch: '/Windows/',
+        text: 'Docker系列',
+        link: '/DockerSeries/',
+        activeMatch: '/DockerSeries/'
+      },
+      {
+        text: 'Windows',
+        link: '/Windows/',
+        activeMatch: '/Windows/'
+      },
+      {
+        text: '更多',
+        activeMatch: '/Ubuntu/',
         items: [
-          {
-            text: 'Windows',
-            link: '/Windows/',
-            activeMatch: '/Windows/'
-          },
           {
             text: 'Ubuntu',
             link: '/Ubuntu/',
@@ -127,17 +132,6 @@ export default defineConfig({
             text: 'OneDriveHosts',
             link: '/OneDriveHosts/',
             activeMatch: '/OneDriveHosts/'
-          },
-        ]
-      },
-      {
-        text: '服务器',
-        activeMatch: '/DockerSeries/',
-        items: [
-          {
-            text: 'Docker系列',
-            link: '/DockerSeries/',
-            activeMatch: '/DockerSeries/'
           },
           {
             text: '搭建内网穿透服务',
@@ -154,12 +148,6 @@ export default defineConfig({
             link: '/WebsiteToServer/',
             activeMatch: '/WebsiteToServer/'
           },
-        ]
-      },
-      {
-        text: '更多',
-        activeMatch: '/Nodejs/',
-        items: [
           {
             text: 'DNS加密',
             link: '/DNSEncryption/',
@@ -179,6 +167,11 @@ export default defineConfig({
             text: 'Nginx',
             link: '/Nginx/',
             activeMatch: '/Nginx/'
+          },
+          {
+            text: 'Git',
+            link: '/Git/',
+            activeMatch: '/Git/'
           },
         ]
       },

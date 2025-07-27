@@ -6,7 +6,8 @@ blazesnow.com {
 	redir https://www.blazesnow.com{uri}
 }
 
-www.blazesnow.com {
+www.blazesnow.com,
+localhost {
 	tls {
 		dns cloudflare {env.CF_API_TOKEN}
 	}
