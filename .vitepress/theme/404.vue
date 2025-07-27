@@ -9,14 +9,13 @@
         <h1 class="title">
             页面未找到
         </h1>
-        <div class="divider"></div>
-        <blockquote class="quote">
+        <div class="quote">
             抱歉，没有找到您需要的页面
-            <br>
-            您可以查看停止支持及弃用的页面，了解哪些页面已被废弃
-        </blockquote>
-        <div class="action">
+            <br></br>
             <a class="link" href="/Deprecated">查看停止支持及弃用的页面</a>
+        </div>
+        <div class="action">
+            <a class="link" href="/">回到首页</a>
         </div>
     </div>
 </template>
@@ -28,50 +27,42 @@ div.NotFound {
 }
 
 div.NotFound p.code {
-    line-height: 92px;
-    font-size: 92px;
-    font-weight: 600;
+    line-height: 1;
+    font-size: 5rem;
 }
 
 div.NotFound h1.title {
-    padding-top: 12px;
-    letter-spacing: 2px;
-    line-height: 40px;
-    font-size: 40px;
-    font-weight: 700;
+    padding-top: 1rem;
+    line-height: 1;
+    font-size: 2.5rem;
 }
 
-div.NotFound div.divider {
-    margin: 24px auto 18px;
-    width: 300px;
-    height: 1px;
-    background-color: var(--vp-c-divider);
-}
-
-div.NotFound blockquote.quote {
-    margin: 0 auto;
-    max-width: fit-content;
+div.NotFound div.quote {
+    padding-top: 2rem;
     line-height: 1.6;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 1.2rem;
     color: var(--vp-c-text-2);
 }
 
+div.NotFound div.quote a.link {
+    color: var(--vp-button-brand-bg);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
 div.NotFound div.action {
-    padding-top: 50px;
+    padding-top: 2rem;
 }
 
 div.NotFound div.action a.link {
     display: inline-block;
-    border: 1px solid transparent;
     text-align: center;
-    font-weight: 600;
     white-space: nowrap;
-    transition: color .25s, border-color .25s, background-color .25s;
     border-radius: 20px;
     padding: 0 20px;
-    line-height: 38px;
-    font-size: 14px;
+    line-height: 2.4rem;
+    font-size: 1rem;
+    font-weight: 600;
     color: var(--vp-button-brand-text);
     background-color: var(--vp-button-brand-bg);
 }
