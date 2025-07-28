@@ -103,7 +103,7 @@ description: 如何使用VitePress搭建一个静态网站
 
 ::: code-group
 
-<<< @/VitePress/.gitignore
+<<< @/VitePress/.gitignore{txt}
 
 <<< @/VitePress/GitHubPages.yml
 
