@@ -98,7 +98,7 @@ description: 如何使用VitePress搭建一个静态网站
 │
 └─.github
    └─workflows
-      └─GitHubPages.yaml   # GitHub Actions文件
+      └─GitHubPages.yml    # GitHub Actions文件
 ```
 
 ::: code-group
