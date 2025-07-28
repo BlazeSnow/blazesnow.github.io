@@ -1,7 +1,6 @@
 .vitepress/cache/
 .vitepress/dist/
 node_modules/
-ssl/
 caddy_data/
 caddy_config/
 caddy_root/
