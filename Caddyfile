@@ -1,16 +1,4 @@
-blazesnow.com {
-	tls {
-		dns cloudflare {env.CF_API_TOKEN}
-	}
-
-	redir https://www.blazesnow.com{uri}
-}
-
-www.blazesnow.com {
-	tls {
-		dns cloudflare {env.CF_API_TOKEN}
-	}
-
+(blazesnowcom) {
 	root * /app
 
 	try_files {path} {path}.html {path}/ =404
@@ -53,4 +41,24 @@ www.blazesnow.com {
 	redir /Ubuntu相关* /Ubuntu 301
 	redir /DNS加密* /DNSEncryption 301
 	redir /Windows相关* /Windows 301
+}
+
+blazesnow.com {
+	tls {
+		dns cloudflare {env.CF_API_TOKEN}
+	}
+
+	redir https://www.blazesnow.com{uri}
+}
+
+www.blazesnow.com {
+	tls {
+		dns cloudflare {env.CF_API_TOKEN}
+	}
+
+	import blazesnowcom
+}
+
+localhost {
+	import blazesnowcom
 }
