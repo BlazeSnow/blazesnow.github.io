@@ -101,22 +101,13 @@ description: 如何使用VitePress搭建一个静态网站
       └─GitHubPages.yaml   # GitHub Actions文件
 ```
 
-### `.gitignore`
+::: code-group
 
-```txt
-# VitePress的dev文件夹
-.vitepress/cache/
+<<< @/VitePress/.gitignore
 
-# VitePress的build文件夹
-.vitepress/dist/
+<<< @/VitePress/GitHubPages.yml
 
-# npm文件夹
-node_modules/
-```
-
-### `GitHubPages.yml`
-
-<<< @/.github/workflows/GitHubPages.yml
+:::
 
 ## 检查文件
 
