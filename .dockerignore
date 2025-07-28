@@ -2,7 +2,6 @@
 .github/
 .gitignore
 .vitepress/cache/
-.vitepress/dist/
 node_modules/
 caddy_data/
 caddy_config/
