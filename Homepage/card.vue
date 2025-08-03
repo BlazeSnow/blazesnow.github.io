@@ -42,14 +42,12 @@ export default {
     background: var(--vp-custom-block-info-bg);
     border: 1px solid var(--vp-c-divider);
     border-radius: 8px;
-    transition: all 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
     color: var(--vp-c-text-1);
 }
 
 .card:hover {
     border-color: var(--vp-c-brand-1);
-    transform: translateY(-4px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
 }
 
 .title {
@@ -68,7 +66,7 @@ export default {
 }
 
 .button {
-    display: inline-block;
+    align-self: flex-start;
     margin-top: 1.25rem;
     padding: 0.5rem 1rem;
     background-color: var(--vp-c-brand-1);
@@ -82,5 +80,6 @@ export default {
 
 .button:hover {
     background-color: var(--vp-c-brand-2);
+    color: var(--vp-c-bg);
 }
 </style>
