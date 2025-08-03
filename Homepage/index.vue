@@ -73,11 +73,4 @@ import status from "./status.vue"
     grid-template-columns: repeat(3, 1fr);
   }
 }
-
-h2 {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  border-top: 1px solid var(--vp-c-divider);
-  padding-top: 2rem;
-}
 </style>
