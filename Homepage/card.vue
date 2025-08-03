@@ -37,7 +37,7 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%;
+    height: 13rem;
     padding: 1.5rem;
     background: var(--vp-custom-block-info-bg);
     border: 1px solid var(--vp-c-divider);
@@ -62,7 +62,11 @@ export default {
     font-size: 0.9rem;
     line-height: 1.6;
     color: var(--vp-c-text-2);
-    flex-grow: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .button {
