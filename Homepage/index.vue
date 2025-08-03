@@ -68,6 +68,12 @@ import status from "./status.vue"
   }
 }
 
+@media (min-width: 960px) {
+  .group {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 h2 {
   margin-top: 2rem;
   margin-bottom: 1rem;
