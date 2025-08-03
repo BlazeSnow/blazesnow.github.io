@@ -1,18 +1,13 @@
-volumes:
-  data:
-    name: portainer_data
-    external: true
-
 services:
   portainer:
     image: portainer/portainer-ce:alpine
     container_name: portainer
     restart: always
     ports:
-    - "8000:8000"
-    - "9443:9443"
+    - 8000:8000
+    - 9443:9443
     volumes:
-    - data:/data
+    - ./data:/data
     command: -H tcp://agent:9001 --tlsskipverify
 
   agent:

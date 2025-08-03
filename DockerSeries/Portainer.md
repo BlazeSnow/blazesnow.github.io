@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-07-14T22:47:00+8:00
+lastUpdated: 2025-08-03T11:46:00+8:00
 description: 使用Portainer搭建Docker可视化管理器
 ---
 
@@ -58,9 +58,6 @@ nano compose.yml
 # 前往工作目录
 cd /var/portainer
 
-# 创建存储数据的命名卷
-docker volume create portainer_data
-
 # 开始运行
 docker compose up -d
 ```
@@ -79,7 +76,12 @@ cd /var/portainer
 docker compose down
 docker compose pull
 docker compose up -d
-```
 
-> [!TIP]
-> 命名卷的转移，参见[命名卷](/DockerSeries/Volumes)。
+# 压缩数据文件夹
+cd /var/portainer
+tar -czf data.tar.gz data/
+
+# 解压缩数据文件夹
+cd /var/portainer
+tar -xzf data.tar.gz data/
+```
