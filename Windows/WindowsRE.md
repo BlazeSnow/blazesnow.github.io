@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-08-04T07:49:00+8:00
+lastUpdated: 2025-08-04T07:54:00+8:00
 description: 重新安装Windows系统的教程
 ---
 
