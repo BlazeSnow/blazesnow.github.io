@@ -44,6 +44,7 @@ export default {
     border-radius: 8px;
     transition: border-color 0.3s ease-in-out;
     color: var(--vp-c-text-1);
+    cursor: default;
 }
 
 .card:hover {
@@ -82,6 +83,7 @@ export default {
     text-align: center;
     font-weight: 500;
     transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
 }
 
 .button:hover {
