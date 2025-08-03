@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-08-04T07:42:00+8:00
+lastUpdated: 2025-08-04T07:49:00+8:00
 description: 重新安装Windows系统的教程
 ---
 
@@ -85,7 +85,7 @@ Get-ChildItem -Path "R:\Recovery\WindowsRE" -Force
 2. 选择`终端管理员`
 3. 键入以下命令：
 
-```shell{23}
+```shell
 # 禁用当前恢复分区
 reagentc /disable
 
@@ -94,7 +94,15 @@ reagentc /setreimage /path R:\Recovery\WindowsRE
 
 # 启用新的恢复分区
 reagentc /enable
+```
 
+## 移除临时盘符
+
+1. 按下`Windows徽标`+`X`
+2. 选择`终端管理员`
+3. 键入以下命令：
+
+```shell{14}
 # 再次使用diskpart
 diskpart
 
