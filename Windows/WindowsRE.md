@@ -5,7 +5,7 @@ description: 重新安装Windows系统的教程
 
 # 创建恢复分区 | Windows
 
-> 本文适用于恢复分区位于`C:\Recovery\WindowsRE\`或缺失恢复分区的计算机，磁盘格式需为`GUID 分区表(GPT)`
+> 本文适用于恢复分区位于`C:\Recovery\WindowsRE\`或缺失恢复分区的计算机，磁盘需为`GUID分区表(GPT)`。
 
 ## 确认恢复分区状态
 
@@ -17,7 +17,7 @@ description: 重新安装Windows系统的教程
 reagentc /info
 ```
 
-可能的输出结果，此时恢复分区位于`partition3`
+可能的输出结果，此时恢复分区位于磁盘0的分区3
 
 ```ansi
 Windows RE 位置: \\?\GLOBALROOT\device\harddisk0\partition3\Recovery\WindowsRE
@@ -79,7 +79,7 @@ Get-ChildItem -Path "R:\Recovery\WindowsRE" -Force
 ## 启用新的恢复分区
 
 > [!TIP]
-> 设置完毕后，返回第一步，检查恢复分区位置，若为`partition4`则成功
+> 设置完毕后，返回第一步，检查恢复分区位置，若为磁盘0的分区4则成功
 
 1. 按下`Windows徽标`+`X`
 2. 选择`终端管理员`
