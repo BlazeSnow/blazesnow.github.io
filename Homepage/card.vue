@@ -11,75 +11,83 @@ export default {
         },
         target: {
             type: String,
-            required: false
+            required: false,
+            default: '_self'
         }
     }
 };
 </script>
 
 <template>
-    <div style="padding-top: 0.5rem;">
-        <a :href="link" :target="target" class="card">
-            <p class="title">
-                {{ title }}
-            </p>
-            <p class="divider"></p>
-            <div class="description">
+    <div class="card">
+        <div class="content">
+            <h3 class="title">{{ title }}</h3>
+            <p class="description">
                 <slot name="description"></slot>
-            </div>
+            </p>
+        </div>
+        <a :href="link" :target="target" class="button">
+            前往查看
         </a>
     </div>
 </template>
 
 <style scoped>
 .card {
-    box-sizing: border-box;
-    width: auto;
-    height: auto;
-    background: var(--vp-custom-block-info-bg);
-    border: 1px solid lightgrey;
-    backdrop-filter: blur(6px);
-    border-radius: 17px;
-    text-align: center;
-    cursor: pointer;
-    transition: all 0.5s;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    user-select: none;
-    color: var(--vp-custom-block-info-text);
-    text-decoration-line: none;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 13rem;
+    padding: 1.5rem;
+    background: var(--vp-custom-block-info-bg);
+    border: 1px solid var(--vp-c-divider);
+    border-radius: 8px;
+    transition: border-color 0.3s ease-in-out;
+    color: var(--vp-c-text-1);
+    cursor: default;
 }
 
 .card:hover {
-    border: 1px solid #0080FF;
+    border-color: var(--vp-c-brand-1);
 }
 
 .title {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    margin-left: 1rem;
-    margin-right: auto;
-    font-size: 1.1rem;
+    margin: 0 0 0.75rem 0;
+    font-size: 1.2rem;
     font-weight: 600;
-    text-align: start;
-}
-
-.divider {
-    margin-left: 1rem;
-    margin-right: 1rem;
+    color: var(--vp-c-text-1);
 }
 
 .description {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    margin-left: auto;
-    margin-right: 1rem;
+    margin: 0;
     font-size: 0.9rem;
-    font-weight: normal;
     line-height: 1.6;
-    text-align: end;
+    color: var(--vp-c-text-2);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.button {
+    align-self: flex-start;
+    margin-top: 1.25rem;
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    border: 1px solid var(--vp-c-brand-1);
+    color: var(--vp-c-brand-1);
+    border-radius: 6px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 500;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--vp-c-brand-1);
+    color: var(--vp-c-bg);
 }
 </style>
