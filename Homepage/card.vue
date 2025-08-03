@@ -69,17 +69,18 @@ export default {
     align-self: flex-start;
     margin-top: 1.25rem;
     padding: 0.5rem 1rem;
-    background-color: var(--vp-c-brand-1);
-    color: var(--vp-c-bg);
+    background-color: transparent;
+    border: 1px solid var(--vp-c-brand-1);
+    color: var(--vp-c-brand-1);
     border-radius: 6px;
     text-decoration: none;
     text-align: center;
     font-weight: 500;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .button:hover {
-    background-color: var(--vp-c-brand-2);
+    background-color: var(--vp-c-brand-1);
     color: var(--vp-c-bg);
 }
 </style>
