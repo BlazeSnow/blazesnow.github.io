@@ -271,6 +271,7 @@ export default defineConfig({
             { text: '清理微软商店残留', link: '/Windows/RemoveMicrosoftStoreRemnants' },
           ]
         },
+        { text: '创建恢复分区', link: '/Windows/WindowsRE' },
         { text: '禁用快速启动', link: '/Windows/Hiberfil' },
         { text: '应用最新TLS', link: '/Windows/TLS' },
         { text: '查看蓝屏文件', link: '/Windows/BlueScreen' },
