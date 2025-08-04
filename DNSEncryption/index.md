@@ -1,9 +1,11 @@
 ---
-lastUpdated: 2025-07-05T14:58:00+8:00
+lastUpdated: 2025-08-04T21:28:00+8:00
 description: DNS加密的有关问题
 ---
 
 # 前言 | DNS加密
+
+> 本页面摘自Wikipedia：[点击查看原链接](https://en.wikipedia.org/wiki/Domain_Name_System)
 
 ## 什么是DNS？
 
