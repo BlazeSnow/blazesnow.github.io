@@ -37,7 +37,7 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 13rem;
+    height: 100%;
     padding: 1.5rem;
     background: var(--vp-custom-block-info-bg);
     border: 1px solid var(--vp-c-divider);

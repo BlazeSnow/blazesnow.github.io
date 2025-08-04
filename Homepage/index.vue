@@ -48,6 +48,11 @@ import status from "./status.vue"
         将VitePress建成的网站通过GitHub部署到Ubuntu服务器上。
       </template>
     </card>
+    <card title="DNS加密" link="/DNSEncryption/">
+      <template #description>
+        DNS加密可以保护用户的上网隐私，防止DNS查询被窃听、篡改或跟踪。
+      </template>
+    </card>
   </div>
   <h2>
     更多内容详见网页顶栏
