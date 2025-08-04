@@ -1,6 +1,6 @@
 ---
 lastUpdated: 2025-08-04T07:54:00+8:00
-description: 重新安装Windows系统的教程
+description: 本文介绍了如何设置一个新的Windows的恢复分区
 ---
 
 # 创建恢复分区 | Windows
