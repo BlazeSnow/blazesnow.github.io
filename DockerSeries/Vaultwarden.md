@@ -1,30 +1,30 @@
 ---
-lastUpdated: 2025-08-06T14:17:00+8:00
-description: 搭建密码服务器的教程
+lastUpdated: 2025-08-06T18:41:00+8:00
+description: 使用Vaultwarden、Caddy和Docker在Ubuntu系统上搭建密码服务器
 ---
 
 # 密码服务器 | Docker系列
 
 ## 前言
 
-本文介绍使用`Vaultwarden`和`Nginx`在Ubuntu系统上搭建密码服务器，请先根据本章前言完成环境的搭建。
+本文介绍使用`Vaultwarden`和`Caddy`在Ubuntu系统上搭建密码服务器，请先根据本章前言完成环境的搭建。
 
 `Vaultwarden`网站：
 
 - <https://github.com/dani-garcia/vaultwarden>
 - <https://hub.docker.com/r/vaultwarden/server>
 
-`Nginx`网站：
+`Caddy`网站：
 
-- <https://nginx.org/en/>
-- <https://hub.docker.com/_/nginx>
-- <https://github.com/nginx/nginx>
+- <https://caddyserver.com/>
+- <https://github.com/caddyserver/caddy>
+- <https://hub.docker.com/_/caddy>
 
 ## 拉取镜像
 
 ```shell
-docker pull vaultwarden/server:latest
-docker pull nginx:current-alpine
+docker pull vaultwarden/server:alpine
+docker pull caddy:alpine
 ```
 
 ## 开放端口
@@ -52,29 +52,23 @@ touch compose.yml
 # 编辑docker配置文件
 nano compose.yml
 
-# 创建nginx配置文件
-touch vaultwarden.conf
+# 创建caddy配置文件
+touch Caddyfile
 
-# 编辑nginx配置文件
-nano vaultwarden.conf
-
-# 创建ssl目录
-mkdir ssl
-
-# 进入ssl目录
-cd ssl
-
-# 自签名openssl证书和私钥
-openssl req -x509 -newkey rsa:4096 -sha256 -nodes -keyout privkey.key -out cert.crt -days 3650
+# 编辑caddy配置文件
+nano Caddyfile
 ```
 
 ### `compose.yml`
 
 <<< @/DockerSeries/Vaultwarden.yml
 
-### `vaultwarden.conf`
+### `Caddyfile`
 
-<<< @/DockerSeries/Vaultwarden.conf{nginx}
+<<< @/DockerSeries/Vaultwarden.Caddyfile
+
+> [!TIP]
+> 如需将服务器关联至域名，则将`Caddyfile`中的`:443`修改为域名，并删去`tls`，只保留`reverse_proxy vaultwarden:80`。此时，Caddy会自动申请、管理TLS证书并执行自动HTTPS。
 
 ## 开始运行
 
@@ -87,6 +81,9 @@ docker compose up -d
 ```
 
 在浏览器访问：`https://服务器ip地址`，进入页面。因为证书与私钥为自签名，浏览器会警告网页不安全，在浏览器中选择信任该网页，然后即可正常访问。
+
+> [!TIP]
+> 将服务器关联至域名后，证书受信任，服务器可用于Bitwarden App。
 
 ## 维护服务
 
