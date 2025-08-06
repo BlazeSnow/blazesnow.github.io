@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-08-03T11:46:00+8:00
+lastUpdated: 2025-08-06T14:16:00+8:00
 description: 使用Portainer搭建Docker可视化管理器
 ---
 
@@ -32,8 +32,8 @@ docker pull portainer/agent:alpine
 ## 配置文件
 
 ```shell
-# 前往var目录
-cd /var
+# 前往srv目录
+cd /srv
 
 # 创建工作目录
 mkdir portainer
@@ -56,7 +56,7 @@ nano compose.yml
 
 ```shell
 # 前往工作目录
-cd /var/portainer
+cd /srv/portainer
 
 # 开始运行
 docker compose up -d
@@ -68,20 +68,20 @@ docker compose up -d
 
 ```shell
 # 停止服务
-cd /var/portainer
+cd /srv/portainer
 docker compose down
 
 # 更新服务
-cd /var/portainer
+cd /srv/portainer
 docker compose down
 docker compose pull
 docker compose up -d
 
 # 压缩数据文件夹
-cd /var/portainer
+cd /srv/portainer
 tar -czf data.tar.gz data/
 
 # 解压缩数据文件夹
-cd /var/portainer
+cd /srv/portainer
 tar -xzf data.tar.gz data/
 ```

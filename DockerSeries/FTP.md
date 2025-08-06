@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-07-09T21:48:00+8:00
+lastUpdated: 2025-08-06T14:10:00+8:00
 description: 使用vsftpd搭建FTP文件服务器
 ---
 
@@ -28,8 +28,8 @@ docker pull fauria/vsftpd:latest
 ## 配置文件
 
 ```shell
-# 前往var目录
-cd /var
+# 前往srv目录
+cd /srv
 
 # 创建工作目录
 mkdir vsftpd
@@ -52,7 +52,7 @@ nano compose.yml
 
 ```shell
 # 前往工作目录
-cd /var/vsftpd
+cd /srv/vsftpd
 
 # 开始运行
 docker compose up -d
@@ -64,20 +64,20 @@ docker compose up -d
 
 ```shell
 # 停止服务
-cd /var/vsftpd
+cd /srv/vsftpd
 docker compose down
 
 # 更新服务
-cd /var/vsftpd
+cd /srv/vsftpd
 docker compose down
 docker compose pull
 docker compose up -d
 
 # 压缩数据文件夹
-cd /var/vsftpd
+cd /srv/vsftpd
 tar -czf data.tar.gz data/
 
 # 解压缩数据文件夹
-cd /var/vsftpd
+cd /srv/vsftpd
 tar -xzf data.tar.gz data/
 ```

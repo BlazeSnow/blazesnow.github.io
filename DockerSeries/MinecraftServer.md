@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-07-09T21:59:00+8:00
+lastUpdated: 2025-08-06T14:11:00+8:00
 description: 搭建我的世界服务器的教程
 ---
 
@@ -30,8 +30,8 @@ docker pull itzg/minecraft-server:latest
 ## 配置文件
 
 ```shell
-# 前往var目录
-cd /var
+# 前往srv目录
+cd /srv
 
 # 创建工作目录
 mkdir minecraft
@@ -54,7 +54,7 @@ nano compose.yml
 
 ```shell
 # 前往工作目录
-cd /var/minecraft
+cd /srv/minecraft
 
 # 开始运行
 docker compose up
@@ -84,20 +84,20 @@ docker exec minecraft rcon-cli save-all
 docker exec minecraft rcon-cli stop
 
 # 停止Docker服务
-cd /var/minecraft
+cd /srv/minecraft
 docker compose down
 
 # 更新服务
-cd /var/minecraft
+cd /srv/minecraft
 docker compose down
 docker compose pull
 docker compose up -d
 
 # 压缩数据文件夹
-cd /var/minecraft
+cd /srv/minecraft
 tar -czf data.tar.gz data/
 
 # 解压缩数据文件夹
-cd /var/minecraft
+cd /srv/minecraft
 tar -xzf data.tar.gz data/
 ```

@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-05-11T15:09:00+8:00
+lastUpdated: 2025-08-06T14:10:00+8:00
 description: Docker系列教程的前言
 ---
 
@@ -22,8 +22,8 @@ sudo apt update && sudo apt upgrade -y
 # 卸载其他版本的Docker
 for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
 
-# 前往var
-cd /var
+# 前往srv
+cd /srv
 
 # 下载安装脚本
 curl -fsSL https://get.docker.com -o install-docker.sh
