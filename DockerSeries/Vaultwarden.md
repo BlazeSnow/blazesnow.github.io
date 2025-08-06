@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-08-06T18:38:00+8:00
+lastUpdated: 2025-08-06T18:41:00+8:00
 description: 使用Vaultwarden、Caddy和Docker在Ubuntu系统上搭建密码服务器
 ---
 
@@ -68,7 +68,7 @@ nano Caddyfile
 <<< @/DockerSeries/Vaultwarden.Caddyfile
 
 > [!TIP]
-> 如需将服务器关联至域名，则将`Caddyfile`中的`:443`修改为域名，并删去`tls`，只保留`reverse_proxy vaultwarden:80`
+> 如需将服务器关联至域名，则将`Caddyfile`中的`:443`修改为域名，并删去`tls`，只保留`reverse_proxy vaultwarden:80`。此时，Caddy会自动申请、管理TLS证书并执行自动HTTPS。
 
 ## 开始运行
 
@@ -81,6 +81,9 @@ docker compose up -d
 ```
 
 在浏览器访问：`https://服务器ip地址`，进入页面。因为证书与私钥为自签名，浏览器会警告网页不安全，在浏览器中选择信任该网页，然后即可正常访问。
+
+> [!TIP]
+> 将服务器关联至域名后，证书受信任，服务器可用于Bitwarden App。
 
 ## 维护服务
 
