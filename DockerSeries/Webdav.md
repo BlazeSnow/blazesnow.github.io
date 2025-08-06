@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-07-09T22:34:00+8:00
+lastUpdated: 2025-08-06T14:18:00+8:00
 description: 搭建Webdav服务器的教程
 ---
 
@@ -26,8 +26,8 @@ docker pull bytemark/webdav:latest
 ## 配置文件
 
 ```shell
-# 前往var目录
-cd /var
+# 前往srv目录
+cd /srv
 
 # 创建工作目录
 mkdir webdav
@@ -50,7 +50,7 @@ nano compose.yml
 
 ```shell
 # 前往工作目录
-cd /var/webdav
+cd /srv/webdav
 
 # 开始运行
 docker compose up -d
@@ -62,21 +62,21 @@ docker compose up -d
 
 ```shell
 # 停止服务
-cd /var/webdav
+cd /srv/webdav
 docker compose down
 
 # 更新服务
-cd /var/webdav
+cd /srv/webdav
 docker compose down
 docker compose pull
 docker compose up -d
 
 # 压缩数据文件夹
-cd /var/webdav
+cd /srv/webdav
 tar -czf dav.tar.gz dav/
 
 # 解压缩数据文件夹
-cd /var/webdav
+cd /srv/webdav
 tar -xzf dav.tar.gz dav/
 ```
 

@@ -13,8 +13,5 @@ COPY Caddyfile /etc/caddy/Caddyfile
 # 暴露端口
 EXPOSE 80 443
 
-# 设置入口点
-ENTRYPOINT [ "/usr/bin/caddy" ]
-
 # 启动 Web 服务器
-CMD ["run", "--config", "/etc/caddy/Caddyfile"]
+CMD ["caddy","run","--config","/etc/caddy/Caddyfile"]

@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-06-11T08:32:00+8:00
+lastUpdated: 2025-08-06T15:17:00+8:00
 description: 使用nginx部署静态网站至Ubuntu服务器
 ---
 
@@ -35,8 +35,8 @@ n latest
 > 如静态页面非vitepress版，请跳过此步，并自行上传文件
 
 ```bash
-# 前往var文件夹
-cd /var
+# 前往srv文件夹
+cd /srv
 
 # 拉取代码
 git clone https://github.com/用户名/用户名.github.io
@@ -64,8 +64,8 @@ npm run docs:build
 - `证书.pem`及`私钥.pem`
 
 ```bash
-# 前往var文件夹
-cd /var
+# 前往srv文件夹
+cd /srv
 
 # 创建SSL存放目录
 mkdir ssl
@@ -113,8 +113,8 @@ server {
     server_name localhost;
     index index.html;
 
-    ssl_certificate /var/ssl/证书.crt;
-    ssl_certificate_key /var/ssl/私钥.key;
+    ssl_certificate /srv/ssl/证书.crt;
+    ssl_certificate_key /srv/ssl/私钥.key;
 
     ssl_session_cache shared:SSL:1m;
     ssl_session_timeout 5m;
@@ -123,7 +123,7 @@ server {
     ssl_prefer_server_ciphers on;
 
     location / {
-        root /var/用户名.github.io/.vitepress/dist;
+        root /srv/用户名.github.io/.vitepress/dist;
 
         try_files $uri $uri.html $uri/ =404;
 
@@ -151,7 +151,7 @@ server {
 
 ```bash
 # 前往服务器的网站目录
-cd /var/用户名.github.io
+cd /srv/用户名.github.io
 
 # 拉取代码
 git pull origin main

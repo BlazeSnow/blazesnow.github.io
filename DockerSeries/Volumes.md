@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-07-17T17:22:00+8:00
+lastUpdated: 2025-08-06T14:17:00+8:00
 description: Docker系列教程的有关Volumes的前言
 ---
 
@@ -44,8 +44,8 @@ services:
 > 在需要转入及转出的计算机上，都需要进行此步骤
 
 ```shell
-# 前往var目录
-cd /var
+# 前往srv目录
+cd /srv
 
 # 创建工作目录
 mkdir transfervolumes
@@ -74,7 +74,7 @@ nano compose.yml
 
 ```shell
 # 前往需要转出命名卷的计算机的工作目录
-cd /var/transfervolumes
+cd /srv/transfervolumes
 
 # 转出命名卷
 docker compose run --rm output
@@ -83,7 +83,7 @@ docker compose run --rm output
 # 将data.tar.gz拷贝至需要转入命名卷的计算机的工作目录
 
 # 前往需要转入命名卷的计算机的工作目录
-cd /var/transfervolumes
+cd /srv/transfervolumes
 
 # 创建命名卷
 docker volume create example_data

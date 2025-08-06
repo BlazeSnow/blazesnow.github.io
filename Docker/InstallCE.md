@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-05-19T12:57:00+8:00
+lastUpdated: 2025-08-06T13:53:00+8:00
 description: Docker社区版本的安装教程
 ---
 
@@ -14,8 +14,8 @@ for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker c
 ## 安装CE发行版
 
 ```bash
-# 前往var
-cd /var
+# 前往srv
+cd /srv
 
 # 下载安装脚本
 curl -fsSL https://get.docker.com -o install-docker.sh

@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-07-09T22:18:00+8:00
+lastUpdated: 2025-08-06T14:17:00+8:00
 description: 搭建SMB服务器的教程
 ---
 
@@ -26,8 +26,8 @@ docker pull dockurr/samba:latest
 ## 配置文件
 
 ```shell
-# 前往var目录
-cd /var
+# 前往srv目录
+cd /srv
 
 # 创建工作目录
 mkdir samba
@@ -50,7 +50,7 @@ nano compose.yml
 
 ```shell
 # 前往工作目录
-cd /var/samba
+cd /srv/samba
 
 # 开始运行
 docker compose up -d
@@ -62,20 +62,20 @@ docker compose up -d
 
 ```shell
 # 停止服务
-cd /var/samba
+cd /srv/samba
 docker compose down
 
 # 更新服务
-cd /var/samba
+cd /srv/samba
 docker compose down
 docker compose pull
 docker compose up -d
 
 # 压缩数据文件夹
-cd /var/samba
+cd /srv/samba
 tar -czf storage.tar.gz storage/
 
 # 解压缩数据文件夹
-cd /var/samba
+cd /srv/samba
 tar -xzf storage.tar.gz storage/
 ```

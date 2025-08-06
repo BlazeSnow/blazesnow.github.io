@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-07-09T21:37:00+8:00
+lastUpdated: 2025-08-06T14:09:00+8:00
 description: 使用AdGuard Home搭建家庭域名服务器
 ---
 
@@ -34,8 +34,8 @@ docker pull adguard/adguardhome:latest
 ## 配置文件
 
 ```shell
-# 前往var目录
-cd /var
+# 前往srv目录
+cd /srv
 
 # 创建工作目录
 mkdir adguardhome
@@ -92,7 +92,7 @@ DNSStubListener=no
 
 ```shell
 # 前往工作目录
-cd /var/adguardhome
+cd /srv/adguardhome
 
 # 开始运行
 docker compose up -d
@@ -109,22 +109,22 @@ docker compose up -d
 
 ```shell
 # 停止服务
-cd /var/adguardhome
+cd /srv/adguardhome
 docker compose down
 
 # 更新服务
-cd /var/adguardhome
+cd /srv/adguardhome
 docker compose down
 docker compose pull
 docker compose up -d
 
 # 压缩数据文件夹
-cd /var/adguardhome
+cd /srv/adguardhome
 tar -czf work.tar.gz work/
 tar -czf conf.tar.gz conf/
 
 # 解压缩数据文件夹
-cd /var/adguardhome
+cd /srv/adguardhome
 tar -xzf work.tar.gz work/
 tar -xzf conf.tar.gz conf/
 ```

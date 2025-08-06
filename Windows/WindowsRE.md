@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-08-04T07:54:00+8:00
+lastUpdated: 2025-08-06T13:48:00+8:00
 description: 本文介绍了如何设置一个新的Windows的恢复分区
 ---
 
@@ -67,7 +67,7 @@ assign letter=R
 
 ```shell
 # 在挂载为R盘的恢复分区内创建目录
-mkdir R:\Recovery\WindowsRE
+New-Item -Type Directory -Force -Path 'R:\Recovery\WindowsRE'
 
 # 拷贝Winre.wim至恢复分区
 Copy-Item -Path 'C:\Recovery\WindowsRE\Winre.wim' -Destination 'R:\Recovery\WindowsRE\'

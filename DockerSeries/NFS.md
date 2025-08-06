@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-07-09T22:05:00+8:00
+lastUpdated: 2025-08-06T14:14:00+8:00
 description: 搭建NFS服务器的教程
 ---
 
@@ -29,8 +29,8 @@ docker pull itsthenetwork/nfs-server-alpine:latest
 ## 配置文件
 
 ```shell
-# 前往var目录
-cd /var
+# 前往srv目录
+cd /srv
 
 # 创建工作目录
 mkdir nfs
@@ -53,40 +53,44 @@ nano compose.yml
 
 ```shell
 # 前往工作目录
-cd /var/nfs
+cd /srv/nfs
 
 # 开始运行
 docker compose up -d
 
-# 客户端操作
+# 以下为客户端操作
+
 # 安装nfs客户端
 sudo apt install nfs-common
-# 创建目录
-mkdir -p /var/nfs
+
+# 创建文件目录
+mkdir -p /home/nfs
+
 # 连接服务器
-mount 服务器ip地址:/ /var/nfs
+mount 服务器ip地址:/ /home/nfs
+
 # 断开连接服务器
-umount -l /var/nfs
+umount -l /home/nfs
 ```
 
 ## 维护服务
 
 ```shell
 # 停止服务
-cd /var/nfs
+cd /srv/nfs
 docker compose down
 
 # 更新服务
-cd /var/nfs
+cd /srv/nfs
 docker compose down
 docker compose pull
 docker compose up -d
 
 # 压缩数据文件夹
-cd /var/nfs
+cd /srv/nfs
 tar -czf data.tar.gz data/
 
 # 解压缩数据文件夹
-cd /var/nfs
+cd /srv/nfs
 tar -xzf data.tar.gz data/
 ```

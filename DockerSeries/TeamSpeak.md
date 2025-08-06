@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-07-09T22:22:00+8:00
+lastUpdated: 2025-08-06T14:17:00+8:00
 description: 搭建语音服务器的教程
 ---
 
@@ -32,8 +32,8 @@ docker pull teamspeak:latest
 ## 配置文件
 
 ```shell
-# 前往var目录
-cd /var
+# 前往srv目录
+cd /srv
 
 # 创建工作目录
 mkdir teamspeak
@@ -56,7 +56,7 @@ nano compose.yml
 
 ```shell
 # 前往工作目录
-cd /var/teamspeak
+cd /srv/teamspeak
 
 # 开始运行
 docker compose up
@@ -71,20 +71,20 @@ docker compose up
 
 ```shell
 # 停止服务
-cd /var/teamspeak
+cd /srv/teamspeak
 docker compose down
 
 # 更新服务
-cd /var/teamspeak
+cd /srv/teamspeak
 docker compose down
 docker compose pull
 docker compose up -d
 
 # 压缩数据文件夹
-cd /var/teamspeak
+cd /srv/teamspeak
 tar -czf data.tar.gz data/
 
 # 解压缩数据文件夹
-cd /var/teamspeak
+cd /srv/teamspeak
 tar -xzf data.tar.gz data/
 ```

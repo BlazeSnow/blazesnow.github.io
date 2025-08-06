@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-07-09T22:15:00+8:00
+lastUpdated: 2025-08-06T14:16:00+8:00
 description: 搭建SFTP服务器的教程
 ---
 
@@ -26,8 +26,8 @@ docker pull atmoz/sftp:latest
 ## 配置文件
 
 ```shell
-# 前往var目录
-cd /var
+# 前往srv目录
+cd /srv
 
 # 创建工作目录
 mkdir sftp
@@ -50,7 +50,7 @@ nano compose.yml
 
 ```shell
 # 前往工作目录
-cd /var/sftp
+cd /srv/sftp
 
 # 开始运行
 docker compose up -d
@@ -62,20 +62,20 @@ docker compose up -d
 
 ```shell
 # 停止服务
-cd /var/sftp
+cd /srv/sftp
 docker compose down
 
 # 更新服务
-cd /var/sftp
+cd /srv/sftp
 docker compose down
 docker compose pull
 docker compose up -d
 
 # 压缩数据文件夹
-cd /var/sftp
+cd /srv/sftp
 tar -czf home.tar.gz home/
 
 # 解压缩数据文件夹
-cd /var/sftp
+cd /srv/sftp
 tar -xzf home.tar.gz home/
 ```
