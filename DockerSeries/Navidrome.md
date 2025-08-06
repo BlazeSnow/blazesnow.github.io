@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-07-09T22:43:00+8:00
+lastUpdated: 2025-08-06T14:11:00+8:00
 description: 使用Navidrome搭建音乐服务器
 ---
 
@@ -30,8 +30,8 @@ docker pull deluan/navidrome:latest
 ## 配置文件
 
 ```shell
-# 前往var目录
-cd /var
+# 前往srv目录
+cd /srv
 
 # 创建工作目录
 mkdir navidrome
@@ -54,35 +54,35 @@ nano compose.yml
 
 ```shell
 # 前往工作目录
-cd /var/navidrome
+cd /srv/navidrome
 
 # 开始运行
 docker compose up -d
 ```
 
 1. 运行成功后，即可使用`服务器ip地址:4533`连接服务器
-2. 音乐文件放置至：`/var/navidrome/music`
+2. 音乐文件放置至：`/srv/navidrome/music`
 
 ## 维护服务
 
 ```shell
 # 停止服务
-cd /var/navidrome
+cd /srv/navidrome
 docker compose down
 
 # 更新服务
-cd /var/navidrome
+cd /srv/navidrome
 docker compose down
 docker compose pull
 docker compose up -d
 
 # 压缩数据文件夹
-cd /var/navidrome
+cd /srv/navidrome
 tar -czf data.tar.gz data/
 tar -czf music.tar.gz music/
 
 # 解压缩数据文件夹
-cd /var/navidrome
+cd /srv/navidrome
 tar -xzf data.tar.gz data/
 tar -xzf music.tar.gz music/
 ```

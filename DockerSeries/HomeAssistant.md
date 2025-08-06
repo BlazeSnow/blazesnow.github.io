@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-07-09T22:57:00+8:00
+lastUpdated: 2025-08-06T14:10:00+8:00
 description: 使用HomeAssistant搭建智能家居中枢
 ---
 
@@ -30,8 +30,8 @@ docker pull homeassistant/home-assistant:stable
 ## 配置文件
 
 ```shell
-# 前往var目录
-cd /var
+# 前往srv目录
+cd /srv
 
 # 创建工作目录
 mkdir homeassistant
@@ -54,7 +54,7 @@ nano compose.yml
 
 ```shell
 # 前往工作目录
-cd /var/homeassistant
+cd /srv/homeassistant
 
 # 开始运行
 docker compose up -d
@@ -66,20 +66,20 @@ docker compose up -d
 
 ```shell
 # 停止服务
-cd /var/homeassistant
+cd /srv/homeassistant
 docker compose down
 
 # 更新服务
-cd /var/homeassistant
+cd /srv/homeassistant
 docker compose down
 docker compose pull
 docker compose up -d
 
 # 压缩数据文件夹
-cd /var/homeassistant
+cd /srv/homeassistant
 tar -czf config.tar.gz config/
 
 # 解压缩数据文件夹
-cd /var/homeassistant
+cd /srv/homeassistant
 tar -xzf config.tar.gz config/
 ```
