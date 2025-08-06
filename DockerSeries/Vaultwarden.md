@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-08-06T18:33:00+8:00
+lastUpdated: 2025-08-06T18:38:00+8:00
 description: 使用Vaultwarden、Caddy和Docker在Ubuntu系统上搭建密码服务器
 ---
 
@@ -66,6 +66,9 @@ nano Caddyfile
 ### `Caddyfile`
 
 <<< @/DockerSeries/Vaultwarden.Caddyfile
+
+> [!TIP]
+> 如需将服务器关联至域名，则将`Caddyfile`中的`:443`修改为域名，并删去`tls`，只保留`reverse_proxy vaultwarden:80`
 
 ## 开始运行
 
