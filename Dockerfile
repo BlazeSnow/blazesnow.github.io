@@ -11,7 +11,7 @@ COPY .vitepress/dist /app
 COPY Caddyfile /etc/caddy/Caddyfile
 
 # 暴露端口
-EXPOSE 80 443
+EXPOSE 80 443 443/udp
 
 # 启动 Web 服务器
-CMD ["caddy","run","--config","/etc/caddy/Caddyfile"]
+CMD ["caddy","run","--config","/etc/caddy/Caddyfile","--adapter","caddyfile"]
