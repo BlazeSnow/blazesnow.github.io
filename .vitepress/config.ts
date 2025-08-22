@@ -395,6 +395,7 @@ export default defineConfig({
         { text: '语音服务器', link: '/DockerSeries/TeamSpeak' },
         { text: '音乐服务器', link: '/DockerSeries/Navidrome' },
         { text: '可视化管理', link: '/DockerSeries/Portainer' },
+        { text: '版本管理服务器', link: '/DockerSeries/Gitea' },
       ],
       '/Nginx/': [
         { text: '前言', link: '/Nginx/' },
