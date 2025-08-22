@@ -1,9 +1,0 @@
-.git/
-.github/
-.gitignore
-.vitepress/cache/
-node_modules/
-caddy_data/
-caddy_config/
-caddy_root/
-.env
