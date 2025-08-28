@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@fontsource/monaspace-neon": "^5.2.5",
+    "@statuspage/status-widget": "^1.0.5",
     "vitepress": "^1.6.3"
   }
 }

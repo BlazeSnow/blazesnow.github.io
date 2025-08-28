@@ -28,6 +28,19 @@ export default defineConfig({
       gtag('js', new Date());
       gtag('config', 'GT-KVFR6NJP');`
     ],
+    //Statuspage
+    [
+      'script',
+      { src: 'https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js' }
+    ],
+    [
+      'script',
+      { src: 'https://unpkg.com/@webcomponents/webcomponentsjs@2.1.3/webcomponents-bundle.js' }
+    ],
+    [
+      'script',
+      { src: 'https://unpkg.com/@statuspage/status-widget/dist/index.js' }
+    ],
   ],
   //网页地图
   sitemap: {
