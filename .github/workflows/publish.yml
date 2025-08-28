@@ -37,9 +37,6 @@ jobs:
         path: .vitepress/dist
 
   publish-github:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
     steps:
@@ -53,13 +50,11 @@ jobs:
       uses: actions/configure-pages@v5
 
     - name: Upload to GitHub Pages
-      id: deployment
       uses: actions/upload-pages-artifact@v3
       with:
         path: .vitepress/dist
 
     - name: Deploy to GitHub Pages
-      id: deployment
       uses: actions/deploy-pages@v4
 
   publish-docker:
