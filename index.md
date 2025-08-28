@@ -11,7 +11,7 @@ hero:
 ---
 
 <script setup>
-import index from "./Homepage/index.vue"
+import index from "./.homepage/index.vue"
 </script>
 
 <index />
