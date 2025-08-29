@@ -134,11 +134,6 @@ export default defineConfig({
             activeMatch: '/OneDriveHosts/'
           },
           {
-            text: '搭建内网穿透服务',
-            link: '/FrpClientAndServer/',
-            activeMatch: '/FrpClientAndServer/'
-          },
-          {
             text: 'VitePress建站教程',
             link: '/VitePress/',
             activeMatch: '/VitePress/'
@@ -360,11 +355,6 @@ export default defineConfig({
         { text: '处理仓库', link: '/Git/Repository' },
         { text: '处理远程仓库', link: '/Git/RemoteRepository' },
         { text: '处理分支', link: '/Git/Branches' },
-      ],
-      '/FrpClientAndServer/': [
-        { text: '前言', link: '/FrpClientAndServer/' },
-        { text: '服务端', link: '/FrpClientAndServer/Server' },
-        { text: '客户端', link: '/FrpClientAndServer/Client' },
       ],
       '/DockerSeries/': [
         {

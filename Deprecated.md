@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-07-27T15:09:00+8:00
+lastUpdated: 2025-08-29T10:37:27+8:00
 description: BlazeSnow帮助网站的弃用网页的信息
 ---
 
@@ -44,6 +44,9 @@ description: BlazeSnow帮助网站的弃用网页的信息
 
 | 旧路径                     | 新路径                        | 处理时间       |
 | -------------------------- | ----------------------------- | -------------- |
+| /FrpClientAndServer/Client | /DockerSeries/Frpc            | 2025年8月29日  |
+| /FrpClientAndServer/Server | /DockerSeries/Frps            | 2025年8月29日  |
+| /FrpClientAndServer/       | /DockerSeries/Frp             | 2025年8月29日  |
 | /OneDriveHosts/Manual      | /OneDriveHosts/               | 2025年7月26日  |
 | /OneDriveHosts/SwitchHosts | /OneDriveHosts/               | 2025年7月26日  |
 | /MinecraftServer           | /DockerSeries/MinecraftServer | 2025年2月5日   |
