@@ -3,7 +3,7 @@ serverPort = 7000
 auth.token = "此处设置连接密码"
 
 [[proxies]]
-name = "caddy"
+name = "此处设置自定义备注名"
 type = "tcp"
 localIP = "caddy"
 localPort = 80
