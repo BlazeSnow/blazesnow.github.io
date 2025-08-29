@@ -5,7 +5,7 @@ description: Docker系列教程的前言
 
 # 前言 | Docker系列
 
-> `Docker Compose`是一个用于定义和运行容器的工具。它通过`compose.yml`来描述应用程序需要的所有服务、网络和存储资源，通过一条命令就可以启动或管理所有的容器。
+> `Docker Compose`是一个用于定义和运行容器的工具。它通过`docker-compose.yml`来描述应用程序需要的所有服务、网络和存储资源，通过一条命令就可以启动或管理所有的容器。
 
 ## 系统要求
 
@@ -38,9 +38,9 @@ docker version
 sudo apt update && sudo apt upgrade -y
 ```
 
-## 关于`compose.yml`
+## 关于`docker-compose.yml`
 
-以下是一个示例`compose.yml`文件及其解释：
+以下是一个示例`docker-compose.yml`文件及其解释：
 
 ```yml
 services:
@@ -101,4 +101,4 @@ docker system prune -f
 ```
 
 > [!TIP]
-> 关于`docker compose`的命令，都需要在`compose.yml`所在目录下执行。
+> 关于`docker compose`的命令，都需要在`docker-compose.yml`所在目录下执行。

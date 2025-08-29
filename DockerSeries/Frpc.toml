@@ -1,0 +1,10 @@
+serverAddr = "此处修改为服务器ip地址"
+serverPort = 7000
+auth.token = "此处设置连接密码"
+
+[[proxies]]
+name = "此处设置自定义备注名"
+type = "tcp"
+localIP = "caddy"   # localIP为本地IP地址，在Docker中使用服务名称
+localPort = 80      # 本地端口
+remotePort = 8080   # 远程端口

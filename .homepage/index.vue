@@ -33,11 +33,6 @@ import status from "./status.vue"
         通过指定OneDrive的网站的hosts，实现在封锁OneDrive的ip地址的区域使用OneDrive。
       </template>
     </card>
-    <card title="搭建内网穿透服务" link="/FrpClientAndServer/">
-      <template #description>
-        在Windows客户端和Ubuntu服务端上搭建内网穿透服务。
-      </template>
-    </card>
     <card title="VitePress建站教程" link="/VitePress/">
       <template #description>
         通过VitePress和GitHub Pages生成静态站点。
