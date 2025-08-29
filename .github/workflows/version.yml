@@ -1,0 +1,23 @@
+name: Publish Version
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Release tag'
+        required: true
+        default: 'v2025.8.29.1'
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v5
+
+    - uses: ncipollo/release-action@v1
+      with:
+        tag: ${{ inputs.tag }}
