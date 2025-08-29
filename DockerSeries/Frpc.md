@@ -16,7 +16,7 @@ description: 使用fatedier/frp搭建端口转发客户端
 
 - <https://gofrp.org/zh-cn/>
 - <https://github.com/fatedier/frp>
-- <https://hub.docker.com/r/snowdreamtech/frps>
+- <https://hub.docker.com/r/snowdreamtech/frpc>
 
 ## 拉取镜像
 
@@ -75,7 +75,7 @@ nano Caddyfile
 
 ```shell
 # 前往工作目录
-cd /srv/frps
+cd /srv/frpc
 
 # 开始运行
 docker compose up -d
@@ -87,11 +87,11 @@ docker compose up -d
 
 ```shell
 # 停止服务
-cd /srv/frps
+cd /srv/frpc
 docker compose down
 
 # 更新服务
-cd /srv/frps
+cd /srv/frpc
 docker compose down
 docker compose pull
 docker compose up -d
