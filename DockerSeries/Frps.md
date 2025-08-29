@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-08-29T08:49:01+8:00
+lastUpdated: 2025-08-29T08:56:00+8:00
 description: 使用fatedier/frp搭建端口转发服务器
 ---
 
@@ -46,11 +46,21 @@ touch docker-compose.yml
 
 # 编辑docker配置文件
 nano docker-compose.yml
+
+# 创建frps配置文件
+touch frps.toml
+
+# 编辑frps配置文件
+nano frps.toml
 ```
 
 ### `docker-compose.yml`
 
 <<< @/DockerSeries/Frps.yml
+
+### `frps.toml`
+
+<<< @/DockerSeries/Frps.toml{2}
 
 ## 开始运行
 
