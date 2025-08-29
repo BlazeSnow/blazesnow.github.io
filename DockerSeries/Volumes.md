@@ -54,16 +54,16 @@ mkdir transfervolumes
 cd transfervolumes
 
 # 创建docker配置文件
-touch compose.yml
+touch docker-compose.yml
 
 # 编辑docker配置文件
-nano compose.yml
+nano docker-compose.yml
 ```
 
-### `compose.yml`
+### `docker-compose.yml`
 
 > [!TIP]
-> 将`compose.yml`中的命名卷名称修改为需要转移的命名卷名称
+> 将`docker-compose.yml`中的命名卷名称修改为需要转移的命名卷名称
 
 <<< @/DockerSeries/Volumes.yml{3}
 

@@ -42,13 +42,13 @@ mkdir portainer
 cd portainer
 
 # 创建docker配置文件
-touch compose.yml
+touch docker-compose.yml
 
 # 编辑docker配置文件
-nano compose.yml
+nano docker-compose.yml
 ```
 
-### `compose.yml`
+### `docker-compose.yml`
 
 <<< @/DockerSeries/Portainer.yml
 
