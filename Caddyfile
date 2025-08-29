@@ -18,6 +18,9 @@
 		file_server
 	}
 
+	redir /FrpClientAndServer/Client* /DockerSeries/Frpc 301
+	redir /FrpClientAndServer/Server* /DockerSeries/Frps 301
+	redir /FrpClientAndServer* /DockerSeries/Frp 301
 	redir /OneDriveHosts/SwitchHosts* /OneDriveHosts/ 301
 	redir /OneDriveHosts/Manual* /OneDriveHosts/ 301
 	redir /MinecraftServer* /DockerSeries/MinecraftServer 301
