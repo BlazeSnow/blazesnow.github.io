@@ -54,7 +54,7 @@ blazesnow.com {
 		dns cloudflare {env.CF_API_TOKEN}
 	}
 
-	redir https://www.blazesnow.com{uri}
+	redir https://www.blazesnow.com{uri} 301
 }
 
 www.blazesnow.com {
