@@ -5,6 +5,6 @@ auth.token = "此处设置连接密码"
 [[proxies]]
 name = "此处设置自定义备注名"
 type = "tcp"
-localIP = "caddy"
-localPort = 80
-remotePort = 8080
+localIP = "caddy"   # localIP为本地IP地址，在Docker中使用服务名称
+localPort = 80      # 本地端口
+remotePort = 8080   # 远程端口
