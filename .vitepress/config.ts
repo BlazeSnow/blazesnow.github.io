@@ -392,7 +392,7 @@ export default defineConfig({
           text: '端口转发服务器',
           collapsed: true,
           items: [
-            { text: '端口转发服务', link: '/DockerSeries/Frp' },
+            { text: '服务介绍', link: '/DockerSeries/Frp' },
             { text: '端口转发服务端', link: '/DockerSeries/Frps' },
             { text: '端口转发客户端', link: '/DockerSeries/Frpc' },
           ]
