@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-08-29T09:26:00+8:00
+lastUpdated: 2025-08-29T10:00:00+8:00
 description: 使用fatedier/frp搭建端口转发服务
 ---
 
@@ -26,7 +26,9 @@ description: 使用fatedier/frp搭建端口转发服务
 
 下载页面：<https://github.com/fatedier/frp/releases/latest>
 
-如何运行：
+### 如何运行
+
+解压至同一目录内，在终端内运行命令：
 
 ```shell
 ./frpc -c ./frpc.toml
