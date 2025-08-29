@@ -13,6 +13,7 @@ description: 使用fatedier/frp搭建端口转发服务器
 
 - <https://gofrp.org/zh-cn/>
 - <https://github.com/fatedier/frp>
+- <https://hub.docker.com/r/snowdreamtech/frps>
 
 ## 拉取镜像
 
