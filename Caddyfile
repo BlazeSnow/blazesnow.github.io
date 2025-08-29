@@ -1,23 +1,4 @@
-(blazesnowcom) {
-	root * /app
-
-	try_files {path} {path}.html {path}/ =404
-	file_server
-
-	handle_errors {
-		@notfound expression `{err.status_code} == 403 || {err.status_code} == 404`
-		handle @notfound {
-			rewrite * /404.html
-			file_server
-		}
-	}
-
-	handle /assets/* {
-		header Cache-Control "public, immutable"
-		header Expires "1y"
-		file_server
-	}
-
+(blazesnowredir) {
 	redir /FrpClientAndServer/Client* /DockerSeries/Frpc 301
 	redir /FrpClientAndServer/Server* /DockerSeries/Frps 301
 	redir /FrpClientAndServer* /DockerSeries/Frp 301
@@ -44,6 +25,28 @@
 	redir /Ubuntu相关* /Ubuntu 301
 	redir /DNS加密* /DNSEncryption 301
 	redir /Windows相关* /Windows 301
+}
+
+(blazesnowcom) {
+	root * /app
+
+	import blazesnowredir
+
+	try_files {path} {path}.html {path}/index.html =404
+	file_server
+
+	handle_errors {
+		@notfound expression `{err.status_code} == 403 || {err.status_code} == 404`
+		handle @notfound {
+			rewrite * /404.html
+			file_server
+		}
+	}
+
+	handle /assets/* {
+		header Cache-Control "public, immutable, max-age=31536000"
+		file_server
+	}
 }
 
 blazesnow.com {
