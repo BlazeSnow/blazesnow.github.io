@@ -1,0 +1,10 @@
+serverAddr = "此处修改为服务器ip地址"
+serverPort = 7000
+auth.token = "此处设置连接密码"
+
+[[proxies]]
+name = "caddy"
+type = "tcp"
+localIP = "caddy"
+localPort = 80
+remotePort = 8080
