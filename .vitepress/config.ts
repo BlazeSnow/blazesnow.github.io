@@ -134,11 +134,6 @@ export default defineConfig({
             activeMatch: '/OneDriveHosts/'
           },
           {
-            text: '搭建内网穿透服务',
-            link: '/FrpClientAndServer/',
-            activeMatch: '/FrpClientAndServer/'
-          },
-          {
             text: 'VitePress建站教程',
             link: '/VitePress/',
             activeMatch: '/VitePress/'
@@ -361,11 +356,6 @@ export default defineConfig({
         { text: '处理远程仓库', link: '/Git/RemoteRepository' },
         { text: '处理分支', link: '/Git/Branches' },
       ],
-      '/FrpClientAndServer/': [
-        { text: '前言', link: '/FrpClientAndServer/' },
-        { text: '服务端', link: '/FrpClientAndServer/Server' },
-        { text: '客户端', link: '/FrpClientAndServer/Client' },
-      ],
       '/DockerSeries/': [
         {
           text: '前言',
@@ -384,6 +374,15 @@ export default defineConfig({
             { text: 'Webdav', link: '/DockerSeries/Webdav' },
             { text: 'SMB', link: '/DockerSeries/SMB' },
             { text: 'NFS', link: '/DockerSeries/NFS' },
+          ]
+        },
+        {
+          text: '端口转发服务器',
+          collapsed: true,
+          items: [
+            { text: '服务介绍', link: '/DockerSeries/Frp' },
+            { text: '端口转发服务端', link: '/DockerSeries/Frps' },
+            { text: '端口转发客户端', link: '/DockerSeries/Frpc' },
           ]
         },
         { text: '我的世界服务器', link: '/DockerSeries/MinecraftServer' },

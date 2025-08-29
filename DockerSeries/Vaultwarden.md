@@ -47,10 +47,10 @@ mkdir vaultwarden
 cd vaultwarden
 
 # 创建docker配置文件
-touch compose.yml
+touch docker-compose.yml
 
 # 编辑docker配置文件
-nano compose.yml
+nano docker-compose.yml
 
 # 创建caddy配置文件
 touch Caddyfile
@@ -59,7 +59,7 @@ touch Caddyfile
 nano Caddyfile
 ```
 
-### `compose.yml`
+### `docker-compose.yml`
 
 <<< @/DockerSeries/Vaultwarden.yml
 

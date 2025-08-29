@@ -40,10 +40,10 @@ mkdir ntfy
 cd ntfy
 
 # 创建docker配置文件
-touch compose.yml
+touch docker-compose.yml
 
 # 编辑docker配置文件
-nano compose.yml
+nano docker-compose.yml
 
 # 创建ntfy配置文件
 touch server.yml
@@ -61,7 +61,7 @@ cd ssl
 openssl req -x509 -newkey rsa:4096 -sha256 -nodes -keyout privkey.key -out cert.crt -days 3650
 ```
 
-### `compose.yml`
+### `docker-compose.yml`
 
 <<< @/DockerSeries/Ntfy.yml
 

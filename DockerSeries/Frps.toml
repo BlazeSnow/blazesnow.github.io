@@ -1,0 +1,2 @@
+bindPort = 7000
+auth.token = "此处设置连接密码"
