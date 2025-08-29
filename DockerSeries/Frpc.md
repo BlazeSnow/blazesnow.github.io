@@ -1,13 +1,13 @@
 ---
 lastUpdated: 2025-08-29T09:08:00+8:00
-description: 使用fatedier/frp搭建端口转发客户端
+description: 使用fatedier/frp搭建端口转发服务器客户端
 ---
 
 # 端口转发客户端 | Docker系列
 
 ## 前言
 
-本文介绍使用`fatedier/frp`在Ubuntu服务器上搭建端口转发客户端，请先根据本章前言完成环境的搭建。
+本文介绍使用`fatedier/frp`在Ubuntu服务器上搭建端口转发服务器客户端，请先根据本章前言完成环境的搭建。
 
 > [!TIP]
 > 本文服务以Caddy作为示例

@@ -1,13 +1,13 @@
 ---
 lastUpdated: 2025-08-29T08:56:00+8:00
-description: 使用fatedier/frp搭建端口转发服务器
+description: 使用fatedier/frp搭建端口转发服务器服务端
 ---
 
-# 端口转发服务器 | Docker系列
+# 端口转发服务端 | Docker系列
 
 ## 前言
 
-本文介绍使用`fatedier/frp`在Ubuntu服务器上搭建端口转发服务器，请先根据本章前言完成环境的搭建。
+本文介绍使用`fatedier/frp`在Ubuntu服务器上搭建端口转发服务器服务端，请先根据本章前言完成环境的搭建。
 
 `fatedier/frp`地址：
 

@@ -388,7 +388,15 @@ export default defineConfig({
         },
         { text: '我的世界服务器', link: '/DockerSeries/MinecraftServer' },
         { text: '家庭域名服务器', link: '/DockerSeries/AdGuardHome' },
-        { text: '端口转发服务器', link: '/DockerSeries/Frps' },
+        {
+          text: '端口转发服务器',
+          collapsed: true,
+          items: [
+            { text: '端口转发服务', link: '/DockerSeries/Frp' },
+            { text: '端口转发服务端', link: '/DockerSeries/Frps' },
+            { text: '端口转发客户端', link: '/DockerSeries/Frpc' },
+          ]
+        },
         { text: '密码服务器', link: '/DockerSeries/Vaultwarden' },
         { text: '文件快递柜', link: '/DockerSeries/FileCodeBox' },
         { text: '消息推送器', link: '/DockerSeries/Ntfy' },
