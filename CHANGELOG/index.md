@@ -4,6 +4,8 @@ lastUpdated: false
 
 # 2025年8月 | 更新日志
 
+- **2025-08-30 09:48:44**
+  - 删去文章中的description
 - **2025-08-29 10:33:05**
   - 优化Docker系列中的`compose.yml`为`docker-compose.yml`
   - 添加文章：
