@@ -15,19 +15,6 @@ export default defineConfig({
     ['link',
       { rel: 'icon', href: '/logo.ico' }
     ],
-    //Google分析
-    [
-      'script',
-      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=GT-KVFR6NJP' }
-    ],
-    [
-      'script',
-      {},
-      `window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'GT-KVFR6NJP');`
-    ],
   ],
   //网页地图
   sitemap: {
