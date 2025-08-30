@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2025-02-13T09:42:00+8:00
-description: npm命令的后缀介绍
 ---
 
 # npm后缀 | Nodejs

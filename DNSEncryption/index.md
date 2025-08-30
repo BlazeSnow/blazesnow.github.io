@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2025-08-04T21:28:00+8:00
-description: DNS加密的有关问题
 ---
 
 # 前言 | DNS加密

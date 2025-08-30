@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2025-06-07T15:46:00+8:00
-description: 更新Windows系统的教程
 ---
 
 # 更新 | Windows

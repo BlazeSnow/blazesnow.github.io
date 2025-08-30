@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2025-08-06T14:16:00+8:00
-description: 搭建消息推送器的教程
 ---
 
 # 消息推送器 | Docker系列

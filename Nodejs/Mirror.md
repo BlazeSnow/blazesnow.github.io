@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2025-02-08T09:11:00+8:00
-description: 对npm进行换源配置的教程
 ---
 
 # npm换源 | Nodejs

@@ -1,6 +1,5 @@
 ---
-lastUpdated: 2025-08-29T10:37:27+8:00
-description: BlazeSnow帮助网站的弃用网页的信息
+lastUpdated: false
 ---
 
 # 停止支持及弃用

@@ -2,7 +2,6 @@
 lastUpdated: 2025-08-03T19:15:00+8:00
 titleTemplate: 'BlazeSnow帮助网站'
 layout: home
-description: BlazeSnow帮助网站的首页
 
 hero:
     name: "BlazeSnow帮助网站"

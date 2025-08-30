@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2025-08-06T14:09:00+8:00
-description: 使用FileCodeBox搭建文件快递柜
 ---
 
 # 文件快递柜 | Docker系列

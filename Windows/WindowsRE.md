@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2025-08-06T13:48:00+8:00
-description: 本文介绍了如何设置一个新的Windows的恢复分区
 ---
 
 # 创建恢复分区 | Windows

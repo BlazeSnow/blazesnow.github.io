@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2025-08-06T14:10:00+8:00
-description: 使用HomeAssistant搭建智能家居中枢
 ---
 
 # 智能家居中枢 | Docker系列

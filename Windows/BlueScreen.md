@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2025-02-17T10:31:00+8:00
-description: 获取并分析Windows的蓝屏文件
 ---
 
 # 查看蓝屏文件 | Windows

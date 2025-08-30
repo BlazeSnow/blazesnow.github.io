@@ -1,6 +1,5 @@
 ---
 lastUpdated: false
-description: 2025年8月的更新日志
 ---
 
 # 2025年8月 | 更新日志
