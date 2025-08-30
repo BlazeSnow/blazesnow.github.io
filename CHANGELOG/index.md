@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-08-29T10:33:05+8:00
+lastUpdated: false
 description: 2025年8月的更新日志
 ---
 
