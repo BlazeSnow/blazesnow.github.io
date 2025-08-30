@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2025-08-06T14:17:00+8:00
-description: 搭建语音服务器的教程
 ---
 
 # 语音服务器 | Docker系列

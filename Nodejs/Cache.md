@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2025-02-27T09:16:00+8:00
-description: Nodejs清理缓存
 ---
 
 # npm缓存 | Nodejs

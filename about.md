@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2025-02-10T12:16:00+8:00
-description: 关于BlazeSnow帮助网站的信息
 ---
 
 # 关于本站

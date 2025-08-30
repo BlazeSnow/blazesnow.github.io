@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2024-8-27T11:04:00+8:00
-description: Ubuntu使用命令行处理文件夹
 ---
 
 # 命令行处理文件夹 | Ubuntu

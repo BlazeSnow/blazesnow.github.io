@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2025-08-06T14:17:00+8:00
-description: Docker系列教程的有关Volumes的前言
 ---
 
 # 命名卷 | Docker系列

@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2025-02-13T11:06:00+8:00
-description: Ubuntu相关内容的前言
 ---
 
 # 前言 | Ubuntu

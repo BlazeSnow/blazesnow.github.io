@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2025-07-08T19:50:00+8:00
-description: 在Windows系统中安装Nodejs
 ---
 
 # 安装Nodejs | Windows

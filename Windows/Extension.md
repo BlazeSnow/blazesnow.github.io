@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2024-6-5T20:23:00+8:00
-description: 如何使Windows显示后缀名和隐藏文件
 ---
 
 # 显示后缀名和隐藏文件 | Windows

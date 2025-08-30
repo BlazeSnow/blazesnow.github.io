@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2025-08-22T19:08:00+8:00
-description: 使用Gitea搭建版本管理服务器
 ---
 
 # 版本管理服务器 | Docker系列

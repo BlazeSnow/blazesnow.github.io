@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2025-05-11T15:30:00+8:00
-description: Git仓库处理相关命令
 ---
 
 # 处理仓库 | Git

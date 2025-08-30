@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2025-03-29T11:26:00+8:00
-description: Windows系统中设置环境变量的教程
 ---
 
 # 设置环境变量 | Windows

@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2024-11-29T16:22:00+8:00
-description: Nginx反向代理教程
 ---
 
 # 反向代理 | Nginx

@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2025-08-06T14:09:00+8:00
-description: 使用AdGuard Home搭建家庭域名服务器
 ---
 
 # 家庭域名服务器 | Docker系列

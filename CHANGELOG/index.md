@@ -1,10 +1,11 @@
 ---
-lastUpdated: 2025-08-29T10:33:05+8:00
-description: 2025年8月的更新日志
+lastUpdated: false
 ---
 
 # 2025年8月 | 更新日志
 
+- **2025-08-30 09:48:44**
+  - 删去文章中的description
 - **2025-08-29 10:33:05**
   - 优化Docker系列中的`compose.yml`为`docker-compose.yml`
   - 添加文章：

@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2024-10-18T18:50:00+8:00
-description: 使用systemctl管理Docker
 ---
 
 # 运行Docker | Docker

@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2025-07-08T19:32:00+8:00
-description: 在Windows系统中安装C++运行库
 ---
 
 # 安装C++运行库 | Windows

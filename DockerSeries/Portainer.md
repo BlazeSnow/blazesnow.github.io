@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2025-08-06T14:16:00+8:00
-description: 使用Portainer搭建Docker可视化管理器
 ---
 
 # 可视化管理 | Docker系列

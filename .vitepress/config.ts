@@ -6,7 +6,7 @@ export default defineConfig({
   //网页标题
   title: 'BlazeSnow帮助网站',
   //网页描述
-  description: 'BlazeSnow帮助网站,专注于分享知识.',
+  description: 'BlazeSnow帮助网站，专注于分享知识。',
   //网页标题
   titleTemplate: ':title | BlazeSnow帮助网站',
   //头文件配置
@@ -14,19 +14,6 @@ export default defineConfig({
     //网页logo
     ['link',
       { rel: 'icon', href: '/logo.ico' }
-    ],
-    //Google分析
-    [
-      'script',
-      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=GT-KVFR6NJP' }
-    ],
-    [
-      'script',
-      {},
-      `window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'GT-KVFR6NJP');`
     ],
   ],
   //网页地图
@@ -199,28 +186,30 @@ export default defineConfig({
       '/CHANGELOG/': [
         {
           text: '2025年',
+          collapsed: true,
           items: [
             { text: '2025年8月', link: '/CHANGELOG/' },
-            { text: '2025年7月', link: '/CHANGELOG/2025/July' },
-            { text: '2025年6月', link: '/CHANGELOG/2025/June' },
-            { text: '2025年5月', link: '/CHANGELOG/2025/May' },
-            { text: '2025年4月', link: '/CHANGELOG/2025/April' },
-            { text: '2025年3月', link: '/CHANGELOG/2025/March' },
-            { text: '2025年2月', link: '/CHANGELOG/2025/February' },
-            { text: '2025年1月', link: '/CHANGELOG/2025/January' },
+            { text: '2025年7月', link: '/CHANGELOG/2025/7' },
+            { text: '2025年6月', link: '/CHANGELOG/2025/6' },
+            { text: '2025年5月', link: '/CHANGELOG/2025/5' },
+            { text: '2025年4月', link: '/CHANGELOG/2025/4' },
+            { text: '2025年3月', link: '/CHANGELOG/2025/3' },
+            { text: '2025年2月', link: '/CHANGELOG/2025/2' },
+            { text: '2025年1月', link: '/CHANGELOG/2025/1' },
           ],
         },
         {
           text: '2024年',
+          collapsed: true,
           items: [
-            { text: '2024年12月', link: '/CHANGELOG/2024/December' },
-            { text: '2024年11月', link: '/CHANGELOG/2024/November' },
-            { text: '2024年10月', link: '/CHANGELOG/2024/October' },
-            { text: '2024年9月', link: '/CHANGELOG/2024/September' },
-            { text: '2024年8月', link: '/CHANGELOG/2024/August' },
-            { text: '2024年7月', link: '/CHANGELOG/2024/July' },
-            { text: '2024年6月', link: '/CHANGELOG/2024/June' },
-            { text: '2024年5月', link: '/CHANGELOG/2024/May' },
+            { text: '2024年12月', link: '/CHANGELOG/2024/12' },
+            { text: '2024年11月', link: '/CHANGELOG/2024/11' },
+            { text: '2024年10月', link: '/CHANGELOG/2024/10' },
+            { text: '2024年9月', link: '/CHANGELOG/2024/9' },
+            { text: '2024年8月', link: '/CHANGELOG/2024/8' },
+            { text: '2024年7月', link: '/CHANGELOG/2024/7' },
+            { text: '2024年6月', link: '/CHANGELOG/2024/6' },
+            { text: '2024年5月', link: '/CHANGELOG/2024/5' },
           ]
         },
       ],
