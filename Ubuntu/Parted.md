@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2024-7-8T8:53:00+8:00
-description: Ubuntu的磁盘类型检查
 ---
 
 # 检查磁盘类型 | Ubuntu

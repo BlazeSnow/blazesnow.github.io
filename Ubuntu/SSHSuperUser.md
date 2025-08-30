@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2025-01-12T17:17:00+8:00
-description: 为Ubuntu的SSH连接启用root用户
 ---
 
 # SSH超级用户权限 | Ubuntu

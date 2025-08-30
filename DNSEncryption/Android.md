@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2025-07-05T14:43:00+8:00
-description: Android设备的DNS加密教程
 ---
 
 # Android设备 | DNS加密

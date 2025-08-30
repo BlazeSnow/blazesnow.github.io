@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2024-8-29T22:24:00+8:00
-description: 管理docker镜像的相关命令
 ---
 
 # 管理镜像 | Docker

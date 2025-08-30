@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2025-02-13T10:11:00+8:00
-description: 在Windows系统中应用最新TLS传输层安全性协议
 ---
 
 # 应用最新TLS | Windows

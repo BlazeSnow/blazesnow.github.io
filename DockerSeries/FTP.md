@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2025-08-06T14:10:00+8:00
-description: 使用vsftpd搭建FTP文件服务器
 ---
 
 # FTP | Docker系列

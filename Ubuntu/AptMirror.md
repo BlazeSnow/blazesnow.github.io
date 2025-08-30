@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2025-05-30T12:59:00+8:00
-description: Ubuntu的包管理工具apt的换源教程
 ---
 
 # apt换源 | Ubuntu

@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2024-6-5T15:14:00+8:00
-description: Ubuntu无法更新Snap Store的解决方案
 ---
 
 # 无法更新Snap Store | Ubuntu

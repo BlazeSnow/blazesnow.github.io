@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2025-05-13T08:12:00+8:00
-description: 在Windows 11系统中使用旧版右键菜单
 ---
 
 # 旧版右键菜单 | Windows

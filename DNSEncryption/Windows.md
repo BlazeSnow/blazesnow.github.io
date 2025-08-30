@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2025-08-04T21:22:00+8:00
-description: Windows设备的DNS加密教程
 ---
 
 # Windows设备 | DNS加密

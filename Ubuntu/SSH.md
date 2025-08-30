@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2024-11-22T18:12:00+8:00
-description: Ubuntu的SSH服务相关命令
 ---
 
 # 安装SSH | Ubuntu

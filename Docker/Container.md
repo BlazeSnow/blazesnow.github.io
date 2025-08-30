@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2024-8-29T22:24:00+8:00
-description: 管理docker容器的常用命令
 ---
 
 # 管理容器 | Docker

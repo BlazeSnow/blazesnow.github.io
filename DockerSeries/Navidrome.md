@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2025-08-06T14:11:00+8:00
-description: 使用Navidrome搭建音乐服务器
 ---
 
 # 音乐服务器 | Docker系列

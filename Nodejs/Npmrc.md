@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2025-02-08T08:53:00+8:00
-description: 对npm的配置文件的介绍
 ---
 
 # npm配置文件 | Nodejs

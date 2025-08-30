@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2024-6-17T10:08:00+8:00
-description: 在Windows系统桌面创建快捷方式
 ---
 
 # 创建快捷方式 | Windows

@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2025-05-11T15:30:00+8:00
-description: Git的分支处理常用命令
 ---
 
 # 处理分支 | Git

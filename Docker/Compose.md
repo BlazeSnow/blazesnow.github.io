@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2025-02-24T18:53:00+8:00
-description: Docker的Compose文件介绍
 ---
 
 # Compose文件 | Docker

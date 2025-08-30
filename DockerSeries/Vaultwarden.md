@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2025-08-06T18:41:00+8:00
-description: 使用Vaultwarden、Caddy和Docker在Ubuntu系统上搭建密码服务器
 ---
 
 # 密码服务器 | Docker系列

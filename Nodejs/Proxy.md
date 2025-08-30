@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2025-02-08T09:11:00+8:00
-description: 对npm代理的配置教程
 ---
 
 # npm代理 | Nodejs

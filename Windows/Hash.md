@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2025-06-07T16:00:00+8:00
-description: 在Windows系统中计算哈希值
 ---
 
 # 计算哈希值 | Windows

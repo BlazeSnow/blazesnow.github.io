@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2025-08-06T14:14:00+8:00
-description: 搭建NFS服务器的教程
 ---
 
 # NFS | Docker系列

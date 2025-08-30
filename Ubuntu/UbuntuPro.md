@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2024-11-22T21:26:00+8:00
-description: 如何激活Ubuntu Pro
 ---
 
 # 激活UbuntuPro | Ubuntu

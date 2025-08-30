@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2024-11-20T17:37:00+8:00
-description: 对Ubuntu的包管理工具apt的介绍
 ---
 
 # apt | Ubuntu

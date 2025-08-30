@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2024-12-15T20:17:00+8:00
-description: Ubuntu的防火墙管理
 ---
 
 # 管理防火墙 | Ubuntu

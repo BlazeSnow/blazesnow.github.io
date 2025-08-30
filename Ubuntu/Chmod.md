@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2025-5-30T13:08:00+8:00
-description: Ubuntu的文件权限修改教程
 ---
 
 # 文件权限 | Ubuntu

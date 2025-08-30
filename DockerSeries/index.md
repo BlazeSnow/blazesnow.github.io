@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2025-08-06T14:10:00+8:00
-description: Docker系列教程的前言
 ---
 
 # 前言 | Docker系列

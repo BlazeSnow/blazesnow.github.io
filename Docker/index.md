@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2025-05-01T14:55:00+8:00
-description: Docker有关内容章节的前言
 ---
 
 # 前言 | Docker

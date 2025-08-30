@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2025-08-06T15:17:00+8:00
-description: 使用nginx部署静态网站至Ubuntu服务器
 ---
 
 # 部署网站至服务器
