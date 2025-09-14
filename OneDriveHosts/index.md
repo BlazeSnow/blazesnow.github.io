@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-07-26T22:01:00+8:00
+lastUpdated: 2025-09-14T15:35:16+8:00
 ---
 
 # OneDriveHosts
@@ -10,7 +10,7 @@ lastUpdated: 2025-07-26T22:01:00+8:00
 
 ## 程序来源
 
-![ban](./image/ban.png)
+![ban](image/ban.png)
 
 如上图所示，部分地区封锁了OneDrive的网站的ip，导致OneDrive无法正常使用，需要通过指定ip的方法使用OneDrive的其他ip
 
@@ -18,11 +18,11 @@ lastUpdated: 2025-07-26T22:01:00+8:00
 
 ## 程序原理
 
-![method](./image/method.png)
+![method](image/method.png)
 
 ## 程序成果
 
-<img src="./image/effect.png" width=500px>
+![method](image/effect.png)
 
 ## 程序使用方法
 
@@ -67,10 +67,37 @@ notepad C:\Windows\System32\drivers\etc\hosts
 
 #### 远程hosts文件URL
 
-- Cloudflare：<https://onedrivehosts.blazesnow.com/>
-- GitHub：<https://raw.githubusercontent.com/BlazeSnow/OneDriveHosts/main/hosts>
-- Gitee：<https://gitee.com/blazesnow/OneDriveHosts/raw/main/hosts>
+① Cloudflare：
+
+```ansi
+https://onedrivehosts.blazesnow.com/
+```
+
+② GitHub：
+
+```ansi
+https://raw.githubusercontent.com/BlazeSnow/OneDriveHosts/main/hosts
+```
+
+③ Gitee：
+
+```ansi
+https://gitee.com/blazesnow/OneDriveHosts/raw/main/hosts
+```
+
+## 自定义IP地址
+
+> [!CAUTION]
+> 请勿随意自定义IP地址
+
+若需要使用自定义的IP地址，可在hosts文件URL的后端加上`/?ip=13.107.42.12`
+
+> 自定义IP地址功能仅适用于Cloudflare版本URL
+
+```ansi
+https://onedrivehosts.blazesnow.com/?ip=13.107.42.12
+```
 
 ## 更新日志
 
-转到[更新日志](https://github.com/BlazeSnow/OneDriveHosts/blob/main/CHANGELOG.md)
+转到[更新日志](CHANGELOG.md)
