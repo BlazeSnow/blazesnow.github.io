@@ -74,5 +74,8 @@ status.blazesnow.com {
 }
 
 onedrivehosts.blazesnow.com {
+	tls {
+		dns cloudflare {env.CF_API_TOKEN}
+	}
 	reverse_proxy onedrivehosts:3000
 }
