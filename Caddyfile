@@ -65,6 +65,14 @@ www.blazesnow.com {
 	import blazesnowcom
 }
 
-localhost {
+status.blazesnow.com {
+	tls {
+		dns cloudflare {env.CF_API_TOKEN}
+	}
+
+	redir https://blazesnow.statuspage.io 301
+}
+
+onedrivehosts.blazesnow.com {
 	reverse_proxy onedrivehosts:3000
 }
