@@ -66,5 +66,5 @@ www.blazesnow.com {
 }
 
 localhost {
-	import blazesnowcom
+	reverse_proxy onedrivehosts:3000
 }
