@@ -49,33 +49,39 @@
 	}
 }
 
-blazesnow.com {
+(certificate) {
 	tls {
-		dns cloudflare {env.CF_API_TOKEN}
+		dns edgeone {
+			secret_id {env.TENCENTCLOUD_SECRET_ID}
+			secret_key {env.TENCENTCLOUD_SECRET_KEY}
+		}
+
+		propagation_timeout 10m
+		propagation_delay 5m
+		resolvers 119.29.29.29:53 8.8.8.8:53
 	}
+}
+
+blazesnow.com {
+	import certificate
 
 	redir https://www.blazesnow.com{uri} 301
 }
 
 www.blazesnow.com {
-	tls {
-		dns cloudflare {env.CF_API_TOKEN}
-	}
+	import certificate
 
 	import blazesnowcom
 }
 
 status.blazesnow.com {
-	tls {
-		dns cloudflare {env.CF_API_TOKEN}
-	}
+	import certificate
 
 	redir https://blazesnow.statuspage.io 301
 }
 
 onedrivehosts.blazesnow.com {
-	tls {
-		dns cloudflare {env.CF_API_TOKEN}
-	}
+	import certificate
+
 	reverse_proxy onedrivehosts:3000
 }
