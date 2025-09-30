@@ -352,6 +352,7 @@ export default defineConfig({
           items: [
             { text: '前言', link: '/DockerSeries/' },
             { text: '命名卷', link: '/DockerSeries/Volumes' },
+            { text: '网络', link: '/DockerSeries/Networks' },
           ]
         },
         {
