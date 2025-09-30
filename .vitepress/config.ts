@@ -188,7 +188,8 @@ export default defineConfig({
           text: '2025年',
           collapsed: true,
           items: [
-            { text: '2025年8月', link: '/CHANGELOG/' },
+            { text: '2025年9月', link: '/CHANGELOG/' },
+            { text: '2025年8月', link: '/CHANGELOG/2025/8' },
             { text: '2025年7月', link: '/CHANGELOG/2025/7' },
             { text: '2025年6月', link: '/CHANGELOG/2025/6' },
             { text: '2025年5月', link: '/CHANGELOG/2025/5' },
