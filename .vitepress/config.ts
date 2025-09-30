@@ -32,7 +32,7 @@ export default defineConfig({
     //右边的小目录
     aside: true,
     //右边的小目录
-    outline: 2,
+    outline: [2, 4],
     outlineTitle: '本篇目录',
     //切换深色或浅色模式提示
     darkModeSwitchLabel: '切换深色或浅色模式',
@@ -188,7 +188,8 @@ export default defineConfig({
           text: '2025年',
           collapsed: true,
           items: [
-            { text: '2025年8月', link: '/CHANGELOG/' },
+            { text: '2025年9月', link: '/CHANGELOG/' },
+            { text: '2025年8月', link: '/CHANGELOG/2025/8' },
             { text: '2025年7月', link: '/CHANGELOG/2025/7' },
             { text: '2025年6月', link: '/CHANGELOG/2025/6' },
             { text: '2025年5月', link: '/CHANGELOG/2025/5' },
@@ -352,6 +353,7 @@ export default defineConfig({
           items: [
             { text: '前言', link: '/DockerSeries/' },
             { text: '命名卷', link: '/DockerSeries/Volumes' },
+            { text: '网络', link: '/DockerSeries/Networks' },
           ]
         },
         {
