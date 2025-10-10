@@ -85,3 +85,9 @@ onedrivehosts.blazesnow.com {
 
 	reverse_proxy onedrivehosts:3000
 }
+
+ipa.blazesnow.com {
+	import certificate
+
+	redir https://github.com/ipabuyer 301
+}
