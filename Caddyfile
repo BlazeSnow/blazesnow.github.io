@@ -89,5 +89,5 @@ onedrivehosts.blazesnow.com {
 ipa.blazesnow.com {
 	import certificate
 
-	redir https://github.com/ipabuyer 301
+	redir https://github.com/ipabuyer/ipabuyer 301
 }
