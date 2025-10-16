@@ -1,3 +1,7 @@
+---
+lastUpdated: false
+---
+
 # IPAbuyer
 
 ## 软件介绍
