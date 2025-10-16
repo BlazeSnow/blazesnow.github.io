@@ -1,0 +1,20 @@
+networks:
+  openlist:
+    enable_ipv6: true
+
+services:
+  openlist:
+    image: openlistteam/openlist:latest
+    container_name: openlist
+    restart: always
+    user: 0:0 #使用root用户
+    volumes:
+    - ./data:/opt/openlist/data
+    networks:
+    - openlist
+    ports:
+    - 5244:5244
+    environment:
+    - UMASK=022
+    - TZ=Asia/Shanghai
+    - OPENLIST_ADMIN_PASSWORD=PASSWORD #此处输入admin账户的密码
