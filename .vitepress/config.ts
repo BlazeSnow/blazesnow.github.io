@@ -111,6 +111,11 @@ export default defineConfig({
         activeMatch: '/Ubuntu/',
         items: [
           {
+            text: 'IPAbuyer',
+            link: '/ipa/',
+            activeMatch: '/ipa/'
+          },
+          {
             text: 'Ubuntu',
             link: '/Ubuntu/',
             activeMatch: '/Ubuntu/'
