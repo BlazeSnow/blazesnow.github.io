@@ -77,7 +77,7 @@ www.blazesnow.com {
 status.blazesnow.com {
 	import certificate
 
-	redir https://blazesnow.statuspage.io 301
+	redir https://blazesnow.statuspage.io/ 301
 }
 
 onedrivehosts.blazesnow.com {
@@ -89,5 +89,5 @@ onedrivehosts.blazesnow.com {
 ipa.blazesnow.com {
 	import certificate
 
-	redir https://github.com/ipabuyer/ipabuyer 301
+	redir https://www.blazesnow.com/ipa/ 301
 }
