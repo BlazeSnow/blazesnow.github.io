@@ -154,12 +154,7 @@ export default defineConfig({
             text: 'Nginx',
             link: '/Nginx/',
             activeMatch: '/Nginx/'
-          },
-          {
-            text: 'Git',
-            link: '/Git/',
-            activeMatch: '/Git/'
-          },
+          }
         ]
       },
       {
@@ -193,7 +188,8 @@ export default defineConfig({
           text: '2025年',
           collapsed: true,
           items: [
-            { text: '2025年9月', link: '/CHANGELOG/' },
+            { text: '2025年10月', link: '/CHANGELOG/' },
+            { text: '2025年9月', link: '/CHANGELOG/2025/9' },
             { text: '2025年8月', link: '/CHANGELOG/2025/8' },
             { text: '2025年7月', link: '/CHANGELOG/2025/7' },
             { text: '2025年6月', link: '/CHANGELOG/2025/6' },
@@ -370,6 +366,7 @@ export default defineConfig({
             { text: 'Webdav', link: '/DockerSeries/Webdav' },
             { text: 'SMB', link: '/DockerSeries/SMB' },
             { text: 'NFS', link: '/DockerSeries/NFS' },
+            { text: 'OpenList', link: '/DockerSeries/OpenList' },
           ]
         },
         {
