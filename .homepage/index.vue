@@ -5,7 +5,7 @@ import status from "./status.vue"
 
 <template>
   <h2>
-    特色章节
+    特色内容
   </h2>
   <div class="group">
     <card title="Docker系列" link="/DockerSeries/">
@@ -13,19 +13,14 @@ import status from "./status.vue"
         Docker Compose是容器编排的得力助手，用简洁YAML文件管理多容器应用。
       </template>
     </card>
-    <card title="Windows" link="/Windows/">
-      <template #description>
-        Windows操作系统是微软以图形用户界面为主推出的一系列专有商业软件操作系统。
-      </template>
-    </card>
   </div>
   <h2>
-    更多
+    更多内容
   </h2>
   <div class="group">
-    <card title="Ubuntu" link="/Ubuntu/">
+    <card title="IPAbuyer" link="/ipa/">
       <template #description>
-        Ubuntu是基于Debian，以桌面应用为主的Linux发行版。
+        刚刚拿到iPhone，受折磨于反复按下锁屏键购入App；还是担心小众优质App被下架？使用IPAbuyer，将App统统收入囊中！
       </template>
     </card>
     <card title="OneDriveHosts" link="/OneDriveHosts/">
@@ -33,14 +28,14 @@ import status from "./status.vue"
         通过指定OneDrive的网站的hosts，实现在封锁OneDrive的ip地址的区域使用OneDrive。
       </template>
     </card>
-    <card title="VitePress建站教程" link="/VitePress/">
+    <card title="Windows" link="/Windows/">
       <template #description>
-        通过VitePress和GitHub Pages生成静态站点。
+        Windows操作系统是微软以图形用户界面为主推出的一系列专有商业软件操作系统。
       </template>
     </card>
-    <card title="部署网站至服务器" link="/WebsiteToServer/">
+    <card title="Ubuntu" link="/Ubuntu/">
       <template #description>
-        将VitePress建成的网站通过GitHub部署到Ubuntu服务器上。
+        Ubuntu是基于Debian，以桌面应用为主的Linux发行版。
       </template>
     </card>
     <card title="DNS加密" link="/DNSEncryption/">
@@ -49,10 +44,7 @@ import status from "./status.vue"
       </template>
     </card>
   </div>
-  <h2>
-    更多内容详见网页顶栏
-  </h2>
-  <status></status>
+  <status />
 </template>
 
 <style scoped>

@@ -14,9 +14,8 @@ onMounted(() => {
     <statuspage-widget src="https://blazesnow.statuspage.io" appearance="basic" title="BlazeSnow网站状态">
     </statuspage-widget>
     <p>
-        查看本网站的运行状态及可用域名：
         <a href="https://blazesnow.statuspage.io/" target="_blank">
-            https://blazesnow.statuspage.io/
+            查看本网站的运行状态及域名
         </a>
     </p>
 </template>
