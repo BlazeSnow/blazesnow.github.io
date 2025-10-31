@@ -33,6 +33,11 @@ import status from "./status.vue"
         Minecraft:Java Edition 多人游戏服务器。
       </template>
     </card>
+    <card title="端口转发服务器 Frp" link="/DockerSeries/Frps">
+      <template #description>
+        Frp 采用 C/S 模式，通过访问暴露在服务器上的端口，反向代理到处于内网的服务。
+      </template>
+    </card>
     <card title="文件列表服务器 OpenList" link="/DockerSeries/OpenList">
       <template #description>
         一个支持多种存储的文件列表程序，使用 Gin 和 SolidJS。
