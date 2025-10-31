@@ -149,11 +149,6 @@ export default defineConfig({
             text: 'Docker',
             link: '/Docker/',
             activeMatch: '/Docker/'
-          },
-          {
-            text: 'Nginx',
-            link: '/Nginx/',
-            activeMatch: '/Nginx/'
           }
         ]
       },
@@ -350,7 +345,7 @@ export default defineConfig({
       '/DockerSeries/': [
         {
           text: '前言',
-          collapsed: false,
+          collapsed: true,
           items: [
             { text: '前言', link: '/DockerSeries/' },
             { text: '命名卷', link: '/DockerSeries/Volumes' },
@@ -365,19 +360,12 @@ export default defineConfig({
             { text: 'SFTP', link: '/DockerSeries/SFTP' },
             { text: 'Webdav', link: '/DockerSeries/Webdav' },
             { text: 'SMB', link: '/DockerSeries/SMB' },
-            { text: 'NFS', link: '/DockerSeries/NFS' },
-            { text: 'OpenList', link: '/DockerSeries/OpenList' },
+            { text: 'NFS', link: '/DockerSeries/NFS' }
           ]
         },
-        {
-          text: '端口转发服务器',
-          collapsed: true,
-          items: [
-            { text: '服务介绍', link: '/DockerSeries/Frp' },
-            { text: '端口转发服务端', link: '/DockerSeries/Frps' },
-            { text: '端口转发客户端', link: '/DockerSeries/Frpc' },
-          ]
-        },
+        { text: '文件列表服务器', link: '/DockerSeries/OpenList' },
+        { text: '端口转发服务端', link: '/DockerSeries/Frps' },
+        { text: '端口转发客户端', link: '/DockerSeries/Frpc' },
         { text: '我的世界服务器', link: '/DockerSeries/MinecraftServer' },
         { text: '家庭域名服务器', link: '/DockerSeries/AdGuardHome' },
         { text: '密码服务器', link: '/DockerSeries/Vaultwarden' },
@@ -386,19 +374,9 @@ export default defineConfig({
         { text: '智能家居中枢', link: '/DockerSeries/HomeAssistant' },
         { text: '语音服务器', link: '/DockerSeries/TeamSpeak' },
         { text: '音乐服务器', link: '/DockerSeries/Navidrome' },
-        { text: '可视化管理', link: '/DockerSeries/Portainer' },
+        { text: '容器可视化管理', link: '/DockerSeries/Portainer' },
         { text: '版本管理服务器', link: '/DockerSeries/Gitea' },
-      ],
-      '/Nginx/': [
-        { text: '前言', link: '/Nginx/' },
-        { text: '自签名SSL', link: '/Nginx/SelfSignedSSL' },
-        { text: '反向代理', link: '/Nginx/ReverseProxy' },
-      ],
-    },
-    //编辑链接
-    editLink: {
-      text: '在GitHub上查看此页面',
-      pattern: 'https://github.com/BlazeSnow/blazesnow.github.io/tree/main/:path'
+      ]
     },
     //上次更新于
     lastUpdated: {
