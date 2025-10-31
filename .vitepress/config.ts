@@ -381,7 +381,7 @@ export default defineConfig({
         { text: '智能家居中枢', link: '/DockerSeries/HomeAssistant' },
         { text: '语音服务器', link: '/DockerSeries/TeamSpeak' },
         { text: '音乐服务器', link: '/DockerSeries/Navidrome' },
-        { text: '可视化管理', link: '/DockerSeries/Portainer' },
+        { text: '容器可视化管理', link: '/DockerSeries/Portainer' },
         { text: '版本管理服务器', link: '/DockerSeries/Gitea' },
       ]
     },
