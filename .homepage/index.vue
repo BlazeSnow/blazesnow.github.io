@@ -38,7 +38,7 @@ import status from "./status.vue"
         Navidrome 允许您通过现代 Web UI 和广泛的第三方兼容移动应用程序从任何地方享受您的音乐收藏。
       </template>
     </card>
-    <card title="Docker 可视化管理 Portainer" link="/DockerSeries/Portainer">
+    <card title="容器可视化管理 Portainer" link="/DockerSeries/Portainer">
       <template #description>
         Portainer 提供了一个企业级的容器管理平台。
       </template>
