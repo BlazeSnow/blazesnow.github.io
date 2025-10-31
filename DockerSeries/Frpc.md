@@ -1,15 +1,19 @@
 ---
-lastUpdated: 2025-08-29T10:00:00+8:00
+lastUpdated: 2025-10-31T14:09:00+8:00
 ---
 
 # 端口转发客户端 | Docker系列
 
+> [!TIP]
+> 端口转发服务的数据传输路径：`客户端:localPort`->`服务端:remotePort`
+>
+> 客户端不需要IP地址，提供业务服务；服务端需要公网IP地址，提供转发服务。
+>
+> 我要搭建[端口转发服务端](/DockerSeries/Frps)。
+
 ## 前言
 
-本文介绍使用`fatedier/frp`在Ubuntu服务器上搭建端口转发服务器客户端，请先根据本章前言完成环境的搭建。
-
-> [!TIP]
-> 本文服务以Caddy作为示例
+本文介绍使用`fatedier/frp`在Ubuntu服务器上搭建端口转发服务器客户端，请先根据本章前言完成环境的搭建。本文的业务服务以`Hello from Caddy!`作为示例。
 
 `fatedier/frp`地址：
 
@@ -21,11 +25,12 @@ lastUpdated: 2025-08-29T10:00:00+8:00
 
 ```shell
 docker pull snowdreamtech/frpc:alpine
+docker pull caddy:alpine                # 业务服务示例
 ```
 
 ## 开放端口
 
-> 本文服务无需开放端口
+> 本文无需开放端口
 
 ## 配置文件
 
@@ -64,7 +69,7 @@ nano Caddyfile
 
 ### `frpc.toml`
 
-<<< @/DockerSeries/Frpc.toml{1,3}
+<<< @/DockerSeries/Frpc.toml{1,3,8}
 
 ### `Caddyfile`
 

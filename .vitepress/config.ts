@@ -345,7 +345,7 @@ export default defineConfig({
       '/DockerSeries/': [
         {
           text: '前言',
-          collapsed: false,
+          collapsed: true,
           items: [
             { text: '前言', link: '/DockerSeries/' },
             { text: '命名卷', link: '/DockerSeries/Volumes' },
@@ -363,16 +363,9 @@ export default defineConfig({
             { text: 'NFS', link: '/DockerSeries/NFS' }
           ]
         },
-        {
-          text: '端口转发服务器',
-          collapsed: true,
-          items: [
-            { text: '服务介绍', link: '/DockerSeries/Frp' },
-            { text: '端口转发服务端', link: '/DockerSeries/Frps' },
-            { text: '端口转发客户端', link: '/DockerSeries/Frpc' },
-          ]
-        },
         { text: '文件列表服务器', link: '/DockerSeries/OpenList' },
+        { text: '端口转发服务端', link: '/DockerSeries/Frps' },
+        { text: '端口转发客户端', link: '/DockerSeries/Frpc' },
         { text: '我的世界服务器', link: '/DockerSeries/MinecraftServer' },
         { text: '家庭域名服务器', link: '/DockerSeries/AdGuardHome' },
         { text: '密码服务器', link: '/DockerSeries/Vaultwarden' },
