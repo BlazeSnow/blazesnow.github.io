@@ -149,11 +149,6 @@ export default defineConfig({
             text: 'Docker',
             link: '/Docker/',
             activeMatch: '/Docker/'
-          },
-          {
-            text: 'Nginx',
-            link: '/Nginx/',
-            activeMatch: '/Nginx/'
           }
         ]
       },
@@ -388,12 +383,7 @@ export default defineConfig({
         { text: '音乐服务器', link: '/DockerSeries/Navidrome' },
         { text: '可视化管理', link: '/DockerSeries/Portainer' },
         { text: '版本管理服务器', link: '/DockerSeries/Gitea' },
-      ],
-      '/Nginx/': [
-        { text: '前言', link: '/Nginx/' },
-        { text: '自签名SSL', link: '/Nginx/SelfSignedSSL' },
-        { text: '反向代理', link: '/Nginx/ReverseProxy' },
-      ],
+      ]
     },
     //上次更新于
     lastUpdated: {
