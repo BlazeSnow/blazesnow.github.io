@@ -11,6 +11,7 @@ lastUpdated: false
     - `部署网站至服务器`
     - `SFTP`
     - `NFS`
+  - 删去了计划中的章节：`Nginx`
 - **2025-10-16 22:24:42**
   - 添加文章：`OpenList | Docker系列`
   - 删去了计划中的章节：`Git`
