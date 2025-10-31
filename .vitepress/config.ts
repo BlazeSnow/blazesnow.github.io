@@ -395,11 +395,6 @@ export default defineConfig({
         { text: '反向代理', link: '/Nginx/ReverseProxy' },
       ],
     },
-    //编辑链接
-    editLink: {
-      text: '在GitHub上查看此页面',
-      pattern: 'https://github.com/BlazeSnow/blazesnow.github.io/tree/main/:path'
-    },
     //上次更新于
     lastUpdated: {
       text: '上次更新时间',
