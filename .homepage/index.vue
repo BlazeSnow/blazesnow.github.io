@@ -8,9 +8,39 @@ import status from "./status.vue"
     特色内容
   </h2>
   <div class="group">
-    <card title="Docker系列" link="/DockerSeries/">
+    <card title="语音服务器 TeamSpeak" link="/DockerSeries/TeamSpeak">
       <template #description>
-        Docker Compose是容器编排的得力助手，用简洁YAML文件管理多容器应用。
+        用水晶般透亮明晰的声音与您的队友跨平台交流，体验军用级安全性、无延迟的性能和无与伦比的可靠性和正常运行时间。
+      </template>
+    </card>
+    <card title="版本管理服务器 Gitea" link="/DockerSeries/Gitea">
+      <template #description>
+        出色的自托管选项，为团队和开发人员带来高效率，同时也简化了从计划到生产的操作。
+      </template>
+    </card>
+    <card title="智能家居中枢 Home Assistant" link="/DockerSeries/HomeAssistant">
+      <template #description>
+        把本地控制和隐私放在首位的开源家庭自动化。由世界各地的工匠和DIY爱好者社区提供动力。
+      </template>
+    </card>
+    <card title="家庭域名服务器 AdGuard Home" link="/DockerSeries/AdGuardHome">
+      <template #description>
+        AdGuard Home 是一种基于网络的广告和跟踪器拦截解决方案。
+      </template>
+    </card>
+    <card title="我的世界服务器 Minecraft Server" link="/DockerSeries/MinecraftServer">
+      <template #description>
+        Minecraft:Java Edition 多人游戏服务器。
+      </template>
+    </card>
+    <card title="音乐服务器 Navidrome" link="/DockerSeries/Navidrome">
+      <template #description>
+        Navidrome 允许您通过现代 Web UI 和广泛的第三方兼容移动应用程序从任何地方享受您的音乐收藏。
+      </template>
+    </card>
+    <card title="Docker 可视化管理 Portainer" link="/DockerSeries/Portainer">
+      <template #description>
+        Portainer 提供了一个企业级的容器管理平台。
       </template>
     </card>
   </div>
