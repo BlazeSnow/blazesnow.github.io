@@ -33,6 +33,11 @@ import status from "./status.vue"
         Minecraft:Java Edition 多人游戏服务器。
       </template>
     </card>
+    <card title="文件列表服务器 OpenList" link="/DockerSeries/OpenList">
+      <template #description>
+        一个支持多种存储的文件列表程序，使用 Gin 和 SolidJS。
+      </template>
+    </card>
     <card title="音乐服务器 Navidrome" link="/DockerSeries/Navidrome">
       <template #description>
         Navidrome 允许您通过现代 Web UI 和广泛的第三方兼容移动应用程序从任何地方享受您的音乐收藏。

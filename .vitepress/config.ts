@@ -360,8 +360,7 @@ export default defineConfig({
             { text: 'SFTP', link: '/DockerSeries/SFTP' },
             { text: 'Webdav', link: '/DockerSeries/Webdav' },
             { text: 'SMB', link: '/DockerSeries/SMB' },
-            { text: 'NFS', link: '/DockerSeries/NFS' },
-            { text: 'OpenList', link: '/DockerSeries/OpenList' },
+            { text: 'NFS', link: '/DockerSeries/NFS' }
           ]
         },
         {
@@ -373,6 +372,7 @@ export default defineConfig({
             { text: '端口转发客户端', link: '/DockerSeries/Frpc' },
           ]
         },
+        { text: '文件列表服务器', link: '/DockerSeries/OpenList' },
         { text: '我的世界服务器', link: '/DockerSeries/MinecraftServer' },
         { text: '家庭域名服务器', link: '/DockerSeries/AdGuardHome' },
         { text: '密码服务器', link: '/DockerSeries/Vaultwarden' },
