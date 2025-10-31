@@ -2,11 +2,11 @@
 lastUpdated: 2025-10-16T22:21:00+8:00
 ---
 
-# OpenList | Docker系列
+# 文件列表服务器 | Docker系列
 
 ## 前言
 
-本文介绍使用`openlistteam/openlist`在Ubuntu服务器上搭建OpenList，请先根据本章前言完成环境的搭建。
+本文介绍使用`openlistteam/openlist`在Ubuntu服务器上搭建文件列表服务器，请先根据本章前言完成环境的搭建。
 
 `openlistteam/openlist`地址：
 

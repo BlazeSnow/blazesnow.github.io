@@ -4,6 +4,11 @@ lastUpdated: 2025-08-06T14:14:00+8:00
 
 # NFS | Docker系列
 
+> [!CAUTION]
+> 停止支持：本文的内容已停止支持
+>
+> 参见停止支持及弃用的页面：[点击此处跳转](/Deprecated)
+
 ## 前言
 
 本文介绍使用`itsthenetwork/nfs-server-alpine`在Ubuntu服务器上搭建NFS文件服务器，请先根据本章前言完成环境的搭建。

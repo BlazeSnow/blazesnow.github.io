@@ -2,11 +2,11 @@
 lastUpdated: 2025-08-06T14:16:00+8:00
 ---
 
-# 可视化管理 | Docker系列
+# 容器可视化管理 | Docker系列
 
 ## 前言
 
-本文介绍使用`portainer/portainer-ce`在Ubuntu服务器上搭建Docker可视化管理器，请先根据本章前言完成环境的搭建。
+本文介绍使用`portainer/portainer-ce`在Ubuntu服务器上搭建容器可视化管理器，请先根据本章前言完成环境的搭建。
 
 `portainer/portainer-ce`地址：
 

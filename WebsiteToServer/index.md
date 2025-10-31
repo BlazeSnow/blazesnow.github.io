@@ -4,6 +4,11 @@ lastUpdated: 2025-08-06T15:17:00+8:00
 
 # 部署网站至服务器
 
+> [!CAUTION]
+> 停止支持：本章节的内容已停止支持
+>
+> 参见停止支持及弃用的页面：[点击此处跳转](/Deprecated)
+
 ## 前言
 
 本章将把[VitePress建站教程](/VitePress/)建成的网站通过GitHub仓库部署到Ubuntu服务器上
