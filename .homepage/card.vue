@@ -14,6 +14,15 @@ export default {
             required: false,
             default: '_self'
         }
+    },
+    methods: {
+        ButtonClick() {
+            if (this.target === '_self') {
+                window.location.href = this.link;
+            } else {
+                window.open(this.link, '_blank');
+            }
+        }
     }
 };
 </script>
@@ -26,9 +35,9 @@ export default {
                 <slot name="description"></slot>
             </p>
         </div>
-        <a :href="link" :target="target" class="button">
+        <button @click="ButtonClick" class="jumpbutton">
             前往查看
-        </a>
+        </button>
     </div>
 </template>
 
@@ -71,7 +80,7 @@ export default {
     text-overflow: ellipsis;
 }
 
-.button {
+.jumpbutton {
     align-self: flex-start;
     margin-top: 1.25rem;
     padding: 0.5rem 1rem;
@@ -81,12 +90,13 @@ export default {
     border-radius: 6px;
     text-decoration: none;
     text-align: center;
+    font-size: 1rem;
     font-weight: 500;
     transition: background-color 0.3s, color 0.3s;
     cursor: pointer;
 }
 
-.button:hover {
+.jumpbutton:hover {
     background-color: var(--vp-c-brand-1);
     color: var(--vp-c-bg);
 }
