@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-11-23T23:12:00+8:00
+lastUpdated: 2025-11-23T23:17:00+8:00
 ---
 
 # 证书申请器 | Docker系列
@@ -83,6 +83,8 @@ cd /srv/certbot
 # 开始运行
 docker compose up
 ```
+
+程序运行完毕后，证书及密钥将创建于`/srv/certbot/conf/archive`或`/srv/certbot/conf/live`，使用前请阅读Certbot生成的README文件
 
 ## 维护服务
 
