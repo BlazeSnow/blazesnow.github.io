@@ -25,27 +25,27 @@ import status from "./status.vue"
     </card>
     <card title="家庭域名服务器 AdGuard Home" link="/DockerSeries/AdGuardHome.html">
       <template #description>
-        AdGuard Home 是一种基于网络的广告和跟踪器拦截解决方案。
+        AdGuard Home是一种基于网络的广告和跟踪器拦截解决方案。
       </template>
     </card>
     <card title="我的世界服务器 Minecraft Server" link="/DockerSeries/MinecraftServer.html">
       <template #description>
-        Minecraft:Java Edition 多人游戏服务器。
+        Minecraft:Java Edition多人游戏服务器。
       </template>
     </card>
     <card title="端口转发服务器 Frp" link="/DockerSeries/Frps.html">
       <template #description>
-        Frp 采用 C/S 模式，通过访问暴露在服务器上的端口，反向代理到处于内网的服务。
+        Frp采用C/S模式，通过访问暴露在服务器上的端口，反向代理到处于内网的服务。
       </template>
     </card>
     <card title="文件列表服务器 OpenList" link="/DockerSeries/OpenList.html">
       <template #description>
-        一个支持多种存储的文件列表程序，使用 Gin 和 SolidJS。
+        一个支持多种存储的文件列表程序，使用Gin和SolidJS。
       </template>
     </card>
     <card title="音乐服务器 Navidrome" link="/DockerSeries/Navidrome.html">
       <template #description>
-        Navidrome 允许您通过现代 Web UI 和广泛的第三方兼容移动应用程序从任何地方享受您的音乐收藏。
+        Navidrome允许您通过现代Web UI和广泛的第三方兼容移动应用程序从任何地方享受您的音乐收藏。
       </template>
     </card>
     <card title="证书申请器 Certbot" link="/DockerSeries/Certbot.html">
@@ -55,7 +55,7 @@ import status from "./status.vue"
     </card>
     <card title="容器可视化管理 Portainer" link="/DockerSeries/Portainer.html">
       <template #description>
-        Portainer 提供了一个企业级的容器管理平台。
+        Portainer提供了一个企业级的容器管理平台。
       </template>
     </card>
   </div>
