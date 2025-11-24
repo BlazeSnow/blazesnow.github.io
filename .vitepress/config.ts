@@ -382,6 +382,7 @@ export default defineConfig({
         { text: '音乐服务器', link: '/DockerSeries/Navidrome' },
         { text: '容器可视化管理', link: '/DockerSeries/Portainer' },
         { text: '版本管理服务器', link: '/DockerSeries/Gitea' },
+        { text: '证书申请器', link: '/DockerSeries/Certbot' },
       ]
     },
     //上次更新于
