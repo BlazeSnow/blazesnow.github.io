@@ -65,7 +65,7 @@ nano apikey.ini
 
 ### `docker-compose.yml`
 
-<<< @/DockerSeries/Certbot.yml{20,22,24}
+<<< @/DockerSeries/Certbot.yml{22,24,26}
 
 ### `apikey.ini`
 
@@ -84,7 +84,7 @@ cd /srv/certbot
 docker compose up
 ```
 
-程序运行完毕后，证书及密钥将创建于`/srv/certbot/conf/archive`或`/srv/certbot/conf/live`，使用前请阅读Certbot生成的README文件
+程序运行完毕后，证书及私钥将创建于`/srv/certbot/conf/archive`或`/srv/certbot/conf/live`，使用前请阅读Certbot生成的README文件
 
 ## 维护服务
 
