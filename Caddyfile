@@ -52,8 +52,8 @@
 (certificate) {
 	tls {
 		dns cloudflare {
-			secret_id {env.CF_ZONE_TOKEN}
-			secret_key {env.CF_API_TOKEN}
+			zone_token {env.CF_ZONE_TOKEN}
+			api_token {env.CF_API_TOKEN}
 		}
 	}
 }
