@@ -51,14 +51,10 @@
 
 (certificate) {
 	tls {
-		dns edgeone {
-			secret_id {env.TENCENTCLOUD_SECRET_ID}
-			secret_key {env.TENCENTCLOUD_SECRET_KEY}
+		dns cloudflare {
+			secret_id {env.CF_ZONE_TOKEN}
+			secret_key {env.CF_API_TOKEN}
 		}
-
-		propagation_timeout 10m
-		propagation_delay 5m
-		resolvers 119.29.29.29:53 8.8.8.8:53
 	}
 }
 
@@ -78,12 +74,6 @@ status.blazesnow.com {
 	import certificate
 
 	redir https://blazesnow.statuspage.io/ 301
-}
-
-onedrivehosts.blazesnow.com {
-	import certificate
-
-	reverse_proxy onedrivehosts:3000
 }
 
 ipa.blazesnow.com {

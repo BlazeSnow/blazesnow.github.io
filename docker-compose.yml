@@ -1,8 +1,3 @@
-networks:
-  blazesnow:
-    external: true
-    name: blazesnow
-
 services:
   blazesnowcom:
     build:
@@ -11,8 +6,6 @@ services:
     image: registry.cn-hangzhou.aliyuncs.com/blazesnow/blazesnowcom:latest
     container_name: blazesnowcom
     restart: always
-    networks:
-      - blazesnow
     ports:
       - 80:80
       - 443:443

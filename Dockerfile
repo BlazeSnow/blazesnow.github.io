@@ -1,5 +1,5 @@
 # 生产环境
-FROM blazesnow/caddy:edgeone-alpine
+FROM blazesnow/caddy:cloudflare-alpine
 
 # 设置工作目录
 WORKDIR /app
