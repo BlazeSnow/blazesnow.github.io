@@ -121,11 +121,6 @@ export default defineConfig({
             activeMatch: '/Ubuntu/'
           },
           {
-            text: 'ImagePorter',
-            link: '/imageporter/',
-            activeMatch: '/imageporter/'
-          },
-          {
             text: 'OneDriveHosts',
             link: '/OneDriveHosts/',
             activeMatch: '/OneDriveHosts/'
