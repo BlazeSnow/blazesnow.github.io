@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-12-28T08:57:00+8:00
+lastUpdated: 2025-12-28T08:58:00+8:00
 ---
 
 # 前言 | Docker系列
@@ -80,7 +80,7 @@ apt update && apt upgrade -y
 
 ## 卸载Docker
 
-> 本教程默认使用root用户
+> 本教程默认使用root用户。
 
 第一步，卸载组件
 
