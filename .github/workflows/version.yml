@@ -1,4 +1,4 @@
-name: Publish Version
+name: Publish Version of BlazeSnow Site
 
 on:
   workflow_dispatch:
@@ -6,7 +6,7 @@ on:
       tag:
         description: 'Release tag'
         required: true
-        default: 'v2025.8.29.1'
+        default: 'v2025.12.28.1'
 
 permissions:
   contents: write
