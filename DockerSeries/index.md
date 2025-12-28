@@ -1,10 +1,10 @@
 ---
-lastUpdated: 2025-08-06T14:10:00+8:00
+lastUpdated: 2025-12-28T08:57:00+8:00
 ---
 
 # 前言 | Docker系列
 
-> `Docker Compose`是一个用于定义和运行容器的工具。它通过`docker-compose.yml`来描述应用程序需要的所有服务、网络和存储资源，通过一条命令就可以启动或管理所有的容器。
+> Docker Compose是一个用于定义和运行容器的工具。它通过yml文件来描述应用程序需要的所有服务、网络和存储资源，通过一条命令就可以启动或管理所有的容器。
 
 ## 系统要求
 
@@ -12,92 +12,95 @@ lastUpdated: 2025-08-06T14:10:00+8:00
 
 ## 安装Docker
 
-根据以下步骤依次运行：
+> 本教程默认使用root用户。
+
+第一步，更新apt包源
 
 ```shell
-# 更新系统
-sudo apt update && sudo apt upgrade -y
+apt update && apt upgrade -y
+```
 
-# 卸载其他版本的Docker
-for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
+第二步，卸载其他版本的docker、compose、containerd和runc，以避免版本冲突
 
-# 前往srv
+```shell
+apt remove $(dpkg --get-selections docker.io docker-compose docker-compose-v2 docker-doc podman-docker containerd runc | cut -f1)
+```
+
+第三步，前往工作目录/srv
+
+```shell
 cd /srv
-
-# 下载安装脚本
-curl -fsSL https://get.docker.com -o install-docker.sh
-
-# 使用安装脚本安装
-sudo sh install-docker.sh --mirror Aliyun
-
-# 验证安装
-docker version
-
-# 后续对Docker进行更新
-sudo apt update && sudo apt upgrade -y
 ```
 
-## 关于`docker-compose.yml`
-
-以下是一个示例`docker-compose.yml`文件及其解释：
-
-```yml
-services:
-  vsftpd:
-    # image：镜像名称:版本
-    image: fauria/vsftpd:latest
-
-    # container_name：容器名称
-    container_name: vsftpd
-
-    # restart：中断后处理
-    restart: always
-
-    # volumes：宿主机路径:容器内路径
-    volumes:
-      - ./data:/home/vsftpd
-    
-    # ports：宿主机端口:容器端口
-    ports:
-      - 20:20
-      - 21:21
-      - 21100-21110:21100-21110
-    
-    # environment：环境变量
-    environment:
-      FTP_USER: blazesnow
-      FTP_PASS: blazesnow
-      PASV_ADDRESS: 127.0.0.1
-      PASV_MIN_PORT: 21100
-      PASV_MAX_PORT: 21110
-```
-
-## 简单的控制命令
-
-以下是`Docker`的一些简单控制命令：
+第四步，下载docker官方安装脚本
 
 ```shell
-# 拉取镜像
-docker compose pull
-# 启动容器
-docker compose up
-# 静默启动容器
-docker compose up -d
-# 停止容器
-docker compose down
-# 重新启动容器
-docker compose restart
-# 查看容器状态
-docker ps -a
-# 拉取镜像
-docker pull 镜像名称
-# 查看镜像状态
-docker images
-# 删除镜像
-docker rmi 镜像id
-# 清理缓存
-docker system prune -f
+curl -fsSL https://get.docker.com -o get-docker.sh
+```
+
+第五步，授予安装脚本运行权限
+
+```shell
+chmod +x get-docker.sh
+```
+
+第六步，运行安装脚本，并设定安装镜像源为阿里云
+
+```shell
+sh get-docker.sh --mirror Aliyun
+```
+
+第七步，验证安装是否成功
+
+```shell
+docker info
+```
+
+后续只需使用apt对docker进行更新
+
+```shell
+apt update && apt upgrade -y
+```
+
+## 控制命令
+
+1. 拉取镜像：```docker compose pull```
+2. 启动容器：```docker compose up```
+3. 静默启动容器：```docker compose up -d```
+4. 停止容器：```docker compose down```
+5. 重新启动容器：```docker compose restart```
+6. 查看容器状态：```docker ps -a```
+7. 拉取镜像：```docker pull <name>```
+8. 查看所有镜像：```docker images```
+9. 删除镜像：```docker rmi <id>```
+10. 清理缓存：```docker system prune -f```
+
+> [!TIP]
+> 关于compose的命令，都需要在yml文件所在目录下执行。
+
+## 卸载Docker
+
+> 本教程默认使用root用户
+
+第一步，卸载组件
+
+```shell
+apt purge docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-ce-rootless-extras
+```
+
+第二步，删去镜像与容器
+
+```shell
+rm -rf /var/lib/docker
+rm -rf /var/lib/containerd
+```
+
+第三步，删去apt包配置文件与密钥
+
+```shell
+sudo rm /etc/apt/sources.list.d/docker.sources
+sudo rm /etc/apt/keyrings/docker.asc
 ```
 
 > [!TIP]
-> 关于`docker compose`的命令，都需要在`docker-compose.yml`所在目录下执行。
+> 安装与卸载教程来源：<https://docs.docker.com/engine/install/ubuntu/>
