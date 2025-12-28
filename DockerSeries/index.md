@@ -64,16 +64,16 @@ apt update && apt upgrade -y
 
 ## 控制命令
 
-1. 拉取镜像：```docker compose pull```
-2. 启动容器：```docker compose up```
-3. 静默启动容器：```docker compose up -d```
-4. 停止容器：```docker compose down```
-5. 重新启动容器：```docker compose restart```
-6. 查看容器状态：```docker ps -a```
-7. 拉取镜像：```docker pull <name>```
-8. 查看所有镜像：```docker images```
-9. 删除镜像：```docker rmi <id>```
-10. 清理缓存：```docker system prune -f```
+1. 拉取镜像：`docker compose pull`
+2. 启动容器：`docker compose up`
+3. 静默启动容器：`docker compose up -d`
+4. 停止容器：`docker compose down`
+5. 重新启动容器：`docker compose restart`
+6. 查看容器状态：`docker ps -a`
+7. 拉取镜像：`docker pull <name>`
+8. 查看所有镜像：`docker images`
+9. 删除镜像：`docker rmi <id>`
+10. 清理缓存：`docker system prune -f`
 
 > [!TIP]
 > 关于compose的命令，都需要在yml文件所在目录下执行。
