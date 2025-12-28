@@ -1,0 +1,44 @@
+name: Publish Github Pages of BlazeSnow Site
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+permissions:
+  pages: write
+  id-token: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v5
+
+    - name: Setup Node
+      uses: actions/setup-node@v6
+      with:
+        node-version: 24
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Build with VitePress
+      run: npm run docs:build
+
+    - name: Setup Pages
+      uses: actions/configure-pages@v5
+
+    - name: Upload to GitHub Pages
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: .vitepress/dist
+
+    - name: Deploy to GitHub Pages
+      uses: actions/deploy-pages@v4
