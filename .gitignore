@@ -1,7 +1,17 @@
+# VitePress的dev文件夹
 .vitepress/cache/
+
+# VitePress的build文件夹
 .vitepress/dist/
+
+# npm文件夹
 node_modules/
+
+# Caddy服务器文件
 caddy_data/
 caddy_config/
 caddy_root/
 .env
+
+# macOS系统文件
+.DS_Store
