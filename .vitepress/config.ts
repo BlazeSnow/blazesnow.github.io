@@ -126,16 +126,6 @@ export default defineConfig({
             activeMatch: '/OneDriveHosts/'
           },
           {
-            text: 'VitePress建站教程',
-            link: '/VitePress/',
-            activeMatch: '/VitePress/'
-          },
-          {
-            text: '部署网站至服务器',
-            link: '/WebsiteToServer/',
-            activeMatch: '/WebsiteToServer/'
-          },
-          {
             text: 'DNS加密',
             link: '/DNSEncryption/',
             activeMatch: '/DNSEncryption/'
@@ -359,10 +349,8 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: 'FTP', link: '/DockerSeries/FTP' },
-            { text: 'SFTP', link: '/DockerSeries/SFTP' },
             { text: 'Webdav', link: '/DockerSeries/Webdav' },
-            { text: 'SMB', link: '/DockerSeries/SMB' },
-            { text: 'NFS', link: '/DockerSeries/NFS' }
+            { text: 'SMB', link: '/DockerSeries/SMB' }
           ]
         },
         { text: '文件列表服务器', link: '/DockerSeries/OpenList' },
