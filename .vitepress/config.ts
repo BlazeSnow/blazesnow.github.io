@@ -170,10 +170,17 @@ export default defineConfig({
     sidebar: {
       '/CHANGELOG/': [
         {
+          text: '2026年',
+          collapsed: true,
+          items: [
+            { text: '2026年1月', link: '/CHANGELOG/' }
+          ],
+        },
+        {
           text: '2025年',
           collapsed: true,
           items: [
-            { text: '2025年12月', link: '/CHANGELOG/' },
+            { text: '2025年12月', link: '/CHANGELOG/2025/12' },
             { text: '2025年11月', link: '/CHANGELOG/2025/11' },
             { text: '2025年10月', link: '/CHANGELOG/2025/10' },
             { text: '2025年9月', link: '/CHANGELOG/2025/9' },

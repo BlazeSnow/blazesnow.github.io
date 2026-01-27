@@ -2,10 +2,12 @@
 lastUpdated: false
 ---
 
-# 2025年12月 | 更新日志
+# 2026年1月 | 更新日志
 
-- **2025-12-28 09:04**
-  - 更新文章：`前言 | Docker系列`
-- **2025-12-10 17:32**
-  - 移除文章：`ImagePorter`
-  - 移除Google Analytics服务
+## v2026.1.31.1
+
+- 删去了停止支持的章节与文章
+  - VitePress建站教程
+  - 部署网站至服务器
+  - SFTP | Docker系列
+  - NFS | Docker系列
