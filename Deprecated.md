@@ -13,16 +13,16 @@ lastUpdated: false
 
 ## 已弃用章节
 
-| 章节名称          | 路径             | 删除时间      |
-| ----------------- | ---------------- | ------------- |
-| VitePress建站教程 | /VitePress       | 2026年1月31日 |
-| 部署网站至服务器  | /WebsiteToServer | 2026年1月31日 |
-| Nginx           | /Nginx   | 2025年10月31日 |
-| Git             | /Git     | 2025年10月16日 |
-| Android         | /Android | 2025年6月24日  |
-| Clang           | /Clang   | 2025年6月10日  |
-| CMake           | /CMake   | 2025年5月11日  |
-| Docsify建站教程 | /Docsify | 2025年2月5日   |
+| 章节名称          | 路径             | 删除时间       |
+| ----------------- | ---------------- | -------------- |
+| VitePress建站教程 | /VitePress       | 2026年1月31日  |
+| 部署网站至服务器  | /WebsiteToServer | 2026年1月31日  |
+| Nginx             | /Nginx           | 2025年10月31日 |
+| Git               | /Git             | 2025年10月16日 |
+| Android           | /Android         | 2025年6月24日  |
+| Clang             | /Clang           | 2025年6月10日  |
+| CMake             | /CMake           | 2025年5月11日  |
+| Docsify建站教程   | /Docsify         | 2025年2月5日   |
 
 ## 已弃用文章
 
@@ -47,6 +47,7 @@ lastUpdated: false
 
 | 旧路径                     | 新路径                                     | 处理时间       |
 | -------------------------- | ------------------------------------------ | -------------- |
+| /ipa                       | <https://github.com/ipabuyer>              | 2026年1月31日  |
 | /imageporter               | <https://github.com/BlazeSnow/ImagePorter> | 2025年12月10日 |
 | /FrpClientAndServer/Client | /DockerSeries/Frpc                         | 2025年8月29日  |
 | /FrpClientAndServer/Server | /DockerSeries/Frps                         | 2025年8月29日  |
