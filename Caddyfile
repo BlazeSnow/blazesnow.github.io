@@ -1,4 +1,5 @@
 (blazesnowredir) {
+	redir /ipa* https://github.com/ipabuyer 301
 	redir /imageporter* https://github.com/BlazeSnow/ImagePorter 301
 	redir /FrpClientAndServer/Client* /DockerSeries/Frpc 301
 	redir /FrpClientAndServer/Server* /DockerSeries/Frps 301
@@ -71,11 +72,11 @@ www.blazesnow.com {
 status.blazesnow.com {
 	import certificate
 
-	redir https://blazesnow.statuspage.io/ 301
+	redir https://blazesnow.statuspage.io 301
 }
 
 ipa.blazesnow.com {
 	import certificate
 
-	redir https://www.blazesnow.com/ipa/ 301
+	redir https://github.com/ipabuyer 301
 }
