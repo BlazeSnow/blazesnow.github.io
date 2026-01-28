@@ -10,8 +10,6 @@ lastUpdated: 2026-01-28T11:42:00+8:00
 
 - <https://www.java.com/zh-CN/>
 - <https://www.oracle.com/cn/java/technologies/downloads/>
-- <https://www.microsoft.com/openjdk>
-- <https://adoptium.net/zh-CN>
 
 ## Oracle
 
