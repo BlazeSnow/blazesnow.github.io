@@ -276,49 +276,49 @@ export default defineConfig({
         { text: 'npm代理', link: '/Nodejs/Proxy' },
         { text: 'npm缓存', link: '/Nodejs/Cache' },
       ],
-      '/Ubuntu/': [
+      '/ubuntu/': [
         {
           text: '系统',
           items: [
-            { text: '前言', link: '/Ubuntu/' },
-            { text: '安装Ubuntu', link: '/Ubuntu/Install' },
-            { text: '检查磁盘类型', link: '/Ubuntu/Parted' },
-            { text: '安装分区推荐', link: '/Ubuntu/Partition' },
-            { text: '安装SSH', link: '/Ubuntu/SSH' },
-            { text: 'SSH超级用户权限', link: '/Ubuntu/SSHSuperUser' },
-            { text: '查看硬件配置', link: '/Ubuntu/Hardware' },
-            { text: '管理防火墙', link: '/Ubuntu/Firewall' },
+            { text: '前言', link: '/ubuntu/' },
+            { text: '安装Ubuntu', link: '/ubuntu/install' },
+            { text: '检查磁盘类型', link: '/ubuntu/parted' },
+            { text: '安装分区推荐', link: '/ubuntu/partition' },
+            { text: '安装SSH', link: '/ubuntu/ssh' },
+            { text: 'SSH超级用户权限', link: '/ubuntu/sshsuperuser' },
+            { text: '查看硬件配置', link: '/ubuntu/hardware' },
+            { text: '管理防火墙', link: '/ubuntu/firewall' },
           ]
         },
         {
           text: '时间',
           items: [
-            { text: '同步系统时间', link: '/Ubuntu/SyncTime' },
-            { text: '双系统的时间差8小时', link: '/Ubuntu/SystemTimeDifference' },
+            { text: '同步系统时间', link: '/ubuntu/synctime' },
+            { text: '双系统的时间差8小时', link: '/ubuntu/systemtimedifference' },
           ]
         },
         {
           text: '文件处理',
           items: [
-            { text: '命令行处理文件夹', link: '/Ubuntu/TerminalFolders' },
-            { text: '命令行处理文件', link: '/Ubuntu/TerminalFile' },
-            { text: '文件权限', link: '/Ubuntu/Chmod' },
-            { text: '修改文件所有者', link: '/Ubuntu/Chown' },
-            { text: '压缩文件', link: '/Ubuntu/Tar' },
-            { text: '下载文件', link: '/Ubuntu/Curl' },
+            { text: '命令行处理文件夹', link: '/ubuntu/terminalfolders' },
+            { text: '命令行处理文件', link: '/ubuntu/terminalfile' },
+            { text: '文件权限', link: '/ubuntu/chmod' },
+            { text: '修改文件所有者', link: '/ubuntu/chown' },
+            { text: '压缩文件', link: '/ubuntu/tar' },
+            { text: '下载文件', link: '/ubuntu/curl' },
           ]
         },
         {
           text: '包管理',
           items: [
-            { text: 'apt', link: '/Ubuntu/Apt' },
-            { text: 'apt换源', link: '/Ubuntu/AptMirror' },
-            { text: 'dpkg', link: '/Ubuntu/Dpkg' },
+            { text: 'apt', link: '/ubuntu/apt' },
+            { text: 'apt换源', link: '/ubuntu/aptmirror' },
+            { text: 'dpkg', link: '/ubuntu/dpkg' },
           ]
         },
-        { text: '自动化脚本', link: '/Ubuntu/Crontab' },
-        { text: '激活UbuntuPro', link: '/Ubuntu/UbuntuPro' },
-        { text: '无法更新SnapStore', link: '/Ubuntu/UpdateSnapStore' },
+        { text: '自动化脚本', link: '/ubuntu/crontab' },
+        { text: '激活UbuntuPro', link: '/ubuntu/ubuntupro' },
+        { text: '无法更新SnapStore', link: '/ubuntu/updatesnapstore' },
       ],
       '/Docker/': [
         { text: '前言', link: '/Docker/' },
