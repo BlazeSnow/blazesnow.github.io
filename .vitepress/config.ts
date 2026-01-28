@@ -152,7 +152,7 @@ export default defineConfig({
           },
           {
             text: '停止支持及弃用',
-            link: '/deprecated'
+            link: '/deprecated/'
           },
           {
             text: '网站状态',
