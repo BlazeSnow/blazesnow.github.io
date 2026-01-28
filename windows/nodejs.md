@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-07-08T19:50:00+8:00
+lastUpdated: 2026-01-28T11:52:00+8:00
 ---
 
 # 安装Nodejs | Windows
@@ -8,29 +8,61 @@ lastUpdated: 2025-07-08T19:50:00+8:00
 
 官方网站：<https://nodejs.org/zh-cn>
 
-## Current
+## Nodejs
 
 1. 按下`Windows徽标`+`X`
 2. 选中`终端管理员`
 3. 输入并回车：
 
 ```shell
-winget install OpenJS.NodeJS
+winget.exe install --id "OpenJS.NodeJS" --exact
+winget.exe install --id "OpenJS.NodeJS.LTS" --exact
+winget.exe install --id "OpenJS.NodeJS.23" --exact
+winget.exe install --id "OpenJS.NodeJS.22" --exact
+winget.exe install --id "OpenJS.NodeJS.21" --exact
+winget.exe install --id "OpenJS.NodeJS.20" --exact
+winget.exe install --id "OpenJS.NodeJS.19" --exact
+winget.exe install --id "OpenJS.NodeJS.18" --exact
+winget.exe install --id "OpenJS.NodeJS.17" --exact
+winget.exe install --id "OpenJS.NodeJS.16" --exact
+winget.exe install --id "OpenJS.NodeJS.15" --exact
+winget.exe install --id "OpenJS.NodeJS.14" --exact
+winget.exe install --id "OpenJS.NodeJS.12" --exact
+winget.exe install --id "OpenJS.NodeJS.10" --exact
+winget.exe install --id "OpenJS.NodeJS.8" --exact
+winget.exe install --id "OpenJS.NodeJS.7" --exact
+winget.exe install --id "OpenJS.NodeJS.6" --exact
+winget.exe install --id "OpenJS.NodeJS.4" --exact
 ```
 
-## LTS
+## 未签名的本地脚本
+
+### 允许未签名的本地脚本
 
 1. 按下`Windows徽标`+`X`
 2. 选中`终端管理员`
 3. 输入并回车：
 
 ```shell
-winget install OpenJS.NodeJS.LTS
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
 ```
 
-## 允许运行npm
+### 检查运行策略
 
-1. 按下`Windows徽标`+`I`
-2. 搜索：`Powershel`
-3. 打开：`允许本地PowerShell脚本在不签名的情况下运行`
-4. 开启开关：`更改执行策略，以允许本地PowerShell脚本在未签名的情况下运行。远程脚本需要签名。`
+1. 按下`Windows徽标`+`X`
+2. 选中`终端`
+3. 输入并回车：
+
+```shell
+Get-ExecutionPolicy -Scope CurrentUser
+```
+
+### 撤销允许未签名的本地脚本
+
+1. 按下`Windows徽标`+`X`
+2. 选中`终端管理员`
+3. 输入并回车：
+
+```shell
+Set-ExecutionPolicy Restricted -Scope CurrentUser -Force
+```
