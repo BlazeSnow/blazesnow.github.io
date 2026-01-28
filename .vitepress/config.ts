@@ -335,33 +335,33 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: '前言', link: '/dockerseries/' },
-            { text: '命名卷', link: '/dockerseries/Volumes' },
-            { text: '网络', link: '/dockerseries/Networks' },
+            { text: '命名卷', link: '/dockerseries/volumes/' },
+            { text: '网络', link: '/dockerseries/networks/' },
           ]
         },
         {
           text: '文件服务器',
           collapsed: true,
           items: [
-            { text: 'FTP', link: '/dockerseries/FTP' },
-            { text: 'Webdav', link: '/dockerseries/Webdav' },
-            { text: 'SMB', link: '/dockerseries/SMB' }
+            { text: 'FTP', link: '/dockerseries/ftp/' },
+            { text: 'Webdav', link: '/dockerseries/webdav/' },
+            { text: 'SMB', link: '/dockerseries/smb/' }
           ]
         },
-        { text: '文件列表服务器', link: '/dockerseries/OpenList' },
-        { text: '端口转发服务端', link: '/dockerseries/Frps' },
-        { text: '端口转发客户端', link: '/dockerseries/Frpc' },
-        { text: '我的世界服务器', link: '/dockerseries/MinecraftServer' },
-        { text: '家庭域名服务器', link: '/dockerseries/AdGuardHome' },
-        { text: '密码服务器', link: '/dockerseries/Vaultwarden' },
-        { text: '文件快递柜', link: '/dockerseries/FileCodeBox' },
-        { text: '消息推送器', link: '/dockerseries/Ntfy' },
-        { text: '智能家居中枢', link: '/dockerseries/HomeAssistant' },
-        { text: '语音服务器', link: '/dockerseries/TeamSpeak' },
-        { text: '音乐服务器', link: '/dockerseries/Navidrome' },
-        { text: '容器可视化管理', link: '/dockerseries/Portainer' },
-        { text: '版本管理服务器', link: '/dockerseries/Gitea' },
-        { text: '证书申请器', link: '/dockerseries/Certbot' },
+        { text: '文件列表服务器', link: '/dockerseries/openlist/' },
+        { text: '端口转发服务端', link: '/dockerseries/frps/' },
+        { text: '端口转发客户端', link: '/dockerseries/frpc/' },
+        { text: '我的世界服务器', link: '/dockerseries/minecraftserver/' },
+        { text: '家庭域名服务器', link: '/dockerseries/adguardhome/' },
+        { text: '密码服务器', link: '/dockerseries/vaultwarden/' },
+        { text: '文件快递柜', link: '/dockerseries/filecodebox/' },
+        { text: '消息推送器', link: '/dockerseries/ntfy/' },
+        { text: '智能家居中枢', link: '/dockerseries/homeassistant/' },
+        { text: '语音服务器', link: '/dockerseries/teamspeak/' },
+        { text: '音乐服务器', link: '/dockerseries/navidrome/' },
+        { text: '容器可视化管理', link: '/dockerseries/portainer/' },
+        { text: '版本管理服务器', link: '/dockerseries/gitea/' },
+        { text: '证书申请器', link: '/dockerseries/certbot/' },
       ]
     },
     //上次更新于
