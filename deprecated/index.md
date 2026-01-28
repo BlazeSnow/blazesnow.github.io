@@ -47,6 +47,14 @@ lastUpdated: false
 
 | 旧路径                     | 新路径                                     | 处理时间       |
 | -------------------------- | ------------------------------------------ | -------------- |
+| /Deprecated                | /deprecated                                | 2026年1月31日  |
+| /DNSEncryption             | /dns                                       | 2026年1月31日  |
+| /Docker                    | /docker                                    | 2026年1月31日  |
+| /DockerSeries              | /dockerseries                              | 2026年1月31日  |
+| /Nodejs                    | /nodejs                                    | 2026年1月31日  |
+| /OneDriveHosts             | /onedrivehosts                             | 2026年1月31日  |
+| /Ubuntu                    | /ubuntu                                    | 2026年1月31日  |
+| /Windows                   | /windows                                   | 2026年1月31日  |
 | /ipa                       | <https://github.com/ipabuyer>              | 2026年1月31日  |
 | /imageporter               | <https://github.com/BlazeSnow/ImagePorter> | 2025年12月10日 |
 | /FrpClientAndServer/Client | /DockerSeries/Frpc                         | 2025年8月29日  |
