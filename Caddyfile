@@ -57,6 +57,10 @@
 	}
 }
 
+localhost {
+	import blazesnowcom
+}
+
 blazesnow.com {
 	import certificate
 

@@ -1,8 +1,8 @@
-# VitePress的dev文件夹
+# VitePress文件夹
 .vitepress/cache/
-
-# VitePress的build文件夹
 .vitepress/dist/
+.vitepress/temp/
+.vitepress/.temp/
 
 # npm文件夹
 node_modules/

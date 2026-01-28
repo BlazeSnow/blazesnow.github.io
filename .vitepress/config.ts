@@ -98,47 +98,42 @@ export default defineConfig({
       },
       {
         text: 'Docker系列',
-        link: '/DockerSeries/',
-        activeMatch: '/DockerSeries/'
+        link: '/dockerseries/',
+        activeMatch: '/dockerseries/'
       },
       {
         text: 'Windows',
-        link: '/Windows/',
-        activeMatch: '/Windows/'
+        link: '/windows/',
+        activeMatch: '/windows/'
       },
       {
         text: '更多',
-        activeMatch: '/Ubuntu/',
+        activeMatch: '/ubuntu/',
         items: [
           {
-            text: 'IPAbuyer',
-            link: '/ipa/',
-            activeMatch: '/ipa/'
-          },
-          {
             text: 'Ubuntu',
-            link: '/Ubuntu/',
-            activeMatch: '/Ubuntu/'
+            link: '/ubuntu/',
+            activeMatch: '/ubuntu/'
           },
           {
             text: 'OneDriveHosts',
-            link: '/OneDriveHosts/',
-            activeMatch: '/OneDriveHosts/'
+            link: '/onedrivehosts/',
+            activeMatch: '/onedrivehosts/'
           },
           {
             text: 'DNS加密',
-            link: '/DNSEncryption/',
-            activeMatch: '/DNSEncryption/'
+            link: '/dns/',
+            activeMatch: '/dns/'
           },
           {
             text: 'Nodejs',
-            link: '/Nodejs/',
-            activeMatch: '/Nodejs/'
+            link: '/nodejs/',
+            activeMatch: '/nodejs/'
           },
           {
             text: 'Docker',
-            link: '/Docker/',
-            activeMatch: '/Docker/'
+            link: '/docker/',
+            activeMatch: '/docker/'
           }
         ]
       },
@@ -157,7 +152,7 @@ export default defineConfig({
           },
           {
             text: '停止支持及弃用',
-            link: '/Deprecated'
+            link: '/deprecated/'
           },
           {
             text: '网站状态',
@@ -209,171 +204,164 @@ export default defineConfig({
           ]
         },
       ],
-      '/Windows/': [
+      '/windows/': [
         {
           text: '系统',
           items: [
-            { text: '前言', link: '/Windows/' },
-            { text: '更新', link: '/Windows/Update' },
-            { text: '修复', link: '/Windows/Repair' },
-            { text: '重新安装', link: '/Windows/Reinstall' },
+            { text: '前言', link: '/windows/' },
+            { text: '更新', link: '/windows/update' },
+            { text: '修复', link: '/windows/repair' },
+            { text: '重新安装', link: '/windows/reinstall' },
           ]
         },
         {
           text: '运行库',
           items: [
-            { text: '安装WinGet', link: '/Windows/WinGet' },
-            { text: '安装C++运行库', link: '/Windows/VCRedist' },
-            { text: '安装.NET', link: '/Windows/DotNet' },
-            { text: '安装Java', link: '/Windows/Java' },
-            { text: '安装Python', link: '/Windows/Python' },
-            { text: '安装Nodejs', link: '/Windows/Nodejs' },
+            { text: '安装WinGet', link: '/windows/winget' },
+            { text: '安装C++运行库', link: '/windows/vcredist' },
+            { text: '安装.NET', link: '/windows/dotnet' },
+            { text: '安装Java', link: '/windows/java' },
+            { text: '安装Python', link: '/windows/python' },
+            { text: '安装Nodejs', link: '/windows/nodejs' },
           ]
         },
         {
           text: '文件',
           items: [
-            { text: '显示后缀名和隐藏文件', link: '/Windows/Extension' },
-            { text: '创建快捷方式', link: '/Windows/Shortcuts' },
-            { text: '重启文件资源管理器', link: '/Windows/RestartFileExplorer' },
-            { text: '旧版右键菜单', link: '/Windows/OldRightClick' },
-            { text: '删除新建文件类型', link: '/Windows/RemoveFileType' },
-            { text: '删除右键菜单项', link: '/Windows/RemoveRightClickItem' },
-            { text: '修复桌面图标', link: '/Windows/ClearIconCache' },
-            { text: '计算哈希值', link: '/Windows/Hash' },
+            { text: '显示后缀名和隐藏文件', link: '/windows/extension' },
+            { text: '创建快捷方式', link: '/windows/shortcuts' },
+            { text: '重启文件资源管理器', link: '/windows/tskillexplorer' },
+            { text: '旧版右键菜单', link: '/windows/oldrightclick' },
+            { text: '删除新建文件类型', link: '/windows/filetype' },
+            { text: '删除右键菜单项', link: '/windows/rightclickitem' },
+            { text: '修复桌面图标', link: '/windows/iconcache' },
+            { text: '计算哈希值', link: '/windows/hash' },
           ]
         },
         {
           text: '清理',
           items: [
-            { text: '磁盘清理', link: '/Windows/Cleanmgr' },
-            { text: '清除程序的卸载残留', link: '/Windows/RemoveUninstallRemnants' },
-            { text: '清理微软商店残留', link: '/Windows/RemoveMicrosoftStoreRemnants' },
+            { text: '磁盘清理', link: '/windows/cleanmgr' },
+            { text: '清除程序的卸载残留', link: '/windows/uninstallremnants' },
+            { text: '清理微软商店残留', link: '/windows/microsoftstoreremnants' },
           ]
         },
-        { text: '创建恢复分区', link: '/Windows/WindowsRE' },
-        { text: '禁用快速启动', link: '/Windows/Hiberfil' },
-        { text: '应用最新TLS', link: '/Windows/TLS' },
-        { text: '查看蓝屏文件', link: '/Windows/BlueScreen' },
-        { text: '系统配置', link: '/Windows/Msconfig' },
-        { text: '设置环境变量', link: '/Windows/EnvironmentVariables' },
+        { text: '创建恢复分区', link: '/windows/recovery' },
+        { text: '禁用快速启动', link: '/windows/hiberfil' },
+        { text: '应用最新TLS', link: '/windows/tls' },
+        { text: '查看蓝屏文件', link: '/windows/bluescreen' },
+        { text: '系统配置', link: '/windows/msconfig' },
+        { text: '设置环境变量', link: '/windows/environment' },
       ],
-      '/DNSEncryption/': [
-        { text: '前言', link: '/DNSEncryption/' },
-        { text: 'Windows设备', link: '/DNSEncryption/Windows' },
-        { text: 'Android设备', link: '/DNSEncryption/Android' },
-        { text: 'Apple设备', link: '/DNSEncryption/Apple' },
-        { text: 'DNS大全', link: '/DNSEncryption/Collection' }
+      '/dns/': [
+        { text: '前言', link: '/dns/' },
+        { text: 'Windows设备', link: '/dns/windows' },
+        { text: 'Android设备', link: '/dns/android' },
+        { text: 'Apple设备', link: '/dns/apple' },
+        { text: 'DNS大全', link: '/dns/collection' }
       ],
-      '/Nodejs/': [
-        { text: '前言', link: '/Nodejs/' },
-        { text: '安装Nodejs', link: '/Nodejs/Install' },
-        { text: '引入npm', link: '/Nodejs/Init' },
-        { text: 'npm管理包', link: '/Nodejs/Manage' },
-        { text: 'npm后缀', link: '/Nodejs/Parameter' },
-        { text: 'npm配置文件', link: '/Nodejs/Npmrc' },
-        { text: 'npm换源', link: '/Nodejs/Mirror' },
-        { text: 'npm代理', link: '/Nodejs/Proxy' },
-        { text: 'npm缓存', link: '/Nodejs/Cache' },
+      '/nodejs/': [
+        { text: '前言', link: '/nodejs/' },
+        { text: '安装Nodejs', link: '/nodejs/install' },
+        { text: '引入npm', link: '/nodejs/init' },
+        { text: 'npm管理包', link: '/nodejs/manage' },
+        { text: 'npm后缀', link: '/nodejs/parameter' },
+        { text: 'npm配置文件', link: '/nodejs/npmrc' },
+        { text: 'npm换源', link: '/nodejs/mirror' },
+        { text: 'npm代理', link: '/nodejs/proxy' },
+        { text: 'npm缓存', link: '/nodejs/cache' },
       ],
-      '/Ubuntu/': [
+      '/ubuntu/': [
         {
           text: '系统',
           items: [
-            { text: '前言', link: '/Ubuntu/' },
-            { text: '安装Ubuntu', link: '/Ubuntu/Install' },
-            { text: '检查磁盘类型', link: '/Ubuntu/Parted' },
-            { text: '安装分区推荐', link: '/Ubuntu/Partition' },
-            { text: '安装SSH', link: '/Ubuntu/SSH' },
-            { text: 'SSH超级用户权限', link: '/Ubuntu/SSHSuperUser' },
-            { text: '查看硬件配置', link: '/Ubuntu/Hardware' },
-            { text: '管理防火墙', link: '/Ubuntu/Firewall' },
+            { text: '前言', link: '/ubuntu/' },
+            { text: '安装Ubuntu', link: '/ubuntu/install' },
+            { text: '检查磁盘类型', link: '/ubuntu/parted' },
+            { text: '安装分区推荐', link: '/ubuntu/partition' },
+            { text: '安装SSH', link: '/ubuntu/ssh' },
+            { text: 'SSH超级用户权限', link: '/ubuntu/sshsuperuser' },
+            { text: '查看硬件配置', link: '/ubuntu/hardware' },
+            { text: '管理防火墙', link: '/ubuntu/firewall' },
           ]
         },
         {
           text: '时间',
           items: [
-            { text: '同步系统时间', link: '/Ubuntu/SyncTime' },
-            { text: '双系统的时间差8小时', link: '/Ubuntu/SystemTimeDifference' },
+            { text: '同步系统时间', link: '/ubuntu/synctime' },
+            { text: '双系统的时间差8小时', link: '/ubuntu/systemtimedifference' },
           ]
         },
         {
           text: '文件处理',
           items: [
-            { text: '命令行处理文件夹', link: '/Ubuntu/TerminalFolders' },
-            { text: '命令行处理文件', link: '/Ubuntu/TerminalFile' },
-            { text: '文件权限', link: '/Ubuntu/Chmod' },
-            { text: '修改文件所有者', link: '/Ubuntu/Chown' },
-            { text: '压缩文件', link: '/Ubuntu/Tar' },
-            { text: '下载文件', link: '/Ubuntu/Curl' },
+            { text: '命令行处理文件夹', link: '/ubuntu/terminalfolders' },
+            { text: '命令行处理文件', link: '/ubuntu/terminalfile' },
+            { text: '文件权限', link: '/ubuntu/chmod' },
+            { text: '修改文件所有者', link: '/ubuntu/chown' },
+            { text: '压缩文件', link: '/ubuntu/tar' },
+            { text: '下载文件', link: '/ubuntu/curl' },
           ]
         },
         {
           text: '包管理',
           items: [
-            { text: 'apt', link: '/Ubuntu/Apt' },
-            { text: 'apt换源', link: '/Ubuntu/AptMirror' },
-            { text: 'dpkg', link: '/Ubuntu/Dpkg' },
+            { text: 'apt', link: '/ubuntu/apt' },
+            { text: 'apt换源', link: '/ubuntu/aptmirror' },
+            { text: 'dpkg', link: '/ubuntu/dpkg' },
           ]
         },
-        { text: '自动化脚本', link: '/Ubuntu/Crontab' },
-        { text: '激活UbuntuPro', link: '/Ubuntu/UbuntuPro' },
-        { text: '无法更新SnapStore', link: '/Ubuntu/UpdateSnapStore' },
+        { text: '自动化脚本', link: '/ubuntu/crontab' },
+        { text: '激活UbuntuPro', link: '/ubuntu/ubuntupro' },
+        { text: '无法更新SnapStore', link: '/ubuntu/updatesnapstore' },
       ],
-      '/Docker/': [
-        { text: '前言', link: '/Docker/' },
-        { text: '安装Docker', link: '/Docker/Install' },
-        { text: '安装IO发行版', link: '/Docker/InstallIO' },
-        { text: '安装CE发行版', link: '/Docker/InstallCE' },
-        { text: '运行Docker', link: '/Docker/Systemctl' },
-        { text: 'Docker换源', link: '/Docker/Mirror' },
-        { text: '管理镜像', link: '/Docker/Image' },
-        { text: '管理容器', link: '/Docker/Container' },
-        { text: '容器镜像服务', link: '/Docker/MirrorService' },
-        { text: '传递镜像', link: '/Docker/Transfer' },
-        { text: 'Compose文件', link: '/Docker/Compose' },
-        { text: '清理缓存', link: '/Docker/Prune' },
+      '/docker/': [
+        { text: '前言', link: '/docker/' },
+        { text: '安装Docker', link: '/docker/install' },
+        { text: '安装IO发行版', link: '/docker/installio' },
+        { text: '安装CE发行版', link: '/docker/installce' },
+        { text: '运行Docker', link: '/docker/systemctl' },
+        { text: 'Docker换源', link: '/docker/mirror' },
+        { text: '管理镜像', link: '/docker/image' },
+        { text: '管理容器', link: '/docker/container' },
+        { text: '容器镜像服务', link: '/docker/mirrorservice' },
+        { text: '传递镜像', link: '/docker/transfer' },
+        { text: 'Compose文件', link: '/docker/compose' },
+        { text: '清理缓存', link: '/docker/prune' },
       ],
-      '/Git/': [
-        { text: '前言', link: '/Git/' },
-        { text: '安装Git', link: '/Git/Install' },
-        { text: '处理仓库', link: '/Git/Repository' },
-        { text: '处理远程仓库', link: '/Git/RemoteRepository' },
-        { text: '处理分支', link: '/Git/Branches' },
-      ],
-      '/DockerSeries/': [
+      '/dockerseries/': [
         {
           text: '前言',
           collapsed: true,
           items: [
-            { text: '前言', link: '/DockerSeries/' },
-            { text: '命名卷', link: '/DockerSeries/Volumes' },
-            { text: '网络', link: '/DockerSeries/Networks' },
+            { text: '前言', link: '/dockerseries/' },
+            { text: '命名卷', link: '/dockerseries/volumes/' },
+            { text: '网络', link: '/dockerseries/networks/' },
           ]
         },
         {
           text: '文件服务器',
           collapsed: true,
           items: [
-            { text: 'FTP', link: '/DockerSeries/FTP' },
-            { text: 'Webdav', link: '/DockerSeries/Webdav' },
-            { text: 'SMB', link: '/DockerSeries/SMB' }
+            { text: 'FTP', link: '/dockerseries/ftp/' },
+            { text: 'Webdav', link: '/dockerseries/webdav/' },
+            { text: 'SMB', link: '/dockerseries/smb/' }
           ]
         },
-        { text: '文件列表服务器', link: '/DockerSeries/OpenList' },
-        { text: '端口转发服务端', link: '/DockerSeries/Frps' },
-        { text: '端口转发客户端', link: '/DockerSeries/Frpc' },
-        { text: '我的世界服务器', link: '/DockerSeries/MinecraftServer' },
-        { text: '家庭域名服务器', link: '/DockerSeries/AdGuardHome' },
-        { text: '密码服务器', link: '/DockerSeries/Vaultwarden' },
-        { text: '文件快递柜', link: '/DockerSeries/FileCodeBox' },
-        { text: '消息推送器', link: '/DockerSeries/Ntfy' },
-        { text: '智能家居中枢', link: '/DockerSeries/HomeAssistant' },
-        { text: '语音服务器', link: '/DockerSeries/TeamSpeak' },
-        { text: '音乐服务器', link: '/DockerSeries/Navidrome' },
-        { text: '容器可视化管理', link: '/DockerSeries/Portainer' },
-        { text: '版本管理服务器', link: '/DockerSeries/Gitea' },
-        { text: '证书申请器', link: '/DockerSeries/Certbot' },
+        { text: '文件列表服务器', link: '/dockerseries/openlist/' },
+        { text: '端口转发服务端', link: '/dockerseries/frps/' },
+        { text: '端口转发客户端', link: '/dockerseries/frpc/' },
+        { text: '我的世界服务器', link: '/dockerseries/minecraftserver/' },
+        { text: '家庭域名服务器', link: '/dockerseries/adguardhome/' },
+        { text: '密码服务器', link: '/dockerseries/vaultwarden/' },
+        { text: '文件快递柜', link: '/dockerseries/filecodebox/' },
+        { text: '消息推送器', link: '/dockerseries/ntfy/' },
+        { text: '智能家居中枢', link: '/dockerseries/homeassistant/' },
+        { text: '语音服务器', link: '/dockerseries/teamspeak/' },
+        { text: '音乐服务器', link: '/dockerseries/navidrome/' },
+        { text: '容器可视化管理', link: '/dockerseries/portainer/' },
+        { text: '版本管理服务器', link: '/dockerseries/gitea/' },
+        { text: '证书申请器', link: '/dockerseries/certbot/' },
       ]
     },
     //上次更新于
