@@ -33,7 +33,7 @@ import status from "./status.vue"
         Minecraft:Java Edition多人游戏服务器。
       </template>
     </card>
-    <card title="端口转发服务器 Frp" link="/dockerseries/frp/">
+    <card title="端口转发服务器 Frp" link="/dockerseries/frps/">
       <template #description>
         Frp采用C/S模式，通过访问暴露在服务器上的端口，反向代理到处于内网的服务。
       </template>
