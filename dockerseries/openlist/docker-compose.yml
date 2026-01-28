@@ -9,12 +9,12 @@ services:
     restart: always
     user: 0:0 #使用root用户
     volumes:
-    - ./data:/opt/openlist/data
+      - ./data:/opt/openlist/data
     networks:
-    - openlist
+      - openlist
     ports:
-    - 5244:5244
+      - 5244:5244
     environment:
-    - UMASK=022
-    - TZ=Asia/Shanghai
-    - OPENLIST_ADMIN_PASSWORD=PASSWORD #此处输入admin账户的密码
+      - UMASK=022
+      - TZ=Asia/Shanghai
+      - OPENLIST_ADMIN_PASSWORD=PASSWORD #此处输入admin账户的密码

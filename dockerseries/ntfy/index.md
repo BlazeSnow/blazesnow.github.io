@@ -62,7 +62,7 @@ openssl req -x509 -newkey rsa:4096 -sha256 -nodes -keyout privkey.key -out cert.
 
 ### `docker-compose.yml`
 
-<<< @/DockerSeries/Ntfy.yml
+<<< @/dockerseries/ntfy/docker-compose.yml
 
 ### `server.yml`
 

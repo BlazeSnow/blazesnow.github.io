@@ -49,7 +49,7 @@ nano docker-compose.yml
 
 ### `docker-compose.yml`
 
-<<< @/DockerSeries/TeamSpeak.yml
+<<< @/dockerseries/teamspeak/docker-compose.yml
 
 ## 开始运行
 

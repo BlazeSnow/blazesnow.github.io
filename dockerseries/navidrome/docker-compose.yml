@@ -4,7 +4,7 @@ services:
     container_name: navidrome
     restart: unless-stopped
     ports:
-    - 4533:4533
+      - 4533:4533
     volumes:
-    - ./data:/data
-    - ./music:/music:ro
+      - ./data:/data
+      - ./music:/music:ro

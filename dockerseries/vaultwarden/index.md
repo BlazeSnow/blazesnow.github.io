@@ -60,11 +60,11 @@ nano Caddyfile
 
 ### `docker-compose.yml`
 
-<<< @/DockerSeries/Vaultwarden.yml
+<<< @/dockerseries/vaultwarden/docker-compose.yml
 
 ### `Caddyfile`
 
-<<< @/DockerSeries/Vaultwarden.Caddyfile
+<<< @/dockerseries/vaultwarden/Caddyfile
 
 > [!TIP]
 > 如需将服务器关联至域名，则将`Caddyfile`中的`:443`修改为域名，并删去`tls`，只保留`reverse_proxy vaultwarden:80`。此时，Caddy会自动申请、管理TLS证书并执行自动HTTPS。

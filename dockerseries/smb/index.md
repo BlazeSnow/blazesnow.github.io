@@ -43,7 +43,7 @@ nano docker-compose.yml
 
 ### `docker-compose.yml`
 
-<<< @/DockerSeries/SMB.yml
+<<< @/dockerseries/smb/docker-compose.yml
 
 ## 开始运行
 

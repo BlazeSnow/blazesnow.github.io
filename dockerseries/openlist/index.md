@@ -49,7 +49,7 @@ nano docker-compose.yml
 
 ### `docker-compose.yml`
 
-<<< @/DockerSeries/OpenList.yml{20}
+<<< @/dockerseries/openlist/docker-compose.yml{20}
 
 ## 开始运行
 

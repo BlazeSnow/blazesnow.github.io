@@ -4,11 +4,11 @@ services:
     container_name: vsftpd
     restart: always
     volumes:
-    - ./data:/home/vsftpd
+      - ./data:/home/vsftpd
     ports:
-    - "20:20"
-    - "21:21"
-    - "21100-21110:21100-21110"
+      - "20:20"
+      - "21:21"
+      - "21100-21110:21100-21110"
     environment:
       FTP_USER: 此处设置用户名
       FTP_PASS: 此处设置密码

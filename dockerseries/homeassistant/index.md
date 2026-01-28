@@ -47,7 +47,7 @@ nano docker-compose.yml
 
 ### `docker-compose.yml`
 
-<<< @/DockerSeries/HomeAssistant.yml
+<<< @/dockerseries/homeassistant/docker-compose.yml
 
 ## 开始运行
 

@@ -4,12 +4,12 @@ services:
     container_name: ntfy
     restart: always
     volumes:
-    - ./cache:/var/cache/ntfy
-    - ./ssl:/var/ssl:ro
-    - ./server.yml:/etc/ntfy/server.yml:ro
+      - ./cache:/var/cache/ntfy
+      - ./ssl:/var/ssl:ro
+      - ./server.yml:/etc/ntfy/server.yml:ro
     ports:
-    - 2586:2586
+      - 2586:2586
     environment:
-    - TZ=CST
+      - TZ=CST
     command:
-    - serve
+      - serve

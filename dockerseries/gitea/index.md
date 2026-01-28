@@ -48,7 +48,7 @@ nano docker-compose.yml
 
 ### `docker-compose.yml`
 
-<<< @/DockerSeries/Gitea.yml
+<<< @/dockerseries/gitea/docker-compose.yml
 
 ## 开始运行
 

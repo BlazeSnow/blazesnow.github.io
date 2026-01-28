@@ -49,7 +49,7 @@ nano docker-compose.yml
 
 ### `docker-compose.yml`
 
-<<< @/DockerSeries/Portainer.yml
+<<< @/dockerseries/portainer/docker-compose.yml
 
 ## 开始运行
 

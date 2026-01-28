@@ -64,7 +64,7 @@ nano docker-compose.yml
 > [!TIP]
 > 将`docker-compose.yml`中的命名卷名称修改为需要转移的命名卷名称
 
-<<< @/DockerSeries/Volumes.yml{3}
+<<< @/dockerseries/volumes/docker-compose.yml{3}
 
 ## 转移命名卷
 

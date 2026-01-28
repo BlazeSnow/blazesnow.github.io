@@ -47,7 +47,7 @@ nano docker-compose.yml
 
 ### `docker-compose.yml`
 
-<<< @/DockerSeries/MinecraftServer.yml
+<<< @/dockerseries/minecraftserver/docker-compose.yml
 
 ## 开始运行
 

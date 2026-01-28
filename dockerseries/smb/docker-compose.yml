@@ -8,6 +8,6 @@ services:
       USER: "此处填写用户名"
       PASS: "此处填写密码"
     ports:
-    - 445:445
+      - 445:445
     volumes:
-    - ./storage:/storage
+      - ./storage:/storage

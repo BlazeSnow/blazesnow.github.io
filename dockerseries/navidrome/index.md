@@ -47,7 +47,7 @@ nano docker-compose.yml
 
 ### `docker-compose.yml`
 
-<<< @/DockerSeries/Navidrome.yml
+<<< @/dockerseries/navidrome/docker-compose.yml
 
 ## 开始运行
 

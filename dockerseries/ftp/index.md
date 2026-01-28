@@ -45,7 +45,7 @@ nano docker-compose.yml
 
 ### `docker-compose.yml`
 
-<<< @/DockerSeries/FTP.yml
+<<< @/dockerseries/ftp/docker-compose.yml
 
 ## 开始运行
 
