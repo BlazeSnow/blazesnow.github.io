@@ -1,5 +1,10 @@
 <script>
+import { VPLink } from 'vitepress/theme';
+
 export default {
+    components: {
+        VPLink
+    },
     props: {
         title: {
             type: String,
@@ -14,15 +19,6 @@ export default {
             required: false,
             default: '_self'
         }
-    },
-    methods: {
-        ButtonClick() {
-            if (this.target === '_self') {
-                window.location.href = this.link;
-            } else {
-                window.open(this.link, '_blank');
-            }
-        }
     }
 };
 </script>
@@ -35,9 +31,10 @@ export default {
                 <slot name="description"></slot>
             </p>
         </div>
-        <button @click="ButtonClick" class="jumpbutton">
+        <VPLink class="jumpbutton" :href="link" :target="target === '_blank' ? '_blank' : null"
+            :rel="target === '_blank' ? 'noopener noreferrer' : null">
             前往查看
-        </button>
+        </VPLink>
     </div>
 </template>
 
