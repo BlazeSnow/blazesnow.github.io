@@ -9,8 +9,8 @@ lastUpdated: 2025-02-13T09:32:00+8:00
 
 ## docker.io
 
-安装简单，前往安装教程：[点击此处跳转](/Docker/InstallIO)
+安装简单，前往安装教程：[点击此处跳转](/docker/installio)
 
 ## docker-ce
 
-Docker官方推荐版本，但是需要连接`get.docker.com`，前往安装教程：[点击此处跳转](/Docker/InstallCE)
+Docker官方推荐版本，但是需要连接`get.docker.com`，前往安装教程：[点击此处跳转](/docker/installce)

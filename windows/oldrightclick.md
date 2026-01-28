@@ -10,7 +10,7 @@ lastUpdated: 2025-05-13T08:12:00+8:00
 1. 按下`Windows徽标`+`X`
 2. 选择`终端管理员`
 3. 输入以下命令并回车
-4. 重新启动文件资源管理器，参见[重启文件资源管理器](/Windows/RestartFileExplorer)
+4. 重新启动文件资源管理器，参见[重启文件资源管理器](/windows/tskillexplorer)
 
 ## 使用旧版右键菜单
 

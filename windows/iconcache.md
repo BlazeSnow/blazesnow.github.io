@@ -13,4 +13,4 @@ lastUpdated: 2024-8-6T15:16:00+8:00
 5. 打开`%appdata%/Local`文件夹
 6. 找到`IconCache.db`文件
 7. 删除`IconCache.db`文件
-8. 重新启动文件资源管理器，参见[重启文件资源管理器](/Windows/RestartFileExplorer)
+8. 重新启动文件资源管理器，参见[重启文件资源管理器](/windows/tskillexplorer)
