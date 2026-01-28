@@ -40,7 +40,7 @@ lastUpdated: false
 | 针对Google AdSense欧洲法规消息的隐私权政策 | /                  | 2024年11月14日 |
 | NCU                                        | /Nodejs            | 2024年6月20日  |
 | 安装和卸载包                               | /Nodejs            | 2024年6月20日  |
-| Apple设备：DOT                             | /DNSEncryption     | 2024年6月16日  |
+| Apple设备：DOT                             | /dns     | 2024年6月16日  |
 | 更新驱动程序                               | /Windows           | 2024年6月16日  |
 
 ## 重定向
@@ -73,5 +73,5 @@ lastUpdated: false
 | /Nodejs相关                | /Nodejs                                    | 2024年10月13日 |
 | /原生安卓                  | /Android                                   | 2024年10月13日 |
 | /Ubuntu相关                | /Ubuntu                                    | 2024年10月13日 |
-| /DNS加密                   | /DNSEncryption                             | 2024年10月13日 |
+| /DNS加密                   | /dns                             | 2024年10月13日 |
 | /Windows相关               | /Windows                                   | 2024年10月13日 |

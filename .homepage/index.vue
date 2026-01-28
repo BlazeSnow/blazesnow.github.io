@@ -83,7 +83,7 @@ import status from "./status.vue"
         Ubuntu是基于Debian，以桌面应用为主的Linux发行版。
       </template>
     </card>
-    <card title="DNS加密" link="/DNSEncryption/">
+    <card title="DNS加密" link="/dns/">
       <template #description>
         DNS加密可以保护用户的上网隐私，防止DNS查询被窃听、篡改或跟踪。
       </template>

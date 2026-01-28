@@ -25,7 +25,8 @@
 	redir /Nodejs相关* /Nodejs 301
 	redir /原生安卓* /Android 301
 	redir /Ubuntu相关* /Ubuntu 301
-	redir /DNS加密* /DNSEncryption 301
+	redir /DNSEncryption* /dns/{uri} 301
+	redir /DNS加密* /dns/{uri} 301
 	redir /Windows相关* /Windows 301
 }
 
@@ -55,6 +56,10 @@
 	tls {
 		dns cloudflare {env.CF_API_TOKEN}
 	}
+}
+
+localhost {
+	import blazesnowcom
 }
 
 blazesnow.com {

@@ -127,8 +127,8 @@ export default defineConfig({
           },
           {
             text: 'DNS加密',
-            link: '/DNSEncryption/',
-            activeMatch: '/DNSEncryption/'
+            link: '/dns/',
+            activeMatch: '/dns/'
           },
           {
             text: 'Nodejs',
@@ -258,12 +258,12 @@ export default defineConfig({
         { text: '系统配置', link: '/Windows/Msconfig' },
         { text: '设置环境变量', link: '/Windows/EnvironmentVariables' },
       ],
-      '/DNSEncryption/': [
-        { text: '前言', link: '/DNSEncryption/' },
-        { text: 'Windows设备', link: '/DNSEncryption/Windows' },
-        { text: 'Android设备', link: '/DNSEncryption/Android' },
-        { text: 'Apple设备', link: '/DNSEncryption/Apple' },
-        { text: 'DNS大全', link: '/DNSEncryption/Collection' }
+      '/dns/': [
+        { text: '前言', link: '/dns/' },
+        { text: 'Windows设备', link: '/dns/windows' },
+        { text: 'Android设备', link: '/dns/android' },
+        { text: 'Apple设备', link: '/dns/apple' },
+        { text: 'DNS大全', link: '/dns/collection' }
       ],
       '/Nodejs/': [
         { text: '前言', link: '/Nodejs/' },
