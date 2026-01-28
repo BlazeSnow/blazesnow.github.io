@@ -260,16 +260,16 @@ export default defineConfig({
         { text: 'Apple设备', link: '/dns/apple' },
         { text: 'DNS大全', link: '/dns/collection' }
       ],
-      '/Nodejs/': [
-        { text: '前言', link: '/Nodejs/' },
-        { text: '安装Nodejs', link: '/Nodejs/Install' },
-        { text: '引入npm', link: '/Nodejs/Init' },
-        { text: 'npm管理包', link: '/Nodejs/Manage' },
-        { text: 'npm后缀', link: '/Nodejs/Parameter' },
-        { text: 'npm配置文件', link: '/Nodejs/Npmrc' },
-        { text: 'npm换源', link: '/Nodejs/Mirror' },
-        { text: 'npm代理', link: '/Nodejs/Proxy' },
-        { text: 'npm缓存', link: '/Nodejs/Cache' },
+      '/nodejs/': [
+        { text: '前言', link: '/nodejs/' },
+        { text: '安装Nodejs', link: '/nodejs/install' },
+        { text: '引入npm', link: '/nodejs/init' },
+        { text: 'npm管理包', link: '/nodejs/manage' },
+        { text: 'npm后缀', link: '/nodejs/parameter' },
+        { text: 'npm配置文件', link: '/nodejs/npmrc' },
+        { text: 'npm换源', link: '/nodejs/mirror' },
+        { text: 'npm代理', link: '/nodejs/proxy' },
+        { text: 'npm缓存', link: '/nodejs/cache' },
       ],
       '/ubuntu/': [
         {
