@@ -5,4 +5,4 @@ services:
     restart: always
     network_mode: "host"
     volumes:
-    - ./frps.toml:/etc/frp/frps.toml:ro
+      - ./frps.toml:/etc/frp/frps.toml:ro

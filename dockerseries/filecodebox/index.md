@@ -47,7 +47,7 @@ nano docker-compose.yml
 
 ### `docker-compose.yml`
 
-<<< @/DockerSeries/FileCodeBox.yml
+<<< @/dockerseries/filecodebox/docker-compose.yml
 
 ## 开始运行
 

@@ -4,11 +4,11 @@ services:
     container_name: frpc
     restart: always
     volumes:
-    - ./frpc.toml:/etc/frp/frpc.toml:ro
+      - ./frpc.toml:/etc/frp/frpc.toml:ro
 
   caddy:
     image: caddy:alpine
     container_name: caddy
     restart: always
     volumes:
-    - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro

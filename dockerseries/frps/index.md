@@ -9,7 +9,7 @@ lastUpdated: 2025-10-31T14:05:00+8:00
 >
 > 客户端不需要IP地址，提供业务服务；服务端需要公网IP地址，提供转发服务。
 >
-> 我要搭建[端口转发客户端](/DockerSeries/Frpc)。
+> 我要搭建[端口转发客户端](/dockerseries/frpc/)。
 
 ## 前言
 
@@ -62,11 +62,11 @@ nano frps.toml
 
 ### `docker-compose.yml`
 
-<<< @/DockerSeries/Frps.yml
+<<< @/dockerseries/frps/docker-compose.yml
 
 ### `frps.toml`
 
-<<< @/DockerSeries/Frps.toml{2}
+<<< @/dockerseries/frps/frps.toml{2}
 
 ## 开始运行
 

@@ -4,11 +4,11 @@ services:
     container_name: adguardhome
     restart: always
     volumes:
-    - ./work:/opt/adguardhome/work
-    - ./conf:/opt/adguardhome/conf
+      - ./work:/opt/adguardhome/work
+      - ./conf:/opt/adguardhome/conf
     ports:
-    - "53:53/tcp"
-    - "53:53/udp"
-    - "80:80/tcp"
-    - "443:443/tcp"
-    - "3000:3000/tcp"
+      - "53:53/tcp"
+      - "53:53/udp"
+      - "80:80/tcp"
+      - "443:443/tcp"
+      - "3000:3000/tcp"

@@ -65,7 +65,7 @@ nano apikey.ini
 
 ### `docker-compose.yml`
 
-<<< @/DockerSeries/Certbot.yml{22,24,26}
+<<< @/dockerseries/certbot/docker-compose.yml{22,24,26}
 
 ### `apikey.ini`
 

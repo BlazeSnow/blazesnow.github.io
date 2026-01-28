@@ -9,7 +9,7 @@ lastUpdated: 2025-10-31T14:09:00+8:00
 >
 > 客户端不需要IP地址，提供业务服务；服务端需要公网IP地址，提供转发服务。
 >
-> 我要搭建[端口转发服务端](/DockerSeries/Frps)。
+> 我要搭建[端口转发服务端](/dockerseries/frps/)。
 
 ## 前言
 
@@ -65,15 +65,15 @@ nano Caddyfile
 
 ### `docker-compose.yml`
 
-<<< @/DockerSeries/Frpc.yml
+<<< @/dockerseries/frpc/docker-compose.yml
 
 ### `frpc.toml`
 
-<<< @/DockerSeries/Frpc.toml{1,3,8}
+<<< @/dockerseries/frpc/frpc.toml{1,3,8}
 
 ### `Caddyfile`
 
-<<< @/DockerSeries/Frpc.Caddyfile
+<<< @/dockerseries/frpc/frpc.Caddyfile
 
 ## 开始运行
 

@@ -57,7 +57,7 @@ nano docker-compose.yml
 
 ### `docker-compose.yml`
 
-<<< @/DockerSeries/AdGuardHome.yml
+<<< @/dockerseries/adguardhome/docker-compose.yml
 
 ## 配置系统
 
