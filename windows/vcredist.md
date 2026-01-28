@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-07-08T19:32:00+8:00
+lastUpdated: 2026-01-28T11:09:00+8:00
 ---
 
 # 安装C++运行库 | Windows
@@ -8,34 +8,36 @@ lastUpdated: 2025-07-08T19:32:00+8:00
 
 官方网站：<https://learn.microsoft.com/zh-cn/cpp/windows/latest-supported-vc-redist>
 
-## 64位
+## X64与X86
 
 1. 按下`Windows徽标`+`X`
 2. 选中`终端管理员`
 3. 输入并回车：
 
 ```shell
-winget install Microsoft.VCRedist.2015+.x64
-winget install Microsoft.VCRedist.2013.x64
-winget install Microsoft.VCRedist.2012.x64
-winget install Microsoft.VCRedist.2010.x64
-winget install Microsoft.VCRedist.2008.x64
-winget install Microsoft.VCRedist.2005.x64
+winget.exe install --id "Microsoft.VCRedist.2015+.x64" --exact
+winget.exe install --id "Microsoft.VCRedist.2013.x64" --exact
+winget.exe install --id "Microsoft.VCRedist.2012.x64" --exact
+winget.exe install --id "Microsoft.VCRedist.2010.x64" --exact
+winget.exe install --id "Microsoft.VCRedist.2008.x64" --exact
+winget.exe install --id "Microsoft.VCRedist.2005.x64" --exact
+
+winget.exe install --id "Microsoft.VCRedist.2015+.x86" --exact
+winget.exe install --id "Microsoft.VCRedist.2013.x86" --exact
+winget.exe install --id "Microsoft.VCRedist.2012.x86" --exact
+winget.exe install --id "Microsoft.VCRedist.2010.x86" --exact
+winget.exe install --id "Microsoft.VCRedist.2008.x86" --exact
+winget.exe install --id "Microsoft.VCRedist.2005.x86" --exact
 ```
 
-## 32位
+## ARM64
 
 1. 按下`Windows徽标`+`X`
 2. 选中`终端管理员`
 3. 输入并回车：
 
 ```shell
-winget install Microsoft.VCRedist.2015+.x86
-winget install Microsoft.VCRedist.2013.x86
-winget install Microsoft.VCRedist.2012.x86
-winget install Microsoft.VCRedist.2010.x86
-winget install Microsoft.VCRedist.2008.x86
-winget install Microsoft.VCRedist.2005.x86
+winget.exe install --id "Microsoft.VCRedist.2015+.arm64" --exact
 ```
 
 ## UWP
@@ -45,15 +47,6 @@ winget install Microsoft.VCRedist.2005.x86
 3. 输入并回车：
 
 ```shell
-winget install Microsoft.VCLibs.Desktop.14
-```
-
-## ARM
-
-1. 按下`Windows徽标`+`X`
-2. 选中`终端管理员`
-3. 输入并回车：
-
-```shell
-winget install Microsoft.VCRedist.2015+.arm64
+winget.exe install --id "Microsoft.VCLibs.Desktop.14" --exact
+winget.exe install --id "Microsoft.VCLibs.14" --exact
 ```
