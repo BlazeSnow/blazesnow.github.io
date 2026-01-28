@@ -7,6 +7,7 @@ lastUpdated: false
 ## v2026.1.31.1
 
 - 文档链接小写化
+- 移除了站内重定向服务
 - 重定向IPAbuyer相关页面至GitHub
 - 删去了停止支持的章节与文章
   - VitePress建站教程

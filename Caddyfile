@@ -1,40 +1,6 @@
 (blazesnowredir) {
-	redir /Deprecated{any} /deprecated{any} 301
-	redir /DNSEncryption{any} /dns{any} 301
-	redir /Docker{any} /docker{any} 301
-	redir /DockerSeries{any} /dockerseries{any} 301
-	redir /Nodejs{any} /nodejs{any} 301
-	redir /OneDriveHosts{any} /OneDriveHosts{any} 301
-	redir /Ubuntu{any} /ubuntu{any} 301
-	redir /Windows{any} /windows{any} 301
 	redir /ipa* https://github.com/ipabuyer 301
 	redir /imageporter* https://github.com/BlazeSnow/ImagePorter 301
-	redir /FrpClientAndServer/Client* /DockerSeries/Frpc 301
-	redir /FrpClientAndServer/Server* /DockerSeries/Frps 301
-	redir /FrpClientAndServer* /DockerSeries/Frp 301
-	redir /OneDriveHosts/SwitchHosts* /OneDriveHosts/ 301
-	redir /OneDriveHosts/Manual* /OneDriveHosts/ 301
-	redir /MinecraftServer* /DockerSeries/MinecraftServer 301
-	redir /VaultwardenServer* /DockerSeries/Vaultwarden 301
-	redir /TeamSpeakServer* /DockerSeries/TeamSpeak 301
-	redir /AdGuardHomeServer* /DockerSeries/AdGuardHome 301
-	redir /AlistServer* /DockerSeries/Alist 301
-	redir /SMBServer* /DockerSeries/SMB 301
-	redir /WebdavServer* /DockerSeries/Webdav 301
-	redir /SFTPServer* /DockerSeries/SFTP 301
-	redir /FTPServer* /DockerSeries/FTP 301
-	redir /更新日志{any} /CHANGELOG{any} 301
-	redir /部署网站至服务器{any} /WebsiteToServer{any} 301
-	redir /VitePress建站教程{any} /VitePress{any} 301
-	redir /Docsify建站教程{any} /Docsify{any} 301
-	redir /CMake相关{any} /CMake{any} 301
-	redir /Git相关{any} /Git{any} 301
-	redir /Docker相关{any} /Docker{any} 301
-	redir /Nodejs相关{any} /Nodejs{any} 301
-	redir /原生安卓{any} /Android{any} 301
-	redir /Ubuntu相关{any} /Ubuntu{any} 301
-	redir /DNS加密{any} /DNSEncryption{any} 301
-	redir /Windows相关{any} /Windows{any} 301
 }
 
 (blazesnowcom) {
@@ -65,7 +31,7 @@
 	}
 }
 
-localhost {
+http://localhost {
 	import blazesnowcom
 }
 
