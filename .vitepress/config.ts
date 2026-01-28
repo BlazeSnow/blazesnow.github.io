@@ -98,32 +98,27 @@ export default defineConfig({
       },
       {
         text: 'Docker系列',
-        link: '/DockerSeries/',
-        activeMatch: '/DockerSeries/'
+        link: '/dockerseries/',
+        activeMatch: '/dockerseries/'
       },
       {
         text: 'Windows',
-        link: '/Windows/',
-        activeMatch: '/Windows/'
+        link: '/windows/',
+        activeMatch: '/windows/'
       },
       {
         text: '更多',
-        activeMatch: '/Ubuntu/',
+        activeMatch: '/ubuntu/',
         items: [
           {
-            text: 'IPAbuyer',
-            link: '/ipa/',
-            activeMatch: '/ipa/'
-          },
-          {
             text: 'Ubuntu',
-            link: '/Ubuntu/',
-            activeMatch: '/Ubuntu/'
+            link: '/ubuntu/',
+            activeMatch: '/ubuntu/'
           },
           {
             text: 'OneDriveHosts',
-            link: '/OneDriveHosts/',
-            activeMatch: '/OneDriveHosts/'
+            link: '/onedrivehosts/',
+            activeMatch: '/onedrivehosts/'
           },
           {
             text: 'DNS加密',
@@ -132,13 +127,13 @@ export default defineConfig({
           },
           {
             text: 'Nodejs',
-            link: '/Nodejs/',
-            activeMatch: '/Nodejs/'
+            link: '/nodejs/',
+            activeMatch: '/nodejs/'
           },
           {
             text: 'Docker',
-            link: '/Docker/',
-            activeMatch: '/Docker/'
+            link: '/docker/',
+            activeMatch: '/docker/'
           }
         ]
       },
@@ -157,7 +152,7 @@ export default defineConfig({
           },
           {
             text: '停止支持及弃用',
-            link: '/Deprecated'
+            link: '/deprecated'
           },
           {
             text: '网站状态',
