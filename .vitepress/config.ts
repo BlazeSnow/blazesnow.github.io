@@ -108,8 +108,18 @@ export default defineConfig({
       },
       {
         text: '更多',
-        activeMatch: '/ubuntu/',
+        activeMatch: '/ipa/',
         items: [
+          {
+            text: 'IPAbuyer',
+            link: '/ipa/',
+            activeMatch: '/ipa/'
+          },
+          {
+            text: 'ImagePorter',
+            link: '/imageporter/',
+            activeMatch: '/imageporter/'
+          },
           {
             text: 'Ubuntu',
             link: '/ubuntu/',
