@@ -1,12 +1,5 @@
-(blazesnowredir) {
-	redir /ipa* https://github.com/ipabuyer 301
-	redir /imageporter* https://github.com/BlazeSnow/ImagePorter 301
-}
-
 (blazesnowcom) {
 	root * /app
-
-	import blazesnowredir
 
 	try_files {path} {path}.html {path}/index.html =404
 	file_server
@@ -56,5 +49,5 @@ status.blazesnow.com {
 ipa.blazesnow.com {
 	import certificate
 
-	redir https://github.com/ipabuyer 301
+	redir https://www.blazesnow.com/ipa/ 301
 }
