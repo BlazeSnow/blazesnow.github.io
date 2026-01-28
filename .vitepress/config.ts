@@ -209,54 +209,54 @@ export default defineConfig({
           ]
         },
       ],
-      '/Windows/': [
+      '/windows/': [
         {
           text: '系统',
           items: [
-            { text: '前言', link: '/Windows/' },
-            { text: '更新', link: '/Windows/Update' },
-            { text: '修复', link: '/Windows/Repair' },
-            { text: '重新安装', link: '/Windows/Reinstall' },
+            { text: '前言', link: '/windows/' },
+            { text: '更新', link: '/windows/update' },
+            { text: '修复', link: '/windows/repair' },
+            { text: '重新安装', link: '/windows/reinstall' },
           ]
         },
         {
           text: '运行库',
           items: [
-            { text: '安装WinGet', link: '/Windows/WinGet' },
-            { text: '安装C++运行库', link: '/Windows/VCRedist' },
-            { text: '安装.NET', link: '/Windows/DotNet' },
-            { text: '安装Java', link: '/Windows/Java' },
-            { text: '安装Python', link: '/Windows/Python' },
-            { text: '安装Nodejs', link: '/Windows/Nodejs' },
+            { text: '安装WinGet', link: '/windows/winget' },
+            { text: '安装C++运行库', link: '/windows/vcredist' },
+            { text: '安装.NET', link: '/windows/dotnet' },
+            { text: '安装Java', link: '/windows/java' },
+            { text: '安装Python', link: '/windows/python' },
+            { text: '安装Nodejs', link: '/windows/nodejs' },
           ]
         },
         {
           text: '文件',
           items: [
-            { text: '显示后缀名和隐藏文件', link: '/Windows/Extension' },
-            { text: '创建快捷方式', link: '/Windows/Shortcuts' },
-            { text: '重启文件资源管理器', link: '/Windows/RestartFileExplorer' },
-            { text: '旧版右键菜单', link: '/Windows/OldRightClick' },
-            { text: '删除新建文件类型', link: '/Windows/RemoveFileType' },
-            { text: '删除右键菜单项', link: '/Windows/RemoveRightClickItem' },
-            { text: '修复桌面图标', link: '/Windows/ClearIconCache' },
-            { text: '计算哈希值', link: '/Windows/Hash' },
+            { text: '显示后缀名和隐藏文件', link: '/windows/extension' },
+            { text: '创建快捷方式', link: '/windows/shortcuts' },
+            { text: '重启文件资源管理器', link: '/windows/tskillexplorer' },
+            { text: '旧版右键菜单', link: '/windows/oldrightclick' },
+            { text: '删除新建文件类型', link: '/windows/filetype' },
+            { text: '删除右键菜单项', link: '/windows/rightclickitem' },
+            { text: '修复桌面图标', link: '/windows/iconcache' },
+            { text: '计算哈希值', link: '/windows/hash' },
           ]
         },
         {
           text: '清理',
           items: [
-            { text: '磁盘清理', link: '/Windows/Cleanmgr' },
-            { text: '清除程序的卸载残留', link: '/Windows/RemoveUninstallRemnants' },
-            { text: '清理微软商店残留', link: '/Windows/RemoveMicrosoftStoreRemnants' },
+            { text: '磁盘清理', link: '/windows/cleanmgr' },
+            { text: '清除程序的卸载残留', link: '/windows/uninstallremnants' },
+            { text: '清理微软商店残留', link: '/windows/microsoftstoreremnants' },
           ]
         },
-        { text: '创建恢复分区', link: '/Windows/WindowsRE' },
-        { text: '禁用快速启动', link: '/Windows/Hiberfil' },
-        { text: '应用最新TLS', link: '/Windows/TLS' },
-        { text: '查看蓝屏文件', link: '/Windows/BlueScreen' },
-        { text: '系统配置', link: '/Windows/Msconfig' },
-        { text: '设置环境变量', link: '/Windows/EnvironmentVariables' },
+        { text: '创建恢复分区', link: '/windows/recovery' },
+        { text: '禁用快速启动', link: '/windows/hiberfil' },
+        { text: '应用最新TLS', link: '/windows/tls' },
+        { text: '查看蓝屏文件', link: '/windows/bluescreen' },
+        { text: '系统配置', link: '/windows/msconfig' },
+        { text: '设置环境变量', link: '/windows/environment' },
       ],
       '/dns/': [
         { text: '前言', link: '/dns/' },
