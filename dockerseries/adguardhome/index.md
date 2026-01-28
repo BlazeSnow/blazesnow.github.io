@@ -6,7 +6,7 @@ lastUpdated: 2025-08-06T14:09:00+8:00
 
 ## 前言
 
-本文介绍使用`AdGuard Home`在`Ubuntu`系统上搭建DNS服务器，请先根据本章前言完成环境的搭建。
+本文介绍使用`AdGuardHome`在`Ubuntu`系统上搭建DNS服务器，请先根据本章前言完成环境的搭建。
 
 相关网站：
 
@@ -33,25 +33,13 @@ docker pull adguard/adguardhome:latest
 ## 配置文件
 
 ```shell
-# 前往srv目录
-cd /srv
-
 # 创建工作目录
-mkdir adguardhome
+mkdir -p /srv/adguardhome
 
 # 进入工作目录
-cd adguardhome
+cd /srv/adguardhome
 
-# 创建数据文件夹
-mkdir work
-
-# 创建配置文件夹
-mkdir conf
-
-# 创建docker配置文件
-touch docker-compose.yml
-
-# 编辑docker配置文件
+# 创建并编辑docker配置文件
 nano docker-compose.yml
 ```
 
@@ -65,19 +53,16 @@ nano docker-compose.yml
 
 ```shell
 # 查看53端口占用情况
-sudo lsof -i :53
-
-# 进入配置文件目录
-cd /etc/systemd
+lsof -i :53
 
 # 编辑配置文件
-nano resolved.conf
+nano /etc/systemd/resolved.conf
 
 # 重启systemd-resolved
-sudo systemctl restart systemd-resolved
+systemctl restart systemd-resolved
 
 # 验证53端口占用情况
-sudo lsof -i :53
+lsof -i :53
 ```
 
 ### `resolved.conf`
@@ -113,9 +98,8 @@ docker compose down
 
 # 更新服务
 cd /srv/adguardhome
-docker compose down
 docker compose pull
-docker compose up -d
+docker compose up -d --remove-orphans
 
 # 压缩数据文件夹
 cd /srv/adguardhome
