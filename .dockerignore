@@ -1,0 +1,20 @@
+# VitePress文件夹
+.vitepress/cache/
+.vitepress/dist/
+.vitepress/temp/
+.vitepress/.temp/
+
+# npm文件夹
+node_modules/
+
+# Caddy服务器文件
+caddy_data/
+caddy_config/
+caddy_root/
+.env
+
+# macOS系统文件
+.DS_Store
+
+# Docker文件
+docker-compose.yml
