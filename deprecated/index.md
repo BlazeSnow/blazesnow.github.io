@@ -42,10 +42,3 @@ lastUpdated: false
 | 安装和卸载包                               | /Nodejs            | 2024年6月20日  |
 | Apple设备：DOT                             | /dns               | 2024年6月16日  |
 | 更新驱动程序                               | /Windows           | 2024年6月16日  |
-
-## 重定向
-
-| 旧路径       | 新路径                                     | 处理时间       |
-| ------------ | ------------------------------------------ | -------------- |
-| /ipa         | <https://github.com/ipabuyer>              | 2026年1月31日  |
-| /imageporter | <https://github.com/BlazeSnow/ImagePorter> | 2025年12月10日 |
