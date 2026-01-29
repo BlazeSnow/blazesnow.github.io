@@ -37,3 +37,23 @@ services:
 ```shell
 docker run --name composebuilder --restart no -p 80:80 composebuilder/composebuilder:latest
 ```
+
+## 四、许可证
+
+本软件以 GNU Affero General Public License v3.0 的条款发布。
+
+Copyright © 2026 BlazeSnow. 保留所有权利。
+
+### 第三方软件许可证
+
+- Caddy 遵守其原有的许可证
+- 所有未提及的第三方软件均遵守其原有的许可证
+
+## 五、相关链接
+
+- 官方网站：<https://composebuilder.blazesnow.com/>
+- 说明文档：<https://www.blazesnow.com/composebuilder>
+- DockerHub：<https://hub.docker.com/r/composebuilder/composebuilder>
+- 软件仓库：<https://github.com/composebuilder/composebuilder>
+- 许可证：<https://www.gnu.org/licenses/agpl-3.0.html>
+- 软件作者：<https://github.com/BlazeSnow>
