@@ -98,8 +98,9 @@ docker compose down
 
 # 更新服务
 cd /srv/adguardhome
+docker compose down
 docker compose pull
-docker compose up -d --remove-orphans
+docker compose up
 
 # 压缩数据文件夹
 cd /srv/adguardhome
