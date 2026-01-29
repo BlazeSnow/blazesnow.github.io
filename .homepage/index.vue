@@ -68,6 +68,11 @@ import status from "./status.vue"
         刚刚拿到iPhone，受折磨于反复按下锁屏键购入App；还是担心小众优质App被下架？使用IPAbuyer，将App统统收入囊中！
       </template>
     </card>
+    <card title="ComposeBuilder" link="/composebuilder/">
+      <template #description>
+        ComposeBuilder是一个用于快速生成docker-compose.yml的工具。
+      </template>
+    </card>
     <card title="ImagePorter" link="/imageporter/">
       <template #description>
         ImagePorter是一个用于同步Docker镜像的Docker镜像。

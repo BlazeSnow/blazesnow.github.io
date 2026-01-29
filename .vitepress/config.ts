@@ -116,6 +116,11 @@ export default defineConfig({
             activeMatch: '/ipa/'
           },
           {
+            text: 'ComposeBuilder',
+            link: '/composebuilder/',
+            activeMatch: '/composebuilder/'
+          },
+          {
             text: 'ImagePorter',
             link: '/imageporter/',
             activeMatch: '/imageporter/'
