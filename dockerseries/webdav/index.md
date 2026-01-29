@@ -25,19 +25,10 @@ docker pull bytemark/webdav:latest
 ## 配置文件
 
 ```shell
-# 前往srv目录
-cd /srv
+# 创建并进入工作目录
+mkdir -p /srv/webdav && cd /srv/webdav
 
-# 创建工作目录
-mkdir webdav
-
-# 进入工作目录
-cd webdav
-
-# 创建docker配置文件
-touch docker-compose.yml
-
-# 编辑docker配置文件
+# 创建并编辑docker配置文件
 nano docker-compose.yml
 ```
 

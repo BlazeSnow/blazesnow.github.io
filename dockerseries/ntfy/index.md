@@ -29,25 +29,13 @@ docker pull binwiederhier/ntfy:latest
 ## 配置文件
 
 ```shell
-# 前往srv目录
-cd /srv
+# 创建并进入工作目录
+mkdir -p /srv/ntfy && cd /srv/ntfy
 
-# 创建工作目录
-mkdir ntfy
-
-# 进入工作目录
-cd ntfy
-
-# 创建docker配置文件
-touch docker-compose.yml
-
-# 编辑docker配置文件
+# 创建并编辑docker配置文件
 nano docker-compose.yml
 
-# 创建ntfy配置文件
-touch server.yml
-
-# 编辑ntfy配置文件
+# 创建并编辑ntfy配置文件
 nano server.yml
 
 # 创建ssl目录

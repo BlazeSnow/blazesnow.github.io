@@ -33,11 +33,8 @@ docker pull adguard/adguardhome:latest
 ## 配置文件
 
 ```shell
-# 创建工作目录
-mkdir -p /srv/adguardhome
-
-# 进入工作目录
-cd /srv/adguardhome
+# 创建并进入工作目录
+mkdir -p /srv/adguardhome && cd /srv/adguardhome
 
 # 创建并编辑docker配置文件
 nano docker-compose.yml

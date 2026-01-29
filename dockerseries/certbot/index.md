@@ -41,25 +41,13 @@ docker pull certbot/dns-cloudflare:latest
 ## 配置文件
 
 ```shell
-# 前往srv目录
-cd /srv
+# 创建并进入工作目录
+mkdir -p /srv/certbot && cd /srv/certbot
 
-# 创建工作目录
-mkdir certbot
-
-# 进入工作目录
-cd certbot
-
-# 创建docker配置文件
-touch docker-compose.yml
-
-# 编辑docker配置文件
+# 创建并编辑docker配置文件
 nano docker-compose.yml
 
-# 创建Cloudflare API密钥文件
-touch apikey.ini
-
-# 编辑Cloudflare API密钥文件
+# 创建并编辑Cloudflare API密钥文件
 nano apikey.ini
 ```
 
