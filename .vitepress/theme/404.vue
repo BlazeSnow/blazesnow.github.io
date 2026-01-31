@@ -12,7 +12,7 @@
         <div class="quote">
             抱歉，没有找到您需要的页面
             <br></br>
-            <a class="link" href="/Deprecated">查看停止支持及弃用的页面</a>
+            <a class="link" href="/deprecated/">查看停止支持及弃用的页面</a>
         </div>
         <div class="action">
             <a class="link" href="/">回到首页</a>
