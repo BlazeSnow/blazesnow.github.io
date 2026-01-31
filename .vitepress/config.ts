@@ -154,12 +154,12 @@ export default defineConfig({
       },
       {
         text: '关于',
-        activeMatch: '/CHANGELOG/',
+        activeMatch: '/changelog/',
         items: [
           {
             text: '更新日志',
-            link: '/CHANGELOG/',
-            activeMatch: '/CHANGELOG/'
+            link: '/changelog/',
+            activeMatch: '/changelog/'
           },
           {
             text: '关于本站',
@@ -178,44 +178,44 @@ export default defineConfig({
       },
     ],
     sidebar: {
-      '/CHANGELOG/': [
+      '/changelog/': [
         {
           text: '2026年',
           collapsed: true,
           items: [
-            { text: '2026年1月', link: '/CHANGELOG/' }
+            { text: '2026年1月', link: '/changelog/' }
           ],
         },
         {
           text: '2025年',
           collapsed: true,
           items: [
-            { text: '2025年12月', link: '/CHANGELOG/2025/12' },
-            { text: '2025年11月', link: '/CHANGELOG/2025/11' },
-            { text: '2025年10月', link: '/CHANGELOG/2025/10' },
-            { text: '2025年9月', link: '/CHANGELOG/2025/9' },
-            { text: '2025年8月', link: '/CHANGELOG/2025/8' },
-            { text: '2025年7月', link: '/CHANGELOG/2025/7' },
-            { text: '2025年6月', link: '/CHANGELOG/2025/6' },
-            { text: '2025年5月', link: '/CHANGELOG/2025/5' },
-            { text: '2025年4月', link: '/CHANGELOG/2025/4' },
-            { text: '2025年3月', link: '/CHANGELOG/2025/3' },
-            { text: '2025年2月', link: '/CHANGELOG/2025/2' },
-            { text: '2025年1月', link: '/CHANGELOG/2025/1' },
+            { text: '2025年12月', link: '/changelog/2025/12' },
+            { text: '2025年11月', link: '/changelog/2025/11' },
+            { text: '2025年10月', link: '/changelog/2025/10' },
+            { text: '2025年9月', link: '/changelog/2025/9' },
+            { text: '2025年8月', link: '/changelog/2025/8' },
+            { text: '2025年7月', link: '/changelog/2025/7' },
+            { text: '2025年6月', link: '/changelog/2025/6' },
+            { text: '2025年5月', link: '/changelog/2025/5' },
+            { text: '2025年4月', link: '/changelog/2025/4' },
+            { text: '2025年3月', link: '/changelog/2025/3' },
+            { text: '2025年2月', link: '/changelog/2025/2' },
+            { text: '2025年1月', link: '/changelog/2025/1' },
           ],
         },
         {
           text: '2024年',
           collapsed: true,
           items: [
-            { text: '2024年12月', link: '/CHANGELOG/2024/12' },
-            { text: '2024年11月', link: '/CHANGELOG/2024/11' },
-            { text: '2024年10月', link: '/CHANGELOG/2024/10' },
-            { text: '2024年9月', link: '/CHANGELOG/2024/9' },
-            { text: '2024年8月', link: '/CHANGELOG/2024/8' },
-            { text: '2024年7月', link: '/CHANGELOG/2024/7' },
-            { text: '2024年6月', link: '/CHANGELOG/2024/6' },
-            { text: '2024年5月', link: '/CHANGELOG/2024/5' },
+            { text: '2024年12月', link: '/changelog/2024/12' },
+            { text: '2024年11月', link: '/changelog/2024/11' },
+            { text: '2024年10月', link: '/changelog/2024/10' },
+            { text: '2024年9月', link: '/changelog/2024/9' },
+            { text: '2024年8月', link: '/changelog/2024/8' },
+            { text: '2024年7月', link: '/changelog/2024/7' },
+            { text: '2024年6月', link: '/changelog/2024/6' },
+            { text: '2024年5月', link: '/changelog/2024/5' },
           ]
         },
       ],
