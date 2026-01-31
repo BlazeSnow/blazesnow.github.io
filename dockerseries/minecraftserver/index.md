@@ -1,0 +1,93 @@
+---
+lastUpdated: 2025-08-06T14:11:00+8:00
+---
+
+# 我的世界服务器 | Docker系列
+
+## 前言
+
+本文介绍使用`itzg/minecraft-server`在Ubuntu服务器上搭建我的世界服务器，请先根据本章前言完成环境的搭建。
+
+`itzg/minecraft-server`地址：
+
+- <https://hub.docker.com/r/itzg/minecraft-server/>
+- <https://github.com/itzg/docker-minecraft-server>
+- <https://docker-minecraft-server.readthedocs.io/en/latest/>
+
+## 拉取镜像
+
+```shell
+docker pull itzg/minecraft-server:latest
+```
+
+## 开放端口
+
+| 端口类型 | 端口  | 端口用途 |
+| :------: | :---: | :------: |
+|   TCP    | 25565 | 数据传输 |
+
+## 配置文件
+
+```shell
+# 创建并进入工作目录
+mkdir -p /srv/minecraft && cd /srv/minecraft
+
+# 创建并编辑docker配置文件
+nano docker-compose.yml
+```
+
+### `docker-compose.yml`
+
+<<< @/dockerseries/minecraftserver/docker-compose.yml
+
+## 开始运行
+
+```shell
+# 前往工作目录
+cd /srv/minecraft
+
+# 开始运行
+docker compose up
+
+# 若显示以下内容，则运行成功
+# Done! For help, type "help"
+
+# 停止服务器
+stop
+
+# 结束Docker服务
+docker compose down
+
+# 再次运行
+docker compose up -d
+```
+
+运行成功后，即可使用`服务器ip地址:25565`连接服务器
+
+## 维护服务
+
+```shell
+# 保存世界数据
+docker exec minecraft rcon-cli save-all
+
+# 停止服务器，注意：停止服务器后仍需停止Docker服务
+docker exec minecraft rcon-cli stop
+
+# 停止Docker服务
+cd /srv/minecraft
+docker compose down
+
+# 更新服务
+cd /srv/minecraft
+docker compose down
+docker compose pull
+docker compose up -d
+
+# 压缩数据文件夹
+cd /srv/minecraft
+tar -czf data.tar.gz data/
+
+# 解压缩数据文件夹
+cd /srv/minecraft
+tar -xzf data.tar.gz data/
+```
