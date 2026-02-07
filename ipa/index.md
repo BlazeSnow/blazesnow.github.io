@@ -88,10 +88,14 @@ lastUpdated: false
 
 ## 六、致谢
 
-- [ipatool](https://github.com/majd/ipatool) —— 上游软件
+- [ipatool](https://github.com/majd/ipatool)：上游软件
 
 ## 七、版权信息
 
 Copyright © 2025-2026 IPAbuyer. 保留所有权利。
 
 以GNU Affero General Public License v3.0的条款发布。
+
+### 第三方组件许可证
+
+本软件中包含的 ipatool 软件遵守其原有的许可证。
