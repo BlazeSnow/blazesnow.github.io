@@ -102,23 +102,23 @@ export default defineConfig({
         activeMatch: '/dockerseries/'
       },
       {
-        text: 'Windows',
-        link: '/windows/',
-        activeMatch: '/windows/'
+        text: 'IPAbuyer',
+        link: '/ipa/',
+        activeMatch: '/ipa/'
+      },
+      {
+        text: 'ComposeBuilder',
+        link: '/composebuilder/',
+        activeMatch: '/composebuilder/'
       },
       {
         text: '更多',
-        activeMatch: '/ipa/',
+        activeMatch: '/windows/',
         items: [
           {
-            text: 'IPAbuyer',
-            link: '/ipa/',
-            activeMatch: '/ipa/'
-          },
-          {
-            text: 'ComposeBuilder',
-            link: '/composebuilder/',
-            activeMatch: '/composebuilder/'
+            text: 'Windows',
+            link: '/windows/',
+            activeMatch: '/windows/'
           },
           {
             text: 'ImagePorter',
@@ -183,7 +183,8 @@ export default defineConfig({
           text: '2026年',
           collapsed: true,
           items: [
-            { text: '2026年1月', link: '/changelog/' }
+            { text: '2026年2月', link: '/changelog/' },
+            { text: '2026年1月', link: '/changelog/2026/1' }
           ],
         },
         {
@@ -406,7 +407,7 @@ export default defineConfig({
         + '<img src="/beian.png" alt="公安备案图标" style="display:inline-block; vertical-align:middle; width:18px; height:18px; margin-right:5px;" >'
         + '<a href="https://beian.mps.gov.cn/#/query/webSearch?code=44195202000168" rel="noreferrer" target="_blank" >粤公网安备44195202000168号</a>。'
         + '<a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2025413405号</a>。',
-      copyright: 'Copyright © 2024-2025 <a href="https://github.com/BlazeSnow" target="_blank">BlazeSnow</a>. 保留所有权利。'
+      copyright: 'Copyright © 2024-2026 <a href="https://github.com/BlazeSnow" target="_blank">BlazeSnow</a>. 保留所有权利。'
     }
   }
 })
