@@ -1,4 +1,4 @@
-(blazesnowcom) {
+localhost {
 	root * /app
 
 	try_files {path} {path}.html {path}/index.html =404
@@ -16,38 +16,4 @@
 		header Cache-Control "public, immutable, max-age=31536000"
 		file_server
 	}
-}
-
-(certificate) {
-	tls {
-		dns cloudflare {env.CF_API_TOKEN}
-	}
-}
-
-http://localhost {
-	import blazesnowcom
-}
-
-blazesnow.com {
-	import certificate
-
-	redir https://www.blazesnow.com{uri} 301
-}
-
-www.blazesnow.com {
-	import certificate
-
-	import blazesnowcom
-}
-
-status.blazesnow.com {
-	import certificate
-
-	redir https://blazesnow.statuspage.io 301
-}
-
-ipa.blazesnow.com {
-	import certificate
-
-	redir https://www.blazesnow.com/ipa/ 301
 }

@@ -14,13 +14,13 @@ RUN npm ci
 RUN npm run docs:build
 
 # 生产环境
-FROM blazesnow/caddy:cloudflare-alpine
+FROM caddy:alpine
 
 # 设置工作目录
 WORKDIR /app
 
 # 复制构建的静态文件
-COPY --from=builder /app/.vitepress/dist /app
+COPY --from=builder /app/docs/.vitepress/dist /app
 
 # 自定义 Caddy 配置
 COPY Caddyfile /etc/caddy/Caddyfile
