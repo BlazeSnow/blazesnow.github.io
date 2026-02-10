@@ -20,7 +20,7 @@ FROM caddy:alpine
 WORKDIR /app
 
 # 复制构建的静态文件
-COPY --from=builder /app/.vitepress/dist /app
+COPY --from=builder /app/docs/.vitepress/dist /app
 
 # 自定义 Caddy 配置
 COPY Caddyfile /etc/caddy/Caddyfile
