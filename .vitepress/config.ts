@@ -402,11 +402,7 @@ export default defineConfig({
     },
     //主页页脚
     footer: {
-      message: '本网站以<a href="https://www.gnu.org/licenses/agpl-3.0.html" target="_blank">GNU Affero General Public License v3.0</a>的条款发布。'
-        + '<br>'
-        + '<img src="/beian.png" alt="公安备案图标" style="display:inline-block; vertical-align:middle; width:18px; height:18px; margin-right:5px;" >'
-        + '<a href="https://beian.mps.gov.cn/#/query/webSearch?code=44195202000168" rel="noreferrer" target="_blank" >粤公网安备44195202000168号</a>。'
-        + '<a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2025413405号</a>。',
+      message: '本网站以<a href="https://www.gnu.org/licenses/agpl-3.0.html" target="_blank">GNU Affero General Public License v3.0</a>的条款发布。',
       copyright: 'Copyright © 2024-2026 <a href="https://github.com/BlazeSnow" target="_blank">BlazeSnow</a>. 保留所有权利。'
     }
   }
