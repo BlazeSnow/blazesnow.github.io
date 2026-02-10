@@ -14,7 +14,7 @@ RUN npm ci
 RUN npm run docs:build
 
 # 生产环境
-FROM blazesnow/caddy:cloudflare-alpine
+FROM caddy:alpine
 
 # 设置工作目录
 WORKDIR /app
