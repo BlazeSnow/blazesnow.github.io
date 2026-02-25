@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-08-06T13:48:00+8:00
+lastUpdated: 2026-02-25T16:59:00+8:00
 ---
 
 # 创建恢复分区 | Windows
@@ -58,7 +58,7 @@ assign letter=R
 
 ## 获取恢复分区文件
 
-> 此步骤用于获取文件`Winre.wim`，并存放至`R:\Recovery\WindowsRE\`。可直接从`Windows安装镜像.iso`中提取，一般位置为`Windows.iso\sources\install.wim\1\Recovery\`
+> 此步骤用于获取文件`Winre.wim`，并存放至`R:\Recovery\WindowsRE\`。可直接从`Windows安装镜像.iso`中提取，一般位置为`Windows.iso\sources\install.wim\1\Windows\System32\Recovery\`
 
 1. 按下`Windows徽标`+`X`
 2. 选择`终端管理员`
