@@ -183,7 +183,8 @@ export default defineConfig({
           text: '2026年',
           collapsed: true,
           items: [
-            { text: '2026年2月', link: '/changelog/' },
+            { text: '2026年3月', link: '/changelog/' },
+            { text: '2026年2月', link: '/changelog/2026/2' },
             { text: '2026年1月', link: '/changelog/2026/1' }
           ],
         },

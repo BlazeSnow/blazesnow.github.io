@@ -7,11 +7,14 @@ WORKDIR /app
 # 复制项目文件
 COPY . /app
 
+# 安装 pnpm
+RUN npm install -g pnpm
+
 # 安装依赖
-RUN npm ci
+RUN pnpm install --frozen-lockfile
 
 # 构建静态文件
-RUN npm run docs:build
+RUN pnpm run docs:build
 
 # 生产环境
 FROM caddy:alpine
