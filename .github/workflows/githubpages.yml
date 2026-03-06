@@ -27,7 +27,7 @@ jobs:
         node-version: 24
 
     - name: Install dependencies
-      run: pnpm install
+      run: pnpm install --frozen-lockfile
 
     - name: Build with VitePress
       run: npm run docs:build
