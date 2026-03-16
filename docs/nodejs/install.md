@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2026-03-16T13:43:00+8:00
+lastUpdated: 2026-03-16T14:08:00+8:00
 ---
 
 # 安装Nodejs | Nodejs
@@ -30,7 +30,7 @@ npm -v
 ```shell
 winget.exe uninstall --id "OpenJS.NodeJS.LTS" --exact
 
-Set-ExecutionPolicy Default -Scope CurrentUser -Force
-Set-ExecutionPolicy Default -Scope LocalMachine -Force
+Set-ExecutionPolicy Undefined -Scope CurrentUser -Force
+Set-ExecutionPolicy Undefined -Scope LocalMachine -Force
 Get-ExecutionPolicy -List
 ```
