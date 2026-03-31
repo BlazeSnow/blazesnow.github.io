@@ -11,7 +11,7 @@
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
-  "dependencies": {
+  "devDependencies": {
     "@fontsource/monaspace-neon": "^5.2.5",
     "@statuspage/status-widget": "^1.0.5",
     "@webcomponents/webcomponentsjs": "^2.8.0",
