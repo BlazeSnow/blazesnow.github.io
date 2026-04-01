@@ -21,7 +21,7 @@ jobs:
         lfs: true
 
     - name: Run ReleaseZip
-      uses: BlazeSnow/ReleaseZip@main
+      uses: BlazeSnow/ReleaseZip@v1
       with:
         artifact_name: ${{ github.event.repository.name }}-${{ inputs.tag }}
         retention_days: 7
