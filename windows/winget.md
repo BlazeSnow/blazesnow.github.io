@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2026-01-28T10:23:00+8:00
+lastUpdated: 2026-04-18T01:45:00+8:00
 ---
 
 # 安装WinGet | Windows
@@ -15,7 +15,7 @@ lastUpdated: 2026-01-28T10:23:00+8:00
 3. 输入并回车：
 
 ```shell
-winget.exe --version
+winget --version
 ```
 
 ## 手动安装
