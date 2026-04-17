@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2026-01-28T11:52:00+8:00
+lastUpdated: 2026-04-18T01:45:00+8:00
 ---
 
 # 安装Nodejs | Windows
@@ -12,27 +12,27 @@ lastUpdated: 2026-01-28T11:52:00+8:00
 
 1. 按下`Windows徽标`+`X`
 2. 选中`终端管理员`
-3. 输入并回车：
+3. 选择所需版本，输入后回车：
 
 ```shell
-winget.exe install --id "OpenJS.NodeJS" --exact
-winget.exe install --id "OpenJS.NodeJS.LTS" --exact
-winget.exe install --id "OpenJS.NodeJS.23" --exact
-winget.exe install --id "OpenJS.NodeJS.22" --exact
-winget.exe install --id "OpenJS.NodeJS.21" --exact
-winget.exe install --id "OpenJS.NodeJS.20" --exact
-winget.exe install --id "OpenJS.NodeJS.19" --exact
-winget.exe install --id "OpenJS.NodeJS.18" --exact
-winget.exe install --id "OpenJS.NodeJS.17" --exact
-winget.exe install --id "OpenJS.NodeJS.16" --exact
-winget.exe install --id "OpenJS.NodeJS.15" --exact
-winget.exe install --id "OpenJS.NodeJS.14" --exact
-winget.exe install --id "OpenJS.NodeJS.12" --exact
-winget.exe install --id "OpenJS.NodeJS.10" --exact
-winget.exe install --id "OpenJS.NodeJS.8" --exact
-winget.exe install --id "OpenJS.NodeJS.7" --exact
-winget.exe install --id "OpenJS.NodeJS.6" --exact
-winget.exe install --id "OpenJS.NodeJS.4" --exact
+winget install OpenJS.NodeJS
+winget install OpenJS.NodeJS.LTS
+winget install OpenJS.NodeJS.23
+winget install OpenJS.NodeJS.22
+winget install OpenJS.NodeJS.21
+winget install OpenJS.NodeJS.20
+winget install OpenJS.NodeJS.19
+winget install OpenJS.NodeJS.18
+winget install OpenJS.NodeJS.17
+winget install OpenJS.NodeJS.16
+winget install OpenJS.NodeJS.15
+winget install OpenJS.NodeJS.14
+winget install OpenJS.NodeJS.12
+winget install OpenJS.NodeJS.10
+winget install OpenJS.NodeJS.8
+winget install OpenJS.NodeJS.7
+winget install OpenJS.NodeJS.6
+winget install OpenJS.NodeJS.4
 ```
 
 ## 未签名的本地脚本

@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2026-01-28T11:19:00+8:00
+lastUpdated: 2026-04-18T01:45:00+8:00
 ---
 
 # 安装.NET | Windows
@@ -14,16 +14,16 @@ lastUpdated: 2026-01-28T11:19:00+8:00
 
 1. 按下`Windows徽标`+`X`
 2. 选中`终端管理员`
-3. 输入并回车：
+3. 选择所需版本，输入后回车：
 
 ```shell
-winget.exe install --id "Microsoft.DotNet.DesktopRuntime.10" --exact
-winget.exe install --id "Microsoft.DotNet.DesktopRuntime.9" --exact
-winget.exe install --id "Microsoft.DotNet.DesktopRuntime.8" --exact
-winget.exe install --id "Microsoft.DotNet.DesktopRuntime.7" --exact
-winget.exe install --id "Microsoft.DotNet.DesktopRuntime.6" --exact
-winget.exe install --id "Microsoft.DotNet.DesktopRuntime.5" --exact
-winget.exe install --id "Microsoft.DotNet.DesktopRuntime.3_1" --exact
+winget install Microsoft.DotNet.DesktopRuntime.10
+winget install Microsoft.DotNet.DesktopRuntime.9
+winget install Microsoft.DotNet.DesktopRuntime.8
+winget install Microsoft.DotNet.DesktopRuntime.7
+winget install Microsoft.DotNet.DesktopRuntime.6
+winget install Microsoft.DotNet.DesktopRuntime.5
+winget install Microsoft.DotNet.DesktopRuntime.3_1
 ```
 
 ## ASP.NET核心运行时
@@ -32,20 +32,20 @@ winget.exe install --id "Microsoft.DotNet.DesktopRuntime.3_1" --exact
 
 1. 按下`Windows徽标`+`X`
 2. 选中`终端管理员`
-3. 输入并回车：
+3. 选择所需版本，输入后回车：
 
 ```shell
-winget.exe install --id "Microsoft.DotNet.AspNetCore.10" --exact
-winget.exe install --id "Microsoft.DotNet.AspNetCore.9" --exact
-winget.exe install --id "Microsoft.DotNet.AspNetCore.8" --exact
-winget.exe install --id "Microsoft.DotNet.AspNetCore.7" --exact
-winget.exe install --id "Microsoft.DotNet.AspNetCore.6" --exact
-winget.exe install --id "Microsoft.DotNet.AspNetCore.5" --exact
-winget.exe install --id "Microsoft.DotNet.AspNetCore.3_1" --exact
-winget.exe install --id "Microsoft.DotNet.AspNetCore.3_0" --exact
-winget.exe install --id "Microsoft.DotNet.AspNetCore.2_2_402" --exact
-winget.exe install --id "Microsoft.DotNet.AspNetCore.2_2" --exact
-winget.exe install --id "Microsoft.DotNet.AspNetCore.2_1" --exact
+winget install Microsoft.DotNet.AspNetCore.10
+winget install Microsoft.DotNet.AspNetCore.9
+winget install Microsoft.DotNet.AspNetCore.8
+winget install Microsoft.DotNet.AspNetCore.7
+winget install Microsoft.DotNet.AspNetCore.6
+winget install Microsoft.DotNet.AspNetCore.5
+winget install Microsoft.DotNet.AspNetCore.3_1
+winget install Microsoft.DotNet.AspNetCore.3_0
+winget install Microsoft.DotNet.AspNetCore.2_2_402
+winget install Microsoft.DotNet.AspNetCore.2_2
+winget install Microsoft.DotNet.AspNetCore.2_1
 ```
 
 ## .NET运行时
@@ -54,16 +54,16 @@ winget.exe install --id "Microsoft.DotNet.AspNetCore.2_1" --exact
 
 1. 按下`Windows徽标`+`X`
 2. 选中`终端管理员`
-3. 输入并回车：
+3. 选择所需版本，输入后回车：
 
 ```shell
-winget.exe install --id "Microsoft.DotNet.Runtime.10" --exact
-winget.exe install --id "Microsoft.DotNet.Runtime.9" --exact
-winget.exe install --id "Microsoft.DotNet.Runtime.8" --exact
-winget.exe install --id "Microsoft.DotNet.Runtime.7" --exact
-winget.exe install --id "Microsoft.DotNet.Runtime.6" --exact
-winget.exe install --id "Microsoft.DotNet.Runtime.5" --exact
-winget.exe install --id "Microsoft.DotNet.Runtime.3_1" --exact
+winget install Microsoft.DotNet.Runtime.10
+winget install Microsoft.DotNet.Runtime.9
+winget install Microsoft.DotNet.Runtime.8
+winget install Microsoft.DotNet.Runtime.7
+winget install Microsoft.DotNet.Runtime.6
+winget install Microsoft.DotNet.Runtime.5
+winget install Microsoft.DotNet.Runtime.3_1
 ```
 
 ## 软件开发工具包
@@ -72,14 +72,14 @@ winget.exe install --id "Microsoft.DotNet.Runtime.3_1" --exact
 
 1. 按下`Windows徽标`+`X`
 2. 选中`终端管理员`
-3. 输入并回车：
+3. 选择所需版本，输入后回车：
 
 ```shell
-winget.exe install --id "Microsoft.DotNet.SDK.10" --exact
-winget.exe install --id "Microsoft.DotNet.SDK.9" --exact
-winget.exe install --id "Microsoft.DotNet.SDK.8" --exact
-winget.exe install --id "Microsoft.DotNet.SDK.7" --exact
-winget.exe install --id "Microsoft.DotNet.SDK.6" --exact
-winget.exe install --id "Microsoft.DotNet.SDK.5" --exact
-winget.exe install --id "Microsoft.DotNet.SDK.3_1" --exact
+winget install Microsoft.DotNet.SDK.10
+winget install Microsoft.DotNet.SDK.9
+winget install Microsoft.DotNet.SDK.8
+winget install Microsoft.DotNet.SDK.7
+winget install Microsoft.DotNet.SDK.6
+winget install Microsoft.DotNet.SDK.5
+winget install Microsoft.DotNet.SDK.3_1
 ```

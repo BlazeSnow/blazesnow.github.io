@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2026-01-28T10:18:00+8:00
+lastUpdated: 2026-04-18T01:45:00+8:00
 ---
 
 # 安装Python | Windows
@@ -12,25 +12,25 @@ lastUpdated: 2026-01-28T10:18:00+8:00
 
 1. 按下`Windows徽标`+`X`
 2. 选中`终端管理员`
-3. 输入并回车：
+3. 选择所需版本，输入后回车：
 
 ```shell
-winget.exe install --id "Python.Python.3.14" --exact
-winget.exe install --id "Python.Python.3.13" --exact
-winget.exe install --id "Python.Python.3.12" --exact
-winget.exe install --id "Python.Python.3.11" --exact
-winget.exe install --id "Python.Python.3.10" --exact
-winget.exe install --id "Python.Python.3.9" --exact
-winget.exe install --id "Python.Python.3.8" --exact
-winget.exe install --id "Python.Python.3.7" --exact
-winget.exe install --id "Python.Python.3.6" --exact
-winget.exe install --id "Python.Python.3.5" --exact
-winget.exe install --id "Python.Python.3.4" --exact
-winget.exe install --id "Python.Python.3.3" --exact
-winget.exe install --id "Python.Python.3.2" --exact
-winget.exe install --id "Python.Python.3.1" --exact
-winget.exe install --id "Python.Python.3.0" --exact
-winget.exe install --id "Python.Python.2" --exact
+winget install Python.Python.3.14
+winget install Python.Python.3.13
+winget install Python.Python.3.12
+winget install Python.Python.3.11
+winget install Python.Python.3.10
+winget install Python.Python.3.9
+winget install Python.Python.3.8
+winget install Python.Python.3.7
+winget install Python.Python.3.6
+winget install Python.Python.3.5
+winget install Python.Python.3.4
+winget install Python.Python.3.3
+winget install Python.Python.3.2
+winget install Python.Python.3.1
+winget install Python.Python.3.0
+winget install Python.Python.2
 ```
 
 ## Anaconda
@@ -40,5 +40,5 @@ winget.exe install --id "Python.Python.2" --exact
 3. 输入并回车：
 
 ```shell
-winget.exe install --id "Anaconda.Anaconda3" --exact
+winget install Anaconda.Anaconda3
 ```
