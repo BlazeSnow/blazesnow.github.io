@@ -6,7 +6,7 @@ on:
       tag:
         description: 'Release tag'
         required: true
-        default: 'v2026.3.31.0'
+        default: 'v2026.4.18.0'
 
 permissions:
   contents: write
@@ -19,12 +19,6 @@ jobs:
       uses: actions/checkout@v6
       with:
         lfs: true
-
-    - name: Run ReleaseZip
-      uses: BlazeSnow/ReleaseZip@v1
-      with:
-        artifact_name: ${{ github.event.repository.name }}-${{ inputs.tag }}
-        retention_days: 7
 
     - uses: ncipollo/release-action@v1
       with:
