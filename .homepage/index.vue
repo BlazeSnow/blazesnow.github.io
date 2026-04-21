@@ -63,6 +63,11 @@ import status from "./status.vue"
     更多内容
   </h2>
   <div class="group">
+    <card title="PowerPlan" link="/powerplan/">
+      <template #description>
+        本程序针对Windows系统的电源计划，帮助用户快速切换电源计划。
+      </template>
+    </card>
     <card title="IPAbuyer" link="/ipa/">
       <template #description>
         刚刚拿到iPhone，受折磨于反复按下锁屏键购入App；还是担心小众优质App被下架？使用IPAbuyer，将App统统收入囊中！
