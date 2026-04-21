@@ -102,14 +102,14 @@ export default defineConfig({
         activeMatch: '/dockerseries/'
       },
       {
+        text: 'PowerPlan',
+        link: '/powerplan/',
+        activeMatch: '/powerplan/'
+      },
+      {
         text: 'IPAbuyer',
         link: '/ipa/',
         activeMatch: '/ipa/'
-      },
-      {
-        text: 'ComposeBuilder',
-        link: '/composebuilder/',
-        activeMatch: '/composebuilder/'
       },
       {
         text: '更多',
@@ -119,6 +119,11 @@ export default defineConfig({
             text: 'Windows',
             link: '/windows/',
             activeMatch: '/windows/'
+          },
+          {
+            text: 'ComposeBuilder',
+            link: '/composebuilder/',
+            activeMatch: '/composebuilder/'
           },
           {
             text: 'ImagePorter',
