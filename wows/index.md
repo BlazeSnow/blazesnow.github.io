@@ -2,7 +2,7 @@
 lastUpdated: false
 ---
 
-# wows-ime
+# WOWS-IME
 
 战舰世界中文输入法配置文件修改器
 
