@@ -121,6 +121,11 @@ export default defineConfig({
             activeMatch: '/windows/'
           },
           {
+            text: 'WOWS-IME',
+            link: '/wows/',
+            activeMatch: '/wows/'
+          },
+          {
             text: 'ComposeBuilder',
             link: '/composebuilder/',
             activeMatch: '/composebuilder/'
