@@ -8,6 +8,41 @@ import status from "./status.vue"
     特色内容
   </h2>
   <div class="group">
+    <card title="PowerPlan" link="/powerplan/">
+      <template #description>
+        本程序针对Windows系统的电源计划，帮助用户快速切换电源计划。
+      </template>
+    </card>
+    <card title="IPAbuyer" link="/ipa/">
+      <template #description>
+        刚刚拿到iPhone，受折磨于反复按下锁屏键购入App；还是担心小众优质App被下架？使用IPAbuyer，将App统统收入囊中！
+      </template>
+    </card>
+    <card title="WOWS-IME" link="/wows/">
+      <template #description>
+        本程序针对游戏《战舰世界》的中文输入法的配置文件，目的为修订配置文件以支持更多的中文输入法。
+      </template>
+    </card>
+    <card title="ComposeBuilder" link="/composebuilder/">
+      <template #description>
+        ComposeBuilder是一个用于快速生成docker-compose.yml的工具。
+      </template>
+    </card>
+    <card title="ImagePorter" link="/imageporter/">
+      <template #description>
+        ImagePorter是一个用于同步Docker镜像的Docker镜像。
+      </template>
+    </card>
+    <card title="OneDriveHosts" link="/onedrivehosts/">
+      <template #description>
+        通过指定OneDrive的网站的hosts，实现在封锁OneDrive的ip地址的区域使用OneDrive。
+      </template>
+    </card>
+  </div>
+  <h2>
+    Docker系列
+  </h2>
+  <div class="group">
     <card title="语音服务器 TeamSpeak" link="/dockerseries/teamspeak/">
       <template #description>
         用水晶般透亮明晰的声音与您的队友跨平台交流，体验军用级安全性、无延迟的性能和无与伦比的可靠性和正常运行时间。
@@ -63,26 +98,6 @@ import status from "./status.vue"
     更多内容
   </h2>
   <div class="group">
-    <card title="IPAbuyer" link="/ipa/">
-      <template #description>
-        刚刚拿到iPhone，受折磨于反复按下锁屏键购入App；还是担心小众优质App被下架？使用IPAbuyer，将App统统收入囊中！
-      </template>
-    </card>
-    <card title="ComposeBuilder" link="/composebuilder/">
-      <template #description>
-        ComposeBuilder是一个用于快速生成docker-compose.yml的工具。
-      </template>
-    </card>
-    <card title="ImagePorter" link="/imageporter/">
-      <template #description>
-        ImagePorter是一个用于同步Docker镜像的Docker镜像。
-      </template>
-    </card>
-    <card title="OneDriveHosts" link="/onedrivehosts/">
-      <template #description>
-        通过指定OneDrive的网站的hosts，实现在封锁OneDrive的ip地址的区域使用OneDrive。
-      </template>
-    </card>
     <card title="Windows" link="/windows/">
       <template #description>
         Windows操作系统是微软以图形用户界面为主推出的一系列专有商业软件操作系统。

@@ -4,6 +4,14 @@ lastUpdated: false
 
 # 2026年4月 | 更新日志
 
+## v2026.4.21.0
+
+1. 优化文档：
+   1. Apple设备 | DNS加密
+2. 引入文档：
+   1. PowerPlan
+   2. WOWS-IME
+
 ## v2026.4.18.0
 
 1. 弃用了git lfs
