@@ -18,6 +18,11 @@ import status from "./status.vue"
         刚刚拿到iPhone，受折磨于反复按下锁屏键购入App；还是担心小众优质App被下架？使用IPAbuyer，将App统统收入囊中！
       </template>
     </card>
+    <card title="WOWS-IME" link="/wows/">
+      <template #description>
+        本程序针对游戏《战舰世界》的中文输入法的配置文件，目的为修订配置文件以支持更多的中文输入法。
+      </template>
+    </card>
     <card title="ComposeBuilder" link="/composebuilder/">
       <template #description>
         ComposeBuilder是一个用于快速生成docker-compose.yml的工具。
