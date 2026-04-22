@@ -1,4 +1,8 @@
-﻿.vitepress/cache/
+﻿node_modules/
+
+.vitepress/cache/
 .vitepress/dist/
-node_modules/
+
+.wrangler/
+
 .DS_Store
