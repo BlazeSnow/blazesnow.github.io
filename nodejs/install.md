@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2026-03-16T14:08:00+8:00
+lastUpdated: 2026-04-29T09:17:00+8:00
 ---
 
 # 安装Nodejs | Nodejs
@@ -9,7 +9,7 @@ lastUpdated: 2026-03-16T14:08:00+8:00
 3. 输入并回车：
 
 ```shell
-winget.exe install --id "OpenJS.NodeJS.LTS" --exact
+winget install OpenJS.NodeJS.LTS
 ```
 
 ## 修改PowerShell执行策略
@@ -28,9 +28,6 @@ npm -v
 ## 卸载Nodejs
 
 ```shell
-winget.exe uninstall --id "OpenJS.NodeJS.LTS" --exact
-
+winget uninstall "OpenJS.NodeJS.LTS"
 Set-ExecutionPolicy Undefined -Scope CurrentUser -Force
-Set-ExecutionPolicy Undefined -Scope LocalMachine -Force
-Get-ExecutionPolicy -List
 ```
