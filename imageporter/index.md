@@ -134,3 +134,7 @@ images.json 的 target
 - Crane 遵守其原有的许可证
 - Supercronic 遵守其原有的许可证
 - 所有未提及的第三方软件均遵守其原有的许可证
+
+## 九、更新日志
+
+<https://github.com/imageporter/ImagePorter/blob/main/CHANGELOG.md>
