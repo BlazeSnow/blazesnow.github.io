@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2026-05-02T23:08:00+8:00
+lastUpdated: 2026-05-02T23:12:00+8:00
 ---
 
 # 前言 | Docker系列
@@ -62,19 +62,62 @@ sudo apt update && sudo apt upgrade -y
 
 ## 控制命令
 
-1. 拉取镜像：`sudo docker compose pull`
-2. 启动容器：`sudo docker compose up`
-3. 静默启动容器：`sudo docker compose up -d`
-4. 停止容器：`sudo docker compose down`
-5. 重新启动容器：`sudo docker compose restart`
-6. 查看容器状态：`sudo docker ps -a`
-7. 拉取镜像：`sudo docker compose pull`
-8. 查看所有镜像：`sudo docker images`
-9. 删除镜像：`sudo docker rmi <id>`
-10. 清理缓存：`sudo docker system prune`
-
 > [!TIP]
-> 关于compose的命令，都需要在yml文件所在目录下执行。
+> 关于Docker Compose的命令，都需要在yml文件所在目录下执行。
+
+### 拉取镜像
+
+```shell
+sudo docker compose pull
+```
+
+### 静默启动容器
+
+```shell
+sudo docker compose up -d
+```
+
+### 查看容器日志
+
+```shell
+sudo docker compose logs -f
+```
+
+### 停止容器
+
+```shell
+sudo docker compose down
+```
+
+### 重新启动容器
+
+```shell
+sudo docker compose restart
+```
+
+### 查看容器状态
+
+```shell
+sudo docker ps -a
+```
+
+### 查看所有镜像
+
+```shell
+sudo docker images
+```
+
+### 删除镜像
+
+```shell
+sudo docker rmi <id>
+```
+
+### 清理缓存
+
+```shell
+sudo docker system prune
+```
 
 ## 卸载Docker
 
