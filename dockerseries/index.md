@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-12-28T08:58:00+8:00
+lastUpdated: 2026-05-02T23:08:00+8:00
 ---
 
 # 前言 | Docker系列
@@ -12,18 +12,16 @@ lastUpdated: 2025-12-28T08:58:00+8:00
 
 ## 安装Docker
 
-> 本教程默认使用root用户。
-
 第一步，更新apt包源
 
 ```shell
-apt update && apt upgrade -y
+sudo apt update && sudo apt upgrade -y
 ```
 
 第二步，卸载其他版本的docker、compose、containerd和runc，以避免版本冲突
 
 ```shell
-apt remove $(dpkg --get-selections docker.io docker-compose docker-compose-v2 docker-doc podman-docker containerd runc | cut -f1)
+sudo apt remove $(dpkg --get-selections docker.io docker-compose docker-compose-v2 docker-doc podman-docker containerd runc | cut -f1)
 ```
 
 第三步，前往工作目录/srv
@@ -41,58 +39,56 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 第五步，授予安装脚本运行权限
 
 ```shell
-chmod +x get-docker.sh
+sudo chmod +x get-docker.sh
 ```
 
 第六步，运行安装脚本，并设定安装镜像源为阿里云
 
 ```shell
-sh get-docker.sh --mirror Aliyun
+sudo ./get-docker.sh --mirror Aliyun
 ```
 
 第七步，验证安装是否成功
 
 ```shell
-docker info
+sudo docker info
 ```
 
 后续只需使用apt对docker进行更新
 
 ```shell
-apt update && apt upgrade -y
+sudo apt update && sudo apt upgrade -y
 ```
 
 ## 控制命令
 
-1. 拉取镜像：`docker compose pull`
-2. 启动容器：`docker compose up`
-3. 静默启动容器：`docker compose up -d`
-4. 停止容器：`docker compose down`
-5. 重新启动容器：`docker compose restart`
-6. 查看容器状态：`docker ps -a`
-7. 拉取镜像：`docker pull <name>`
-8. 查看所有镜像：`docker images`
-9. 删除镜像：`docker rmi <id>`
-10. 清理缓存：`docker system prune -f`
+1. 拉取镜像：`sudo docker compose pull`
+2. 启动容器：`sudo docker compose up`
+3. 静默启动容器：`sudo docker compose up -d`
+4. 停止容器：`sudo docker compose down`
+5. 重新启动容器：`sudo docker compose restart`
+6. 查看容器状态：`sudo docker ps -a`
+7. 拉取镜像：`sudo docker compose pull`
+8. 查看所有镜像：`sudo docker images`
+9. 删除镜像：`sudo docker rmi <id>`
+10. 清理缓存：`sudo docker system prune`
 
 > [!TIP]
 > 关于compose的命令，都需要在yml文件所在目录下执行。
 
 ## 卸载Docker
 
-> 本教程默认使用root用户。
-
 第一步，卸载组件
 
 ```shell
-apt purge docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-ce-rootless-extras
+sudo apt purge docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-ce-rootless-extras
 ```
 
 第二步，删去镜像与容器
 
 ```shell
-rm -rf /var/lib/docker
-rm -rf /var/lib/containerd
+sudo rm -rf /var/lib/docker
+sudo rm -rf /var/lib/containerd
 ```
 
 第三步，删去apt包配置文件与密钥
