@@ -2,27 +2,12 @@
 lastUpdated: false
 ---
 
-# 2026年4月 | 更新日志
+# 2026年5月 | 更新日志
 
-## v2026.4.29.0
-
-1. 优化文档：
-   1. 安装Nodejs | Nodejs
-2. 禁用了未使用的Docker构建流程
-
-## v2026.4.21.0
+## v2026.5.2.0
 
 1. 优化文档：
-   1. Apple设备 | DNS加密
-2. 引入文档：
-   1. PowerPlan
-   2. WOWS-IME
-
-## v2026.4.18.0
-
-1. 弃用了git lfs
-2. 简化了winget命令
-
-## v2026.4.1.0
-
-1. 启用了git lfs
+   1. 检查磁盘类型 | Ubuntu
+   2. 管理防火墙 | Ubuntu
+   3. 同步系统时间 | Ubuntu
+   4. 双系统的时间差 | Ubuntu
