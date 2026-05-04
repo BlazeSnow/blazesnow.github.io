@@ -10,7 +10,19 @@
     "preview_urls": false,
     "routes": [
         {
+            "pattern": "blazesnow.com",
+            "custom_domain": true
+        },
+        {
             "pattern": "www.blazesnow.com",
+            "custom_domain": true
+        },
+        {
+            "pattern": "blazesnow.org",
+            "custom_domain": true
+        },
+        {
+            "pattern": "www.blazesnow.org",
             "custom_domain": true
         }
     ],
