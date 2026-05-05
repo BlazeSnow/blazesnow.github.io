@@ -16,9 +16,13 @@ lastUpdated: false
 
 ## 三、软件截图
 
-![mainpage](./images/mainpage.png)
+![1](./images/1.png)
 
-![performance](./images/performance.png)
+![2](./images/2.png)
+
+![3](./images/3.png)
+
+![4](./images/4.png)
 
 ## 四、开发者信息
 
