@@ -4,7 +4,7 @@ withDefaults(
 		text?: string
 	}>(),
 	{
-		text: '由 BlazeSnow 提供支持'
+		text: '第一方项目'
 	}
 )
 </script>
