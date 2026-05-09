@@ -2,7 +2,7 @@
 lastUpdated: false
 ---
 
-# IPAbuyer
+# IPAbuyer <FirstPartyBadge />
 
 ## 一、软件介绍
 

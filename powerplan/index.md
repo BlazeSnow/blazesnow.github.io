@@ -2,7 +2,7 @@
 lastUpdated: false
 ---
 
-# PowerPlan
+# PowerPlan <FirstPartyBadge />
 
 ## 一、程序介绍
 

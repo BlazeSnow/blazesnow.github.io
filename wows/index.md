@@ -2,7 +2,7 @@
 lastUpdated: false
 ---
 
-# WOWS-IME
+# WOWS-IME <FirstPartyBadge />
 
 战舰世界中文输入法配置文件修改器
 
