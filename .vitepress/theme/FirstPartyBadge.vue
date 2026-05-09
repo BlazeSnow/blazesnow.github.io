@@ -26,7 +26,9 @@ withDefaults(
 	color: var(--vp-c-brand-1);
 	font-size: 14px;
 	font-weight: 600;
+	letter-spacing: 0.04em;
 	line-height: 1.4;
+	opacity: 0.88;
 	white-space: nowrap;
 }
 </style>
