@@ -2,7 +2,7 @@
 lastUpdated: false
 ---
 
-# ComposeBuilder
+# ComposeBuilder <FirstPartyBadge />
 
 ## 一、软件介绍
 
