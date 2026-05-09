@@ -318,7 +318,7 @@ export default defineConfig({
           text: '时间',
           items: [
             { text: '同步系统时间', link: '/ubuntu/synctime' },
-            { text: '双系统的时间差8小时', link: '/ubuntu/systemtimedifference' },
+            { text: '双系统的时间差', link: '/ubuntu/systemtimedifference' },
           ]
         },
         {
