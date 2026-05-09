@@ -25,6 +25,7 @@ withDefaults(
 	background: color-mix(in srgb, var(--vp-c-brand-1) 12%, transparent);
 	color: var(--vp-c-brand-1);
 	font-size: 14px;
+	font-weight: 600;
 	line-height: 1.4;
 	white-space: nowrap;
 }
