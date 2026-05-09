@@ -9,8 +9,7 @@
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview",
-    "deploy": "wrangler deploy"
+    "docs:preview": "vitepress preview"
   },
   "devDependencies": {
     "@fontsource/monaspace-neon": "^5.2.5",
