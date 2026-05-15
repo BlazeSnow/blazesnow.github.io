@@ -4,6 +4,13 @@ lastUpdated: false
 
 # 2026年5月 | 更新日志
 
+## v2026.5.15.0
+
+1. 修订文档：
+   1. 安装WinGet | Windows
+2. 添加文档：
+   1. 安装WindowsApp运行库 | Windows
+
 ## v2026.5.9.1
 
 1. 添加“第一方项目”徽标
