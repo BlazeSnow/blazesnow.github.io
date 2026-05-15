@@ -248,6 +248,7 @@ export default defineConfig({
           items: [
             { text: '安装WinGet', link: '/windows/winget' },
             { text: '安装C++运行库', link: '/windows/vcredist' },
+            { text: '安装WindowsApp运行库', link: '/windows/windowsappsdk' },
             { text: '安装.NET', link: '/windows/dotnet' },
             { text: '安装Java', link: '/windows/java' },
             { text: '安装Python', link: '/windows/python' },
