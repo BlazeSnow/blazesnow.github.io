@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2026-04-18T01:45:00+8:00
+lastUpdated: 2026-05-15T16:38:00+8:00
 ---
 
 # 安装WinGet | Windows
@@ -20,9 +20,17 @@ winget --version
 
 ## 手动安装
 
-1. 按下`Windows徽标`+`X`
-2. 选中`终端管理员`
-3. 输入并回车：
+> [!TIP]
+> 如果缺少Microsoft Store，运行命令以恢复：
+>
+> ```shell
+> wsreset -i
+> ```
+
+1. 前往安装Microsoft应用安装程序：<https://apps.microsoft.com/detail/9nblggh4nns1>
+2. 按下`Windows徽标`+`X`
+3. 选中`终端管理员`
+4. 输入并回车：
 
 ```shell
 Add-AppxPackage -RegisterByFamilyName -MainPackage Microsoft.DesktopAppInstaller_8wekyb3d8bbwe
