@@ -1,6 +1,7 @@
 ---
 title: 管理镜像 | Docker
 lastUpdated: 2024-8-29T22:24:00+8:00
+description: Docker镜像的搜索、拉取、查看和删除等管理操作。
 ---
 
 # <TitleIcon icon="docker" /> 管理镜像

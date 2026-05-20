@@ -1,6 +1,7 @@
 ---
 title: 管理容器 | Docker
 lastUpdated: 2024-8-29T22:24:00+8:00
+description: Docker容器的创建、启动、停止、重命名和删除等管理操作。
 ---
 
 # <TitleIcon icon="docker" /> 管理容器
