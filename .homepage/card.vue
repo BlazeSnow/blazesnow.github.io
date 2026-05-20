@@ -2,12 +2,6 @@
 import { VPLink } from 'vitepress/theme';
 import simpleIcons from '@iconify-json/simple-icons/icons.json';
 
-const localIcons = import.meta.glob('../icon/*', {
-    eager: true,
-    query: '?url',
-    import: 'default'
-});
-
 export default {
     components: {
         VPLink
@@ -40,17 +34,6 @@ export default {
     computed: {
         iconData() {
             return this.icon ? simpleIcons.icons[this.icon] : null;
-        },
-        imageIconSrc() {
-            if (!this.iconSrc) {
-                return '';
-            }
-
-            if (this.iconSrc.startsWith('/') || this.iconSrc.startsWith('http')) {
-                return this.iconSrc;
-            }
-
-            return localIcons[`../icon/${this.iconSrc}`] || '';
         }
     }
 };
@@ -60,7 +43,7 @@ export default {
     <div class="card">
         <div class="content">
             <h3 class="title">
-                <img v-if="imageIconSrc" class="icon image-icon" :src="imageIconSrc" alt="" aria-hidden="true">
+                <img v-if="iconSrc" class="icon image-icon" :src="iconSrc" alt="" aria-hidden="true">
                 <svg v-else-if="iconData" class="icon" aria-hidden="true" viewBox="0 0 24 24" v-html="iconData.body"></svg>
                 <span>{{ title }}</span>
             </h3>

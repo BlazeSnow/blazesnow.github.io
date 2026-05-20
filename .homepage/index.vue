@@ -8,17 +8,17 @@ import status from "./status.vue"
     特色内容
   </h2>
   <div class="group">
-    <card title="PowerPlan" link="/powerplan/" icon-src="powerplan.ico">
+    <card title="PowerPlan" link="/powerplan/" icon-src="/icon/powerplan.ico">
       <template #description>
         本程序针对Windows系统的电源计划，帮助用户快速切换电源计划。
       </template>
     </card>
-    <card title="IPAbuyer" link="/ipa/" icon-src="ipabuyer.ico">
+    <card title="IPAbuyer" link="/ipa/" icon-src="/icon/ipabuyer.ico">
       <template #description>
         刚刚拿到iPhone，受折磨于反复按下锁屏键购入App；还是担心小众优质App被下架？使用IPAbuyer，将App统统收入囊中！
       </template>
     </card>
-    <card title="WOWS-IME" link="/wows/" icon-src="wows-ime.ico">
+    <card title="WOWS-IME" link="/wows/" icon-src="/icon/wows-ime.ico">
       <template #description>
         本程序针对游戏《战舰世界》的中文输入法的配置文件，目的为修订配置文件以支持更多的中文输入法。
       </template>
@@ -78,12 +78,12 @@ import status from "./status.vue"
         一个支持多种存储的文件列表程序，使用Gin和SolidJS。
       </template>
     </card>
-    <card title="音乐服务器 Navidrome" link="/dockerseries/navidrome/" icon-src="navidrome.svg">
+    <card title="音乐服务器 Navidrome" link="/dockerseries/navidrome/" icon-src="/icon/navidrome.svg">
       <template #description>
         Navidrome允许您通过现代Web UI和广泛的第三方兼容移动应用程序从任何地方享受您的音乐收藏。
       </template>
     </card>
-    <card title="证书申请器 Certbot" link="/dockerseries/certbot/" icon-src="certbot.svg">
+    <card title="证书申请器 Certbot" link="/dockerseries/certbot/" icon-src="/icon/certbot.svg">
       <template #description>
         Certbot是一个免费的开源软件工具，可以自动在手动管理的网站上使用Let 's Encrypt证书来启用HTTPS。
       </template>
