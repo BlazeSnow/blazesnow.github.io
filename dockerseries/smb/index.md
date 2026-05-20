@@ -3,7 +3,7 @@ title: SMB | Docker系列
 lastUpdated: 2025-08-06T14:17:00+8:00
 ---
 
-# <TitleIcon icon="files" /> SMB
+# <TitleIcon src="/icon/file.svg" /> SMB
 
 ## 前言
 

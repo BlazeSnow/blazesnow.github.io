@@ -3,7 +3,7 @@ title: FTP | Docker系列
 lastUpdated: 2025-08-06T14:10:00+8:00
 ---
 
-# <TitleIcon icon="files" /> FTP
+# <TitleIcon src="/icon/file.svg" /> FTP
 
 ## 前言
 
