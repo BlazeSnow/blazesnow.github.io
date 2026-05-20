@@ -10,6 +10,7 @@ description: BlazeSnow帮助网站的更新日志
 
 1. 为更新日志补全描述description
 2. 为更新日志添加icon
+3. 为winget内容替换icon
 
 ## v2026.5.20.1
 
