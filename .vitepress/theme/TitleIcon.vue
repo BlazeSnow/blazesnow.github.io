@@ -30,7 +30,6 @@ defineProps({
 	width: 1em;
 	height: 1em;
 	margin-right: 0.35em;
-	color: var(--vp-c-brand-1);
 	vertical-align: -0.12em;
 }
 </style>

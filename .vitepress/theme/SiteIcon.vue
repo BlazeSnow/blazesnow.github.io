@@ -37,7 +37,7 @@ const iconData = computed(() => props.icon ? simpleIcons.icons[props.icon] : nul
 	justify-content: center;
 	width: 1em;
 	height: 1em;
-	color: inherit;
+	color: var(--vp-c-brand-1);
 	vertical-align: -0.12em;
 }
 

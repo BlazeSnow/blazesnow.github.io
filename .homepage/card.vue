@@ -86,7 +86,6 @@ export default {
     flex: 0 0 auto;
     width: 1.35rem;
     height: 1.35rem;
-    color: var(--vp-c-brand-1);
 }
 
 .description {
