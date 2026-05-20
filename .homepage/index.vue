@@ -83,7 +83,7 @@ import status from "./status.vue"
         Navidrome允许您通过现代Web UI和广泛的第三方兼容移动应用程序从任何地方享受您的音乐收藏。
       </template>
     </card>
-    <card title="证书申请器 Certbot" link="/dockerseries/certbot/" icon-src="/icon/certbot.svg">
+    <card title="证书申请器 Certbot" link="/dockerseries/certbot/" icon="letsencrypt">
       <template #description>
         Certbot是一个免费的开源软件工具，可以自动在手动管理的网站上使用Let 's Encrypt证书来启用HTTPS。
       </template>
