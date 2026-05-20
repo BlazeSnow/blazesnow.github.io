@@ -4,7 +4,7 @@ lastUpdated: 2025-05-19T13:14:00+8:00
 description: 清理Microsoft Store应用卸载后的残留文件。
 ---
 
-# <TitleIcon icon="windows" /> 清理微软商店残留
+# <TitleIcon icon="windows" /> 清理微软商店残留 <StopSupportBadge />
 
 本文适用于已经清空`D:\`内所有微软商店程序后，需要清理微软商店残留的用户
 
