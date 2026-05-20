@@ -4,7 +4,7 @@ withDefaults(
 		text?: string
 	}>(),
 	{
-		text: '停止支持'
+		text: '本文已停止支持'
 	}
 )
 </script>
