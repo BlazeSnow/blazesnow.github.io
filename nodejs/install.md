@@ -1,6 +1,7 @@
 ---
 title: 安装Nodejs | Nodejs
 lastUpdated: 2026-04-29T09:17:00+8:00
+description: 安装Node.js运行环境的完整教程。
 ---
 
 # <TitleIcon icon="nodedotjs" /> 安装Nodejs

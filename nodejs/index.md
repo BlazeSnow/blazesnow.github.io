@@ -1,6 +1,7 @@
 ---
 title: 前言 | Nodejs
 lastUpdated: 2025-02-14T17:42:00+8:00
+description: Node.js和npm使用教程的前言，介绍本系列文章涵盖的主要内容。
 ---
 
 # <TitleIcon icon="nodedotjs" /> 前言

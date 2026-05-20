@@ -1,6 +1,7 @@
 ---
 title: npm管理包 | Nodejs
 lastUpdated: 2025-02-27T09:22:00+8:00
+description: 使用npm安装、更新、卸载和管理项目依赖包的方法。
 ---
 
 # <TitleIcon icon="nodedotjs" /> npm管理包
