@@ -1,8 +1,9 @@
 ---
+title: 安装分区推荐 | Ubuntu
 lastUpdated: 2025-02-13T09:44:00+8:00
 ---
 
-# 安装分区推荐 | Ubuntu
+# <TitleIcon icon="ubuntu" /> 安装分区推荐
 
 本文仅介绍GPT格式的安装分区推荐
 

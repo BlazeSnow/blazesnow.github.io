@@ -1,8 +1,9 @@
 ---
+title: 安装Nodejs | Windows
 lastUpdated: 2026-04-18T01:45:00+8:00
 ---
 
-# 安装Nodejs | Windows
+# <TitleIcon icon="windows" /> 安装Nodejs
 
 > Node.js 是一个免费、开源、跨平台的 JavaScript 运行时环境，可让开发人员创建服务器、Web 应用程序、命令行工具和脚本。
 

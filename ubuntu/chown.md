@@ -1,8 +1,9 @@
 ---
+title: 修改文件所有者 | Ubuntu
 lastUpdated: 2024-8-27T11:01:00+8:00
 ---
 
-# 修改文件所有者 | Ubuntu
+# <TitleIcon icon="ubuntu" /> 修改文件所有者
 
 ## 文件
 

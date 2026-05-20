@@ -1,8 +1,9 @@
 ---
+title: 修复桌面图标 | Windows
 lastUpdated: 2024-8-6T15:16:00+8:00
 ---
 
-# 修复桌面图标 | Windows
+# <TitleIcon icon="windows" /> 修复桌面图标
 
 > 此教程用于清除桌面图标缓存，可以修复图标变空白的问题
 

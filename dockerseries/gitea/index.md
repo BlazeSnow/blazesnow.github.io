@@ -1,8 +1,9 @@
 ---
+title: 版本管理服务器 | Docker系列
 lastUpdated: 2025-08-22T19:08:00+8:00
 ---
 
-# 版本管理服务器 | Docker系列
+# <TitleIcon icon="gitea" /> 版本管理服务器
 
 ## 前言
 

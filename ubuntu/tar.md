@@ -1,8 +1,9 @@
 ---
+title: 压缩文件 | Ubuntu
 lastUpdated: 2024-10-14T22:52:00+8:00
 ---
 
-# 压缩文件 | Ubuntu
+# <TitleIcon icon="ubuntu" /> 压缩文件
 
 ## tar
 

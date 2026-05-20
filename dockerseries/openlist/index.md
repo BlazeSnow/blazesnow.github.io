@@ -1,8 +1,9 @@
 ---
+title: 文件列表服务器 | Docker系列
 lastUpdated: 2025-10-16T22:21:00+8:00
 ---
 
-# 文件列表服务器 | Docker系列
+# <TitleIcon src="/icon/openlist.svg" /> 文件列表服务器
 
 ## 前言
 

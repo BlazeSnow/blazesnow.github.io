@@ -1,8 +1,9 @@
 ---
+title: 清除程序的卸载残留 | Windows
 lastUpdated: 2025-06-07T16:12:00+8:00
 ---
 
-# 清除程序的卸载残留 | Windows
+# <TitleIcon icon="windows" /> 清除程序的卸载残留
 
 > 本文以程序名`abc`为示例。本文旨在说明已经卸载`abc`程序后，对`abc`程序进行清理的情况。
 

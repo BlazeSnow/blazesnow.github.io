@@ -1,8 +1,9 @@
 ---
+title: 安装WinGet | Windows
 lastUpdated: 2026-05-15T16:38:00+8:00
 ---
 
-# 安装WinGet | Windows
+# <TitleIcon icon="windows" /> 安装WinGet
 
 > WinGet 是一种命令行工具，使用户能够在 Windows 10、Windows 11 和 Windows Server 2025 计算机上发现、安装、升级、删除和配置应用程序。 此工具是 Windows 程序包管理器服务的客户端接口。
 

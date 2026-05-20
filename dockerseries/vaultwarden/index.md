@@ -1,8 +1,9 @@
 ---
+title: 密码服务器 | Docker系列
 lastUpdated: 2025-08-06T18:41:00+8:00
 ---
 
-# 密码服务器 | Docker系列
+# <TitleIcon icon="vaultwarden" /> 密码服务器
 
 ## 前言
 

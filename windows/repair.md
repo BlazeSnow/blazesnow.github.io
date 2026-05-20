@@ -1,8 +1,9 @@
 ---
+title: 修复 | Windows
 lastUpdated: 2025-05-13T08:15:00+8:00
 ---
 
-# 修复 | Windows
+# <TitleIcon icon="windows" /> 修复
 
 1. 按下`Windows徽标`+`X`
 2. 点击弹出窗口中的`终端管理员`

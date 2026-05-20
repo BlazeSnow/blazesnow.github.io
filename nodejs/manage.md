@@ -1,8 +1,9 @@
 ---
+title: npm管理包 | Nodejs
 lastUpdated: 2025-02-27T09:22:00+8:00
 ---
 
-# npm管理包 | Nodejs
+# <TitleIcon icon="nodedotjs" /> npm管理包
 
 > 本篇对包的安装卸载过程以`typescript`为例
 

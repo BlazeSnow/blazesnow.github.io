@@ -1,8 +1,9 @@
 ---
+title: 重新安装 | Windows
 lastUpdated: 2025-06-07T15:52:00+8:00
 ---
 
-# 重新安装 | Windows
+# <TitleIcon icon="windows" /> 重新安装
 
 1. 提前查询电脑进入BIOS的按键
 2. 提前准备空U盘，将U盘插入电脑
