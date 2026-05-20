@@ -27,7 +27,7 @@ withDefaults(
 	border-radius: 999px;
 	padding: 2px 8px;
 	background: color-mix(in srgb, #dc2626 12%, transparent);
-	color: #dc2626;
+	color: #dc2626 !important;
 	font-size: 14px;
 	font-weight: 600;
 	letter-spacing: 0.04em;
