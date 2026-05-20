@@ -1,6 +1,7 @@
 ---
 title: 文件权限 | Ubuntu
 lastUpdated: 2025-5-30T13:08:00+8:00
+description: 使用chmod命令修改Ubuntu文件和文件夹读写执行权限的方法。
 ---
 
 # <TitleIcon icon="ubuntu" /> 文件权限

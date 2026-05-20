@@ -1,6 +1,7 @@
 ---
 title: 双系统的时间差 | Ubuntu
 lastUpdated: 2026-05-02T22:59:00+8:00
+description: 解决Windows与Ubuntu双系统之间时间显示不一致的问题。
 ---
 
 # <TitleIcon icon="ubuntu" /> 双系统的时间差

@@ -1,6 +1,7 @@
 ---
 title: 管理防火墙 | Ubuntu
 lastUpdated: 2026-05-02T22:55:00+8:00
+description: 使用ufw管理Ubuntu防火墙规则的完整教程。
 ---
 
 # <TitleIcon icon="ubuntu" /> 管理防火墙

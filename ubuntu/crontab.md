@@ -1,6 +1,7 @@
 ---
 title: 自动化脚本 | Ubuntu
 lastUpdated: 2025-08-06T14:26:00+8:00
+description: 使用crontab在Ubuntu中设置定时任务和自动化脚本的方法。
 ---
 
 # <TitleIcon icon="ubuntu" /> 自动化脚本
