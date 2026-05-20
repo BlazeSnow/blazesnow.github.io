@@ -1,10 +1,11 @@
 <script>
 import { VPLink } from 'vitepress/theme';
-import simpleIcons from '@iconify-json/simple-icons/icons.json';
+import SiteIcon from '../.vitepress/theme/SiteIcon.vue';
 
 export default {
     components: {
-        VPLink
+        VPLink,
+        SiteIcon
     },
     props: {
         title: {
@@ -30,11 +31,6 @@ export default {
             required: false,
             default: '_self'
         }
-    },
-    computed: {
-        iconData() {
-            return this.icon ? simpleIcons.icons[this.icon] : null;
-        }
     }
 };
 </script>
@@ -43,8 +39,7 @@ export default {
     <div class="card">
         <div class="content">
             <h3 class="title">
-                <img v-if="iconSrc" class="icon image-icon" :src="iconSrc" alt="" aria-hidden="true">
-                <svg v-else-if="iconData" class="icon" aria-hidden="true" viewBox="0 0 24 24" v-html="iconData.body"></svg>
+                <SiteIcon class="icon" :icon="icon" :src="iconSrc" />
                 <span>{{ title }}</span>
             </h3>
             <p class="description">
@@ -92,10 +87,6 @@ export default {
     width: 1.35rem;
     height: 1.35rem;
     color: var(--vp-c-brand-1);
-}
-
-.image-icon {
-    object-fit: contain;
 }
 
 .description {

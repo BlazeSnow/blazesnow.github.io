@@ -1,8 +1,16 @@
 <script setup>
+import SiteIcon from './SiteIcon.vue'
+
 defineProps({
+	icon: {
+		type: String,
+		required: false,
+		default: ''
+	},
 	src: {
 		type: String,
-		required: true
+		required: false,
+		default: ''
 	},
 	alt: {
 		type: String,
@@ -13,7 +21,7 @@ defineProps({
 </script>
 
 <template>
-	<img class="title-icon" :src="src" :alt="alt" :aria-hidden="alt ? null : 'true'">
+	<SiteIcon class="title-icon" :icon="icon" :src="src" :alt="alt" />
 </template>
 
 <style scoped>
@@ -22,6 +30,7 @@ defineProps({
 	width: 1em;
 	height: 1em;
 	margin-right: 0.35em;
+	color: var(--vp-c-brand-1);
 	vertical-align: -0.12em;
 }
 </style>
