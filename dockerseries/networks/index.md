@@ -1,8 +1,9 @@
 ---
+title: 网络 | Docker系列
 lastUpdated: 2025-09-30T17:23:13+8:00
 ---
 
-# 网络 | Docker系列
+# <TitleIcon icon="docker" /> 网络
 
 > 本文介绍Docker Compose项目中的网络，Docker的常用网络有host(主机网络)和bridge(桥接网络)
 
