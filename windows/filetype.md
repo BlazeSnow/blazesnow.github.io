@@ -1,8 +1,9 @@
 ---
+title: 删除新建文件类型 | Windows
 lastUpdated: 2025-02-13T10:00:00+8:00
 ---
 
-# 删除新建文件类型 | Windows
+# <TitleIcon icon="windows" /> 删除新建文件类型
 
 在文件资源管理器中右键新建文件内，有不需要的文件类型。本文以`markdown`文件为例：
 

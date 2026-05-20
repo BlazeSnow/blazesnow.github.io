@@ -1,8 +1,9 @@
 ---
+title: 管理镜像 | Docker
 lastUpdated: 2024-8-29T22:24:00+8:00
 ---
 
-# 管理镜像 | Docker
+# <TitleIcon icon="docker" /> 管理镜像
 
 ## 拉取镜像
 

@@ -1,8 +1,9 @@
 ---
+title: ComposeBuilder
 lastUpdated: false
 ---
 
-# ComposeBuilder <FirstPartyBadge />
+# <TitleIcon icon="docker" /> ComposeBuilder <FirstPartyBadge />
 
 ## 一、软件介绍
 

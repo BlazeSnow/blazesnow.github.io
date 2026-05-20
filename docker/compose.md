@@ -1,8 +1,9 @@
 ---
+title: Compose文件 | Docker
 lastUpdated: 2025-02-24T18:53:00+8:00
 ---
 
-# Compose文件 | Docker
+# <TitleIcon icon="docker" /> Compose文件
 
 > compose.yml用于配置Docker容器，本文以vsftpd为例。官方文档：<https://docs.docker.com/compose/>
 

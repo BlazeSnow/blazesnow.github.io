@@ -1,8 +1,9 @@
 ---
+title: Apple设备 | DNS加密
 lastUpdated: 2026-04-21T23:04:00+8:00
 ---
 
-# Apple设备 | DNS加密
+# <TitleIcon src="/icon/dns.svg" /> Apple设备
 
 > 加密方法参考：<https://github.com/paulmillr/encrypted-dns>
 

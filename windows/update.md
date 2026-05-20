@@ -1,8 +1,9 @@
 ---
+title: 更新 | Windows
 lastUpdated: 2025-06-07T15:46:00+8:00
 ---
 
-# 更新 | Windows
+# <TitleIcon icon="windows" /> 更新
 
 可通过多种方式更新Windows系统，请在以下方法中选择一种进行更新。
 

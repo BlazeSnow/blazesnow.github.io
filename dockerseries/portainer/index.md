@@ -1,8 +1,9 @@
 ---
+title: 容器可视化管理 | Docker系列
 lastUpdated: 2025-08-06T14:16:00+8:00
 ---
 
-# 容器可视化管理 | Docker系列
+# <TitleIcon icon="portainer" /> 容器可视化管理
 
 ## 前言
 

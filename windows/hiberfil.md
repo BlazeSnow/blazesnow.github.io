@@ -1,8 +1,9 @@
 ---
+title: 禁用快速启动 | Windows
 lastUpdated: 2025-05-19T12:02:00+8:00
 ---
 
-# 禁用快速启动 | Windows
+# <TitleIcon icon="windows" /> 禁用快速启动
 
 ## 快速启动的缺点
 

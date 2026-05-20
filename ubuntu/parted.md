@@ -1,8 +1,9 @@
 ---
+title: 检查磁盘类型 | Ubuntu
 lastUpdated: 2026-05-02T22:48:00+8:00
 ---
 
-# 检查磁盘类型 | Ubuntu
+# <TitleIcon icon="ubuntu" /> 检查磁盘类型
 
 > 若未安装Ubuntu系统，可选择启动盘中的试用Ubuntu
 

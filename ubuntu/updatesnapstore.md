@@ -1,8 +1,9 @@
 ---
+title: 无法更新Snap Store | Ubuntu
 lastUpdated: 2024-6-5T15:14:00+8:00
 ---
 
-# 无法更新Snap Store | Ubuntu
+# <TitleIcon icon="ubuntu" /> 无法更新Snap Store
 
 > 在Ubuntu Software应用内更新app时，无法更新Snap Store，显示Snap Store仍在运行中。
 

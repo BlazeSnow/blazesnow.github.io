@@ -1,8 +1,9 @@
 ---
+title: 语音服务器 | Docker系列
 lastUpdated: 2025-08-06T14:17:00+8:00
 ---
 
-# 语音服务器 | Docker系列
+# <TitleIcon icon="teamspeak" /> 语音服务器
 
 ## 前言
 

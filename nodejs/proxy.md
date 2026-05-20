@@ -1,8 +1,9 @@
 ---
+title: npm代理 | Nodejs
 lastUpdated: 2026-03-16T13:31:00+8:00
 ---
 
-# npm代理 | Nodejs
+# <TitleIcon icon="nodedotjs" /> npm代理
 
 > [!TIP]
 > 使用命令或修订配置文件均可

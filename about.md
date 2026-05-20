@@ -1,8 +1,9 @@
 ---
+title: 关于本站
 lastUpdated: 2025-02-10T12:16:00+8:00
 ---
 
-# 关于本站
+# <TitleIcon src="/icon/about.svg" /> 关于本站
 
 ## 本站域名及运行状态
 

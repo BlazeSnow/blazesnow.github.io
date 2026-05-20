@@ -1,8 +1,9 @@
 ---
+title: IPAbuyer
 lastUpdated: false
 ---
 
-# IPAbuyer <FirstPartyBadge />
+# <TitleIcon src="/icon/ipabuyer.ico" /> IPAbuyer <FirstPartyBadge />
 
 ## 一、软件介绍
 

@@ -1,8 +1,9 @@
 ---
+title: 安装CE发行版 | Docker
 lastUpdated: 2025-08-06T13:53:00+8:00
 ---
 
-# 安装CE发行版 | Docker
+# <TitleIcon icon="docker" /> 安装CE发行版
 
 ## 卸载其他版本Docker
 

@@ -1,8 +1,9 @@
 ---
+title: 旧版右键菜单 | Windows
 lastUpdated: 2025-05-13T08:12:00+8:00
 ---
 
-# 旧版右键菜单 | Windows
+# <TitleIcon icon="windows" /> 旧版右键菜单
 
 > [!CAUTION]
 > 警告：请勿随意修改注册表，对注册表的随意修改会导致不可预知的问题

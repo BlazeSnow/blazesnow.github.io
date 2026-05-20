@@ -1,8 +1,9 @@
 ---
+title: 删除右键菜单项 | Windows
 lastUpdated: 2025-02-13T10:02:00+8:00
 ---
 
-# 删除右键菜单项 | Windows
+# <TitleIcon icon="windows" /> 删除右键菜单项
 
 > [!CAUTION]
 > 警告：请勿随意修改注册表，对注册表的随意修改会导致不可预知的问题

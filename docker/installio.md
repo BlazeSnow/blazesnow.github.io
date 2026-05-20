@@ -1,8 +1,9 @@
 ---
+title: 安装IO发行版 | Docker
 lastUpdated: 2024-11-17T13:36:00+8:00
 ---
 
-# 安装IO发行版 | Docker
+# <TitleIcon icon="docker" /> 安装IO发行版
 
 ## 安装IO发行版
 

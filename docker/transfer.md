@@ -1,8 +1,9 @@
 ---
+title: 传递镜像 | Docker
 lastUpdated: 2024-11-22T18:06:00+8:00
 ---
 
-# 传递镜像 | Docker
+# <TitleIcon icon="docker" /> 传递镜像
 
 > 本篇介绍从`有docker镜像的设备`导出为文件，然后导入至`无docker镜像的设备`。本篇以nginx为例
 

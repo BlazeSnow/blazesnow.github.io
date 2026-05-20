@@ -1,8 +1,9 @@
 ---
+title: 清理微软商店残留 | Windows
 lastUpdated: 2025-05-19T13:14:00+8:00
 ---
 
-# 清理微软商店残留 | Windows
+# <TitleIcon icon="windows" /> 清理微软商店残留
 
 本文适用于已经清空`D:\`内所有微软商店程序后，需要清理微软商店残留的用户
 

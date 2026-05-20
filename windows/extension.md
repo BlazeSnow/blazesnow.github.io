@@ -1,8 +1,9 @@
 ---
+title: 显示后缀名和隐藏文件 | Windows
 lastUpdated: 2024-6-5T20:23:00+8:00
 ---
 
-# 显示后缀名和隐藏文件 | Windows
+# <TitleIcon icon="windows" /> 显示后缀名和隐藏文件
 
 1. 按下`Windows徽标`+`R`
 2. 输入`control folders`并回车

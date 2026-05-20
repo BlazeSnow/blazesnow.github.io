@@ -1,8 +1,9 @@
 ---
+title: 同步系统时间 | Ubuntu
 lastUpdated: 2026-05-02T22:57:00+8:00
 ---
 
-# 同步系统时间 | Ubuntu
+# <TitleIcon icon="ubuntu" /> 同步系统时间
 
 ## 输出当前时间
 

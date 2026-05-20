@@ -1,8 +1,9 @@
 ---
+title: npm缓存 | Nodejs
 lastUpdated: 2025-02-27T09:16:00+8:00
 ---
 
-# npm缓存 | Nodejs
+# <TitleIcon icon="nodedotjs" /> npm缓存
 
 ## 查看缓存路径
 

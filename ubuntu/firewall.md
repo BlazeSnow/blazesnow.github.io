@@ -1,8 +1,9 @@
 ---
+title: 管理防火墙 | Ubuntu
 lastUpdated: 2026-05-02T22:55:00+8:00
 ---
 
-# 管理防火墙 | Ubuntu
+# <TitleIcon icon="ubuntu" /> 管理防火墙
 
 ## 安装防火墙
 

@@ -1,9 +1,11 @@
 <script>
 import { VPLink } from 'vitepress/theme';
+import SiteIcon from '../.vitepress/theme/SiteIcon.vue';
 
 export default {
     components: {
-        VPLink
+        VPLink,
+        SiteIcon
     },
     props: {
         title: {
@@ -13,6 +15,16 @@ export default {
         link: {
             type: String,
             required: true
+        },
+        icon: {
+            type: String,
+            required: false,
+            default: ''
+        },
+        iconSrc: {
+            type: String,
+            required: false,
+            default: ''
         },
         target: {
             type: String,
@@ -26,7 +38,10 @@ export default {
 <template>
     <div class="card">
         <div class="content">
-            <h3 class="title">{{ title }}</h3>
+            <h3 class="title">
+                <SiteIcon class="icon" :icon="icon" :src="iconSrc" />
+                <span>{{ title }}</span>
+            </h3>
             <p class="description">
                 <slot name="description"></slot>
             </p>
@@ -58,10 +73,19 @@ export default {
 }
 
 .title {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
     margin: 0 0 0.75rem 0;
     font-size: 1.2rem;
     font-weight: 600;
     color: var(--vp-c-text-1);
+}
+
+.icon {
+    flex: 0 0 auto;
+    width: 1.35rem;
+    height: 1.35rem;
 }
 
 .description {

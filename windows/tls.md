@@ -1,8 +1,9 @@
 ---
+title: 应用最新TLS | Windows
 lastUpdated: 2025-02-13T10:11:00+8:00
 ---
 
-# 应用最新TLS | Windows
+# <TitleIcon icon="windows" /> 应用最新TLS
 
 > 传输层安全性（Transport Layer Security，TLS）是一种广泛采用的安全性协议，旨在促进互联网通信的私密性和数据安全性。TLS的主要用例是对web应用程序和服务器之间的通信（例如，web浏览器加载网站）进行加密。TLS还可以用于加密其他通信，如电子邮件、消息传递和IP语音（VoIP）等。
 

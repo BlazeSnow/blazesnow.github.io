@@ -1,8 +1,9 @@
 ---
+title: npm后缀 | Nodejs
 lastUpdated: 2025-02-13T09:42:00+8:00
 ---
 
-# npm后缀 | Nodejs
+# <TitleIcon icon="nodedotjs" /> npm后缀
 
 ## -g
 

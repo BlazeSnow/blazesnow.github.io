@@ -1,8 +1,9 @@
 ---
+title: 音乐服务器 | Docker系列
 lastUpdated: 2025-08-06T14:11:00+8:00
 ---
 
-# 音乐服务器 | Docker系列
+# <TitleIcon src="/icon/navidrome.svg" /> 音乐服务器
 
 ## 前言
 
