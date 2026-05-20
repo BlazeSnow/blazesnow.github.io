@@ -4,7 +4,7 @@ lastUpdated: 2026-04-18T01:45:00+8:00
 description: 在Windows系统上安装Java运行环境的完整教程。
 ---
 
-# <TitleIcon icon="windows" /> 安装Java
+# <TitleIcon src="/icon/java.svg" /> 安装Java
 
 > Java是一种广泛使用的计算机编程语言，拥有跨平台、面向对象、泛型编程的特性，广泛应用于企业级Web应用开发和移动应用开发。
 
