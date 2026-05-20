@@ -1,5 +1,7 @@
 ---
 lastUpdated: false
+title: 停止支持及弃用
+description: 列出BlazeSnow已停止支持和弃用的项目及功能。
 ---
 
 # 停止支持及弃用
