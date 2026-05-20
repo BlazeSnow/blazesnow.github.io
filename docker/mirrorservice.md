@@ -1,7 +1,7 @@
 ---
 title: 容器镜像服务 | Docker
 lastUpdated: 2024-9-2T14:16:00+8:00
-description: 介绍复制docker镜像到容器镜像服务的方法。
+description: 介绍复制Docker镜像到容器镜像服务的方法。
 ---
 
 # <TitleIcon icon="docker" /> 容器镜像服务
