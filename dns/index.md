@@ -1,6 +1,7 @@
 ---
 title: 前言 | DNS加密
 lastUpdated: 2025-08-04T21:28:00+8:00
+description: DNS加密技术的前言，介绍DNS over HTTPS和DNS over TLS的基本概念及本系列文章的主要内容。
 ---
 
 # <TitleIcon src="/icon/dns.svg" /> 前言

@@ -1,6 +1,7 @@
 ---
 title: 命名卷 | Docker系列
 lastUpdated: 2025-08-06T14:17:00+8:00
+description: 介绍Docker命名卷的概念和使用方法，帮助持久化容器数据。
 ---
 
 # <TitleIcon icon="docker" /> 命名卷

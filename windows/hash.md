@@ -1,6 +1,7 @@
 ---
 title: 计算哈希值 | Windows
 lastUpdated: 2025-06-07T16:00:00+8:00
+description: 在Windows系统中计算文件哈希值以验证文件完整性的方法。
 ---
 
 # <TitleIcon icon="windows" /> 计算哈希值

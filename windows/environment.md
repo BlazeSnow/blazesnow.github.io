@@ -1,6 +1,7 @@
 ---
 title: 设置环境变量 | Windows
 lastUpdated: 2025-03-29T11:26:00+8:00
+description: 在Windows系统中设置和修改环境变量的方法。
 ---
 
 # <TitleIcon icon="windows" /> 设置环境变量

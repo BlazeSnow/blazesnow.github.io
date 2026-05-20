@@ -1,6 +1,7 @@
 ---
 title: 传递镜像 | Docker
 lastUpdated: 2024-11-22T18:06:00+8:00
+description: 使用save/load和export/import在不同设备间传递Docker镜像的方法。
 ---
 
 # <TitleIcon icon="docker" /> 传递镜像

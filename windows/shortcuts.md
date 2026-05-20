@@ -1,6 +1,7 @@
 ---
 title: 创建快捷方式 | Windows
 lastUpdated: 2024-6-17T10:08:00+8:00
+description: 在Windows系统中创建文件或程序的快捷方式的方法。
 ---
 
 # <TitleIcon icon="windows" /> 创建快捷方式

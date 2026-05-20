@@ -1,6 +1,7 @@
 ---
 title: 安装CE发行版 | Docker
 lastUpdated: 2025-08-06T13:53:00+8:00
+description: 安装Docker CE发行版（docker-ce）的完整教程。
 ---
 
 # <TitleIcon icon="docker" /> 安装CE发行版

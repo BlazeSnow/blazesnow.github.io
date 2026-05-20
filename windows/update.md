@@ -1,6 +1,7 @@
 ---
 title: 更新 | Windows
 lastUpdated: 2025-06-07T15:46:00+8:00
+description: 介绍Windows系统的更新方法，确保系统保持最新状态。
 ---
 
 # <TitleIcon icon="windows" /> 更新

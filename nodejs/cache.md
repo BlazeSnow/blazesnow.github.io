@@ -1,6 +1,7 @@
 ---
 title: npm缓存 | Nodejs
 lastUpdated: 2025-02-27T09:16:00+8:00
+description: npm缓存的管理方法，包括查看、清理和设置缓存路径。
 ---
 
 # <TitleIcon icon="nodedotjs" /> npm缓存

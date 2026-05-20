@@ -1,6 +1,7 @@
 ---
 title: 安装SSH | Ubuntu
 lastUpdated: 2024-11-22T18:12:00+8:00
+description: 在Ubuntu上安装和配置SSH服务，实现远程连接管理。
 ---
 
 # <TitleIcon icon="ubuntu" /> 安装SSH

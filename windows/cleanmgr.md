@@ -1,6 +1,7 @@
 ---
 title: 磁盘清理 | Windows
 lastUpdated: 2025-02-13T09:52:00+8:00
+description: 使用Windows自带磁盘清理工具释放磁盘空间的方法。
 ---
 
 # <TitleIcon icon="windows" /> 磁盘清理

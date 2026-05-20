@@ -1,6 +1,7 @@
 ---
 title: npm代理 | Nodejs
 lastUpdated: 2026-03-16T13:31:00+8:00
+description: 为npm配置HTTP/HTTPS代理以解决网络访问问题的方法。
 ---
 
 # <TitleIcon icon="nodedotjs" /> npm代理

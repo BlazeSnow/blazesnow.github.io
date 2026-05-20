@@ -1,6 +1,7 @@
 ---
 title: 文件列表服务器 | Docker系列
 lastUpdated: 2025-10-16T22:21:00+8:00
+description: 使用Docker Compose部署文件列表服务器openlist，通过网页浏览和下载文件。
 ---
 
 # <TitleIcon src="/icon/openlist.svg" /> 文件列表服务器

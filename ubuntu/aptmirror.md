@@ -1,6 +1,7 @@
 ---
 title: apt换源 | Ubuntu
 lastUpdated: 2025-05-30T12:59:00+8:00
+description: 更换Ubuntu apt软件源为国内镜像以加速软件下载的方法。
 ---
 
 # <TitleIcon icon="ubuntu" /> apt换源

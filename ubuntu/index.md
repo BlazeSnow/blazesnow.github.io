@@ -1,6 +1,7 @@
 ---
 title: 前言 | Ubuntu
 lastUpdated: 2025-02-13T11:06:00+8:00
+description: Ubuntu系统使用教程的前言，介绍本系列文章涵盖的主要内容。
 ---
 
 # <TitleIcon icon="ubuntu" /> 前言

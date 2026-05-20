@@ -1,6 +1,7 @@
 ---
 title: 安装IO发行版 | Docker
 lastUpdated: 2024-11-17T13:36:00+8:00
+description: 安装Docker IO发行版（docker.io）的完整教程。
 ---
 
 # <TitleIcon icon="docker" /> 安装IO发行版

@@ -1,6 +1,7 @@
 ---
 title: 安装.NET | Windows
 lastUpdated: 2026-04-18T01:45:00+8:00
+description: 在Windows系统上安装.NET运行时的完整教程。
 ---
 
 # <TitleIcon icon="windows" /> 安装.NET

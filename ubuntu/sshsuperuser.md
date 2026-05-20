@@ -1,6 +1,7 @@
 ---
 title: SSH超级用户权限 | Ubuntu
 lastUpdated: 2025-01-12T17:17:00+8:00
+description: 配置SSH允许root用户远程登录Ubuntu的方法。
 ---
 
 # <TitleIcon icon="ubuntu" /> SSH超级用户权限

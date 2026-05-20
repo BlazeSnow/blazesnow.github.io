@@ -1,6 +1,7 @@
 ---
 title: 语音服务器 | Docker系列
 lastUpdated: 2025-08-06T14:17:00+8:00
+description: 使用Docker Compose部署TeamSpeak语音服务器，实现团队语音通信。
 ---
 
 # <TitleIcon icon="teamspeak" /> 语音服务器

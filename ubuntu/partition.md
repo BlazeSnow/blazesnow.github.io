@@ -1,6 +1,7 @@
 ---
 title: 安装分区推荐 | Ubuntu
 lastUpdated: 2025-02-13T09:44:00+8:00
+description: Ubuntu安装时的磁盘分区方案推荐，合理规划系统空间分配。
 ---
 
 # <TitleIcon icon="ubuntu" /> 安装分区推荐

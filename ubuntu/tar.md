@@ -1,6 +1,7 @@
 ---
 title: 压缩文件 | Ubuntu
 lastUpdated: 2024-10-14T22:52:00+8:00
+description: 使用tar命令在Ubuntu中压缩和解压文件的方法。
 ---
 
 # <TitleIcon icon="ubuntu" /> 压缩文件

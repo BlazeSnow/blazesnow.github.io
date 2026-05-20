@@ -1,6 +1,7 @@
 ---
 title: ComposeBuilder
 lastUpdated: false
+description: 图形化docker-compose.yml生成工具，逐步配置容器名称、端口映射、卷挂载、环境变量与健康检查。
 ---
 
 # <TitleIcon icon="docker" /> ComposeBuilder <FirstPartyBadge />

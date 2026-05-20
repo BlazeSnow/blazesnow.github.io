@@ -1,6 +1,7 @@
 ---
 title: npm后缀 | Nodejs
 lastUpdated: 2025-02-13T09:42:00+8:00
+description: npm install命令常用后缀参数（-S/-D/-g等）的详解与使用场景。
 ---
 
 # <TitleIcon icon="nodedotjs" /> npm后缀

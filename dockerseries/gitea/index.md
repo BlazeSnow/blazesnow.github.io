@@ -1,6 +1,7 @@
 ---
 title: 版本管理服务器 | Docker系列
 lastUpdated: 2025-08-22T19:08:00+8:00
+description: 使用Docker Compose部署Gitea，搭建轻量级的Git版本管理服务器。
 ---
 
 # <TitleIcon icon="gitea" /> 版本管理服务器

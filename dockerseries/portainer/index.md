@@ -1,6 +1,7 @@
 ---
 title: 容器可视化管理 | Docker系列
 lastUpdated: 2025-08-06T14:16:00+8:00
+description: 使用Docker Compose部署Portainer，通过Web界面可视化管理Docker容器。
 ---
 
 # <TitleIcon icon="portainer" /> 容器可视化管理

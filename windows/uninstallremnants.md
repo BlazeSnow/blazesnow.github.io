@@ -1,9 +1,10 @@
 ---
 title: 清除程序的卸载残留 | Windows
 lastUpdated: 2025-06-07T16:12:00+8:00
+description: 清理已卸载程序在系统中残留的文件和注册表项。
 ---
 
-# <TitleIcon icon="windows" /> 清除程序的卸载残留
+# <TitleIcon icon="windows" /> 清除程序的卸载残留 <StopSupportBadge />
 
 > 本文以程序名`abc`为示例。本文旨在说明已经卸载`abc`程序后，对`abc`程序进行清理的情况。
 

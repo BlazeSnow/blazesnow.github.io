@@ -1,6 +1,7 @@
 ---
 title: 前言 | Docker
 lastUpdated: 2025-05-01T14:55:00+8:00
+description: Docker使用教程的前言，介绍Docker基本概念和本系列文章的主要内容。
 ---
 
 # <TitleIcon icon="docker" /> 前言

@@ -1,6 +1,7 @@
 ---
 title: Apple设备 | DNS加密
 lastUpdated: 2026-04-21T23:04:00+8:00
+description: 在Apple设备（iOS/macOS）上配置DNS加密的方法。
 ---
 
 # <TitleIcon src="/icon/dns.svg" /> Apple设备

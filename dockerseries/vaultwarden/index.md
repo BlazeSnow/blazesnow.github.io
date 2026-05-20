@@ -1,6 +1,7 @@
 ---
 title: 密码服务器 | Docker系列
 lastUpdated: 2025-08-06T18:41:00+8:00
+description: 使用Docker Compose部署Vaultwarden密码管理器，安全存储和管理密码。
 ---
 
 # <TitleIcon icon="vaultwarden" /> 密码服务器
