@@ -1,6 +1,7 @@
 ---
 title: DNS大全 | DNS加密
 lastUpdated: 2024-12-31T22:02:00+8:00
+description: 收集整理国内外可用的DNS加密服务器地址列表。
 ---
 
 # <TitleIcon src="/icon/dns.svg" /> DNS大全
