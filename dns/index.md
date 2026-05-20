@@ -1,8 +1,9 @@
 ---
+title: 前言 | DNS加密
 lastUpdated: 2025-08-04T21:28:00+8:00
 ---
 
-# 前言 | DNS加密
+# <TitleIcon src="/icon/dns.svg" /> 前言
 
 > 本页面摘自Wikipedia：[点击查看原链接](https://en.wikipedia.org/wiki/Domain_Name_System)
 
