@@ -4,7 +4,7 @@ lastUpdated: 2026-04-18T01:45:00+8:00
 description: 在Windows系统上安装Node.js运行环境的完整教程。
 ---
 
-# <TitleIcon icon="windows" /> 安装Nodejs
+# <TitleIcon icon="nodedotjs" /> 安装Nodejs
 
 > Node.js 是一个免费、开源、跨平台的 JavaScript 运行时环境，可让开发人员创建服务器、Web 应用程序、命令行工具和脚本。
 
