@@ -1,8 +1,9 @@
 ---
+title: 设置环境变量 | Windows
 lastUpdated: 2025-03-29T11:26:00+8:00
 ---
 
-# 设置环境变量 | Windows
+# <TitleIcon icon="windows" /> 设置环境变量
 
 ## 用户环境变量
 

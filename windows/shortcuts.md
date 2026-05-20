@@ -1,8 +1,9 @@
 ---
+title: 创建快捷方式 | Windows
 lastUpdated: 2024-6-17T10:08:00+8:00
 ---
 
-# 创建快捷方式 | Windows
+# <TitleIcon icon="windows" /> 创建快捷方式
 
 ## 安装在Program Files的App
 

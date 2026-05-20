@@ -1,8 +1,9 @@
 ---
+title: 安装WindowsApp运行库 | Windows
 lastUpdated: 2026-05-15T16:56:00+8:00
 ---
 
-# 安装WindowsApp运行库 | Windows
+# <TitleIcon icon="windows" /> 安装WindowsApp运行库
 
 > Windows App SDK提供了一组统一的 API 和工具，可用于生成新式Windows应用。 它将最新的Windows平台功能引入WinUI 3和现有的桌面应用框架，例如WPF、Windows Forms或 Win32。
 

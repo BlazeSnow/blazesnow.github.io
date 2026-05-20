@@ -1,8 +1,9 @@
 ---
+title: 安装.NET | Windows
 lastUpdated: 2026-04-18T01:45:00+8:00
 ---
 
-# 安装.NET | Windows
+# <TitleIcon icon="windows" /> 安装.NET
 
 > .NET是一个免费的、跨平台的、开源开发人员平台，用于构建许多不同类型的应用程序。
 

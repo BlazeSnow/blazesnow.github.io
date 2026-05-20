@@ -1,8 +1,9 @@
 ---
+title: 安装C++运行库 | Windows
 lastUpdated: 2026-04-18T01:45:00+8:00
 ---
 
-# 安装C++运行库 | Windows
+# <TitleIcon icon="windows" /> 安装C++运行库
 
 > Visual C++ 可再发行程序包安装 Microsoft C 和 C++ (MSVC) 运行时库。 许多使用 Microsoft C 和 C++ 工具生成的应用程序都需要这些库。 如果你的应用使用这些库，则必须在安装该应用之前在目标系统上安装 Microsoft Visual C++ 可再发行程序包。
 

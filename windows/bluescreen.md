@@ -1,8 +1,9 @@
 ---
+title: 查看蓝屏文件 | Windows
 lastUpdated: 2025-02-17T10:31:00+8:00
 ---
 
-# 查看蓝屏文件 | Windows
+# <TitleIcon icon="windows" /> 查看蓝屏文件
 
 > WinDbg是一个调试器，可用于分析故障转储、调试实时用户模式和内核模式代码，以及检查CPU寄存器和内存。
 
