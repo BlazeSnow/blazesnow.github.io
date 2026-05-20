@@ -1,6 +1,7 @@
 ---
 title: 旧版右键菜单 | Windows
 lastUpdated: 2025-05-13T08:12:00+8:00
+description: 将Windows 11的右键菜单恢复为旧版样式的方法。
 ---
 
 # <TitleIcon icon="windows" /> 旧版右键菜单

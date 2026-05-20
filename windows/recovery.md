@@ -1,6 +1,7 @@
 ---
 title: 创建恢复分区 | Windows
 lastUpdated: 2026-02-25T16:59:00+8:00
+description: 在Windows系统中创建恢复分区的方法，用于系统故障时恢复。
 ---
 
 # <TitleIcon icon="windows" /> 创建恢复分区

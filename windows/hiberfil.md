@@ -1,6 +1,7 @@
 ---
 title: 禁用快速启动 | Windows
 lastUpdated: 2025-05-19T12:02:00+8:00
+description: 禁用Windows快速启动功能，解决关机或启动相关的问题。
 ---
 
 # <TitleIcon icon="windows" /> 禁用快速启动

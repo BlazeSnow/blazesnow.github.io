@@ -1,6 +1,7 @@
 ---
 title: 清理微软商店残留 | Windows
 lastUpdated: 2025-05-19T13:14:00+8:00
+description: 清理Microsoft Store应用卸载后的残留文件。
 ---
 
 # <TitleIcon icon="windows" /> 清理微软商店残留

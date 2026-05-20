@@ -1,6 +1,7 @@
 ---
 title: 清除程序的卸载残留 | Windows
 lastUpdated: 2025-06-07T16:12:00+8:00
+description: 清理已卸载程序在系统中残留的文件和注册表项。
 ---
 
 # <TitleIcon icon="windows" /> 清除程序的卸载残留
