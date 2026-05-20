@@ -1,8 +1,9 @@
 ---
+title: 引入npm | Nodejs
 lastUpdated: 2025-02-08T08:35:00+8:00
 ---
 
-# 引入npm | Nodejs
+# <TitleIcon icon="nodedotjs" /> 引入npm
 
 > npm（Node Package Manager）默认处理命令行路径中的内容
 

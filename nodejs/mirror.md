@@ -1,8 +1,9 @@
 ---
+title: npm换源 | Nodejs
 lastUpdated: 2026-03-16T13:29:00+8:00
 ---
 
-# npm换源 | Nodejs
+# <TitleIcon icon="nodedotjs" /> npm换源
 
 > [!TIP]
 > 使用命令或修订配置文件均可

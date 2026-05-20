@@ -1,8 +1,9 @@
 ---
+title: 安装Nodejs | Nodejs
 lastUpdated: 2026-04-29T09:17:00+8:00
 ---
 
-# 安装Nodejs | Nodejs
+# <TitleIcon icon="nodedotjs" /> 安装Nodejs
 
 1. 按下`Windows徽标`+`X`
 2. 点击弹出窗口中的`终端管理员`
