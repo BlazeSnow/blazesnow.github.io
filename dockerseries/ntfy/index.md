@@ -1,8 +1,9 @@
 ---
+title: 消息推送器 | Docker系列
 lastUpdated: 2025-08-06T14:16:00+8:00
 ---
 
-# 消息推送器 | Docker系列
+# <TitleIcon icon="ntfy" /> 消息推送器
 
 > [!CAUTION]
 > 停止支持：本文的内容已停止支持
