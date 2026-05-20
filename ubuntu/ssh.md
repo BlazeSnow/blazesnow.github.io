@@ -1,8 +1,9 @@
 ---
+title: 安装SSH | Ubuntu
 lastUpdated: 2024-11-22T18:12:00+8:00
 ---
 
-# 安装SSH | Ubuntu
+# <TitleIcon icon="ubuntu" /> 安装SSH
 
 ## 安装
 

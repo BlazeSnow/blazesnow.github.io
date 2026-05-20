@@ -1,8 +1,9 @@
 ---
+title: 双系统的时间差 | Ubuntu
 lastUpdated: 2026-05-02T22:59:00+8:00
 ---
 
-# 双系统的时间差 | Ubuntu
+# <TitleIcon icon="ubuntu" /> 双系统的时间差
 
 ## 时间差的原因
 

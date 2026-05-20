@@ -1,8 +1,9 @@
 ---
+title: 激活UbuntuPro | Ubuntu
 lastUpdated: 2024-11-22T21:26:00+8:00
 ---
 
-# 激活UbuntuPro | Ubuntu
+# <TitleIcon icon="ubuntu" /> 激活UbuntuPro
 
 ## 查看UbuntuPro状态
 

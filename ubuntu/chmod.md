@@ -1,8 +1,9 @@
 ---
+title: 文件权限 | Ubuntu
 lastUpdated: 2025-5-30T13:08:00+8:00
 ---
 
-# 文件权限 | Ubuntu
+# <TitleIcon icon="ubuntu" /> 文件权限
 
 ## 权限表达方式
 

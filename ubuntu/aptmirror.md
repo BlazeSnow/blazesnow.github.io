@@ -1,8 +1,9 @@
 ---
+title: apt换源 | Ubuntu
 lastUpdated: 2025-05-30T12:59:00+8:00
 ---
 
-# apt换源 | Ubuntu
+# <TitleIcon icon="ubuntu" /> apt换源
 
 ## 新版方案
 

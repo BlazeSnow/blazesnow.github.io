@@ -1,8 +1,9 @@
 ---
+title: 查看硬件配置 | Ubuntu
 lastUpdated: 2024-11-22T17:59:00+8:00
 ---
 
-# 查看硬件配置 | Ubuntu
+# <TitleIcon icon="ubuntu" /> 查看硬件配置
 
 ## 查看内存与交换分区大小
 

@@ -1,8 +1,9 @@
 ---
+title: 下载文件 | Ubuntu
 lastUpdated: 2025-08-06T14:28:00+8:00
 ---
 
-# 下载文件 | Ubuntu
+# <TitleIcon icon="ubuntu" /> 下载文件
 
 ## wget
 

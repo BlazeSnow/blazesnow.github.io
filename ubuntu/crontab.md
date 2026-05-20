@@ -1,8 +1,9 @@
 ---
+title: 自动化脚本 | Ubuntu
 lastUpdated: 2025-08-06T14:26:00+8:00
 ---
 
-# 自动化脚本 | Ubuntu
+# <TitleIcon icon="ubuntu" /> 自动化脚本
 
 > 本文针对当前登陆用户的自动化脚本
 

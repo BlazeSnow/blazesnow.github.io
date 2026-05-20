@@ -1,8 +1,9 @@
 ---
+title: SSH超级用户权限 | Ubuntu
 lastUpdated: 2025-01-12T17:17:00+8:00
 ---
 
-# SSH超级用户权限 | Ubuntu
+# <TitleIcon icon="ubuntu" /> SSH超级用户权限
 
 > 本篇内容讲解为Ubuntu的SSH连接启用root用户
 
