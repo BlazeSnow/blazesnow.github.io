@@ -10,11 +10,7 @@ withDefaults(
 </script>
 
 <template>
-	<a
-		href="/deprecated/"
-		class="stop-support-badge"
-		title="点击以前往停止支持及弃用的页面"
-	>{{ text }}</a>
+	<a href="/deprecated/" class="stop-support-badge" title="本文的内容已停止支持，点击前往查看停止支持及弃用内容。">{{ text }}</a>
 </template>
 
 <style scoped>
