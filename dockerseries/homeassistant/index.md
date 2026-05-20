@@ -1,8 +1,9 @@
 ---
+title: 智能家居中枢 | Docker系列
 lastUpdated: 2025-08-06T14:10:00+8:00
 ---
 
-# 智能家居中枢 | Docker系列
+# <TitleIcon icon="homeassistant" /> 智能家居中枢
 
 ## 前言
 
