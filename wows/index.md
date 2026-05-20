@@ -1,8 +1,9 @@
 ---
+title: WOWS-IME
 lastUpdated: false
 ---
 
-# WOWS-IME <FirstPartyBadge />
+# <TitleIcon src="/icon/wows-ime.ico" /> WOWS-IME <FirstPartyBadge />
 
 战舰世界中文输入法配置文件修改器
 

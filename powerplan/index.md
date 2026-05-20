@@ -1,8 +1,9 @@
 ---
+title: PowerPlan
 lastUpdated: false
 ---
 
-# PowerPlan <FirstPartyBadge />
+# <TitleIcon src="/icon/powerplan.ico" /> PowerPlan <FirstPartyBadge />
 
 ## 一、程序介绍
 
