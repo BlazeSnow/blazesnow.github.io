@@ -63,7 +63,7 @@ import status from "./status.vue"
         AdGuard Home是一种基于网络的广告和跟踪器拦截解决方案。
       </template>
     </card>
-    <card title="我的世界服务器 Minecraft Server" link="/dockerseries/minecraftserver/" icon="minecraft">
+    <card title="我的世界服务器 Minecraft Server" link="/dockerseries/minecraftserver/" icon-src="/icon/minecraft.ico">
       <template #description>
         Minecraft:Java Edition多人游戏服务器。
       </template>
