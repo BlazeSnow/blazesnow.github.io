@@ -1,6 +1,7 @@
 ---
 title: ImagePorter
 lastUpdated: false
+description: Docker镜像同步工具，将docker.io、ghcr.io等仓库的镜像同步至指定的目标仓库。
 ---
 
 # <TitleIcon icon="docker" /> ImagePorter <FirstPartyBadge />

@@ -1,6 +1,7 @@
 ---
 title: 证书申请器 | Docker系列
 lastUpdated: 2025-11-24T08:20:00+8:00
+description: 使用Docker Compose部署Certbot，自动申请和续期SSL/TLS证书。
 ---
 
 # <TitleIcon icon="letsencrypt" /> 证书申请器

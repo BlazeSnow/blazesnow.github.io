@@ -1,6 +1,7 @@
 ---
 title: 修复桌面图标 | Windows
 lastUpdated: 2024-8-6T15:16:00+8:00
+description: 修复Windows桌面图标显示异常或变白的问题，重建图标缓存。
 ---
 
 # <TitleIcon icon="windows" /> 修复桌面图标

@@ -1,6 +1,7 @@
 ---
 title: 应用最新TLS | Windows
 lastUpdated: 2025-02-13T10:11:00+8:00
+description: 在Windows系统中启用最新TLS协议版本，提升网络通信安全性。
 ---
 
 # <TitleIcon icon="windows" /> 应用最新TLS

@@ -1,6 +1,7 @@
 ---
 title: 激活UbuntuPro | Ubuntu
 lastUpdated: 2024-11-22T21:26:00+8:00
+description: 免费激活Ubuntu Pro订阅以获取额外安全更新的方法。
 ---
 
 # <TitleIcon icon="ubuntu" /> 激活UbuntuPro

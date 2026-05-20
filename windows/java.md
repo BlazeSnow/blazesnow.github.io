@@ -1,6 +1,7 @@
 ---
 title: 安装Java | Windows
 lastUpdated: 2026-04-18T01:45:00+8:00
+description: 在Windows系统上安装Java运行环境的完整教程。
 ---
 
 # <TitleIcon icon="windows" /> 安装Java

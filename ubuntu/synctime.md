@@ -1,6 +1,7 @@
 ---
 title: 同步系统时间 | Ubuntu
 lastUpdated: 2026-05-02T22:57:00+8:00
+description: Ubuntu系统时间同步的配置方法，确保系统时间准确。
 ---
 
 # <TitleIcon icon="ubuntu" /> 同步系统时间

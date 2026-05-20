@@ -1,6 +1,7 @@
 ---
 lastUpdated: 2025-08-03T19:15:00+8:00
 titleTemplate: 'BlazeSnow帮助网站'
+description: 'BlazeSnow帮助网站，专注于分享知识。'
 layout: home
 
 hero:

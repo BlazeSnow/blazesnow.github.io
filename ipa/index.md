@@ -1,6 +1,7 @@
 ---
 title: IPAbuyer
 lastUpdated: false
+description: IPA购买器，将AppStore应用一键收入囊中。
 ---
 
 # <TitleIcon src="/icon/ipabuyer.ico" /> IPAbuyer <FirstPartyBadge />

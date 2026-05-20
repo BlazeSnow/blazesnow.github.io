@@ -1,6 +1,7 @@
 ---
 title: FTP | Docker系列
 lastUpdated: 2025-08-06T14:10:00+8:00
+description: 使用Docker Compose部署FTP文件服务器的完整教程。
 ---
 
 # <TitleIcon src="/icon/file.svg" /> FTP

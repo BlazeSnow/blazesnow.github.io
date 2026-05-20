@@ -1,6 +1,7 @@
 ---
 title: Compose文件 | Docker
 lastUpdated: 2025-02-24T18:53:00+8:00
+description: Docker Compose文件的写法详解，包括服务、网络和卷的配置项说明。
 ---
 
 # <TitleIcon icon="docker" /> Compose文件

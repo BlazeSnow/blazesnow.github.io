@@ -1,6 +1,7 @@
 ---
 title: 重启文件资源管理器 | Windows
 lastUpdated: 2025-05-13T08:24:00+8:00
+description: 重启Windows文件资源管理器以解决桌面或任务栏卡顿和无响应问题。
 ---
 
 # <TitleIcon icon="windows" /> 重启文件资源管理器

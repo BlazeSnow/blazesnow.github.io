@@ -1,6 +1,7 @@
 ---
 title: 安装Docker | Docker
 lastUpdated: 2025-02-13T09:32:00+8:00
+description: Docker安装的概览，对比docker.io和docker-ce两种发行版的区别与选择。
 ---
 
 # <TitleIcon icon="docker" /> 安装Docker

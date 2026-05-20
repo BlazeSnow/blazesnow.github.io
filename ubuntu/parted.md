@@ -1,6 +1,7 @@
 ---
 title: 检查磁盘类型 | Ubuntu
 lastUpdated: 2026-05-02T22:48:00+8:00
+description: 在Ubuntu中使用parted检查磁盘分区表类型（MBR或GPT）的方法。
 ---
 
 # <TitleIcon icon="ubuntu" /> 检查磁盘类型

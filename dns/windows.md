@@ -1,6 +1,7 @@
 ---
 title: Windows设备 | DNS加密
 lastUpdated: 2025-08-04T21:22:00+8:00
+description: 在Windows设备上配置DNS over HTTPS（DoH）加密DNS的方法。
 ---
 
 # <TitleIcon src="/icon/dns.svg" /> Windows设备

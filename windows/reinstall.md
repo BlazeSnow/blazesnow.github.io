@@ -1,6 +1,7 @@
 ---
 title: 重新安装 | Windows
 lastUpdated: 2025-06-07T15:52:00+8:00
+description: 介绍Windows系统的重新安装方法，通过保留数据的重装方式恢复系统。
 ---
 
 # <TitleIcon icon="windows" /> 重新安装

@@ -1,6 +1,7 @@
 ---
 title: 显示后缀名和隐藏文件 | Windows
 lastUpdated: 2024-6-5T20:23:00+8:00
+description: 在Windows系统中显示文件扩展名和隐藏文件的方法。
 ---
 
 # <TitleIcon icon="windows" /> 显示后缀名和隐藏文件

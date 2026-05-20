@@ -1,6 +1,7 @@
 ---
 title: dpkg | Ubuntu
 lastUpdated: 2024-6-2T19:42:00+8:00
+description: 使用dpkg管理Ubuntu中deb软件包的方法。
 ---
 
 # <TitleIcon icon="ubuntu" /> dpkg

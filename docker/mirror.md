@@ -1,6 +1,7 @@
 ---
 title: Docker换源 | Docker
 lastUpdated: 2024-11-8T21:59:00+8:00
+description: 更换Docker镜像源为国内镜像以加速镜像拉取的方法。
 ---
 
 # <TitleIcon icon="docker" /> Docker换源

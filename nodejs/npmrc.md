@@ -1,6 +1,7 @@
 ---
 title: npm配置文件 | Nodejs
 lastUpdated: 2025-02-08T08:53:00+8:00
+description: npm配置文件.npmrc的详解与配置方法，包括全局和项目级配置。
 ---
 
 # <TitleIcon icon="nodedotjs" /> npm配置文件

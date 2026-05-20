@@ -1,6 +1,7 @@
 ---
 title: 安装WinGet | Windows
 lastUpdated: 2026-05-15T16:38:00+8:00
+description: 在Windows系统上安装WinGet包管理器的完整教程。
 ---
 
 # <TitleIcon icon="windows" /> 安装WinGet

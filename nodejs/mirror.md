@@ -1,6 +1,7 @@
 ---
 title: npm换源 | Nodejs
 lastUpdated: 2026-03-16T13:29:00+8:00
+description: 更换npm镜像源为国内镜像以加速包下载的方法。
 ---
 
 # <TitleIcon icon="nodedotjs" /> npm换源

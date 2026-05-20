@@ -1,6 +1,7 @@
 ---
 title: 安装WindowsApp运行库 | Windows
 lastUpdated: 2026-05-15T16:56:00+8:00
+description: 在Windows系统上安装Windows App SDK运行库的完整教程。
 ---
 
 # <TitleIcon icon="windows" /> 安装WindowsApp运行库

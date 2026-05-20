@@ -1,6 +1,7 @@
 ---
 title: 引入npm | Nodejs
 lastUpdated: 2025-02-08T08:35:00+8:00
+description: 使用npm init初始化Node.js项目并生成package.json的方法。
 ---
 
 # <TitleIcon icon="nodedotjs" /> 引入npm

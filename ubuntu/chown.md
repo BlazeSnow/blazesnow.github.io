@@ -1,6 +1,7 @@
 ---
 title: 修改文件所有者 | Ubuntu
 lastUpdated: 2024-8-27T11:01:00+8:00
+description: 使用chown命令修改Ubuntu文件和文件夹所有者的方法。
 ---
 
 # <TitleIcon icon="ubuntu" /> 修改文件所有者

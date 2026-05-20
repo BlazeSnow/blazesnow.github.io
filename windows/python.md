@@ -1,6 +1,7 @@
 ---
 title: 安装Python | Windows
 lastUpdated: 2026-04-18T01:45:00+8:00
+description: 在Windows系统上安装Python解释器的完整教程。
 ---
 
 # <TitleIcon icon="windows" /> 安装Python

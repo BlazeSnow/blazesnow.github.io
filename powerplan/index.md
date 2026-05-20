@@ -1,6 +1,7 @@
 ---
 title: PowerPlan
 lastUpdated: false
+description: Windows电源计划管理工具，帮助用户快速切换电源计划以优化系统性能或续航。
 ---
 
 # <TitleIcon src="/icon/powerplan.ico" /> PowerPlan <FirstPartyBadge />

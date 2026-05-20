@@ -1,6 +1,7 @@
 ---
 title: 命令行处理文件夹 | Ubuntu
 lastUpdated: 2024-8-27T11:04:00+8:00
+description: Ubuntu命令行中创建、删除、移动文件夹的操作方法。
 ---
 
 # <TitleIcon icon="ubuntu" /> 命令行处理文件夹

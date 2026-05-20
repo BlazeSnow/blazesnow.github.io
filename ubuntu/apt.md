@@ -1,6 +1,7 @@
 ---
 title: apt | Ubuntu
 lastUpdated: 2024-11-20T17:37:00+8:00
+description: Ubuntu apt包管理器的使用方法，包括安装、更新和卸载软件。
 ---
 
 # <TitleIcon icon="ubuntu" /> apt

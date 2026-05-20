@@ -1,6 +1,7 @@
 ---
 title: 安装Ubuntu | Ubuntu
 lastUpdated: 2024-6-2T19:42:00+8:00
+description: 在物理机或虚拟机上安装Ubuntu系统的完整教程。
 ---
 
 # <TitleIcon icon="ubuntu" /> 安装Ubuntu

@@ -1,6 +1,7 @@
 ---
 title: 智能家居中枢 | Docker系列
 lastUpdated: 2025-08-06T14:10:00+8:00
+description: 使用Docker Compose部署Home Assistant智能家居平台，统一管理各种智能设备。
 ---
 
 # <TitleIcon icon="homeassistant" /> 智能家居中枢

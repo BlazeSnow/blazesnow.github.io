@@ -1,6 +1,7 @@
 ---
 title: 系统配置 | Windows
 lastUpdated: 2025-02-13T09:59:00+8:00
+description: 使用msconfig系统配置工具管理Windows启动项和服务的完整教程。
 ---
 
 # <TitleIcon icon="windows" /> 系统配置
