@@ -1,8 +1,16 @@
 ---
+title: 2026年5月 | 更新日志
 lastUpdated: false
+description: BlazeSnow帮助网站的更新日志
 ---
 
-# 2026年5月 | 更新日志
+# <TitleIcon src="/icon/changelog.svg" /> 2026年5月
+
+## v2026.5.20.2
+
+1. 为更新日志补全描述description
+2. 为更新日志添加icon
+3. 为winget内容替换icon
 
 ## v2026.5.20.1
 
