@@ -73,7 +73,7 @@ import status from "./status.vue"
         Frp采用C/S模式，通过访问暴露在服务器上的端口，反向代理到处于内网的服务。
       </template>
     </card>
-    <card title="文件列表服务器 OpenList" link="/dockerseries/openlist/" icon="alist">
+    <card title="文件列表服务器 OpenList" link="/dockerseries/openlist/" icon-src="/icon/openlist.svg">
       <template #description>
         一个支持多种存储的文件列表程序，使用Gin和SolidJS。
       </template>
