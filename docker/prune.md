@@ -1,8 +1,9 @@
 ---
+title: 清理缓存 | Docker
 lastUpdated: 2025-05-10T15:27:00+8:00
 ---
 
-# 清理缓存
+# <TitleIcon icon="docker" /> 清理缓存
 
 ```shell
 docker system prune -f
