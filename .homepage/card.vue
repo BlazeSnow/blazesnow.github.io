@@ -1,5 +1,6 @@
 <script>
 import { VPLink } from 'vitepress/theme';
+import simpleIcons from '@iconify-json/simple-icons/icons.json';
 
 export default {
     components: {
@@ -14,10 +15,25 @@ export default {
             type: String,
             required: true
         },
+        icon: {
+            type: String,
+            required: false,
+            default: ''
+        },
+        iconSrc: {
+            type: String,
+            required: false,
+            default: ''
+        },
         target: {
             type: String,
             required: false,
             default: '_self'
+        }
+    },
+    computed: {
+        iconData() {
+            return this.icon ? simpleIcons.icons[this.icon] : null;
         }
     }
 };
@@ -26,7 +42,11 @@ export default {
 <template>
     <div class="card">
         <div class="content">
-            <h3 class="title">{{ title }}</h3>
+            <h3 class="title">
+                <img v-if="iconSrc" class="icon image-icon" :src="iconSrc" alt="" aria-hidden="true">
+                <svg v-else-if="iconData" class="icon" aria-hidden="true" viewBox="0 0 24 24" v-html="iconData.body"></svg>
+                <span>{{ title }}</span>
+            </h3>
             <p class="description">
                 <slot name="description"></slot>
             </p>
@@ -58,10 +78,24 @@ export default {
 }
 
 .title {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
     margin: 0 0 0.75rem 0;
     font-size: 1.2rem;
     font-weight: 600;
     color: var(--vp-c-text-1);
+}
+
+.icon {
+    flex: 0 0 auto;
+    width: 1.35rem;
+    height: 1.35rem;
+    color: var(--vp-c-brand-1);
+}
+
+.image-icon {
+    object-fit: contain;
 }
 
 .description {
