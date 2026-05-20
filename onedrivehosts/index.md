@@ -1,6 +1,7 @@
 ---
 title: OneDriveHosts
 lastUpdated: false
+description: 通过指定hosts的方式，实现在封锁OneDrive IP的地区正常访问和使用OneDrive。
 ---
 
 # <TitleIcon icon="microsoftonedrive" /> OneDriveHosts <FirstPartyBadge />
