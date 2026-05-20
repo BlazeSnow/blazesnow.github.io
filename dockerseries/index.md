@@ -1,6 +1,7 @@
 ---
 title: 前言 | Docker系列
 lastUpdated: 2026-05-02T23:12:00+8:00
+description: Docker系列教程的前言，介绍Docker容器技术的基本概念和本系列文章的主要内容。
 ---
 
 # <TitleIcon icon="docker" /> 前言

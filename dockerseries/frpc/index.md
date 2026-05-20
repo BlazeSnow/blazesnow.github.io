@@ -1,6 +1,7 @@
 ---
 title: 端口转发客户端 | Docker系列
 lastUpdated: 2025-10-31T14:09:00+8:00
+description: 使用Docker Compose部署frp客户端，连接到frp服务端实现内网穿透。
 ---
 
 # <TitleIcon src="/icon/frp.svg" /> 端口转发客户端

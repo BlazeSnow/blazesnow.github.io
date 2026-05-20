@@ -1,6 +1,7 @@
 ---
 title: 消息推送器 | Docker系列
 lastUpdated: 2025-08-06T14:16:00+8:00
+description: 使用Docker Compose部署ntfy消息推送服务，实现自定义通知推送。
 ---
 
 # <TitleIcon icon="ntfy" /> 消息推送器 <StopSupportBadge />

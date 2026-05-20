@@ -1,6 +1,7 @@
 ---
 title: 家庭域名服务器 | Docker系列
 lastUpdated: 2025-08-06T14:09:00+8:00
+description: 使用Docker Compose部署AdGuard Home，实现家庭网络广告拦截和DNS解析。
 ---
 
 # <TitleIcon icon="adguard" /> 家庭域名服务器

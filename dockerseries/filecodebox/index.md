@@ -1,6 +1,7 @@
 ---
 title: 文件快递柜 | Docker系列
 lastUpdated: 2025-08-06T14:09:00+8:00
+description: 使用Docker Compose部署文件快递柜FileCodeBox，实现文件的临时分享和传输。
 ---
 
 # 文件快递柜 <StopSupportBadge />
