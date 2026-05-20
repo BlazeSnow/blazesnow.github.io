@@ -6,6 +6,11 @@ description: BlazeSnow帮助网站的更新日志
 
 # <TitleIcon src="/icon/changelog.svg" /> 2026年5月
 
+## v2026.5.20.2
+
+1. 为更新日志补全描述description
+2. 为更新日志添加icon
+
 ## v2026.5.20.1
 
 1. 为网页内容补全描述description
