@@ -389,8 +389,6 @@ export default defineConfig({
         { text: '我的世界服务器', link: '/dockerseries/minecraftserver/' },
         { text: '家庭域名服务器', link: '/dockerseries/adguardhome/' },
         { text: '密码服务器', link: '/dockerseries/vaultwarden/' },
-        { text: '文件快递柜', link: '/dockerseries/filecodebox/' },
-        { text: '消息推送器', link: '/dockerseries/ntfy/' },
         { text: '智能家居中枢', link: '/dockerseries/homeassistant/' },
         { text: '语音服务器', link: '/dockerseries/teamspeak/' },
         { text: '音乐服务器', link: '/dockerseries/navidrome/' },
