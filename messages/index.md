@@ -1,5 +1,5 @@
 ---
-title: IPAbuyer
+title: MessagesEncrypter
 lastUpdated: false
 description: MessagesEncrypter用于在聊天、邮件或其他不可信渠道中传递敏感文本。
 ---
