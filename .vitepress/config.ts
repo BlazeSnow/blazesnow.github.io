@@ -107,6 +107,11 @@ export default defineConfig({
         activeMatch: '/powerplan/'
       },
       {
+        text: 'MessagesEncrypter',
+        link: '/messages/',
+        activeMatch: '/messages/'
+      },
+      {
         text: 'IPAbuyer',
         link: '/ipa/',
         activeMatch: '/ipa/'
@@ -193,7 +198,8 @@ export default defineConfig({
           text: '2026年',
           collapsed: true,
           items: [
-            { text: '2026年5月', link: '/changelog/' },
+            { text: '2026年6月', link: '/changelog/' },
+            { text: '2026年5月', link: '/changelog/2026/5' },
             { text: '2026年4月', link: '/changelog/2026/4' },
             { text: '2026年3月', link: '/changelog/2026/3' },
             { text: '2026年2月', link: '/changelog/2026/2' },
@@ -384,8 +390,6 @@ export default defineConfig({
         { text: '我的世界服务器', link: '/dockerseries/minecraftserver/' },
         { text: '家庭域名服务器', link: '/dockerseries/adguardhome/' },
         { text: '密码服务器', link: '/dockerseries/vaultwarden/' },
-        { text: '文件快递柜', link: '/dockerseries/filecodebox/' },
-        { text: '消息推送器', link: '/dockerseries/ntfy/' },
         { text: '智能家居中枢', link: '/dockerseries/homeassistant/' },
         { text: '语音服务器', link: '/dockerseries/teamspeak/' },
         { text: '音乐服务器', link: '/dockerseries/navidrome/' },

@@ -13,6 +13,11 @@ import status from "./status.vue"
         本程序针对Windows系统的电源计划，帮助用户快速切换电源计划。
       </template>
     </card>
+    <card title="MessagesEncrypter" link="/messages/" icon-src="/icon/messagesencrypter.ico">
+      <template #description>
+        MessagesEncrypter是一款面向Windows桌面端的本地公钥消息加密工具，用于在聊天、邮件或其他不可信渠道中传递敏感文本。
+      </template>
+    </card>
     <card title="IPAbuyer" link="/ipa/" icon-src="/icon/ipabuyer.ico">
       <template #description>
         刚刚拿到iPhone，受折磨于反复按下锁屏键购入App；还是担心小众优质App被下架？使用IPAbuyer，将App统统收入囊中！
