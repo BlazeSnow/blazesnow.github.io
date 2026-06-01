@@ -107,6 +107,11 @@ export default defineConfig({
         activeMatch: '/powerplan/'
       },
       {
+        text: 'MessagesEncrypter',
+        link: '/messages/',
+        activeMatch: '/messages/'
+      },
+      {
         text: 'IPAbuyer',
         link: '/ipa/',
         activeMatch: '/ipa/'
