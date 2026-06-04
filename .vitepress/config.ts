@@ -399,7 +399,7 @@ export default defineConfig({
       ],
       '/messages/': [
         { text: 'MessagesEncrypter', link: '/messages/' },
-        { text: 'protocol-v1', link: '/messages/docs/protocol-v1' }
+        { text: 'protocol-v1', link: '/messages/protocol-v1' }
       ]
     },
     //上次更新于
