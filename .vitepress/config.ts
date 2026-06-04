@@ -396,6 +396,10 @@ export default defineConfig({
         { text: '容器可视化管理', link: '/dockerseries/portainer/' },
         { text: '版本管理服务器', link: '/dockerseries/gitea/' },
         { text: '证书申请器', link: '/dockerseries/certbot/' },
+      ],
+      '/messages/': [
+        { text: 'MessagesEncrypter', link: '/messages/' },
+        { text: 'protocol-v1', link: '/messages/docs/protocol-v1' }
       ]
     },
     //上次更新于
