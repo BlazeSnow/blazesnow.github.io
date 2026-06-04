@@ -1,3 +1,8 @@
+---
+lastUpdated: false
+description: 本文档记录 MessagesEncrypter 的标准 Base64 JSON 密文包格式。
+---
+
 # MessagesEncrypter Message Format v1
 
 本文档记录 MessagesEncrypter 的标准 Base64 JSON 密文包格式。
