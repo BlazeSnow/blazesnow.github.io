@@ -12,7 +12,7 @@ description: Caddy Web服务器的简要介绍
 
 对于公网服务器上部署的服务，启用 HTTPS 是保障传输内容安全性的基础。Caddy 通过 ACME 协议自动向 Let's Encrypt 或 ZeroSSL 申请 TLS 证书，到期前自动续签，无需手动干预。
 
-但是在实际的实行过程中，受限于CDN，Caddy难以实现自动申请TLS证书，此时就需要附带插件的Caddy，通过NS服务商的APIKEY验证身份，随后自动申请TLS证书。
+但是在实际的实行过程中，受限于 CDN，Caddy 难以实现自动申请 TLS 证书，此时就需要附带插件的 Caddy，通过 NS 服务商的 API Key 验证身份，随后自动申请 TLS 证书。
 
 ## 反向代理
 
