@@ -11,9 +11,6 @@ importers:
       '@fontsource/monaspace-neon':
         specifier: ^5.2.5
         version: 5.2.5
-      '@iconify-json/simple-icons':
-        specifier: ^1.2.87
-        version: 1.2.87
       '@statuspage/status-widget':
         specifier: ^1.0.5
         version: 1.0.5
