@@ -1,6 +1,6 @@
 <script>
 import { VPLink } from 'vitepress/theme';
-import SiteIcon from '../.vitepress/theme/SiteIcon.vue';
+import SiteIcon from './SiteIcon.vue';
 
 export default {
     components: {
