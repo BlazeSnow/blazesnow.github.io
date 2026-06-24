@@ -1,7 +1,7 @@
 ---
 title: frp | 远程链路
 lastUpdated: 2026-06-24T12:00:00+8:00
-description: frp内网穿透工具，将部署在私有服务器的服务，通过公网服务器暴露给用户。
+description: frp内网穿透工具的简要介绍
 ---
 
 # <TitleIcon src="/icon/frp.svg" /> frp
