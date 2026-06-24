@@ -1,6 +1,6 @@
 ---
 title: Caddy | 远程链路
-lastUpdated: 2026-06-24T11:09:00+8:00
+lastUpdated: 2026-06-24T12:28:00+8:00
 description: Caddy Web服务器的简要介绍
 ---
 
