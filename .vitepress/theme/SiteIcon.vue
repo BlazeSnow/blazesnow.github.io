@@ -1,6 +1,5 @@
 <script setup>
 import { computed } from 'vue'
-import simpleIcons from '@iconify-json/simple-icons/icons.json'
 
 const props = defineProps({
 	icon: {
@@ -20,13 +19,16 @@ const props = defineProps({
 	}
 })
 
-const iconData = computed(() => props.icon ? simpleIcons.icons[props.icon] : null)
+const resolvedSrc = computed(() => {
+	if (props.src) return props.src
+	if (props.icon) return `/icon/${props.icon}.svg`
+	return null
+})
 </script>
 
 <template>
-	<span v-if="iconData || src" class="site-icon">
-		<svg v-if="iconData" class="site-icon__svg" aria-hidden="true" viewBox="0 0 24 24" v-html="iconData.body"></svg>
-		<img v-else class="site-icon__image" :src="src" :alt="alt" :aria-hidden="alt ? null : 'true'">
+	<span v-if="resolvedSrc || icon" class="site-icon">
+		<img v-if="resolvedSrc" class="site-icon__image" :src="resolvedSrc" :alt="alt" :aria-hidden="alt ? null : 'true'">
 	</span>
 </template>
 
@@ -41,13 +43,9 @@ const iconData = computed(() => props.icon ? simpleIcons.icons[props.icon] : nul
 	vertical-align: -0.12em;
 }
 
-.site-icon__svg,
 .site-icon__image {
 	width: 100%;
 	height: 100%;
-}
-
-.site-icon__image {
 	object-fit: contain;
 }
 </style>
