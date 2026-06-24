@@ -15,36 +15,31 @@ description: 列出BlazeSnow已停止支持和弃用的项目及功能。
 | 清除程序的卸载残留 | /windows/uninstallremnants      | 2026年5月20日 | 2026年8月20日 |
 | 清理微软商店残留   | /windows/microsoftstoreremnants | 2026年5月20日 | 2026年8月20日 |
 
-## 已弃用章节
+## 已弃用内容
 
-| 章节名称          | 路径             | 删除时间       |
-| ----------------- | ---------------- | -------------- |
-| VitePress建站教程 | /VitePress       | 2026年1月31日  |
-| 部署网站至服务器  | /WebsiteToServer | 2026年1月31日  |
-| Nginx             | /Nginx           | 2025年10月31日 |
-| Git               | /Git             | 2025年10月16日 |
-| Android           | /Android         | 2025年6月24日  |
-| Clang             | /Clang           | 2025年6月10日  |
-| CMake             | /CMake           | 2025年5月11日  |
-| Docsify建站教程   | /Docsify         | 2025年2月5日   |
-
-## 已弃用文章
-
-| 名称                                       | 路径                       | 删除时间       |
-| ------------------------------------------ | -------------------------- | -------------- |
-| 文件快递柜                                 | /dockerseries/filecodebox/ | 2026年5月25日  |
-| 消息推送器                                 | /dockerseries/ntfy/        | 2026年5月25日  |
-| SFTP                                       | /DockerSeries/SFTP         | 2026年1月31日  |
-| NFS                                        | /DockerSeries/NFS          | 2026年1月31日  |
-| Alist                                      | /DockerSeries              | 2025年6月10日  |
-| SSH连接仓库                                | /Git                       | 2025年5月11日  |
-| 非官方镜像                                 | /DockerSeries              | 2025年5月11日  |
-| 安装编辑器                                 | /CMake                     | 2025年2月16日  |
-| 进阶操作                                   | /VitePress                 | 2025年2月14日  |
-| Server安装桌面                             | /Ubuntu                    | 2024年11月20日 |
-| ICP备案                                    | /WebsiteToServer           | 2024年11月14日 |
-| 针对Google AdSense欧洲法规消息的隐私权政策 | /                          | 2024年11月14日 |
-| NCU                                        | /Nodejs                    | 2024年6月20日  |
-| 安装和卸载包                               | /Nodejs                    | 2024年6月20日  |
-| Apple设备：DOT                             | /dns                       | 2024年6月16日  |
-| 更新驱动程序                               | /Windows                   | 2024年6月16日  |
+| 名称                     | 路径                       | 删除时间       |
+| ------------------------ | -------------------------- | -------------- |
+| 文件快递柜               | /dockerseries/filecodebox/ | 2026年5月25日  |
+| 消息推送器               | /dockerseries/ntfy/        | 2026年5月25日  |
+| VitePress建站教程        | /VitePress                 | 2026年1月31日  |
+| 部署网站至服务器         | /WebsiteToServer           | 2026年1月31日  |
+| SFTP                     | /DockerSeries/SFTP         | 2026年1月31日  |
+| NFS                      | /DockerSeries/NFS          | 2026年1月31日  |
+| Nginx                    | /Nginx                     | 2025年10月31日 |
+| Git                      | /Git                       | 2025年10月16日 |
+| Android                  | /Android                   | 2025年6月24日  |
+| Alist                    | /DockerSeries              | 2025年6月10日  |
+| Clang                    | /Clang                     | 2025年6月10日  |
+| SSH连接仓库              | /Git                       | 2025年5月11日  |
+| CMake                    | /CMake                     | 2025年5月11日  |
+| 非官方镜像               | /DockerSeries              | 2025年5月11日  |
+| 安装编辑器               | /CMake                     | 2025年2月16日  |
+| 进阶操作                 | /VitePress                 | 2025年2月14日  |
+| Docsify建站教程          | /Docsify                   | 2025年2月5日   |
+| Server安装桌面           | /Ubuntu                    | 2024年11月20日 |
+| ICP备案                  | /WebsiteToServer           | 2024年11月14日 |
+| Google AdSense隐私权政策 | /                          | 2024年11月14日 |
+| NCU                      | /Nodejs                    | 2024年6月20日  |
+| 安装和卸载包             | /Nodejs                    | 2024年6月20日  |
+| Apple设备：DOT           | /dns                       | 2024年6月16日  |
+| 更新驱动程序             | /Windows                   | 2024年6月16日  |
