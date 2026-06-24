@@ -14,7 +14,7 @@ description: Certbot证书申请工具的简要介绍
 
 Certbot 是 Let's Encrypt 官方推荐的 ACME 客户端，通过命令行即可完成证书申请。相比 Caddy 内嵌的 ACME 模块，Certbot 更灵活——支持多种 DNS 插件，不受 CDN 或 HTTP 验证的限制。
 
-Certbot -> NS 服务商 API(写入 TXT 记录) -> Let's Encrypt(验证) -> 证书签发
+Certbot -> NS 服务商 API (写入 TXT 记录) -> Let's Encrypt (验证) -> 证书签发
 
 ## 容器的附加性
 
