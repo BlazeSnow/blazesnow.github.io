@@ -30,19 +30,21 @@ description: 列出BlazeSnow已停止支持和弃用的项目及功能。
 
 ## 已弃用文章
 
-| 名称                                       | 路径               | 删除时间       |
-| ------------------------------------------ | ------------------ | -------------- |
-| SFTP                                       | /DockerSeries/SFTP | 2026年1月31日  |
-| NFS                                        | /DockerSeries/NFS  | 2026年1月31日  |
-| Alist                                      | /DockerSeries      | 2025年6月10日  |
-| SSH连接仓库                                | /Git               | 2025年5月11日  |
-| 非官方镜像                                 | /DockerSeries      | 2025年5月11日  |
-| 安装编辑器                                 | /CMake             | 2025年2月16日  |
-| 进阶操作                                   | /VitePress         | 2025年2月14日  |
-| Server安装桌面                             | /Ubuntu            | 2024年11月20日 |
-| ICP备案                                    | /WebsiteToServer   | 2024年11月14日 |
-| 针对Google AdSense欧洲法规消息的隐私权政策 | /                  | 2024年11月14日 |
-| NCU                                        | /Nodejs            | 2024年6月20日  |
-| 安装和卸载包                               | /Nodejs            | 2024年6月20日  |
-| Apple设备：DOT                             | /dns               | 2024年6月16日  |
-| 更新驱动程序                               | /Windows           | 2024年6月16日  |
+| 名称                                       | 路径                       | 删除时间       |
+| ------------------------------------------ | -------------------------- | -------------- |
+| 文件快递柜                                 | /dockerseries/filecodebox/ | 2026年5月25日  |
+| 消息推送器                                 | /dockerseries/ntfy/        | 2026年5月25日  |
+| SFTP                                       | /DockerSeries/SFTP         | 2026年1月31日  |
+| NFS                                        | /DockerSeries/NFS          | 2026年1月31日  |
+| Alist                                      | /DockerSeries              | 2025年6月10日  |
+| SSH连接仓库                                | /Git                       | 2025年5月11日  |
+| 非官方镜像                                 | /DockerSeries              | 2025年5月11日  |
+| 安装编辑器                                 | /CMake                     | 2025年2月16日  |
+| 进阶操作                                   | /VitePress                 | 2025年2月14日  |
+| Server安装桌面                             | /Ubuntu                    | 2024年11月20日 |
+| ICP备案                                    | /WebsiteToServer           | 2024年11月14日 |
+| 针对Google AdSense欧洲法规消息的隐私权政策 | /                          | 2024年11月14日 |
+| NCU                                        | /Nodejs                    | 2024年6月20日  |
+| 安装和卸载包                               | /Nodejs                    | 2024年6月20日  |
+| Apple设备：DOT                             | /dns                       | 2024年6月16日  |
+| 更新驱动程序                               | /Windows                   | 2024年6月16日  |
