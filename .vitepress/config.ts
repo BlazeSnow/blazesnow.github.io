@@ -156,6 +156,11 @@ export default defineConfig({
             activeMatch: '/dns/'
           },
           {
+            text: '远程链路',
+            link: '/remote/',
+            activeMatch: '/remote/'
+          },
+          {
             text: 'Nodejs',
             link: '/nodejs/',
             activeMatch: '/nodejs/'
@@ -295,6 +300,12 @@ export default defineConfig({
         { text: 'Android设备', link: '/dns/android' },
         { text: 'Apple设备', link: '/dns/apple' },
         { text: 'DNS大全', link: '/dns/collection' }
+      ],
+      '/remote/': [
+        { text: '前言', link: '/remote/' },
+        { text: 'frp', link: '/remote/frp' },
+        { text: 'Caddy', link: '/remote/caddy' },
+        { text: 'Certbot', link: '/remote/certbot' }
       ],
       '/nodejs/': [
         { text: '前言', link: '/nodejs/' },
