@@ -20,7 +20,7 @@ description: frp内网穿透工具的简要介绍
 
 > frpc 部署在内网，负责将私有服务的流量导入隧道。
 
-私有服务(:端口) -> frpc(:localPort) -> 隧道
+私有服务(:localPort) -> frpc -> 隧道
 
 ## frps
 
