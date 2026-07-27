@@ -12,7 +12,7 @@
     "docs:preview": "vitepress preview"
   },
   "devDependencies": {
-    "@fontsource/monaspace-neon": "^5.2.5",
+    "@fontsource/monaspace-neon": "^5.3.0",
     "@statuspage/status-widget": "^1.0.5",
     "@webcomponents/webcomponentsjs": "^2.8.0",
     "vitepress": "^1.6.4"
