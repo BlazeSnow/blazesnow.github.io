@@ -34,7 +34,6 @@ MessagesEncrypter 是一款面向 Windows 桌面端的本地公钥消息加密�
 
 - 项目仓库：<https://github.com/BlazeSnow/MessagesEncrypter>
 - 项目官网：<https://www.blazesnow.com/messages/>
-- 反馈邮箱：<messages@blazesnow.com>
 
 ## 六、版权信息
 
