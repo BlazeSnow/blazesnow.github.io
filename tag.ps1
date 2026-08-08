@@ -5,7 +5,8 @@ if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 
 try {
   $version = $versionJson | ConvertFrom-Json
-} catch {
+}
+catch {
   Write-Error 'Unable to read the package version.'
   exit 1
 }
