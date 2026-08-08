@@ -44,7 +44,7 @@ description: IPA购买器，将AppStore应用一键收入囊中。
 
 登录账户安全吗？
 
-> 本软件将所有的登录信息保存于本地，不会对任何敏感信息进行上传，同时使用存储于软件数据库的随机密钥进行加密。
+> 本软件将所有的登录信息保存于本地，不会对任何敏感信息进行上传，同时使用存储于Windows凭据管理器的随机密钥对用户登录凭据进行加密。
 
 为什么不能进行付费购买？
 
@@ -53,8 +53,8 @@ description: IPA购买器，将AppStore应用一键收入囊中。
 ## 五、开发信息
 
 - 开发者：<https://github.com/ipabuyer/>
-- 代码仓库：<https://github.com/ipabuyer/gui>
-- 更新日志：<https://github.com/ipabuyer/.github/blob/main/CHANGELOG.md>
+- 代码仓库：<https://github.com/ipabuyer/ipabuyer>
+- 更新日志：<https://github.com/ipabuyer/ipabuyer/blob/main/CHANGELOG.md>
 
 ## 六、致谢
 
