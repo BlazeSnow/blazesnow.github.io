@@ -59,7 +59,7 @@ const countItems = computed(() => {
             </p>
             <p class="meta-line">
                 <template v-if="updatedTime">
-                    <span>上次更新 {{ updatedTime }}</span>
+                    <span>状态更新于 {{ updatedTime }}</span>
                     <span class="meta-sep">·</span>
                 </template>
                 <a :href="STATUS_PAGE_URL" target="_blank" rel="noopener noreferrer">前往状态页查看详情</a>
