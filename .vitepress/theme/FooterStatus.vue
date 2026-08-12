@@ -70,7 +70,6 @@ const countItems = computed(() => {
 
 <style scoped>
 .footer-status {
-    margin-top: 12px;
     font-size: 14px;
     line-height: 24px;
     color: var(--vp-c-text-2);
@@ -81,8 +80,8 @@ const countItems = computed(() => {
     align-items: center;
     gap: 6px;
     margin: 0;
-    font-weight: 600;
-    color: var(--vp-c-text-1);
+    font-weight: 500;
+    color: var(--vp-c-text-2);
 }
 
 .meta-line {
