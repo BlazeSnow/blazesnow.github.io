@@ -7,6 +7,7 @@ import FirstPartyBadge from './FirstPartyBadge.vue'
 import StopSupportBadge from './StopSupportBadge.vue'
 import TitleIcon from './TitleIcon.vue'
 import StatusDot from './StatusDot.vue'
+import FooterStatus from './FooterStatus.vue'
 import '@fontsource/monaspace-neon';
 
 export default {
@@ -19,7 +20,8 @@ export default {
 	Layout() {
 		return h(DefaultTheme.Layout, null, {
 			'not-found': () => h(layout_404),
-			'nav-bar-title-after': () => h(StatusDot)
+			'nav-bar-title-after': () => h(StatusDot),
+			'layout-bottom': () => h(FooterStatus)
 		})
 	}
 }
