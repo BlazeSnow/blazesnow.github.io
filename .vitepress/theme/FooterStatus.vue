@@ -52,10 +52,16 @@ const countItems = computed(() => {
                 <span>{{ label }}</span>
             </p>
             <p v-if="countItems.length > 0" class="meta-line">
-                <span v-for="item in countItems" :key="item">{{ item }}</span>
+                <template v-for="(item, index) in countItems" :key="index">
+                    <span v-if="index > 0" class="meta-sep">·</span>
+                    <span>{{ item }}</span>
+                </template>
             </p>
             <p class="meta-line">
-                <span v-if="updatedTime">上次更新 {{ updatedTime }}</span>
+                <template v-if="updatedTime">
+                    <span>上次更新 {{ updatedTime }}</span>
+                    <span class="meta-sep">·</span>
+                </template>
                 <a :href="STATUS_PAGE_URL" target="_blank" rel="noopener noreferrer">前往状态页查看详情</a>
             </p>
         </div>
@@ -83,8 +89,10 @@ const countItems = computed(() => {
     margin: 0;
 }
 
-.meta-line span + *::before {
-    content: ' · ';
+/* 分隔符独立成元素，避免附着在链接上继承蓝色与下划线样式 */
+.meta-sep {
+    margin: 0 6px;
+    color: var(--vp-c-text-2);
 }
 
 .meta-line a {
