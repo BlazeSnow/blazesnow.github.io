@@ -71,6 +71,7 @@ const countItems = computed(() => {
 <style scoped>
 .footer-status {
     font-size: 14px;
+    font-weight: 500;
     line-height: 24px;
     color: var(--vp-c-text-2);
 }
