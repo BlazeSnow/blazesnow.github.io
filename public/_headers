@@ -1,0 +1,12 @@
+# Cloudflare Workers 静态资源响应头（构建时会随 public/ 复制到 dist/）
+# 语法：路径模式 + 缩进的 Header: value
+
+# /assets/ 下是内容哈希产物（JS/CSS/字体/图片），可永久缓存
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# 非哈希的站点图标，短缓存
+/logo.ico
+  Cache-Control: public, max-age=86400
+/icon/*
+  Cache-Control: public, max-age=86400
