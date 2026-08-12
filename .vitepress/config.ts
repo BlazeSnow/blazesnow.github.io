@@ -191,7 +191,7 @@ export default defineConfig({
           },
           {
             text: '网站状态',
-            link: 'https://blazesnow.statuspage.io/',
+            link: 'https://status.blazesnow.com/',
             target: '_blank',
           },
         ]

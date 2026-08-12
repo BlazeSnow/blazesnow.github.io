@@ -8,7 +8,7 @@ description: 关于BlazeSnow帮助网站的域名、运行状态、技术栈和�
 
 ## 本站域名及运行状态
 
-<https://blazesnow.statuspage.io/>
+<https://status.blazesnow.com/>
 
 ## 网站创立时间
 

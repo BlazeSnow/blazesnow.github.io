@@ -1,6 +1,5 @@
 <script setup>
 import HomeCard from "./HomeCard.vue"
-import StatusWidget from "./StatusWidget.vue"
 </script>
 
 <template>
@@ -119,7 +118,6 @@ import StatusWidget from "./StatusWidget.vue"
       </template>
     </HomeCard>
   </div>
-  <StatusWidget />
 </template>
 
 <style scoped>
