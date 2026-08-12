@@ -10,6 +10,8 @@ const REFRESH_INTERVAL = 60_000
 // loading | operational | maintenance | incident | unknown
 const state = ref('loading')
 const label = ref('正在获取网站状态…')
+// 标题栏的容器节点：把圆点从标题链接内部搬出来，避免嵌套 <a>，同时让悬停显示正确的状态页地址
+const teleportTarget = ref(null)
 
 async function fetchStatus() {
     try {
@@ -36,12 +38,9 @@ async function fetchStatus() {
     }
 }
 
-function openStatusPage(event) {
-    window.open(STATUS_PAGE_URL, '_blank', 'noopener')
-}
-
 let timer
 onMounted(() => {
+    teleportTarget.value = document.querySelector('.VPNavBarTitle') ?? null
     fetchStatus()
     timer = setInterval(fetchStatus, REFRESH_INTERVAL)
 })
@@ -51,18 +50,18 @@ onUnmounted(() => {
 </script>
 
 <template>
-    <!-- 使用 span 而非 a：本组件位于标题链接内部，避免嵌套 <a> -->
-    <span
-        class="vp-status-dot"
-        role="link"
-        tabindex="0"
-        :title="label"
-        :aria-label="label"
-        @click.stop.prevent="openStatusPage"
-        @keydown.enter.prevent="openStatusPage"
-    >
-        <span class="dot" :class="state"></span>
-    </span>
+    <Teleport v-if="teleportTarget" :to="teleportTarget">
+        <a
+            class="vp-status-dot"
+            :href="STATUS_PAGE_URL"
+            target="_blank"
+            rel="noopener noreferrer"
+            :title="label"
+            :aria-label="label"
+        >
+            <span class="dot" :class="state"></span>
+        </a>
+    </Teleport>
 </template>
 
 <style scoped>
@@ -70,8 +69,9 @@ onUnmounted(() => {
     display: inline-flex;
     align-items: center;
     margin-left: 8px;
+    line-height: 0;
     cursor: pointer;
-    user-select: none;
+    text-decoration: none;
 }
 
 .dot {
@@ -108,5 +108,27 @@ onUnmounted(() => {
     50% {
         box-shadow: 0 0 0 5px rgba(239, 68, 68, 0);
     }
+}
+</style>
+
+<style>
+/* 全局样式：让标题链接与状态圆点并排，圆点紧跟标题文字。
+   这些选择器指向 VitePress 内部元素，需要非 scoped 样式才能命中。 */
+.VPNavBarTitle {
+    display: flex;
+    align-items: center;
+}
+
+.VPNavBarTitle > .title {
+    width: auto;
+}
+
+/* 标题链接宽度变为内容宽度后，侧边栏页面的分隔线移到容器上，保持通栏效果 */
+.VPNavBarTitle.has-sidebar {
+    border-bottom: 1px solid var(--vp-c-divider);
+}
+
+.VPNavBarTitle.has-sidebar > .title {
+    border-bottom-color: transparent !important;
 }
 </style>
