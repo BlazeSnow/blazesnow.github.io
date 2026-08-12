@@ -1,6 +1,6 @@
 {
   "name": "blazesnow.github.io",
-  "version": "2026.8.8.0",
+  "version": "2026.8.12.0",
   "author": {
     "name": "BlazeSnow",
     "url": "https://github.com/BlazeSnow/"
@@ -15,9 +15,7 @@
   },
   "devDependencies": {
     "@fontsource/monaspace-neon": "^5.3.0",
-    "@statuspage/status-widget": "^1.0.5",
-    "@webcomponents/webcomponentsjs": "^2.8.0",
     "vitepress": "^1.6.4",
-    "wrangler": "^4.119.0"
+    "wrangler": "^4.120.1"
   }
 }
