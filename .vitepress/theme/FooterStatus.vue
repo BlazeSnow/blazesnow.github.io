@@ -68,6 +68,14 @@ const countItems = computed(() => {
     </Teleport>
 </template>
 
+<style>
+/* 页脚段落换行优化：避免行尾出现孤立字符/词（如版权行第二行只剩「利。」）。
+   浏览器不支持 text-wrap 时自动退化为普通换行，无副作用。 */
+.VPFooter .container p {
+    text-wrap: pretty;
+}
+</style>
+
 <style scoped>
 .footer-status {
     font-size: 14px;
