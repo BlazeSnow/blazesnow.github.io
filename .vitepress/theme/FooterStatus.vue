@@ -94,10 +94,6 @@ const countItems = computed(() => {
     color: var(--vp-c-text-2);
 }
 
-.meta-line a {
-    color: var(--vp-c-brand-1);
-}
-
 .dot {
     width: 10px;
     height: 10px;
