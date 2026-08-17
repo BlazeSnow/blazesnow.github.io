@@ -42,6 +42,11 @@ import HomeCard from "./HomeCard.vue"
         通过指定OneDrive的网站的hosts，实现在封锁OneDrive的ip地址的区域使用OneDrive。
       </template>
     </HomeCard>
+    <HomeCard title="我的世界服务器部署指南" link="/mc/" icon-src="/icon/minecraft.ico">
+      <template #description>
+        使用 systemd 托管 Minecraft:Java Edition 多人游戏服务器。
+      </template>
+    </HomeCard>
   </div>
   <h2>
     Docker系列
@@ -65,11 +70,6 @@ import HomeCard from "./HomeCard.vue"
     <HomeCard title="家庭域名服务器 AdGuard Home" link="/dockerseries/adguardhome/" icon="adguard">
       <template #description>
         AdGuard Home是一种基于网络的广告和跟踪器拦截解决方案。
-      </template>
-    </HomeCard>
-    <HomeCard title="我的世界服务器 Minecraft Server" link="/dockerseries/minecraftserver/" icon-src="/icon/minecraft.ico">
-      <template #description>
-        Minecraft:Java Edition多人游戏服务器。
       </template>
     </HomeCard>
     <HomeCard title="端口转发服务器 Frp" link="/dockerseries/frps/" icon-src="/icon/frp.svg">
