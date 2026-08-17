@@ -1,6 +1,6 @@
 ---
 title: 我的世界服务器备份指南
-lastUpdated: 2026-08-17T21:57:00+8:00
+lastUpdated: 2026-08-17T22:20:00+8:00
 description: 为在Ubuntu服务器上部署的Minecraft服务器进行停服备份的指南。
 ---
 
