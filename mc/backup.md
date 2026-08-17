@@ -51,6 +51,9 @@ sudo systemctl start minecraft
 
 ## 6. 查看服务器启动状态
 
+> [!TIP]
+> 按下 Ctrl+C 退出
+
 ```shell
 sudo journalctl -u minecraft -f
 ```

@@ -97,7 +97,7 @@ sudo nano /mc/server/eula.txt
 # 启动
 sudo systemctl start minecraft
 
-# 查看日志
+# 查看日志（按下 Ctrl+C 退出）
 sudo journalctl -u minecraft -f
 ```
 

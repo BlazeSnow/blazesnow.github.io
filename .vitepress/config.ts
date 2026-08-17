@@ -371,6 +371,10 @@ export default defineConfig({
       '/messages/': [
         { text: 'MessagesEncrypter', link: '/messages/' },
         { text: 'protocol-v1', link: '/messages/protocol-v1' }
+      ],
+      '/mc/': [
+        { text: '部署指南', link: '/mc/' },
+        { text: '备份指南', link: '/mc/backup' }
       ]
     },
     //上次更新于
