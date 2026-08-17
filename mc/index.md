@@ -37,7 +37,7 @@ description: 在Ubuntu服务器上部署Minecraft服务器，并使用systemd托
 sudo useradd -r -s /usr/sbin/nologin -d /mc minecraft
 
 # 创建目录
-mkdir -p /mc/server
+sudo mkdir -p /mc/server
 
 # 将目录归属划为 minecraft 用户
 sudo chown -R minecraft:minecraft /mc/server
@@ -89,8 +89,8 @@ sudo systemctl daemon-reload
 # 启用 minecraft 服务自启动
 sudo systemctl enable minecraft
 
-# 同意 Minecraft 条款
-nano /mc/server/eula.txt
+# 同意 Minecraft 条款（将内容改为 eula=true）
+sudo nano /mc/server/eula.txt
 
 # 启动
 sudo systemctl start minecraft
