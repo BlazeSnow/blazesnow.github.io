@@ -1,25 +1,16 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue'
+import { computed, onMounted, ref } from 'vue'
 import { STATUS_PAGE_URL, useStatus } from './useStatus'
 
 // 页脚状态块：Teleport 到页脚容器内。
-// 侧边栏页面页脚被隐藏（display:none），此时不渲染也不请求。
+// 侧边栏页面的页脚整体是 display:none，块随页脚一起隐藏，无需在此判断。
 const footerEl = ref<HTMLElement | null>(null)
 
-function setupFooter() {
-    const footer = document.querySelector('.VPFooter')
-    if (!footer || getComputedStyle(footer).display === 'none') {
-        return false
-    }
-    const container = footer.querySelector('.container')
-    if (!container) {
-        return false
-    }
-    footerEl.value = container as HTMLElement
-    return true
-}
+onMounted(() => {
+    footerEl.value = document.querySelector('.VPFooter .container') ?? null
+})
 
-const { state, label, summary, updatedAt } = useStatus(setupFooter)
+const { state, label, summary, updatedAt } = useStatus()
 
 const updatedTime = computed(() => {
     if (!updatedAt.value) {
@@ -28,13 +19,13 @@ const updatedTime = computed(() => {
     return updatedAt.value.toLocaleTimeString('zh-CN', { hour12: false })
 })
 
-// 仅显示非零的统计项
+// 仅显示非零且标签行未提及的统计项：标签已含事故/维护数量，避免同一数字出现两遍
 const countItems = computed(() => {
     const items: string[] = []
-    if (summary.value.ongoingIncidents > 0) {
+    if (state.value !== 'incident' && summary.value.ongoingIncidents > 0) {
         items.push(`${summary.value.ongoingIncidents} 起进行中的事故`)
     }
-    if (summary.value.inProgressMaintenances > 0) {
+    if (state.value !== 'maintenance' && summary.value.inProgressMaintenances > 0) {
         items.push(`${summary.value.inProgressMaintenances} 项进行中的维护`)
     }
     if (summary.value.scheduledMaintenances > 0) {
