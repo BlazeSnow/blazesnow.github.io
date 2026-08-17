@@ -10,7 +10,7 @@ description: 在Ubuntu服务器上部署Minecraft服务器，并使用systemd托
 
 请先根据 [Ubuntu 系列](../ubuntu/) 完成 SSH 登录等基础准备，还需要：
 
-| 东西             | 说明                                     |
+| 名称             | 说明                                     |
 | ---------------- | ---------------------------------------- |
 | Ubuntu 服务器    | 本文基于 Ubuntu 24.04                    |
 | Java             | 本文以 openjdk21 为例                    |
