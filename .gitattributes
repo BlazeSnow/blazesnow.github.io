@@ -1,0 +1,43 @@
+# 行尾统一策略：
+# - 仓库内所有文本文件一律以 LF 存储（当前索引已是 LF，此规则确保各平台检出一致，
+#   并屏蔽 Windows 上 core.autocrlf 的隐式转换）；
+# - 站点由 GitHub Actions 在 Linux 上构建，LF 是全链路的唯一选择；
+# - 二进制文件不做任何行尾处理。
+* text=auto
+
+# 源码与文档：统一 LF
+*.md text eol=lf
+*.vue text eol=lf
+*.ts text eol=lf
+*.js text eol=lf
+*.css text eol=lf
+*.json text eol=lf
+*.jsonc text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.toml text eol=lf
+*.xml text eol=lf
+*.svg text eol=lf
+*.ps1 text eol=lf
+*.sh text eol=lf
+*.npmrc text eol=lf
+*.gitignore text eol=lf
+*.gitattributes text eol=lf
+*.lock text eol=lf
+LICENSE text eol=lf
+Caddyfile text eol=lf
+_headers text eol=lf
+
+# 二进制文件：不转换、不做差异比较
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.avif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.otf binary
+*.eot binary
