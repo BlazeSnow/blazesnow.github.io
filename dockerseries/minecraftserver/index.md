@@ -1,10 +1,13 @@
 ---
 title: 我的世界服务器 | Docker系列
-lastUpdated: 2025-08-06T14:11:00+8:00
-description: 使用Docker Compose部署Minecraft游戏服务器，支持自定义配置和模组。
+lastUpdated: 2026-08-17T22:30:00+8:00
+description: （停止支持）使用Docker Compose部署Minecraft游戏服务器，支持自定义配置和模组。
 ---
 
-# <TitleIcon src="/icon/minecraft.ico" /> 我的世界服务器
+# <TitleIcon src="/icon/minecraft.ico" /> 我的世界服务器 <StopSupportBadge />
+
+> [!DANGER]
+> 请改用新部署指南：[我的世界服务器部署指南](/mc/)
 
 ## 前言
 
