@@ -36,11 +36,11 @@ description: 在Ubuntu服务器上部署Minecraft服务器，并使用systemd托
 # 创建用户 minecraft
 sudo useradd -r -s /usr/sbin/nologin -d /mc minecraft
 
-# 创建目录
-sudo mkdir -p /mc/server
+# 创建部署根目录
+sudo mkdir -p /mc
 
 # 将目录归属划为 minecraft 用户
-sudo chown -R minecraft:minecraft /mc/server
+sudo chown minecraft:minecraft /mc
 ```
 
 ## 4. 安装服务端
@@ -49,9 +49,11 @@ sudo chown -R minecraft:minecraft /mc/server
 # 确认 Java
 java -version
 
-# 安装服务端
-cd /mc
-java -jar ./1.21.1-NeoForge_21.1.248.jar --installServer ./server
+# 创建服务端目录
+sudo -u minecraft mkdir -p /mc/server
+
+# 运行安装器
+sudo -u minecraft java -jar /mc/1.21.1-NeoForge_21.1.248.jar --installServer /mc/server
 ```
 
 ## 5. 编写 systemd 服务
