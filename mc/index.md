@@ -1,6 +1,6 @@
 ---
 title: 我的世界服务器部署指南
-lastUpdated: 2026-08-17T21:57:00+8:00
+lastUpdated: 2026-08-17T22:20:00+8:00
 description: 在Ubuntu服务器上部署Minecraft服务器，并使用systemd托管（开机自启、崩溃自动重启、优雅停服）。
 ---
 
@@ -47,6 +47,9 @@ sudo chown minecraft:minecraft /mc
 ## 4. 安装服务端
 
 ```shell
+# 安装 Java
+sudo apt update && sudo apt install openjdk-21-jre-headless
+
 # 确认 Java
 java -version
 
