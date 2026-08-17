@@ -1,10 +1,10 @@
 ---
-title: Minecraft 服务器 | Ubuntu 部署
+title: 我的世界服务器部署指南
 lastUpdated: 2026-08-17T21:45:00+8:00
 description: 在Ubuntu服务器上部署Minecraft服务器，并使用systemd托管（开机自启、崩溃自动重启、优雅停服）。
 ---
 
-# <TitleIcon src="/icon/minecraft.ico" /> Minecraft 服务器部署指南
+# <TitleIcon src="/icon/minecraft.ico" /> 我的世界服务器部署指南
 
 ## 前言
 
