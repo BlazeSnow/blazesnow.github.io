@@ -31,11 +31,26 @@ sudo systemctl stop minecraft
 ## 4. 备份服务器
 
 ```shell
-7z a -t7z -mx=9 -mmt=on /mc/backup/backup-$(date +%Y%m%d-%H%M%S).7z /mc/server
+# 生成带时间戳的归档名
+STAMP=$(date +%Y%m%d-%H%M%S)
+
+# 压缩打包 /mc/server 到备份目录
+sudo 7z a -t7z -mx=9 -mmt=on /mc/backup/backup-$STAMP.7z /mc/server
+
+# 校验归档完整性
+sudo 7z t /mc/backup/backup-$STAMP.7z
 ```
+
+校验归档完整性后，输出 Everything is Ok 即成功
 
 ## 5. 启动服务器
 
 ```shell
 sudo systemctl start minecraft
+```
+
+## 6. 查看服务器启动状态
+
+```shell
+sudo journalctl -u minecraft -f
 ```
