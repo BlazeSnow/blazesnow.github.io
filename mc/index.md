@@ -27,6 +27,7 @@ description: 在Ubuntu服务器上部署Minecraft服务器，并使用systemd托
 ```text
 /mc/
 ├── server/      服务端根目录（存档、mods、配置，服务器"本体"）
+├── backup/      备份归档
 └── 1.21.1-NeoForge_21.1.248.jar
 ```
 
