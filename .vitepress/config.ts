@@ -121,6 +121,11 @@ export default defineConfig({
         activeMatch: '/windows/',
         items: [
           {
+            text: '我的世界服务器',
+            link: '/mc/',
+            activeMatch: '/mc/'
+          },
+          {
             text: 'Windows',
             link: '/windows/',
             activeMatch: '/windows/'
