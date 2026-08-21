@@ -1,3 +1,4 @@
+/// <reference path="../env.d.ts" />
 import DefaultTheme from 'vitepress/theme'
 import type { Theme } from 'vitepress'
 import './fonts.css'
