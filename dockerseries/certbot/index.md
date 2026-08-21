@@ -75,27 +75,3 @@ sudo docker compose up
 ```
 
 程序运行完毕后，证书及私钥将创建于`/srv/certbot/conf/archive`或`/srv/certbot/conf/live`，使用前请阅读Certbot生成的README文件
-
-## 维护服务
-
-```shell
-# 停止服务
-cd /srv/certbot
-sudo docker compose down
-
-# 更新服务
-cd /srv/certbot
-sudo docker compose down
-sudo docker compose pull
-sudo docker compose up
-
-# 压缩数据文件夹
-cd /srv/certbot
-sudo tar -czf conf.tar.gz conf/
-sudo tar -czf data.tar.gz data/
-
-# 解压缩数据文件夹
-cd /srv/certbot
-sudo tar -xzf conf.tar.gz conf/
-sudo tar -xzf data.tar.gz data/
-```

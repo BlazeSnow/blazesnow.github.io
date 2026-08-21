@@ -50,28 +50,9 @@ cd /srv/homeassistant
 
 # 开始运行
 sudo docker compose up -d
+
+# 查看容器日志（按Ctrl+C退出）
+sudo docker compose logs -f
 ```
 
 在浏览器访问：`http://服务器ip地址:8123`，进入页面。
-
-## 维护服务
-
-```shell
-# 停止服务
-cd /srv/homeassistant
-sudo docker compose down
-
-# 更新服务
-cd /srv/homeassistant
-sudo docker compose down
-sudo docker compose pull
-sudo docker compose up -d
-
-# 压缩数据文件夹
-cd /srv/homeassistant
-sudo tar -czf config.tar.gz config/
-
-# 解压缩数据文件夹
-cd /srv/homeassistant
-sudo tar -xzf config.tar.gz config/
-```

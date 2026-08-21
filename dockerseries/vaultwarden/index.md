@@ -67,28 +67,9 @@ cd /srv/vaultwarden
 
 # 开始运行
 sudo docker compose up -d
+
+# 查看容器日志（按Ctrl+C退出）
+sudo docker compose logs -f
 ```
 
 在浏览器访问Caddyfile中填写的域名（此处以`https://example.com/`为例），进入页面。如果不允许新用户注册，则通过管理员后台进行注册：`https://example.com/admin/`
-
-## 维护服务
-
-```shell
-# 停止服务
-cd /srv/vaultwarden
-sudo docker compose down
-
-# 更新服务
-cd /srv/vaultwarden
-sudo docker compose down
-sudo docker compose pull
-sudo docker compose up -d
-
-# 压缩数据文件夹
-cd /srv/vaultwarden
-sudo tar -czf data.tar.gz data/
-
-# 解压缩数据文件夹
-cd /srv/vaultwarden
-sudo tar -xzf data.tar.gz data/
-```

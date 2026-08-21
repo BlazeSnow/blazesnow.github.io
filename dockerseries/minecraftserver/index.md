@@ -52,47 +52,16 @@ sudo nano docker-compose.yml
 cd /srv/minecraft
 
 # 开始运行
-sudo docker compose up
+sudo docker compose up -d
+
+# 查看容器日志（按Ctrl+C退出）
+sudo docker compose logs -f
 
 # 若显示以下内容，则运行成功
 # Done! For help, type "help"
 
-# 停止服务器
-stop
-
-# 结束Docker服务
-sudo docker compose down
-
-# 再次运行
-sudo docker compose up -d
+# 输入游戏命令“stop”
+sudo docker exec mc rcon-cli stop
 ```
 
 运行成功后，即可使用`服务器ip地址:25565`连接服务器
-
-## 维护服务
-
-```shell
-# 保存世界数据
-sudo docker exec minecraft rcon-cli save-all
-
-# 停止服务器，注意：停止服务器后仍需停止Docker服务
-sudo docker exec minecraft rcon-cli stop
-
-# 停止Docker服务
-cd /srv/minecraft
-sudo docker compose down
-
-# 更新服务
-cd /srv/minecraft
-sudo docker compose down
-sudo docker compose pull
-sudo docker compose up -d
-
-# 压缩数据文件夹
-cd /srv/minecraft
-sudo tar -czf data.tar.gz data/
-
-# 解压缩数据文件夹
-cd /srv/minecraft
-sudo tar -xzf data.tar.gz data/
-```

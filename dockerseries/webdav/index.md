@@ -46,41 +46,12 @@ cd /srv/webdav
 
 # 开始运行
 sudo docker compose up -d
+# 查看容器日志（按Ctrl+C退出）
+sudo docker compose logs -f
 ```
 
 运行成功后，即可使用`http://服务器ip地址`连接服务器
 
 ## 维护服务
 
-```shell
-# 停止服务
-cd /srv/webdav
-sudo docker compose down
-
-# 更新服务
-cd /srv/webdav
-sudo docker compose down
-sudo docker compose pull
-sudo docker compose up -d
-
-# 压缩数据文件夹
-cd /srv/webdav
-sudo tar -czf dav.tar.gz dav/
-
-# 解压缩数据文件夹
-cd /srv/webdav
-sudo tar -xzf dav.tar.gz dav/
-```
-
-## 挂载到Windows
-
-Windows默认仅支持https协议，需要调整设置以支持http协议
-
-> [!CAUTION]
-> 警告：请勿随意修改注册表，对注册表的随意修改会导致不可预知的问题
-
-1. 按下`Windows徽标`+`R`
-2. 输入`regedit`
-3. 前往`HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WebClient\Parameters`
-4. 将`BasicAuthLevel`的值由`1`改为`2`
-5. 重新启动电脑
+> 服务的停止、更新与数据备份/恢复操作，请查阅[维护服务](/dockerseries/maintain)。

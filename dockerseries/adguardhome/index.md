@@ -80,6 +80,9 @@ cd /srv/adguardhome
 # 开始运行
 sudo docker compose up -d
 
+# 查看容器日志（按Ctrl+C退出）
+sudo docker compose logs -f
+
 # 若显示以下内容，则运行成功
 # Creating adguardhome ... done
 ```
@@ -87,27 +90,3 @@ sudo docker compose up -d
 1. 在浏览器访问：<http://服务器ip地址:3000>，进入初始化服务器页面
 2. 设置服务器用户名与密码，其余保持默认
 3. 添加服务器ip地址为客户端的DNS服务器
-
-## 维护服务
-
-```shell
-# 停止服务
-cd /srv/adguardhome
-sudo docker compose down
-
-# 更新服务
-cd /srv/adguardhome
-sudo docker compose down
-sudo docker compose pull
-sudo docker compose up
-
-# 压缩数据文件夹
-cd /srv/adguardhome
-sudo tar -czf work.tar.gz work/
-sudo tar -czf conf.tar.gz conf/
-
-# 解压缩数据文件夹
-cd /srv/adguardhome
-sudo tar -xzf work.tar.gz work/
-sudo tar -xzf conf.tar.gz conf/
-```

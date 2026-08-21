@@ -50,31 +50,10 @@ cd /srv/navidrome
 
 # 开始运行
 sudo docker compose up -d
+
+# 查看容器日志（按Ctrl+C退出）
+sudo docker compose logs -f
 ```
 
 1. 运行成功后，即可使用`服务器ip地址:4533`连接服务器
 2. 音乐文件放置至：`/srv/navidrome/music`
-
-## 维护服务
-
-```shell
-# 停止服务
-cd /srv/navidrome
-sudo docker compose down
-
-# 更新服务
-cd /srv/navidrome
-sudo docker compose down
-sudo docker compose pull
-sudo docker compose up -d
-
-# 压缩数据文件夹
-cd /srv/navidrome
-sudo tar -czf data.tar.gz data/
-sudo tar -czf music.tar.gz music/
-
-# 解压缩数据文件夹
-cd /srv/navidrome
-sudo tar -xzf data.tar.gz data/
-sudo tar -xzf music.tar.gz music/
-```

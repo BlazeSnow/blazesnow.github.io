@@ -355,11 +355,12 @@ export default defineConfig({
         {
           text: '前言',
           collapsed: true,
-          items: [
-            { text: '前言', link: '/dockerseries/' },
-            { text: '命名卷', link: '/dockerseries/volumes/' },
-            { text: '网络', link: '/dockerseries/networks/' },
-          ]
+            items: [
+              { text: '前言', link: '/dockerseries/' },
+              { text: '命名卷', link: '/dockerseries/volumes/' },
+              { text: '网络', link: '/dockerseries/networks/' },
+              { text: '维护服务', link: '/dockerseries/maintain' },
+            ]
         },
         {
           text: '文件服务器',
