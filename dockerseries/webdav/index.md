@@ -46,6 +46,7 @@ cd /srv/webdav
 
 # 开始运行
 sudo docker compose up -d
+
 # 查看容器日志（按Ctrl+C退出）
 sudo docker compose logs -f
 ```
