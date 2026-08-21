@@ -1,6 +1,6 @@
 ---
 title: 我的世界服务器部署指南
-lastUpdated: 2026-08-21T16:30:00+8:00
+lastUpdated: 2026-08-21T17:17:00+8:00
 description: 在Ubuntu服务器上部署Minecraft服务器，并使用systemd托管（开机自启、崩溃自动重启、优雅停服）。
 ---
 
@@ -15,6 +15,7 @@ description: 在Ubuntu服务器上部署Minecraft服务器，并使用systemd托
 | Ubuntu 服务器    | 本文基于 Ubuntu 24.04                    |
 | Java             | 本文以 openjdk21 为例                    |
 | 服务器安装包 jar | 本文以 1.21.1-NeoForge_21.1.248.jar 为例 |
+| Golang           | 用于编译 rcon-cli                        |
 
 ## 1. 开放端口
 
