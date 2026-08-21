@@ -15,6 +15,16 @@ export default defineConfig({
     ['link',
       { rel: 'icon', href: '/logo.ico' }
     ],
+    //谷歌分析
+    ['script',
+      { src: 'https://www.googletagmanager.com/gtag/js?id=G-JTXXPWS3MD', async: true }
+    ],
+    ['script', {},
+      `window.dataLayer = window.dataLayer || [];
+       function gtag(){dataLayer.push(arguments);}
+       gtag('js', new Date());
+       gtag('config', 'G-JTXXPWS3MD');`
+    ],
   ],
   //网页地图
   sitemap: {
