@@ -22,7 +22,7 @@ description: （停止支持）使用Docker Compose部署Minecraft游戏服务�
 ## 拉取镜像
 
 ```shell
-docker pull itzg/minecraft-server:latest
+sudo docker pull itzg/minecraft-server:latest
 ```
 
 ## 开放端口
@@ -35,10 +35,10 @@ docker pull itzg/minecraft-server:latest
 
 ```shell
 # 创建并进入工作目录
-mkdir -p /srv/minecraft && cd /srv/minecraft
+sudo mkdir -p /srv/minecraft && cd /srv/minecraft
 
 # 创建并编辑docker配置文件
-nano docker-compose.yml
+sudo nano docker-compose.yml
 ```
 
 ### `docker-compose.yml`
@@ -52,7 +52,7 @@ nano docker-compose.yml
 cd /srv/minecraft
 
 # 开始运行
-docker compose up
+sudo docker compose up
 
 # 若显示以下内容，则运行成功
 # Done! For help, type "help"
@@ -61,10 +61,10 @@ docker compose up
 stop
 
 # 结束Docker服务
-docker compose down
+sudo docker compose down
 
 # 再次运行
-docker compose up -d
+sudo docker compose up -d
 ```
 
 运行成功后，即可使用`服务器ip地址:25565`连接服务器
@@ -73,26 +73,26 @@ docker compose up -d
 
 ```shell
 # 保存世界数据
-docker exec minecraft rcon-cli save-all
+sudo docker exec minecraft rcon-cli save-all
 
 # 停止服务器，注意：停止服务器后仍需停止Docker服务
-docker exec minecraft rcon-cli stop
+sudo docker exec minecraft rcon-cli stop
 
 # 停止Docker服务
 cd /srv/minecraft
-docker compose down
+sudo docker compose down
 
 # 更新服务
 cd /srv/minecraft
-docker compose down
-docker compose pull
-docker compose up -d
+sudo docker compose down
+sudo docker compose pull
+sudo docker compose up -d
 
 # 压缩数据文件夹
 cd /srv/minecraft
-tar -czf data.tar.gz data/
+sudo tar -czf data.tar.gz data/
 
 # 解压缩数据文件夹
 cd /srv/minecraft
-tar -xzf data.tar.gz data/
+sudo tar -xzf data.tar.gz data/
 ```

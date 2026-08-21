@@ -19,7 +19,7 @@ description: 使用Docker Compose部署AdGuard Home，实现家庭网络广告�
 ## 拉取镜像
 
 ```shell
-docker pull adguard/adguardhome:latest
+sudo docker pull adguard/adguardhome:latest
 ```
 
 ## 开放端口
@@ -36,10 +36,10 @@ docker pull adguard/adguardhome:latest
 
 ```shell
 # 创建并进入工作目录
-mkdir -p /srv/adguardhome && cd /srv/adguardhome
+sudo mkdir -p /srv/adguardhome && cd /srv/adguardhome
 
 # 创建并编辑docker配置文件
-nano docker-compose.yml
+sudo nano docker-compose.yml
 ```
 
 ### `docker-compose.yml`
@@ -55,10 +55,10 @@ nano docker-compose.yml
 lsof -i :53
 
 # 编辑配置文件
-nano /etc/systemd/resolved.conf
+sudo nano /etc/systemd/resolved.conf
 
 # 重启systemd-resolved
-systemctl restart systemd-resolved
+sudo systemctl restart systemd-resolved
 
 # 验证53端口占用情况
 lsof -i :53
@@ -78,7 +78,7 @@ DNSStubListener=no
 cd /srv/adguardhome
 
 # 开始运行
-docker compose up -d
+sudo docker compose up -d
 
 # 若显示以下内容，则运行成功
 # Creating adguardhome ... done
@@ -93,21 +93,21 @@ docker compose up -d
 ```shell
 # 停止服务
 cd /srv/adguardhome
-docker compose down
+sudo docker compose down
 
 # 更新服务
 cd /srv/adguardhome
-docker compose down
-docker compose pull
-docker compose up
+sudo docker compose down
+sudo docker compose pull
+sudo docker compose up
 
 # 压缩数据文件夹
 cd /srv/adguardhome
-tar -czf work.tar.gz work/
-tar -czf conf.tar.gz conf/
+sudo tar -czf work.tar.gz work/
+sudo tar -czf conf.tar.gz conf/
 
 # 解压缩数据文件夹
 cd /srv/adguardhome
-tar -xzf work.tar.gz work/
-tar -xzf conf.tar.gz conf/
+sudo tar -xzf work.tar.gz work/
+sudo tar -xzf conf.tar.gz conf/
 ```

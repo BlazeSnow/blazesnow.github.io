@@ -26,7 +26,7 @@ description: 使用Docker Compose部署frp服务端，实现内网穿透和端�
 ## 拉取镜像
 
 ```shell
-docker pull snowdreamtech/frps:alpine
+sudo docker pull snowdreamtech/frps:alpine
 ```
 
 ## 开放端口
@@ -41,13 +41,13 @@ docker pull snowdreamtech/frps:alpine
 
 ```shell
 # 创建并进入工作目录
-mkdir -p /srv/frps && cd /srv/frps
+sudo mkdir -p /srv/frps && cd /srv/frps
 
 # 创建并编辑docker配置文件
-nano docker-compose.yml
+sudo nano docker-compose.yml
 
 # 创建并编辑frps配置文件
-nano frps.toml
+sudo nano frps.toml
 ```
 
 ### `docker-compose.yml`
@@ -65,7 +65,7 @@ nano frps.toml
 cd /srv/frps
 
 # 开始运行
-docker compose up -d
+sudo docker compose up -d
 ```
 
 运行成功后，即可使用frp客户端连接服务器
@@ -75,11 +75,11 @@ docker compose up -d
 ```shell
 # 停止服务
 cd /srv/frps
-docker compose down
+sudo docker compose down
 
 # 更新服务
 cd /srv/frps
-docker compose down
-docker compose pull
-docker compose up -d
+sudo docker compose down
+sudo docker compose pull
+sudo docker compose up -d
 ```

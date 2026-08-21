@@ -26,8 +26,8 @@ description: 使用Docker Compose部署frp客户端，连接到frp服务端实�
 ## 拉取镜像
 
 ```shell
-docker pull snowdreamtech/frpc:alpine
-docker pull caddy:alpine                # 业务服务示例
+sudo docker pull snowdreamtech/frpc:alpine
+sudo docker pull caddy:alpine                # 业务服务示例
 ```
 
 ## 开放端口
@@ -38,16 +38,16 @@ docker pull caddy:alpine                # 业务服务示例
 
 ```shell
 # 创建并进入工作目录
-mkdir -p /srv/frpc && cd /srv/frpc
+sudo mkdir -p /srv/frpc && cd /srv/frpc
 
 # 创建并编辑docker配置文件
-nano docker-compose.yml
+sudo nano docker-compose.yml
 
 # 创建并编辑frpc配置文件
-nano frpc.toml
+sudo nano frpc.toml
 
 # 创建并编辑caddy配置文件
-nano Caddyfile
+sudo nano Caddyfile
 ```
 
 ### `docker-compose.yml`
@@ -69,7 +69,7 @@ nano Caddyfile
 cd /srv/frpc
 
 # 开始运行
-docker compose up -d
+sudo docker compose up -d
 ```
 
 运行成功后，即可使用`http://服务端ip:8080`连接服务器
@@ -79,11 +79,11 @@ docker compose up -d
 ```shell
 # 停止服务
 cd /srv/frpc
-docker compose down
+sudo docker compose down
 
 # 更新服务
 cd /srv/frpc
-docker compose down
-docker compose pull
-docker compose up -d
+sudo docker compose down
+sudo docker compose pull
+sudo docker compose up -d
 ```

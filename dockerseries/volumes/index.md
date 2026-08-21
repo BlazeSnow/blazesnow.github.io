@@ -12,16 +12,16 @@ description: 介绍Docker命名卷的概念和使用方法，帮助持久化容�
 
 ```shell
 # 创建命名卷
-docker volume create example_data
+sudo docker volume create example_data
 
 # 列出所有命名卷
-docker volume ls
+sudo docker volume ls
 
 # 命名卷属性
-docker volume inspect example_data
+sudo docker volume inspect example_data
 
 # 删除命名卷
-docker volume rm example_data
+sudo docker volume rm example_data
 ```
 
 ## 引用命名卷
@@ -46,10 +46,10 @@ services:
 
 ```shell
 # 创建并进入工作目录
-mkdir -p /srv/transfervolumes && cd /srv/transfervolumes
+sudo mkdir -p /srv/transfervolumes && cd /srv/transfervolumes
 
 # 创建并编辑docker配置文件
-nano docker-compose.yml
+sudo nano docker-compose.yml
 ```
 
 ### `docker-compose.yml`
@@ -69,7 +69,7 @@ nano docker-compose.yml
 cd /srv/transfervolumes
 
 # 转出命名卷
-docker compose run --rm output
+sudo docker compose run --rm output
 
 # 切换计算机
 # 将data.tar.gz拷贝至需要转入命名卷的计算机的工作目录
@@ -78,8 +78,8 @@ docker compose run --rm output
 cd /srv/transfervolumes
 
 # 创建命名卷
-docker volume create example_data
+sudo docker volume create example_data
 
 # 转入命名卷
-docker compose run --rm input
+sudo docker compose run --rm input
 ```

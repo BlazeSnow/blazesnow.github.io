@@ -24,8 +24,8 @@ description: 使用Docker Compose部署Vaultwarden密码管理器，安全存储
 ## 拉取镜像
 
 ```shell
-docker pull vaultwarden/server:alpine
-docker pull caddy:alpine
+sudo docker pull vaultwarden/server:alpine
+sudo docker pull caddy:alpine
 ```
 
 ## 开放端口
@@ -39,13 +39,13 @@ docker pull caddy:alpine
 
 ```shell
 # 创建并进入工作目录
-mkdir -p /srv/vaultwarden && cd /srv/vaultwarden
+sudo mkdir -p /srv/vaultwarden && cd /srv/vaultwarden
 
 # 创建并编辑docker配置文件
-nano docker-compose.yml
+sudo nano docker-compose.yml
 
 # 创建并编辑caddy配置文件
-nano Caddyfile
+sudo nano Caddyfile
 ```
 
 ### `docker-compose.yml`
@@ -66,7 +66,7 @@ nano Caddyfile
 cd /srv/vaultwarden
 
 # 开始运行
-docker compose up -d
+sudo docker compose up -d
 ```
 
 在浏览器访问Caddyfile中填写的域名（此处以`https://example.com/`为例），进入页面。如果不允许新用户注册，则通过管理员后台进行注册：`https://example.com/admin/`
@@ -76,19 +76,19 @@ docker compose up -d
 ```shell
 # 停止服务
 cd /srv/vaultwarden
-docker compose down
+sudo docker compose down
 
 # 更新服务
 cd /srv/vaultwarden
-docker compose down
-docker compose pull
-docker compose up -d
+sudo docker compose down
+sudo docker compose pull
+sudo docker compose up -d
 
 # 压缩数据文件夹
 cd /srv/vaultwarden
-tar -czf data.tar.gz data/
+sudo tar -czf data.tar.gz data/
 
 # 解压缩数据文件夹
 cd /srv/vaultwarden
-tar -xzf data.tar.gz data/
+sudo tar -xzf data.tar.gz data/
 ```

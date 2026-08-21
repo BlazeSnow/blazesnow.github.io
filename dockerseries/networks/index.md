@@ -30,13 +30,13 @@ services:
 
 ```shell
 # 创建名为example的桥接网络
-docker network create example
+sudo docker network create example
 
 # 列出所有网络
-docker network ls
+sudo docker network ls
 
 # 删除名为example的桥接网络
-docker network rm example
+sudo docker network rm example
 ```
 
 ### 单文件

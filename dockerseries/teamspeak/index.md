@@ -19,7 +19,7 @@ description: 使用Docker Compose部署TeamSpeak语音服务器，实现团队�
 ## 拉取镜像
 
 ```shell
-docker pull teamspeak:latest
+sudo docker pull teamspeak:latest
 ```
 
 ## 开放端口
@@ -34,10 +34,10 @@ docker pull teamspeak:latest
 
 ```shell
 # 创建并进入工作目录
-mkdir -p /srv/teamspeak && cd /srv/teamspeak
+sudo mkdir -p /srv/teamspeak && cd /srv/teamspeak
 
 # 创建并编辑docker配置文件
-nano docker-compose.yml
+sudo nano docker-compose.yml
 ```
 
 ### `docker-compose.yml`
@@ -51,7 +51,7 @@ nano docker-compose.yml
 cd /srv/teamspeak
 
 # 开始运行
-docker compose up
+sudo docker compose up
 ```
 
 1. 记录Teamspeak输出的`loginname`、`password`、`apikey`和`token`，用于管理服务器
@@ -64,19 +64,19 @@ docker compose up
 ```shell
 # 停止服务
 cd /srv/teamspeak
-docker compose down
+sudo docker compose down
 
 # 更新服务
 cd /srv/teamspeak
-docker compose down
-docker compose pull
-docker compose up -d
+sudo docker compose down
+sudo docker compose pull
+sudo docker compose up -d
 
 # 压缩数据文件夹
 cd /srv/teamspeak
-tar -czf data.tar.gz data/
+sudo tar -czf data.tar.gz data/
 
 # 解压缩数据文件夹
 cd /srv/teamspeak
-tar -xzf data.tar.gz data/
+sudo tar -xzf data.tar.gz data/
 ```

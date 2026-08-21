@@ -15,7 +15,7 @@ description: 使用Docker Compose部署FTP文件服务器的完整教程。
 ## 拉取镜像
 
 ```shell
-docker pull fauria/vsftpd:latest
+sudo docker pull fauria/vsftpd:latest
 ```
 
 ## 开放端口
@@ -30,10 +30,10 @@ docker pull fauria/vsftpd:latest
 
 ```shell
 # 创建并进入工作目录
-mkdir -p /srv/vsftpd && cd /srv/vsftpd
+sudo mkdir -p /srv/vsftpd && cd /srv/vsftpd
 
 # 创建并编辑docker配置文件
-nano docker-compose.yml
+sudo nano docker-compose.yml
 ```
 
 ### `docker-compose.yml`
@@ -47,7 +47,7 @@ nano docker-compose.yml
 cd /srv/vsftpd
 
 # 开始运行
-docker compose up -d
+sudo docker compose up -d
 ```
 
 运行成功后，即可使用`ftp://服务器ip地址`连接服务器
@@ -57,19 +57,19 @@ docker compose up -d
 ```shell
 # 停止服务
 cd /srv/vsftpd
-docker compose down
+sudo docker compose down
 
 # 更新服务
 cd /srv/vsftpd
-docker compose down
-docker compose pull
-docker compose up -d
+sudo docker compose down
+sudo docker compose pull
+sudo docker compose up -d
 
 # 压缩数据文件夹
 cd /srv/vsftpd
-tar -czf data.tar.gz data/
+sudo tar -czf data.tar.gz data/
 
 # 解压缩数据文件夹
 cd /srv/vsftpd
-tar -xzf data.tar.gz data/
+sudo tar -xzf data.tar.gz data/
 ```

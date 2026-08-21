@@ -15,7 +15,7 @@ description: 使用Docker Compose部署WebDAV文件服务器的完整教程。
 ## 拉取镜像
 
 ```bash
-docker pull bytemark/webdav:latest
+sudo docker pull bytemark/webdav:latest
 ```
 
 ## 开放端口
@@ -28,10 +28,10 @@ docker pull bytemark/webdav:latest
 
 ```shell
 # 创建并进入工作目录
-mkdir -p /srv/webdav && cd /srv/webdav
+sudo mkdir -p /srv/webdav && cd /srv/webdav
 
 # 创建并编辑docker配置文件
-nano docker-compose.yml
+sudo nano docker-compose.yml
 ```
 
 ### `docker-compose.yml`
@@ -45,7 +45,7 @@ nano docker-compose.yml
 cd /srv/webdav
 
 # 开始运行
-docker compose up -d
+sudo docker compose up -d
 ```
 
 运行成功后，即可使用`http://服务器ip地址`连接服务器
@@ -55,21 +55,21 @@ docker compose up -d
 ```shell
 # 停止服务
 cd /srv/webdav
-docker compose down
+sudo docker compose down
 
 # 更新服务
 cd /srv/webdav
-docker compose down
-docker compose pull
-docker compose up -d
+sudo docker compose down
+sudo docker compose pull
+sudo docker compose up -d
 
 # 压缩数据文件夹
 cd /srv/webdav
-tar -czf dav.tar.gz dav/
+sudo tar -czf dav.tar.gz dav/
 
 # 解压缩数据文件夹
 cd /srv/webdav
-tar -xzf dav.tar.gz dav/
+sudo tar -xzf dav.tar.gz dav/
 ```
 
 ## 挂载到Windows
