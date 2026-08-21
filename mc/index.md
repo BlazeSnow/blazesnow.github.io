@@ -1,6 +1,6 @@
 ---
 title: 我的世界服务器部署指南
-lastUpdated: 2026-08-21T17:42:00+8:00
+lastUpdated: 2026-08-21T17:53:00+8:00
 description: 在Ubuntu服务器上部署Minecraft服务器，并使用systemd托管（开机自启、崩溃自动重启、优雅停服）。
 ---
 
@@ -148,7 +148,7 @@ sudo nano /mc/server/eula.txt
 sudo systemctl start minecraft
 
 # 查看日志（按下 Ctrl+C 退出）
-sudo journalctl -u minecraft -f
+sudo journalctl -u minecraft -n 50 -lf --no-pager
 ```
 
 看到日志出现 `Done (...) !` 即启动成功，客户端用 `服务器ip:25565` 连接。
