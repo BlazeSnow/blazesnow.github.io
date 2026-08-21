@@ -2,7 +2,7 @@ services:
   vsftpd:
     image: fauria/vsftpd:latest
     container_name: vsftpd
-    restart: always
+    restart: unless-stopped
     volumes:
       - ./data:/home/vsftpd
     ports:

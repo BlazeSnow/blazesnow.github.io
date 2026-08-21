@@ -2,16 +2,17 @@ services:
   vaultwarden:
     image: vaultwarden/server:alpine
     container_name: vaultwarden
-    restart: always
+    restart: unless-stopped
     volumes:
       - ./data:/data
     environment:
-      SIGNUPS_ALLOWED: "true" # 允许注册新用户
+      SIGNUPS_ALLOWED: "false" # 不允许注册新用户
+      ADMIN_TOKEN: "PASSWORD" # 此处填写管理员密码
 
   caddy:
     image: caddy:alpine
     container_name: caddy-vaultwarden
-    restart: always
+    restart: unless-stopped
     depends_on:
       - vaultwarden
     volumes:

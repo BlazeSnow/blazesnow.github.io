@@ -19,8 +19,8 @@ description: 使用Docker Compose部署Gitea，搭建轻量级的Git版本管理
 ## 拉取镜像
 
 ```shell
-docker pull gitea/gitea:latest
-docker pull mysql:lts
+sudo docker pull gitea/gitea:latest
+sudo docker pull mysql:lts
 ```
 
 ## 开放端口
@@ -33,10 +33,10 @@ docker pull mysql:lts
 
 ```shell
 # 创建并进入工作目录
-mkdir -p /srv/gitea && cd /srv/gitea
+sudo mkdir -p /srv/gitea && cd /srv/gitea
 
 # 创建并编辑docker配置文件
-nano docker-compose.yml
+sudo nano docker-compose.yml
 ```
 
 ### `docker-compose.yml`
@@ -50,31 +50,10 @@ nano docker-compose.yml
 cd /srv/gitea
 
 # 开始运行
-docker compose up -d
+sudo docker compose up -d
+
+# 查看容器日志（按Ctrl+C退出）
+sudo docker compose logs -f
 ```
 
 运行成功后，即可使用`http://服务器ip地址:3000`连接服务器
-
-## 维护服务
-
-```shell
-# 停止服务
-cd /srv/gitea
-docker compose down
-
-# 更新服务
-cd /srv/gitea
-docker compose down
-docker compose pull
-docker compose up -d
-
-# 压缩数据文件夹
-cd /srv/gitea
-tar -czf gitea.tar.gz gitea/
-tar -czf mysql.tar.gz mysql/
-
-# 解压缩数据文件夹
-cd /srv/gitea
-tar -xzf gitea.tar.gz gitea/
-tar -xzf mysql.tar.gz mysql/
-```

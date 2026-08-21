@@ -19,7 +19,7 @@ description: 使用Docker Compose部署TeamSpeak语音服务器，实现团队�
 ## 拉取镜像
 
 ```shell
-docker pull teamspeak:latest
+sudo docker pull teamspeak:latest
 ```
 
 ## 开放端口
@@ -34,10 +34,10 @@ docker pull teamspeak:latest
 
 ```shell
 # 创建并进入工作目录
-mkdir -p /srv/teamspeak && cd /srv/teamspeak
+sudo mkdir -p /srv/teamspeak && cd /srv/teamspeak
 
 # 创建并编辑docker配置文件
-nano docker-compose.yml
+sudo nano docker-compose.yml
 ```
 
 ### `docker-compose.yml`
@@ -51,32 +51,11 @@ nano docker-compose.yml
 cd /srv/teamspeak
 
 # 开始运行
-docker compose up
+sudo docker compose up -d
+
+# 查看容器日志（按Ctrl+C退出）
+sudo docker compose logs -f
 ```
 
 1. 记录Teamspeak输出的`loginname`、`password`、`apikey`和`token`，用于管理服务器
-2. 按下`Ctrl`+`C`中止容器
-3. 再次运行：`docker compose up -d`
-4. 在Teamspeak客户端访问：`服务器ip地址`，进入服务器。
-
-## 维护服务
-
-```shell
-# 停止服务
-cd /srv/teamspeak
-docker compose down
-
-# 更新服务
-cd /srv/teamspeak
-docker compose down
-docker compose pull
-docker compose up -d
-
-# 压缩数据文件夹
-cd /srv/teamspeak
-tar -czf data.tar.gz data/
-
-# 解压缩数据文件夹
-cd /srv/teamspeak
-tar -xzf data.tar.gz data/
-```
+2. 在Teamspeak客户端访问：`服务器ip地址`，进入服务器。

@@ -1,6 +1,6 @@
 ---
 title: 密码服务器 | Docker系列
-lastUpdated: 2025-08-06T18:41:00+8:00
+lastUpdated: 2026-08-21T09:35:00+8:00
 description: 使用Docker Compose部署Vaultwarden密码管理器，安全存储和管理密码。
 ---
 
@@ -24,8 +24,8 @@ description: 使用Docker Compose部署Vaultwarden密码管理器，安全存储
 ## 拉取镜像
 
 ```shell
-docker pull vaultwarden/server:alpine
-docker pull caddy:alpine
+sudo docker pull vaultwarden/server:alpine
+sudo docker pull caddy:alpine
 ```
 
 ## 开放端口
@@ -39,13 +39,13 @@ docker pull caddy:alpine
 
 ```shell
 # 创建并进入工作目录
-mkdir -p /srv/vaultwarden && cd /srv/vaultwarden
+sudo mkdir -p /srv/vaultwarden && cd /srv/vaultwarden
 
 # 创建并编辑docker配置文件
-nano docker-compose.yml
+sudo nano docker-compose.yml
 
 # 创建并编辑caddy配置文件
-nano Caddyfile
+sudo nano Caddyfile
 ```
 
 ### `docker-compose.yml`
@@ -54,10 +54,10 @@ nano Caddyfile
 
 ### `Caddyfile`
 
-<<< @/dockerseries/vaultwarden/Caddyfile
-
 > [!TIP]
-> 如需将服务器关联至域名，则将`Caddyfile`中的`:443`修改为域名，并删去`tls`，只保留`reverse_proxy vaultwarden:80`。此时，Caddy会自动申请、管理TLS证书并执行自动HTTPS。
+> 注意此处需要将域名与服务器IP地址进行绑定
+
+<<< @/dockerseries/vaultwarden/Caddyfile
 
 ## 开始运行
 
@@ -66,32 +66,10 @@ nano Caddyfile
 cd /srv/vaultwarden
 
 # 开始运行
-docker compose up -d
+sudo docker compose up -d
+
+# 查看容器日志（按Ctrl+C退出）
+sudo docker compose logs -f
 ```
 
-在浏览器访问：`https://服务器ip地址`，进入页面。因为证书与私钥为自签名，浏览器会警告网页不安全，在浏览器中选择信任该网页，然后即可正常访问。
-
-> [!TIP]
-> 将服务器关联至域名后，证书受信任，服务器可用于Bitwarden App。
-
-## 维护服务
-
-```shell
-# 停止服务
-cd /srv/vaultwarden
-docker compose down
-
-# 更新服务
-cd /srv/vaultwarden
-docker compose down
-docker compose pull
-docker compose up -d
-
-# 压缩数据文件夹
-cd /srv/vaultwarden
-tar -czf data.tar.gz data/
-
-# 解压缩数据文件夹
-cd /srv/vaultwarden
-tar -xzf data.tar.gz data/
-```
+在浏览器访问Caddyfile中填写的域名（此处以`https://example.com/`为例），进入页面。如果不允许新用户注册，则通过管理员后台进行注册：`https://example.com/admin/`

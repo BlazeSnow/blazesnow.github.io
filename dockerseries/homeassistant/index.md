@@ -19,7 +19,7 @@ description: 使用Docker Compose部署Home Assistant智能家居平台，统一
 ## 拉取镜像
 
 ```shell
-docker pull homeassistant/home-assistant:stable
+sudo docker pull homeassistant/home-assistant:stable
 ```
 
 ## 开放端口
@@ -32,10 +32,10 @@ docker pull homeassistant/home-assistant:stable
 
 ```shell
 # 创建并进入工作目录
-mkdir -p /srv/homeassistant && cd /srv/homeassistant
+sudo mkdir -p /srv/homeassistant && cd /srv/homeassistant
 
 # 创建并编辑docker配置文件
-nano docker-compose.yml
+sudo nano docker-compose.yml
 ```
 
 ### `docker-compose.yml`
@@ -49,29 +49,10 @@ nano docker-compose.yml
 cd /srv/homeassistant
 
 # 开始运行
-docker compose up -d
+sudo docker compose up -d
+
+# 查看容器日志（按Ctrl+C退出）
+sudo docker compose logs -f
 ```
 
 在浏览器访问：`http://服务器ip地址:8123`，进入页面。
-
-## 维护服务
-
-```shell
-# 停止服务
-cd /srv/homeassistant
-docker compose down
-
-# 更新服务
-cd /srv/homeassistant
-docker compose down
-docker compose pull
-docker compose up -d
-
-# 压缩数据文件夹
-cd /srv/homeassistant
-tar -czf config.tar.gz config/
-
-# 解压缩数据文件夹
-cd /srv/homeassistant
-tar -xzf config.tar.gz config/
-```

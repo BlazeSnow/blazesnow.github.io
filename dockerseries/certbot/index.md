@@ -24,7 +24,7 @@ description: 使用Docker Compose部署Certbot，自动申请和续期SSL/TLS证
 ## 拉取镜像
 
 ```shell
-docker pull certbot/dns-cloudflare:latest
+sudo docker pull certbot/dns-cloudflare:latest
 ```
 
 ## 开放端口
@@ -44,13 +44,13 @@ docker pull certbot/dns-cloudflare:latest
 
 ```shell
 # 创建并进入工作目录
-mkdir -p /srv/certbot && cd /srv/certbot
+sudo mkdir -p /srv/certbot && cd /srv/certbot
 
 # 创建并编辑docker配置文件
-nano docker-compose.yml
+sudo nano docker-compose.yml
 
 # 创建并编辑Cloudflare API密钥文件
-nano apikey.ini
+sudo nano apikey.ini
 ```
 
 ### `docker-compose.yml`
@@ -71,31 +71,7 @@ dns_cloudflare_api_token = example
 cd /srv/certbot
 
 # 开始运行
-docker compose up
+sudo docker compose up
 ```
 
 程序运行完毕后，证书及私钥将创建于`/srv/certbot/conf/archive`或`/srv/certbot/conf/live`，使用前请阅读Certbot生成的README文件
-
-## 维护服务
-
-```shell
-# 停止服务
-cd /srv/certbot
-docker compose down
-
-# 更新服务
-cd /srv/certbot
-docker compose down
-docker compose pull
-docker compose up
-
-# 压缩数据文件夹
-cd /srv/certbot
-tar -czf conf.tar.gz conf/
-tar -czf data.tar.gz data/
-
-# 解压缩数据文件夹
-cd /srv/certbot
-tar -xzf conf.tar.gz conf/
-tar -xzf data.tar.gz data/
-```

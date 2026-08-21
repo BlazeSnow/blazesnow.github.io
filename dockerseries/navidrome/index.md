@@ -4,7 +4,7 @@ lastUpdated: 2025-08-06T14:11:00+8:00
 description: 使用Docker Compose部署Navidrome音乐服务器，随时随地播放个人音乐库。
 ---
 
-# <TitleIcon src="/icon/navidrome.svg" /> 音乐服务器
+# <TitleIcon icon="navidrome" /> 音乐服务器
 
 ## 前言
 
@@ -19,7 +19,7 @@ description: 使用Docker Compose部署Navidrome音乐服务器，随时随地�
 ## 拉取镜像
 
 ```shell
-docker pull deluan/navidrome:latest
+sudo docker pull deluan/navidrome:latest
 ```
 
 ## 开放端口
@@ -32,10 +32,10 @@ docker pull deluan/navidrome:latest
 
 ```shell
 # 创建并进入工作目录
-mkdir -p /srv/navidrome && cd /srv/navidrome
+sudo mkdir -p /srv/navidrome && cd /srv/navidrome
 
 # 创建并编辑docker配置文件
-nano docker-compose.yml
+sudo nano docker-compose.yml
 ```
 
 ### `docker-compose.yml`
@@ -49,32 +49,11 @@ nano docker-compose.yml
 cd /srv/navidrome
 
 # 开始运行
-docker compose up -d
+sudo docker compose up -d
+
+# 查看容器日志（按Ctrl+C退出）
+sudo docker compose logs -f
 ```
 
 1. 运行成功后，即可使用`服务器ip地址:4533`连接服务器
 2. 音乐文件放置至：`/srv/navidrome/music`
-
-## 维护服务
-
-```shell
-# 停止服务
-cd /srv/navidrome
-docker compose down
-
-# 更新服务
-cd /srv/navidrome
-docker compose down
-docker compose pull
-docker compose up -d
-
-# 压缩数据文件夹
-cd /srv/navidrome
-tar -czf data.tar.gz data/
-tar -czf music.tar.gz music/
-
-# 解压缩数据文件夹
-cd /srv/navidrome
-tar -xzf data.tar.gz data/
-tar -xzf music.tar.gz music/
-```

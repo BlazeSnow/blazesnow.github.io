@@ -4,7 +4,7 @@ services:
     container_name: minecraft
     tty: true
     stdin_open: true
-    restart: always
+    restart: unless-stopped
     ports:
       - 25565:25565
     volumes:

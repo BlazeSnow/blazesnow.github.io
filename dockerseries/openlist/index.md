@@ -4,7 +4,7 @@ lastUpdated: 2025-10-16T22:21:00+8:00
 description: 使用Docker Compose部署文件列表服务器openlist，通过网页浏览和下载文件。
 ---
 
-# <TitleIcon src="/icon/openlist.svg" /> 文件列表服务器
+# <TitleIcon icon="openlist" /> 文件列表服务器
 
 ## 前言
 
@@ -21,7 +21,7 @@ description: 使用Docker Compose部署文件列表服务器openlist，通过网
 ## 拉取镜像
 
 ```shell
-docker pull openlistteam/openlist:latest
+sudo docker pull openlistteam/openlist:latest
 ```
 
 ## 开放端口
@@ -34,10 +34,10 @@ docker pull openlistteam/openlist:latest
 
 ```shell
 # 创建并进入工作目录
-mkdir -p /srv/openlist && cd /srv/openlist
+sudo mkdir -p /srv/openlist && cd /srv/openlist
 
 # 创建并编辑docker配置文件
-nano docker-compose.yml
+sudo nano docker-compose.yml
 ```
 
 ### `docker-compose.yml`
@@ -51,29 +51,10 @@ nano docker-compose.yml
 cd /srv/openlist
 
 # 开始运行
-docker compose up -d
+sudo docker compose up -d
+
+# 查看容器日志（按Ctrl+C退出）
+sudo docker compose logs -f
 ```
 
 运行成功后，即可使用`http://服务器ip地址:5244`连接服务器
-
-## 维护服务
-
-```shell
-# 停止服务
-cd /srv/openlist
-docker compose down
-
-# 更新服务
-cd /srv/openlist
-docker compose down
-docker compose pull
-docker compose up -d
-
-# 压缩数据文件夹
-cd /srv/openlist
-tar -czf data.tar.gz data/
-
-# 解压缩数据文件夹
-cd /srv/openlist
-tar -xzf data.tar.gz data/
-```

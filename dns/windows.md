@@ -4,7 +4,7 @@ lastUpdated: 2025-08-04T21:22:00+8:00
 description: 在Windows设备上配置DNS over HTTPS（DoH）加密DNS的方法。
 ---
 
-# <TitleIcon src="/icon/dns.svg" /> Windows设备
+# <TitleIcon icon="dns" /> Windows设备
 
 > [!TIP]
 > 若为以太网用户，则打开以太网设置：[点击此处跳转](ms-settings:network-ethernet)

@@ -15,6 +15,16 @@ export default defineConfig({
     ['link',
       { rel: 'icon', href: '/logo.ico' }
     ],
+    //谷歌分析
+    ['script',
+      { src: 'https://www.googletagmanager.com/gtag/js?id=G-JTXXPWS3MD', async: '' }
+    ],
+    ['script', {},
+      `window.dataLayer = window.dataLayer || [];
+       function gtag(){dataLayer.push(arguments);}
+       gtag('js', new Date());
+       gtag('config', 'G-JTXXPWS3MD');`
+    ],
   ],
   //网页地图
   sitemap: {
@@ -345,11 +355,12 @@ export default defineConfig({
         {
           text: '前言',
           collapsed: true,
-          items: [
-            { text: '前言', link: '/dockerseries/' },
-            { text: '命名卷', link: '/dockerseries/volumes/' },
-            { text: '网络', link: '/dockerseries/networks/' },
-          ]
+            items: [
+              { text: '前言', link: '/dockerseries/' },
+              { text: '命名卷', link: '/dockerseries/volumes/' },
+              { text: '网络', link: '/dockerseries/networks/' },
+              { text: '维护服务', link: '/dockerseries/maintain' },
+            ]
         },
         {
           text: '文件服务器',

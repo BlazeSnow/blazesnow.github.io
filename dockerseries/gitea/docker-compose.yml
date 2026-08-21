@@ -2,7 +2,7 @@ services:
   gitea:
     image: gitea/gitea:latest
     container_name: gitea
-    restart: always
+    restart: unless-stopped
     depends_on:
       - mysql
     volumes:
@@ -23,7 +23,7 @@ services:
   mysql:
     image: mysql:lts
     container_name: mysql
-    restart: always
+    restart: unless-stopped
     volumes:
       - ./mysql:/var/lib/mysql
     environment:
