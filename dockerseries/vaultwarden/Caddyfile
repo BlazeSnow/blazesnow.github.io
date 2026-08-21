@@ -1,6 +1,4 @@
-:443 {
-	tls internal {
-		on_demand
-	}
+# 此处以 example.com 为例
+https://example.com {
 	reverse_proxy vaultwarden:80
 }
