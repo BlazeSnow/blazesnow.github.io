@@ -19,8 +19,8 @@ description: 使用Docker Compose部署Portainer，通过Web界面可视化管�
 ## 拉取镜像
 
 ```shell
-docker pull portainer/portainer-ce:alpine
-docker pull portainer/agent:alpine
+sudo docker pull portainer/portainer-ce:alpine
+sudo docker pull portainer/agent:alpine
 ```
 
 ## 开放端口
@@ -34,10 +34,10 @@ docker pull portainer/agent:alpine
 
 ```shell
 # 创建并进入工作目录
-mkdir -p /srv/portainer && cd /srv/portainer
+sudo mkdir -p /srv/portainer && cd /srv/portainer
 
 # 创建并编辑docker配置文件
-nano docker-compose.yml
+sudo nano docker-compose.yml
 ```
 
 ### `docker-compose.yml`
@@ -51,29 +51,10 @@ nano docker-compose.yml
 cd /srv/portainer
 
 # 开始运行
-docker compose up -d
+sudo docker compose up -d
+
+# 查看容器日志（按Ctrl+C退出）
+sudo docker compose logs -f
 ```
 
 运行成功后，即可使用`https://服务器ip地址:9443`连接服务器
-
-## 维护服务
-
-```shell
-# 停止服务
-cd /srv/portainer
-docker compose down
-
-# 更新服务
-cd /srv/portainer
-docker compose down
-docker compose pull
-docker compose up -d
-
-# 压缩数据文件夹
-cd /srv/portainer
-tar -czf data.tar.gz data/
-
-# 解压缩数据文件夹
-cd /srv/portainer
-tar -xzf data.tar.gz data/
-```

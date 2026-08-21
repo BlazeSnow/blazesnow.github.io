@@ -4,7 +4,7 @@ lastUpdated: 2025-08-04T21:28:00+8:00
 description: DNS加密技术的前言，介绍DNS over HTTPS和DNS over TLS的基本概念及本系列文章的主要内容。
 ---
 
-# <TitleIcon src="/icon/dns.svg" /> 前言
+# <TitleIcon icon="dns" /> 前言
 
 > 本页面摘自Wikipedia：[点击查看原链接](https://en.wikipedia.org/wiki/Domain_Name_System)
 

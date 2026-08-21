@@ -1,0 +1,148 @@
+{
+  "groups": [
+    {
+      "title": "特色内容",
+      "cards": [
+        {
+          "title": "PowerPlan",
+          "link": "/powerplan/",
+          "iconSrc": "/icon/powerplan.ico",
+          "description": "本程序针对 Windows 系统的电源计划，帮助用户快速切换电源计划。"
+        },
+        {
+          "title": "MessagesEncrypter",
+          "link": "/messages/",
+          "iconSrc": "/icon/messagesencrypter.ico",
+          "description": "MessagesEncrypter 是一款面向 Windows 桌面端的本地公钥消息加密工具，用于在聊天、邮件或其他不可信渠道中传递敏感文本。"
+        },
+        {
+          "title": "IPAbuyer",
+          "link": "/ipa/",
+          "iconSrc": "/icon/ipabuyer.ico",
+          "description": "刚刚拿到 iPhone，受折磨于反复按下锁屏键购入 App；还是担心小众优质 App 被下架？使用 IPAbuyer，将 App 统统收入囊中！"
+        },
+        {
+          "title": "WOWS-IME",
+          "link": "/wows/",
+          "iconSrc": "/icon/wows-ime.ico",
+          "description": "本程序针对游戏《战舰世界》的中文输入法的配置文件，目的为修订配置文件以支持更多的中文输入法。"
+        },
+        {
+          "title": "ComposeBuilder",
+          "link": "/composebuilder/",
+          "icon": "docker",
+          "description": "ComposeBuilder 是一个用于快速生成 docker-compose.yml 的工具。"
+        },
+        {
+          "title": "ImagePorter",
+          "link": "/imageporter/",
+          "icon": "docker",
+          "description": "ImagePorter 是一个用于同步 Docker 镜像的 Docker 镜像。"
+        },
+        {
+          "title": "OneDriveHosts",
+          "link": "/onedrivehosts/",
+          "icon": "microsoftonedrive",
+          "description": "通过指定 OneDrive 的网站的 hosts，实现在封锁 OneDrive 的 ip 地址的区域使用 OneDrive。"
+        },
+        {
+          "title": "我的世界服务器部署指南",
+          "link": "/mc/",
+          "icon": "minecraft",
+          "description": "使用 systemd 托管 Minecraft:Java Edition 多人游戏服务器。"
+        }
+      ]
+    },
+    {
+      "title": "Docker 系列",
+      "cards": [
+        {
+          "title": "语音服务器",
+          "subtitle": "TeamSpeak",
+          "link": "/dockerseries/teamspeak/",
+          "icon": "teamspeak",
+          "description": "用水晶般透亮明晰的声音与您的队友跨平台交流，体验军用级安全性、无延迟的性能和无与伦比的可靠性和正常运行时间。"
+        },
+        {
+          "title": "版本管理服务器",
+          "subtitle": "Gitea",
+          "link": "/dockerseries/gitea/",
+          "icon": "gitea",
+          "description": "出色的自托管选项，为团队和开发人员带来高效率，同时也简化了从计划到生产的操作。"
+        },
+        {
+          "title": "智能家居中枢",
+          "subtitle": "Home Assistant",
+          "link": "/dockerseries/homeassistant/",
+          "icon": "homeassistant",
+          "description": "把本地控制和隐私放在首位的开源家庭自动化。由世界各地的工匠和 DIY 爱好者社区提供动力。"
+        },
+        {
+          "title": "家庭域名服务器",
+          "subtitle": "AdGuard Home",
+          "link": "/dockerseries/adguardhome/",
+          "icon": "adguard",
+          "description": "AdGuard Home 是一种基于网络的广告和跟踪器拦截解决方案。"
+        },
+        {
+          "title": "端口转发服务器",
+          "subtitle": "Frp",
+          "link": "/dockerseries/frps/",
+          "icon": "frp",
+          "description": "Frp 采用 C/S 模式，通过访问暴露在服务器上的端口，反向代理到处于内网的服务。"
+        },
+        {
+          "title": "文件列表服务器",
+          "subtitle": "OpenList",
+          "link": "/dockerseries/openlist/",
+          "icon": "openlist",
+          "description": "一个支持多种存储的文件列表程序，使用 Gin 和 SolidJS。"
+        },
+        {
+          "title": "音乐服务器",
+          "subtitle": "Navidrome",
+          "link": "/dockerseries/navidrome/",
+          "icon": "navidrome",
+          "description": "Navidrome 允许您通过现代 Web UI 和广泛的第三方兼容移动应用程序从任何地方享受您的音乐收藏。"
+        },
+        {
+          "title": "证书申请器",
+          "subtitle": "Certbot",
+          "link": "/dockerseries/certbot/",
+          "icon": "letsencrypt",
+          "description": "Certbot 是一个免费的开源软件工具，可以自动在手动管理的网站上使用 Let's Encrypt 证书来启用 HTTPS。"
+        },
+        {
+          "title": "容器可视化管理",
+          "subtitle": "Portainer",
+          "link": "/dockerseries/portainer/",
+          "icon": "portainer",
+          "description": "Portainer 提供了一个企业级的容器管理平台。"
+        }
+      ]
+    },
+    {
+      "title": "更多内容",
+      "cards": [
+        {
+          "title": "Windows",
+          "link": "/windows/",
+          "icon": "windows",
+          "description": "Windows 操作系统是微软以图形用户界面为主推出的一系列专有商业软件操作系统。"
+        },
+        {
+          "title": "Ubuntu",
+          "link": "/ubuntu/",
+          "icon": "ubuntu",
+          "description": "Ubuntu 是基于 Debian，以桌面应用为主的 Linux 发行版。"
+        },
+        {
+          "title": "DNS 加密",
+          "link": "/dns/",
+          "icon": "dns",
+          "description": "DNS 加密可以保护用户的上网隐私，防止 DNS 查询被窃听、篡改或跟踪。"
+        }
+      ]
+    }
+  ]
+}

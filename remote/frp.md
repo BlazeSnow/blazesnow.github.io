@@ -4,7 +4,7 @@ lastUpdated: 2026-06-24T12:00:00+8:00
 description: frp内网穿透工具的简要介绍
 ---
 
-# <TitleIcon src="/icon/frp.svg" /> frp
+# <TitleIcon icon="frp" /> frp
 
 > frp 对应本章前言的方案①：部署在私有服务器的服务 -> 公网服务器 -> 用户
 

@@ -6,7 +6,7 @@ services:
   openlist:
     image: openlistteam/openlist:latest
     container_name: openlist
-    restart: always
+    restart: unless-stopped
     user: 0:0 #使用root用户
     volumes:
       - ./data:/opt/openlist/data

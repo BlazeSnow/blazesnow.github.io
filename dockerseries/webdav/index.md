@@ -4,7 +4,7 @@ lastUpdated: 2025-08-06T14:18:00+8:00
 description: 使用Docker Compose部署WebDAV文件服务器的完整教程。
 ---
 
-# <TitleIcon src="/icon/file.svg" /> Webdav
+# <TitleIcon icon="file" /> Webdav
 
 ## 前言
 
@@ -15,7 +15,7 @@ description: 使用Docker Compose部署WebDAV文件服务器的完整教程。
 ## 拉取镜像
 
 ```bash
-docker pull bytemark/webdav:latest
+sudo docker pull bytemark/webdav:latest
 ```
 
 ## 开放端口
@@ -28,10 +28,10 @@ docker pull bytemark/webdav:latest
 
 ```shell
 # 创建并进入工作目录
-mkdir -p /srv/webdav && cd /srv/webdav
+sudo mkdir -p /srv/webdav && cd /srv/webdav
 
 # 创建并编辑docker配置文件
-nano docker-compose.yml
+sudo nano docker-compose.yml
 ```
 
 ### `docker-compose.yml`
@@ -45,42 +45,14 @@ nano docker-compose.yml
 cd /srv/webdav
 
 # 开始运行
-docker compose up -d
+sudo docker compose up -d
+
+# 查看容器日志（按Ctrl+C退出）
+sudo docker compose logs -f
 ```
 
 运行成功后，即可使用`http://服务器ip地址`连接服务器
 
 ## 维护服务
 
-```shell
-# 停止服务
-cd /srv/webdav
-docker compose down
-
-# 更新服务
-cd /srv/webdav
-docker compose down
-docker compose pull
-docker compose up -d
-
-# 压缩数据文件夹
-cd /srv/webdav
-tar -czf dav.tar.gz dav/
-
-# 解压缩数据文件夹
-cd /srv/webdav
-tar -xzf dav.tar.gz dav/
-```
-
-## 挂载到Windows
-
-Windows默认仅支持https协议，需要调整设置以支持http协议
-
-> [!CAUTION]
-> 警告：请勿随意修改注册表，对注册表的随意修改会导致不可预知的问题
-
-1. 按下`Windows徽标`+`R`
-2. 输入`regedit`
-3. 前往`HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WebClient\Parameters`
-4. 将`BasicAuthLevel`的值由`1`改为`2`
-5. 重新启动电脑
+> 服务的停止、更新与数据备份/恢复操作，请查阅[维护服务](/dockerseries/maintain)。

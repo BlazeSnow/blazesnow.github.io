@@ -2,7 +2,7 @@ services:
   frps:
     image: snowdreamtech/frps:alpine
     container_name: frps
-    restart: always
+    restart: unless-stopped
     network_mode: "host"
     volumes:
       - ./frps.toml:/etc/frp/frps.toml:ro
