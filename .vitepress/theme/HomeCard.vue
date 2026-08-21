@@ -31,12 +31,19 @@ export default {
             required: false,
             default: '_self'
         }
+    },
+    computed: {
+        linkLabel() {
+            const suffix = this.target === '_blank' ? '，在新窗口打开' : ''
+            return `${this.title}${suffix}`
+        }
     }
 };
 </script>
 
 <template>
-    <div class="card">
+    <VPLink class="card" :href="link" :target="target === '_blank' ? '_blank' : null"
+        :rel="target === '_blank' ? 'noopener noreferrer' : null" :aria-label="linkLabel">
         <div class="content">
             <h3 class="title">
                 <SiteIcon class="icon" :icon="icon" :src="iconSrc" />
@@ -46,11 +53,7 @@ export default {
                 <slot name="description"></slot>
             </p>
         </div>
-        <VPLink class="jumpbutton" :href="link" :target="target === '_blank' ? '_blank' : null"
-            :rel="target === '_blank' ? 'noopener noreferrer' : null">
-            前往查看
-        </VPLink>
-    </div>
+    </VPLink>
 </template>
 
 <style scoped>
@@ -65,11 +68,17 @@ export default {
     border-radius: 8px;
     transition: border-color 0.3s ease-in-out;
     color: var(--vp-c-text-1);
-    cursor: default;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .card:hover {
     border-color: var(--vp-c-brand-1);
+}
+
+.card:focus-visible {
+    outline: 2px solid var(--vp-c-brand-1);
+    outline-offset: 2px;
 }
 
 .title {
@@ -101,21 +110,6 @@ export default {
     text-overflow: ellipsis;
 }
 
-.jumpbutton {
-    align-self: flex-start;
-    margin-top: 1.25rem;
-    padding: 0.5rem 1rem;
-    background-color: transparent;
-    border: 1px solid var(--vp-c-brand-1);
-    color: var(--vp-c-brand-1);
-    border-radius: 6px;
-    text-decoration: none;
-    text-align: center;
-    font-size: 1rem;
-    font-weight: 500;
-    transition: background-color 0.3s, color 0.3s;
-    cursor: pointer;
-}
 
 .jumpbutton:hover {
     background-color: var(--vp-c-brand-1);
