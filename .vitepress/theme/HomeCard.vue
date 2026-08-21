@@ -80,7 +80,7 @@ export default {
     background: var(--vp-custom-block-info-bg);
     border: 1px solid var(--vp-c-divider);
     border-radius: 8px;
-    transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
     color: var(--vp-c-text-1);
     cursor: pointer;
     text-decoration: none;
@@ -88,6 +88,7 @@ export default {
 
 .card:hover {
     border-color: var(--vp-c-brand-1);
+    background: color-mix(in srgb, var(--vp-c-brand-soft) 45%, var(--vp-custom-block-info-bg) 55%);
 }
 
 .card:focus-visible {
