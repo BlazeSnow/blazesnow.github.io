@@ -48,7 +48,7 @@
         {
           "title": "我的世界服务器部署指南",
           "link": "/mc/",
-          "iconSrc": "/icon/minecraft.ico",
+          "iconSrc": "/icon/minecraft.svg",
           "description": "使用 systemd 托管 Minecraft:Java Edition 多人游戏服务器。"
         }
       ]
