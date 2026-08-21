@@ -2,13 +2,13 @@ services:
   frpc:
     image: snowdreamtech/frpc:alpine
     container_name: frpc
-    restart: always
+    restart: unless-stopped
     volumes:
       - ./frpc.toml:/etc/frp/frpc.toml:ro
 
   caddy:
     image: caddy:alpine
     container_name: caddy
-    restart: always
+    restart: unless-stopped
     volumes:
       - ./Caddyfile:/etc/caddy/Caddyfile:ro
