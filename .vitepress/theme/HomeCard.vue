@@ -30,6 +30,11 @@ export default {
             type: String,
             required: false,
             default: '_self'
+        },
+        description: {
+            type: String,
+            required: false,
+            default: ''
         }
     },
     computed: {
@@ -50,7 +55,7 @@ export default {
                 <span>{{ title }}</span>
             </h3>
             <p class="description">
-                <slot name="description"></slot>
+                {{ description }}
             </p>
         </div>
     </VPLink>
