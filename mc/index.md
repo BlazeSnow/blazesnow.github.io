@@ -1,6 +1,6 @@
 ---
 title: 我的世界服务器部署指南
-lastUpdated: 2026-08-21T17:53:00+8:00
+lastUpdated: 2026-08-21T18:43:00+8:00
 description: 在Ubuntu服务器上部署Minecraft服务器，并使用systemd托管（开机自启、崩溃自动重启、优雅停服）。
 ---
 
@@ -74,7 +74,7 @@ sudo apt update && sudo apt install golang-go
 go version
 
 # 设置 Golang 镜像源
-export GOPROXY=https://mirrors.aliyun.com/goproxy,direct
+sudo go env -w GOPROXY=https://mirrors.aliyun.com/goproxy/,direct
 
 # 安装 rcon-cli
 sudo GOBIN=/usr/local/bin go install github.com/itzg/rcon-cli@latest
