@@ -60,7 +60,46 @@ sudo -u minecraft mkdir -p /mc/server
 sudo -u minecraft java -jar /mc/1.21.1-NeoForge_21.1.248.jar --installServer /mc/server
 ```
 
-## 5. 编写 systemd 服务
+## 5. 安装 rcon-cli
+
+> [!TIP]
+> 此处使用了：<https://github.com/itzg/rcon-cli>
+
+```shell
+# 安装 Golang
+sudo apt update && sudo apt install golang-go
+
+# 检查 Golang 是否安装成功
+go version
+
+# 安装 rcon-cli
+go install github.com/itzg/rcon-cli@latest
+
+# 检查 rcon-cli 是否安装成功
+rcon-cli -h
+```
+
+## 6. 配置 rcon-cli
+
+### 配置 server.properties
+
+```shell
+sudo nano /mc/server/server.properties
+```
+
+修改以下设置：
+
+```ini
+enable-rcon=true
+
+rcon.password=PASSWORD
+rcon.port=25575
+```
+
+> [!TIP]
+> 修改后即可通过`rcon-cli --port 25575 --password 'PASSWORD' op USER`执行服务器命令
+
+## 7. 编写 systemd 服务
 
 ```shell
 sudo nano /etc/systemd/system/minecraft.service
@@ -86,7 +125,7 @@ TimeoutStopSec=300
 WantedBy=multi-user.target
 ```
 
-## 6. 开始运行
+## 8. 开始运行
 
 ```shell
 # 刷新 systemctl 配置
@@ -107,7 +146,7 @@ sudo journalctl -u minecraft -f
 
 看到日志出现 `Done (...) !` 即启动成功，客户端用 `服务器ip:25565` 连接。
 
-## 7. 维护服务
+## 9. 维护服务
 
 ```shell
 # 停止服务器
