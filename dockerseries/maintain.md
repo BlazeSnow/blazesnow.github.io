@@ -48,7 +48,7 @@ cd /srv/caddy
 
 # 先停止服务，再打包数据文件夹
 sudo docker compose down
-sudo tar -czf data.tar.gz data/
+sudo tar -czf data_$(date +%Y%m%d_%H%M%S).tar.gz data/
 
 # 重新启动服务
 sudo docker compose up -d
@@ -62,7 +62,7 @@ cd /srv/caddy
 
 # 先停止服务，再解压数据文件
 sudo docker compose down
-sudo tar -xzf data.tar.gz data/
+sudo tar -xzf data_<备份时间>.tar.gz data/
 
 # 重新启动服务
 sudo docker compose up -d
