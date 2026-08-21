@@ -1,10 +1,13 @@
 {
   "MD013": false,
   "MD025": false,
+  "MD041": false,
   "MD033": {
     "allowed_elements": [
       "a",
       "img",
+      "script",
+      "index",
       "TitleIcon",
       "FirstPartyBadge",
       "StopSupportBadge"
