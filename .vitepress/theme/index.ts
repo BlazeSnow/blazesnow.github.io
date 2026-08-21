@@ -10,7 +10,6 @@ import StopSupportBadge from './StopSupportBadge.vue'
 import TitleIcon from './TitleIcon.vue'
 import StatusDot from './StatusDot.vue'
 import FooterStatus from './FooterStatus.vue'
-import '@fontsource/monaspace-neon';
 
 export default {
 	extends: DefaultTheme,

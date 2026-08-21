@@ -15,6 +15,10 @@ export default defineConfig({
     ['link',
       { rel: 'icon', href: '/logo.ico' }
     ],
+    //代码字体预加载，消除“慢半拍”的字体闪烁
+    ['link',
+      { rel: 'preload', href: '/fonts/monaspace-neon.woff2', as: 'font', type: 'font/woff2', crossorigin: '' }
+    ],
     //谷歌分析
     ['script',
       { src: 'https://www.googletagmanager.com/gtag/js?id=G-JTXXPWS3MD', async: '' }
