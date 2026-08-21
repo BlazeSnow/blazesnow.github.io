@@ -17,7 +17,7 @@ export default defineConfig({
     ],
     //谷歌分析
     ['script',
-      { src: 'https://www.googletagmanager.com/gtag/js?id=G-JTXXPWS3MD', async: true }
+      { src: 'https://www.googletagmanager.com/gtag/js?id=G-JTXXPWS3MD', async: '' }
     ],
     ['script', {},
       `window.dataLayer = window.dataLayer || [];

@@ -1,4 +1,5 @@
 import DefaultTheme from 'vitepress/theme'
+import type { Theme } from 'vitepress'
 import './fonts.css'
 import './color.css'
 import { h } from 'vue'
@@ -24,4 +25,4 @@ export default {
 			'layout-bottom': () => h(FooterStatus)
 		})
 	}
-}
+} satisfies Theme
