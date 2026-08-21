@@ -12,6 +12,11 @@ export default {
             type: String,
             required: true
         },
+        subtitle: {
+            type: String,
+            required: false,
+            default: ''
+        },
         link: {
             type: String,
             required: true
@@ -39,8 +44,9 @@ export default {
     },
     computed: {
         linkLabel() {
+            const base = this.subtitle ? `${this.title} ${this.subtitle}` : this.title
             const suffix = this.target === '_blank' ? '，在新窗口打开' : ''
-            return `${this.title}${suffix}`
+            return `${base}${suffix}`
         }
     }
 };
@@ -52,7 +58,10 @@ export default {
         <div class="content">
             <h3 class="title">
                 <SiteIcon class="icon" :icon="icon" :src="iconSrc" />
-                <span>{{ title }}</span>
+                <span class="title__text">
+                    <span>{{ title }}</span>
+                    <span v-if="subtitle" class="title__subtitle">{{ subtitle }}</span>
+                </span>
             </h3>
             <p class="description">
                 {{ description }}
@@ -94,6 +103,20 @@ export default {
     font-size: 1.2rem;
     font-weight: 600;
     color: var(--vp-c-text-1);
+}
+
+.title__text {
+    display: inline-flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    min-width: 0;
+}
+
+.title__subtitle {
+    color: var(--vp-c-text-2);
+    font-weight: 500;
+    font-size: 0.9em;
 }
 
 .icon {
