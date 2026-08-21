@@ -48,7 +48,7 @@
         {
           "title": "我的世界服务器部署指南",
           "link": "/mc/",
-          "iconSrc": "/icon/minecraft.svg",
+          "icon": "minecraft",
           "description": "使用 systemd 托管 Minecraft:Java Edition 多人游戏服务器。"
         }
       ]
@@ -88,21 +88,21 @@
           "title": "端口转发服务器",
           "subtitle": "Frp",
           "link": "/dockerseries/frps/",
-          "iconSrc": "/icon/frp.svg",
+          "icon": "frp",
           "description": "Frp 采用 C/S 模式，通过访问暴露在服务器上的端口，反向代理到处于内网的服务。"
         },
         {
           "title": "文件列表服务器",
           "subtitle": "OpenList",
           "link": "/dockerseries/openlist/",
-          "iconSrc": "/icon/openlist.svg",
+          "icon": "openlist",
           "description": "一个支持多种存储的文件列表程序，使用 Gin 和 SolidJS。"
         },
         {
           "title": "音乐服务器",
           "subtitle": "Navidrome",
           "link": "/dockerseries/navidrome/",
-          "iconSrc": "/icon/navidrome.svg",
+          "icon": "navidrome",
           "description": "Navidrome 允许您通过现代 Web UI 和广泛的第三方兼容移动应用程序从任何地方享受您的音乐收藏。"
         },
         {
@@ -139,7 +139,7 @@
         {
           "title": "DNS 加密",
           "link": "/dns/",
-          "iconSrc": "/icon/dns.svg",
+          "icon": "dns",
           "description": "DNS 加密可以保护用户的上网隐私，防止 DNS 查询被窃听、篡改或跟踪。"
         }
       ]

@@ -4,7 +4,7 @@ lastUpdated: 2026-04-21T23:04:00+8:00
 description: 在Apple设备（iOS/macOS）上配置DNS加密的方法。
 ---
 
-# <TitleIcon src="/icon/dns.svg" /> Apple设备
+# <TitleIcon icon="dns" /> Apple设备
 
 > 加密方法参考：<https://github.com/paulmillr/encrypted-dns>
 

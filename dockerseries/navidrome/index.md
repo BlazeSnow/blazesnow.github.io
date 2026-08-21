@@ -4,7 +4,7 @@ lastUpdated: 2025-08-06T14:11:00+8:00
 description: 使用Docker Compose部署Navidrome音乐服务器，随时随地播放个人音乐库。
 ---
 
-# <TitleIcon src="/icon/navidrome.svg" /> 音乐服务器
+# <TitleIcon icon="navidrome" /> 音乐服务器
 
 ## 前言
 

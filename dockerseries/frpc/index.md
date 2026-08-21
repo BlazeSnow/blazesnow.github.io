@@ -4,7 +4,7 @@ lastUpdated: 2025-10-31T14:09:00+8:00
 description: 使用Docker Compose部署frp客户端，连接到frp服务端实现内网穿透。
 ---
 
-# <TitleIcon src="/icon/frp.svg" /> 端口转发客户端
+# <TitleIcon icon="frp" /> 端口转发客户端
 
 > [!TIP]
 > 私有服务(:localPort) -> frpc -> frps(:remotePort) -> 用户

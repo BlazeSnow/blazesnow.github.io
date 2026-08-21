@@ -4,7 +4,7 @@ lastUpdated: 2025-08-06T14:17:00+8:00
 description: 使用Docker Compose部署SMB/Samba文件共享服务器的完整教程。
 ---
 
-# <TitleIcon src="/icon/file.svg" /> SMB
+# <TitleIcon icon="file" /> SMB
 
 ## 前言
 
