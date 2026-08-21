@@ -46,8 +46,12 @@ sudo docker compose up -d
 # 进入服务的工作目录
 cd /srv/caddy
 
-# 压缩数据文件夹
+# 先停止服务，再打包数据文件夹
+sudo docker compose down
 sudo tar -czf data.tar.gz data/
+
+# 重新启动服务
+sudo docker compose up -d
 ```
 
 ## 数据恢复
@@ -56,7 +60,7 @@ sudo tar -czf data.tar.gz data/
 # 进入服务的工作目录
 cd /srv/caddy
 
-# 先停止服务，再解压数据文件夹
+# 先停止服务，再解压数据文件
 sudo docker compose down
 sudo tar -xzf data.tar.gz data/
 
