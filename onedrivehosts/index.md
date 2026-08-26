@@ -84,7 +84,7 @@ https://raw.githubusercontent.com/BlazeSnow/OneDriveHosts/main/hosts
 ③ Gitee:
 
 ```ansi
-https://gitee.com/blazesnow/OneDriveHosts/raw/main/hosts
+https://raw.giteeusercontent.com/blazesnow/OneDriveHosts/raw/main/hosts
 ```
 
 ## 自定义IP地址
