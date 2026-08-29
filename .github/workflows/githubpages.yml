@@ -1,4 +1,4 @@
-name: GithubPages
+name: Build and Deploy Github Pages
 
 on:
   workflow_dispatch:
@@ -10,7 +10,7 @@ permissions:
   id-token: write
 
 jobs:
-  publish:
+  build:
     runs-on: ubuntu-latest
 
     environment:
@@ -18,16 +18,13 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-    - name: Checkout
-      uses: actions/checkout@v7
+    - uses: actions/checkout@v7
 
-    - name: Setup Node
-      uses: actions/setup-node@v7
+    - uses: actions/setup-node@v7
       with:
         node-version: 26
 
-    - name: Setup pnpm
-      uses: pnpm/action-setup@v6
+    - uses: pnpm/action-setup@v6
       with:
         version: 11
 
@@ -37,13 +34,10 @@ jobs:
     - name: Build with VitePress
       run: pnpm run docs:build
 
-    - name: Setup Pages
-      uses: actions/configure-pages@v6
+    - uses: actions/configure-pages@v6
 
-    - name: Upload to GitHub Pages
-      uses: actions/upload-pages-artifact@v5
+    - uses: actions/upload-pages-artifact@v5
       with:
         path: .vitepress/dist
 
-    - name: Deploy to GitHub Pages
-      uses: actions/deploy-pages@v5
+    - uses: actions/deploy-pages@v5
