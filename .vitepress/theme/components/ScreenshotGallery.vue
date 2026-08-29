@@ -41,23 +41,12 @@ onBeforeUnmount(() => {
 	</div>
 
 	<Teleport to="body">
-		<div
-			v-if="viewer"
-			class="screenshot-viewer"
-			role="dialog"
-			aria-modal="true"
-			:aria-label="viewer.alt || '截图预览'"
-			@click="close"
-		>
+		<div v-if="viewer" class="screenshot-viewer" role="dialog" aria-modal="true" :aria-label="viewer.alt || '截图预览'"
+			@click="close">
 			<button class="screenshot-viewer__close" type="button" aria-label="关闭预览" @click.stop="close">
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
-					<path
-						fill="none"
-						stroke="currentColor"
-						stroke-width="2"
-						stroke-linecap="round"
-						d="m6 6 12 12M18 6 6 18"
-					/>
+					<path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+						d="m6 6 12 12M18 6 6 18" />
 				</svg>
 			</button>
 			<figure class="screenshot-viewer__figure" @click.stop>
@@ -84,7 +73,7 @@ onBeforeUnmount(() => {
 	width: 100%;
 	height: auto;
 	border: 1px solid var(--vp-c-divider);
-	border-radius: 8px;
+	border-radius: 6px;
 	background: var(--vp-c-bg);
 	cursor: zoom-in;
 	transition: border-color 0.25s, box-shadow 0.25s;
