@@ -33,8 +33,8 @@ const presetLinks = computed<DownloadLink[]>(() => {
 		items.push({
 			label: 'Microsoft Store',
 			href,
-			image: 'https://get.microsoft.com/images/zh-cn%20dark.svg',
-			imageDark: 'https://get.microsoft.com/images/zh-cn%20light.svg',
+			image: '/MicrosoftStoreDark.svg',
+			imageDark: '/MicrosoftStoreLight.svg',
 			alt: '从 Microsoft 获取'
 		})
 	}
