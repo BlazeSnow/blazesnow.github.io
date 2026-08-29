@@ -11,10 +11,6 @@ sidebar: false
 
 <ProjectHero src="/icon/powerplan.ico" />
 
-## 程序介绍
-
-本程序针对Windows系统的电源计划，帮助用户快速切换电源计划。
-
 ## 如何下载
 
 <DownloadLinks microsoft-store="9N39P41XBKPJ" />

@@ -11,10 +11,6 @@ sidebar: false
 
 <ProjectHero src="/icon/wows-ime.ico" />
 
-## 程序介绍
-
-本程序针对游戏《战舰世界》的中文输入法的配置文件，目的为修订配置文件以支持更多的中文输入法。
-
 ## 如何下载
 
 <DownloadLinks microsoft-store="9P0R5GM2PTKW" />
