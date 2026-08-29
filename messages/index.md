@@ -27,9 +27,9 @@ MessagesEncrypter 是一款面向 Windows 桌面端的本地公钥消息加密�
 
 <ScreenshotGallery>
 
-![加密界面](/messages/images/encryption.png)
+![加密界面](/messages/encryption.png)
 
-![解密界面](/messages/images/decryption.png)
+![解密界面](/messages/decryption.png)
 
 </ScreenshotGallery>
 
@@ -37,7 +37,7 @@ MessagesEncrypter 是一款面向 Windows 桌面端的本地公钥消息加密�
 
 <ScreenshotGallery>
 
-![使用指南](/messages/images/guide.png)
+![使用指南](/messages/guide.png)
 
 </ScreenshotGallery>
 
