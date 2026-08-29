@@ -11,6 +11,8 @@ interface ProjectLink {
 	icon?: string
 	/** 直接指定图标地址 */
 	iconSrc?: string
+	/** 单色图标：深色模式下自动反色 */
+	mono?: boolean
 	/** 链接的补充说明，缺省时展示去掉协议的链接地址 */
 	description?: string
 }
@@ -39,7 +41,7 @@ function describe(link: ProjectLink) {
 			:rel="isExternal(link.href) ? 'noopener noreferrer' : undefined"
 			no-icon
 		>
-			<span class="project-links__icon">
+			<span class="project-links__icon" :class="{ 'project-links__icon--mono': link.mono }">
 				<SiteIcon v-if="link.icon || link.iconSrc" :icon="link.icon || ''" :src="link.iconSrc || ''" />
 				<svg v-else xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
 					<path
@@ -125,5 +127,12 @@ function describe(link: ProjectLink) {
 	color: var(--vp-c-text-2);
 	text-overflow: ellipsis;
 	white-space: nowrap;
+}
+</style>
+
+<style>
+/* 单色图标经 <img> 加载时恒为黑色，深色模式下反色 */
+html.dark .project-links__icon--mono img {
+	filter: invert(1);
 }
 </style>
