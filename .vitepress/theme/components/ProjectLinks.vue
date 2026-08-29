@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { computed } from 'vue'
 import { VPLink } from 'vitepress/theme'
 import SiteIcon from '../SiteIcon.vue'
 
@@ -17,11 +18,46 @@ interface ProjectLink {
 	description?: string
 }
 
-defineProps<{
-	links: ProjectLink[]
+const props = defineProps<{
+	/** 自定义卡片，追加在预填卡片之后 */
+	links?: ProjectLink[]
 	/** 每行固定卡片数，缺省时按卡片最小宽度自适应；窄屏下自动降为单列 */
 	columns?: number
+	/** 项目仓库地址，预填「项目仓库」卡片 */
+	repo?: string
+	/** 许可证名称，如 GNU AGPL v3.0，预填「许可证」卡片的说明 */
+	licenseName?: string
+	/** 许可证链接，与 licenseName 至少提供其一才会生成「许可证」卡片 */
+	licenseUrl?: string
+	/** 更新日志链接，预填「更新日志」卡片 */
+	changelog?: string
+	/** 版权说明，预填「版权」静态卡片 */
+	copyright?: string
 }>()
+
+const presetLinks = computed<ProjectLink[]>(() => {
+	const items: ProjectLink[] = []
+	if (props.repo) {
+		items.push({ label: '项目仓库', href: props.repo, icon: 'github', mono: true })
+	}
+	if (props.licenseName || props.licenseUrl) {
+		items.push({ label: '许可证', href: props.licenseUrl, icon: 'licence', mono: true, description: props.licenseName })
+	}
+	if (props.changelog) {
+		items.push({
+			label: '更新日志',
+			href: props.changelog,
+			icon: 'changelog',
+			description: props.changelog.includes('CHANGELOG') ? 'CHANGELOG.md' : undefined
+		})
+	}
+	if (props.copyright) {
+		items.push({ label: '版权', icon: 'copyright', mono: true, description: props.copyright })
+	}
+	return items
+})
+
+const allLinks = computed(() => [...presetLinks.value, ...(props.links ?? [])])
 
 function isExternal(href: string) {
 	return /^https?:\/\//i.test(href)
@@ -50,7 +86,7 @@ function cardAttrs(link: ProjectLink) {
 	>
 		<component
 			:is="link.href ? VPLink : 'div'"
-			v-for="link in links"
+			v-for="link in allLinks"
 			:key="link.href || link.label"
 			class="project-links__card"
 			v-bind="cardAttrs(link)"
