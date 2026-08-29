@@ -9,6 +9,8 @@ interface DownloadLink {
 	href: string
 	/** 徽章图片地址（如 Microsoft Store 徽章），设置后不再渲染文字按钮 */
 	image?: string
+	/** 深色模式下的徽章图片地址，缺省时两种模式共用 image */
+	imageDark?: string
 	/** 徽章图片的 alt 文本 */
 	alt?: string
 	/** 下载地址的补充说明 */
@@ -32,6 +34,7 @@ const presetLinks = computed<DownloadLink[]>(() => {
 			label: 'Microsoft Store',
 			href,
 			image: 'https://get.microsoft.com/images/zh-cn%20dark.svg',
+			imageDark: 'https://get.microsoft.com/images/zh-cn%20light.svg',
 			alt: '从 Microsoft 获取'
 		})
 	}
@@ -53,9 +56,23 @@ const allLinks = computed(() => [...presetLinks.value, ...(props.links ?? [])])
 			no-icon
 		>
 			<img
-				v-if="link.image"
+				v-if="link.image && !link.imageDark"
 				class="download-links__badge"
 				:src="link.image"
+				:alt="link.alt || link.label"
+				loading="lazy"
+			/>
+			<img
+				v-else-if="link.image"
+				class="download-links__badge download-links__badge--light"
+				:src="link.image"
+				:alt="link.alt || link.label"
+				loading="lazy"
+			/>
+			<img
+				v-if="link.imageDark"
+				class="download-links__badge download-links__badge--dark"
+				:src="link.imageDark"
 				:alt="link.alt || link.label"
 				loading="lazy"
 			/>
@@ -130,5 +147,16 @@ const allLinks = computed(() => [...presetLinks.value, ...(props.links ?? [])])
 .download-links__description {
 	font-size: 0.85rem;
 	color: var(--vp-c-text-2);
+}
+</style>
+
+<style>
+/* 徽章深浅色变体切换：浅色模式显示深底徽章，深色模式显示浅底徽章 */
+html:not(.dark) .download-links__badge--dark {
+	display: none;
+}
+
+html.dark .download-links__badge--light {
+	display: none;
 }
 </style>
