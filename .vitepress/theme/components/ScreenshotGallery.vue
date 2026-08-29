@@ -84,7 +84,7 @@ onBeforeUnmount(() => {
 	width: 100%;
 	height: auto;
 	border: 1px solid var(--vp-c-divider);
-	border-radius: 12px;
+	border-radius: 8px;
 	background: var(--vp-c-bg);
 	cursor: zoom-in;
 	transition: border-color 0.25s, box-shadow 0.25s;
