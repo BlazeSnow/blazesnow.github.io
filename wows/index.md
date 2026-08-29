@@ -19,7 +19,7 @@ sidebar: false
 
 <ScreenshotGallery>
 
-![主界面](./images/mainpage.png)
+![主界面](/wows/images/mainpage.png)
 
 </ScreenshotGallery>
 
