@@ -74,13 +74,15 @@ onBeforeUnmount(() => {
 	height: auto;
 	border: 1px solid var(--vp-c-divider);
 	border-radius: 6px;
+	outline: 2px solid transparent;
 	background: var(--vp-c-bg);
 	cursor: zoom-in;
-	transition: border-color 0.25s, box-shadow 0.25s;
+	transition: border-color 0.25s, box-shadow 0.25s, outline-color 0.25s;
 }
 
 .screenshot-gallery :deep(img:hover) {
 	border-color: var(--vp-c-brand-1);
+	outline-color: var(--vp-c-brand-1);
 	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
 }
 
