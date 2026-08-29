@@ -1,41 +1,40 @@
 ---
 title: PowerPlan
-lastUpdated: false
 description: Windows电源计划管理工具，帮助用户快速切换电源计划以优化系统性能或续航。
+lastupdated: false
+layout: page
+aside: false
+sidebar: false
 ---
 
-# <TitleIcon src="/icon/powerplan.ico" /> PowerPlan <FirstPartyBadge />
+<ProjectPage>
 
-## 一、程序介绍
+<ProjectHero src="/icon/powerplan.ico" />
+
+## 程序介绍
 
 本程序针对Windows系统的电源计划，帮助用户快速切换电源计划。
 
-## 二、如何下载
+## 如何下载
 
-<a href="https://apps.microsoft.com/detail/9N39P41XBKPJ" target="_blank">
-  <img src="https://get.microsoft.com/images/zh-cn%20dark.svg" alt="从 Microsoft 获取" />
-</a>
+<DownloadLinks microsoft-store="9N39P41XBKPJ" />
 
-## 三、软件截图
+## 软件截图
 
-![1](./images/1.png)
+<ScreenshotGallery>
 
-![2](./images/2.png)
+![截图一](./images/1.png)
 
-![3](./images/3.png)
+![截图二](./images/2.png)
 
-![4](./images/4.png)
+![截图三](./images/3.png)
 
-## 四、开发者信息
+![截图四](./images/4.png)
 
-<https://github.com/BlazeSnow>
+</ScreenshotGallery>
 
-## 五、版权信息
+## 更多信息
 
-Copyright © 2026 BlazeSnow. 保留所有权利。
+<ProjectLinks :columns="2" repo="https://github.com/BlazeSnow/PowerPlan" license-name="GNU AGPL v3.0" license-url="https://www.gnu.org/licenses/agpl-3.0.html" changelog="https://github.com/BlazeSnow/PowerPlan/blob/main/CHANGELOG.md" copyright="Copyright © 2026 BlazeSnow. 保留所有权利。" />
 
-以GNU Affero General Public License v3.0的条款发布。
-
-## 六、更新日志
-
-更新日志见：<https://github.com/BlazeSnow/PowerPlan/blob/main/CHANGELOG.md>
+</ProjectPage>
