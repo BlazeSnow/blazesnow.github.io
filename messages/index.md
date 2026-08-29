@@ -1,12 +1,17 @@
 ---
 title: MessagesEncrypter
-lastUpdated: false
 description: MessagesEncrypter用于在聊天、邮件或其他不可信渠道中传递敏感文本。
+lastupdated: false
+layout: page
+aside: false
+sidebar: false
 ---
 
-# <TitleIcon src="/icon/messagesencrypter.ico" /> MessagesEncrypter <FirstPartyBadge />
+<ProjectPage>
 
-## 一、程序介绍
+<ProjectHero src="/icon/messagesencrypter.ico" />
+
+## 程序介绍
 
 MessagesEncrypter 是一款面向 Windows 桌面端的本地公钥消息加密工具，用于在聊天、邮件或其他不可信渠道中传递敏感文本。接收方生成私钥并分享公钥，发送方使用该公钥加密消息；只有持有对应私钥的人才能解密密文包。
 
@@ -14,33 +19,30 @@ MessagesEncrypter 是一款面向 Windows 桌面端的本地公钥消息加密�
 
 消息加密采用混合加密方案：使用 RSA-OAEP-SHA256 加密 AES-256-GCM 会话密钥，再使用 AES-GCM 加密消息正文。生成密钥时可选择 2048、3072、4096 或 8192 位 RSA，导入密钥支持 RSA-2048 及以上位数。
 
-## 二、如何下载
+## 如何下载
 
-<a href="https://apps.microsoft.com/detail/9pkn38fmmgbb" target="_blank">
-  <img src="https://get.microsoft.com/images/zh-cn%20dark.svg" alt="从 Microsoft 获取" />
-</a>
+<DownloadLinks microsoft-store="9pkn38fmmgbb" />
 
-## 三、软件截图
+## 软件截图
 
-![encryption](./images/encryption.png)
+<ScreenshotGallery>
 
-![decryption](./images/decryption.png)
+![加密界面](/messages/encryption.png)
 
-## 四、使用说明
+![解密界面](/messages/decryption.png)
 
-![guide](./images/guide.png)
+</ScreenshotGallery>
 
-## 五、开发者信息
+## 使用说明
 
-- 项目仓库：<https://github.com/BlazeSnow/MessagesEncrypter>
-- 项目官网：<https://www.blazesnow.com/messages/>
+<ScreenshotGallery>
 
-## 六、版权信息
+![使用指南](/messages/guide.png)
 
-Copyright © 2026 BlazeSnow. 保留所有权利。
+</ScreenshotGallery>
 
-以GNU Affero General Public License v3.0的条款发布。
+## 更多信息
 
-## 七、更新日志
+<ProjectLinks :columns="2" repo="https://github.com/BlazeSnow/MessagesEncrypter" license-name="GNU AGPL v3.0" license-url="https://www.gnu.org/licenses/agpl-3.0.html" changelog="https://github.com/BlazeSnow/MessagesEncrypter/blob/main/CHANGELOG.md" copyright="Copyright © 2026 BlazeSnow. 保留所有权利。" />
 
-更新日志见：<https://github.com/BlazeSnow/MessagesEncrypter/blob/main/CHANGELOG.md>
+</ProjectPage>

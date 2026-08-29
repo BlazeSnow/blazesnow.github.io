@@ -359,12 +359,12 @@ export default defineConfig({
         {
           text: '前言',
           collapsed: true,
-            items: [
-              { text: '前言', link: '/dockerseries/' },
-              { text: '命名卷', link: '/dockerseries/volumes/' },
-              { text: '网络', link: '/dockerseries/networks/' },
-              { text: '维护服务', link: '/dockerseries/maintain' },
-            ]
+          items: [
+            { text: '前言', link: '/dockerseries/' },
+            { text: '命名卷', link: '/dockerseries/volumes/' },
+            { text: '网络', link: '/dockerseries/networks/' },
+            { text: '维护服务', link: '/dockerseries/maintain' },
+          ]
         },
         {
           text: '文件服务器',
@@ -387,10 +387,6 @@ export default defineConfig({
         { text: '容器可视化管理', link: '/dockerseries/portainer/' },
         { text: '版本管理服务器', link: '/dockerseries/gitea/' },
         { text: '证书申请器', link: '/dockerseries/certbot/' },
-      ],
-      '/messages/': [
-        { text: 'MessagesEncrypter', link: '/messages/' },
-        { text: 'protocol-v1', link: '/messages/protocol-v1' }
       ],
       '/mc/': [
         { text: '部署指南', link: '/mc/' },
