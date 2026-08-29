@@ -108,14 +108,16 @@ const allLinks = computed(() => [...presetLinks.value, ...(props.links ?? [])])
 }
 
 .download-links__badge {
+	display: block;
 	height: 56px;
 	width: auto;
 	border-radius: 8px;
-	transition: opacity 0.25s;
+	transition: 0.35s ease;
 }
 
 .download-links__item:hover .download-links__badge {
-	opacity: 0.85;
+	transform: translate(0, -4px);
+	box-shadow: 0 12px 40px 20px rgba(0, 0, 0, 0.05);
 }
 
 .download-links__button {
