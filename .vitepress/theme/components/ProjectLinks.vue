@@ -3,17 +3,17 @@ import { VPLink } from 'vitepress/theme'
 import SiteIcon from '../SiteIcon.vue'
 
 interface ProjectLink {
-	/** 链接名称 */
+	/** 卡片名称 */
 	label: string
-	/** 链接地址 */
-	href: string
+	/** 链接地址，缺省时渲染为不可点击的静态卡片 */
+	href?: string
 	/** 站点图标库中的图标名（/icon/{icon}.svg） */
 	icon?: string
 	/** 直接指定图标地址 */
 	iconSrc?: string
 	/** 单色图标：深色模式下自动反色 */
 	mono?: boolean
-	/** 链接的补充说明，缺省时展示去掉协议的链接地址 */
+	/** 补充说明，缺省时展示去掉协议的链接地址 */
 	description?: string
 }
 
@@ -26,20 +26,28 @@ function isExternal(href: string) {
 }
 
 function describe(link: ProjectLink) {
-	return link.description || link.href.replace(/^https?:\/\//i, '').replace(/\/$/, '')
+	return link.description || (link.href ? link.href.replace(/^https?:\/\//i, '').replace(/\/$/, '') : '')
+}
+
+function cardAttrs(link: ProjectLink) {
+	if (!link.href) return {}
+	return {
+		href: link.href,
+		target: isExternal(link.href) ? '_blank' : undefined,
+		rel: isExternal(link.href) ? 'noopener noreferrer' : undefined,
+		noIcon: true
+	}
 }
 </script>
 
 <template>
 	<div class="project-links">
-		<VPLink
+		<component
+			:is="link.href ? VPLink : 'div'"
 			v-for="link in links"
-			:key="link.href"
+			:key="link.href || link.label"
 			class="project-links__card"
-			:href="link.href"
-			:target="isExternal(link.href) ? '_blank' : undefined"
-			:rel="isExternal(link.href) ? 'noopener noreferrer' : undefined"
-			no-icon
+			v-bind="cardAttrs(link)"
 		>
 			<span class="project-links__icon" :class="{ 'project-links__icon--mono': link.mono }">
 				<SiteIcon v-if="link.icon || link.iconSrc" :icon="link.icon || ''" :src="link.iconSrc || ''" />
@@ -56,9 +64,9 @@ function describe(link: ProjectLink) {
 			</span>
 			<span class="project-links__body">
 				<span class="project-links__label">{{ link.label }}</span>
-				<span class="project-links__description">{{ describe(link) }}</span>
+				<span v-if="describe(link)" class="project-links__description">{{ describe(link) }}</span>
 			</span>
-		</VPLink>
+		</component>
 	</div>
 </template>
 
@@ -83,12 +91,12 @@ function describe(link: ProjectLink) {
 	transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
-.project-links__card:hover {
+a.project-links__card:hover {
 	border-color: var(--vp-c-brand-1);
 	background: color-mix(in srgb, var(--vp-c-brand-soft) 45%, var(--vp-custom-block-info-bg) 55%);
 }
 
-.project-links__card:focus-visible {
+a.project-links__card:focus-visible {
 	outline: 2px solid var(--vp-c-brand-1);
 	outline-offset: 2px;
 }
@@ -127,6 +135,11 @@ function describe(link: ProjectLink) {
 	color: var(--vp-c-text-2);
 	text-overflow: ellipsis;
 	white-space: nowrap;
+}
+
+/* 静态卡片的说明允许换行，避免长文本被截断 */
+div.project-links__card .project-links__description {
+	white-space: normal;
 }
 </style>
 
