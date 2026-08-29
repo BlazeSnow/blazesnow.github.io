@@ -19,7 +19,11 @@ sidebar: false
 
 <ScreenshotGallery>
 
-![主界面](/wows/mainpage.png)
+![选择根目录](/wows/image-1.png)
+
+![选择输入法](/wows/image-2.png)
+
+![确认写入游戏目录](/wows/image-3.png)
 
 </ScreenshotGallery>
 
