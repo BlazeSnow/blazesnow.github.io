@@ -19,13 +19,13 @@ sidebar: false
 
 <ScreenshotGallery>
 
-![截图一](/powerplan/images/screenshot-1.png)
+![截图一](/powerplan/image-1.png)
 
-![截图二](/powerplan/images/screenshot-2.png)
+![截图二](/powerplan/image-2.png)
 
-![截图三](/powerplan/images/screenshot-3.png)
+![截图三](/powerplan/image-3.png)
 
-![截图四](/powerplan/images/screenshot-4.png)
+![截图四](/powerplan/image-4.png)
 
 </ScreenshotGallery>
 
