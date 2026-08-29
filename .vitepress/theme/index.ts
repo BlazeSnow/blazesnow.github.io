@@ -10,6 +10,12 @@ import StopSupportBadge from './StopSupportBadge.vue'
 import TitleIcon from './TitleIcon.vue'
 import StatusDot from './StatusDot.vue'
 import FooterStatus from './FooterStatus.vue'
+import ProjectPage from './components/ProjectPage.vue'
+import ProjectHero from './components/ProjectHero.vue'
+import DownloadLinks from './components/DownloadLinks.vue'
+import ScreenshotGallery from './components/ScreenshotGallery.vue'
+import ProjectLinks from './components/ProjectLinks.vue'
+import ProjectFooter from './components/ProjectFooter.vue'
 
 export default {
 	extends: DefaultTheme,
@@ -17,6 +23,12 @@ export default {
 		app.component('FirstPartyBadge', FirstPartyBadge)
 		app.component('StopSupportBadge', StopSupportBadge)
 		app.component('TitleIcon', TitleIcon)
+		app.component('ProjectPage', ProjectPage)
+		app.component('ProjectHero', ProjectHero)
+		app.component('DownloadLinks', DownloadLinks)
+		app.component('ScreenshotGallery', ScreenshotGallery)
+		app.component('ProjectLinks', ProjectLinks)
+		app.component('ProjectFooter', ProjectFooter)
 	},
 	Layout() {
 		return h(DefaultTheme.Layout, null, {
