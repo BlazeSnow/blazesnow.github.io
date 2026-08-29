@@ -1,26 +1,33 @@
 ---
 title: IPAbuyer
-lastUpdated: false
 description: IPA购买器，将AppStore应用一键收入囊中。
+lastupdated: false
+layout: page
+aside: false
+sidebar: false
 ---
 
-# <TitleIcon src="/icon/ipabuyer.ico" /> IPAbuyer <FirstPartyBadge />
+<ProjectPage>
 
-## 一、软件介绍
+<ProjectHero src="/icon/ipabuyer.ico" />
+
+## 软件介绍
 
 刚刚拿到iPhone，受折磨于反复按下锁屏键购入App；还是担心小众优质App被下架？使用IPAbuyer，将App统统收入囊中！
 
-## 二、如何下载
+## 如何下载
 
-<a href="https://apps.microsoft.com/detail/9MSXMXD5520X" target="_blank">
-  <img src="https://get.microsoft.com/images/zh-cn%20dark.svg" alt="从 Microsoft 获取" />
-</a>
+<DownloadLinks microsoft-store="9MSXMXD5520X" />
 
-## 三、软件截图
+## 软件截图
 
-![ipabuyer](./images/ipabuyer.png)
+<ScreenshotGallery>
 
-## 四、常见问题
+![IPAbuyer 截图](/ipa/ipabuyer.png)
+
+</ScreenshotGallery>
+
+## 常见问题
 
 无法获取双重验证码？
 
@@ -50,22 +57,12 @@ description: IPA购买器，将AppStore应用一键收入囊中。
 
 > 为了保证账户安全性，本软件将进行App购买检查，只允许购买价格为0的App。
 
-## 五、开发信息
+## 致谢
 
-- 开发者：<https://github.com/ipabuyer/>
-- 代码仓库：<https://github.com/ipabuyer/ipabuyer>
-- 更新日志：<https://github.com/ipabuyer/ipabuyer/blob/main/CHANGELOG.md>
+- [ipatool](https://github.com/majd/ipatool)：上游软件，遵守其原有的许可证。
 
-## 六、致谢
+## 更多信息
 
-- [ipatool](https://github.com/majd/ipatool)：上游软件
+<ProjectLinks :columns="2" repo="https://github.com/ipabuyer/ipabuyer" license-name="GNU AGPL v3.0" license-url="https://www.gnu.org/licenses/agpl-3.0.html" changelog="https://github.com/ipabuyer/ipabuyer/blob/main/CHANGELOG.md" copyright="Copyright © 2025-2026 IPAbuyer. 保留所有权利。" />
 
-## 七、版权信息
-
-Copyright © 2025-2026 IPAbuyer. 保留所有权利。
-
-以GNU Affero General Public License v3.0的条款发布。
-
-### 第三方组件许可证
-
-本软件中包含的 ipatool 软件遵守其原有的许可证。
+</ProjectPage>

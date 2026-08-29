@@ -10,7 +10,12 @@
       "index",
       "TitleIcon",
       "FirstPartyBadge",
-      "StopSupportBadge"
+      "StopSupportBadge",
+      "ProjectPage",
+      "ProjectHero",
+      "DownloadLinks",
+      "ScreenshotGallery",
+      "ProjectLinks"
     ]
   }
 }
