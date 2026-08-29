@@ -45,6 +45,6 @@ MessagesEncrypter 是一款面向 Windows 桌面端的本地公钥消息加密�
 
 ## 版权与更新日志
 
-<ProjectLinks :links="[{ label: '版权', icon: 'copyright', mono: true, description: 'Copyright © 2026 BlazeSnow. 保留所有权利。' }, { label: '许可证', href: 'https://www.gnu.org/licenses/agpl-3.0.html', icon: 'licence', mono: true, description: 'GNU AGPL v3.0' }, { label: '更新日志', href: 'https://github.com/BlazeSnow/MessagesEncrypter/blob/main/CHANGELOG.md', icon: 'changelog', description: 'CHANGELOG.md' }]" />
+<ProjectLinks :columns="2" :links="[{ label: '许可证', href: 'https://www.gnu.org/licenses/agpl-3.0.html', icon: 'licence', mono: true, description: 'GNU AGPL v3.0' }, { label: '更新日志', href: 'https://github.com/BlazeSnow/MessagesEncrypter/blob/main/CHANGELOG.md', icon: 'changelog', description: 'CHANGELOG.md' }, { label: '版权', icon: 'copyright', mono: true, description: 'Copyright © 2026 BlazeSnow. 保留所有权利。' }]" />
 
 </ProjectPage>
