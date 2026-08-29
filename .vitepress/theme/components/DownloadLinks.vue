@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { computed } from 'vue'
 import { VPLink } from 'vitepress/theme'
 
 interface DownloadLink {
@@ -14,15 +15,36 @@ interface DownloadLink {
 	description?: string
 }
 
-defineProps<{
-	links: DownloadLink[]
+const props = defineProps<{
+	/** 自定义下载项，追加在预填项之后 */
+	links?: DownloadLink[]
+	/** Microsoft Store 商品 ID 或详情页地址，预填微软商店徽章 */
+	microsoftStore?: string
 }>()
+
+const presetLinks = computed<DownloadLink[]>(() => {
+	const items: DownloadLink[] = []
+	if (props.microsoftStore) {
+		const href = /^https?:\/\//i.test(props.microsoftStore)
+			? props.microsoftStore
+			: `https://apps.microsoft.com/detail/${props.microsoftStore}`
+		items.push({
+			label: 'Microsoft Store',
+			href,
+			image: 'https://get.microsoft.com/images/zh-cn%20dark.svg',
+			alt: '从 Microsoft 获取'
+		})
+	}
+	return items
+})
+
+const allLinks = computed(() => [...presetLinks.value, ...(props.links ?? [])])
 </script>
 
 <template>
 	<div class="download-links">
 		<VPLink
-			v-for="link in links"
+			v-for="link in allLinks"
 			:key="link.href"
 			class="download-links__item"
 			:href="link.href"
