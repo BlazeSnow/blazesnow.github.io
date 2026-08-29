@@ -23,7 +23,7 @@ sidebar: false
 
 <ScreenshotGallery>
 
-![IPAbuyer 截图](/ipa/images/ipabuyer.png)
+![IPAbuyer 截图](/ipa/ipabuyer.png)
 
 </ScreenshotGallery>
 
