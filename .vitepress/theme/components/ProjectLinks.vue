@@ -19,6 +19,8 @@ interface ProjectLink {
 
 defineProps<{
 	links: ProjectLink[]
+	/** 每行固定卡片数，缺省时按卡片最小宽度自适应；窄屏下自动降为单列 */
+	columns?: number
 }>()
 
 function isExternal(href: string) {
@@ -41,7 +43,11 @@ function cardAttrs(link: ProjectLink) {
 </script>
 
 <template>
-	<div class="project-links">
+	<div
+		class="project-links"
+		:class="{ 'project-links--fixed-cols': columns && columns > 0 }"
+		:style="columns && columns > 0 ? { '--project-links-cols': String(columns) } : undefined"
+	>
 		<component
 			:is="link.href ? VPLink : 'div'"
 			v-for="link in links"
@@ -76,6 +82,16 @@ function cardAttrs(link: ProjectLink) {
 	grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
 	gap: 12px;
 	margin: 16px 0;
+}
+
+.project-links--fixed-cols {
+	grid-template-columns: repeat(var(--project-links-cols, 2), minmax(0, 1fr));
+}
+
+@media (max-width: 767px) {
+	.project-links--fixed-cols {
+		grid-template-columns: 1fr;
+	}
 }
 
 .project-links__card {
