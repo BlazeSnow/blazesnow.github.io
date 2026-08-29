@@ -21,7 +21,7 @@ MessagesEncrypter 是一款面向 Windows 桌面端的本地公钥消息加密�
 
 ## 如何下载
 
-<DownloadLinks :links="[{ label: 'Microsoft Store', href: 'https://apps.microsoft.com/detail/9pkn38fmmgbb', image: 'https://get.microsoft.com/images/zh-cn%20dark.svg', alt: '从 Microsoft 获取' }]" />
+<DownloadLinks microsoft-store="9pkn38fmmgbb" />
 
 ## 软件截图
 
