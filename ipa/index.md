@@ -63,6 +63,6 @@ sidebar: false
 
 ## 更多信息
 
-<ProjectLinks :columns="2" repo="https://github.com/ipabuyer/ipabuyer" license-name="GNU AGPL v3.0" license-url="https://www.gnu.org/licenses/agpl-3.0.html" changelog="https://github.com/ipabuyer/ipabuyer/blob/main/CHANGELOG.md" copyright="Copyright © 2025-2026 IPAbuyer. 保留所有权利。" :links="[{ label: '开发者', href: 'https://github.com/ipabuyer/', icon: 'github', mono: true }]" />
+<ProjectLinks :columns="2" repo="https://github.com/ipabuyer/ipabuyer" license-name="GNU AGPL v3.0" license-url="https://www.gnu.org/licenses/agpl-3.0.html" changelog="https://github.com/ipabuyer/ipabuyer/blob/main/CHANGELOG.md" copyright="Copyright © 2025-2026 IPAbuyer. 保留所有权利。" />
 
 </ProjectPage>
