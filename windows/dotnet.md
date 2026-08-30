@@ -4,7 +4,7 @@ lastUpdated: 2026-04-18T01:45:00+8:00
 description: 在Windows系统上安装.NET运行时的完整教程。
 ---
 
-# <TitleIcon icon="dotnet" /> 安装.NET
+# <TitleIcon icon="dotnet" /> 安装.NET <AdminBadge />
 
 > .NET是一个免费的、跨平台的、开源开发人员平台，用于构建许多不同类型的应用程序。
 
@@ -14,7 +14,7 @@ description: 在Windows系统上安装.NET运行时的完整教程。
 
 > .NET桌面运行时（DesktopRuntime）使用户能够运行现有Windows桌面应用程序（包括Runtime）
 
-1. 按下`Windows徽标`+`X`
+1. 按下 <WinKey /> + <KeyCap char="X" />
 2. 选中`终端管理员`
 3. 选择所需版本，输入后回车：
 
@@ -32,7 +32,7 @@ winget install Microsoft.DotNet.DesktopRuntime.3_1
 
 > ASP.NET核心运行时（AspNetCore）使你能够运行现有的Web/服务器应用程序（不包括Runtime）
 
-1. 按下`Windows徽标`+`X`
+1. 按下 <WinKey /> + <KeyCap char="X" />
 2. 选中`终端管理员`
 3. 选择所需版本，输入后回车：
 
@@ -54,7 +54,7 @@ winget install Microsoft.DotNet.AspNetCore.2_1
 
 > .NET运行时（Runtime）仅包含运行控制台应用所需的组件
 
-1. 按下`Windows徽标`+`X`
+1. 按下 <WinKey /> + <KeyCap char="X" />
 2. 选中`终端管理员`
 3. 选择所需版本，输入后回车：
 
@@ -72,7 +72,7 @@ winget install Microsoft.DotNet.Runtime.3_1
 
 > 软件开发工具包（SDK）包括使用命令行工具和任何编辑器生成和运行.NET应用程序所需的一切内容（包括DesktopRuntime、AspNetCore和Runtime）
 
-1. 按下`Windows徽标`+`X`
+1. 按下 <WinKey /> + <KeyCap char="X" />
 2. 选中`终端管理员`
 3. 选择所需版本，输入后回车：
 

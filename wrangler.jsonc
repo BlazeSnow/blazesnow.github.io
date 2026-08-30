@@ -1,7 +1,6 @@
 {
     "name": "blazesnow",
-    "account_id": "14a25367477915c591c3876b305a8e54",
-    "compatibility_date": "2026-06-16",
+    "compatibility_date": "2026-08-04",
     "assets": {
         "directory": ".vitepress/dist/",
         "not_found_handling": "404-page"

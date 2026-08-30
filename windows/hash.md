@@ -6,10 +6,10 @@ description: 在Windows系统中计算文件哈希值以验证文件完整性的
 
 # <TitleIcon icon="windows" /> 计算哈希值
 
-1. 按下`Windows徽标`+`X`
+1. 按下 <WinKey /> + <KeyCap char="X" />
 2. 单击`终端`
 3. 输入并回车：
 
-```powershell
+```shell
 Get-FileHash -Algorithm SHA256 -Path "文件路径"
 ```

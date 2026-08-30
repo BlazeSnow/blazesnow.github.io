@@ -4,7 +4,7 @@ lastUpdated: 2025-02-13T10:00:00+8:00
 description: 删除Windows右键新建菜单中不需要的文件类型选项。
 ---
 
-# <TitleIcon icon="windows" /> 删除新建文件类型
+# <TitleIcon icon="windows" /> 删除新建文件类型 <StopSupportBadge />
 
 在文件资源管理器中右键新建文件内，有不需要的文件类型。本文以`markdown`文件为例：
 

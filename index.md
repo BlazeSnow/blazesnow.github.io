@@ -11,7 +11,7 @@ hero:
 ---
 
 <script setup>
-import index from "./.vitepress/theme/HomePage.vue"
+import index from "./.vitepress/custom/HomePage/HomePage.vue"
 </script>
 
 <index />

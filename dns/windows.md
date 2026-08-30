@@ -27,7 +27,7 @@ description: 在Windows设备上配置DNS over HTTPS（DoH）加密DNS的方法�
 
 ### 添加模板
 
-1. 按下`Windows徽标`+`X`
+1. 按下 <WinKey /> + <KeyCap char="X" />
 2. 点击`终端管理员`
 3. 输入以下内容并回车：
 
@@ -38,7 +38,7 @@ netsh dns add encryption server=223.6.6.6 dohtemplate=https://dns.alidns.com/dns
 
 ### 显示已有模板
 
-1. 按下`Windows徽标`+`X`
+1. 按下 <WinKey /> + <KeyCap char="X" />
 2. 点击`终端管理员`
 3. 输入以下内容并回车：
 
@@ -48,7 +48,7 @@ netsh dns show encryption
 
 ### 删除模板
 
-1. 按下`Windows徽标`+`X`
+1. 按下 <WinKey /> + <KeyCap char="X" />
 2. 点击`终端管理员`
 3. 输入以下内容并回车：
 

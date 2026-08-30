@@ -1,4 +1,4 @@
-name: Version
+name: Release
 
 on:
   push:
@@ -9,10 +9,11 @@ permissions:
   contents: write
 
 jobs:
-  publish:
+  release:
     runs-on: ubuntu-latest
     steps:
-    - name: Create Release
-      uses: ncipollo/release-action@v1
+    - uses: ncipollo/release-action@v1
       with:
         tag: ${{ github.ref_name }}
+        name: ${{ github.ref_name }}
+        body: https://blazesnow.github.io/changelog/
