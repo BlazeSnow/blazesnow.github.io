@@ -1,10 +1,11 @@
 <script setup lang="ts">
 import KeyCap from './KeyCap.vue'
+import { resolveIconSrc } from './icons'
 </script>
 
 <template>
 	<KeyCap class="win-key" title="Windows徽标键">
-		<img src="/icon/windows.svg" alt="Windows徽标" />
+		<img :src="resolveIconSrc('windows')" alt="Windows徽标" />
 	</KeyCap>
 </template>
 

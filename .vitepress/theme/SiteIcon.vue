@@ -1,31 +1,6 @@
 <script setup>
 import { computed } from 'vue'
-
-// 彩色图标清单：深色模式下不反色，新增彩色图标时在此登记，其余图标一律自动反色
-const COLORED_ICONS = new Set([
-	'adguard',
-	'caddy',
-	'changelog',
-	'cplusplus',
-	'docker',
-	'dotnet',
-	'frp',
-	'gitea',
-	'java',
-	'microsoftonedrive',
-	'minecraft',
-	'navidrome',
-	'nodedotjs',
-	'openlist',
-	'python',
-	'ubuntu',
-	'visualstudio',
-	'windows',
-	'ipabuyer',
-	'messagesencrypter',
-	'powerplan',
-	'wows-ime'
-])
+import { isMonoIcon, resolveIconSrc } from './icons'
 
 const props = defineProps({
 	icon: {
@@ -53,15 +28,11 @@ const props = defineProps({
 
 const resolvedSrc = computed(() => {
 	if (props.src) return props.src
-	if (props.icon) return `/icon/${props.icon}.svg`
+	if (props.icon) return resolveIconSrc(props.icon)
 	return null
 })
 
-const mono = computed(() => {
-	if (props.color) return false
-	const name = props.icon || props.src.split('/').pop().replace(/\.\w+$/, '')
-	return !COLORED_ICONS.has(name)
-})
+const mono = computed(() => isMonoIcon({ icon: props.icon, src: props.src, color: props.color }))
 </script>
 
 <template>
@@ -89,7 +60,7 @@ const mono = computed(() => {
 </style>
 
 <style>
-/* 单色图标经 <img> 加载时恒为黑色，深色模式下反色；彩色图标（见上方清单）不反色 */
+/* 单色图标经 <img> 加载时恒为黑色，深色模式下反色；彩色图标（见 icons.ts 清单）不反色 */
 html.dark .site-icon--mono img {
 	filter: invert(1);
 }
