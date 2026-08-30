@@ -1,6 +1,6 @@
 ---
 title: 查看蓝屏文件 | Windows
-lastUpdated: 2026-08-30T09:44:00+8:00
+lastUpdated: 2026-08-30T10:07:00+8:00
 description: 查看和分析Windows蓝屏转储文件，诊断系统崩溃的原因。
 ---
 
