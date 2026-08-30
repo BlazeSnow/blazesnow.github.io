@@ -5,6 +5,7 @@ import './fonts.css'
 import './color.css'
 import { h } from 'vue'
 import layout_404 from './404.vue'
+import AdminBadge from './AdminBadge.vue'
 import FirstPartyBadge from './FirstPartyBadge.vue'
 import StopSupportBadge from './StopSupportBadge.vue'
 import TitleIcon from './TitleIcon.vue'
@@ -19,6 +20,7 @@ import ProjectLinks from './components/ProjectLinks.vue'
 export default {
 	extends: DefaultTheme,
 	enhanceApp({ app }) {
+		app.component('AdminBadge', AdminBadge)
 		app.component('FirstPartyBadge', FirstPartyBadge)
 		app.component('StopSupportBadge', StopSupportBadge)
 		app.component('TitleIcon', TitleIcon)
