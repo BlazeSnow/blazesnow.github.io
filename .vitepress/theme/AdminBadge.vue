@@ -19,11 +19,11 @@ withDefaults(
 	align-items: center;
 	vertical-align: middle;
 	margin-left: 8px;
-	border: 1px solid #d97706;
+	border: 1px solid #0078d4;
 	border-radius: 999px;
 	padding: 2px 8px;
-	background: color-mix(in srgb, #d97706 12%, transparent);
-	color: #d97706;
+	background: color-mix(in srgb, #0078d4 12%, transparent);
+	color: #0078d4;
 	font-size: 14px;
 	font-weight: 600;
 	letter-spacing: 0.04em;
