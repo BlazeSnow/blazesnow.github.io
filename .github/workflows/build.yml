@@ -1,5 +1,4 @@
 name: Build & Deploy
-description: Build and Deploy Pages & Worker
 
 on:
   workflow_dispatch:
@@ -38,14 +37,11 @@ jobs:
 
   githubpages:
     runs-on: ubuntu-latest
-    depends-on: build
+    needs: build
 
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    permissions:
-      pages: write
-      id-token: write
 
     steps:
     - uses: actions/download-artifact@v8
@@ -63,7 +59,7 @@ jobs:
 
   wrangler:
     runs-on: ubuntu-latest
-    depends-on: build
+    needs: build
 
     environment:
       name: wrangler
