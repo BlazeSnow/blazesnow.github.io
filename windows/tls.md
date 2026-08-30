@@ -1,6 +1,6 @@
 ---
 title: 应用最新TLS | Windows
-lastUpdated: 2026-08-30T09:55:00+8:00
+lastUpdated: 2026-08-30T10:00:00+8:00
 description: 在Windows系统中启用最新TLS协议版本，提升网络通信安全性。
 ---
 
@@ -8,7 +8,7 @@ description: 在Windows系统中启用最新TLS协议版本，提升网络通信
 
 > 传输层安全性（Transport Layer Security，TLS）是一种广泛采用的安全性协议，旨在促进互联网通信的私密性和数据安全性。TLS的主要用例是对web应用程序和服务器之间的通信（例如，web浏览器加载网站）进行加密。TLS还可以用于加密其他通信，如电子邮件、消息传递和IP语音（VoIP）等。
 
-1. 按下`Windows徽标`+`R`
+1. 按下 <WinKey /> + <KeyCap char="R" />
 2. 输入并回车：`inetcpl.cpl`
 3. 默认打开“常规”选项卡，请打开“高级”选项卡
 4. 勾选“使用TLS 1.3”
