@@ -9,6 +9,8 @@ import AdminBadge from './AdminBadge.vue'
 import FirstPartyBadge from './FirstPartyBadge.vue'
 import StopSupportBadge from './StopSupportBadge.vue'
 import TitleIcon from './TitleIcon.vue'
+import KeyCap from './KeyCap.vue'
+import WinKey from './WinKey.vue'
 import StatusDot from './StatusDot.vue'
 import FooterStatus from './FooterStatus.vue'
 import ProjectPage from './components/ProjectPage.vue'
@@ -24,6 +26,8 @@ export default {
 		app.component('FirstPartyBadge', FirstPartyBadge)
 		app.component('StopSupportBadge', StopSupportBadge)
 		app.component('TitleIcon', TitleIcon)
+		app.component('KeyCap', KeyCap)
+		app.component('WinKey', WinKey)
 		app.component('ProjectPage', ProjectPage)
 		app.component('ProjectHero', ProjectHero)
 		app.component('DownloadLinks', DownloadLinks)
