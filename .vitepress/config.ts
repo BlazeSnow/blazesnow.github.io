@@ -249,11 +249,8 @@ export default defineConfig({
           text: '文件',
           items: [
             { text: '显示后缀名和隐藏文件', link: '/windows/extension' },
-            { text: '创建快捷方式', link: '/windows/shortcuts' },
             { text: '重启文件资源管理器', link: '/windows/tskillexplorer' },
             { text: '旧版右键菜单', link: '/windows/oldrightclick' },
-            { text: '删除新建文件类型', link: '/windows/filetype' },
-            { text: '删除右键菜单项', link: '/windows/rightclickitem' },
             { text: '修复桌面图标', link: '/windows/iconcache' },
             { text: '计算哈希值', link: '/windows/hash' },
           ]
@@ -263,7 +260,6 @@ export default defineConfig({
         { text: '禁用快速启动', link: '/windows/hiberfil' },
         { text: '应用最新TLS', link: '/windows/tls' },
         { text: '查看蓝屏文件', link: '/windows/bluescreen' },
-        { text: '系统配置', link: '/windows/msconfig' },
         { text: '设置环境变量', link: '/windows/environment' },
       ],
       '/dns/': [
@@ -371,7 +367,6 @@ export default defineConfig({
         { text: '文件列表服务器', link: '/dockerseries/openlist/' },
         { text: '端口转发服务端', link: '/dockerseries/frps/' },
         { text: '端口转发客户端', link: '/dockerseries/frpc/' },
-        { text: '我的世界服务器', link: '/dockerseries/minecraftserver/' },
         { text: '家庭域名服务器', link: '/dockerseries/adguardhome/' },
         { text: '密码服务器', link: '/dockerseries/vaultwarden/' },
         { text: '智能家居中枢', link: '/dockerseries/homeassistant/' },
