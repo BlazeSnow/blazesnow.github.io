@@ -258,14 +258,7 @@ export default defineConfig({
             { text: '计算哈希值', link: '/windows/hash' },
           ]
         },
-        {
-          text: '清理',
-          items: [
-            { text: '磁盘清理', link: '/windows/cleanmgr' },
-            { text: '清除程序的卸载残留', link: '/windows/uninstallremnants' },
-            { text: '清理微软商店残留', link: '/windows/microsoftstoreremnants' },
-          ]
-        },
+        { text: '磁盘清理', link: '/windows/cleanmgr' },
         { text: '创建恢复分区', link: '/windows/recovery' },
         { text: '禁用快速启动', link: '/windows/hiberfil' },
         { text: '应用最新TLS', link: '/windows/tls' },
