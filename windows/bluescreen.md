@@ -1,16 +1,27 @@
 ---
 title: 查看蓝屏文件 | Windows
-lastUpdated: 2025-02-17T10:31:00+8:00
+lastUpdated: 2026-08-30T09:34:00+8:00
 description: 查看和分析Windows蓝屏转储文件，诊断系统崩溃的原因。
 ---
 
 # <TitleIcon icon="windows" /> 查看蓝屏文件
 
-> WinDbg是一个调试器，可用于分析故障转储、调试实时用户模式和内核模式代码，以及检查CPU寄存器和内存。
+## 1. 安装 WinDbg
 
-1. 安装WinDBG：<https://learn.microsoft.com/zh-CN/windows-hardware/drivers/debugger>
-2. 打开目录`C:\Windows\Minidump`
-3. 找到蓝屏文件
-4. 复制到其他位置
-5. 打开蓝屏文件
-6. 输入：`!analyze -v`
+```shell
+winget install Microsoft.WinDbg
+```
+
+## 2. 确认转储文件位置
+
+```shell
+Test-Path "C:\Windows\MEMORY.DMP"
+
+Get-ChildItem "C:\Windows\Minidump\*.dmp"
+```
+
+## 3. 使用 WinDbg 分析错误
+
+1. 使用管理员权限打开 WinDbg
+2. 使用 WinDbg 的“Open dump file”功能打开 dmp 文件
+3. 在命令输入框中输入：`!analyze -v`
