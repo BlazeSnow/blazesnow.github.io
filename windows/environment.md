@@ -1,6 +1,6 @@
 ---
 title: 设置环境变量 | Windows
-lastUpdated: 2026-08-30T09:19:00+8:00
+lastUpdated: 2026-08-30T09:47:00+8:00
 description: 在Windows系统中设置和修改环境变量的方法。
 ---
 
@@ -21,13 +21,13 @@ set NAME "VALUE"
 setx NAME "VALUE"
 ```
 
-## 系统环境变量
+## 系统环境变量 <AdminBadge />
 
 ```shell
 setx NAME "VALUE" /M
 ```
 
-## PATH 环境变量
+## PATH 环境变量 <AdminBadge />
 
 ```shell
 SystemPropertiesAdvanced
