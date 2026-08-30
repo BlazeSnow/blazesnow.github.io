@@ -12,8 +12,6 @@ interface ProjectLink {
 	icon?: string
 	/** 直接指定图标地址 */
 	iconSrc?: string
-	/** 单色图标：深色模式下自动反色 */
-	mono?: boolean
 	/** 补充说明，缺省时展示去掉协议的链接地址 */
 	description?: string
 }
@@ -38,10 +36,10 @@ const props = defineProps<{
 const presetLinks = computed<ProjectLink[]>(() => {
 	const items: ProjectLink[] = []
 	if (props.repo) {
-		items.push({ label: '项目仓库', href: props.repo, icon: 'github', mono: true })
+		items.push({ label: '项目仓库', href: props.repo, icon: 'github' })
 	}
 	if (props.licenseName || props.licenseUrl) {
-		items.push({ label: '许可证', href: props.licenseUrl, icon: 'licence', mono: true, description: props.licenseName })
+		items.push({ label: '许可证', href: props.licenseUrl, icon: 'licence', description: props.licenseName })
 	}
 	if (props.changelog) {
 		items.push({
@@ -52,7 +50,7 @@ const presetLinks = computed<ProjectLink[]>(() => {
 		})
 	}
 	if (props.copyright) {
-		items.push({ label: '版权', icon: 'copyright', mono: true, description: props.copyright })
+		items.push({ label: '版权', icon: 'copyright', description: props.copyright })
 	}
 	return items
 })
@@ -91,7 +89,7 @@ function cardAttrs(link: ProjectLink) {
 			class="project-links__card"
 			v-bind="cardAttrs(link)"
 		>
-			<span class="project-links__icon" :class="{ 'project-links__icon--mono': link.mono }">
+			<span class="project-links__icon">
 				<SiteIcon v-if="link.icon || link.iconSrc" :icon="link.icon || ''" :src="link.iconSrc || ''" />
 				<svg v-else xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
 					<path
@@ -192,12 +190,5 @@ a.project-links__card:focus-visible {
 /* 静态卡片的说明允许换行，避免长文本被截断 */
 div.project-links__card .project-links__description {
 	white-space: normal;
-}
-</style>
-
-<style>
-/* 单色图标经 <img> 加载时恒为黑色，深色模式下反色 */
-html.dark .project-links__icon--mono img {
-	filter: invert(1);
 }
 </style>
