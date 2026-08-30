@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { useData } from 'vitepress'
-import SiteIcon from '../SiteIcon.vue'
-import FirstPartyBadge from '../FirstPartyBadge.vue'
+import SiteIcon from '../InPageComponent/SiteIcon.vue'
+import FirstPartyBadge from '../Badge/FirstPartyBadge.vue'
 
 const props = withDefaults(
 	defineProps<{

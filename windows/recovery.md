@@ -4,13 +4,13 @@ lastUpdated: 2026-02-25T16:59:00+8:00
 description: 在Windows系统中创建恢复分区的方法，用于系统故障时恢复。
 ---
 
-# <TitleIcon icon="windows" /> 创建恢复分区
+# <TitleIcon icon="windows" /> 创建恢复分区 <AdminBadge />
 
 > 本文适用于恢复分区位于`C:\Recovery\WindowsRE\`或缺失恢复分区的计算机，磁盘需为`GUID分区表(GPT)`。
 
 ## 确认恢复分区状态
 
-1. 按下`Windows徽标`+`X`
+1. 按下 <WinKey /> + <KeyCap char="X" />
 2. 选择`终端管理员`
 3. 键入以下命令，查询恢复分区位置，记录分区号
 
@@ -28,7 +28,7 @@ Windows RE 位置: \\?\GLOBALROOT\device\harddisk0\partition3\Recovery\WindowsRE
 
 > 提前准备一个`NTFS`格式的分区，分区位置在`C盘`后，大小约为`1024MB`
 
-1. 按下`Windows徽标`+`X`
+1. 按下 <WinKey /> + <KeyCap char="X" />
 2. 选择`终端管理员`
 3. 键入以下命令：
 
@@ -62,7 +62,7 @@ assign letter=R
 
 > 此步骤用于获取文件`Winre.wim`，并存放至`R:\Recovery\WindowsRE\`。可直接从`Windows安装镜像.iso`中提取，一般位置为`Windows.iso\sources\install.wim\1\Windows\System32\Recovery\`
 
-1. 按下`Windows徽标`+`X`
+1. 按下 <WinKey /> + <KeyCap char="X" />
 2. 选择`终端管理员`
 3. 键入以下命令：
 
@@ -82,7 +82,7 @@ Get-ChildItem -Path "R:\Recovery\WindowsRE" -Force
 > [!TIP]
 > 设置完毕后，返回第一步，检查恢复分区位置，若为磁盘0的分区4则成功
 
-1. 按下`Windows徽标`+`X`
+1. 按下 <WinKey /> + <KeyCap char="X" />
 2. 选择`终端管理员`
 3. 键入以下命令：
 
@@ -99,7 +99,7 @@ reagentc /enable
 
 ## 移除临时盘符
 
-1. 按下`Windows徽标`+`X`
+1. 按下 <WinKey /> + <KeyCap char="X" />
 2. 选择`终端管理员`
 3. 键入以下命令：
 
