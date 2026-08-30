@@ -141,9 +141,10 @@ function cardAttrs(link: ProjectLink) {
 	transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
-a.project-links__card:hover {
+.project-links__card:hover {
 	border-color: var(--vp-c-brand-1);
 	background: color-mix(in srgb, var(--vp-c-brand-soft) 45%, var(--vp-custom-block-info-bg) 55%);
+	color: var(--vp-c-brand-1);
 }
 
 a.project-links__card:focus-visible {
