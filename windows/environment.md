@@ -1,6 +1,6 @@
 ---
 title: 设置环境变量 | Windows
-lastUpdated: 2026-08-30T09:03:00+8:00
+lastUpdated: 2026-08-30T09:19:00+8:00
 description: 在Windows系统中设置和修改环境变量的方法。
 ---
 
@@ -11,24 +11,24 @@ description: 在Windows系统中设置和修改环境变量的方法。
 
 ## 临时环境变量
 
-```powershell
-$env:NAME = "VALUE"
+```shell
+set NAME "VALUE"
 ```
 
 ## 用户环境变量
 
-```powershell
-[Environment]::SetEnvironmentVariable("NAME", "VALUE", "User")
+```shell
+setx NAME "VALUE"
 ```
 
 ## 系统环境变量
 
-```powershell
-[Environment]::SetEnvironmentVariable("NAME", "VALUE", "Machine")
+```shell
+setx NAME "VALUE" /M
 ```
 
 ## PATH 环境变量
 
-```powershell
+```shell
 SystemPropertiesAdvanced
 ```
