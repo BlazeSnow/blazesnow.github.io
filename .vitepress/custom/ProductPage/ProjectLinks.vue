@@ -138,7 +138,7 @@ function cardAttrs(link: ProjectLink) {
 	border-radius: 8px;
 	color: var(--vp-c-text-1);
 	text-decoration: none;
-	transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+	transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
 a.project-links__card:hover {
