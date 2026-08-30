@@ -6,7 +6,7 @@ description: 安装Node.js运行环境的完整教程。
 
 # <TitleIcon icon="nodedotjs" /> 安装Nodejs
 
-1. 按下`Windows徽标`+`X`
+1. 按下 <WinKey /> + <KeyCap char="X" />
 2. 点击弹出窗口中的`终端管理员`
 3. 输入并回车：
 

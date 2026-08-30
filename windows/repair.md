@@ -4,9 +4,9 @@ lastUpdated: 2025-05-13T08:15:00+8:00
 description: 介绍Windows系统的修复方法，解决系统运行异常和文件损坏问题。
 ---
 
-# <TitleIcon icon="windows" /> 修复
+# <TitleIcon icon="windows" /> 修复 <AdminBadge />
 
-1. 按下`Windows徽标`+`X`
+1. 按下 <WinKey /> + <KeyCap char="X" />
 2. 点击弹出窗口中的`终端管理员`
 
 ## 使用DISM

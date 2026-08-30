@@ -4,7 +4,7 @@ lastUpdated: 2026-04-18T01:45:00+8:00
 description: 在Windows系统上安装Visual C++运行库的完整教程。
 ---
 
-# <TitleIcon icon="visualstudio" /> 安装C++运行库
+# <TitleIcon icon="visualstudio" /> 安装C++运行库 <AdminBadge />
 
 > Visual C++ 可再发行程序包安装 Microsoft C 和 C++ (MSVC) 运行时库。 许多使用 Microsoft C 和 C++ 工具生成的应用程序都需要这些库。 如果你的应用使用这些库，则必须在安装该应用之前在目标系统上安装 Microsoft Visual C++ 可再发行程序包。
 
@@ -12,7 +12,7 @@ description: 在Windows系统上安装Visual C++运行库的完整教程。
 
 ## X64 X86
 
-1. 按下`Windows徽标`+`X`
+1. 按下 <WinKey /> + <KeyCap char="X" />
 2. 选中`终端管理员`
 3. 选择所需版本，输入后回车：
 
@@ -34,7 +34,7 @@ winget install Microsoft.VCRedist.2005.x86
 
 ## ARM64
 
-1. 按下`Windows徽标`+`X`
+1. 按下 <WinKey /> + <KeyCap char="X" />
 2. 选中`终端管理员`
 3. 选择所需版本，输入后回车：
 
@@ -44,7 +44,7 @@ winget install Microsoft.VCRedist.2015+.arm64
 
 ## UWP
 
-1. 按下`Windows徽标`+`X`
+1. 按下 <WinKey /> + <KeyCap char="X" />
 2. 选中`终端管理员`
 3. 选择所需版本，输入后回车：
 
