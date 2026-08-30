@@ -76,7 +76,7 @@ jobs:
     - uses: actions/download-artifact@v8
       with:
         name: wrangler
-        path: wrangler.jsonc
+        path: .
 
     - uses: cloudflare/wrangler-action@v4
       with:
