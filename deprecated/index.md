@@ -16,6 +16,7 @@ description: 列出BlazeSnow已停止支持和弃用的项目及功能。
 | 系统配置         | /windows/msconfig              | 2026年8月30日 | 2026年11月30日 |
 | 删除新建文件类型 | /windows/filetype              | 2026年8月30日 | 2026年11月30日 |
 | 删除右键菜单项   | /windows/rightclickitem        | 2026年8月30日 | 2026年11月30日 |
+| 创建快捷方式     | /windows/shortcuts             | 2026年8月30日 | 2026年11月30日 |
 
 ## 已弃用内容
 
