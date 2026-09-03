@@ -17,3 +17,4 @@ jobs:
         tag: ${{ github.ref_name }}
         name: ${{ github.ref_name }}
         body: https://blazesnow.github.io/changelog/
+        allowUpdates: true
