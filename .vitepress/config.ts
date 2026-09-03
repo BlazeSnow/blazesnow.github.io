@@ -403,8 +403,8 @@ export default defineConfig({
     },
     //主页页脚
     footer: {
-      message: '本网站以 <a href="https://www.gnu.org/licenses/agpl-3.0.html" target="_blank">GNU AGPL v3.0</a> 的条款发布。',
-      copyright: 'Copyright © 2024-2026 <a href="https://github.com/BlazeSnow" target="_blank">BlazeSnow</a>. 保留所有权利。'
+      message: '网站内容采用 CC BY-SA 4.0 协议，源代码采用 GNU AGPL v3.0 协议。',
+      copyright: 'Copyright © 2024-2026 <a href="https://github.com/BlazeSnow" target="_blank">BlazeSnow</a>.'
     }
   }
 })
