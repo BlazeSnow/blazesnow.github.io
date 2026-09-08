@@ -44,7 +44,7 @@ docker run --name composebuilder --restart no -p 80:80 composebuilder/composebui
 
 本软件以 GNU Affero General Public License v3.0 的条款发布。
 
-Copyright © 2026 BlazeSnow. 保留所有权利。
+Copyright © 2026 BlazeSnow.
 
 ### 第三方软件许可证
 

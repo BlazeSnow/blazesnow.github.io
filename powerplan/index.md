@@ -31,6 +31,6 @@ sidebar: false
 
 ## 更多信息
 
-<ProjectLinks :columns="2" repo="https://github.com/BlazeSnow/PowerPlan" license-name="GNU AGPL v3.0" license-url="https://www.gnu.org/licenses/agpl-3.0.html" changelog="https://github.com/BlazeSnow/PowerPlan/blob/main/CHANGELOG.md" copyright="Copyright © 2026 BlazeSnow. 保留所有权利。" />
+<ProjectLinks :columns="2" repo="https://github.com/BlazeSnow/PowerPlan" license-name="GNU AGPL v3.0" license-url="https://www.gnu.org/licenses/agpl-3.0.html" changelog="https://github.com/BlazeSnow/PowerPlan/blob/main/CHANGELOG.md" copyright="Copyright © 2026 BlazeSnow." />
 
 </ProjectPage>
