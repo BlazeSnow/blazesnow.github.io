@@ -381,6 +381,11 @@ export default defineConfig({
         { text: '备份指南', link: '/mc/backup' }
       ]
     },
+    //页脚编辑页面
+    editLink: {
+      text: "在GitHub上查看此页",
+      pattern: 'https://github.com/BlazeSnow/blazesnow.github.io/blob/main/:path'
+    },
     //最近更新时间
     lastUpdated: {
       text: '最近更新时间',
