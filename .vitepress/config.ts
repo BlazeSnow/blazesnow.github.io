@@ -383,7 +383,7 @@ export default defineConfig({
     },
     //页脚编辑页面
     editLink: {
-      text: "在GitHub上查看此页",
+      text: "在 GitHub 上查看此页",
       pattern: 'https://github.com/BlazeSnow/blazesnow.github.io/blob/main/:path'
     },
     //最近更新时间
@@ -394,10 +394,10 @@ export default defineConfig({
         weekday: undefined,
         era: undefined,
         year: "numeric",
-        month: "2-digit",
-        day: "2-digit",
-        hour: "2-digit",
-        minute: "2-digit",
+        month: "numeric",
+        day: "numeric",
+        hour: "numeric",
+        minute: "numeric",
         second: undefined,
         hour12: false,
         timeZoneName: "shortOffset",
