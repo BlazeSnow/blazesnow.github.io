@@ -1,7 +1,7 @@
 ---
 title: IPAbuyer
 description: IPA购买器，将AppStore应用一键收入囊中。
-lastupdated: false
+lastupdated: 2026-09-08T10:35:00+8:00
 layout: page
 aside: false
 sidebar: false

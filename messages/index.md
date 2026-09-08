@@ -1,7 +1,7 @@
 ---
 title: MessagesEncrypter
 description: MessagesEncrypter用于在聊天、邮件或其他不可信渠道中传递敏感文本。
-lastupdated: false
+lastupdated: 2026-09-08T10:35:00+8:00
 layout: page
 aside: false
 sidebar: false
