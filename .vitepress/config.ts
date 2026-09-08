@@ -381,24 +381,29 @@ export default defineConfig({
         { text: '备份指南', link: '/mc/backup' }
       ]
     },
-    //上次更新于
+    //页脚编辑页面
+    editLink: {
+      text: "在 GitHub 上查看此页",
+      pattern: 'https://github.com/BlazeSnow/blazesnow.github.io/blob/main/:path'
+    },
+    //最近更新时间
     lastUpdated: {
-      text: '上次更新时间',
+      text: '最近更新时间',
       formatOptions: {
-        localeMatcher: "best fit",
+        localeMatcher: undefined,
         weekday: undefined,
         era: undefined,
         year: "numeric",
-        month: "long",
+        month: "numeric",
         day: "numeric",
         hour: "numeric",
         minute: "numeric",
         second: undefined,
         hour12: false,
-        timeZoneName: "long",
-        formatMatcher: "best fit",
+        timeZoneName: "shortOffset",
+        formatMatcher: undefined,
         timeZone: "Asia/Chongqing",
-        forceLocale: true,
+        forceLocale: undefined,
       }
     },
     //主页页脚

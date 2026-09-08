@@ -1,6 +1,6 @@
 ---
 title: ComposeBuilder
-lastUpdated: false
+lastUpdated: 2026-09-08T10:35:00+8:00
 description: 图形化docker-compose.yml生成工具，逐步配置容器名称、端口映射、卷挂载、环境变量与健康检查。
 ---
 
@@ -44,7 +44,7 @@ docker run --name composebuilder --restart no -p 80:80 composebuilder/composebui
 
 本软件以 GNU Affero General Public License v3.0 的条款发布。
 
-Copyright © 2026 BlazeSnow. 保留所有权利。
+Copyright © 2026 BlazeSnow.
 
 ### 第三方软件许可证
 
