@@ -381,24 +381,24 @@ export default defineConfig({
         { text: '备份指南', link: '/mc/backup' }
       ]
     },
-    //上次更新于
+    //最近更新时间
     lastUpdated: {
-      text: '上次更新时间',
+      text: '最近更新时间',
       formatOptions: {
-        localeMatcher: "best fit",
+        localeMatcher: undefined,
         weekday: undefined,
         era: undefined,
         year: "numeric",
-        month: "long",
-        day: "numeric",
-        hour: "numeric",
-        minute: "numeric",
+        month: "2-digit",
+        day: "2-digit",
+        hour: "2-digit",
+        minute: "2-digit",
         second: undefined,
         hour12: false,
-        timeZoneName: "long",
-        formatMatcher: "best fit",
+        timeZoneName: "shortOffset",
+        formatMatcher: undefined,
         timeZone: "Asia/Chongqing",
-        forceLocale: true,
+        forceLocale: undefined,
       }
     },
     //主页页脚
