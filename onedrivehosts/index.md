@@ -1,6 +1,6 @@
 ---
 title: OneDriveHosts
-lastUpdated: false
+lastUpdated: 2026-09-08T10:35:00+8:00
 description: 通过指定hosts的方式，实现在封锁OneDrive IP的地区正常访问和使用OneDrive。
 ---
 

@@ -1,5 +1,5 @@
 ---
-lastUpdated: false
+lastUpdated: 2026-09-08T10:35:00+8:00
 title: 停止支持及弃用
 description: 列出BlazeSnow已停止支持和弃用的项目及功能。
 ---
