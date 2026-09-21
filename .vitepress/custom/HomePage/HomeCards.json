@@ -5,8 +5,10 @@
       "cards": [
         {
           "title": "PowerPlan",
-          "link": "/powerplan/",
+          "link": "https://powerplan.blazesnow.com/",
+          "target": "_blank",
           "iconSrc": "/icon/powerplan.ico",
+          "externalIcon": true,
           "description": "本程序针对 Windows 系统的电源计划，帮助用户快速切换电源计划。"
         },
         {
