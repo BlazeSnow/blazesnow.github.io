@@ -4,18 +4,28 @@
       "title": "特色内容",
       "cards": [
         {
-          "title": "PowerPlan",
-          "link": "/powerplan/",
-          "iconSrc": "/icon/powerplan.ico",
-          "description": "本程序针对 Windows 系统的电源计划，帮助用户快速切换电源计划。"
-        },
-        {
           "title": "IPAbuyer",
           "link": "https://ipa.blazesnow.com/",
           "target": "_blank",
           "iconSrc": "/icon/ipabuyer.ico",
           "externalIcon": true,
           "description": "使用 IPAbuyer，快速购买 AppStore 中的应用！"
+        },
+        {
+          "title": "PowerPlan",
+          "link": "https://powerplan.blazesnow.com/",
+          "target": "_blank",
+          "iconSrc": "/icon/powerplan.ico",
+          "externalIcon": true,
+          "description": "本程序针对 Windows 系统的电源计划，帮助用户快速切换电源计划。"
+        },
+        {
+          "title": "Git Repo Sync",
+          "link": "https://gitreposync.blazesnow.com/",
+          "target": "_blank",
+          "iconSrc": "/icon/gitreposync.ico",
+          "externalIcon": true,
+          "description": "跨平台 Git 仓库同步桌面工具。"
         },
         {
           "title": "Todo4Agent",

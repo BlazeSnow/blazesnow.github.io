@@ -21,9 +21,10 @@ interface IconProps {
 	color?: boolean
 }
 
-/** 是否按单色图标处理：彩色清单内或显式 color 时不反色，其余一律深色模式反色 */
+/** 是否按单色图标处理：彩色清单内、显式 color 或 .ico 文件（均为彩色图）时不反色，其余一律深色模式反色 */
 export function isMonoIcon({ icon = '', src = '', color = false }: IconProps): boolean {
 	if (color) return false
+	if (src.toLowerCase().endsWith('.ico')) return false
 	const name = icon || src.split('/').pop()?.replace(/\.\w+$/, '') || ''
 	return !COLORED_ICONS.has(name)
 }
