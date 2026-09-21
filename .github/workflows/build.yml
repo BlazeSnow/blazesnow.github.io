@@ -14,6 +14,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v7
+      with:
+        # 图片走 Git LFS，必须检出真实文件而非指针，否则构建产物里的图片全部损坏
+        lfs: true
 
     - uses: actions/setup-node@v7
       with:

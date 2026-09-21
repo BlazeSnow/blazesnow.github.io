@@ -28,14 +28,16 @@ LICENSE text eol=lf
 Caddyfile text eol=lf
 _headers text eol=lf
 
-# 二进制文件：不转换、不做差异比较
-*.png binary
-*.jpg binary
-*.jpeg binary
-*.gif binary
-*.webp binary
-*.avif binary
-*.ico binary
+# 位图图片：走 Git LFS（-text 禁行尾转换；流水线检出需 lfs: true，见 .github/workflows/build.yml）
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.gif filter=lfs diff=lfs merge=lfs -text
+*.webp filter=lfs diff=lfs merge=lfs -text
+*.avif filter=lfs diff=lfs merge=lfs -text
+*.ico filter=lfs diff=lfs merge=lfs -text
+
+# 其余二进制文件：不转换、不做差异比较（SVG 是文本，保留在 git 中）
 *.woff binary
 *.woff2 binary
 *.ttf binary
