@@ -6,38 +6,27 @@ export const nav: DefaultTheme.NavItem[] = [
     link: '/'
   },
   {
-    text: 'Docker系列',
-    link: '/dockerseries/',
-    activeMatch: '/dockerseries/'
-  },
-  {
-    text: 'PowerPlan',
-    link: '/powerplan/',
-    activeMatch: '/powerplan/'
-  },
-  {
-    text: 'MessagesEncrypter',
-    link: '/messages/',
-    activeMatch: '/messages/'
-  },
-  {
-    text: 'IPAbuyer',
-    link: '/ipa/',
-    activeMatch: '/ipa/'
-  },
-  {
-    text: '更多',
-    activeMatch: '/windows/',
+    text: '项目',
     items: [
       {
-        text: '我的世界服务器',
-        link: '/mc/',
-        activeMatch: '/mc/'
+        text: 'IPAbuyer',
+        link: 'https://ipa.blazesnow.com/',
+        target: '_blank'
       },
       {
-        text: 'Windows',
-        link: '/windows/',
-        activeMatch: '/windows/'
+        text: 'PowerPlan',
+        link: '/powerplan/',
+        activeMatch: '/powerplan/'
+      },
+      {
+        text: 'Todo4Agent',
+        link: 'https://todo4agent.blazesnow.com/',
+        target: '_blank'
+      },
+      {
+        text: 'MessagesEncrypter',
+        link: '/messages/',
+        activeMatch: '/messages/'
       },
       {
         text: 'WOWS-IME',
@@ -55,14 +44,35 @@ export const nav: DefaultTheme.NavItem[] = [
         activeMatch: '/imageporter/'
       },
       {
-        text: 'Ubuntu',
-        link: '/ubuntu/',
-        activeMatch: '/ubuntu/'
-      },
-      {
         text: 'OneDriveHosts',
         link: '/onedrivehosts/',
         activeMatch: '/onedrivehosts/'
+      },
+    ]
+  },
+  {
+    text: '内容',
+    activeMatch: '/windows/',
+    items: [
+      {
+        text: 'Docker系列',
+        link: '/dockerseries/',
+        activeMatch: '/dockerseries/'
+      },
+      {
+        text: '我的世界服务器',
+        link: '/mc/',
+        activeMatch: '/mc/'
+      },
+      {
+        text: 'Windows',
+        link: '/windows/',
+        activeMatch: '/windows/'
+      },
+      {
+        text: 'Ubuntu',
+        link: '/ubuntu/',
+        activeMatch: '/ubuntu/'
       },
       {
         text: 'DNS加密',
