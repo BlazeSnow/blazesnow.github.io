@@ -15,8 +15,8 @@ export const nav: DefaultTheme.NavItem[] = [
       },
       {
         text: 'PowerPlan',
-        link: '/powerplan/',
-        activeMatch: '/powerplan/'
+        link: 'https://powerplan.blazesnow.com/',
+        target: '_blank'
       },
       {
         text: 'Todo4Agent',
