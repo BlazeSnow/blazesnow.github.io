@@ -1,1 +1,1 @@
-pnpm run docs:dev
+pnpm exec vitepress dev
