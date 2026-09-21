@@ -10,18 +10,26 @@
           "description": "本程序针对 Windows 系统的电源计划，帮助用户快速切换电源计划。"
         },
         {
-          "title": "MessagesEncrypter",
-          "link": "/messages/",
-          "iconSrc": "/icon/messagesencrypter.ico",
-          "description": "MessagesEncrypter 是一款面向 Windows 桌面端的本地公钥消息加密工具，用于在聊天、邮件或其他不可信渠道中传递敏感文本。"
-        },
-        {
           "title": "IPAbuyer",
           "link": "https://ipa.blazesnow.com/",
           "target": "_blank",
           "iconSrc": "/icon/ipabuyer.ico",
           "externalIcon": true,
-          "description": "刚刚拿到 iPhone，受折磨于反复按下锁屏键购入 App；还是担心小众优质 App 被下架？使用 IPAbuyer，将 App 统统收入囊中！"
+          "description": "使用 IPAbuyer，快速购买 AppStore 中的应用！"
+        },
+        {
+          "title": "Todo4Agent",
+          "link": "https://todo4agent.blazesnow.com/",
+          "target": "_blank",
+          "iconSrc": "/icon/todo4agent.ico",
+          "externalIcon": true,
+          "description": "为 Agent 设计的 MCP 任务清单，附带桌面与 WebUI 界面。"
+        },
+        {
+          "title": "MessagesEncrypter",
+          "link": "/messages/",
+          "iconSrc": "/icon/messagesencrypter.ico",
+          "description": "MessagesEncrypter 是一款面向 Windows 桌面端的本地公钥消息加密工具，用于在聊天、邮件或其他不可信渠道中传递敏感文本。"
         },
         {
           "title": "WOWS-IME",
