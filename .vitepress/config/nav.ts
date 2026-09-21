@@ -19,6 +19,11 @@ export const nav: DefaultTheme.NavItem[] = [
         target: '_blank'
       },
       {
+        text: 'Git Repo Sync',
+        link: 'https://gitreposync.blazesnow.com/',
+        target: '_blank'
+      },
+      {
         text: 'Todo4Agent',
         link: 'https://todo4agent.blazesnow.com/',
         target: '_blank'
