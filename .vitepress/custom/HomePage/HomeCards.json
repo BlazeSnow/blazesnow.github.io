@@ -17,8 +17,10 @@
         },
         {
           "title": "IPAbuyer",
-          "link": "/ipa/",
+          "link": "https://ipa.blazesnow.com/",
+          "target": "_blank",
           "iconSrc": "/icon/ipabuyer.ico",
+          "externalIcon": true,
           "description": "刚刚拿到 iPhone，受折磨于反复按下锁屏键购入 App；还是担心小众优质 App 被下架？使用 IPAbuyer，将 App 统统收入囊中！"
         },
         {

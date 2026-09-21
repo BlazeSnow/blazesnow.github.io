@@ -36,6 +36,12 @@ export default {
             required: false,
             default: '_self'
         },
+        //是否在标题旁显示外链图标（/icon/link.svg）
+        externalIcon: {
+            type: Boolean,
+            required: false,
+            default: false
+        },
         description: {
             type: String,
             required: false,
@@ -62,6 +68,7 @@ export default {
                     <span>{{ title }}</span>
                     <span v-if="subtitle" class="title__subtitle">{{ subtitle }}</span>
                 </span>
+                <SiteIcon v-if="externalIcon" class="external-icon" icon="link" />
             </h3>
             <p class="description">
                 {{ description }}
@@ -124,6 +131,14 @@ export default {
     flex: 0 0 auto;
     width: 1.35rem;
     height: 1.35rem;
+}
+
+.external-icon {
+    flex: 0 0 auto;
+    /*SiteIcon 尺寸跟随 font-size（1em），缩小以作次要图标；单色黑/反色白叠加透明度呈灰色 */
+    font-size: 0.875rem;
+    margin-left: -0.25rem;
+    opacity: 0.6;
 }
 
 .description {
