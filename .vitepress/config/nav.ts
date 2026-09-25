@@ -30,8 +30,8 @@ export const nav: DefaultTheme.NavItem[] = [
       },
       {
         text: 'MessagesEncrypter',
-        link: '/messages/',
-        activeMatch: '/messages/'
+        link: 'https://messages.blazesnow.com/',
+        target: '_blank'
       },
       {
         text: 'WOWS-IME',
