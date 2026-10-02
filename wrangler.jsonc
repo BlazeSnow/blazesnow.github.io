@@ -1,6 +1,6 @@
 {
     "name": "blazesnow",
-    "compatibility_date": "2026-08-04",
+    "compatibility_date": "2026-10-01",
     "assets": {
         "directory": ".vitepress/dist/",
         "not_found_handling": "404-page"
@@ -11,14 +11,6 @@
         {
             "pattern": "www.blazesnow.com/*",
             "zone_name": "blazesnow.com"
-        },
-        {
-            "pattern": "blazesnow.org",
-            "custom_domain": true
-        },
-        {
-            "pattern": "www.blazesnow.org",
-            "custom_domain": true
         }
     ],
     "observability": {
