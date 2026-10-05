@@ -30,6 +30,8 @@ if ($LASTEXITCODE -eq 0) {
 }
 if ($LASTEXITCODE -ne 1) { exit $LASTEXITCODE }
 
+$branch = git branch --show-current
+Write-Host "Current branch: $branch"
 Write-Host "Create and push tag: $tag"
 $confirmation = Read-Host 'Continue? [y/N]'
 if ($confirmation -notmatch '^[yY]$') {
