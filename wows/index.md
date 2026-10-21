@@ -6,4 +6,4 @@ lastupdated: 2026-10-21T08:40:00+8:00
 
 # WOWS-IME
 
-本页面内容已迁移至 <https://powerplan.blazesnow.com/>
+本页面内容已迁移至 <https://wows.blazesnow.com/>
