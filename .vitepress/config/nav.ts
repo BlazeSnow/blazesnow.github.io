@@ -35,8 +35,8 @@ export const nav: DefaultTheme.NavItem[] = [
       },
       {
         text: 'WOWS-IME',
-        link: '/wows/',
-        activeMatch: '/wows/'
+        link: 'https://wows.blazesnow.com/',
+        target: '_blank'
       },
       {
         text: 'ComposeBuilder',

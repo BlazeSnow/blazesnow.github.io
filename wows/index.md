@@ -1,34 +1,9 @@
 ---
 title: WOWS-IME
 description: 战舰世界中文输入法配置文件修改器，修订配置文件以支持更多中文输入法。
-lastupdated: 2026-09-08T10:35:00+8:00
-layout: page
-aside: false
-sidebar: false
+lastupdated: 2026-10-21T08:40:00+8:00
 ---
 
-<ProjectPage>
+# WOWS-IME
 
-<ProjectHero src="/icon/wows-ime.ico" />
-
-## 如何下载
-
-<DownloadLinks microsoft-store="9P0R5GM2PTKW" />
-
-## 软件截图
-
-<ScreenshotGallery>
-
-![选择根目录](/wows/image-1.png)
-
-![选择输入法](/wows/image-2.png)
-
-![确认写入游戏目录](/wows/image-3.png)
-
-</ScreenshotGallery>
-
-## 更多信息
-
-<ProjectLinks :columns="2" repo="https://github.com/BlazeSnow/wows-ime" license-name="GNU AGPL v3.0" license-url="https://www.gnu.org/licenses/agpl-3.0.html" changelog="https://github.com/BlazeSnow/wows-ime/blob/main/CHANGELOG.md" copyright="Copyright © 2026 BlazeSnow." />
-
-</ProjectPage>
+本页面内容已迁移至 <https://wows.blazesnow.com/>
