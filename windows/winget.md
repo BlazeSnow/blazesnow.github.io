@@ -20,7 +20,7 @@ description: 在Windows系统上安装WinGet包管理器的完整教程。
 winget --version
 ```
 
-## 手动安装 <AdminBadge />
+## 手动安装
 
 > [!TIP]
 > 如果缺少Microsoft Store，运行命令以恢复：

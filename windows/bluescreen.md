@@ -4,7 +4,7 @@ lastUpdated: 2026-08-30T10:07:00+8:00
 description: 查看和分析Windows蓝屏转储文件，诊断系统崩溃的原因。
 ---
 
-# <TitleIcon icon="windows" /> 查看蓝屏文件 <AdminBadge />
+# <TitleIcon icon="windows" /> 查看蓝屏文件
 
 ## 1. 安装 WinDbg
 

@@ -4,7 +4,7 @@ lastUpdated: 2026-02-25T16:59:00+8:00
 description: 在Windows系统中创建恢复分区的方法，用于系统故障时恢复。
 ---
 
-# <TitleIcon icon="windows" /> 创建恢复分区 <AdminBadge />
+# <TitleIcon icon="windows" /> 创建恢复分区
 
 > 本文适用于恢复分区位于`C:\Recovery\WindowsRE\`或缺失恢复分区的计算机，磁盘需为`GUID分区表(GPT)`。
 

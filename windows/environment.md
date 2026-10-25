@@ -29,7 +29,7 @@ set NAME "VALUE"
 setx NAME "VALUE"
 ```
 
-## 系统环境变量 <AdminBadge />
+## 系统环境变量
 
 1. 按下`Windows徽标`+`X`
 2. 选择`终端管理员`
@@ -39,7 +39,7 @@ setx NAME "VALUE"
 setx NAME "VALUE" /M
 ```
 
-## PATH 环境变量 <AdminBadge />
+## PATH 环境变量
 
 1. 按下`Windows徽标`+`X`
 2. 选择`终端管理员`
