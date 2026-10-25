@@ -8,7 +8,7 @@ description: 查看和分析Windows蓝屏转储文件，诊断系统崩溃的原
 
 ## 1. 安装 WinDbg
 
-1. 按下 <WinKey /> + <KeyCap char="X" />
+1. 按下`Windows徽标`+`X`
 2. 选择`终端管理员`
 3. 输入以下命令并回车：
 
@@ -18,7 +18,7 @@ winget install Microsoft.WinDbg
 
 ## 2. 确认转储文件位置
 
-1. 按下 <WinKey /> + <KeyCap char="X" />
+1. 按下`Windows徽标`+`X`
 2. 选择`终端管理员`
 3. 输入以下命令并回车：
 

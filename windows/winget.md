@@ -12,7 +12,7 @@ description: 在Windows系统上安装WinGet包管理器的完整教程。
 
 ## 确认WinGet已安装
 
-1. 按下 <WinKey /> + <KeyCap char="X" />
+1. 按下`Windows徽标`+`X`
 2. 选中`终端`
 3. 输入并回车：
 
@@ -30,7 +30,7 @@ winget --version
 > ```
 
 1. 前往安装 Microsoft 应用安装程序：<https://apps.microsoft.com/detail/9nblggh4nns1>
-2. 按下 <WinKey /> + <KeyCap char="X" />
+2. 按下`Windows徽标`+`X`
 3. 选中`终端管理员`
 4. 输入并回车：
 

@@ -8,7 +8,7 @@ description: 使用Windows自带磁盘清理工具释放磁盘空间的方法。
 
 > 从计算机的硬盘中清除不必要的文件。可以使用命令行选项指定 Cleanmgr 清理临时文件、Internet 文件、下载的文件和回收站文件。
 
-1. 按下 <WinKey /> + <KeyCap char="R" />
+1. 按下`Windows徽标`+`R`
 2. 输入以下命令并回车：
 
 ```shell

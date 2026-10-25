@@ -6,7 +6,7 @@ description: 在Windows系统中显示文件扩展名和隐藏文件的方法。
 
 # <TitleIcon icon="windows" /> 显示后缀名和隐藏文件
 
-1. 按下 <WinKey /> + <KeyCap char="R" />
+1. 按下`Windows徽标`+`R`
 2. 输入并回车：`control folders`
 3. 默认打开“常规”选项卡，请打开“查看”选项卡
 4. 勾选“显示隐藏的文件、文件夹和驱动器”

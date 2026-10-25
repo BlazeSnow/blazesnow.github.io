@@ -12,7 +12,7 @@ description: 在Windows系统上安装Windows App SDK运行库的完整教程。
 
 ## WindowsAppRuntime
 
-1. 按下 <WinKey /> + <KeyCap char="X" />
+1. 按下`Windows徽标`+`X`
 2. 选中`终端管理员`
 3. 选择所需版本，输入后回车：
 

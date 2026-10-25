@@ -12,7 +12,7 @@ description: 在Windows系统上安装Visual C++运行库的完整教程。
 
 ## X64 X86
 
-1. 按下 <WinKey /> + <KeyCap char="X" />
+1. 按下`Windows徽标`+`X`
 2. 选中`终端管理员`
 3. 选择所需版本，输入后回车：
 
@@ -34,7 +34,7 @@ winget install Microsoft.VCRedist.2005.x86
 
 ## ARM64
 
-1. 按下 <WinKey /> + <KeyCap char="X" />
+1. 按下`Windows徽标`+`X`
 2. 选中`终端管理员`
 3. 选择所需版本，输入后回车：
 
@@ -44,7 +44,7 @@ winget install Microsoft.VCRedist.2015+.arm64
 
 ## UWP
 
-1. 按下 <WinKey /> + <KeyCap char="X" />
+1. 按下`Windows徽标`+`X`
 2. 选中`终端管理员`
 3. 选择所需版本，输入后回车：
 

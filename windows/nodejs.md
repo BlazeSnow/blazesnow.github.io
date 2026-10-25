@@ -12,7 +12,7 @@ description: 在Windows系统上安装Node.js运行环境的完整教程。
 
 ## Nodejs
 
-1. 按下 <WinKey /> + <KeyCap char="X" />
+1. 按下`Windows徽标`+`X`
 2. 选中`终端管理员`
 3. 选择所需版本，输入后回车：
 
@@ -41,7 +41,7 @@ winget install OpenJS.NodeJS.4
 
 ### 允许未签名的本地脚本
 
-1. 按下 <WinKey /> + <KeyCap char="X" />
+1. 按下`Windows徽标`+`X`
 2. 选中`终端管理员`
 3. 输入并回车：
 
@@ -51,7 +51,7 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
 
 ### 检查运行策略
 
-1. 按下 <WinKey /> + <KeyCap char="X" />
+1. 按下`Windows徽标`+`X`
 2. 选中`终端`
 3. 输入并回车：
 
@@ -61,7 +61,7 @@ Get-ExecutionPolicy -Scope CurrentUser
 
 ### 撤销允许未签名的本地脚本
 
-1. 按下 <WinKey /> + <KeyCap char="X" />
+1. 按下`Windows徽标`+`X`
 2. 选中`终端管理员`
 3. 输入并回车：
 
