@@ -12,12 +12,12 @@ description: 介绍Windows系统的更新方法，确保系统保持最新状态
 
 打开链接以使用Windows设置并更新：<ms-settings:windowsupdate>
 
-## Windows 11 安装助手 <AdminBadge />
+## Windows 11 安装助手
 
 1. 打开链接：<https://www.microsoft.com/zh-cn/software-download/windows11>
 2. 下载`Windows 11 安装助手`并运行
 
-## Windows 11 安装媒体 <AdminBadge />
+## Windows 11 安装媒体
 
 1. 提前准备空U盘，将U盘插入电脑
 2. 打开链接：<https://www.microsoft.com/zh-cn/software-download/windows11>

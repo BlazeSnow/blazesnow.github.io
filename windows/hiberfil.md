@@ -11,7 +11,7 @@ description: 禁用Windows快速启动功能，解决关机或启动相关的问
 
 ## 确认状态
 
-1. 按下 <WinKey /> + <KeyCap char="X" />
+1. 按下`Windows徽标`+`X`
 2. 选择`终端`
 3. 输入以下命令并回车：
 
@@ -19,9 +19,9 @@ description: 禁用Windows快速启动功能，解决关机或启动相关的问
 powercfg /a
 ```
 
-## 禁用快速启动 <AdminBadge />
+## 禁用快速启动
 
-1. 按下 <WinKey /> + <KeyCap char="X" />
+1. 按下`Windows徽标`+`X`
 2. 选择`终端管理员`
 3. 输入以下命令并回车：
 
@@ -29,9 +29,9 @@ powercfg /a
 powercfg /HIBERNATE off
 ```
 
-## 恢复使用快速启动 <AdminBadge />
+## 恢复使用快速启动
 
-1. 按下 <WinKey /> + <KeyCap char="X" />
+1. 按下`Windows徽标`+`X`
 2. 选择`终端管理员`
 3. 输入以下命令并回车：
 
