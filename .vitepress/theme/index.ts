@@ -10,23 +10,12 @@ import StopSupportBadge from '../custom/Badge/StopSupportBadge.vue'
 import TitleIcon from '../custom/InPageComponent/TitleIcon.vue'
 import StatusDot from '../custom/StatusComponent/StatusDot.vue'
 import FooterStatus from '../custom/StatusComponent/FooterStatus.vue'
-import ProjectPage from '../custom/ProductPage/ProjectPage.vue'
-import ProjectHero from '../custom/ProductPage/ProjectHero.vue'
-import DownloadLinks from '../custom/ProductPage/DownloadLinks.vue'
-import ScreenshotGallery from '../custom/ProductPage/ScreenshotGallery.vue'
-import ProjectLinks from '../custom/ProductPage/ProjectLinks.vue'
-
 export default {
 	extends: DefaultTheme,
 	enhanceApp({ app }) {
 		app.component('FirstPartyBadge', FirstPartyBadge)
 		app.component('StopSupportBadge', StopSupportBadge)
 		app.component('TitleIcon', TitleIcon)
-		app.component('ProjectPage', ProjectPage)
-		app.component('ProjectHero', ProjectHero)
-		app.component('DownloadLinks', DownloadLinks)
-		app.component('ScreenshotGallery', ScreenshotGallery)
-		app.component('ProjectLinks', ProjectLinks)
 	},
 	Layout() {
 		return h(DefaultTheme.Layout, null, {
